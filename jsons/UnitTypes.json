@@ -1,0 +1,73 @@
+[
+    {
+        "name": "Civilian",
+        "movementType": "Land"
+    },
+    {
+        "name": "Scout",
+        "movementType": "Land"
+    },
+    {
+        "name": "Melee",
+        "movementType": "Land"
+    },
+    {
+        "name": "Ranged",
+        "movementType": "Land"
+    },
+    {
+        "name": "Mounted",
+        "movementType": "Land"
+    },
+    {
+        "name": "Armored",
+        "movementType": "Land"
+    },
+    {
+        "name": "Siege",
+        "movementType": "Land"
+    },
+	{
+        "name": "Hero",
+        "movementType": "Land"
+    },
+    {
+        "name": "WaterCivilian",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterMelee",
+        "movementType": "Water",
+        "uniques": ["Can move after attacking"]
+    },
+    {
+        "name": "WaterRanged",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterTerror",
+        "movementType": "Water",
+        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [WaterTerror] units"]
+    },
+	{
+        "name": "WaterHero",
+        "movementType": "Land",
+        "uniques": ["Can pass through impassable tiles", "All tiles cost 1 movement", "No defensive terrain bonus"]
+    }
+    {
+        "name": "AirTerror",
+        "movementType": "Land",
+        "uniques": ["Can pass through impassable tiles", "6 tiles in every direction always visible", "Can see invisible [WaterTerror] units", 
+			"Can move after attacking", "All tiles cost 1 movement"]
+    },
+    {
+        "name": "Bomber",
+        "movementType": "Air",
+        "uniques": ["Aircraft"]
+    },
+    {
+        "name": "Missile",
+        "movementType": "Air",
+        "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
+    }
+]
