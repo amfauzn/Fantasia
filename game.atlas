@@ -1,0 +1,1084 @@
+
+game.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/'Ndragheta
+  rotate: false
+  xy: 1935, 1895
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Adam Harvester
+  rotate: false
+  xy: 420, 153
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Kyber Refinery
+  rotate: false
+  xy: 420, 153
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Ancestor's Altar
+  rotate: false
+  xy: 620, 1512
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Ancient Citadel
+  rotate: false
+  xy: 620, 1404
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Antique Heritage
+  rotate: false
+  xy: 562, 580
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Bald Mountain
+  rotate: false
+  xy: 562, 471
+  size: 100, 101
+  orig: 100, 101
+  offset: 0, 0
+  index: -1
+BuildingIcons/Bandung Bondowoso
+  rotate: false
+  xy: 562, 363
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Bastar Dussehra
+  rotate: false
+  xy: 562, 255
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Bauxbatons Circle
+  rotate: false
+  xy: 728, 1687
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Brahu
+  rotate: false
+  xy: 728, 1471
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Bubrah Tikus
+  rotate: false
+  xy: 836, 1579
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Burning Mirror
+  rotate: false
+  xy: 944, 1687
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Butchery Camp
+  rotate: false
+  xy: 836, 1471
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Butlaghua
+  rotate: false
+  xy: 944, 1579
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Cashier Stable
+  rotate: false
+  xy: 1052, 1687
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Cetho Lighyn
+  rotate: false
+  xy: 1052, 1579
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/College
+  rotate: false
+  xy: 1160, 1579
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Composer Hall
+  rotate: false
+  xy: 1160, 1471
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Countermeasures Council
+  rotate: false
+  xy: 1268, 1579
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Festival's Altar
+  rotate: false
+  xy: 1484, 1471
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Garuda's Altar
+  rotate: false
+  xy: 4, 771
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gerude
+  rotate: false
+  xy: 1592, 1471
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/God's Messenger Monument
+  rotate: false
+  xy: 1700, 1579
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Great Pyramid
+  rotate: false
+  xy: 1700, 1471
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gulddin's Treasury
+  rotate: false
+  xy: 412, 1312
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gurdwara
+  rotate: false
+  xy: 895, 1795
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sect
+  rotate: false
+  xy: 895, 1795
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Hammer's Altar
+  rotate: false
+  xy: 1916, 1679
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Hero's Altar
+  rotate: false
+  xy: 1916, 1571
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Hunt's Altar
+  rotate: false
+  xy: 1916, 1463
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Information Market
+  rotate: false
+  xy: 836, 1363
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Jagaddhita
+  rotate: false
+  xy: 1052, 1363
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Jajaghu
+  rotate: false
+  xy: 1160, 1363
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Kad'Hall
+  rotate: false
+  xy: 1268, 1363
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Kalacha
+  rotate: false
+  xy: 1376, 1363
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Knight Academy
+  rotate: false
+  xy: 1592, 1363
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Kraken's Altar
+  rotate: false
+  xy: 1808, 1363
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Lonely Mountain
+  rotate: false
+  xy: 646, 147
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Love's Altar
+  rotate: false
+  xy: 646, 39
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Malus' Barricade
+  rotate: false
+  xy: 4, 563
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mandir
+  rotate: false
+  xy: 1103, 1795
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Manumem
+  rotate: false
+  xy: 4, 355
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Maso Chommune
+  rotate: false
+  xy: 1311, 1795
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mawene
+  rotate: false
+  xy: 1186, 1255
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Midnight Propechy
+  rotate: false
+  xy: 4, 147
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Moat
+  rotate: false
+  xy: 420, 261
+  size: 134, 135
+  orig: 134, 135
+  offset: 0, 0
+  index: -1
+BuildingIcons/Mollen Sawa
+  rotate: false
+  xy: 1510, 1255
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Monument to the God
+  rotate: false
+  xy: 1618, 1255
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Platinum Star
+  rotate: false
+  xy: 1402, 1148
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Posha
+  rotate: false
+  xy: 1618, 1147
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Rheog Baddan
+  rotate: false
+  xy: 1942, 1143
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Shield's Altar
+  rotate: false
+  xy: 628, 1039
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sukamerta
+  rotate: false
+  xy: 628, 823
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sulong's Training
+  rotate: false
+  xy: 212, 771
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Talents Audition
+  rotate: false
+  xy: 212, 563
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Great Colosseum
+  rotate: false
+  xy: 844, 1147
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Great Watchtower
+  rotate: false
+  xy: 844, 1039
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/The Round Table
+  rotate: false
+  xy: 736, 931
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Threesed
+  rotate: false
+  xy: 952, 1039
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Ulick Myne
+  rotate: false
+  xy: 4, 1187
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+BuildingIcons/Vihara
+  rotate: false
+  xy: 420, 896
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Watchtower
+  rotate: false
+  xy: 1060, 1039
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Weapon's Altar
+  rotate: false
+  xy: 952, 931
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Yakhcal
+  rotate: false
+  xy: 288, 4
+  size: 134, 135
+  orig: 134, 135
+  offset: 0, 0
+  index: -1
+BuildingIcons/Yimasp An'a
+  rotate: false
+  xy: 420, 688
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Ice-calator
+  rotate: false
+  xy: 728, 1363
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Taming
+  rotate: false
+  xy: 212, 355
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Cavegoa
+  rotate: false
+  xy: 4, 979
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Frostmorrow
+  rotate: false
+  xy: 1700, 1687
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Malus
+  rotate: false
+  xy: 862, 1255
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Nas
+  rotate: false
+  xy: 1726, 1255
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Niranna
+  rotate: false
+  xy: 1834, 1251
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Polgar Sod'em
+  rotate: false
+  xy: 1727, 1795
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Red Moon
+  rotate: false
+  xy: 1834, 1143
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Sulvana
+  rotate: false
+  xy: 628, 715
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Thorin
+  rotate: false
+  xy: 952, 1147
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Townfolk
+  rotate: false
+  xy: 212, 147
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/Twin Mountain
+  rotate: false
+  xy: 736, 823
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Urg
+  rotate: false
+  xy: 1060, 1147
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Civil Services
+  rotate: false
+  xy: 620, 1346
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Entrepreneurship
+  rotate: false
+  xy: 736, 765
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Holy Nation
+  rotate: false
+  xy: 952, 873
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Inheritance
+  rotate: false
+  xy: 1168, 1139
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Meritocracy
+  rotate: false
+  xy: 852, 765
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Naval Tradition
+  rotate: false
+  xy: 1168, 1081
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Postulant
+  rotate: false
+  xy: 1226, 1139
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Sacrificial
+  rotate: false
+  xy: 736, 707
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Specific Invention
+  rotate: false
+  xy: 852, 707
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Spiritual Tolerance
+  rotate: false
+  xy: 1060, 923
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Unity
+  rotate: false
+  xy: 1118, 981
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Wisdom
+  rotate: false
+  xy: 952, 815
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+ResourceIcons/Adamantium
+  rotate: false
+  xy: 1935, 1787
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Amber
+  rotate: false
+  xy: 620, 1620
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Bison
+  rotate: false
+  xy: 728, 1579
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Cloves
+  rotate: false
+  xy: 1160, 1687
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Coffee
+  rotate: false
+  xy: 1052, 1471
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Dragon's Egg
+  rotate: false
+  xy: 1376, 1471
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Garuda's Egg
+  rotate: false
+  xy: 1376, 1471
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Gu
+  rotate: false
+  xy: 1808, 1579
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Hero Candidate
+  rotate: false
+  xy: 1060, 981
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+ResourceIcons/Jade
+  rotate: false
+  xy: 944, 1363
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Kyber
+  rotate: false
+  xy: 1916, 1359
+  size: 100, 96
+  orig: 100, 96
+  offset: 0, 0
+  index: -1
+ResourceIcons/Maize
+  rotate: false
+  xy: 754, 1255
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Mammoth
+  rotate: false
+  xy: 970, 1255
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Megall
+  rotate: false
+  xy: 1294, 1256
+  size: 100, 99
+  orig: 100, 99
+  offset: 0, 0
+  index: -1
+ResourceIcons/Obsidian
+  rotate: false
+  xy: 4, 1595
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+ResourceIcons/Perfume
+  rotate: false
+  xy: 1942, 1251
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Tea
+  rotate: false
+  xy: 736, 1147
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Alchemy
+  rotate: false
+  xy: 4, 5
+  size: 134, 134
+  orig: 134, 134
+  offset: 0, 0
+  index: -1
+TechIcons/Ancestor Ruler
+  rotate: false
+  xy: 420, 546
+  size: 134, 134
+  orig: 134, 134
+  offset: 0, 0
+  index: -1
+TechIcons/Cultivication
+  rotate: false
+  xy: 1268, 1471
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Domestication
+  rotate: false
+  xy: 1376, 1579
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Foresight
+  rotate: false
+  xy: 1592, 1579
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/God of Craftsman
+  rotate: false
+  xy: 146, 5
+  size: 134, 134
+  orig: 134, 134
+  offset: 0, 0
+  index: -1
+TechIcons/Gunpowder
+  rotate: false
+  xy: 1808, 1471
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Heroism Banner
+  rotate: false
+  xy: 420, 404
+  size: 134, 134
+  orig: 134, 134
+  offset: 0, 0
+  index: -1
+TechIcons/Loans and Saving
+  rotate: false
+  xy: 538, 39
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Poetry
+  rotate: false
+  xy: 1510, 1147
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Railroads
+  rotate: false
+  xy: 1726, 1147
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Sacred Path
+  rotate: false
+  xy: 628, 1147
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Telepaty
+  rotate: false
+  xy: 736, 1039
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Alessia
+  rotate: false
+  xy: 430, 45
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Blackmen
+  rotate: false
+  xy: 836, 1687
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Centaurs
+  rotate: false
+  xy: 944, 1471
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Combatant
+  rotate: false
+  xy: 1268, 1687
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Cuirrassiers
+  rotate: false
+  xy: 1376, 1687
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Daggermen
+  rotate: false
+  xy: 412, 1520
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Dragon
+  rotate: false
+  xy: 1484, 1687
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Elite Spearmen
+  rotate: false
+  xy: 1484, 1579
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Fast Worker
+  rotate: false
+  xy: 1592, 1687
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Garuda
+  rotate: false
+  xy: 687, 1795
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TechIcons/God of the Open Sky
+  rotate: false
+  xy: 687, 1795
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Great Admiral
+  rotate: false
+  xy: 1808, 1687
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Kalsharin
+  rotate: false
+  xy: 1484, 1363
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Kraken
+  rotate: false
+  xy: 1700, 1363
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Leonidas
+  rotate: false
+  xy: 538, 147
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Lightsabermen
+  rotate: false
+  xy: 412, 1728
+  size: 267, 267
+  orig: 267, 267
+  offset: 0, 0
+  index: -1
+UnitIcons/Mammoth Rider
+  rotate: false
+  xy: 1078, 1255
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Megalodon
+  rotate: false
+  xy: 1402, 1256
+  size: 100, 99
+  orig: 100, 99
+  offset: 0, 0
+  index: -1
+UnitIcons/Orc
+  rotate: false
+  xy: 1519, 1795
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Pioneer
+  rotate: false
+  xy: 1294, 1148
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Skeleton
+  rotate: false
+  xy: 628, 931
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Skroth
+  rotate: false
+  xy: 212, 979
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Throwing Yeti
+  rotate: false
+  xy: 844, 931
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Treebeard
+  rotate: false
+  xy: 420, 1104
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Warhammer
+  rotate: false
+  xy: 1118, 923
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitIcons/Yeti
+  rotate: false
+  xy: 844, 823
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Fight Bark
+  rotate: false
+  xy: 1168, 1197
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Intimidation
+  rotate: false
+  xy: 1168, 1197
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Hunt Instinc
+  rotate: false
+  xy: 794, 765
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Kal Withdraw
+  rotate: false
+  xy: 1226, 1197
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Riverrun
+  rotate: false
+  xy: 1226, 1081
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Skating
+  rotate: false
+  xy: 794, 707
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
