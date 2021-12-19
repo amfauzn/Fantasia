@@ -1,0 +1,169 @@
+[
+    {
+        "name": "Dark Age",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 0, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 0,
+        "startingMilitaryUnit": "Scout",
+        "settlerPopulation": 1,
+		"startPercent": 0,
+		"friendBonus": {
+            "Cultured": ["Provides [+3 Culture] per turn"],
+            "Maritime": ["Provides [+2 Food] [in capital] per turn"],
+            "Mercantile": ["Provides [+2] Happiness"],
+			"Religious": ["Provides [+3 Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [+6 Culture] per turn"],
+            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
+            "Mercantile": ["Provides [+2] Happiness", "Provides a unique luxury"],
+			"Religious": ["Provides [+6 Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[17] turns"]
+        },
+        "iconRGB": [255, 87, 35]
+    },
+    {
+        "name": "Classical Age",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 0,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 0,
+        "startingMilitaryUnit": "Scout",
+        "startingGold": 20,
+        "startingCulture": 150,
+        "settlerPopulation": 1,
+		"settlerBuildings": ["Monument","Granary"],
+		"startPercent": 15,
+		"friendBonus": {
+            "Cultured": ["Provides [+3 Culture] per turn"],
+            "Maritime": ["Provides [+2 Food] [in capital] per turn"],
+            "Mercantile": ["Provides [+2] Happiness"],
+			"Religious": ["Provides [+3 Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [+6 Culture] per turn"],
+            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
+            "Mercantile": ["Provides [+2] Happiness", "Provides a unique luxury"],
+			"Religious": ["Provides [+6 Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[17] turns"]
+        },
+        "iconRGB": [233, 31, 99]
+    },
+    {
+        "name": "Feudal Age",
+        "researchAgreementCost": 250,
+        "startingSettlerCount": 0,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 0,
+        "startingMilitaryUnit": "Scout",
+        "startingGold": 75,
+        "startingCulture": 200,
+        "settlerPopulation": 2,
+        "settlerBuildings": ["Shrine","Monument","Granary","Lighthouse","Walls"],
+		"startPercent": 35,
+		"friendBonus": {
+            "Cultured": ["Provides [+6 Culture] per turn"],
+            "Maritime": ["Provides [+2 Food] [in capital] per turn"],
+            "Mercantile": ["Provides [+3] Happiness"],
+			"Religious": ["Provides [+12 Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [+12 Culture] per turn"],
+            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
+            "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
+			"Religious": ["Provides [+24 Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[17] turns"]
+        },
+        "iconRGB": [157, 39, 176]
+    },
+    {
+        "name": "Heroic Age",
+        "researchAgreementCost": 300,
+        "startingSettlerCount": 0,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 0,
+        "startingMilitaryUnit": "Scout",
+        "startingGold": 200,
+        "startingCulture": 300,
+        "settlerPopulation": 3,
+        "settlerBuildings": ["Shrine","Monument","Granary","Lighthouse","Market","Workshop","Temple","Barracks","Paper Maker","Colosseum"],
+		"startPercent": 55,
+		"friendBonus": {
+            "Cultured": ["Provides [+13 Culture] per turn"],
+            "Maritime": ["Provides [+2 Food] [in capital] per turn"],
+            "Mercantile": ["Provides [+3] Happiness"],
+			"Religious": ["Provides [+13 Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [+26 Culture] per turn"],
+            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
+            "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
+			"Religious": ["Provides [+26 Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[17] turns"]
+        },
+        "iconRGB": [104, 58, 183]
+    },
+    {
+        "name": "Mythic Age",
+        "researchAgreementCost": 400,
+        "startingSettlerCount": 0,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 0,
+        "startingMilitaryUnit": "Scout",
+        "startingGold": 450,
+        "startingCulture": 450,
+        "settlerPopulation": 4,
+        "settlerBuildings": ["Shrine","Monument","Granary","Lighthouse","Market","Workshop","Temple","Barracks","Paper Maker","Colosseum"],
+        "startingObsoleteWonders": ["Gerude", "Sukamerta", "Bandung Bondowoso", "Bubrah Tikus"],
+		"startPercent": 75,
+		"friendBonus": {
+            "Cultured": ["Provides [+13 Culture] per turn"],
+            "Maritime": ["Provides [+2 Food] [in capital] per turn"],
+            "Mercantile": ["Provides [+3] Happiness"],
+			"Religious": ["Provides [+13 Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [+26 Culture] per turn"],
+            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
+            "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
+			"Religious": ["Provides [+26 Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[16] turns"]
+        },
+        "iconRGB": [33, 150, 243]
+    },
+    {
+        "name": "Future Age",
+        "researchAgreementCost": 400,
+        "startingSettlerCount": 0,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 0,
+        "startingMilitaryUnit": "Scout",
+        "startingGold": 450,
+        "startingCulture": 600,
+        "settlerPopulation": 5,
+        "settlerBuildings": ["Shrine","Monument","Granary","Lighthouse","Market","Workshop","Temple","Barracks","Paper Maker","Colosseum"],
+        "startingObsoleteWonders": ["Gerude", "Sukamerta", "Bandung Bondowoso", "Bubrah Tikus", "Brahu", "Cetho Lighyn", "Kalacha"],
+		"startPercent": 90,
+		"friendBonus": {
+            "Cultured": ["Provides [+13 Culture] per turn"],
+            "Maritime": ["Provides [+2 Food] [in capital] per turn"],
+            "Mercantile": ["Provides [+3] Happiness"],
+			"Religious": ["Provides [+13 Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [+26 Culture] per turn"],
+            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
+            "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
+			"Religious": ["Provides [+13 Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[16] turns"]
+        },
+        "iconRGB": [33, 150, 243]
+    }
+]
