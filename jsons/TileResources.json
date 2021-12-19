@@ -194,7 +194,7 @@
 		"production": 1,
 		"gold": 1,
 		"improvement": "Plantation",
-		"improvementStats": {"food": 1, "gold": 1}
+		"improvementStats": {"food": 1, "gold": 1},
 		"uniques": ["Appears near City States with weight [30]"]
 	},
 	{
@@ -264,6 +264,11 @@
 		"uniques": ["Appears near City States with weight [15]"]
 	},
 	{
+		"name": "Ivory",
+		"gold": 2,
+		"resourceType": "Luxury"
+	},
+	{
 		"name": "Jade",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Hill","Tundra"],
@@ -296,7 +301,7 @@
 		"terrainsCanBeFoundOn": ["Plains","Grassland"],
 		"gold": 1,
 		"improvement": "Plantation",
-		"improvementStats": {"gold": 1, "culture": 2}
+		"improvementStats": {"gold": 1, "culture": 1}
 	},
 	{
 		"name": "Salt",
@@ -396,12 +401,6 @@
 	// Mercantile City-States Luxury
 	{
 		"name": "Cloves", 
-		"gold": 2,
-		"resourceType": "Luxury",
-		"uniques": ["Can only be created by Mercantile City-States"]
-	},
-	{
-		"name": "Ivory",
 		"gold": 2,
 		"resourceType": "Luxury",
 		"uniques": ["Can only be created by Mercantile City-States"]
