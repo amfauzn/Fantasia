@@ -613,7 +613,7 @@
 	},
 	{
 		"name": "Mawene",
-		"faith": 4,
+		"faith": 3,
 		"specialistSlots": {"Artist": 1},
 		"hurryCostModifier": 10,
 		"requiredBuilding": "Temple",
@@ -966,7 +966,7 @@
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together.' - Kofi Annan"
 	},
 
-	// Culture Victory
+	// Cultural Victory
 	{
 		"name": "Utopia Project",
 		"cost": 1500,
