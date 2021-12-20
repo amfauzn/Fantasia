@@ -273,7 +273,6 @@
 				"name": "Naval Tradition",
 				"uniques": ["[+1] Movement <for [{Military} {Water}] units>", "[+1 Gold] from every [Harbor]", "Free [Great Admiral] appears",
 					"[+2] Movement <for [Great Admiral] units>"],
-				"requires": ["Trade Unions"],
 				"row": 1,
 				"column": 2
 			},
@@ -383,7 +382,6 @@
 			{
 				"name": "Fascism",
 				"uniques": ["Quantity of strategic resources produced by the empire +[100]%"],
-				"requires": ["Civil Services","Socialism"],
 				"row": 1,
 				"column": 3
 			},			
