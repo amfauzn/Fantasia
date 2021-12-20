@@ -83,6 +83,7 @@
 		
 		"outerColor": [146,221,9],
 		"innerColor": [0,0,9],
+		"favoredReligion": "Butterfly Effects",
 		"uniqueName": "Experience is the Best Teacher",
 		"uniques": ["[Great Scientist] is earned [50]% faster", "[+1 Science] from every [Great Improvement]", 
 			"Earn [20]% of killed [All] unit's [Cost] as [Science]"]
@@ -111,6 +112,7 @@
 		
 		"outerColor": [40,40,40],
 		"innerColor": [246,205,137],
+		"favoredReligion": "Uncertainty",
 		"uniqueName": "Heaven's Fury",
 		"uniques": ["Units fight as though they were at full strength even when damaged", "+[15]% Strength if within [3] tiles of a [Natural Wonder]"],
 		"cities": ["Tugu","Luxor","Armant","Karnak","Lisht","Oryx","Chondote","Nedrow","Pajaten","Skien","Lawless","Cavelon","Goa","Herakleia","Izapa"]
@@ -136,6 +138,7 @@
 		
 		"outerColor": [228,208,43],
 		"innerColor": [0,0,0],
+		"favoredReligion": "Evolutionism",
 		"uniqueName": "Arrow of the West",
 		"uniques": ["[+15]% great person generation in all cities", "[+1 Culture] from every specialist [in all cities]", 
 			"Earn [20]% of killed [All] unit's [Strength] as [Culture]"]
@@ -164,6 +167,7 @@
 		
 		"outerColor": [255,255,78],
 		"innerColor": [70, 0, 4],
+		"favoredReligion": "Balance",
 		"uniqueName": "Forest Guardian",
 		"uniques": ["[+1 Culture] [in all cities] <with [1] to [3] neighboring [unimproved] [Forest] tiles>", 
 			"[+2 Culture] [in all cities] <with [4] to [6] neighboring [unimproved] [Forest] tiles>", 
@@ -193,6 +197,7 @@
 		
 		"outerColor": [153,5,3],
 		"innerColor": [255,255,255],
+		"favoredReligion": "Preformationism",
 		"uniqueName": "Infinite Power",
 		"uniques": ["Great General provides double combat bonus", "[+1] Movement <for [{Military} {Land}] units>",
 			"[+2 Science] from every specialist [in all cities]"],
@@ -221,6 +226,7 @@
 		
 		"outerColor": [205,205,205],
 		"innerColor": [100,100,100],
+		"favoredReligion": "Butterfly Effects",
 		"uniqueName": "Shield of the Mountain",
 		"uniques": ["+[5]% Strength if within [2] tiles of a [Mountain]", "+[15]% Strength if within [1] tiles of a [Mountain]",
 			"Land units may cross [Mountain] tiles after the first [Great General] is earned", "Units ending their turn on [Mountain] tiles take [50] damage"],
@@ -249,6 +255,7 @@
 		
 		"outerColor": [37,56,123],
 		"innerColor": [255,46,46],
+		"favoredReligion": "Relativity",
 		"uniqueName": "Master Builder",
 		"uniques": ["[+15]% Production when constructing [All] wonders [in all cities connected to capital]", 
 			"+25% Production towards any buildings that already exist in the Capital"],
@@ -277,6 +284,7 @@
 		
 		"outerColor": [234,0,0],
 		"innerColor": [134,238,214],
+		"favoredReligion": "Dualism",
 		"uniqueName": "Rage of the Beast",
 		"uniques": ["Golden Age length increased by [50]%", "[+1] Movement <for [All] units> <during a Golden Age>", 
 			"[+15]% Strength <for [All] units> <during a Golden Age>"],
@@ -305,6 +313,7 @@
 		
 		"outerColor": [16,126,5],
 		"innerColor": [134,238,214],
+		"favoredReligion": "Spontanism",
 		"uniqueName": "Survival Instinc",
 		"uniques": ["Embarked units can defend themselves", "Units pay only 1 movement point to disembark", 
 			"Units ignore terrain costs when moving into any tile with Hills"],
@@ -332,6 +341,7 @@
 		
 		"outerColor": [18,84,30],
 		"innerColor": [245,248,185],
+		"favoredReligion": "Balance",
 		"uniqueName": "Hidden Warpath",
 		"uniques": ["All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."],
 		"cities": ["Loggervia","Yandala","Southmarsh","Guuleaf","Lindschel","Agra","Sunda","Soulisa","Tuasika","Bula","Namlea",
@@ -359,6 +369,7 @@
 		
 		"outerColor": [12,75,25],
 		"innerColor": [255,255,255],
+		"favoredReligion": "Monetarism",
 		"uniqueName": "Justice League",
 		"uniques": ["City-State Influence degrades [25]% slower", "City-State territory always counts as friendly territory",
 			"[+50]% [Food] from City-States","[+50]% [Culture] from City-States"],
@@ -386,6 +397,7 @@
 		
 		"outerColor": [215,225,225],
 		"innerColor": [0, 0, 0],
+		"favoredReligion": "Evolutionism",
 		"uniqueName": "Glacier Riches",
 		"uniques": ["[+1 Production] from every [Strategic resource]", "Double quantity of [Horses] produced", "Double quantity of [Mammoth] produced"
 			"-[20]% Culture cost of acquiring tiles [in capital]", "-[10]% Culture cost of acquiring tiles [in cities connected to capital]"],
