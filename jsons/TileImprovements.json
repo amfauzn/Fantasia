@@ -1,0 +1,247 @@
+[
+
+	{
+		"name": "Farm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
+		"uniques": ["Can also be built on tiles adjacent to fresh water", 
+			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Lumber mill",
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Construction",
+		"uniques": ["[+1 Production] <after discovering [Scientific Theory]>"],
+		"shortcutKey": "L"
+	},
+	{
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Mining",
+		"uniques": ["[+1 Production] <after discovering [Alchemy]>"],
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Trading post",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+		"gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Guilds",
+		"uniques": ["[+1 Gold] <after discovering [Currency]>"],
+		"shortcutKey": "T"
+	},
+	{
+		"name": "Terrace farm",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"uniques": ["[+1 Food] for each adjacent [Mountain]", "Cannot be built on [Bonus resource] tiles", "Cannot be built on [Strategic resource] tiles",
+			"Cannot be built on [Coastal] tiles", "[+1 Food] <after discovering [Education]>"],
+		"techRequired": "Calendar",
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Ice-calator",
+		"terrainsCanBeBuiltOn": ["Snow"],
+		"turnsToBuild": 7,
+		"uniques": ["[+1 Food] for each adjacent [Ice-calator]", "[+1 Production] for each adjacent [Strategic resource]", 
+			"[+1 Production] for each adjacent [Luxury resource]", "Cannot be built on [Fresh water] tiles", "Cannot be built on [Bonus resource] tiles", 
+			"Cannot be built on [Strategic resource] tiles", "Cannot be built on [Coastal] tiles"],
+		"techRequired": "Construction",
+		"shortcutKey": "F"
+	},
+	
+	// Resource-specific
+	{
+		"name": "Camp",
+		"turnsToBuild": 7,
+		"techRequired": "Trapping",
+		"uniques": ["Does not need removal of [Forest]", "Does not need removal of [Jungle]", "[+1 Gold] <after discovering [Economics]>"],
+		"shortcutKey": "C"
+	},
+	{
+		"name": "Pasture",
+		"turnsToBuild": 8,
+		"techRequired": "Trapping",
+		"uniques": ["[+1 Food] <after discovering [Fertilizer]>"],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Plantation",
+		"turnsToBuild": 6,
+		"gold": 1,
+		"techRequired": "Calendar",
+		"uniques": ["[+1 Food] <after discovering [Fertilizer]>"],
+		"shortcutKey": "P"
+	},
+	{
+		"name": "Quarry",
+		"turnsToBuild": 8,
+		"techRequired": "Masonry",
+		"uniques": ["[+1 Production] <after discovering [Metallurgy]>"],
+		"shortcutKey": "Q"
+	},
+	{
+		"name": "Taming",
+		"production": 1,
+		"turnsToBuild": 6,
+		"techRequired": "Domestication",
+		"uniques": ["Does not need removal of [Forest]", "Does not need removal of [Jungle]", "[+1 Production, +1 Gold] <after discovering [Telepathy]>"],
+		"shortcutKey": "C"
+	},
+	{
+		"name": "Fishing Boats",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"food": 1,
+		"techRequired": "Sailing",
+		"uniques": ["[+1 Gold] <after discovering [Compass]>"]
+	},
+
+	// Military improvement
+	{
+		"name": "Fort",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
+		"turnsToBuild": 6,
+		"techRequired": "Engineering",
+		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [65]%"],
+		"shortcutKey": "O"
+	},
+
+	// Transportation
+	{
+		"name": "Road",
+		"turnsToBuild": 4,
+		"techRequired": "The Wheel",
+		// "Costs [1] gold per turn when in your territory" does nothing and is only to inform the user
+		"uniques": ["Can be built outside your borders", "Costs [1] gold per turn when in your territory"],
+		"shortcutKey": "R",
+        "civilopediaText": [
+            {"text":"Reduces movement cost to ½ if the other tile also has a Road or Railroad"},
+            {"text":"Reduces movement cost to ⅓ with Machinery", "link":"Technology/Machinery"},
+            {"text":"Requires Engineering to bridge rivers", "link":"Technology/Engineering"}
+        ]
+	},
+	{
+		"name": "Railroad",
+		"turnsToBuild": 4,
+		"techRequired": "Railroads",
+		"uniques": ["Can be built outside your borders", "Costs [2] gold per turn when in your territory"],
+		"shortcutKey": "R",
+        "civilopediaText": [{"text":"Reduces movement cost to ⅒ if the other tile also has a Railroad"}]
+	},
+	
+	// Removals
+	{
+		"name": "Remove Forest",
+		"turnsToBuild": 4,
+		"terrainsCanBeBuiltOn": ["Forest"],
+		"techRequired": "Mining",
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X",
+        "civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
+	},
+	{
+		"name": "Remove Jungle",
+		"turnsToBuild": 7,
+		"terrainsCanBeBuiltOn": ["Jungle"],
+		"techRequired": "Bronze Working",
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Fallout",
+		"turnsToBuild": 2,
+		"terrainsCanBeBuiltOn": ["Fallout"],
+		// Has no tile improvements as it can always be built
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Remove Marsh",
+		"turnsToBuild": 6,
+		"terrainsCanBeBuiltOn": ["Marsh"],
+		"techRequired": "Masonry",
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "X"
+	},
+
+	// These are unique and have unique in-game checks related to them
+	{
+		"name": "Remove Road",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Remove Railroad",
+		"turnsToBuild": 2,
+		"uniques": ["Can be built outside your borders"]
+	},
+	{
+		"name": "Cancel improvement order",
+		"uniques": ["Can be built outside your borders"],
+		"shortcutKey": "."
+	},
+	
+	// Great Person improvements
+	{
+		"name": "Academy",
+		"science": 8,
+		"uniques": ["Great Improvement", "[+2 Science] <after discovering [Education]>", "[+2 Science] <after discovering [Scientific Theory]>"]
+	},
+	{
+		"name": "Landmark",
+		"culture": 6,
+		"uniques": ["Great Improvement", "[+1 Culture] <after discovering [Architecture]>"]
+	},
+	{
+		"name": "Manufactory",
+		"production": 4,
+		"uniques": ["Great Improvement", "[+1 Production] <after discovering [Alchemy]>"]
+	},
+	{
+		"name": "Customs house",
+		"gold": 4,
+		"uniques": ["Great Improvement", "[+1 Gold] <after discovering [Economics]>"]
+	},
+	{
+		"name": "Holy site",
+		"faith": 6,
+		"uniques": ["Great Improvement", "[+1 Faith] <after discovering [Cultivication]>"]
+	},
+	{
+		"name": "Citadel",
+		"uniques": ["Great Improvement", "Gives a defensive bonus of [100]%", "Adjacent enemy units ending their turn take [30] damage", "Can be built just outside your borders"],
+        "civilopediaText": [{"text":"Constructing it will take over the tiles around it and assign them to your closest city"}]
+	},
+
+	{ 
+		"name": "Ancient ruins", 
+		"uniques": ["Unpillagable", "Provides a random bonus when entered"]
+	},
+	{ 
+		"name": "City ruins", 
+		"uniques": ["Unpillagable"],
+        "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
+	},
+	{ 
+		"name": "City center", 
+		"uniques": ["Unpillagable", "Indestructible"],
+        "civilopediaText": [
+			{"text":"Marks the center of a city"},
+			{"text":"Appearance changes with the technological era of the owning civilization"}
+		]
+	},
+	{ 
+		"name": "Barbarian encampment", 
+		"uniques": ["Unpillagable"],
+        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
+	}
+]
