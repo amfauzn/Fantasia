@@ -37,6 +37,18 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
+		"name": "Skeleton",
+		"unitType": "Sword",
+		"uniqueTo": "Urg",
+		"movement": 2,
+		"strength": 3,
+		"cost": 12,
+		"upgradesTo": "Swordsman",
+		"obsoleteTech": "Domestication",
+		"promotions": ["Great Generals I"],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Warrior",
 		"unitType": "Sword",
 		"movement": 2,
@@ -46,9 +58,34 @@
 		"upgradesTo": "Swordsman",
 		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
-        "civilopediaText": [
+        	"civilopediaText": [
 			{"text": "This is your basic, club-swinging fighter."}
 		]
+	},
+	{
+		"name": "Skeleton Warrior",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 7,
+		"cost": 35,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Mink",
+		"unitType": "Armored",
+		"uniqueTo": "Townfolk",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques": ["[+20]% Strength <when fighting in [Rough terrain] tiles>", "Heals [25] damage if it kills a unit"],
+		"promotions": ["Fight Bark", "Shock I"],
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Brute",
@@ -138,6 +175,23 @@
 		"attackSound": "horse"
 	},
 	{
+		"name": "Wolf Rider",
+		"unitType": "Mounted",
+		"uniqueTo": "Torakj",
+		"replaces": "Horseman",
+		"movement": 3,
+		"strength": 14,
+		"cost": 90,
+		"requiredTech": "Domestication",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"promotions": ["Great Generals I"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-10]% Strength <vs cities>",
+			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles"],
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Chariot Archer",
 		"unitType": "Archery",
 		"movement": 4,
@@ -176,6 +230,36 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Ram",
+		"unitType": "Sword", // You might expect this to be a siege unit, but apparently it is not
+		"replaces": "Spearman",
+		"uniqueTo": "Nas",
+		"movement": 2,
+		"strength": 10,
+		"cost": 75,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Physics",
+		"upgradesTo": "Trebuchet",
+		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "[-33]% Strength <when defending>", "Can only attack [City] units"],
+		"promotions": ["Cover I"],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Elite Spearmen",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"uniqueTo": "Malus",
+		"movement": 2,
+		"strength": 14,
+		"cost": 58,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"promotions": ["Shock I"],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Marauder",
 		"unitType": "Sword",
 		"replaces": "Spearman",
@@ -202,6 +286,24 @@
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
 			"Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
+		"attackSound": "throw"
+	},
+	{
+		"name": "Ballista",
+		"unitType": "Siege",
+		"replaces": "Catapult",
+		"uniqueTo": "Twin Mountain",
+		"movement": 2,
+		"strength": 8,
+		"rangedStrength": 9,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"obsoleteTech": "Physics",
+		"upgradesTo": "Trebuchet",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
+			"Must set up to ranged attack", "Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"promotions": ["Barrage I"],
 		"attackSound": "throw"
 	},
 	{
@@ -232,6 +334,22 @@
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
 		"promotions": ["Great Generals I"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Warhammer",
+		"unitType": "Armored",
+		"uniqueTo": "Polgar Sod'em",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 17,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
+		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
 
@@ -291,6 +409,22 @@
 		"attackSound": "horse"
 	},
 	{
+		"name": "Laskar",
+		"replaces": "Knight",
+		"uniqueTo": "Nas",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"cost": 128,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Horses",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking", "[-33]% Strength <vs cities>", "[+50]% Strength <vs [Melee] units>", "[+25]% Strength <vs [Gunpowder] units>", 
+			"[+25]% Strength <vs [Mounted] units>", "No defensive terrain bonus"],
+		"attackSound": "horse"
+	},
+	{
 		"name": "Mammoth Rider",
 		"unitType": "Mounted",
 		"movement": 3,
@@ -311,7 +445,36 @@
 		"requiredTech": "Machinery",
 		"upgradesTo": "Scorpion",
 		"obsoleteTech": "Railroads",
-		//"uniques": ["[+200]% Strength <vs [AirTerror] units>"],
+		"uniques": ["[+150]% Strength <vs [AirTerror] units>"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Centaurs",
+		"unitType": "Archery",
+		"replaces": "Crossbowman",
+		"uniqueTo": "Niranna",
+		"movement": 4,
+		"strength": 17,
+		"rangedStrength": 14,
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Cavalry",
+		"uniques": ["Can move after attacking", "[+100]% Strength <vs [AirTerror] units>"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Alessia",
+		"unitType": "Archery",
+		"replaces": "Crossbowman",
+		"uniqueTo": "Sulvana",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 15,
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Scorpion",
+		"promotions": ["Logistics"],
+		"uniques": ["[+200]% Strength <vs [AirTerror] units>"],
 		"attackSound": "arrow"
 	},
 	{
@@ -338,6 +501,18 @@
 		"upgradesTo": "Lightsabermen",
 		"obsoleteTech": "Lasers",
 		"requiredResource": "Iron",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Orc",
+		"unitType": "Sword",
+		"replaces": "Crossbowman",
+		"uniqueTo": "Torakj",
+		"movement": 2,
+		"strength": 24,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Lightsabermen",
 		"attackSound": "metalhit"
 	},
 
@@ -377,6 +552,18 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Yeti",
+		"unitType": "Armored",
+		"replaces": "Musketman",
+		"uniqueTo": "Frostmorrow",
+		"movement": 2,
+		"strength": 30,
+		"cost": 200,
+		"requiredTech": "Gunpowder",
+		"promotions": ["Skating"],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Cannon",
 		"unitType": "Siege",
 		"movement": 2,
@@ -390,6 +577,22 @@
 		"attackSound": "cannon"
 	},
 	{
+		"name": "Throwing Yeti",
+		"unitType": "Armored",
+		"replaces": "Cannon",
+		"uniqueTo": "Frostmorrow",
+		"movement": 2,
+		"strength": 22,
+		"rangedStrength": 30,
+		"cost": 250,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Spell Cannon",
+		"uniques": ["[+50]% Strength <vs cities> <when attacking>", "[+50]% Strength <vs [Melee] units>",
+			"[-1] Sight", "[+1] Sight <after discovering [Foresight]>", "Never appears as a Barbarian unit"],
+		"promotions": ["Skating"],
+		"attackSound": "throw"
+	},
+	{
 		"name": "Cavalry",
 		"unitType": "Mounted",
 		"movement": 4,
@@ -400,6 +603,20 @@
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
+	},
+	{
+		"name": "Treebeard",
+		"unitType": "Melee",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Rain Forest",
+		"movement": 2,
+		"strength": 28,
+		"cost": 200,
+		"requiredTech": "Fertilizer",
+		"upgradesTo": "Blackmen",
+		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>"],
+		"promotions": ["Woodsman"],
+		"attackSound": "nonmetalhit"
 	},
 	
 	// Mythic age
@@ -534,7 +751,7 @@
 	
 	// Heroes
 	{
-		"name": "Mas Karébét",
+		"name": "Mas Karebet",
 		"unitType": "Hero",
 		"movement": 2,
 		"strength": 42,
@@ -780,6 +997,15 @@
 		"uniques": ["Can start an [8]-turn golden age", "Bonus for units in 2 tile radius 15%", "Can construct [Citadel]",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
+	},
+	{
+		"name": "Skroth",
+		"unitType": "Civilian",
+		"uniqueTo": "Urg",
+		"replaces": "Great General",
+		"uniques": ["Can start an [8]-turn golden age", "Bonus for units in 2 tile radius 15%",
+			"Heal adjacent units for an additional 15 HP per turn", "Can construct [Citadel]", "Great Person - [War]", "Unbuildable"],
+		"movement": 5
 	},
 	{
 		"name": "Great Admiral", 
