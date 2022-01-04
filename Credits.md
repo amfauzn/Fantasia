@@ -10,7 +10,7 @@ Contains stuff from mods:
 * [Extra Resources](https://github.com/Cavenir/Extra-Resources) by Cavenir
 * [LOTR Unciv](https://github.com/ravignir/LOTR-Unciv) by Ravignir
 
-Any images not listed below are either taken from base game - [Unciv credits](https://github.com/yairm210/Unciv/blob/master/docs/Credits.md -
+Any images not listed below are either taken from base game - [Unciv credits](https://github.com/yairm210/Unciv/blob/master/docs/Credits.md) -
 or from mods listed above.
 
 The following are from [the Noun Project](https://thenounproject.com) licenced under either Creative Commons or Public Domain
