@@ -26,10 +26,10 @@
 		"replaces": "Monument",
 		"uniqueTo": "Polgar Sod'em",
 		"culture": 2,
-		"science": 3,
+		"science": 1,
 		"cost": 40,
 		"hurryCostModifier": 40,
-		"maintenance": 1,
+		"maintenance": 0,
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	// Column 1
@@ -211,18 +211,28 @@
 		"name": "Barracks",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["New [Military] units start with [15] Experience [in this city]"],
+		"uniques": ["Destroyed when the city is captured", "New [Military] units start with [15] Experience [in this city]"],
+		"requiredTech": "Bronze Working"
+	},
+	{
+		"name": "Gulddin's Quarters",
+		"replaces": "Barracks",
+		"uniqueTo": "Twin Mountain",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured", "New [Military] units start with [15] Experience [in this city]", 
+			"[+10]% Production when constructing [Land] units [in this city]", "[+1 Culture, +1 Science] from [Mountain] tiles [in this city]"],
 		"requiredTech": "Bronze Working"
 	},
 	{
 		"name": "Sulong's Training",
 		"replaces": "Barracks",
 		"uniqueTo": "Townfolk",
-		"cost": 110,
 		"happiness": 1,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["New [Military] units start with [15] Experience [in this city]"],
+		"uniques": ["Destroyed when the city is captured", "New [Military] units start with [15] Experience [in this city]", 
+			   "All newly-trained [Melee] units [in this city] receive the [Fight Bark] promotion"],
 		"requiredTech": "Bronze Working"
 	},
 	{
@@ -314,14 +324,14 @@
 
 	// Column 5
 	{
-        "name": "Monastery",
-        "maintenance": 0,
-        "requiredNearbyImprovedResources": ["Wine", "Incense", "Perfume"],
-        "hurryCostModifier": 25,
-        "requiredTech": "Theology"
-		"uniques": ["[+2 Faith] from [Incense] tiles [in this city]", "[+2 Culture] from [Wine] tiles [in this city]",
+		"name": "Monastery",
+		"maintenance": 0,
+		"requiredNearbyImprovedResources": ["Wine", "Incense", "Perfume"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Theology"
+		"uniques": ["[+1 Culture, +2 Faith] from [Incense] tiles [in this city]", "[+2 Culture] from [Wine] tiles [in this city]",
 			"[+1 Culture] from [Perfume] tiles [in this city]", "Destroyed when the city is captured"]
-    },
+	},
 	{
 		"name": "Great Pyramid",
 		"culture": 2,
@@ -460,7 +470,7 @@
 		"name": "Public School",
 		"maintenance": 3,
 		"hurryCostModifier": 15,
-		"percentStatBonus": {"science": 20},
+		"percentStatBonus": {"science": 10},
 		"specialistSlots": {"Scientist": 2},
 		"science": 3,
 		"requiredBuilding": "Paper Maker",
@@ -471,14 +481,14 @@
 		"name": "Sect",
 		"replaces": "Public School",
 		"uniqueTo": "Red Moon",
-		"maintenance": 3,
+		"maintenance": 2,
 		"hurryCostModifier": 15,
-		"percentStatBonus": {"science": 20},
+		"percentStatBonus": {"science": 10},
 		"specialistSlots": {"Scientist": 2},
 		"science": 3,
 		"culture": 3,
 		"requiredBuilding": "Paper Maker",
-		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"uniques": ["[+1 Science] per [2] population [in this city]", "[+1 Gold] from each Trade Route <when not at war>"],
 		"requiredTech": "Education"
 	},
 	{
@@ -518,7 +528,7 @@
 		"name": "Information Market",
 		"maintenance": 1,
 		"hurryCostModifier": 15,
-		"percentStatBonus": {"science": 10},
+		"percentStatBonus": {"science": 5},
 		"specialistSlots": {"Scientist": 1},
 		"requiredBuilding": "Paper Maker",
 		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]"],
@@ -536,20 +546,6 @@
 		"requiredTech": "Guilds"
 	},
 	{
-		"name": "Gulddin's Treasury",
-		"replaces": "National Treasury",
-		"uniqueTo": "Twin Mountain",
-		"cost": 150,
-		"gold": 8,
-		"culture": 1,
-		"isNationalWonder": true,
-		"percentStatBonus": {"gold": 35},
-		"specialistSlots": {"Merchant": 1},
-		"uniques": ["Requires a [Market] in all cities", "Double gold from Great Merchant trade missions", "Cost increases by [25] per owned city"],
-		"requiredBuilding": "Market",
-		"requiredTech": "Loans and Saving"
-	},
-	{
 		"name": "Lonely Mountain",
 		"gold": 5,
 		"greatPersonPoints": {"Great Merchant": 1},
@@ -558,6 +554,17 @@
 		"uniques": ["Gold from all trade routes +25%","Must have an owned [Mountain] within [2] tiles"],
 		"requiredTech": "Guilds",
 		"quote": "'Our beards will grow till they hang down the cliff to the valley before anything happens here.'  - Dwalin"
+	},
+	{
+		"name": "Gemcutter",
+		"cost": 200,
+		"happiness": 2,
+		"culture": 1,
+		"production": 1,
+		"maintenance": 1,
+		"requiredNearbyImprovedResources": ["Gems","Amber","Jade"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Machinery"
 	},
 	{
 		"name": "Yakhcal",
@@ -655,6 +662,18 @@
 		"requiredTech": "Loans and Saving"
 	},
 	{
+		"name": "Mollen Sawa",
+		"replaces": "Bank",
+		"uniqueTo": "Niranna",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 30},
+		"uniques": ["+5% Production for every Trade Route with a City-State in the empire"],
+		"requiredBuilding": "Market",
+		"requiredTech": "Loans and Saving"
+	},
+	{
 		"name": "Maso Commune",
 		"culture": 1,
 		"isWonder": true,
@@ -712,11 +731,11 @@
 	},
 	{
 		"name": "Messengers",
-		"science": 4,
-		"percentStatBonus": {"science": 50},
+		"science": 5,
 		"specialistSlots": {"Scientist": 1},
 		"requiredBuilding": "Public School",
 		"maintenance": 3,
+		"uniques": ["[+1 Science] per [3] population [in this city]"],
 		"requiredTech": "Mass Media"
 	},
 	{
@@ -736,18 +755,6 @@
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"uniques": ["Must not be on [Hill]", "[+10]% Production when constructing [All] buildings [in this city]"],
-		"requiredTech": "Economics"
-	},
-	{
-		"name": "Mollen Sawa",
-		"replaces": "Windmill",
-		"uniqueTo": "Niranna",
-		"production": 2,
-		"percentStatBonus": {"production": 8},
-		"specialistSlots": {"Engineer": 1},
-		"hurryCostModifier": 25,
-		"maintenance": 2,
-		"uniques": ["[+25]% great person generation [in this city]"],
 		"requiredTech": "Economics"
 	},
 	{
@@ -817,7 +824,8 @@
 		"happiness": 2,
 		"hurryCostModifier": 10,
 		"maintenance": 2,
-		"uniques": ["[+1 Happiness] from [Jade] tiles [in this city]", "[+1 Happiness] from [Tea] tiles [in this city]"],
+		"uniques": ["[+1 Happiness] from [Jade] tiles [in this city]", "[+1 Happiness] from [Gu] tiles [in this city]", 
+			"[+1 Happiness] from [Tea] tiles [in this city]"],
 		"requiredBuilding": "Colosseum",
 		"requiredTech": "Cultivication"
 	},
@@ -865,7 +873,7 @@
 		"requiredResource": "Uranium",
 		"cost": 380,
 		"uniques": ["Requires [Elementallist Program]", "[+50]% Production when constructing [Spaceship part] buildings [in this city]", 
-			"[+10]% Production when constructing [All] wonders [in this city]", 
+			"[+10]% Production when constructing [National] wonders [in this city]", 
 			"All newly-trained [Land] units [in this city] receive the [Breakthrough] promotion"],
 		"requiredTech": "Enlightment"
 	},
@@ -887,7 +895,7 @@
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Arsenal",
-		"requiredTech": "Foresight",
+		"requiredTech": "Lasers",
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
@@ -1046,8 +1054,9 @@
 		"culture": 2,
 		"isWonder": true,
 		"uniques": ["[+1 Culture] [in all cities]", "[+1 Culture] from [Wine] tiles [in all cities]", "[+1 Culture] from [Incense] tiles [in all cities]", 
-			"[+1 Culture] from [Jade] tiles [in all cities]", "[+1 Culture] from [Gu] tiles [in all cities]", 
-			"[+1 Culture] from [Perfume] tiles [in all cities]", "Not displayed as an available construction without [God's Key]"],
+			"[+1 Culture] from [Sugar] tiles [in all cities]", "[+1 Culture] from [Salt] tiles [in all cities]", 
+			"[+1 Culture] from [Lobster] tiles [in all cities]", "[+1 Culture] from [Perfume] tiles [in all cities]", 
+			"[+1 Culture] from [Tea] tiles [in all cities]", "Not displayed as an available construction without [God's Key]"],
 		"requiredResource": "God's Key",
 		"requiredTech": "Goddess of Festivals"
 	},
