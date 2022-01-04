@@ -69,7 +69,7 @@
 		"replaces": "Warrior",
 		"movement": 2,
 		"strength": 7,
-		"cost": 35,
+		"cost": 30,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
 		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
@@ -107,7 +107,7 @@
 		"movement": 4,
 		"cost": 30,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles until Astronomy", "May create improvements on water resources", "Uncapturable"]
+		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources", "Uncapturable"]
 	},
 	{
 		"name": "Trireme",
@@ -242,7 +242,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
-		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "[-33]% Strength <when defending>", "Can only attack [City] units"],
+		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "[-33]% Strength <when defending>"],
 		"promotions": ["Cover I"],
 		"attackSound": "throw"
 	},
@@ -423,8 +423,10 @@
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Military Science",
 		"uniques": ["Can move after attacking", "[-33]% Strength <vs cities>", "[+50]% Strength <vs [Melee] units>", "[+25]% Strength <vs [Gunpowder] units>", 
-			"[+25]% Strength <vs [Mounted] units>", "No defensive terrain bonus"],
+			"[+25]% Strength <vs [Mounted] units>", "No defensive terrain bonus", "Founds a new city <on foreign continents>", 
+			"Never appears as a Barbarian unit"],
 		"attackSound": "horse"
+		//Ability to found new cities can only be used on a foreign continent that does not contain the Nas capital.
 	},
 	{
 		"name": "Mammoth Rider",
@@ -515,6 +517,7 @@
 		"cost": 120,
 		"requiredTech": "Steel",
 		"upgradesTo": "Lightsabermen",
+		"uniques": ["Earn [50]% of the damage done to [City] units as [Gold]", "Never appears as a Barbarian unit"],
 		"attackSound": "metalhit"
 	},
 
@@ -613,7 +616,7 @@
 		"uniqueTo": "Rain Forest",
 		"movement": 2,
 		"strength": 28,
-		"cost": 200,
+		"cost": 180,
 		"requiredTech": "Fertilizer",
 		"upgradesTo": "Blackmen",
 		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>"],
@@ -667,6 +670,7 @@
 		"range": 5,
 		"cost": 475,
 		"requiredTech": "Dynamite",
+		"requiredResource": "Uranium",
 		"uniques": ["Nuclear weapon of Strength [1]", "Requires [Magician Project]", "Blast radius [1]"],
 		"attackSound": "missile"
 	},
@@ -699,6 +703,19 @@
 		"attackSound": "torpedo"
 	},
 	{
+		"name": "Blackmen",
+		"unitType": "Armored",
+		"movement": 2,
+		"strength": 42,
+		"cost": 380,
+		"requiredTech": "Enlightment",
+		"requiredResource": "Adamantium",
+		"uniques": ["[+33]% Strength <vs [Sword] units> <when attacking>", "[+25]% Strength <vs [Sword] units> <when defending>", 
+			"Never appears as a Barbarian unit"],
+		"promotions": ["Formation I"],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Cuirassiers",
 		"unitType": "Mounted",
 		"movement": 4,
@@ -709,19 +726,6 @@
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities>", "Never appears as a Barbarian unit"],
 		"promotions": ["Formation I"],
 		"attackSound": "horse"
-	},
-	{
-		"name": "Blackmen",
-		"unitType": "Armored",
-		"movement": 2,
-		"strength": 42,
-		"cost": 380,
-		"requiredTech": "Telepathy",
-		"requiredResource": "Adamantium",
-		"uniques": ["[+33]% Strength <vs [Sword] units> <when attacking>", "[+25]% Strength <vs [Sword] units> <when defending>", 
-			"Never appears as a Barbarian unit"],
-		"promotions": ["Formation I"],
-		"attackSound": "metalhit"
 	},
 	{
 		"name": "Spell Cannon",
@@ -961,6 +965,14 @@
 		"name": "Great Artist",
 		"unitType": "Civilian",
 		"uniques": ["Can start an [8]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable"],
+		"movement": 2
+	},
+	{
+		"name": "Maeron",
+		"unitType": "Civilian",
+		"uniqueTo": "Sulvana",
+		"replaces": "Great Artist",
+		"uniques": ["Can start an [8]-turn golden age", "Can construct [Landmark]", "Can construct [Sacred Grove]", "Great Person - [Culture]", "Unbuildable"],
 		"movement": 2
 	},
 	{
