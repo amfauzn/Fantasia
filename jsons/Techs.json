@@ -92,7 +92,7 @@
 			},
 			{
 				"name": "Writing",
-				"row": 3,
+				"row": 2,
 				"prerequisites": ["Calendar"],
 				"uniques": ["Enables Open Borders agreements"],
 				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
