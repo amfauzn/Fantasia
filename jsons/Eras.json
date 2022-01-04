@@ -142,7 +142,8 @@
             "Militaristic": ["Provides military units every ≈[16] turns"]
         },
         "iconRGB": [33, 150, 243],
-		"uniques": ["May not generate great prophet equivalents naturally"]
+		"uniques": ["May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])", 
+			"Starting in this era disables religion"]
     },
     {
         "name": "Future age",
@@ -173,8 +174,8 @@
             "Militaristic": ["Provides military units every ≈[16] turns"]
         },
         "iconRGB": [76, 176, 81],
-        "uniques": ["May not generate great prophet equivalents naturally",
-            "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
+        "uniques": ["May not generate great prophet equivalents naturally", 
+            "May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])", 
             "Starting in this era disables religion"
         ]
     }
