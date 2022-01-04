@@ -564,7 +564,7 @@
 	},
 	{
 		"name": "Quick Study", // only for Kalsharin and subsequent upgrades
-		"uniques": ["[50]% Bonus XP gain"]
+		"uniques": ["[+50]% XP gained from combat"]
 	},
 	{
 		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
