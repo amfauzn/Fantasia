@@ -153,7 +153,7 @@
 		"name": "Uranium",
 		"resourceType": "Strategic",
 		"revealedBy": "Alchemy",
-		"terrainsCanBeFoundOn": ["Plains","Desert","Tundra","Hill","Snow","Forest","Desert","Marsh","Grassland"],
+		"terrainsCanBeFoundOn": ["Plains","Desert","Tundra","Hill","Snow","Forest","Marsh","Grassland"],
 		"production": 1,
 		"improvement": "Mine",
 		"improvementStats": {"production": 2},
@@ -309,7 +309,7 @@
 		"name": "Jade",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Hill","Tundra"],
-		"gold": 2,
+		"gold": 1,
 		"improvement": "Mine",
 		"improvementStats": {"gold": 1, "production": 1},
 		"uniques": ["Appears near City States with weight [10]"]
@@ -441,6 +441,23 @@
 					"Appears in [Hybrid] regions with weight [20]"]
 	},
 	{
+		"name": "Lobster",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"food": 1,
+		"improvement": "Fishing Boats",
+		"improvementStats": {"food": 1, "gold": 2}
+	},
+	{
+		"name": "Pearls",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"gold": 2,
+		"improvement": "Fishing Boats",
+		"improvementStats": {"food": 1},
+		"uniques": ["Appears near City States with weight [15]"]
+	},
+	{
 		"name": "Whales",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Coast"],
@@ -454,15 +471,6 @@
 					"Appears in [Plains] regions with weight [5]",
 					"Appears in [Grassland] regions with weight [10]",
 					"Appears in [Hybrid] regions with weight [20]"]
-	},
-	{
-		"name": "Pearls",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Coast"],
-		"gold": 2,
-		"improvement": "Fishing Boats",
-		"improvementStats": {"food": 1},
-		"uniques": ["Appears near City States with weight [15]"]
 	},
 	
 	// Mercantile City-States Luxury
