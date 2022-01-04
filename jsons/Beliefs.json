@@ -80,7 +80,7 @@
     {
         "name": "Monument Makers",
         "type": "Pantheon",
-        "uniques": ["[+15]% Production when constructing [All] wonders [in cities following this religion]"]
+        "uniques": ["[+15]% Production when constructing [All] wonders [in cities following this religion] <before the [Mythic age]>"]
     },
     {
         "name": "One with Nature",
