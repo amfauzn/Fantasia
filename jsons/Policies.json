@@ -123,7 +123,7 @@
 			},
 			{
 				"name": "Military Tradition",
-				"uniques":["[Military] units gain [50]% more Experience from combat"],
+				"uniques":["[+50]% XP gained from combat <for [Military] units>"],
 				"requires": ["Warrior Code"],
 				"row": 2,
 				"column": 2
@@ -166,37 +166,44 @@
 			"Incompatible with [Rationalism]"],
 		"policies": [
 			{
+				"name": "Mandate Of Heaven",
+				"uniques": ["May choose [1] additional [Pantheon] beliefs when [enhancing] a religion"],
+				"row": 1,
+				"column": 1
+			},
+			{
 				"name": "Organized Religion",
 				"uniques": ["[+1 Faith] from every [Shrine]", "[+1 Faith] from every [Temple]"],
 				"row": 1,
-				"column": 2
+				"column": 4
 			},
 			{
-				"name": "Mandate Of Heaven",
-				"uniques": ["[10]% of excess happiness converted to [Faith]", "Free [Missionary] appears"],
-				"row": 1,
-				"column": 5
+				"name": "Religious Agency",
+				"requires": ["Mandate Of Heaven"],
+				"uniques": ["[+5 Faith] [in holy cities]", "Free [Missionary] appears"],
+				"row": 2,
+				"column": 1
 			},
 			{
 				"name": "Holy Nation",
 				"uniques":["Allied City-States provide [Science] equal to [25]% of what they produce for themselves"],
 				"requires": ["Organized Religion"],
 				"row": 2,
-				"column": 1
+				"column": 3
 			},		
 			{
 				"name": "Theocracy",
-				"uniques": ["+[10]% [Gold] from every [Temple]"],
+				"uniques": ["+[5]% [Gold] from every [Temple]", "[+1 Happiness] from every [Temple]"],
 				"requires": ["Organized Religion"],
 				"row": 2,
-				"column": 2
+				"column": 5
 			},
 			{
 				"name": "Postulant",
 				"requires": ["Theocracy","Mandate Of Heaven"],
 				"uniques": ["Free [Great Prophet] appears", "Free [Inquisitor] appears"],
 				"row": 3,
-				"column": 4
+				"column": 3
 			},
 			{
 				"name": "Piety Complete",
@@ -345,7 +352,7 @@
 				"uniques": ["[+1 Science] from every [Yakhcal]", "[+1 Science] from [Ice-calator] tiles [in all cities]", "Free Technologies"],
 				"requires": ["Secularism"],
 				"row": 2,
-				"column": 2
+				"column": 3
 			},
 			{
 				"name": "Sovereignty",
@@ -359,7 +366,7 @@
 				"uniques": ["Science gained from research agreements [+50]%"],
 				"requires": ["Free Thought","Secluded Invention"],
 				"row": 3,
-				"column": 2
+				"column": 3
 			},
 			{
 				"name": "Rationalism Complete",
