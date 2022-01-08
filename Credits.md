@@ -29,3 +29,4 @@ The following are from [the Noun Project](https://thenounproject.com) licenced u
 * Yeti: [bigfoot](https://thenounproject.com/icon/bigfoot-1385649/) by Icons Producer
 * Ice-calator: [glacier](https://thenounproject.com/icon/glacier-3334696/) by Firza Alamsyah
 * Twin Mountain: [Mountain](https://thenounproject.com/icon/mountain-1157665/) by Sandra
+* Wolf Rider: [Wolf](https://thenounproject.com/icon/wolf-151723/) by Jason Dilworth
