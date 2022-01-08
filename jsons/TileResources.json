@@ -286,7 +286,7 @@
 	{
 		"name": "Gu",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Forest","Jungle","Coast","Hill"],
+		"terrainsCanBeFoundOn": ["Forest","Jungle","Hill"],
 		"production": 1,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1, "happiness": 1}
