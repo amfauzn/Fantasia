@@ -26,6 +26,16 @@
 		"hurryCostModifier": 20
 	},
 	{
+		"name": "Para Settler",
+		"unitType": "Civilian",
+		"uniqueTo": "Thallin",
+		"replaces": "Settler",
+		"movement": 2,
+		"cost": 106,
+		"uniques": ["Founds a new city", "Will not be displayed in Civilopedia", "Unbuildable"],
+		"hurryCostModifier": 20
+	},
+	{
 		"name": "Scout",
 		"unitType": "Scout",
 		"movement": 2,
@@ -108,6 +118,17 @@
 		"cost": 30,
 		"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources", "Uncapturable"]
+	},
+	{
+		"name": "Patorani",
+		"unitType": "Civilian Water",
+		"uniqueTo": "Marunesia",
+		"replaces": "Work Boats",
+		"movement": 4,
+		"cost": 38,
+		"requiredTech": "Sailing",
+		"uniques": ["Can construct [Ulu Wae]", "Cannot enter ocean tiles <before discovering [Astronomy]>", 
+			"May create improvements on water resources", "Uncapturable"]
 	},
 	{
 		"name": "Trireme",
@@ -217,6 +238,21 @@
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Realm Patrol",
+		"unitType": "Ranged",
+		"uniqueTo": "Smeheng",
+		"replaces": "Composite Bowman",
+		"movement": 2,
+		"strength": 10,
+		"rangedStrength": 12,
+		"cost": 80,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"uniques": ["Double movement in [Friendly Land]"]
 		"attackSound": "arrow"
 	},
 	{
@@ -382,6 +418,21 @@
 		"attackSound": "arrow"
 	},
 	{
+		"name": "Zeal Galleass", 
+		"unitType": "Ranged Water",
+		"uniqueTo": "Marunesia",
+		"replaces": "Galleass",
+		"movement": 4,
+		"strength": 15,
+		"rangedStrength": 20,
+		"cost": 105,
+		"requiredTech": "Compass",
+		"obsoleteTech": "Navigation",
+		"upgradesTo": "Frigate",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May withdraw before melee ([34%])", "Never appears as a Barbarian unit"],
+		"attackSound": "arrow"
+	},
+	{
 		"name": "Knight",
 		"unitType": "Mounted",
 		"movement": 4,
@@ -427,6 +478,25 @@
 			"Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 		//Ability to found new cities can only be used on a foreign continent that does not contain the Nas capital.
+	},
+	{
+		"name": "Dullahan",
+		"unitType": "Mounted",
+		"uniqueTo": "Urg",
+		"replaces": "Knight",
+		"range": 1,
+		"movement": 5,
+		"strength": 25,
+		"rangedStrength": 20,
+		"cost": 125,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Horses",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"uniques": ["No defensive terrain bonus", "[-33]% Strength <when fighting in [Fresh water] tiles>", 
+			"[-33]% Strength <when fighting in [Coastal] tiles>", "Never appears as a Barbarian unit"],
+		"promotions": ["Great Generals I"],
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Mammoth Rider",
@@ -611,7 +681,7 @@
 	},
 	{
 		"name": "Treebeard",
-		"unitType": "Melee",
+		"unitType": "Armored",
 		"replaces": "Longswordsman",
 		"uniqueTo": "Rain Forest",
 		"movement": 2,
@@ -989,6 +1059,15 @@
 		"movement": 2
 	},
 	{
+		"name": "Batlin",
+		"unitType": "Civilian",
+		"uniqueTo": "Thallin",
+		"replaces": "Great Merchant",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
+			"Can construct [Customs house]", "Great Person - [Gold]", "Unbuildable"],
+		"movement": 2
+	},
+	{
 		"name": "Great Engineer",
 		"unitType": "Civilian",
 		"uniques": ["Can speed up construction of a building", "Can construct [Manufactory]", "Great Person - [Production]", "Unbuildable"],
@@ -1008,7 +1087,7 @@
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
-		"uniques": ["Can start an [8]-turn golden age", "Bonus for units in 2 tile radius 15%", "Can construct [Citadel]",
+		"uniques": ["Can start an [8]-turn golden age", "Bonus for units in 2 tile radius 15%", "Can construct [Citadel]", 
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
@@ -1023,9 +1102,9 @@
 	},
 	{
 		"name": "Great Admiral", 
-		"unitType": "WaterCivilian",
-		"uniques": ["Bonus for units in 2 tile radius 15%", "All adjacent units heal [+15] HP when healing", "Great Person - [War]", 
-			"Unbuildable", "Uncapturable"],
+		"unitType": "Civilian Water",
+		"uniques": ["Bonus for units in 2 tile radius 15%", "All adjacent units heal [+15] HP when healing", "Can construct [Sea fort]", 
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 5
 	},
 
