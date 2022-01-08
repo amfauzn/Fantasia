@@ -11,7 +11,21 @@
 		"culture": 2,
 		"cityStrength": 2,
 		"cost": 1,
-		"uniques": ["Indicates the capital city"]
+		"uniques": ["Indicates the capital city", "Double quantity of [Iron] produced"]
+	},
+	{
+		"name": "Para",
+		"replaces": "Palace",
+		"uniqueTo": "Thallin",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 2,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": ["Indicates the capital city", "Double quantity of [Iron] produced", 
+			"[-50]% unhappiness from population [in this city]"]
 	},
 	{
 		"name": "Monument",
@@ -50,6 +64,15 @@
 		"maintenance": 1,
 		"requiredTech": "Pottery",
 		"uniques": ["Hidden when religion is disabled"]
+	},
+	{
+		"name": "Astana",
+		"uniqueTo": "Thallin",
+		"cost": 1,
+		"greatPersonPoints": {"Great Merchant": 1, "Great Artist": 1},
+		"requiredTech": "Pottery",
+		"uniques": ["Requires at least [3] population", "Free [Para Settler] appears", "[-25]% unhappiness from population [in this city]", 
+			"Cannot be built with [Courthouse]", "Destroyed when the city is captured", "Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Circus",
@@ -92,7 +115,7 @@
 		"name": "Malus' Barricade",
 		"uniqueTo": "Malus",
 		"cost": 15,
-		"cityStrength": 1,
+		"cityStrength": 2,
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry",
@@ -126,8 +149,16 @@
 		"cost": 85,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
-			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]" ],
+		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]", "[+1 Food] from [Coast] tiles [in this city]", 
+			"[+1 Food] from [Fish] tiles [in this city]", "[+1 Production] from [Water resource] tiles [in this city]"],
+		"requiredTech": "Optics"
+	},
+	{
+		"name": "Kampong Ayer",
+		"uniqueTo": "Marunesia",
+		"happiness": 1,
+		"cost": 1,
+		"requiredNearbyImprovedResources": ["Fish", "Crab", "Lobster", "Pearls", "Whales"],
 		"requiredTech": "Optics"
 	},
 	{
@@ -219,20 +250,19 @@
 		"replaces": "Barracks",
 		"uniqueTo": "Twin Mountain",
 		"hurryCostModifier": 25,
-		"maintenance": 1,
+		"maintenance": 0,
 		"uniques": ["Destroyed when the city is captured", "New [Military] units start with [15] Experience [in this city]", 
-			"[+10]% Production when constructing [Land] units [in this city]", "[+1 Culture, +1 Science] from [Mountain] tiles [in this city]"],
+			"[+15]% Production when constructing [Land] units [in this city]"],
 		"requiredTech": "Bronze Working"
 	},
 	{
 		"name": "Sulong's Training",
 		"replaces": "Barracks",
 		"uniqueTo": "Townfolk",
-		"happiness": 1,
+		"happiness": 2,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["Destroyed when the city is captured", "New [Military] units start with [15] Experience [in this city]", 
-			   "All newly-trained [Melee] units [in this city] receive the [Fight Bark] promotion"],
+		"uniques": ["Destroyed when the city is captured", "New [Military] units start with [15] Experience [in this city]"],
 		"requiredTech": "Bronze Working"
 	},
 	{
@@ -296,7 +326,7 @@
 		"name": "Courthouse",
 		"maintenance": 4,
 		"hurryCostModifier": 50,
-		"uniques": ["Remove extra unhappiness from annexed cities",
+		"uniques": ["Remove extra unhappiness from annexed cities", 
 			"Can only be built in annexed cities"],
 		"requiredTech": "Mathematics"
 	},
@@ -348,7 +378,7 @@
 		"cost": 150,
 		"culture": 1,
 		"faith": 8,
-		"uniques": ["Requires a [Temple] in all cities", "Cost increases by [30] per owned city", "[+100]% Natural religion spread [in this city]", 
+		"uniques": ["Requires a [Temple] in all cities", "Cost increases by [25] per owned city", "[+100]% Natural religion spread [in this city]", 
 			"[Great Prophet] units built [in this city] can [Spread Religion] [1] extra times"
 			"Hidden when religion is disabled", "Can only be built [in holy cities]"],
 		"requiredTech": "Theology",
@@ -437,7 +467,6 @@
 		"replaces": "Workshop",
 		"uniqueTo": "Rain Forest",
 		"maintenance": 2,
-		"production": 1,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
 		"uniques": ["[+2 Production] from [Forest] tiles [in this city]"],
@@ -594,6 +623,16 @@
 		"uniques": ["New [Military] units start with [20] Experience [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Steel"
 	},
+	{
+		"name": "Ironworks",
+		"cost": 150,
+		"production": 8,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [25] per owned city", 
+			"[+5]% Production when constructing [All] buildings [in this city]", "[+5]% Production when constructing [Melee] units [in this city]"],
+		"requiredTech": "Steel"
+	},
 
 	// Heroic age
 
@@ -633,9 +672,9 @@
 		"name": "Butlaghua",
 		"replaces": "Composer Hall",
 		"uniqueTo": "Sulvana",
-		"culture": 4,
-		"happiness": 3,
+		"culture": 5,
 		"specialistSlots": {"Artist": 1},
+		"greatPersonPoints": {"Great Artist": 2},
 		"hurryCostModifier": 10,
 		"requiredBuilding": "Pyramid",
 		"maintenance": 2,
@@ -743,8 +782,7 @@
 		"culture": 3,
 		"greatPersonPoints": {"Great Scientist": 2},
 		"isWonder": true,
-		"uniques": ["Free [Great General] appears", "Free [Great Scientist] appears", "Free [Great Artist] appears", 
-			"Free [Great Admiral] appears", "Free [Great Merchant] appears", "Free [Great Prophet] appears"],
+		"uniques": ["Free [Great Scientist] appears", "Free [Great Artist] appears", "Free [Great Merchant] appears", "Free [Great Prophet] appears"],
 		"requiredTech": "Mass Media",
 		"quote": "'The body is wiser than its inhabitants. The body is God's messenger' - Horace"
 	},
@@ -764,6 +802,15 @@
 		"requiredBuilding": "Armory",
 		"uniques": ["New [Military] units start with [25] Experience [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Military Science"
+	},
+	{
+		"name": "Bath Gate",
+		"culture": 3,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"isWonder": true,
+		"uniques": ["Free [Great General] appears", "Free [Great Admiral] appears"],
+		"requiredTech": "Military Science",
+		"quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
 	},
 	
 
@@ -1137,5 +1184,69 @@
 		"faith": 1,
 		"happiness": 1,
 		"uniques": ["Unbuildable", "[+15]% [Gold] [in this city]", "Hidden when religion is disabled"]
+	},
+	
+	// Specific Unique Buildings
+	{
+		"name": "Dillin",
+		"uniqueTo": "Thallin",
+		"uniques": ["Unbuildable", "Unsellable", "[+33]% unhappiness from population [in this city]", "Destroyed when the city is captured", 
+			"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Thallin Tradition",
+		"uniqueTo": "Thallin",
+		"cost": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires [Tradition Complete]", "Empire enters golden age", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Thallin Liberty",
+		"uniqueTo": "Thallin",
+		"cost": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires [Liberty Complete]", "Empire enters golden age", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Thallin Honor",
+		"uniqueTo": "Thallin",
+		"cost": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires [Honor Complete]", "Empire enters golden age", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Thallin Piety",
+		"uniqueTo": "Thallin",
+		"cost": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires [Piety Complete]", "Empire enters golden age", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Thallin Legacy",
+		"uniqueTo": "Thallin",
+		"cost": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires [Legacy Complete]", "Empire enters golden age", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Thallin Commerce",
+		"uniqueTo": "Thallin",
+		"cost": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires [Commerce]", "Empire enters golden age", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Thallin Rationalism",
+		"uniqueTo": "Thallin",
+		"cost": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires [Rationalism]", "Empire enters golden age", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Thallin Quixotic",
+		"uniqueTo": "Thallin",
+		"cost": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires [Quixotic]", "Empire enters golden age", "Will not be displayed in Civilopedia"]
 	}
 ]
