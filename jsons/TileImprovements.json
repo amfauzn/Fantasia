@@ -43,7 +43,9 @@
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"food": 1,
 		"turnsToBuild": 7,
-		"uniques": ["[+1 Food] for each adjacent [Mountain]", "Cannot be built on [Bonus resource] tiles", "Cannot be built on [Strategic resource] tiles",
+		"uniques": ["[+1 Food] for each adjacent [Mountain]", 
+			"Cannot be built on [Bonus resource] tiles", 
+			"Cannot be built on [Strategic resource] tiles",
 			"Cannot be built on [Coastal] tiles", "[+1 Food] <after discovering [Education]>"],
 		"techRequired": "Calendar",
 		"shortcutKey": "F"
@@ -52,10 +54,13 @@
 		"name": "Ice-calator",
 		"terrainsCanBeBuiltOn": ["Snow"],
 		"turnsToBuild": 7,
-		"uniques": ["[+1 Food] for each adjacent [Ice-calator]", "[+1 Production] for each adjacent [Strategic resource]", 
-			"[+1 Production] for each adjacent [Luxury resource]", "Cannot be built on [Fresh water] tiles", "Cannot be built on [Strategic resource] tiles", 
+		"uniques": ["[+1 Food] for each adjacent [Ice-calator]", 
+			"[+1 Production] for each adjacent [Strategic resource]", 
+			"[+1 Production] for each adjacent [Luxury resource]", 
+			"Cannot be built on [Fresh water] tiles", 
+			"Cannot be built on [Strategic resource] tiles", 
 			"[+1 Production, +1 Science] for each adjacent [Great Improvement]", "Cannot be built on [Coastal] tiles"],
-		"techRequired": "Construction",
+		"techRequired": "Agriculture",
 		"shortcutKey": "F"
 	},
 	
@@ -202,18 +207,6 @@
 		"uniques": ["Great Improvement", "[+1 Culture] <after discovering [Architecture]>"]
 	},
 	{
-		"name": "Sacred Grove",
-		"uniqueTo": "Sulvana",
-		"science": 1,
-		"food": 1,
-		"production": 1,
-		"culture": 2,
-		"uniques": ["Great Improvement", "[+1 Production, +2 Culture] <after discovering [Philosophy]>", 
-			"[+1 Production, +1 Culture, +1 Faith] <after discovering [Theology]>", 
-			"[+1 Science, +1 Production, +1 Culture] <after discovering [Acoustics]>", 
-			"[+1 Science, +1 Production, +2 Culture, -1 Food] <after discovering [Archaeology]>"]
-	},
-	{
 		"name": "Manufactory",
 		"production": 4,
 		"uniques": ["Great Improvement", "[+1 Production] <after discovering [Alchemy]>"]
@@ -230,8 +223,58 @@
 	},
 	{
 		"name": "Citadel",
-		"uniques": ["Great Improvement", "Gives a defensive bonus of [100]%", "Adjacent enemy units ending their turn take [30] damage", "Can be built just outside your borders"],
+		"uniques": ["Great Improvement", "Gives a defensive bonus of [100]%", "Adjacent enemy units ending their turn take [30] damage", 
+			"Can be built just outside your borders"],
         "civilopediaText": [{"text":"Constructing it will take over the tiles around it and assign them to your closest city"}]
+	},
+	{
+		"name": "Sea fort",
+		"production": 2,
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"uniques": ["Great Improvement", "Gives a defensive bonus of [25]%", "Adjacent enemy units ending their turn take [10] damage", 
+			"Cannot be built on [Bonus resource] tiles", "Cannot be built on [Luxury resource] tiles", "[+1 Production] for each adjacent [Land]"]
+	},
+	
+	// Civilization unique improvements
+	{
+		"name": "Sacred Grove",
+		"uniqueTo": "Sulvana",
+		"science": 1,
+		"food": 1,
+		"production": 1,
+		"culture": 3,
+		"uniques": ["Great Improvement", "[+2 Faith] <after discovering [Theology]>", 
+			"[+2 Culture] <after discovering [Acoustics]>", 
+			"[+2 Gold] <after discovering [Cultivication]>", 
+			"[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Sacred Path]>"]
+	},
+	{
+		"name": "Ulu Wae",
+		"uniqueTo": "Marunesia",
+		"terrainsCanBeBuiltOn": ["Coast"],
+		"gold": 1,
+		"techRequired": "Sailing",
+		"uniques": ["[+1 Food] for each adjacent [Land]", 
+			"[+2 Gold] for each adjacent [Water resource]", 
+			"Cannot be built on [Bonus resource] tiles", 
+			"Cannot be built on [Luxury resource] tiles", 
+			"[+1 Gold] <after discovering [Economics]>"]
+	},
+	{
+		"name": "Dhab Hunter Camp",
+		"uniqueTo": "Smeheng",
+		"terrainsCanBeBuiltOn": ["Desert"],
+		"food": 1,
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Engineering",
+		"uniques": ["[+1 Production] for each adjacent [Mine]", 
+			"[+1 Food] for each adjacent [Fresh water]", 
+			"[+2 Culture] <after discovering [Acoustics]>", 
+			"Cannot be built on [Hill] tiles", 
+			"Cannot be built on [Bonus resource] tiles", 
+			"Cannot be built on [Strategic resource] tiles", 
+			"Cannot be built on [Luxury resource] tiles"]
 	},
 
 	{ 
