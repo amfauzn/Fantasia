@@ -116,12 +116,12 @@
 		"hateHello": "Oh, it's you.",
 		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
 		
-		"outerColor": [40,40,40],
+		"outerColor": [35,35,35],
 		"innerColor": [246,205,137],
 		"favoredReligion": "Uncertainty",
 		"uniqueName": "Heaven's Fury",
-		"uniques": ["Units fight as though they were at full strength even when damaged", "+[15]% Strength if within [3] tiles of a [Natural Wonder]", 
-			"\"Borrows\" city names from other civilizations in the game"],
+		"uniqueText": "Units fight as though they were at full strength even when damaged. Gain a Free Fury from every age.",
+		"uniques": ["Units fight as though they were at full strength even when damaged", "\"Borrows\" city names from other civilizations in the game"],
 		"cities": ["Tugu","Luxor","Karnak","Oryx"]
 	},
 	
@@ -219,25 +219,25 @@
 		"startBias":["Mountain"],
 		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": "Blessings of God of the Mountain be upon you, Thraldin IV, emperor of Twin Mountain and all his holdings. Your empire was the smartest to take advantage of mountains resources. Nobody loves the mountain as you do. The mountains serves you.",
-		"startIntroPart2": "O mighty emperor, your people turn to you to once more appreciate the mountains! Can you build a civilization that will stand the test of time?",
+		"startIntroPart1": "Blessings of God of the Mountain be upon you, Thraldin IV, general of Twin Mountain and all his holdings. Your empire was the smartest to take advantage of mountains resources. Nobody loves the mountain as you do. The mountains serves you.",
+		"startIntroPart2": "O mighty general, your people turn to you to once more appreciate the mountains! Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": "I heard you mock the God of the Mountain... <sigh> ...therefore you must die.",
+		"declaringWar": "You step in the forbidden palace... <sigh> ...therefore you must die.",
 		"attacked": "So brave, yet so stupid! If only you had a brain similar to your courage.",
-		"defeated": "The gods have deprived Twin Mountain of their favour. We have been defeated.",
-		"introduction": "I am Thraldin. If you are a friend of Twin Mountain, you are welcome.",
+		"defeated": "Agh burzum-ishi mas!",
+		"introduction": "I am Thraldin. Ash shara durbatulük!",
 		
-		"neutralHello": "Welcome.",
+		"neutralHello": "What?",
 		"hateHello": "What do you want?",
 		"tradeRequest": "I am not always this generous, but we hope you take this rare opportunity we give you.",
 		
-		"outerColor": [205,205,205],
-		"innerColor": [100,100,100],
+		"outerColor": [70, 70, 70],
+		"innerColor": [255,255,255],
 		"favoredReligion": "Butterfly Effects",
 		"uniqueName": "Shield of the Mountain",
-		"uniques": ["+[5]% Strength if within [2] tiles of a [Mountain]", "+[15]% Strength if within [1] tiles of a [Mountain]",
-			"Land units may cross [Mountain] tiles after the first [Great Person] is earned", "Units ending their turn on [Mountain] tiles take [10] damage"],
-		"cities": ["Thraldin's Palace","Khorin's Summit","Khorin's Slope","Gulddin's Ridge","Mourning Plateau","Lampion Pass","Twin Fortress","Sunken Valley",
+		"uniques": ["+[10]% Strength if within [2] tiles of a [Mountain]", "Land units may cross [Mountain] tiles after the first [Great Person] is earned", 
+			"Units ending their turn on [Mountain] tiles take [25] damage"],
+		"cities": ["Thraldin's Court","Khorin's Summit","Khorin's Slope","Gulddin's Ridge","Mourning Plateau","Lampion Pass","Twin Fortress","Sunken Valley",
 			"Circle Cliff","Darken Crest","Cremona","Red Ice","Tiltein","Vennelin","Drumlen"]
 	},
 	
@@ -348,7 +348,7 @@
 		"defeated": "The world is pitiful! There's no beauty in it, no wisdom. I am almost glad to go.",
 		"introduction": "Welcomes, stranger. Just... Be a good one!"
 		
-		"neutralHello": "Hi.",
+		"neutralHello": "Welcome.",
 		"hateHello": "What do you want?",
 		"tradeRequest": "I have heard that you adept at certain kinds of ... interactions.  Show me.",
 		
@@ -430,7 +430,7 @@
 		"startBias": ["Oasis","Desert"],
 		"preferredVictoryType": "Cultural",
 		
-		"startIntroPart1": " ",
+		"startIntroPart1": "'Do not come near that creature!' they say. While everybody agree with that argument, you are different. Not only did you come near them, but also slaughter them as your prey. Before long, your men become the only one to control the east.",
 		"startIntroPart2": "Illustrious Tukang Ngumbar Janji, your people once again look to you for leadership and counsel in the coming days. Can you build a civilization that will stand the test of time?",
 		
 		"declaringWar": "You start hunting my prey, prepare for war!",
@@ -446,8 +446,8 @@
 		"innerColor": [255, 244, 174],
 		"favoredReligion": "Evolutionism",
 		"uniqueName": "Sand Dweller",
-		"uniques": ["[+1 Gold] from every [{Desert} {Mine}]", "[+1 Culture] from every [Mine]", "[+1 Food] from every [Pasture]", 
-			"+[10]% Strength for units fighting in [Desert]", "+[10]% Strength for units fighting in [Friendly Land]"],
+		"uniques": ["[+1 Food] from every [Pasture]", "[+1 Culture] from every [Quarry]", "+[10]% Strength for units fighting in [Desert]", 
+			"+[10]% Strength for units fighting in [Friendly Land]"],
 		"cities": ["Dageeng","Dhendheng","Sie","Cakep","Ampal","Lunuk","Dengke","Usi","Cengkir","Cakkekh",
 			"Degel","Dagiang","Keureut","Gepuk","Recah","Tiir"]
 	},
@@ -501,10 +501,12 @@
 		"innerColor": [156,197,237],
 		"favoredReligion": "Monetarism",
 		"uniqueName": "Pure Bloodline",
-		"uniqueText": "Every non-annexed city can only build one Settler. Enter a Golden Age upon completion of a Policy Tree available before Feudal age, otherwise upon adopting new policy trees.",
-		"uniques": ["Gain a free [Dillin] [in annexed cities]"],
-		"cities": ["Gheteeh","Claret","Clot","Consanguine","Kinsfolk","Clansperson","Sib","Grandeur","Cults","House Rules",
-			"Steel Throne","Nightwatch","Forbidden Palace","Traitors' Gate","Free District"]
+		"uniqueText": "Settler gained slower. +2 Gold, -25% unhappiness from population in your first 3 cities. +5 Culture from every adopted Tradition policy. +5% Culture upon completion of Tradition policy Tree. +33% unhappiness from population in annexed cities",
+		"uniques": ["[+5 Culture] <after adopting [Tradition]>", "[+5 Culture] <after adopting [Aristocracy]>", "[+5 Culture] <after adopting [Legalism]>", 
+			"[+5 Culture] <after adopting [Oligarchy]>", "[+5 Culture] <after adopting [Landed Elite]>", "[+5 Culture] <after adopting [Monarchy]>", 
+			"[+5 Culture] <after adopting [Tradition Complete]>", "[+5]% [Culture] <after adopting [Tradition Complete]>", 
+			"[+33]% unhappiness from population [in annexed cities]"],
+		"cities": ["Kinsfolk","Clansperson","Sib","Grandeur","Cults"]
 	},
 	
 	
