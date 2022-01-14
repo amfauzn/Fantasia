@@ -30,9 +30,9 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Thallin",
 		"replaces": "Settler",
-		"movement": 2,
-		"cost": 106,
-		"uniques": ["Founds a new city", "Will not be displayed in Civilopedia", "Unbuildable"],
+		"movement": 3,
+		"cost": 159,
+		"uniques": ["Founds a new city", "Requires at least [4] population", "Will not be displayed in Civilopedia"],
 		"hurryCostModifier": 20
 	},
 	{
@@ -55,6 +55,7 @@
 		"cost": 12,
 		"upgradesTo": "Swordsman",
 		"obsoleteTech": "Domestication",
+		"uniques": ["[-100]% maintenance costs", "Will not be displayed in Civilopedia"],
 		"promotions": ["Great Generals I"],
 		"attackSound": "nonmetalhit"
 	},
@@ -111,6 +112,20 @@
 		"upgradesTo": "Swordsman",
 		"attackSound": "nonmetalhit"
 	},
+	{
+		"name": "Fury",
+		"unitType": "Missile",
+		"uniqueTo": "Urg",
+		"movement": 1,
+		"strength": 100,
+		"rangedStrength": 100,
+		"range": 15,
+		"uniques": ["Unbuildable", "[-70]% Strength <vs cities>", "[-25]% Strength <vs [Land] units>", 
+			"[-100]% maintenance costs"],
+		"attackSound": "torpedo"
+	},
+	
+	// Classical age
 	{
 		"name": "Work Boats",
 		"unitType": "Civilian Water",
@@ -181,8 +196,6 @@
 		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
 	},
-	
-	// Classical age
 	{
 		"name": "Horseman",
 		"unitType": "Mounted",
@@ -193,9 +206,23 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>" ],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities>" ],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
+	},
+	{
+		"name": "Torog",
+		"unitType": "Armored",
+		"uniqueTo": "Twin Mountain",
+		"replaces": "Horseman",
+		"movement": 2,
+		"strength": 16,
+		"cost": 100,
+		"requiredTech": "Domestication",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"uniques": ["Bonus for units in 2 tile radius 15%", "[+15]% Strength when stacked with [Great General]"],
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Wolf Rider",
@@ -204,7 +231,7 @@
 		"replaces": "Horseman",
 		"movement": 3,
 		"strength": 14,
-		"cost": 90,
+		"cost": 85,
 		"requiredTech": "Domestication",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
@@ -252,7 +279,7 @@
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
-		"uniques": ["Double movement in [Friendly Land]"]
+		"uniques": ["Double movement in [Desert]"]
 		"attackSound": "arrow"
 	},
 	{
@@ -266,21 +293,6 @@
 		"upgradesTo": "Pikeman",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
-	},
-	{
-		"name": "Ram",
-		"unitType": "Sword", // You might expect this to be a siege unit, but apparently it is not
-		"replaces": "Spearman",
-		"uniqueTo": "Nas",
-		"movement": 2,
-		"strength": 10,
-		"cost": 75,
-		"requiredTech": "Bronze Working",
-		"obsoleteTech": "Physics",
-		"upgradesTo": "Trebuchet",
-		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "[-33]% Strength <when defending>"],
-		"promotions": ["Cover I"],
-		"attackSound": "throw"
 	},
 	{
 		"name": "Elite Spearmen",
@@ -311,6 +323,8 @@
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
+	
+	// Feudal age
 	{
 		"name": "Catapult",
 		"unitType": "Siege",
@@ -330,16 +344,16 @@
 		"name": "Ballista",
 		"unitType": "Siege",
 		"replaces": "Catapult",
-		"uniqueTo": "Twin Mountain",
+		"uniqueTo": "Nas",
 		"movement": 2,
 		"strength": 8,
-		"rangedStrength": 9,
+		"rangedStrength": 10,
 		"cost": 75,
 		"requiredTech": "Mathematics",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
-			"Must set up to ranged attack", "Never appears as a Barbarian unit"],
+			"Must set up to ranged attack", "[-1] Sight"],
 		"hurryCostModifier": 20,
 		"promotions": ["Barrage I"],
 		"attackSound": "throw"
@@ -390,8 +404,6 @@
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
-
-	// Feudal age
 	{
 		"name": "Pikeman",
 		"unitType": "Sword",
@@ -404,6 +416,8 @@
 		"obsoleteTech": "Gunpowder",
 		"attackSound": "metalhit" 
 	},
+	
+	// Renaissance age
 	{
 		"name": "Galleass",
 		"unitType": "Ranged Water",
@@ -457,7 +471,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Military Science",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-2] Sight", "Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-2] Sight"],
 		"promotions": ["Kal Withdraw", "Quick Study"],
 		"attackSound": "horse"
 	},
@@ -474,8 +488,7 @@
 		"upgradesTo": "Cavalry",
 		"obsoleteTech": "Military Science",
 		"uniques": ["Can move after attacking", "[-33]% Strength <vs cities>", "[+50]% Strength <vs [Melee] units>", "[+25]% Strength <vs [Gunpowder] units>", 
-			"[+25]% Strength <vs [Mounted] units>", "No defensive terrain bonus", "Founds a new city <on foreign continents>", 
-			"Never appears as a Barbarian unit"],
+			"[+25]% Strength <vs [Mounted] units>", "No defensive terrain bonus", "Founds a new city <on foreign continents>"],
 		"attackSound": "horse"
 		//Ability to found new cities can only be used on a foreign continent that does not contain the Nas capital.
 	},
@@ -532,6 +545,7 @@
 		"rangedStrength": 14,
 		"cost": 120,
 		"requiredTech": "Machinery",
+		"obsoleteTech": "Sacred Path",
 		"upgradesTo": "Cavalry",
 		"uniques": ["Can move after attacking", "[+100]% Strength <vs [AirTerror] units>"],
 		"attackSound": "arrow"
@@ -546,6 +560,7 @@
 		"rangedStrength": 15,
 		"cost": 120,
 		"requiredTech": "Machinery",
+		"obsoleteTech": "Sacred Path",
 		"upgradesTo": "Scorpion",
 		"promotions": ["Logistics"],
 		"uniques": ["[+200]% Strength <vs [AirTerror] units>"],
@@ -559,7 +574,7 @@
 		"rangedStrength": 15,
 		"cost": 120,
 		"requiredTech": "Physics",
-		"obsoleteTech": "Scientific Theory",
+		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Cannon",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "Must set up to ranged attack", "[-1] Sight", 
 			"Never appears as a Barbarian unit"],
@@ -586,12 +601,11 @@
 		"strength": 24,
 		"cost": 120,
 		"requiredTech": "Steel",
+		"obsoleteTech": "Lasers",
 		"upgradesTo": "Lightsabermen",
 		"uniques": ["Earn [50]% of the damage done to [City] units as [Gold]", "Never appears as a Barbarian unit"],
 		"attackSound": "metalhit"
 	},
-
-	// Heroic age
 	{
 		"name": "Caravel",
 		"unitType": "Melee Water",
@@ -599,6 +613,8 @@
 		"strength": 24,
 		"cost": 170,
 		"requiredTech": "Astronomy",
+		"obsoleteTech": "Enlightment",
+		"upgradesTo": "Destroyer",
 		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
@@ -610,10 +626,39 @@
 		"strength": 28,
 		"cost": 200,
 		"requiredTech": "Metallurgy",
+		"obsoleteTech": "God of War",
+		"upgradesTo": "Cuirassiers",
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities>","Never appears as a Barbarian unit"],
 		"promotions": ["Formation I"],
+		"attackSound": "horse"
+	},
+	
+	// Heroic age
+	{
+		"name": "Treebeard",
+		"unitType": "Armored",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Rain Forest",
+		"movement": 2,
+		"strength": 28,
+		"cost": 170,
+		"requiredTech": "Fertilizer",
+		"upgradesTo": "Blackmen",
+		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>"],
+		"promotions": ["Woodsman"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Cavalry",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
 		"upgradesTo": "Cuirassiers",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 	},
 	{
@@ -621,9 +666,11 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 28,
-		"cost": 200,
+		"cost": 175,
+		"requiredResource": "Niter",
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Cuirassiers",
+		"obsoleteTech": "Lasers",
 		"attackSound": "shot"
 	},
 	{
@@ -633,8 +680,10 @@
 		"uniqueTo": "Frostmorrow",
 		"movement": 2,
 		"strength": 30,
-		"cost": 200,
+		"cost": 180,
 		"requiredTech": "Gunpowder",
+		"upgradesTo": "Cuirassiers",
+		"obsoleteTech": "Lasers",
 		"promotions": ["Skating"],
 		"attackSound": "nonmetalhit"
 	},
@@ -642,13 +691,15 @@
 		"name": "Cannon",
 		"unitType": "Siege",
 		"movement": 2,
-		"strength": 15,
-		"rangedStrength": 36,
-		"cost": 285,
+		"strength": 19,
+		"rangedStrength": 28,
+		"cost": 280,
+		"requiredResource": "Niter",
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Spell Cannon",
+		"obsoleteTech": "Foresight",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "Must set up to ranged attack", "[-1] Sight", 
-			"[+1] Sight <after discovering [Foresight]>", "Never appears as a Barbarian unit"],
+			"Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
 	},
 	{
@@ -659,49 +710,24 @@
 		"movement": 2,
 		"strength": 22,
 		"rangedStrength": 30,
-		"cost": 250,
+		"cost": 275,
 		"requiredTech": "Gunpowder",
-		"upgradesTo": "Spell Cannon",
-		"uniques": ["[+50]% Strength <vs cities> <when attacking>", "[+50]% Strength <vs [Melee] units>",
-			"[-1] Sight", "[+1] Sight <after discovering [Foresight]>", "Never appears as a Barbarian unit"],
+		"upgradesTo": "Blackmen",
+		"obsoleteTech": "Foresight",
+		"uniques": ["[+50]% Strength <vs cities> <when attacking>", "[+50]% Strength <vs [Melee] units>", 
+			"Never appears as a Barbarian unit"],
 		"promotions": ["Skating"],
 		"attackSound": "throw"
 	},
 	{
-		"name": "Cavalry",
-		"unitType": "Mounted",
-		"movement": 4,
-		"strength": 34,
-		"cost": 235,
-		"requiredTech": "Military Science",
-		"upgradesTo": "Cuirassiers",
-		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities>", "Never appears as a Barbarian unit"],
-		"attackSound": "horse"
-	},
-	{
-		"name": "Treebeard",
-		"unitType": "Armored",
-		"replaces": "Longswordsman",
-		"uniqueTo": "Rain Forest",
-		"movement": 2,
-		"strength": 28,
-		"cost": 180,
-		"requiredTech": "Fertilizer",
-		"upgradesTo": "Blackmen",
-		"uniques": ["[+33]% Strength <when fighting in [Forest] tiles>", "[+33]% Strength <when fighting in [Jungle] tiles>"],
-		"promotions": ["Woodsman"],
-		"attackSound": "nonmetalhit"
-	},
-	
-	// Mythic age
-	{
 		"name": "Privateer",
 		"unitType": "Melee Water",
 		"movement": 5,
-		"strength": 30,
-		"cost": 210,
+		"strength": 32,
+		"cost": 195,
 		"requiredTech": "Navigation",
+		"upgradesTo": "Destroyer",
+		"obsoleteTech": "Enlightment",
 		"promotions": ["Coastal Raider I"],
 		"uniques": ["May capture killed [Water] units"],
 		"attackSound": "cannon"
@@ -710,21 +736,100 @@
 		"name": "Frigate",
 		"unitType": "Ranged Water",
 		"movement": 5,
-		"strength": 28,
-		"rangedStrength": 34,
-		"cost": 235,
+		"strength": 32,
+		"rangedStrength": 38,
+		"cost": 240,
 		"requiredResource": "Iron",
 		"requiredTech": "Navigation",
+		"uniques": ["[+1] Sight"],
 		"hurryCostModifier": 20,
 		"attackSound": "cannon"
+	},
+	{
+		"name": "Mercenary Supplier",
+		"unitType": "Civilian",
+		"movement": 3,
+		"cost": 100,
+		"requiredTech": "Pharmaceuticals",
+		"uniques": ["All adjacent units heal [+10] HP when healing", "Ignores terrain cost", "Cannot be purchased"]
+	},
+	{
+		"name": "Petard",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 26,
+		"cost": 165,
+		"requiredResource": "Niter",
+		"requiredTech": "Dynamite",
+		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "Self-destructs when attacking"],
+	},
+	
+	// Mythic age
+	{
+		"name": "Archaeologist",
+		"unitType": "Civilian",
+		"movement": 4,
+		"cost": 75,
+		"requiredTech": "Archaeology",
+		"uniques": ["Can construct [Archaeological Dig]", "Cannot be purchased"]
+	},
+	{
+		"name": "Scorpion",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 40,
+		"range": 4,
+		"interceptRange": 3,
+		"cost": 290,
+		"requiredTech": "Railroads",
+		"uniques": ["No defensive terrain bonus", "Must set up to ranged attack", "[+1] Sight", "Ranged attacks may be performed over obstacles", 
+			"Ignores Zone of Control", "[+200]% Strength <vs [AirTerror] units>", "[+200]% Strength <vs [Air] units>", 
+			"[33]% chance to intercept air attacks", "Never appears as a Barbarian unit"],
+		"promotions": ["Barrage I"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Entwives",
+		"unitType": "Armored",
+		"movement": 2,
+		"strength": 60,
+		"cost": 390,
+		"requiredTech": "Ancestor Ruler",
+		"uniques": ["[+25]% Strength <when defending>", "[+50]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Longbeards",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "God of Craftsman",
+		"requiredResource": "Niter",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Anzu",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 50,
+		"rangedStrength": 50,
+		"range": 6,
+		"cost": 325,
+		"requiredTech": "God of the Open Sky",
+		"requiredResource": "Meatball",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "chimes"
 	},
 	{
 		"name": "Megalodon",
 		"unitType": "Melee Water",
 		"movement": 5,
-		"strength": 42,
-		"cost": 380,
-		"requiredTech": "Navigation",
+		"strength": 45,
+		"cost": 250,
+		"requiredTech": "God of the Sea",
 		"requiredResource": "Megall",
 		"uniques": ["[+50]% Strength <when attacking>", "[+100]% Strength <vs [Melee] units>", "Can move after attacking", "Ignores Zone of Control",
 			"Unable to capture cities", "Can enter ice tiles", "Never appears as a Barbarian unit"],
@@ -732,82 +837,196 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Spell Caster",
-		"unitType": "Missile",
-		"movement": 1,
-		"strength": 40,
-		"rangedStrength": 40,
-		"range": 5,
-		"cost": 475,
-		"requiredTech": "Dynamite",
-		"requiredResource": "Uranium",
-		"uniques": ["Nuclear weapon of Strength [1]", "Requires [Magician Project]", "Blast radius [1]"],
-		"attackSound": "missile"
-	},
-	{
-		"name": "Scorpion",
-		"unitType": "Siege",
-		"movement": 2,
-		"strength": 24,
-		"rangedStrength": 40,
-		"range": 4,
-		"cost": 380,
-		"requiredTech": "Railroads",
-		"uniques": ["No defensive terrain bonus", "Must set up to ranged attack", "[+1] Sight", "Ranged attacks may be performed over obstacles", 
-			"Ignores Zone of Control", "[+200]% Strength <vs [AirTerror] units>", "Never appears as a Barbarian unit"],
-		"promotions": ["Barrage I"],
-		"attackSound": "arrow"
-	},
-	{
-		"name": "Dragon",
-		"unitType": "AirTerror",
-		"movement": 5,
-		"strength": 52,
-		"rangedStrength": 52,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Archaeology",
-		"requiredResource": "Dragon's Egg",
-		"uniques": ["[+10]% Strength <when attacking>", "No defensive terrain bonus", "Ignores Zone of Control", 
-			"Unable to capture cities", "Never appears as a Barbarian unit"],
-		"attackSound": "torpedo"
-	},
-	{
-		"name": "Blackmen",
-		"unitType": "Armored",
-		"movement": 2,
-		"strength": 42,
-		"cost": 380,
-		"requiredTech": "Enlightment",
-		"requiredResource": "Adamantium",
-		"uniques": ["[+33]% Strength <vs [Sword] units> <when attacking>", "[+25]% Strength <vs [Sword] units> <when defending>", 
-			"Never appears as a Barbarian unit"],
-		"promotions": ["Formation I"],
-		"attackSound": "metalhit"
-	},
-	{
 		"name": "Cuirassiers",
 		"unitType": "Mounted",
 		"movement": 4,
-		"strength": 40,
-		"cost": 400,
-		"requiredTech": "Telepathy",
+		"strength": 55,
+		"cost": 380,
+		"requiredTech": "God of War",
+		"upgradesTo": "Saber Horseman",
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities>", "Never appears as a Barbarian unit"],
 		"promotions": ["Formation I"],
 		"attackSound": "horse"
 	},
 	{
+		"name": "Quenya",
+		"unitType": "Gunpowder",
+		"range": 1,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 30,
+		"cost": 225,
+		"requiredTech": "Goddess of Love",
+		"requiredResource": "Meatball",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Luan",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 50,
+		"cost": 320,
+		"requiredTech": "Goddess of Protection",
+		"requiredResource": "Meatball",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Caladrius",
+		"unitType": "AirTerror",
+		"movement": 2,
+		"strength": 44,
+		"cost": 330,
+		"requiredTech": "Goddess of Festivals",
+		"requiredResource": "Meatball",
+		"promotions": ["Medic"],
+		"uniques": ["[+20]% Strength <when fighting in [Friendly Land] tiles>", "Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Roc",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 35,
+		"rangedStrength": 35,
+		"range": 5,
+		"interceptRange": 5,
+		"cost": 330,
+		"requiredTech": "Goddess of the Hunt",
+		"requiredResource": "Meatball",
+		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+50]% Strength <vs [AirTerror] units>", 
+			"Never appears as a Barbarian unit"],
+		"attackSound": "whoosh"
+	},
+	{
+		"name": "Unicorn",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 65,
+		"cost": 390,
+		"requiredResource": "Horses",
+		"requiredTech": "Heroism Banner",
+		"upgradesTo": "Saber Horseman",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost",],
+		"attackSound": "horse"
+	},
+	
+	// Chaos age
+	{
+		"name": "Destroyer",
+		"unitType": "Melee Water",
+		"movement": 6,
+		"strength": 55,
+		"interceptRange": 2,
+		"cost": 375,
+		"requiredTech": "Enlightment",
+		"requiredResource": "Adamantium",
+		"uniques": ["Can see invisible [WaterTerror] units", "May withdraw before melee ([75]%)", "[+100]% Strength <vs [WaterTerror] units>"],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Bake-kujira",
+		"unitType": "WaterTerror",
+		"movement": 6,
+		"strength": 60,
+		"rangedStrength": 60,
+		"range": 2,
+		"cost": 435,
+		"requiredTech": "Telepathy",
+		"uniques": ["[+50]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", "Never appears as a Barbarian unit"],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Chollima",
+		"unitType": "Mounted",
+		"movement": 6,
+		"strength": 60,
+		"cost": 430,
+		"requiredTech": "Telepathy",
+		"requiredResource": "Meatball",
+		"uniques": ["[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking", 
+			"Unable to capture cities", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Blackmen",
+		"unitType": "Armored",
+		"movement": 2,
+		"strength": 65,
+		"cost": 430,
+		"requiredTech": "Foresight",
+		"requiredResource": "Adamantium",
+		"uniques": ["[+33]% Strength <vs [Sword] units> <when attacking>", "[+25]% Strength <vs [Melee] units> <when defending>", 
+			"Never appears as a Barbarian unit"],
+		"promotions": ["Formation I"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Wizard",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 60,
+		"rangedStrength": 60,
+		"range": 6,
+		"cost": 325,
+		"requiredTech": "Foresight",
+		"requiredResource": "Niter",
+		"uniques": ["[-100]% maintenance costs"],
+		"attackSound": "torpedo"
+	},
+	{
+		"name": "Dragon",
+		"unitType": "AirTerror",
+		"movement": 7,
+		"strength": 60,
+		"rangedStrength": 60,
+		"range": 2,
+		"cost": 355,
+		"requiredTech": "Flight",
+		"requiredResource": "Dragon's Egg",
+		"uniques": ["[+10]% Strength <when attacking>", "No defensive terrain bonus", "Ignores Zone of Control", 
+			"Never appears as a Barbarian unit"],
+		"attackSound": "torpedo"
+	},
+	{
+		"name": "Spell Caster",
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 65,
+		"rangedStrength": 65,
+		"range": 8,
+		"cost": 380,
+		"requiredTech": "Flight",
+		"requiredResource": "Niter",
+		"attackSound": "torpedo"
+	},
+	{
+		"name": "Warlocks",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 100,
+		"rangedStrength": 100,
+		"range": 10,
+		"cost": 600,
+		"requiredTech": "Combustion",
+		"uniques": ["Nuclear weapon of Strength [1]", "Requires [Magician Project]", "Blast radius [2]", "Consumes [2] [Niter]", "Consumes [1] [Niter]"],
+		"attackSound": "torpedo"
+	},
+	{
 		"name": "Spell Cannon",
 		"unitType": "Siege",
 		"movement": 2,
-		"strength": 30,
-		"rangedStrength": 38,
+		"strength": 40,
+		"rangedStrength": 60,
 		"range": 3,
 		"cost": 450,
-		"requiredTech": "Foresight",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "Must set up to ranged attack", "[+1] Sight", 
-			"Requires [Magician Project]", "Never appears as a Barbarian unit"],
+		"requiredTech": "Combustion",
+		"requiredResource": "Niter",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "Must set up to ranged attack", 
+			"Ranged attacks may be performed over obstacles", "Requires [Magician Project]", "Never appears as a Barbarian unit"],
 		"promotions": ["Cover I"],
 		"attackSound": "cannon"
 	},
@@ -815,8 +1034,8 @@
 		"name": "Lightsabermen",
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 46,
-		"cost": 350,
+		"strength": 70,
+		"cost": 385,
 		"requiredTech": "Lasers",
 		"requiredResource": "Kyber",
 		"uniques": ["[+50]% Strength <vs [Armored] units> <when attacking>", "[+50]% Strength <vs [Siege] units> <when attacking>",
@@ -824,17 +1043,28 @@
 		"promotions": ["Shock I"],
 		"attackSound": "metalhit"
 	},
-	
+	{
+		"name": "Saber Horseman",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 80,
+		"cost": 400,
+		"requiredTech": "Lasers",
+		"uniques": ["[+20]% Strength <when attacking>", "Can move after attacking", "No defensive terrain bonus", 
+			"[-30]% Strength <vs cities>", "Consumes [1] [Horses]", "Consumes [1] [Kyber]", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+	},
+		
 	// Heroes
 	{
 		"name": "Mas Karebet",
 		"unitType": "Hero",
 		"movement": 2,
-		"strength": 42,
+		"strength": 47,
 		"cost": 1,
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Great Generals II"],
-		"uniques": ["Requires [Quixotic]", "Not displayed as an available construction without [Hero Candidate]", 
+		"uniques": ["Requires [Honor Complete]", "Not displayed as an available construction without [Hero Candidate]", 
 			"[+50]% Strength <vs [WaterTerror] units>", "[+75%] Strength <vs [AirTerror] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "metalhit"
 	},
@@ -842,11 +1072,11 @@
 		"name": "Ken Arok",
 		"unitType": "Hero",
 		"movement": 2,
-		"strength": 42,
+		"strength": 46,
 		"cost": 1,
 		"requiredResource": "Hero Candidate",
-		"promotions": ["Great Generals II"],
-		"uniques": ["Requires [Quixotic]", "Not displayed as an available construction without [Hero Candidate]", 
+		"promotions": ["Cover I", "Great Generals I"],
+		"uniques": ["Requires [Honor Complete]", "Not displayed as an available construction without [Hero Candidate]", 
 			"[+50]% Strength <vs [WaterTerror] units>", "[+75%] Strength <vs [AirTerror] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "metalhit"
 	},
@@ -854,13 +1084,13 @@
 		"name": "Pandji",
 		"unitType": "Hero",
 		"movement": 2,
-		"strength": 30,
-		"rangedStrength": 40,
+		"strength": 32,
+		"rangedStrength": 45,
 		"range": 2,
 		"cost": 1,
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Great Generals I"],
-		"uniques": ["Requires [Quixotic]", "Not displayed as an available construction without [Hero Candidate]", 
+		"uniques": ["Requires [Honor Complete]", "Not displayed as an available construction without [Hero Candidate]", 
 			"[+50]% Strength <vs [WaterTerror] units>", "[+75%] Strength <vs [AirTerror] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "arrow"
 	},
@@ -868,10 +1098,10 @@
 		"name": "Leonidas",
 		"unitType": "Hero",
 		"movement": 2,
-		"strength": 40,
+		"strength": 45,
 		"cost": 1,
 		"requiredResource": "Hero Candidate",
-		"uniques": ["Requires [Quixotic]", "[+100]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [WaterTerror] units>", 
+		"uniques": ["Requires [Honor Complete]", "[+100]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [WaterTerror] units>", 
 			"[+75%] Strength <vs [AirTerror] units>", "Not displayed as an available construction without [Hero Candidate]", 
 			"Never appears as a Barbarian unit"],
 		"attackSound": "metalhit"
@@ -880,73 +1110,37 @@
 		"name": "Siliwangi",
 		"unitType": "Hero",
 		"movement": 5,
-		"strength": 40,
+		"strength": 45,
 		"cost": 1,
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Great Generals II"],
-		"uniques": ["Requires [Quixotic]", "Can move after attacking", "No defensive terrain bonus", "[+50]% Strength <vs [WaterTerror] units>", 
+		"uniques": ["Requires [Honor Complete]", "Can move after attacking", "No defensive terrain bonus", "[+50]% Strength <vs [WaterTerror] units>", 
 			"[+75%] Strength <vs [AirTerror] units>", "Not displayed as an available construction without [Hero Candidate]", 
 			"Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 	},
 	{
-		"name": "Spartacus",
-		"unitType": "Hero",
-		"movement": 2,
-		"strength": 42,
-		"cost": 1,
-		"requiredResource": "Hero Candidate",
-		"promotions": ["Cover I", "Great Generals I"],
-		"uniques": ["Requires [Quixotic]", "Not displayed as an available construction without [Hero Candidate]", 
-			"[+50]% Strength <vs [WaterTerror] units>", "[+75%] Strength <vs [AirTerror] units>", "Never appears as a Barbarian unit"],
-		"attackSound": "metalhit"
-	},
-	{
 		"name": "Zhuge Liang",
 		"unitType": "Hero",
 		"movement": 2,
-		"strength": 26,
-		"rangedStrength": 28,
+		"strength": 31,
+		"rangedStrength": 33,
 		"range": 2,
 		"cost": 1,
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Great Generals I", "Logistics"],
-		"uniques": ["Requires [Quixotic]", "Not displayed as an available construction without [Hero Candidate]", 
+		"uniques": ["Requires [Honor Complete]", "Not displayed as an available construction without [Hero Candidate]", 
 			"[+50]% Strength <vs [WaterTerror] units>", "[+75%] Strength <vs [AirTerror] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "arrow"
-	},
-	{
-		"name": "Hannibal",
-		"unitType": "Hero",
-		"movement": 2,
-		"strength": 42,
-		"cost": 1,
-		"requiredResource": "Hero Candidate",
-		"promotions": ["Cover I", "Great Generals I"],
-		"uniques": ["Requires [Quixotic]", "Not displayed as an available construction without [Hero Candidate]", 
-			"[+50]% Strength <vs [WaterTerror] units>", "[+75%] Strength <vs [AirTerror] units>", "Never appears as a Barbarian unit"],
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Hua Tuo",
-		"unitType": "Hero",
-		"movement": 2,
-		"strength": 38,
-		"cost": 1,
-		"requiredResource": "Hero Candidate",
-		"promotions": ["Medic II"],
-		"uniques": ["Requires [Quixotic]", "Not displayed as an available construction without [Hero Candidate]", 
-			"[+50]% Strength <vs [WaterTerror] units>", "[+75%] Strength <vs [AirTerror] units>", "Never appears as a Barbarian unit"],
-		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Jeanne d'Arc",
 		"unitType": "Hero",
 		"movement": 4,
-		"strength": 38,
+		"strength": 43,
 		"cost": 1,
 		"requiredResource": "Hero Candidate",
-		"uniques": ["Requires [Quixotic]", "[+150]% Strength <when attacking> <vs cities>", "[+25]% Strength <vs [WaterTerror] units>", 
+		"uniques": ["Requires [Honor Complete]", "[+150]% Strength <when attacking> <vs cities>", "[+25]% Strength <vs [WaterTerror] units>", 
 			"[+75%] Strength <vs [AirTerror] units>", "Not displayed as an available construction without [Hero Candidate]", 
 			"Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
@@ -955,13 +1149,13 @@
 		"name": "Gaius Duilius",
 		"unitType": "WaterHero",
 		"movement": 4,
-		"strength": 28,
-		"rangedStrength": 38,
+		"strength": 33,
+		"rangedStrength": 43,
 		"range": 2,
 		"cost": 1,
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Mobility", "Great Generals I"],
-		"uniques": ["Requires [Quixotic]", "[+100]% Strength <when attacking> <vs [Water] units>", "Can see invisible [WaterTerror] units"
+		"uniques": ["Requires [Honor Complete]", "[+100]% Strength <when attacking> <vs [Water] units>", "Can see invisible [WaterTerror] units"
 			"Not displayed as an available construction without [Hero Candidate]", "Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
 	},
@@ -969,36 +1163,35 @@
 		"name": "Themistocles",
 		"unitType": "WaterHero",
 		"movement": 4,
-		"strength": 40,
+		"strength": 45,
 		"cost": 1,
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Sentry"],
-		"uniques": ["Requires [Quixotic]", "[+100]% Strength <when attacking> <vs [Water] units>", "May withdraw before melee ([33]%)"
+		"uniques": ["Requires [Honor Complete]", "[+100]% Strength <when attacking> <vs [Water] units>", "May withdraw before melee ([33]%)"
 			"Can see invisible [WaterTerror] units", "Not displayed as an available construction without [Hero Candidate]", 
 			"Never appears as a Barbarian unit"],
 		"attackSound": "metalhit"
 	},
 
 	// Special units
-
 	{
 		"name": "Ymir",
 		"unitType": "Armored",
 		"movement": 3,
-		"strength": 60,
+		"strength": 70,
 		"cost": 1,
 		"requiredResource": "Titan",
 		"uniques": ["[+75]% Strength <vs [Melee] units> <when attacking>", "[+50]% Strength <vs cities> <when attacking>",
 			"Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit", 
 			"Not displayed as an available construction without [Titan]"],
 		"promotions": ["Formation I"],
-		"attackSound": "nonmetalhit"
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Garuda",
 		"unitType": "AirTerror",
-		"movement": 4,
-		"strength": 60,
+		"movement": 5,
+		"strength": 70,
 		"cost": 1,
 		"requiredResource": "Garuda's Egg",
 		"uniques": ["[+75]% Strength <vs [AirTerror] units> <when attacking>", "[+50]% Strength <vs [Ranged] units> <when attacking>",
@@ -1011,7 +1204,7 @@
 		"name": "Kraken",
 		"unitType": "WaterTerror",
 		"movement": 5,
-		"strength": 60,
+		"strength": 70,
 		"range": 2,
 		"cost": 1,
 		"requiredResource": "Kraken's Baby",
@@ -1025,7 +1218,7 @@
 		"unitType": "Fighter",
 		"movement": 1,
 		"strength": 15,
-		"range": 3,
+		"range": 5,
 		"uniques": ["Unbuildable", "Uncapturable", "Never appears as a Barbarian unit"],
 		"attackSound": "arrow"
 	},
@@ -1046,6 +1239,14 @@
 		"movement": 2
 	},
 	{
+		"name": "Para Artist",
+		"unitType": "Civilian",
+		"uniqueTo": "Thallin",
+		"replaces": "Great Artist",
+		"uniques": ["Can start an [10]-turn golden age", "Can construct [Landmark]", "Great Person - [Culture]", "Unbuildable"],
+		"movement": 2
+	},
+	{
 		"name": "Great Scientist",
 		"unitType": "Civilian",
 		"uniques": ["Can hurry technology research", "Can construct [Academy]", "Great Person - [Science]", "Unbuildable"],
@@ -1055,15 +1256,6 @@
 		"name": "Great Merchant",
 		"unitType": "Civilian",
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
-			"Can construct [Customs house]", "Great Person - [Gold]", "Unbuildable"],
-		"movement": 2
-	},
-	{
-		"name": "Batlin",
-		"unitType": "Civilian",
-		"uniqueTo": "Thallin",
-		"replaces": "Great Merchant",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
 			"Can construct [Customs house]", "Great Person - [Gold]", "Unbuildable"],
 		"movement": 2
 	},
