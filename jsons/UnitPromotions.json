@@ -350,7 +350,7 @@
 		"uniques": ["Damage taken from interception reduced by [50]%"],
 		"unitTypes": ["Bomber"]
 	},
-/*
+
 	// Aircraft
 	{
 		"name": "Interception I",
@@ -368,7 +368,7 @@
 		"prerequisites": ["Interception II"],
 		"uniques": ["[+34]% Damage when intercepting"],
 		"unitTypes": ["Fighter"]
-	},*/
+	},
 	/*
 	{
 		"name": "Dogfighting I",
@@ -391,7 +391,7 @@
 
 	{
 		"name": "Air Targeting I",
-//		"prerequisites": ["Interception I","Siege I","Bombardment I"],  // "Dogfighting I"
+		"prerequisites": ["Interception I","Siege I","Bombardment I"],  // "Dogfighting I"
 		"uniques": ["[+33]% Strength <vs [Water] units>"],
 		"unitTypes": ["Fighter","Bomber"]
 	},
@@ -411,13 +411,13 @@
 
 	{
 		"name": "Operational Range",
-//		"prerequisites": ["Interception I", /*"Dogfighting I",*/ "Siege I", "Bombardment I"],
+		"prerequisites": ["Interception I", "Siege I", "Bombardment I"], // "Dogfighting I"
 		"uniques": ["[+2] Range"],
 		"unitTypes": ["Fighter","Bomber"]
 	},
 	{
 		"name": "Air Repair",
-//		"prerequisites": ["Interception II", /*"Dogfighting II",*/ "Siege II", "Bombardment II", "Mobility II", "Anti-Armor II"],
+		"prerequisites": ["Interception II", "Siege II", "Bombardment II", "Mobility II", "Anti-Armor II"], // "Dogfighting II"
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Fighter", "Bomber", "Helicopter"]
 	},
@@ -426,7 +426,7 @@
 	{
 		"name": "Mobility I",
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Helicopter"]
+		"unitTypes": ["Helicopter","AirTerror"]
 	},
 	{
 		"name": "Mobility II",
