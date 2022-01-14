@@ -38,7 +38,7 @@
 	{
         "name": "Hero",
         "movementType": "Land",
-		"uniques": ["All tiles cost 1 movement"]
+		"uniques": ["Ignores terrain cost"]
     },
     {
         "name": "Civilian Water",
