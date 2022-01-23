@@ -3,7 +3,7 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Hero","AirTerror","WaterTerror"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Hero","Water Hero","Air Terror","Water Terror"]
 	},
 	
 	// Scout
@@ -132,13 +132,13 @@
 		"name": "Charge",
 		"prerequisites": ["Shock II","Drill II","Hunt Instinc II"],
 		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
-		"unitTypes": ["Mounted","Armored","Hero","AirTerror"]
+		"unitTypes": ["Mounted","Armored","Hero","Air Terror"]
 	},
 	{
 		"name": "Besiege", // Not called "Siege" in order to not conflict with siege type units for translations
 		"prerequisites": ["Shock II","Drill II"],
 		"uniques": ["[+50]% Strength <vs cities>"],
-		"unitTypes": ["Sword","Gunpowder","AirTerror","Hero"]
+		"unitTypes": ["Sword","Gunpowder","Air Terror","Hero"]
 	},
 	{
 		"name": "Formation I",
@@ -230,56 +230,56 @@
 	{
 		"name": "Targeting I",
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Ranged Water","WaterHero"]
+		"unitTypes": ["Ranged Water","Water Hero"]
 	},
 	{
 		"name": "Targeting II",
 		"prerequisites": ["Targeting I"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Ranged Water","WaterHero"]
+		"unitTypes": ["Ranged Water","Water Hero"]
 	},
 	{
 		"name": "Targeting III",
 		"prerequisites": ["Targeting II"],
 		"uniques": ["[+20]% Strength <vs [Water] units>"],
-		"unitTypes": ["Ranged Water","WaterHero"]
+		"unitTypes": ["Ranged Water","Water Hero"]
 	},
 	
 	{
 		"name": "Wave I",
 		"uniques": ["[+33]% Strength <vs [Land] units>"],
-		"unitTypes": ["Ranged Water","WaterHero"]
+		"unitTypes": ["Ranged Water","Water Hero"]
 	},
 	{
 		"name": "Wave II",
 		"prerequisites": ["Wave I"],
 		"uniques": ["[+33]% Strength <vs [Land] units>"],
-		"unitTypes": ["Ranged Water","WaterHero"]
+		"unitTypes": ["Ranged Water","Water Hero"]
 	},
 	{
 		"name": "Wave III",
 		"prerequisites": ["Wave II"],
 		"uniques": ["[+34]% Strength <vs [Land] units>"],
-		"unitTypes": ["Ranged Water","WaterHero"]
+		"unitTypes": ["Ranged Water","Water Hero"]
 	},
 
 	// Submarine+WaterTerror
 	{
 		"name": "Wolfpack I",
 		"uniques": ["[+25]% Strength <when attacking>"],
-		"unitTypes": ["Submarine","WaterTerror"]
+		"unitTypes": ["Submarine","Water Terror"]
 	},
 	{
 		"name": "Wolfpack II",
 		"prerequisites": ["Wolfpack I"],
 		"uniques": ["[+25]% Strength <when attacking>"],
-		"unitTypes": ["Submarine","WaterTerror"]
+		"unitTypes": ["Submarine","Water Terror"]
 	},
 	{
 		"name": "Wolfpack III",
 		"prerequisites": ["Wolfpack II"],
 		"uniques": ["[+25]% Strength <when attacking>"],
-		"unitTypes": ["Submarine","WaterTerror"]
+		"unitTypes": ["Submarine","Water Terror"]
 	},
 
 	// Aircraft Carrier
@@ -323,7 +323,7 @@
 		"name" : "Supply",
 		"prerequisites": ["Bombardment III", "Targeting III", "Boarding Party III", "Coastal Raider III"],
 		"uniques": ["May heal outside of friendly territory", "[+15] HP when healing in [Foreign Land] tiles"],
-		"unitTypes": ["Melee Water", "Ranged Water", "WaterTerror", "WaterHero"]
+		"unitTypes": ["Melee Water", "Ranged Water", "Water Terror", "Water Hero"]
 	},
 
 	// Bomber
@@ -426,13 +426,13 @@
 	{
 		"name": "Mobility I",
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Helicopter","AirTerror"]
+		"unitTypes": ["Helicopter","Air Terror"]
 	},
 	{
 		"name": "Mobility II",
 		"prerequisites": ["Mobility I"],
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Helicopter"]
+		"unitTypes": ["Helicopter","Air Terror"]
 	},
 	{
 		"name": "Anti-Armor I",
@@ -450,39 +450,39 @@
 	{
 		"name": "Hunt Instinc I",
 		"uniques": ["[+25]% Strength <when attacking>"],
-		"unitTypes": ["AirTerror"]
+		"unitTypes": ["Air Terror"]
 	},
 	{
 		"name": "Hunt Instinc II",
 		"prerequisites": ["Hunt Instinc I"],
 		"uniques": ["[+25]% Strength <when attacking>"],
-		"unitTypes": ["AirTerror"]
+		"unitTypes": ["Air Terror"]
 	},
 	{
 		"name": "Hunt Instinc III",
 		"prerequisites": ["Hunt Instinc II"],
 		"uniques": ["[+25]% Strength"],
-		"unitTypes": ["AirTerror"]
+		"unitTypes": ["Air Terror"]
 	},
 	
 	{
 		"name": "Intimidation",
 		"prerequisites": ["Hunt Instinc II", "Wolfpack III", "Shock III", "Drill III"],
 		"uniques": ["[-20]% Strength for enemy [All] units in adjacent [All] tiles"],
-		"unitTypes": ["AirTerror","WaterTerror","WaterHero","Hero"]
+		"unitTypes": ["Air Terror","Water Terror","Water Hero","Hero"]
 	},
 	
 	// Mixed
 	{
 		"name": "Cover I",
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege","AirTerror"]
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege","Air Terror"]
 	},
 	{
 		"name": "Cover II",
 		"prerequisites": ["Cover I"],
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege","AirTerror"]
+		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege","Air Terror"]
 	},
 
 	{
@@ -496,33 +496,33 @@
 		"prerequisites": ["Shock II","Drill II","Targeting I","Wave I",
 			"Bombardment I","Boarding Party I", "Coastal Raider I", "Wolfpack I"],
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Mounted","Melee Water","Ranged Water","Armored","Submarine","WaterTerror","WaterHero"]
+		"unitTypes": ["Mounted","Melee Water","Ranged Water","Armored","Submarine","Water Terror","Water Hero"]
 	},
 	{
 		"name": "Sentry",
 		"prerequisites": ["Accuracy I","Barrage I","Shock II","Drill II","Bombardment I","Targeting I","Wave I",
 			"Boarding Party I","Coastal Raider I","Hunt Instinc I"],
 		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Ranged Water","Armored","Melee Water","Hero","WaterHero","WaterTerror","AirTerror"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Ranged Water","Armored","Melee Water","Hero","Water Hero","Water Terror","Air Terror"]
 	},
 	{
 		"name": "Logistics",
 		"prerequisites": ["Accuracy III","Barrage III","Targeting III", "Wolfpack III","Intimidation",
 			"Bombardment III", "Coastal Raider III","Boarding Party III","Siege III", "Mobility II", "Anti-Armor II"],
 		"uniques": ["[1] additional attacks per turn"],
-		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Melee Water","Ranged Water","Submarine","Fighter","Bomber","Helicopter","WaterHero","WaterTerror","AirTerror"]
+		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Melee Water","Ranged Water","Submarine","Fighter","Bomber","Helicopter","Water Hero","Water Terror","Air Terror"]
 	},
 
 	{
 		"name": "Ambush I",
 		"uniques": ["[+33]% Strength <vs [Armored] units>"],
-		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber","Hero","AirTerror"]
+		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber","Hero","Air Terror"]
 	},
 	{
 		"name": "Ambush II",
 		"prerequisites": ["Ambush I"],
 		"uniques": ["[+33]% Strength <vs [Armored] units>"],
-		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber","Hero","AirTerror"]
+		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber","Hero","Air Terror"]
 	},
 
 
