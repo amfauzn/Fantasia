@@ -38,7 +38,7 @@
 	{
         "name": "Hero",
         "movementType": "Land",
-		"uniques": ["Ignores terrain cost"]
+		"uniques": ["Ignores terrain cost", "[-100]% maintenance costs"]
     },
     {
         "name": "Civilian Water",
@@ -53,14 +53,14 @@
         "movementType": "Water"
     },
 	{
-        "name": "WaterTerror",
+        "name": "Water Terror",
         "movementType": "Water",
         "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [WaterTerror] units"]
     },
 	{
-        "name": "WaterHero",
+        "name": "Water Hero",
         "movementType": "Water",
-        "uniques": ["Can enter ice tiles"]
+        "uniques": ["Can enter ice tiles", "[-100]% maintenance costs"]
     },
     {
         "name": "Submarine",
@@ -77,7 +77,7 @@
         "uniques": ["Aircraft", "6 tiles in every direction always visible"]
     },
 	{
-        "name": "AirTerror",
+        "name": "Air Terror",
         "movementType": "Land",
         "uniques": ["Can pass through impassable tiles", "Can see invisible [WaterTerror] units", 
 			"Can move after attacking", "All tiles cost 1 movement"]
