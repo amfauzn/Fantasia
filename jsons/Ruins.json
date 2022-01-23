@@ -40,6 +40,12 @@
         "uniques": ["[1] free random researchable Tech(s) from the [Dark age]"],
 		"color": "#7f7fff"
     },
+	{
+        "name": "discover a lost classic technology",
+        "notification": "We have discovered the lost technology of [techName] in the ruins!",
+        "uniques": ["[1] free random researchable Tech(s) from the [Classical age]"],
+		"color": "#7f7fff"
+    },
     {
         "name": "advanced weaponry for your explorer",
         "notification": "Our unit finds advanced weaponry hidden in the ruins!",
@@ -53,7 +59,7 @@
     {
         "name": "find a crudely-drawn map",
         "notification": "The ruins contains maps of the nearby area!",
-        "uniques": ["From a randomly chosen tile [4] tiles away, reveal tiles up to [4] tiles away with [80]% chance"]
+        "uniques": ["From a randomly chosen tile [5] tiles away, reveal tiles up to [5] tiles away with [80]% chance"]
     },
     {
         "name": "discover holy symbols",
