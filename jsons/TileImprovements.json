@@ -125,7 +125,7 @@
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
 		"turnsToBuild": 6,
 		"techRequired": "Engineering",
-		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [65]%"],
+		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [60]%"],
 		"shortcutKey": "O"
 	},
 
@@ -241,7 +241,6 @@
 		"name": "Sea fort",
 		"production": 2,
 		"terrainsCanBeBuiltOn": ["Coast"],
-		"resourceTerrainAllow": ["Coast"],
 		"uniques": ["Great Improvement", "Gives a defensive bonus of [25]%", 
 					"Adjacent enemy units ending their turn take [10] damage", 
 					"Cannot be built on [Bonus resource] tiles", "Cannot be built on [Luxury resource] tiles", 
@@ -267,19 +266,18 @@
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"gold": 1,
 		"techRequired": "Sailing",
-		"uniques": ["[+1 Food] for each adjacent [Land]", 
-					"[+2 Gold] for each adjacent [Water resource]", 
+		"uniques": ["[+1 Gold] for each adjacent [Land]", 
+					"[+1 Gold] for each adjacent [Water resource]", 
 					"Cannot be built on [Bonus resource] tiles", 
-					"Cannot be built on [Luxury resource] tiles", 
-					"[+1 Gold] <after discovering [Economics]>"]
+					"Cannot be built on [Luxury resource] tiles"]
 	},
 	{
 		"name": "Observatory",
 		"uniqueTo": "Twin Mountain",
 		"terrainsCanBeBuiltOn": ["Mountain"],
-		"science": 4,
+		"science": 2,
 		"turnsToBuild": 7,
-		"uniques": ["[+1 Food] <after discovering [Fertilizer]>"],
+		"uniques": ["[+2 Science] <after discovering [Astronomy]>"],
 		"techRequired": "Calendar",
 		"shortcutKey": "F"
 	},
@@ -287,17 +285,13 @@
 		"name": "Dhab Hunter Camp",
 		"uniqueTo": "Smeheng",
 		"terrainsCanBeBuiltOn": ["Desert"],
+		"resourceTerrainAllow": ["Desert"],
 		"food": 1,
-		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Engineering",
-		"uniques": ["[+1 Production] for each adjacent [Mine]", 
-					"[+1 Culture] for each adjacent [Quarry]"
-					"[+1 Food] for each adjacent [Fresh water]", 
+		"uniques": ["[+1 Food] for each adjacent [Mine]", 
 					"[+2 Culture] <after discovering [Acoustics]>", 
 					"Cannot be built on [Hill] tiles", 
-					"Cannot be built on [Bonus resource] tiles", 
-					"Cannot be built on [Strategic resource] tiles", 
 					"Cannot be built on [Luxury resource] tiles"],
 		"shortcutKey": "C"
 	},
@@ -308,13 +302,14 @@
 	},
 	{ 
 		"name": "City ruins", 
+		"culture": 2,
 		"uniques": ["Unpillagable"],
-        "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
+		"civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
 	},
 	{ 
 		"name": "City center", 
 		"uniques": ["Unpillagable", "Indestructible"],
-        "civilopediaText": [
+		"civilopediaText": [
 			{"text":"Marks the center of a city"},
 			{"text":"Appearance changes with the technological era of the owning civilization"}
 		]
@@ -322,6 +317,6 @@
 	{ 
 		"name": "Barbarian encampment", 
 		"uniques": ["Unpillagable"],
-        "civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
+		"civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
 	}
 ]
