@@ -2,19 +2,16 @@
 A fantasy world~
 
 
-## Changelog for v2.0.0
-- Changes Tech required for some units
-- Reduce percentage of science bonuses from science buildings
-- Update Niranna unique & UB
-- Update Polgar Sod'em unique & UB
-- Update Twin Mountain unique & UB
-- Update Torakj unique & UB
-- Update Rain Forest unique
-- Update Pantheon: Monumen Makers
-- Update Policy: Piety
+## Changelog for v2.3.0
+- Adjust Thallin uniques
+- Adjust UI for Marunesia, Semeheng, and Twin Mountain
+- Add unit sprites (incomplete)
+- Adjust some Pantheon Belief
+- Fix policies deprecated uniques
+- Remove ruleset unique: convert gold to science with sliders
 
 
 # Roadmap
-- Add unit tileset
-- Specific improvement on desert (perhaps)
-- Add Archipelago civ
+- Complete tile sprite
+- Add unit sprite
+
