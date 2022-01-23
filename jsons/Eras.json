@@ -152,7 +152,7 @@
         "startingCulture": 500,
         "settlerPopulation": 3,
         "settlerBuildings": ["Shrine","Monument","Granary","Lighthouse","Market","Walls","Workshop","Temple","Barracks","Paper Maker","Colosseum"],
-	"startingObsoleteWonders": ["Gerude", "Sukamerta", "Bandung Bondowoso", "Bubrah Tikus"],
+	"startingObsoleteWonders": ["Gerude", "Sukamerta", "Bondowoso", "Bubrah Tikus"],
         "baseUnitBuyCost": 500,
         "startPercent": 60,
         "friendBonus": {
@@ -167,7 +167,7 @@
             "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
             "Mercantile": ["Provides [+3] Happiness", "Provides a unique luxury"],
             "Religious": ["Provides [+26 Faith] per turn"],
-            "Militaristic": ["Provides military units every ≈[16] turns"]
+            "Militaristic": ["Provides military units every ≈[17] turns"]
         },
         "iconRGB": [33, 150, 243],
 		"uniques": ["May buy [Great Prophet] units for [200] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])"]
@@ -178,12 +178,12 @@
         "startingSettlerCount": 3,
         "startingWorkerCount": 3,
         "startingMilitaryUnitCount": 5,
-        "startingMilitaryUnit": "Cuirassiers",
+        "startingMilitaryUnit": "Entmates",
         "startingGold": 600,
         "startingCulture": 550,
         "settlerPopulation": 5,
         "settlerBuildings": ["Shrine","Monument","Granary","Lighthouse","Market","Walls","Workshop","Temple","Barracks","Paper Maker","Colosseum"],
-	"startingObsoleteWonders": ["Gerude", "Sukamerta", "Bandung Bondowoso", "Bubrah Tikus"],
+	"startingObsoleteWonders": ["Gerude", "Sukamerta", "Bondowoso", "Bubrah Tikus"],
         "baseUnitBuyCost": 700,
         "startPercent": 70,
         "friendBonus": {
@@ -211,12 +211,12 @@
         "startingSettlerCount": 3,
         "startingWorkerCount": 3,
         "startingMilitaryUnitCount": 5,
-        "startingMilitaryUnit": "Cuirassiers",
+        "startingMilitaryUnit": "Entmates",
         "startingGold": 650,
         "startingCulture": 600,
         "settlerPopulation": 5,
         "settlerBuildings": ["Shrine","Monument","Granary","Lighthouse","Market","Workshop","Temple","Barracks","Paper Maker","Colosseum"],
-	"startingObsoleteWonders": ["Gerude", "Sukamerta", "Bandung Bondowoso", "Bubrah Tikus", "Brahula", "Cetho Lighyn", "Kalacha"],
+	"startingObsoleteWonders": ["Gerude", "Sukamerta", "Bondowoso", "Bubrah Tikus", "Brahula", "Cetho Lighyn", "Kalacha"],
         "baseUnitBuyCost": 900,
         "startPercent": 80,
         "friendBonus": {
