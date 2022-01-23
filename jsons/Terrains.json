@@ -123,7 +123,7 @@
 		"uniques": ["Rough terrain",
 				"Has an elevation of [4] for visibility calculations",
 				"Occurs in chains at high elevations",
-				"Units ending their turn on this terrain take [25] damage"]
+				"Units ending their turn on this terrain take [15] damage"]
 	},
 	{
 		"name": "Snow",
