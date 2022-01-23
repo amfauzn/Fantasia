@@ -11,10 +11,9 @@
 		"culture": 2,
 		"cityStrength": 3,
 		"cost": 1,
-		"uniques": ["Indicates the capital city", "Double quantity of [Iron] produced", "Double quantity of [Niter] produced", 
-					"[+1 Happiness] [in this city] <starting from the [Heroic age]>", 
-					"[+1 Happiness] [in this city] <starting from the [Mythic age]>", 
-					"[+1 Happiness] [in this city] <starting from the [Chaos age]>"]
+		"uniques": ["Indicates the capital city", "[+1 Happiness] [in this city] <before the [Feudal age]>", 
+					"[+2 Happiness] [in this city] <before the [Renaissance age]>", 
+					"[+1 Happiness] [in this city] <starting from the [Heroic age]>"]
 	},
 	{
 		"name": "Para",
@@ -27,10 +26,9 @@
 		"culture": 2,
 		"cityStrength": 3,
 		"cost": 1,
-		"uniques": ["Indicates the capital city", "Double quantity of [Iron] produced", "Double quantity of [Niter] produced",  
+		"uniques": ["Indicates the capital city", "[+1 Happiness] [in this city] <before the [Feudal age]>", 
+					"[+2 Happiness] [in this city] <before the [Renaissance age]>", 
 					"[+1 Happiness] [in this city] <starting from the [Heroic age]>", 
-					"[+1 Happiness] [in this city] <starting from the [Mythic age]>", 
-					"[+1 Happiness] [in this city] <starting from the [Chaos age]>", 
 					"[-50]% unhappiness from population [in this city]"]
 	},
 	{
@@ -124,7 +122,7 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
-		"name": "Bandung Bondowoso",
+		"name": "Bondowoso",
 		"culture": 1,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
@@ -163,7 +161,7 @@
         "quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
     },
 	{
-		"name": "Kampong Ayer",
+		"name": "Kampong Aer",
 		"uniqueTo": "Marunesia",
 		"happiness": 1,
 		"cost": 1,
@@ -215,7 +213,6 @@
 	},
 	{
 		"name": "Butchery Camp",
-		"production": 2,
 		"food": 3,
 		"maintenance": 1,
 		"requiredNearbyImprovedResources": ["Mammoth"],
@@ -268,6 +265,7 @@
 	{
 		"name": "Bubrah Tikus",
 		"culture": 2,
+		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
 		"requiredTech": "Bronze Working",
@@ -309,7 +307,7 @@
 	{
 		"name": "'Ndragheta",
 		"culture": 1,
-		"greatPersonPoints": {"Great Engineer": 1},
+		"greatPersonPoints": {"Great Artist": 2},
 		"isWonder": true,
 		"uniques": ["[+25]% [Culture] [in this city]", "[-25]% Culture cost of acquiring tiles [in all cities]", 
 					"[-25]% Gold cost of acquiring tiles [in all cities]"],
@@ -319,7 +317,7 @@
 	{
 		"name": "Kalacha",
 		"culture": 3,
-		"greatPersonPoints": {"Great Scientist": 1},
+		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["Free Social Policy"],
 		"requiredTech": "Poetry",
@@ -385,7 +383,7 @@
 		"name": "Great Pyramid",
 		"culture": 2,
 		"faith": 3,
-		"greatPersonPoints": {"Great Engineer": 1},
+		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
 		"uniques": ["Gain a free [Mosque] [in this city]", "Gain a free [Cathedral] [in this city]", "Hidden when religion is disabled",
 					"[Missionary] units built [in this city] can [Spread Religion] [1] extra times", "Free [Great Prophet] appears"],
@@ -411,19 +409,9 @@
 		"requiredTech": "Civil Service"
 	},
 	{
-		"name": "Rheog Baddan",
-		"culture": 1,
-		"happiness": 4,
-		"greatPersonPoints": {"Great Engineer": 1},
-		"isWonder": true,
-		"uniques": ["Golden Age length increased by [50]%"],
-		"requiredTech": "Civil Service",
-		"quote": "'He got better in the end, but nobody cared much about that'  - Roger Lancelyn Green"
-	},
-	{
 		"name": "Market",
 		"gold": 2,
-		"specialistSlots": {"Merchant": 1},
+		"specialistSlots": {"Merchant": 2},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Currency"
@@ -463,6 +451,16 @@
 		"hurryCostModifier": 0,
 		"uniques": ["[40]% of food is carried over [in this city] after population increases"],
 		"requiredTech": "Engineering"
+	},
+	{
+		"name": "Rheog Baddan",
+		"culture": 1,
+		"happiness": 4,
+		"greatPersonPoints": {"Great Artist": 1},
+		"isWonder": true,
+		"uniques": ["[+50%] Golden Age length"],
+		"requiredTech": "Engineering",
+		"quote": "'He got better in the end, but nobody cared much about that'  - Roger Lancelyn Green"
 	},
 	{
 		"name": "Workshop",
@@ -571,7 +569,7 @@
 	{
 		"name": "Ulick Myne",
 		"culture": 1,
-		"greatPersonPoints": {"Great Artist": 1},
+		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
 		"percentStatBonus": {"culture": 20},
 		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Drill I] promotion",
@@ -597,7 +595,6 @@
 		"isNationalWonder": true,
 		"percentStatBonus": {"gold": 25},
 		"greatPersonPoints": {"Great Merchant": 1},
-		"specialistSlots": {"Merchant": 1},
 		"uniques": ["Requires a [Market] in all cities", "Cost increases by [25] per owned city"],
 		"requiredTech": "Guilds"
 	},
@@ -611,16 +608,14 @@
 		"isNationalWonder": true,
 		"percentStatBonus": {"gold": 35},
 		"greatPersonPoints": {"Great Merchant": 1},
-		"specialistSlots": {"Merchant": 1},
-		"requiredBuilding": "Paper Maker",
-		"uniques": ["Requires a [Market] in all cities", "[+4 Gold] from [Mountain] tiles [in all cities]", 
+		"uniques": ["Requires a [Market] in all cities", "[+2 Production, +4 Gold] from [Mountain] tiles [in all cities]", 
 			"Cost increases by [25] per owned city"],
 		"requiredTech": "Astronomy"
 	},
 	{
-		"name": "Lonely Mountain",
+		"name": "Mountain of Loneliness",
 		"gold": 5,
-		"greatPersonPoints": {"Great Merchant": 1},
+		"greatPersonPoints": {"Great Merchant": 2},
 		"culture": 1,
 		"isWonder": true,
 		"uniques": ["Gold from all trade routes +25%","Must have an owned [Mountain] within [2] tiles"],
@@ -671,9 +666,10 @@
 		"cost": 150,
 		"production": 8,
 		"culture": 1,
+		"greatPersonPoints": {"Great Engineer": 1},
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [25] per owned city", 
-					"[+5]% Production when constructing [All] buildings [in this city]", "[+5]% Production when constructing [Melee] units [in this city]"],
+					"Free [Great Engineer] appears", "[+5]% Production when constructing [All] buildings [in this city]"],
 		"requiredTech": "Steel"
 	},
 	// Column 7
@@ -692,7 +688,7 @@
 		"culture": 2,
 		"cityStrength": 10,
 		"isWonder": true,
-		"uniques": ["Gain a free [Watchtower] [in this city]", "+[25]% Defensive Strength for cities", "Free [Watcher] appears"],
+		"uniques": ["Gain a free [Watchtower] [in this city]", "[+25]% Strength for cities <when defending>", "Free [Watcher] appears"],
 		"requiredTech": "Astronomy",
 		"quote": "'The Law is a fortress on a hill that armies cannot take or floods wash away.' - The Prophet Muhammed"
 	},
@@ -712,10 +708,10 @@
 		"uniqueTo": "Sulvana",
 		"culture": 5,
 		"specialistSlots": {"Artist": 1},
-		"greatPersonPoints": {"Great Artist": 2},
+		"greatPersonPoints": {"Great Artist": 1},
 		"hurryCostModifier": 10,
 		"requiredBuilding": "Pyramid",
-		"maintenance": 2,
+		"maintenance": 0,
 		"requiredTech": "Acoustics",
 		"uniques": ["Destroyed when the city is captured"]
 	},
@@ -746,7 +742,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"gold": 30},
-		"uniques": ["+5% Production for every Trade Route with a City-State in the empire"],
+		"uniques": ["[+1 Gold] from every specialist [in this city]"],
 		"requiredBuilding": "Market",
 		"requiredTech": "Loans and Saving"
 	},
@@ -785,8 +781,8 @@
 	{
 		"name": "Bastar Dussehra",
 		"cost": 200,
-		"percentStatBonus": {"culture": 65},
-		"culture": 5,
+		"percentStatBonus": {"culture": 50},
+		"culture": 6,
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Pyramid] in all cities", "Free Social Policy", "Cost increases by [25] per owned city"],
 		"requiredTech": "Architecture"
@@ -822,9 +818,9 @@
 	{
 		"name": "God's Messenger Monument",
 		"culture": 3,
-		"greatPersonPoints": {"Great Scientist": 2},
+		"greatPersonPoints": {"Great Artist": 2},
 		"isWonder": true,
-		"uniques": ["Free [Great Scientist] appears", "Free [Great Artist] appears", "Free [Great Merchant] appears", "Free [Great Prophet] appears"],
+		"uniques": ["Free [Great Artist] appears", "Free [Great Merchant] appears", "Free [Great Prophet] appears"],
 		"requiredTech": "Mass Media",
 		"quote": "'The body is wiser than its inhabitants. The body is God's messenger' - Horace"
 	},
@@ -905,10 +901,10 @@
 		"name": "Platinum Star",
 		"culture": 1,
 		"happiness": 4,
-		"greatPersonPoints": {"Great Artist": 2},
+		"greatPersonPoints": {"Great Scientist": 2},
 		"specialistSlots": {"Engineer": 1},
 		"isWonder": true,
-		"uniques": ["Free [Great Engineer] appears", "Empire enters golden age", "Must be next to [Coast]", "Free [Watcher] appears"],
+		"uniques": ["Free [Great Scientist] appears", "Empire enters golden age", "Must be next to [Coast]", "Free [Watcher] appears"],
 		"requiredTech": "Navigation",
 		"quote": "'Watch the stars, and see yourself running with them.' - Marcus Aurelius"
 	},
@@ -951,7 +947,7 @@
 		"happiness": 1,
 		"culture": 1,
 		"percentStatBonus": {"production": 15},
-		"requiredBuilding": "Public School",
+		"requiredBuilding": "Workshop",
 		"maintenance": 3,
 		"requiredTech": "Dynamite",
 		"uniques": ["Must not be on [Grassland]", "Must not be on [Tundra]", "Must not be on [Snow]", 
@@ -1027,7 +1023,7 @@
 	{
 		"name": "Pavilion",
 		"maintenance": 4,
-		"requiredNearbyImprovedResources": ["Bison","Cattle","Sheep","Fish"],
+		"requiredNearbyImprovedResources": ["Bison","Cattle","Sheep"],
 		"hurryCostModifier": 10,
 		"uniques": ["Provides [3] [Meatball]", "Limited to [5] per Civilization"],
 		"requiredTech": "Cultivication"
@@ -1056,6 +1052,7 @@
 	{
 		"name": "Monument to the God",
 		"culture": 2,
+		"greatPersonPoints": {"Great Engineer": 1},
 		"isNationalWonder": true,
 		"uniques": ["Triggers a global alert upon completion", "Provides [1] [God's Key]"],
 		"requiredTech": "Sacred Path"
@@ -1064,6 +1061,7 @@
 	{
 		"name": "Ancestor's Altar",
 		"culture": 2,
+		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
 		"uniques": ["Provides [1] [Titan]", "Not displayed as an available construction without [God's Key]"],
 		"requiredResource": "God's Key",
@@ -1073,6 +1071,7 @@
 		"name": "Hammer's Altar",
 		"production": 1,
 		"culture": 1,
+		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
 		"uniques": ["[+1 Production] per [3] population [in all cities]", "Not displayed as an available construction without [God's Key]"],
 		"requiredResource": "God's Key",
@@ -1081,6 +1080,7 @@
 	{
 		"name": "Garuda's Altar",
 		"culture": 2,
+		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
 		"uniques": ["Provides [1] [Garuda's Egg]", "Not displayed as an available construction without [God's Key]"],
 		"requiredResource": "God's Key",
@@ -1089,6 +1089,7 @@
 	{
 		"name": "Kraken's Altar",
 		"culture": 2,
+		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
 		"uniques": ["Provides [1] [Kraken's Baby]", "Not displayed as an available construction without [God's Key]"],
 		"requiredResource": "God's Key",
@@ -1097,6 +1098,7 @@
 	{
 		"name": "Weapon's Altar",
 		"culture": 2,
+		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
 		"uniques": ["[+1] Range <for [AirTerror] units>", "[+2] Range <for [Air] units>", "[+2] Movement <for [Land] units>", 
 					"[+1] Sight <for [Water] units>", "Not displayed as an available construction without [God's Key]"],
@@ -1107,8 +1109,9 @@
 		"name": "Love's Altar",
 		"culture": 1,
 		"happiness": 1,
+		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
-		"uniques": ["[+1 Happiness] per [5] population [in all cities]", "Not displayed as an available construction without [God's Key]"],
+		"uniques": ["[+2 Happiness] per [8] population [in all cities]", "Not displayed as an available construction without [God's Key]"],
 		"requiredResource": "God's Key",
 		"requiredTech": "Goddess of Love"
 	},
@@ -1117,14 +1120,16 @@
 		"culture": 2,
 		"cityStrength": 5,
 		"cityHealth": 100,
+		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
-		"uniques": ["+[33]% Defensive Strength for cities", "Not displayed as an available construction without [God's Key]"],
+		"uniques": ["[+33]% Strength for cities <when defending>", "Not displayed as an available construction without [God's Key]"],
 		"requiredResource": "God's Key",
 		"requiredTech": "Goddess of Protection"
 	},
 	{
 		"name": "Festival's Altar",
 		"culture": 2,
+		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
 		"uniques": ["[+1 Culture] [in all cities]", "[+1 Culture] from [Wine] tiles [in all cities]", "[+1 Culture] from [Incense] tiles [in all cities]", 
 					"[+1 Culture] from [Sugar] tiles [in all cities]", "[+1 Culture] from [Salt] tiles [in all cities]", 
@@ -1137,6 +1142,7 @@
 		"name": "Hunt's Altar",
 		"food": 1,
 		"culture": 1,
+		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
 		"uniques": ["[+10]% [Food] [in all cities]", "[+1] [Food] from every [Camp]", "Not displayed as an available construction without [God's Key]"],
 		"requiredResource": "God's Key",
@@ -1145,6 +1151,7 @@
 	{
 		"name": "Hero's Altar",
 		"culture": 2,
+		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
 		"uniques": ["Provides [2] [Hero Candidate]", "Not displayed as an available construction without [God's Key]"],
 		"requiredResource": "God's Key",
@@ -1159,7 +1166,7 @@
 		"cost": 380,
 		"production": 3,
 		"requiredResource": "Uranium",
-		"uniques": ["Requires [Elementallist Program]", "[+50]% Production when constructing [Elementallist] buildings [in this city]", 
+		"uniques": ["Requires [Elementallist Program]", "[+50]% Production when constructing [Elementallist] wonders [in this city]", 
 					"All newly-trained [Land] units [in this city] receive the [Breakthrough] promotion"],
 		"requiredTech": "Enlightment"
 	},
@@ -1209,7 +1216,7 @@
 		"name": "The Round Table",
 		"isWonder": true,
 		"culture": 1,
-		"greatPersonPoints": {"Great Merchant": 2},
+		"greatPersonPoints": {"Great Artist": 1,"Great Engineer": 1,"Great Merchant": 1,"Great Scientist": 1},
 		"requiredTech": "Flight",
 		"uniques": ["Triggers voting for the Diplomatic Victory", "Hidden when [Diplomatic] Victory is disabled", "Triggers a global alert upon completion"],
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together.' - Kofi Annan"
@@ -1220,7 +1227,7 @@
 		"requiredResource": "Uranium",
 		"cost": 250,
 		"isNationalWonder": true,
-		"requiredTech": "Combustion",
+		"requiredTech": "Mana Manipulation",
 		"uniques": ["Elementallist", "Provides [1] [Elements]", "Triggers a global alert upon completion", "Cannot be purchased", 
 					"Hidden when [Scientific] Victory is disabled"]
 	},
@@ -1272,7 +1279,7 @@
 		"culture": 1,
 		"faith": 3,
 		"happiness": 1,
-		"uniques": ["Unbuildable","[25]% of food is carried over [in this city] after population increases", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "[25]% of food is carried over [in this city] after population increases", "Hidden when religion is disabled"]
 	},
 	{
 		"name": "Mosque",
@@ -1300,75 +1307,75 @@
 	
 	// Specific Unique Buildings
 	{
-        "name": "Free Fury1",
+        	"name": "Free Fury1",
 		"uniqueTo": "Urg",
-        "cost": 1,
+        	"cost": 1,
 		"cityHealth": 1,
 		"uniques": ["Requires [Dark age]", "Can only be built [in capital]", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
-    },
+    	},
 	{
-        "name": "Free Fury2",
+        	"name": "Free Fury2",
 		"uniqueTo": "Urg",
-        "cost": 1,
+        	"cost": 1,
 		"cityHealth": 1,
 		"uniques": ["Requires [Classical age]", "Can only be built [in capital]", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
-    },
+    	},
 	{
-        "name": "Free Fury3",
+        	"name": "Free Fury3",
 		"uniqueTo": "Urg",
-        "cost": 1,
+        	"cost": 1,
 		"cityHealth": 1,
 		"uniques": ["Requires [Feudal age]", "Can only be built [in capital]", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
-    },
+    	},
 	{
-        "name": "Free Fury4",
+        	"name": "Free Fury4",
 		"uniqueTo": "Urg",
-        "cost": 1,
+        	"cost": 1,
 		"cityHealth": 1,
 		"uniques": ["Requires [Renaissance age]", "Can only be built [in capital]", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
-    },
+    	},
 	{
-        "name": "Free Fury5",
+        	"name": "Free Fury5",
 		"uniqueTo": "Urg",
-        "cost": 1,
+        	"cost": 1,
 		"cityHealth": 1,
 		"uniques": ["Requires [Heroic age]", "Can only be built [in capital]", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
-    },
+    	},
 	{
-        "name": "Free Fury6",
+        	"name": "Free Fury6",
 		"uniqueTo": "Urg",
-        "cost": 1,
+        	"cost": 1,
 		"cityHealth": 2,
 		"uniques": ["Requires [Mythic age]", "Can only be built [in capital]", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
-    },
+    	},
 	{
-        "name": "Free Fury7",
+        	"name": "Free Fury7",
 		"uniqueTo": "Urg",
-        "cost": 1,
+        	"cost": 1,
 		"cityHealth": 2,
 		"uniques": ["Requires [Chaos age]", "Can only be built [in capital]", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
-    },
+    	},
 	{
-        "name": "Free Fury8",
+        	"name": "Free Fury8",
 		"uniqueTo": "Urg",
-        "cost": 1,
+        	"cost": 1,
 		"cityHealth": 1,
 		"uniques": ["Requires [Future age]", "Can only be built [in capital]", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
-    },
+    	},
 	{
 		"name": "Astana",
 		"uniqueTo": "Thallin",
 		"isNationalWonder": true,
 		"cost": 1,
-		"greatPersonPoints": {"Great Artist": 1},
+		"greatPersonPoints": {"Great Artist": 2},
 		"uniques": ["Cannot be built with [~limit]", "Gain a free [~limit] [in this city]", "Destroyed when the city is captured", 
 					"Will not be displayed in Civilopedia"]
 	},
@@ -1377,7 +1384,6 @@
 		"uniqueTo": "Thallin",
 		"isNationalWonder": true,
 		"cost": 1,
-		"greatPersonPoints": {"Great Artist": 1},
 		"uniques": ["Cannot be built with [~limit]", "Gain a free [~limit] [in this city]", "Destroyed when the city is captured", 
 					"Will not be displayed in Civilopedia"]
 	},
@@ -1386,7 +1392,6 @@
 		"uniqueTo": "Thallin",
 		"isNationalWonder": true,
 		"cost": 1,
-		"greatPersonPoints": {"Great Artist": 1},
 		"uniques": ["Cannot be built with [~limit]", "Gain a free [~limit] [in this city]", "Destroyed when the city is captured", 
 					"Will not be displayed in Civilopedia"]
 	},
@@ -1397,5 +1402,14 @@
 		"cityStrength": 1,
 		"uniques": ["[-25]% unhappiness from population [in this city]", "Destroyed when the city is captured", "Will not be displayed in Civilopedia", 
 					"Unbuildable", "Unsellable"],
-    }
+    	},
+	{
+		"name": "Free Artist",
+		"uniqueTo": "Thallin",
+		"isNationalWonder": true,
+		"cost": 1,
+		"cityHealth": 2,
+		"uniques": ["Requires [Tradition Complete]", "Can only be built [in capital]", "Free [Para Artist] appears", "Unsellable", 
+					"Will not be displayed in Civilopedia"]
+	},
 ]
