@@ -1,27 +1,54 @@
-
-Inspired by:
+# Notes
+## Inspired by:
 * [Unciv](https://github.com/yairm210/Unciv) by yairm210
 * [DeCiv Redux](https://github.com/SpacedOutChicken/DeCiv-Redux) by SpacedOutChicken
 * [RekMOD](https://github.com/ravignir/RekMOD) by Ravignir
 
-Contains stuff from mods:
+## Contains stuff from mods:
 * [DeCiv Redux](https://github.com/SpacedOutChicken/DeCiv-Redux) by SpacedOutChicken
 * [RekMOD](https://github.com/ravignir/RekMOD) by Ravignir
 * [Extra Resources](https://github.com/Cavenir/Extra-Resources) by Cavenir
+* [More Luxuries] (https://github.com/Subcher/More-Luxuries) by Subcher
 * [LOTR Unciv](https://github.com/ravignir/LOTR-Unciv) by Ravignir
 
-Any images not listed below are either taken from base game - [Unciv credits](https://github.com/yairm210/Unciv/blob/master/docs/Credits.md) -
+
+# Credits
+Art by GeneralWadaling AKA The Bucketeer, Ravignir, AdityaMH and me.
+
+Lots images are either taken from [the Noun Project](https://thenounproject.com) licenced under either Creative Commons or Public Domain
 or from mods listed above.
 
-The following are from [the Noun Project](https://thenounproject.com) licenced under either Creative Commons or Public Domain
+## Technology Icons
+* Alchemy: [Algae](https://github.com/SpacedOutChicken/DeCiv-Redux/tree/main/Images/ResourceIcons/Algae.png)
+* Anchestor Ruler: [Colossus](https://github.com/yairm210/Unciv/tree/master/android/Images.Construction/BuildingIcons/Colossus.png)
+* Biology: [Harvested Organs](https://github.com/SpacedOutChicken/DeCiv-Redux/tree/main/Images/ResourceIcons/Harvested-Organs.png)
+* Cultivication: [taoism](https://thenounproject.com/search/?q=Taoism&i=740812) by parkjisun
+* Domestication: [Horse Riding](https://thenounproject.com/term/horse-riding/583093/) by Hea Poh Lin
+* Enlightment: [yell](https://thenounproject.com/term/yell/4159889/) by Adrien Coquet
+* Final tech: [Electronics](https://thenounproject.com/search/?q=Electronics&i=1565843) by Cuby Design
+* Foresight: [foresight] (https://thenounproject.com/term/foresight/3293552/) by Atif Arshad
+* Future tech: [Electricity](https://thenounproject.com/term/electricity/816936/) by Ben Davis
+* God of Craftsman: [Mine](https://thenounproject.com/term/mine/543/) by Edward Boatman
+* God of the Open Sky: [Pioneer](https://github.com/Ravignir/RekMOD/tree/main/Images/UnitIcons/Pioneer.png)
+* God of the Sea: [Kraken](https://thenounproject.com/icon/kraken-4135921/) by Amethyst Studio
+* God of War: [Tactics](https://thenounproject.com/search/?q=tactics&i=2290123) by Grafix Point
+* Goddess of Festival: [Helmet](https://thenounproject.com/term/helmet/1514355/) by Robert Bjurshagen
+* Goddess of Love: [Love](https://thenounproject.com/icon/love-2121233/) by Marie Van den Broeck
+* Goddes of Protection: [Shield](https://thenounproject.com/term/shield/874633/) by Kimmi Studio
+* Goddess of the Hunt: [Hunting Trophy](https://thenounproject.com/icon/hunting-trophy-4459362/) by elasticlstudio
+* Gunpowder: [Cannon](https://thenounproject.com/search/?q=Cannon&i=1618747) by Orin Zuu
+* Heroism Banner: [Heroic Epic](https://github.com/yairm210/Unciv/tree/master/android/Images.Construction/BuildingIcons/Heroic-Epic.png)
+* Loans and Saving: [Banking](https://thenounproject.com/term/banking/763867/) by Delwar Hossein
+* Mana Manipulation: [Fire](https://thenounproject.com/icon/fire-1635187/) by emilegraphics
+* Philosophy: [humanities](https://thenounproject.com/icon/humanities-3451758/) by P Thanga Vignesh
+* Poetry: [Theatre](https://thenounproject.com/term/theatre/1780401/) by b farias
+* Railroads: [Chariot](https://thenounproject.com/search/?q=Chariot&i=1189930) by Andrew Doane
+* Sacred Path: [praying](https://thenounproject.com/term/praying/740809/) by parkjisun
+* Telepathy: [Brain](https://thenounproject.com/term/brain/64073/) by Tony Gines
+
+
 * Eggs: [Eggs](https://thenounproject.com/icon/eggs-1119369/) by Danil Polshin
 * Lightsabermen: [Lightsaber](https://thenounproject.com/icon/lightsaber-1933705/) by Vectors Market
-* Order of Maesters: [Meeting](https://thenounproject.com/icon/meeting-1809789/) by Graphic Enginer
-* Midnight Propechy: [Foresight](https://thenounproject.com/term/foresight/3293552/) by Atif Arshad
-* Festival's Altar: [Festival](https://thenounproject.com/icon/festival-3406187/) by Alice Design
-* Hunt's Altar: [Hunting Trophy](https://thenounproject.com/icon/hunting-trophy-4459362/) by elasticlstudio
-* Kraken's Altar: [Kraken](https://thenounproject.com/icon/kraken-4135921/) by Amethyst Studio
-* Love's Altar: [Love](https://thenounproject.com/icon/love-2121233/) by Marie Van den Broeck
 * Megall: [Shark](https://thenounproject.com/icon/shark-1481710/) by Kick
 * Blackmen: [Knight](https://thenounproject.com/icon/knight-3155839/) by Eucalyp
 * Leonidas: [Man](https://thenounproject.com/icon/man-13856/) by Joshua McMahan
@@ -30,3 +57,6 @@ The following are from [the Noun Project](https://thenounproject.com) licenced u
 * Ice-calator: [glacier](https://thenounproject.com/icon/glacier-3334696/) by Firza Alamsyah
 * Twin Mountain: [Mountain](https://thenounproject.com/icon/mountain-1157665/) by Sandra
 * Wolf Rider: [Wolf](https://thenounproject.com/icon/wolf-151723/) by Jason Dilworth
+
+
+ ... (incomplete)
