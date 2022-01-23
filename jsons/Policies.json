@@ -32,7 +32,7 @@
 			},
 			{
 				"name": "Monarchy",
-				"uniques": ["[+1 Gold, +1 Happiness] per [2] population [in capital]", "[+1 Production] per [4] population [in capital]"],
+				"uniques": ["[+1 Gold, +1 Happiness] per [2] population [in capital]", "[+1 Production] per [5] population [in capital]"],
 				"requires": ["Legalism"],
 				"row": 2,
 				"column": 4
@@ -104,7 +104,7 @@
 			},
 			{
 				"name": "Discipline",
-				"uniques":["[+15]% Strength for [Melee] units which have another [Military] unit in an adjacent tile", "[4] units cost no maintenance"],
+				"uniques":["[+15]% Strength <for [Melee] units> <when adjacent to a [Military] unit>", "[4] units cost no maintenance"],
 				"row": 1,
 				"column": 4
 			},
@@ -124,7 +124,7 @@
 			},
 			{
 				"name": "Professional Army",
-				"uniques": ["Gold cost of upgrading [Military] units reduced by [33]%", "[+1 Happiness] from every [Walls]",
+				"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>", "[+1 Happiness] from every [Walls]",
 							"[+1 Happiness] from every [Castle]", "[+1 Happiness] from every [Arsenal]", "[+1 Happiness] from every [Moat]", 
 							"[+1 Happiness] from every [Countermeasures Council]", 
 							"[+100]% Production when constructing [Barracks] buildings [in all cities]"],
@@ -169,7 +169,7 @@
 			},
 			{
 				"name": "Theocracy",
-				"uniques": ["+[10]% [Gold] from every [Temple]", "[+1 Happiness] from every [Temple]"],
+				"uniques": ["[+10]% [Gold] from every [Temple]", "[+1 Happiness] from every [Temple]"],
 				"requires": ["Organized Religion"],
 				"row": 2,
 				"column": 5
@@ -201,7 +201,7 @@
 			},
 			{
 				"name": "Wisdom",
-				"uniques": ["+[5]% [Gold] from every [National Treasury]",
+				"uniques": ["[+5]% [Gold] from every [National Treasury]",
 							"[50]% of excess happiness converted to [Culture]"],
 				"row": 1,
 				"column": 5
@@ -215,23 +215,21 @@
 			},
 			{
 				"name": "Cultural Exchange",
-				"uniques": ["[+1 Culture] from every [Market]", "[+1 Culture] from every [Trading post]", "[+1 Culture] from every [Great Improvement]", 
-							"[+2 Culture] from every Wonder"],
+				"uniques": ["[+1 Culture] from every [Trading post]", "[+1 Culture] from every [Information Market]"],
 				"requires": ["Wisdom"],
 				"row": 2,
 				"column": 5
 			},
 			{
 				"name": "Spiritual Tolerance",
-				"uniques": ["Free Social Policy", "[+1 Culture] from every [Pyramid]", "[+1 Culture] from every [Monastery]", 
-							"[+1 Happiness] from every [Composer Hall]"],
+				"uniques": ["Free Social Policy", "[+1 Culture] from every [Monastery]", "[+1 Happiness] from every [Composer Hall]"],
 				"requires": ["Reformation"],
 				"row": 3,
 				"column": 2
 			},
 			{
 				"name": "Legacy Complete",
-				"uniques": ["Culture cost of adopting new Policies reduced by [20]%", "[+3 Culture] from every [Landmark]", 
+				"uniques": ["[-20]% Culture cost of adopting new policies", "[+3 Culture] from every [Landmark]", 
 							"May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250]) <starting from the [Heroic age]>"],
 			} 
 		]
@@ -239,7 +237,7 @@
 	{
 		"name": "Patronage",
 		"era": "Feudal age",
-		"uniques": ["City-State Influence degrades [25]% slower"],
+		"uniques": ["[-25]% City-State Influence degradation"],
 		"policies": [
 			{
 				"name": "Philantropy",
@@ -250,7 +248,7 @@
 			{
 				"name": "Aesthetics",
 				"uniques": ["Resting point for Influence with City-States is increased by [20]", 
-							"Happiness from Luxury Resources gifted by City-States increased by [50]%"],
+							"[+50]% Happiness from luxury resources gifted by City-States"],
 				"row": 1,
 				"column": 4
 			},
@@ -263,8 +261,8 @@
 			},
 			{
 				"name": "Cultural Diplomacy",
-				"uniques": ["[+50]% [Culture] from City-States", 
-							"Quantity of Resources gifted by City-States increased by [100]%"],
+				"uniques": ["[+25]% [Culture] from City-States", 
+							"[+100]% resources gifted by City-States"],
 				"requires": ["Scholasticism"],
 				"row": 3,
 				"column": 2
@@ -292,7 +290,7 @@
 		"policies": [
 			{
 				"name": "Trade Unions",
-				"uniques": ["Maintenance on roads & railroads reduced by [33]%", "[+1 Gold] from each Trade Route"],
+				"uniques": ["[-33]% maintenance on roads & railroads", "[+1 Gold] from each Trade Route"],
 				"row": 1,
 				"column": 2
 			},
@@ -321,14 +319,14 @@
 			},
 			{
 				"name": "Protectionism",
-				"uniques": ["+[2] happiness from each type of luxury resource"],
+				"uniques": ["[+2] happiness from each type of luxury resource"],
 				"requires": ["Entrepreneurship", "Merchant Navy"],
 				"row": 3,
 				"column": 3
 			},
 			{
 				"name": "Commerce Complete",
-				"uniques": ["[+1 Gold] from every [Trading post]", "Double gold from Great Merchant trade missions", 
+				"uniques": ["[+1 Gold] from every [Trading post]", "[+100]% Gold from Great Merchant trade missions", 
 							"May buy [Great Merchant] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250]) <starting from the [Heroic age]>", 
 							"May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250]) <starting from the [Heroic age]>"
 				]
@@ -356,7 +354,7 @@
 			{
 				"name": "Free Thought",
 				"uniques": ["[+1 Science] from every [Trading post]", "[+1 Science] from every [Information Market]", "[+3 Science] from every [Academy]", 
-							"+[17]% [Science] from every [Public School]"],
+							"[+17]% [Science] from every [Public School]"],
 				"requires": ["Secularism"],
 				"row": 2,
 				"column": 1
@@ -403,14 +401,14 @@
 			},
 			{
 				"name": "Communism",
-				"uniques": ["+[33]% Defensive Strength for cities"],
+				"uniques": ["[+33]% Strength for cities <when defending>"],
 				"requires": ["Civil Society"],
 				"row": 2,
 				"column": 1
 			},
 			{
 				"name": "Socialism",
-				"uniques": ["-[15]% maintenance cost for buildings [in all cities]"],
+				"uniques": ["[-15]% maintenance cost for buildings [in all cities]"],
 				"requires": ["Civil Society"],
 				"row": 2,
 				"column": 3
@@ -424,8 +422,8 @@
 			},
 			{
 				"name": "Quixotic A Complete",
-				"uniques": ["+[100]% yield from every [Great Improvement]", "Golden Age length increased by [50]%", 
-							"[+1 Food, +1 Production, +1 Science, +1 Gold, +1 Culture] [in all cities]"
+				"uniques": ["[+50]% Yield from every [Great Improvement]", "[+50]% Golden Age length", 
+							"[+1 Food, +1 Science, +1 Culture] [in all cities]"
 				]
 			}
 		]
