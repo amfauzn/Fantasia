@@ -359,6 +359,7 @@
 			},
 			{
 				"name": "Pharmaceuticals",
+				"uniques": ["May buy [Mercenary Supplier] units for [300] [Gold] [in all cities]"],
 				"row": 7,
 				"prerequisites": ["Fertilizer","Military Science"],
 				"quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero"
@@ -531,10 +532,10 @@
 				"quote": "'For once you have tasted flight you will walk the earth with your eyes turned skywards, for there you have been and there you will long to return.' - Leonardo da Vinci"
 			},
 			{
-				"name": "Combustion",
+				"name": "Mana Manipulation",
 				"row": 6,
 				"prerequisites": ["Enlightment"],
-				"quote": "'When you boil it down, it's still a gas combustion engine.' - Dana Brunetti"
+				"quote": "'It is obvious that while science is struggling to bring Heaven to Earth some men are using its materials in the construction of Hell.' - Herbert Hoover"
 			},
 			{
 				"name": "Lasers",
@@ -554,7 +555,7 @@
 			{
 				"name": "Future tech",
 				"row": 5,
-				"prerequisites": ["Telepathy","Foresight","Flight","Combustion","Lasers"],
+				"prerequisites": ["Telepathy","Foresight","Flight","Mana Manipulation","Lasers"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			}
 		]
