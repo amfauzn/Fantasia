@@ -23,8 +23,8 @@
 		"food": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
-		"uniques": ["Generated on every [15] tiles <in [Featureless] [Grassland] tiles>",
-					"Generated on every [20] tiles <in [Featureless] [Grassland] tiles> <in [Hill] Regions>"]
+		"uniques": ["Generated on every [16] tiles <in [Featureless] [Grassland] tiles>",
+					"Generated on every [22] tiles <in [Featureless] [Grassland] tiles> <in [Hill] Regions>"]
 	},
 	{
 		"name": "Deer",
@@ -54,7 +54,8 @@
 		"terrainsCanBeFoundOn": ["Plains","Hill"],
 		"food": 1,
 		"improvement": "Pasture",
-		"improvementStats": {"food": 1}
+		"improvementStats": {"food": 1},
+		"uniques": ["Generated on every [13] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>"]
 	},
 	{
 		"name": "Stone",
@@ -94,7 +95,15 @@
 		"production": 1,
 		"improvement": "Pasture",
 		"improvementStats": {"production": 1},
-		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 9},
+		"uniques": ["Guaranteed with Strategic Balance resource option",
+					"Generated with weight [100] <in [Featureless] [Grassland] tiles>",
+					"Generated with weight [100] <in [Featureless] [Plains] tiles>",
+					"Minor deposits generated with weight [10] <in [Grassland] [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+					"Minor deposits generated with weight [10] <in [Plains] [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+					"Minor deposits generated with weight [100] <in [Featureless] [Grassland] tiles> <in [Fresh Water] tiles>",
+					"Minor deposits generated with weight [20] <in [Featureless] [Grassland] tiles> <in tiles without [Fresh Water]>",
+					"Minor deposits generated with weight [30] <in [Featureless] [Plains] tiles>"],
+		"majorDepositAmount": {"sparse": 4, "default": 4, "abundant": 6},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
 	{
@@ -119,8 +128,8 @@
 					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Tundra] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Snow] tiles>"],
-		"majorDepositAmount": {"sparse": 5, "default": 8, "abundant": 10},
-		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 9},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 	{
 		"name": "Mammoth",
@@ -154,7 +163,7 @@
 		"production": 1,
 		"improvement": "Taming",
 		"improvementStats": {"production": 1},
-		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
+		"majorDepositAmount": {"sparse": 3, "default": 4, "abundant": 5},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 	{
@@ -165,16 +174,27 @@
 	{
 		"name": "Kyber",
 		"resourceType": "Strategic",
+		"revealedBy": "Alchemy",
 		"uniques": ["Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Niter",
 		"resourceType": "Strategic",
 		"revealedBy": "Alchemy",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill"],
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow"],
 		"production": 1,
 		"improvement": "Quarry",
 		"improvementStats": {"production": 2},
+		"uniques": ["Guaranteed with Strategic Balance resource option",
+					"Generated with weight [35] <in [Featureless] [Tundra] tiles>",
+					"Generated with weight [50] <in [Featureless] [Snow] tiles>",
+					"Generated with weight [35] <in [Featureless] [Desert] tiles>",
+					"Generated with weight [40] <in [Featureless] [Grassland] tiles>",
+					"Minor deposits generated with weight [10] <in [Featureless] [Grassland] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
+					"Minor deposits generated with weight [20] <in [Featureless] [Plains] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles> <in tiles without [Fresh Water]>",
+					"Minor deposits generated with weight [10] <in [Featureless] [Tundra] tiles>",
+					"Minor deposits generated with weight [10] <in [Featureless] [Snow] tiles>"],
 		"majorDepositAmount": {"sparse": 5, "default": 8, "abundant": 10},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
@@ -275,7 +295,7 @@
 	{
 		"name": "Copper",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Plains","Grassland","Desert","Tundra","Snow"],
+		"terrainsCanBeFoundOn": ["Plains","Grassland","Desert","Tundra"],
 		"gold": 2,
 		"improvement": "Mine",
 		"improvementStats": {"production": 2}
