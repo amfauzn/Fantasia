@@ -4,5 +4,5 @@
 		"maxXPfromBarbarians": 60,
 		"cityStrengthFromGarrison": 0.25
 	},
-	"uniques": ["Can convert gold to science with sliders", "Can trade civilization introductions for [50] Gold"]
+	"uniques": ["Can trade civilization introductions for [100] Gold"]
 }
