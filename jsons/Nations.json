@@ -92,7 +92,7 @@
 		"favoredReligion": "Butterfly Effects",
 		"uniqueName": "Experience is the Best Teacher",
 		"uniques": ["[Great Scientist] is earned [50]% faster", "[+2 Science] from every [Great Improvement]", 
-			"Earn [20]% of killed [All] unit's [Cost] as [Science]"]
+			"Earn [200]% of killed [Barbarian] unit's [Strength] as [Science]"]
 		"cities": ["Målusaö","Mlese","Tegålruö","Wanrådjö","Böran","Jåpanöan","Khujön","Böwan Pök","Trösö","Watese",
 			"Wetön","Bönusö","Låiden Hill","Tlulaö","Sudd Garden"]
 	},
@@ -192,7 +192,7 @@
 		"startBias": ["Jungle"],
 		"preferredVictoryType": "Diplomatic",
 	
-		"startIntroPart1": "Greetings, our wondrous Lady Claudia. Red Moon lies at the heart of Pangaea. Lady Claudia is the first to acknowledge Queen Nualla idea and became the first leader of The League.",
+		"startIntroPart1": "Greetings, our wondrous Lady Claudia. Red Moon lies at the heart of Pangaea. Despite blessed with unpararelled strength, Lady Claudia choose diplomatic way for both interest. She is the first person to acknowledge Queen Nualla idea and became the first leader of The League.",
 		"startIntroPart2": "Lady Claudia, the people look to you to bring forth peace days for everyone. Can you build a civilization that will stand the test of time?",
 		
 		"declaringWar": "You've behaved yourself very badly, you know it. Now it's payback time.",
@@ -209,8 +209,8 @@
 		"favoredReligion": "Preformationism",
 		"uniqueName": "Infinite Power",
 		"uniques": ["Great General provides double combat bonus", "[+50]% [Faith] from City-States", 
-			"May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost [in all cities]", 
-			"Military Units gifted from City-States start with [+10] XP"],
+			"May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost", 
+			"Gain a free [Vihara] [in capital] <after discovering [Philosophy]>"],
 		"cities": ["Blasicken","Phocaea","Elashmunein","Poitien","Velitrae","Niue","Boien","Ishe","Madirae","Kiea",
 			"Sil Ifken","Ringsten","Godthenae","Hellulae","Novosten"]
 	},
@@ -269,8 +269,8 @@
 		"favoredReligion": "Relativity",
 		"style": "Dwarven",
 		"uniqueName": "Master Builder",
-		"uniques": ["[+10]% Production when constructing [All] wonders [in all cities connected to capital]", 
-			"+25% Production towards any buildings that already exist in the Capital"],
+		"uniques": ["[+15]% Production when constructing [All] wonders [in all cities connected to capital]", 
+			"[+25]% Production towards any buildings that already exist in the Capital"],
 		"cities": ["King's Summit","Borbuddem","Pyr Amid'em","Mausollem","Gridden Wall","Kolussem","Hangen Stone","Tamja Hellin","Chotchen","Panema Caniem",
 			"Petra","Redemeer","Picchu","Angkoreen","Mozi","Fez","Balkh"]
 	},
@@ -298,13 +298,8 @@
 		"innerColor": [134,238,214],
 		"favoredReligion": "Dualism",
 		"uniqueName": "Rage of the Beast",
-		"uniqueText": "Golden Age length increased by 50%. +15% Production towards constructing science buildings in all coastal cities. Golden Age grants +15% Strength for All units and +1 Science from Water resources",
-		"uniques": ["[+50%] Golden Age length", "[+15]% Strength <for [All] units> <during a Golden Age>", 
-			"[+1 Science] from [Water resource] tiles [in all cities] <during a Golden Age>", 
-			"[+15]% Production when constructing [Paper Maker] buildings [in all coastal cities]", 
-			"[+15]% Production when constructing [Public School] buildings [in all coastal cities]", 
-			"[+15]% Production when constructing [Information Market] buildings [in all coastal cities]", 
-			"[+15]% Production when constructing [Messengers] buildings [in all coastal cities]", ],
+		"uniques": ["[+50]% Golden Age length", "[+10]% Strength <for [All] units> <during a Golden Age>", 
+			"[+15]% [Science] <during a Golden Age>", "Gain a free [Sulong's Training] [in all coastal cities] <after discovering [Calendar]>"],
 		"cities": ["Townfolk","Lions","Tigers","Bears","Bulls","Wolves","Foxes","Gorillas","Leopards","Houston",
 			"Raccoons","Rhinocheroses","Warthogs","Orcas","Pandas","Piranhas"]
 	},
@@ -333,7 +328,7 @@
 		"favoredReligion": "Spontanism",
 		"uniqueName": "Survival Instinc",
 		"uniques": ["Embarked units can defend themselves", "Units pay only 1 movement point to disembark", 
-			"Units ignore terrain costs when moving into any tile with Hills"],
+			"[+10]% Strength <for [Wounded] units>", "[+1] Sight <for [Civilian] units>"],
 		"cities": ["Goa","Armant","Lisht","Chondote","Nedrow","Lawless","Pajaten","Skien","Crossy","Grassrich",
 			"Amphibeast","Stone Valley","Cattle","Shining Lake","Nomad River"]
 	},
@@ -425,7 +420,7 @@
 		"uniqueName": "Glacier Riches",
 		"uniques": ["[+1 Production] from every [Strategic resource]", "[+1 Science] from [Ice-calator] tiles [in all cities]", 
 			"Double quantity of [Horses] produced", "Double quantity of [Mammoth] produced", 
-			"-[15]% Culture cost of acquiring tiles [in cities connected to capital]"],
+			"[-15]% Culture cost of natural border growth [in all cities connected to capital]"],
 		"cities": ["Frostmorrow","Igos","Sandless","Noach","Maumere","Iver","Ykutz","Vladivostok","Smolensk","Orenburg",
 			"Bryansk","Kver","Murmansk","Irkutsk","Chita","Samara"]
 	},
@@ -495,7 +490,7 @@
 		"adjective": ["Bloodliner"],
 		"preferredVictoryType": "Cultural",
 		
-		"startIntroPart1": "Greetings, most astute Parun Sengai of Thallin, master of statecraft and shrewd negotiator. In aligning yourself with the Crusaders, you carefully gained a strategic advantage and used the Crusaders to acquire an even greater expansion of your power and secured your legacy throughout history, by ensuring pure bloodline as the dukes. This is not racism, thi is the art of feudalism",
+		"startIntroPart1": "Greetings, most astute Parun Sengai of Thallin, master of statecraft and shrewd negotiator. In aligning yourself with the Crusaders, you carefully gained a strategic advantage and used the Crusaders to acquire an even greater expansion of your power and secured your legacy throughout history, by ensuring pure bloodline as the dukes. This is not racism, this is the art of feudalism",
 		"startIntroPart2": "Most insightful and cunning Parun, Thallin once again requires the service of a skilled leader. Can you build a civilization that will stand the test of time?",
 		
 		"declaringWar": "If you are truly a worthy ruler yourself, then prepare for war!",
@@ -511,14 +506,72 @@
 		"innerColor": [156,197,237],
 		"favoredReligion": "Monetarism",
 		"uniqueName": "Pure Bloodline",
-		"uniqueText": "Settler gained slower. +2 Gold, -25% unhappiness from population in your first 3 cities. +1 Culture from every adopted Tradition policy. Gain a Free Great Artist equivalent upon completion of Tradition policy Tree. +33% unhappiness from population in annexed cities",
-		"uniques": ["[+1 Culture] <after adopting [Tradition]>", "[+1 Culture] <after adopting [Aristocracy]>", "[+1 Culture] <after adopting [Legalism]>", 
-			"[+1 Culture] <after adopting [Oligarchy]>", "[+1 Culture] <after adopting [Landed Elite]>", "[+1 Culture] <after adopting [Monarchy]>", 
-			"[+1 Culture] <after adopting [Tradition Complete]>", "[+33]% unhappiness from population [in annexed cities]"],
+		"uniqueText": "Settler gained slower. +2 Gold, -25% unhappiness from population in your first 3 cities. +1 Culture from every adopted Tradition policy. Gain a free Great Artist equivalent upon completion of Tradition policy Tree. +33% unhappiness from population in annexed cities",
+		"uniques": ["[+1 Culture] [in capital] <after adopting [Tradition]>", "[+1 Culture] [in capital] <after adopting [Aristocracy]>", 
+			"[+1 Culture] [in capital] <after adopting [Legalism]>", "[+1 Culture] [in capital] <after adopting [Oligarchy]>", 
+			"[+1 Culture] [in capital] <after adopting [Landed Elite]>", "[+1 Culture] [in capital] <after adopting [Monarchy]>", 
+			"[+1 Culture] [in capital] <after adopting [Tradition Complete]>", "[+33]% unhappiness from population [in annexed cities]"],
 		"cities": ["Clansperson","Getih","Kinsfolk","Consanguine","Sib","Grandeur","Cults","Claret","Clot","House Rules",
 			"Steel Throne","Nightwatch","Forbidden Palace","Traitors' Gate","Free District"]
 	},
+	{
+		"name": "Morlovia",
+		"leaderName": "Vlad Dracula",
+		"adjective": ["Vampire"],
+		"startBias": ["Hill"],
+		
+		"startIntroPart1": "Hail mighty Vlad Ţepeş, notorious Voivode of Morlovia! Morlovia is an upstart kingdom, fashioned from the ruins of the Jorah Empire, a cursed ancient ruins, and established during Men's War started by King Galamar. Almost every races judges vampirism as a curse or a disease, but they don't know that, this body changes, is actually a blessing. By your vision, you turn the ancient ruin, which is contain the sources of vampirism, as all vampires home.",
+		"startIntroPart2": "Great Voivode Vlad, the Morlovia people look up to you to lead them to greater days of glory. Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed.",
+		"attacked": "You could have found another way. Now, your regrets will be measured in blood.",
+		"defeated": "I have lived long enough to know when I am defeated. Carry on.",
+		"introduction": "I am Vlad Dracula, and the Morlovia allow me to lead them. Their suffering is my suffering.",
+		
+		"neutralHello": "Good night.",
+		"hateHello": "You are a detestable person.",
+		"tradeRequest": "Accept these gifts—they are purified.",
+		
+		"outerColor": [78,244,234],
+		"innerColor": [65,54,42],
+		"favoredReligion": "Monetarism",
+		"uniqueName": "Bloodlust",
+		"uniqueText": "Receive free Dracula, Damphyr when you discover Poetry, Acoustics, Pharmaceuticals, Sacred Path.",
+		"uniques": ["Receive free [Dracula] when you discover [Poetry]", "Receive free [Dracula] when you discover [Acoustics]", 
+			"Receive free [Dracula] when you discover [Pharmaceuticals]", "Receive free [Dracula] when you discover [Sacred Path]",
+			"Receive free [Damphyr] when you discover [Poetry]", "Receive free [Damphyr] when you discover [Acoustics]", 
+			"Receive free [Damphyr] when you discover [Pharmaceuticals]", "Receive free [Damphyr] when you discover [Sacred Path]"],
+		"cities": ["Transylvania","Varkola","Sanguins","Chupacabra","Vlokodla","Mormolykia","Abhartcia","Kravopiea","Llorona","Lampire",
+			"Dachnavar","Op'a","K'uei","Nuruanna","Zolla"]
+	},
 	
+	{
+		"name": "Erhab",
+		"leaderName": "Magnar",
+		"adjective": ["Giants"],
+		"preferredVictoryType": "Diplomatic",
+		
+		"startIntroPart1": "Honor and glory be yours, Og Magnar, founder of the Erhab Tribe and his most distinguished military tactician. Giants are a free race, joining every battle to defend anyone for the right price. It was because your greatness that giant race united and emerged as the greatest powers in the world. Your tribe was the only one who dared to refuse King Galamar's invitation during Men's War and ridicule the idea of submitting to Lord Saeth.",
+		"startIntroPart2": "Mighty Og, you are called to rise up and lead your people to renewed power and triumph! Will you build a civilization that stands the test of time?",
+		
+		"declaringWar": "The God of Erhab will decides who is right between us... and lets him live.",
+		"attacked": "Ahahah! You seem to show some skills of a true warrior! Too bad that I'll probably kill you!",
+		"defeated": "The gods have deprived Erhab of their favour. We have been defeated.",
+		"introduction": "Magnar bids you welcome to his lands! Hah, are you afraid?",
+		
+		"neutralHello": "Hail to you.",
+		"hateHello": "Oh, it's you.",
+		"tradeRequest": "This is a fine deal! Even a drunk beggar would agree!",
+		
+		"outerColor": [254,204,32],
+		"innerColor": [0,55,106],
+		"favoredReligion": "Butterfly Effects",
+		"uniqueName": "Mercenary Combatant",
+		"uniques": ["[+10]% Strength <for [Melee] units>", "No movement cost to pillage <for [Melee] units>", 
+			"Resting point for Influence with City-States is increased by [10]", "Gain [20] Influence with a [{Military} {Melee}] gift to a City-State"],
+		"cities": ["Og","Fomoran","Fachan","Fódla","Ravna","Angrboða","Farragus","Kapra","Khalefi","Odánu",
+			"Ogeass","‘Uj Anaq","Bomba","Kuafu","Pecas Ndah","Blačko"]
+	},
 	
 	// City-States
 	{
@@ -574,8 +627,8 @@
 		"cities": ["Manthrill"]
 	},
 	{
-		"name": "Morlovia",
-		"adjective": ["Vampire"],
+		"name": "Feu Follet",
+		"adjective": ["Ego-Vampire"],
 		"cityStateType": "Cultured",
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -583,13 +636,14 @@
 		"defeated": "So this is how it feels to die...",
 		"outerColor": [0, 0, 0],
 		"innerColor": [0,0,255],
-		"cities": ["Morlovia"]
+		"cities": ["Feu Follet"]
 	},
 	{
 		"name": "Windemer",
 		"adjective": ["Essen-Elven"],
 		"cityStateType": "Cultured",
 		"style": "Elven",
+		"uniques": ["Starts with [Archery]"],
 		
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -630,6 +684,7 @@
 		"adjective": ["Essen-High-Elven"],
 		"cityStateType": "Maritime",
 		"startBias": ["Hill"],
+		"style": "Elven",
 
 		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
 		"attacked": "You can see how fruitless this will be for you... right?",
@@ -643,6 +698,7 @@
 		"adjective": ["Ego-Goblin"],
 		"cityStateType": "Maritime",
 		"startBias": ["Coast"],
+		"style": "Goblin",
 
 		"declaringWar": "I will enjoy hearing your last breath as you witness the destruction of your realm!",
 		"attacked": "Why do we fight? Because Inanna demands it. Now, witness the power of Irgaskians!",
@@ -656,6 +712,7 @@
 		"adjective": ["Panemians"],
 		"cityStateType": "Maritime",
 		"startBias": ["Coast"],
+		"uniques": ["Starts with [Pottery]"],
 
 		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -696,6 +753,7 @@
 		"adjective": ["Wildling"],
 		"cityStateType": "Mercantile",
 		"startBias": ["Snow"],
+		"style": "Icemen",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -708,6 +766,8 @@
 		"name": "Gahaldur",
 		"adjective": ["Merchant-Dwarven"],
 		"cityStateType": "Mercantile",
+		"style": "Dwarven",
+		"uniques": ["Starts with [Mining]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -720,6 +780,8 @@
 		"name": "Tonthon",
 		"adjective": ["Merchant-Goblin"],
 		"cityStateType": "Mercantile",
+		"style": "Goblin",
+		"uniques": ["Starts with [Trapping]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -746,6 +808,7 @@
 		"name": "Khemul",
 		"adjective": ["Mercenary-Troll"],
 		"cityStateType": "Militaristic",
+		"style": "Troll",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -758,6 +821,7 @@
 		"name": "Pid",
 		"adjective": ["Mercenary-Demonic"],
 		"cityStateType": "Militaristic",
+		"style": "Demonic",
 
 		"declaringWar": "After thorough deliberation, Pidians finds itself at a crossroads. Prepare yourself, for war is upon us.",
 		"attacked": "We will mobilize every means of resistance to stop this transgression against our nation!",
@@ -770,6 +834,7 @@
 		"name": "Rackedt",
 		"adjective": ["Mercenary-Beast"],
 		"cityStateType": "Militaristic",
+		"uniques": ["Starts with [Trapping]"],
 
 		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
 		"attacked": "Traitorous man! The Rackedt peoples will not stand for such wanton abuse and slander - I shall have your head!",
@@ -782,6 +847,7 @@
 		"name": "Shaquad",
 		"adjective": ["Shaquadians"],
 		"cityStateType": "Militaristic",
+		"uniques": ["Starts with [Trapping]"],
 
 		"declaringWar": "War lingers in our hearts. Why carry on with a false peace?",
 		"attacked": "You gormless radger! You'll dine on your own teeth before you set foot in Ireland!",
@@ -795,6 +861,8 @@
 		"name": "Chorislavia",
 		"adjective": ["Chorislavia"],
 		"cityStateType": "Religious",
+		"style": "Elven",
+		"uniques": ["Starts with [Pottery]"],
 
 		"declaringWar": "I didn't want to do this. We declare war.",
 		"attacked": "I will fear no evil. For god is with me!",
@@ -807,6 +875,7 @@
 		"name": "Gomorra",
 		"adjective": ["Gomorra"],
 		"cityStateType": "Religious",
+		"uniques": ["Starts with [Pottery]"],
 
 		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
 		"attacked": "Very well, we will kick you back to the ancient era!",
@@ -819,6 +888,7 @@
 		"name": "Zilla",
 		"adjective": ["Zilla"],
 		"cityStateType": "Religious",
+		"uniques": ["Starts with [Pottery]"],
 
 		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
 		"attacked": "May god have mercy on your evil soul.",
