@@ -62,6 +62,13 @@
         "movementType": "Water",
         "uniques": ["Can enter ice tiles", "[-100]% maintenance costs"]
     },
+	{
+        "name": "Vampire",
+        "movementType": "Land",
+		"uniques": ["Ignores terrain cost", "[-100]% maintenance costs", "[-5] HP when healing", "[+5] HP when healing in [Coffin] tiles", 
+			"[+66]% Strength <during the [Renaissance age]>", "[+115]% Strength <during the [Heroic age]>", 
+			"[+325]% Strength <during the [Mythic age]>", "[+510]% Strength <starting from the [Chaos age]>"]
+    },
     {
         "name": "Submarine",
         "movementType": "Water",
@@ -101,44 +108,5 @@
         "name": "Helicopter",
         "movementType": "Land",
         "uniques": ["Can pass through impassable tiles"]
-    },
-    
-    // Deprecated unit types required for mods without a UnitTypes.json file to work
-    
-    {
-        "name": "Melee",
-        "movementType": "Land"
-    },
-    {
-        "name": "Ranged",
-        "movementType": "Land"
-    },
-    {
-        "name": "Armor",
-        "movementType": "Land"
-    },
-    {
-        "name": "WaterCivilian",
-        "movementType": "Water"
-    },
-    {
-        "name": "WaterMelee",
-        "movementType": "Water"
-    },
-    {
-        "name": "WaterRanged",
-        "movementType": "Water"
-    },
-    {
-        "name": "WaterSubmarine",
-        "movementType": "Water"
-    },
-    {
-        "name": "WaterAircraftCarrier",
-        "movementType": "Water"
-    },
-    {
-        "name": "AtomicBomber",
-        "movementType": "Air"
     }
 ]
