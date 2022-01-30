@@ -4,8 +4,8 @@
 		"name": "Worker",
 		"unitType": "Civilian",
 		"movement": 2,
+		"cost": 60,
 		"uniques": ["Can build [Land] improvements on tiles"],
-		"cost": 60
 	},
 	{
 		"name": "Fast Worker",
@@ -41,7 +41,8 @@
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
-		"obsoleteTech": "Scientific Theory",
+		"upgradesTo": "Pathfinder",
+		"obsoleteTech": "Engineering",
 		"uniques": ["May upgrade to [Composite Bowman] through ruins-like effects", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
@@ -93,7 +94,7 @@
 		"replaces": "Warrior",
 		"movement": 2,
 		"strength": 8,
-		"cost": 40,
+		"cost": 44,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
 		"uniques": ["[+20]% Strength <when fighting in [Rough terrain] tiles>", "Heals [25] damage if it kills a unit"],
@@ -123,6 +124,13 @@
 		"uniques": ["Unbuildable", "[-66]% Strength <vs cities>", "[-15]% Strength <vs [Water] units>", 
 			"[-100]% maintenance costs"],
 		"attackSound": "torpedo"
+	},
+	{
+		"name": "Damphyr",
+		"unitType": "Civilian",
+		"uniqueTo": "Morlovia",
+		"movement": 2,
+		"uniques": ["Can construct [Vampire Castle]", "Unbuildable", "Uncapturable", "Will not be displayed in Civilopedia"]
 	},
 	
 	// Classical age
@@ -217,7 +225,7 @@
 		"replaces": "Horseman",
 		"movement": 2,
 		"strength": 16,
-		"cost": 100,
+		"cost": 90,
 		"requiredTech": "Domestication",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
@@ -326,6 +334,15 @@
 	
 	// Feudal age
 	{
+		"name": "Dracula",
+		"unitType": "Vampire",
+		"uniqueTo": "Morlovia",
+		"movement": 2,
+		"strength": 14,
+		"uniques": ["Can build [Coffin] improvements on tiles", "Unbuildable", "Will not be displayed in Civilopedia"],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Catapult",
 		"unitType": "Siege",
 		"movement": 2,
@@ -430,6 +447,21 @@
 		"obsoleteTech": "Military Science",
 		"attackSound": "elephant"
 	},
+	{
+		"name": "Pathfinder",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 10,
+		"rangedStrength": 10,
+		"range": 1,
+		"cost": 60,
+		"requiredTech": "Engineering",
+		"upgradesTo": "Wayfarer",
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost", "Scouting I"],
+		"attackSound": "arrow"
+	},
 	
 	// Renaissance age
 	{
@@ -457,7 +489,7 @@
 		"requiredTech": "Compass",
 		"obsoleteTech": "Navigation",
 		"upgradesTo": "Frigate",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May withdraw before melee ([34%])"],
+		"uniques": ["Cannot enter ocean tiles <before discovering [Compass]>", "May withdraw before melee ([34]%)"],
 		"attackSound": "arrow"
 	},
 	{
@@ -606,7 +638,22 @@
 		"requiredTech": "Steel",
 		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Musketman",
-		"uniques": ["Earn [50]% of the damage done to [City] units as [Gold]", "Never appears as a Barbarian unit"],
+		"uniques": ["Earn [50]% of the damage done to [City] units as [Gold]"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Rakshasa",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Erhab",
+		"movement": 3,
+		"strength": 22,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"obsoleteTech": "Gunpowder",
+		"upgradesTo": "Musketman",
+		"uniques": ["Rough terrain penalty"],
+		"promotions": ["Shock I","Charge"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -766,12 +813,28 @@
 		"attackSound": "cannon"
 	},
 	{
+		"name": "Wayfarer",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 20,
+		"rangedStrength": 20,
+		"range": 1,
+		"cost": 135,
+		"requiredTech": "Scientific Theory",
+		"upgradesTo": "Wandering Oracle",
+		"obsoleteTech": "Enlightment",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost", "Scouting I", "Scouting II"],
+		"attackSound": "arrow"
+	},
+	{
 		"name": "Mercenary Supplier",
 		"unitType": "Civilian",
 		"movement": 3,
+		"cost": 100,
 		"requiredTech": "Pharmaceuticals",
 		"uniques": ["All adjacent units heal [+10] HP when healing", "Can build [Fort] improvements on tiles", "Ignores terrain cost", 
-			"Unbuildable", "Uncapturable"]
+			"Uncapturable"]
 	},
 	{
 		"name": "Petard",
@@ -799,15 +862,27 @@
 		"movement": 2,
 		"strength": 30,
 		"rangedStrength": 40,
-		"range": 4,
-		"interceptRange": 3,
+		"range": 2,
+		"interceptRange": 2,
 		"cost": 290,
 		"requiredTech": "Railroads",
-		"uniques": ["No defensive terrain bonus", "Must set up to ranged attack", "[+1] Sight", "Ranged attacks may be performed over obstacles", 
-			"Ignores Zone of Control", "[+200]% Strength <vs [Air Terror] units>", "[+200]% Strength <vs [Air] units>", 
+		"uniques": ["No defensive terrain bonus", "Must set up to ranged attack", "[+1] Sight", "Ignores Zone of Control", 
+			"[+200]% Strength <vs [Air Terror] units>", "[+200]% Strength <vs [Air] units>", 
 			"[33]% chance to intercept air attacks", "Never appears as a Barbarian unit"],
-		"promotions": ["Barrage I"],
+		"promotions": ["Barrage I","Extended Range","Indirect Fire"],
 		"attackSound": "arrow"
+	},
+	{
+		"name": "Wandering Oracle",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 35,
+		"range": 1,
+		"cost": 235,
+		"requiredTech": "Sacred Path",
+		"uniques": ["Invisible to non-adjacent units", "Can see invisible [Military] units", "Unbuildable", "Never appears as a Barbarian unit"],
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Entmates",
@@ -1083,8 +1158,8 @@
 		"cost": 1,
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Great Generals II"],
-		"uniques": ["Requires [Honor Complete]", "Not displayed as an available construction without [Hero Candidate]", 
-			"[+50]% Strength <vs [Water Terror] units>", "[+75%] Strength <vs [Air Terror] units>", "Never appears as a Barbarian unit"],
+		"uniques": ["Requires [Military Caste]", "Not displayed as an available construction without [Hero Candidate]", 
+			"[+50]% Strength <vs [Water Terror] units>", "[+75]% Strength <vs [Air Terror] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -1095,8 +1170,8 @@
 		"cost": 1,
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Cover I", "Great Generals I"],
-		"uniques": ["Requires [Honor Complete]", "Not displayed as an available construction without [Hero Candidate]", 
-			"[+50]% Strength <vs [Water Terror] units>", "[+75%] Strength <vs [Air Terror] units>", "Never appears as a Barbarian unit"],
+		"uniques": ["Requires [Military Caste]", "Not displayed as an available construction without [Hero Candidate]", 
+			"[+50]% Strength <vs [Water Terror] units>", "[+75]% Strength <vs [Air Terror] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -1109,8 +1184,8 @@
 		"cost": 1,
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Great Generals I"],
-		"uniques": ["Requires [Honor Complete]", "Not displayed as an available construction without [Hero Candidate]", 
-			"[+50]% Strength <vs [Water Terror] units>", "[+75%] Strength <vs [Air Terror] units>", "Never appears as a Barbarian unit"],
+		"uniques": ["Requires [Military Caste]", "Not displayed as an available construction without [Hero Candidate]", 
+			"[+50]% Strength <vs [Water Terror] units>", "[+75]% Strength <vs [Air Terror] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "arrow"
 	},
 	{
@@ -1120,8 +1195,8 @@
 		"strength": 45,
 		"cost": 1,
 		"requiredResource": "Hero Candidate",
-		"uniques": ["Requires [Honor Complete]", "[+100]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Water Terror] units>", 
-			"[+75%] Strength <vs [Air Terror] units>", "Not displayed as an available construction without [Hero Candidate]", 
+		"uniques": ["Requires [Military Caste]", "[+100]% Strength <vs [Mounted] units>", "[+50]% Strength <vs [Water Terror] units>", 
+			"[+75]% Strength <vs [Air Terror] units>", "Not displayed as an available construction without [Hero Candidate]", 
 			"Never appears as a Barbarian unit"],
 		"attackSound": "metalhit"
 	},
@@ -1133,8 +1208,8 @@
 		"cost": 1,
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Great Generals II"],
-		"uniques": ["Requires [Honor Complete]", "Can move after attacking", "No defensive terrain bonus", "[+50]% Strength <vs [Water Terror] units>", 
-			"[+75%] Strength <vs [Air Terror] units>", "Not displayed as an available construction without [Hero Candidate]", 
+		"uniques": ["Requires [Military Caste]", "Can move after attacking", "No defensive terrain bonus", "[+50]% Strength <vs [Water Terror] units>", 
+			"[+75]% Strength <vs [Air Terror] units>", "Not displayed as an available construction without [Hero Candidate]", 
 			"Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 	},
@@ -1148,8 +1223,8 @@
 		"cost": 1,
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Great Generals I", "Logistics"],
-		"uniques": ["Requires [Honor Complete]", "Not displayed as an available construction without [Hero Candidate]", 
-			"[+50]% Strength <vs [Water Terror] units>", "[+75%] Strength <vs [Air Terror] units>", "Never appears as a Barbarian unit"],
+		"uniques": ["Requires [Military Caste]", "Not displayed as an available construction without [Hero Candidate]", 
+			"[+50]% Strength <vs [Water Terror] units>", "[+75]% Strength <vs [Air Terror] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "arrow"
 	},
 	{
@@ -1159,8 +1234,8 @@
 		"strength": 43,
 		"cost": 1,
 		"requiredResource": "Hero Candidate",
-		"uniques": ["Requires [Honor Complete]", "[+150]% Strength <when attacking> <vs cities>", "[+25]% Strength <vs [Water Terror] units>", 
-			"[+75%] Strength <vs [Air Terror] units>", "Not displayed as an available construction without [Hero Candidate]", 
+		"uniques": ["Requires [Military Caste]", "[+150]% Strength <when attacking> <vs cities>", "[+25]% Strength <vs [Water Terror] units>", 
+			"[+50]% Strength <vs [Air Terror] units>", "Not displayed as an available construction without [Hero Candidate]", 
 			"Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
 	},
@@ -1174,7 +1249,7 @@
 		"cost": 1,
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Mobility", "Great Generals I"],
-		"uniques": ["Requires [Honor Complete]", "[+100]% Strength <when attacking> <vs [Water] units>", "Can see invisible [Water Terror] units"
+		"uniques": ["Requires [Military Caste]", "[+100]% Strength <when attacking> <vs [Water] units>", "Can see invisible [Water Terror] units"
 			"Not displayed as an available construction without [Hero Candidate]", "Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
 	},
@@ -1186,7 +1261,7 @@
 		"cost": 1,
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Sentry"],
-		"uniques": ["Requires [Honor Complete]", "[+100]% Strength <when attacking> <vs [Water] units>", "May withdraw before melee ([33]%)"
+		"uniques": ["Requires [Military Caste]", "[+100]% Strength <when attacking> <vs [Water] units>", "May withdraw before melee ([33]%)"
 			"Can see invisible [Water Terror] units", "Not displayed as an available construction without [Hero Candidate]", 
 			"Never appears as a Barbarian unit"],
 		"attackSound": "metalhit"
@@ -1201,8 +1276,8 @@
 		"cost": 1,
 		"requiredResource": "Titan",
 		"uniques": ["[+75]% Strength <vs [Melee] units> <when attacking>", "[+50]% Strength <vs cities> <when attacking>",
-			"Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit", 
-			"Not displayed as an available construction without [Titan]"],
+			"Ignores Zone of Control", "Unable to capture cities", "Heals [15] damage if it kills a unit", 
+			"Never appears as a Barbarian unit", "Not displayed as an available construction without [Titan]"],
 		"promotions": ["Formation I"],
 		"attackSound": "metalhit"
 	},
@@ -1214,8 +1289,8 @@
 		"cost": 1,
 		"requiredResource": "Garuda's Egg",
 		"uniques": ["[+75]% Strength <vs [Air Terror] units> <when attacking>", "[+50]% Strength <vs [Ranged] units> <when attacking>",
-			"No defensive terrain bonus", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit", 
-			"Not displayed as an available construction without [Garuda's Egg]"],
+			"No defensive terrain bonus", "Ignores Zone of Control", "Unable to capture cities", "Heals [15] damage if it kills a unit", 
+			"Never appears as a Barbarian unit", "Not displayed as an available construction without [Garuda's Egg]"],
 		"promotions": ["Formation I"],
 		"attackSound": "nonmetalhit"
 	},
@@ -1228,7 +1303,8 @@
 		"cost": 1,
 		"requiredResource": "Kraken's Baby",
 		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Can move after attacking", "Ignores Zone of Control",
-			"Never appears as a Barbarian unit", "Not displayed as an available construction without [Kraken's Baby]"],
+			"Heals [15] damage if it kills a unit", "Never appears as a Barbarian unit", 
+			"Not displayed as an available construction without [Kraken's Baby]"],
 		"promotions": ["Formation I"],
 		"attackSound": "torpedo"
 	},
