@@ -1463,6 +1463,7 @@
 		"name": "Free Artist",
 		"uniqueTo": "Thallin",
 		"isNationalWonder": true,
+		"culture": 10,
 		"cost": 1,
 		"cityHealth": 2,
 		"uniques": ["Requires [Tradition Complete]", "Can only be built [in capital]", "Free [Para Artist] appears", "Unsellable", 
