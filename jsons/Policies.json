@@ -2,7 +2,7 @@
 	{
 		"name": "Tradition",
 		"era": "Dark age",
-		"uniques": ["[+3 Culture] [in capital]", "-[25]% Culture cost of acquiring tiles [in all cities]", "Unlocks building Cetho Lighyn"],
+		"uniques": ["[+3 Culture] [in capital]", "[-25]% Culture cost of natural border growth [in all cities]", "Unlocks building Cetho Lighyn"],
 		"policies": [
 			{
 				"name": "Aristocracy",
@@ -19,7 +19,7 @@
 			},
 			{
 				"name": "Oligarchy",
-				"uniques": ["Units in cities cost no Maintenance", "+[50]% attacking strength for cities with garrisoned units"],
+				"uniques": ["Units in cities cost no Maintenance", "[+50]% Strength for cities <with a garrison> <when attacking>"],
 				"row": 1,
 				"column": 5
 			},
@@ -126,8 +126,7 @@
 				"name": "Professional Army",
 				"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>", "[+1 Happiness] from every [Walls]",
 							"[+1 Happiness] from every [Castle]", "[+1 Happiness] from every [Arsenal]", "[+1 Happiness] from every [Moat]", 
-							"[+1 Happiness] from every [Countermeasures Council]", 
-							"[+100]% Production when constructing [Barracks] buildings [in all cities]"],
+							"[+1 Happiness] from every [Countermeasures Council]"],
 				"requires": ["Military Caste"],
 				"row": 3,
 				"column": 4
@@ -135,7 +134,8 @@
 			{
 				"name": "Honor Complete",
 				"uniques": ["Earn [10]% of killed [Military] unit's [Cost] as [Gold]", "[+4 Production, +4 Culture] from every [Heroic Epic]", 
-							"[+100]% Production when constructing [Courthouse] buildings [in all cities]", 
+							"[+66]% Production when constructing [Barracks] buildings [in all cities]", 
+							"[+66]% Production when constructing [Heroic Epic] wonders [in all cities]", 
 							"May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250]) <starting from the [Heroic age]>"]
 			}
 		]
@@ -190,7 +190,10 @@
 	{
 		"name": "Legacy",
 		"era": "Feudal age",
-		"uniques": ["[+15]% Production when constructing [Culture] buildings [in all cities]"],
+		"uniques": ["[+15]% Production when constructing [Monument] buildings [in all cities]", 
+					"[+15]% Production when constructing [Pyramid] buildings [in all cities]", 
+					"[+15]% Production when constructing [Composer Hall] buildings [in all cities]", 
+					"[+15]% Production when constructing [Antique Heritage] buildings [in all cities]"],
 		"policies": [
 			{
 				"name": "Inheritance",
@@ -215,7 +218,8 @@
 			},
 			{
 				"name": "Cultural Exchange",
-				"uniques": ["[+1 Culture] from every [Trading post]", "[+1 Culture] from every [Information Market]"],
+				"uniques": ["[+1 Culture] from every [Trading post]", "[+1 Culture] from every [Information Market]", 
+							"[+1 Culture] from every [Great Improvement]"],
 				"requires": ["Wisdom"],
 				"row": 2,
 				"column": 5
@@ -229,7 +233,7 @@
 			},
 			{
 				"name": "Legacy Complete",
-				"uniques": ["[-20]% Culture cost of adopting new policies", "[+3 Culture] from every [Landmark]", 
+				"uniques": ["[Great Artist] is earned [25]% faster", "[-10]% Culture cost of adopting new Policies", "[+3 Culture] from every [Landmark]", 
 							"May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250]) <starting from the [Heroic age]>"],
 			} 
 		]
@@ -290,7 +294,7 @@
 		"policies": [
 			{
 				"name": "Trade Unions",
-				"uniques": ["[-33]% maintenance on roads & railroads", "[+1 Gold] from each Trade Route"],
+				"uniques": ["[-33]% maintenance on road & railroads", "[+1 Gold] from each Trade Route"],
 				"row": 1,
 				"column": 2
 			},
@@ -319,7 +323,7 @@
 			},
 			{
 				"name": "Protectionism",
-				"uniques": ["[+2] happiness from each type of luxury resource"],
+				"uniques": ["[+2] Happiness from each type of luxury resource"],
 				"requires": ["Entrepreneurship", "Merchant Navy"],
 				"row": 3,
 				"column": 3
@@ -336,11 +340,11 @@
 	{
 		"name": "Rationalism",
 		"era": "Renaissance age",
-		"uniques": ["Production to science conversion in cities increased by 33%", "Incompatible with [Piety]"],
+		"uniques": ["[+15]% [Science] <while the empire is happy>", "Incompatible with [Piety]"],
 		"policies": [
 			{
 				"name": "Secularism",
-				"uniques": ["[+2 Science] from every specialist [in all cities]"],
+				"uniques": ["[+2 Science] from every specialist [in all cities]", "[+1 Science] from every specialist [in capital]"],
 				"row": 1,
 				"column": 2
 			},
@@ -353,16 +357,18 @@
 			},
 			{
 				"name": "Free Thought",
-				"uniques": ["[+1 Science] from every [Trading post]", "[+1 Science] from every [Information Market]", "[+3 Science] from every [Academy]", 
-							"[+17]% [Science] from every [Public School]"],
+				"uniques": ["[+1 Science] from every [Trading post]", "[+1 Science] from every [Information Market]", "[+4 Science] from every [Academy]", 
+							"[+20]% [Science] from every [Public School]"],
 				"requires": ["Secularism"],
 				"row": 2,
 				"column": 1
 			},
 			{
 				"name": "Sovereignty",
-				"uniques": ["[+15]% [Science] <while the empire is happy>", "[+50]% Production when constructing [Public School] buildings [in all cities]", 
-							"[+50]% Production when constructing [Watchtower] buildings [in all cities]"],
+				"uniques": ["[+1 Gold] from all [Science] buildings", "[+50]% Production when constructing [Public School] buildings [in all cities]", 
+							"[+50]% Production when constructing [Information Market] buildings [in all cities]", 
+							"[+50]% Production when constructing [Watchtower] buildings [in all cities]", 
+							"[+50]% Production when constructing [Messengers] buildings [in all cities]"],
 				"requires": ["Humanism"],
 				"row": 2,
 				"column": 5
@@ -376,7 +382,7 @@
 			},
 			{
 				"name": "Rationalism Complete",
-				"uniques": ["[+1 Gold] from all [Science] buildings", "[+1 Science] from [Ice-calator] tiles [in all cities]", 
+				"uniques": ["Free Technology", "[+1 Science] from [Ice-calator] tiles [in all cities]", 
 							"May buy [Great Scientist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250]) <starting from the [Heroic age]>"
 				]
 			}
@@ -389,7 +395,7 @@
 		"policies": [
 			{
 				"name": "Civil Society",
-				"uniques": ["[-50]% food consumption by specialists [in all cities]"],
+				"uniques": ["[-50]% Food consumption by specialists [in all cities]"],
 				"row": 1,
 				"column": 3
 			},
