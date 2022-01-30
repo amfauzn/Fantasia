@@ -92,7 +92,7 @@
 		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water"]
 	},
 
-	// Melee,Mounted,Armor+Hero
+	// Melee,Mounted,Armor+Hero+Vampire
 	{
 		"name": "Shock I",
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
@@ -130,9 +130,9 @@
 	},
 	{
 		"name": "Charge",
-		"prerequisites": ["Shock II","Drill II","Hunt Instinc II"],
+		"prerequisites": ["Shock II","Drill II","Hunt Instinc II","Bloodlust II"],
 		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
-		"unitTypes": ["Mounted","Armored","Hero","Air Terror"]
+		"unitTypes": ["Mounted","Armored","Hero","Air Terror","Vampire"]
 	},
 	{
 		"name": "Besiege", // Not called "Siege" in order to not conflict with siege type units for translations
@@ -155,9 +155,9 @@
 
 	{
 		"name": "Blitz",
-		"prerequisites": ["Shock III","Drill III"],
+		"prerequisites": ["Shock III","Drill III","Winged Vampire"],
 		"uniques": ["[1] additional attacks per turn"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Hero"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Hero","Vampire"]
 	},
 	{
 		"name": "Woodsman",
@@ -187,6 +187,41 @@
 		"prerequisites": ["Medic"],
 		"uniques": ["[+1] HP when healing", "[+5] HP when healing in [Foreign Land] tiles", "All adjacent units heal [+5] HP when healing"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout"]
+	},
+	{
+		"name": "Bloodlust I",
+		"uniques": ["[+5] HP when healing in [Friendly Land] tiles"],
+		"unitTypes": ["Vampire"]
+	},
+	{
+		"name": "Bloodlust II",
+		"prerequisites": ["Bloodlust I"],
+		"uniques": ["[+2] HP when healing in [Foreign Land] tiles", "[+2] HP when healing in [Enemy Land] tiles"],
+		"unitTypes": ["Vampire"]
+	},
+	{
+		"name": "Vampiric Touch",
+		"prerequisites": ["Bloodlust II"],
+		"uniques": ["Heals [15] damage if it kills a unit"],
+		"unitTypes": ["Vampire"]
+	},
+	{
+		"name": "Winged Vampire",
+		"prerequisites": ["Vampiric Touch"],
+		"uniques": ["[+2] Movement"],
+		"unitTypes": ["Vampire"]
+	},
+	{
+		"name": "Vampiric Intimidation",
+		"prerequisites": ["Vampiric Touch"],
+		"uniques": ["[-10]% Strength for enemy [All] units in adjacent [All] tiles"],
+		"unitTypes": ["Vampire"]
+	},
+	{
+		"name": "Blood Baptism",
+		"prerequisites": ["Vampiric Touch"],
+		"uniques": ["[+33]% Strength"],
+		"unitTypes": ["Vampire"]
 	},
 	
 	// Water melee
@@ -402,12 +437,12 @@
 		"unitTypes": ["Fighter","Bomber"]
 	},
 
-/*	{
+	{
 		"name": "Sortie",
 		"prerequisites": ["Interception II"],  // "Dogfighting II"
 		"uniques": ["[1] extra interceptions may be made per turn"],
 		"unitTypes": ["Fighter"]
-	},*/
+	},
 
 	{
 		"name": "Operational Range",
@@ -468,7 +503,7 @@
 	{
 		"name": "Intimidation",
 		"prerequisites": ["Hunt Instinc II", "Wolfpack III", "Shock III", "Drill III"],
-		"uniques": ["[-20]% Strength for enemy [All] units in adjacent [All] tiles"],
+		"uniques": ["[-15]% Strength for enemy [All] units in adjacent [All] tiles"],
 		"unitTypes": ["Air Terror","Water Terror","Water Hero","Hero"]
 	},
 	
