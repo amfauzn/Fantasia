@@ -102,7 +102,7 @@
     {
         "name": "Religious Settlements",
         "type": "Pantheon",
-        "uniques": ["[-15]% cost of natural border growth"]
+        "uniques": ["[-15]% Culture cost of natural border growth [in all cities]"]
     },
     {
         "name": "Sacred Trees",
@@ -140,12 +140,12 @@
 	{
         "name": "Diversity Respects",
         "type": "Follower",
-        "uniques": ["[+2 Culture] from every [Temple] in cities where this religion has at least [5] followers"]
+        "uniques": ["[+2 Culture] from every [Temple] <in cities where this religion has at least [5] followers>"]
     },
 	{
         "name": "Divine inspiration",
         "type": "Follower",
-        "uniques": ["[+2 Faith] from every Wonder"]
+        "uniques": ["[+2 Faith] from every [Wonder]"]
     },
 	{
         "name": "Fasting",
@@ -165,7 +165,7 @@
 	{
         "name": "Hymns of Praise",
         "type": "Follower",
-        "uniques": ["[+1 Happiness] from every [Shrine] in cities where this religion has at least [3] followers"]
+        "uniques": ["[+1 Happiness] from every [Shrine] <in cities where this religion has at least [3] followers>"]
     },
 	{
         "name": "Peace Gardens",
@@ -175,12 +175,12 @@
 	{
         "name": "Religious Art",
         "type": "Follower",
-        "uniques": ["[+2 Happiness] from every [Pyramid] in cities where this religion has at least [5] followers"]
+        "uniques": ["[+2 Happiness] from every [Pyramid] <in cities where this religion has at least [5] followers>"]
     },
 	{
         "name": "Religious Center",
         "type": "Follower",
-        "uniques": ["[+2 Happiness] from every [Monastery] in cities where this religion has at least [5] followers"]
+        "uniques": ["[+2 Happiness] from every [Monastery] <in cities where this religion has at least [5] followers>"]
     },
     {
         "name": "Religious Community",
@@ -190,7 +190,7 @@
 	{
         "name": "Starlight Guidance",
         "type": "Follower",
-        "uniques": ["[+1 Culture, +1 Happiness] from every [Lighthouse] in cities where this religion has at least [5] followers", 
+        "uniques": ["[+1 Culture, +1 Happiness] from every [Lighthouse] <in cities where this religion has at least [5] followers>", 
 					"[+1 Culture] from every [Watchtower]"]
     },
 	
@@ -305,12 +305,12 @@
     {
         "name": "Religious Texts",
         "type": "Enhancer",
-        "uniques": ["[+34]% Natural religion spread [in all cities]", "[+34]% Natural religion spread [in all cities] with [Mass Media]"]
+        "uniques": ["[+34]% Natural religion spread [in all cities]", "[+34]% Natural religion spread [in all cities] <after discovering [Mass Media]>"]
     },
     {
         "name": "Religious Unity",
         "type": "Enhancer",
-        "uniques": ["[+100]% Natural religion spread to [in City-State cities]"]
+        "uniques": ["[+100]% Natural religion spread [in City-State cities]"]
     },
     {
         "name": "Reliquary",
