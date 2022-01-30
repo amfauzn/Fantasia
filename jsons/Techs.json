@@ -359,7 +359,6 @@
 			},
 			{
 				"name": "Pharmaceuticals",
-				"uniques": ["May buy [Mercenary Supplier] units for [300] [Gold] [in all cities]"],
 				"row": 7,
 				"prerequisites": ["Fertilizer","Military Science"],
 				"quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero"
