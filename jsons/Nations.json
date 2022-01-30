@@ -506,11 +506,8 @@
 		"innerColor": [156,197,237],
 		"favoredReligion": "Monetarism",
 		"uniqueName": "Pure Bloodline",
-		"uniqueText": "Settler gained slower. +2 Gold, -25% unhappiness from population in your first 3 cities. +1 Culture from every adopted Tradition policy. Gain a free Great Artist equivalent upon completion of Tradition policy Tree. +33% unhappiness from population in annexed cities",
-		"uniques": ["[+1 Culture] [in capital] <after adopting [Tradition]>", "[+1 Culture] [in capital] <after adopting [Aristocracy]>", 
-			"[+1 Culture] [in capital] <after adopting [Legalism]>", "[+1 Culture] [in capital] <after adopting [Oligarchy]>", 
-			"[+1 Culture] [in capital] <after adopting [Landed Elite]>", "[+1 Culture] [in capital] <after adopting [Monarchy]>", 
-			"[+1 Culture] [in capital] <after adopting [Tradition Complete]>", "[+33]% unhappiness from population [in annexed cities]"],
+		"uniqueText": "Settler gained slower. +2 Gold, -25% unhappiness from population in your first 3 cities. +10 Culture, Gain a free Great Artist equivalent upon completion of Tradition policy Tree. +33% unhappiness from population in annexed cities",
+		"uniques": ["[+33]% unhappiness from population [in annexed cities]"],
 		"cities": ["Clansperson","Getih","Kinsfolk","Consanguine","Sib","Grandeur","Cults","Claret","Clot","House Rules",
 			"Steel Throne","Nightwatch","Forbidden Palace","Traitors' Gate","Free District"]
 	},
