@@ -1,4 +1,6 @@
 # Notes
+Lagi tekan monumen to god
+
 ## Inspired by:
 * [Unciv](https://github.com/yairm210/Unciv) by yairm210
 * [DeCiv Redux](https://github.com/SpacedOutChicken/DeCiv-Redux) by SpacedOutChicken
@@ -8,7 +10,7 @@
 * [DeCiv Redux](https://github.com/SpacedOutChicken/DeCiv-Redux) by SpacedOutChicken
 * [RekMOD](https://github.com/ravignir/RekMOD) by Ravignir
 * [Extra Resources](https://github.com/Cavenir/Extra-Resources) by Cavenir
-* [More Luxuries] (https://github.com/Subcher/More-Luxuries) by Subcher
+* [More Luxuries](https://github.com/Subcher/More-Luxuries) by Subcher
 * [LOTR Unciv](https://github.com/ravignir/LOTR-Unciv) by Ravignir
 
 
@@ -26,7 +28,7 @@ or from mods listed above.
 * Domestication: [Horse Riding](https://thenounproject.com/term/horse-riding/583093/) by Hea Poh Lin
 * Enlightment: [yell](https://thenounproject.com/term/yell/4159889/) by Adrien Coquet
 * Final tech: [Electronics](https://thenounproject.com/search/?q=Electronics&i=1565843) by Cuby Design
-* Foresight: [foresight] (https://thenounproject.com/term/foresight/3293552/) by Atif Arshad
+* Foresight: [foresight](https://thenounproject.com/term/foresight/3293552/) by Atif Arshad
 * Future tech: [Electricity](https://thenounproject.com/term/electricity/816936/) by Ben Davis
 * God of Craftsman: [Mine](https://thenounproject.com/term/mine/543/) by Edward Boatman
 * God of the Open Sky: [Pioneer](https://github.com/Ravignir/RekMOD/tree/main/Images/UnitIcons/Pioneer.png)
@@ -45,6 +47,28 @@ or from mods listed above.
 * Railroads: [Chariot](https://thenounproject.com/search/?q=Chariot&i=1189930) by Andrew Doane
 * Sacred Path: [praying](https://thenounproject.com/term/praying/740809/) by parkjisun
 * Telepathy: [Brain](https://thenounproject.com/term/brain/64073/) by Tony Gines
+
+## Nation Icons
+* Cavegoa: [Gaul](https://github.com/Ravignir/RekMOD/tree/main/Images/NationIcons/Gaul.png) by Ravignir
+* Erhab: [Denmark](https://github.com/yairm210/Unciv/tree/master/android/Images/NationIcons/Denmark.png)
+* Frostmorrow: [Ice](https://thenounproject.com/icon/ice-1412736/) by Landan Lloyd
+* Malus: [Songhai](https://github.com/ravignir/5Hex-Tileset/blob/master/Images/NationIcons/Songhai.png) by Ravignir
+* Marunesia: [Dharmachakra](https://thenounproject.com/search/?q=dharmachakra&i=740796) by Parkjisun
+* Morlovia: [wreath](https://thenounproject.com/search/?q=laurel&i=692545) by VectorBakery
+* Nas: [Iron Cross](https://thenounproject.com/search/?q=iron%20cross&i=373241) by Souvik Maity
+* Niranna: Modified [Iroquois](https://github.com/ravignir/5Hex-Tileset/blob/master/Images/NationIcons/Iroquois.png) by Ravignir
+* Polgar Sod'em: [Logo](https://thenounproject.com/icon/logo-2372941/) by Rafina Andra
+* Rain Forest: Modified [Canada](https://github.com/Ravignir/RekMOD/tree/main/Images/NationIcons/Canada.png) by Ravignir
+* Red Moon: [Aztecs](https://github.com/yairm210/Unciv/tree/master/android/Images/NationIcons/Aztecs.png) by Sean
+* Smeheng: [sun](https://thenounproject.com/icon/sun-1202490/) by yasminvisible
+* Sulvana: [Logo](https://thenounproject.com/icon/logo-2278928/) by Rafina Andra
+* Thallin: [Three Crowns](https://thenounproject.com/search/?q=three+crowns&i=1155972) by Daniel Falk
+* Thorin: [Marathi Rider](https://github.com/Ravignir/RekMOD/tree/main/Images/UnitIcons/Marathi-Rider.png) by Ravignir
+* Torakj: Created with Paint 3D from [Spear](https://thenounproject.com/term/spear/313412/) by lastspark
+* Townfolk: [Brunei](https://github.com/Ravignir/RekMOD/tree/main/Images/NationIcons/Brunei.png) by Ravignir
+* Twin Mountain: [Mountain](https://thenounproject.com/icon/mountain-1157665/) by Sandra
+* Urg: [Drama and Poetry](https://github.com/Ravignir/RekMOD/tree/main/Images/TechIcons/Drama-and-Poetry.png) by Ravignir
+
 
 
 * Eggs: [Eggs](https://thenounproject.com/icon/eggs-1119369/) by Danil Polshin
