@@ -45,8 +45,7 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains","Grassland"],
 		"food": 1,
-		"improvement": "Farm",
-		"improvementStats": {"food": 0},
+		"improvement": "Farm"
 	},
 	{
 		"name": "Sheep",
@@ -82,8 +81,15 @@
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"improvement": "Fishing Boats",
-		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [10] tiles <in [Featureless] [Coast] tiles>"]
+	},
+	{
+		"name": "Antiquity Site",
+		"resourceType": "Bonus",
+		"revealedBy": "Archaeology",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Forest","Jungle","Desert","Tundra"],
+		"improvement": "Archaeological Dig",
+		"improvementStats": {"culture": 5},
 	},
 	
 	// Strategic resources
@@ -98,6 +104,7 @@
 		"uniques": ["Guaranteed with Strategic Balance resource option",
 					"Generated with weight [100] <in [Featureless] [Grassland] tiles>",
 					"Generated with weight [100] <in [Featureless] [Plains] tiles>",
+					"Generated with weight [40] <in [Featureless] [Desert] tiles>",
 					"Minor deposits generated with weight [10] <in [Grassland] [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
 					"Minor deposits generated with weight [10] <in [Plains] [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
 					"Minor deposits generated with weight [100] <in [Featureless] [Grassland] tiles> <in [Fresh Water] tiles>",
@@ -115,10 +122,10 @@
 		"improvement": "Mine",
 		"improvementStats": {"production": 1},
 		"uniques": ["Guaranteed with Strategic Balance resource option",
-					"Generated with weight [45] <in [Featureless] [Tundra] tiles>",
+					"Generated with weight [20] <in [Featureless] [Tundra] tiles>",
 					"Generated with weight [25] <in [Featureless] [Snow] tiles>",
 					"Generated with weight [35] <in [Featureless] [Desert] tiles>",
-					"Generated with weight [26] <in [Hill] tiles>",
+					"Generated with weight [30] <in [Hill] tiles>",
 					"Minor deposits generated with weight [10] <in [Marsh] tiles> <in tiles without [Hill]>",
 					"Minor deposits generated with weight [10] <in [Jungle] [Hill] tiles>",
 					"Minor deposits generated with weight [20] <in [Forest] tiles>",
@@ -139,6 +146,11 @@
 		"production": 1,
 		"improvement": "Taming",
 		"improvementStats": {"production": 1},
+		"uniques": ["Guaranteed with Strategic Balance resource option",
+					"Generated with weight [25] <in [Featureless] [Tundra] tiles>",
+					"Generated with weight [80] <in [Featureless] [Snow] tiles>",
+					"Deposits in [Snow] tiles always provide [4] resources",
+					"Minor deposits generated with weight [10] <in [Featureless] [Tundra] tiles>"],
 		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
@@ -159,16 +171,23 @@
 		"name": "Dragon's Egg",
 		"resourceType": "Strategic",
 		"revealedBy": "Optics",
-		"terrainsCanBeFoundOn": ["Hill","Snow","Jungle"],
+		"terrainsCanBeFoundOn": ["Hill","Jungle"],
 		"production": 1,
 		"improvement": "Taming",
 		"improvementStats": {"production": 1},
-		"majorDepositAmount": {"sparse": 3, "default": 4, "abundant": 5},
+		"uniques": ["Generated with weight [5] <in [Hill] tiles>",
+					"Generated with weight [30] <in [Jungle] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Tundra] [Hill] tiles>",
+					"Minor deposits generated with weight [10] <in [Grassland] [Hill] tiles>",
+					"Minor deposits generated with weight [10] <in [Plains] [Hill] tiles>",
+					"Minor deposits generated with weight [20] <in [Desert] [Hill] tiles>"],
+		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 	{
 		"name": "Adamantium",
 		"resourceType": "Strategic",
+		"revealedBy": "Alchemy",
 		"uniques": ["Will not be displayed in Civilopedia"]
 	},
 	{
@@ -186,8 +205,8 @@
 		"improvement": "Quarry",
 		"improvementStats": {"production": 2},
 		"uniques": ["Guaranteed with Strategic Balance resource option",
-					"Generated with weight [35] <in [Featureless] [Tundra] tiles>",
-					"Generated with weight [50] <in [Featureless] [Snow] tiles>",
+					"Generated with weight [25] <in [Featureless] [Tundra] tiles>",
+					"Generated with weight [40] <in [Featureless] [Snow] tiles>",
 					"Generated with weight [35] <in [Featureless] [Desert] tiles>",
 					"Generated with weight [40] <in [Featureless] [Grassland] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Grassland] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",
@@ -197,17 +216,6 @@
 					"Minor deposits generated with weight [10] <in [Featureless] [Snow] tiles>"],
 		"majorDepositAmount": {"sparse": 5, "default": 8, "abundant": 10},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
-	},
-	{
-		"name": "Uranium",
-		"resourceType": "Strategic",
-		"revealedBy": "Alchemy",
-		"terrainsCanBeFoundOn": ["Plains","Desert","Tundra","Hill","Snow","Forest","Marsh","Grassland"],
-		"production": 1,
-		"improvement": "Mine",
-		"improvementStats": {"production": 2},
-		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 4},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 	
 	// Luxury resources
@@ -535,7 +543,7 @@
 	
 	// Mercantile City-States Luxury
 	{
-		"name": "Cloves", 
+		"name": "Honey", 
 		"gold": 2,
 		"resourceType": "Luxury",
 		"uniques": ["Can only be created by Mercantile City-States"]
