@@ -11,9 +11,7 @@
 		"culture": 2,
 		"cityStrength": 3,
 		"cost": 1,
-		"uniques": ["Indicates the capital city", "[+1 Happiness] [in this city] <before the [Feudal age]>", 
-					"[+2 Happiness] [in this city] <before the [Renaissance age]>", 
-					"[+1 Happiness] [in this city] <starting from the [Heroic age]>"]
+		"uniques": ["Indicates the capital city"]
 	},
 	{
 		"name": "Para",
@@ -26,10 +24,7 @@
 		"culture": 2,
 		"cityStrength": 3,
 		"cost": 1,
-		"uniques": ["Indicates the capital city", "[+1 Happiness] [in this city] <before the [Feudal age]>", 
-					"[+2 Happiness] [in this city] <before the [Renaissance age]>", 
-					"[+1 Happiness] [in this city] <starting from the [Heroic age]>", 
-					"[-50]% unhappiness from population [in this city]"]
+		"uniques": ["Indicates the capital city", "[-50]% unhappiness from population [in this city]"]
 	},
 	{
 		"name": "Monument",
@@ -95,6 +90,15 @@
 		"requiredTech": "Calendar"
 	},
 	{
+		"name": "Aknamuki",
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["Must have an owned [Marsh] within [3] tiles", "[+2 Food, +3 Science, +3 Production] from [Marsh] tiles [in this city]", 
+					"[+2 Gold] from [Truffles] tiles [in this city]"],
+		"requiredTech": "Calendar",
+		"quote": "'I rose from marsh mud, algae, equisetum, willows, sweet green, noisy birds and frogs' ― Lorine Niedecker"
+	},
+	{
 		"name": "Gerude",
 		"culture": 1,
 		"isWonder": true,
@@ -115,11 +119,11 @@
 		"name": "Malus' Barricade",
 		"uniqueTo": "Malus",
 		"cost": 15,
-		"cityStrength": 2,
+		"cityStrength": 1,
 		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry",
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": ["New [{Military} {Land}] units start with [10] Experience [in this city]", "Destroyed when the city is captured"]
 	},
 	{
 		"name": "Bondowoso",
@@ -151,14 +155,14 @@
 		"requiredTech": "Optics"
 	},
 	{
-        "name": "The Great Lighthouse",
-        "culture": 1,
-        "greatPersonPoints": {"Great Merchant": 1},
-        "isWonder": true,
-        "uniques": ["Gain a free [Lighthouse] [in this city]", "Must be next to [Coast]", "[+1] Movement for all [{Military} {Water}] units",
+		"name": "The Great Lighthouse",
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["Gain a free [Lighthouse] [in this city]", "Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>", 
 					"[+1] Sight <for [{Military} {Water}] units>"],
-        "requiredTech": "Optics",
-        "quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
+		"requiredTech": "Optics",
+		"quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
     },
 	{
 		"name": "Kampong Aer",
@@ -230,6 +234,15 @@
 		"requiredTech": "The Wheel"
 	},
 	{
+		"name": "Dai Palgum",
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["Must be next to [River]", "[+1 Food, +1 Faith] from [River] tiles [in this city]", 
+					"Hidden when religion is disabled"],
+		"requiredTech": "The Wheel",
+		"quote": "'A good river is nature's life work in song.' ― Mark Helprin, 'Freddy And Fredericka'"
+	},
+	{
 		"name": "Colosseum",
 		"maintenance": 1,
 		"happiness": 2,
@@ -243,6 +256,18 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Colosseum] in all cities", "Cost increases by [25] per owned city"],
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Sacred Dance",
+		"replaces": "The Great Colosseum",
+		"uniqueTo": "Erhab",
+		"cost": 150,
+		"happiness": 5,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Requires a [Colosseum] in all cities", "Cost increases by [25] per owned city", "[+1 Gold] from each Trade Route", 
+			"[+10]% Strength <for [Melee] units> <when defending>"],
 		"requiredTech": "Construction"
 	},
 	{
@@ -309,7 +334,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Artist": 2},
 		"isWonder": true,
-		"uniques": ["[+25]% [Culture] [in this city]", "[-25]% Culture cost of acquiring tiles [in all cities]", 
+		"uniques": ["[+25]% [Culture] [in this city]", "[-25]% Culture cost of natural border growth [in all cities]", 
 					"[-25]% Gold cost of acquiring tiles [in all cities]"],
 		"requiredTech": "Poetry",
 		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"
@@ -378,7 +403,7 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Culture] from [Incense] tiles [in this city]", "[+1 Culture] from [Perfume] tiles [in this city]"],
 		"requiredTech": "Theology"
-    },
+	},
 	{
 		"name": "Great Pyramid",
 		"culture": 2,
@@ -409,6 +434,14 @@
 		"requiredTech": "Civil Service"
 	},
 	{
+		"name": "Ker'sai",
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["Must be next to [Lakes]", "[+2 Gold, +1 Production] from [Lakes] tiles [in this city]"],
+		"requiredTech": "Civil Service",
+		"quote": "'They say that the bottom of the lake is covered with gold. I'd say this view is worth more than the gold.' ― Mihai Simion"
+	},
+	{
 		"name": "Market",
 		"gold": 2,
 		"specialistSlots": {"Merchant": 2},
@@ -421,7 +454,7 @@
 		"replaces": "Market",
 		"uniqueTo": "Cavegoa",
 		"gold": 3,
-		"specialistSlots": {"Merchant": 1},
+		"specialistSlots": {"Merchant": 2},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
 		"uniques": ["[+1 Production, +3 Gold] from [Water resource] tiles [in this city]"],
@@ -434,6 +467,15 @@
 		"hurryCostModifier": 25,
 		"uniques": ["[+2 Gold] from [Copper] tiles [in this city]", "[+2 Gold] from [Gold Ore] tiles [in this city]", 
 					"[+2 Gold] from [Silver] tiles [in this city]"],
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Royal Camp",
+		"gold": 2,
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"uniques": ["Consumes [2] [Mammoth]", "Provides [2] [Ivory]", "Provides [2] [Meatball]", 
+					"Can only be built [in capital]", "Destroyed when the city is captured"],
 		"requiredTech": "Currency"
 	},
 	{ // Flood plains are not supposed to be affected by this wonder. Add stats to all desert tiles and then add negative stats to flood plains to undo the effect on them for now
@@ -449,18 +491,8 @@
 		"name": "Aqueduct",
 		"maintenance": 1,
 		"hurryCostModifier": 0,
-		"uniques": ["[40]% of food is carried over [in this city] after population increases"],
+		"uniques": ["[40]% Food is carried over after population increases [in this city]"],
 		"requiredTech": "Engineering"
-	},
-	{
-		"name": "Rheog Baddan",
-		"culture": 1,
-		"happiness": 4,
-		"greatPersonPoints": {"Great Artist": 1},
-		"isWonder": true,
-		"uniques": ["[+50%] Golden Age length"],
-		"requiredTech": "Engineering",
-		"quote": "'He got better in the end, but nobody cared much about that'  - Roger Lancelyn Green"
 	},
 	{
 		"name": "Workshop",
@@ -495,6 +527,16 @@
 			"[+15]% Production when constructing [Land] units [in this city]",
 			"[+1 Production] from [Iron] tiles [in this city]"]
 	},
+	{
+		"name": "Rheog Baddan",
+		"culture": 1,
+		"happiness": 4,
+		"greatPersonPoints": {"Great Artist": 1},
+		"isWonder": true,
+		"uniques": ["[+50]% Golden Age length"],
+		"requiredTech": "Metal Casting",
+		"quote": "'He got better in the end, but nobody cared much about that'  - Roger Lancelyn Green"
+	},
 	
 	// Renaissance age
 	
@@ -523,11 +565,10 @@
 		"name": "Public School",
 		"maintenance": 3,
 		"hurryCostModifier": 15,
-		"percentStatBonus": {"science": 10},
+		"percentStatBonus": {"science": 15},
 		"specialistSlots": {"Scientist": 2},
-		"science": 3,
+		"science": 4,
 		"requiredBuilding": "Paper Maker",
-		"uniques": ["[+1 Science] per [2] population [in this city]"],
 		"requiredTech": "Education"
 	},
 	{
@@ -536,12 +577,12 @@
 		"uniqueTo": "Red Moon",
 		"maintenance": 2,
 		"hurryCostModifier": 15,
-		"percentStatBonus": {"science": 10},
+		"percentStatBonus": {"science": 15},
 		"specialistSlots": {"Scientist": 2},
-		"science": 3,
-		"culture": 3,
+		"science": 4,
+		"faith": 3,
 		"requiredBuilding": "Paper Maker",
-		"uniques": ["[+1 Science] per [2] population [in this city]", "[+1 Gold] from each Trade Route <when not at war>"],
+		"uniques": ["[+2 Gold] [in this city] <when not at war>"],
 		"requiredTech": "Education"
 	},
 	{
@@ -569,7 +610,7 @@
 	{
 		"name": "Ulick Myne",
 		"culture": 1,
-		"greatPersonPoints": {"Great Engineer": 2},
+		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"percentStatBonus": {"culture": 20},
 		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Drill I] promotion",
@@ -606,7 +647,7 @@
 		"gold": 8,
 		"culture": 1,
 		"isNationalWonder": true,
-		"percentStatBonus": {"gold": 35},
+		"percentStatBonus": {"gold": 33},
 		"greatPersonPoints": {"Great Merchant": 1},
 		"uniques": ["Requires a [Market] in all cities", "[+2 Production, +4 Gold] from [Mountain] tiles [in all cities]", 
 			"Cost increases by [25] per owned city"],
@@ -644,6 +685,14 @@
 		"uniques": ["Must be next to [Desert]"]
 	},
 	{
+		"name": "Public Bath",
+		"happiness": 3,
+		"hurryCostModifier": 10,
+		"maintenance": 2,
+		"requiredBuilding": "Colosseum",
+		"requiredTech": "Physics"
+	},
+	{
 		"name": "Jagaddhita",
 		"culture": 3,
 		"happiness": 5,
@@ -678,7 +727,7 @@
 		"maintenance": 0,
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"science": 50},
-		"requiredBuilding": "Paper Maker",
+		"requiredBuilding": "Public School",
 		"uniques": ["Must be next to [Mountain]"],
 		"requiredTech": "Astronomy"
 	},
@@ -766,6 +815,15 @@
 		"requiredTech": "Alchemy"
 	},
 	{
+		"name": "Glaciruptor",
+		"greatPersonPoints": {"Great Scientist": 1,"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["Must be next to [Tundra]", "[+1 Production] from [Tundra] tiles [in this city]", 
+					"[+2 Science] from [Snow] tiles [in this city]"], 
+		"requiredTech": "Alchemy",
+		"quote": "'You must have your heart on fire and your brain on ice.' ― Vladimir Lenin"
+	},
+	{
 		"name": "Moat",
 		"cost": 200,
 		"cityStrength": 5,
@@ -804,15 +862,15 @@
 		"specialistSlots": {"Scientist": 1},
 		"requiredBuilding": "Public School",
 		"maintenance": 3,
-		"uniques": ["[+1 Science] per [5] population [in this city]"],
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
 		"requiredTech": "Mass Media"
 	},
 	{
 		"name": "Theatre",
-		"happiness": 3,
+		"happiness": 4,
 		"hurryCostModifier": 10,
 		"maintenance": 2,
-		"requiredBuilding": "Colosseum",
+		"requiredBuilding": "Public Bath",
 		"requiredTech": "Mass Media"
 	},
 	{
@@ -940,7 +998,7 @@
 		"requiredBuilding": "Quality Seeds Station",
 		"maintenance": 3,
 		"requiredTech": "Pharmaceuticals",
-		"uniques": ["[25]% of food is carried over [in this city] after population increases"]
+		"uniques": ["[25]% Food is carried over after population increases [in this city]"]
 	},
 	{
 		"name": "Burning Mirror",
@@ -1100,7 +1158,7 @@
 		"culture": 2,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
-		"uniques": ["[+1] Range <for [AirTerror] units>", "[+2] Range <for [Air] units>", "[+2] Movement <for [Land] units>", 
+		"uniques": ["[+1] Range <for [Air Terror] units>", "[+2] Range <for [Air] units>", "[+2] Movement <for [Land] units>", 
 					"[+1] Sight <for [Water] units>", "Not displayed as an available construction without [God's Key]"],
 		"requiredResource": "God's Key",
 		"requiredTech": "God of War"
@@ -1131,10 +1189,10 @@
 		"culture": 2,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
-		"uniques": ["[+1 Culture] [in all cities]", "[+1 Culture] from [Wine] tiles [in all cities]", "[+1 Culture] from [Incense] tiles [in all cities]", 
-					"[+1 Culture] from [Sugar] tiles [in all cities]", "[+1 Culture] from [Salt] tiles [in all cities]", 
-					"[+1 Culture] from [Lobster] tiles [in all cities]", "[+1 Culture] from [Perfume] tiles [in all cities]", 
-					"[+1 Culture] from [Tea] tiles [in all cities]", "Not displayed as an available construction without [God's Key]"],
+		"uniques": ["[+1 Culture] from every [Plantation]", "[+1 Culture] from [Wine] tiles [in all cities]", 
+					"[+1 Culture] from [Incense] tiles [in all cities]", "[+1 Culture] from [Perfume] tiles [in all cities]", 
+					"[+1 Culture] from [Sugar] tiles [in all cities]", "[+1 Culture] from [Tea] tiles [in all cities]", 
+					"Not displayed as an available construction without [God's Key]"],
 		"requiredResource": "God's Key",
 		"requiredTech": "Goddess of Festivals"
 	},
@@ -1144,7 +1202,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
-		"uniques": ["[+10]% [Food] [in all cities]", "[+1] [Food] from every [Camp]", "Not displayed as an available construction without [God's Key]"],
+		"uniques": ["[+10]% [Food] [in all cities]", "[+1 Food] from every [Camp]", "Not displayed as an available construction without [God's Key]"],
 		"requiredResource": "God's Key",
 		"requiredTech": "Goddess of the Hunt"
 	},
@@ -1165,9 +1223,8 @@
 		"name": "Breakthrough Chamber",
 		"cost": 380,
 		"production": 3,
-		"requiredResource": "Uranium",
-		"uniques": ["Requires [Elementallist Program]", "[+50]% Production when constructing [Elementallist] wonders [in this city]", 
-					"All newly-trained [Land] units [in this city] receive the [Breakthrough] promotion"],
+		"uniques": ["[+50]% Production when constructing [Elementallist] wonders [in this city]", 
+					"All newly-trained [Melee] units [in this city] receive the [Breakthrough] promotion", "Consumes [2] [Adamantium]"],
 		"requiredTech": "Enlightment"
 	},
 	{
@@ -1184,7 +1241,7 @@
 	},
 	{
 		"name": "Earth Element",
-		"requiredResource": "Uranium",
+		"requiredResource": "Adamantium",
 		"cost": 250,
 		"isNationalWonder": true,
 		"requiredTech": "Enlightment",
@@ -1194,7 +1251,7 @@
 	// Column 14
 	{
 		"name": "Wood Element",
-		"requiredResource": "Uranium",
+		"requiredResource": "Adamantium",
 		"cost": 250,
 		"isNationalWonder": true,
 		"requiredTech": "Telepathy",
@@ -1203,7 +1260,7 @@
 	},
 	{
 		"name": "Water Element",
-		"requiredResource": "Uranium",
+		"requiredResource": "Adamantium",
 		"cost": 250,
 		"isNationalWonder": true,
 		"requiredTech": "Foresight",
@@ -1224,7 +1281,7 @@
 	
 	{
 		"name": "Fire Element",
-		"requiredResource": "Uranium",
+		"requiredResource": "Adamantium",
 		"cost": 250,
 		"isNationalWonder": true,
 		"requiredTech": "Mana Manipulation",
@@ -1233,7 +1290,7 @@
 	},
 	{
 		"name": "Metal Element",
-		"requiredResource": "Uranium",
+		"requiredResource": "Adamantium",
 		"cost": 250,
 		"isNationalWonder": true,
 		"requiredTech": "Lasers",
@@ -1276,10 +1333,9 @@
 	{
 		"name": "Mandir",
 		"cost": 0,
-		"culture": 1,
 		"faith": 3,
 		"happiness": 1,
-		"uniques": ["Unbuildable", "[25]% of food is carried over [in this city] after population increases", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "[20]% Food is carried over after population increases [in this city]", "Hidden when religion is disabled"]
 	},
 	{
 		"name": "Mosque",
@@ -1313,7 +1369,7 @@
 		"cityHealth": 1,
 		"uniques": ["Requires [Dark age]", "Can only be built [in capital]", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
-    	},
+	},
 	{
         	"name": "Free Fury2",
 		"uniqueTo": "Urg",
@@ -1321,7 +1377,7 @@
 		"cityHealth": 1,
 		"uniques": ["Requires [Classical age]", "Can only be built [in capital]", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
-    	},
+	},
 	{
         	"name": "Free Fury3",
 		"uniqueTo": "Urg",
@@ -1329,7 +1385,7 @@
 		"cityHealth": 1,
 		"uniques": ["Requires [Feudal age]", "Can only be built [in capital]", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
-    	},
+	},
 	{
         	"name": "Free Fury4",
 		"uniqueTo": "Urg",
@@ -1337,7 +1393,7 @@
 		"cityHealth": 1,
 		"uniques": ["Requires [Renaissance age]", "Can only be built [in capital]", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
-    	},
+	},
 	{
         	"name": "Free Fury5",
 		"uniqueTo": "Urg",
@@ -1345,7 +1401,7 @@
 		"cityHealth": 1,
 		"uniques": ["Requires [Heroic age]", "Can only be built [in capital]", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
-    	},
+	},
 	{
         	"name": "Free Fury6",
 		"uniqueTo": "Urg",
@@ -1353,7 +1409,7 @@
 		"cityHealth": 2,
 		"uniques": ["Requires [Mythic age]", "Can only be built [in capital]", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
-    	},
+	},
 	{
         	"name": "Free Fury7",
 		"uniqueTo": "Urg",
@@ -1361,7 +1417,7 @@
 		"cityHealth": 2,
 		"uniques": ["Requires [Chaos age]", "Can only be built [in capital]", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
-    	},
+	},
 	{
         	"name": "Free Fury8",
 		"uniqueTo": "Urg",
@@ -1369,7 +1425,7 @@
 		"cityHealth": 1,
 		"uniques": ["Requires [Future age]", "Can only be built [in capital]", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
-    	},
+	},
 	{
 		"name": "Astana",
 		"uniqueTo": "Thallin",
@@ -1402,7 +1458,7 @@
 		"cityStrength": 1,
 		"uniques": ["[-25]% unhappiness from population [in this city]", "Destroyed when the city is captured", "Will not be displayed in Civilopedia", 
 					"Unbuildable", "Unsellable"],
-    	},
+	},
 	{
 		"name": "Free Artist",
 		"uniqueTo": "Thallin",
@@ -1411,5 +1467,5 @@
 		"cityHealth": 2,
 		"uniques": ["Requires [Tradition Complete]", "Can only be built [in capital]", "Free [Para Artist] appears", "Unsellable", 
 					"Will not be displayed in Civilopedia"]
-	},
+	}
 ]
