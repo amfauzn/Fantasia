@@ -1,6 +1,29 @@
 [	
 	// Bonus resources
 	{
+		"name": "Elements",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Hero Candidate",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Meatball",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Antiquity Site",
+		"resourceType": "Bonus",
+		"revealedBy": "Archaeology",
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Forest","Jungle","Desert","Tundra"],
+		"improvement": "Archaeological Dig",
+		"improvementStats": {"culture": 5},
+	},
+	{
 		"name": "Bananas",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Jungle"],
@@ -82,14 +105,6 @@
 		"food": 1,
 		"improvement": "Fishing Boats",
 		"uniques": ["Generated on every [10] tiles <in [Featureless] [Coast] tiles>"]
-	},
-	{
-		"name": "Antiquity Site",
-		"resourceType": "Bonus",
-		"revealedBy": "Archaeology",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Forest","Jungle","Desert","Tundra"],
-		"improvement": "Archaeological Dig",
-		"improvementStats": {"culture": 5},
 	},
 	
 	// Strategic resources
@@ -220,12 +235,6 @@
 	
 	// Luxury resources
 	{
-		"name": "Elements",
-		"resourceType": "Luxury",
-		"gold": 2,
-		"uniques": ["Will not be displayed in Civilopedia"]
-	},
-	{
 		"name": "Garuda's Egg",
 		"resourceType": "Luxury",
 		"gold": 2,
@@ -237,19 +246,9 @@
 		"uniques": ["Will not be displayed in Civilopedia"]
 	},
 	{
-		"name": "Hero Candidate",
-		"resourceType": "Luxury",
-		"uniques": ["Will not be displayed in Civilopedia"]
-	},
-	{
 		"name": "Kraken's Baby",
 		"resourceType": "Luxury",
 		"gold": 2,
-		"uniques": ["Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "Meatball",
-		"resourceType": "Luxury",
 		"uniques": ["Will not be displayed in Civilopedia"]
 	},
 	{
