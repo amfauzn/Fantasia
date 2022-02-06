@@ -35,10 +35,10 @@
         "name": "Siege",
         "movementType": "Land"
     },
-	{
+    {
         "name": "Hero",
         "movementType": "Land",
-		"uniques": ["Ignores terrain cost", "[-100]% maintenance costs"]
+	"uniques": ["Ignores terrain cost", "[-100]% maintenance costs"]
     },
     {
         "name": "Civilian Water",
@@ -52,20 +52,20 @@
         "name": "Ranged Water",
         "movementType": "Water"
     },
-	{
+    {
         "name": "Water Terror",
         "movementType": "Water",
         "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [WaterTerror] units"]
     },
-	{
+    {
         "name": "Water Hero",
         "movementType": "Water",
         "uniques": ["Can enter ice tiles", "[-100]% maintenance costs"]
     },
-	{
+    {
         "name": "Vampire",
         "movementType": "Land",
-		"uniques": ["Ignores terrain cost", "[-100]% maintenance costs", "[-5] HP when healing", "[+5] HP when healing in [Coffin] tiles", 
+	"uniques": ["Ignores terrain cost", "[-100]% maintenance costs", "[-5] HP when healing", 
 			"[+66]% Strength <during the [Renaissance age]>", "[+115]% Strength <during the [Heroic age]>", 
 			"[+325]% Strength <during the [Mythic age]>", "[+510]% Strength <starting from the [Chaos age]>"]
     },
