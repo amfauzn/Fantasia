@@ -22,5 +22,11 @@
 		"production":2,
 		"greatPersonPoints": {"Great Engineer":3},
 		"color": [139,69,19]
+	},
+	{
+		"name":"Farmer",
+		"food":3,
+		"greatPersonPoints": {"Great Farmer":3},
+		"color": [56,255,112]
 	}
 ]
