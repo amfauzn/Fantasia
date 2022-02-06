@@ -9,6 +9,7 @@
 		"science": 3,
 		"gold": 3,
 		"culture": 2,
+		"happiness": 1,
 		"cityStrength": 3,
 		"cost": 1,
 		"uniques": ["Indicates the capital city"]
@@ -22,6 +23,7 @@
 		"science": 3,
 		"gold": 3,
 		"culture": 2,
+		"happiness": 1,
 		"cityStrength": 3,
 		"cost": 1,
 		"uniques": ["Indicates the capital city", "[-50]% unhappiness from population [in this city]"]
@@ -39,16 +41,32 @@
 		"replaces": "Monument",
 		"uniqueTo": "Polgar Sod'em",
 		"culture": 2,
-		"science": 1,
+		"science": 2,
 		"cost": 40,
 		"hurryCostModifier": 40,
-		"maintenance": 0,
+		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	// Column 1
 	{
 		"name": "Granary",
 		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]", 
+					"[+1 Food] from [Bananas] tiles [in this city]", 
+					"[+1 Food] from [Wheat] tiles [in this city]", 
+					"[+1 Food] from [Maize] tiles [in this city]", 
+					"[+1 Food] from [Citrus] tiles [in this city]"],
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Frosten Granary",
+		"replaces": "Granary",
+		"uniqueTo": "Frostmorrow",
+		"food": 2,
+		"culture": 1,
+		"specialistSlots": {"Farmer": 2},
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Deer] tiles [in this city]", 
@@ -237,7 +255,7 @@
 		"name": "Dai Palgum",
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["Must be next to [River]", "[+1 Food, +1 Faith] from [River] tiles [in this city]", 
+		"uniques": ["Must be on [River]", "Gain a free [Water Mill] [in this city]", "[+1 Food, +1 Faith] from [River] tiles [in this city]", 
 					"Hidden when religion is disabled"],
 		"requiredTech": "The Wheel",
 		"quote": "'A good river is nature's life work in song.' ― Mark Helprin, 'Freddy And Fredericka'"
@@ -475,7 +493,7 @@
 		"maintenance": 0,
 		"hurryCostModifier": 25,
 		"uniques": ["Consumes [2] [Mammoth]", "Provides [2] [Ivory]", "Provides [2] [Meatball]", 
-					"Can only be built [in capital]", "Destroyed when the city is captured"],
+					"Can only be built [in capital]", "Destroyed when the city is captured", "Not displayed as an available construction without [Mammoth]"],
 		"requiredTech": "Currency"
 	},
 	{ // Flood plains are not supposed to be affected by this wonder. Add stats to all desert tiles and then add negative stats to flood plains to undo the effect on them for now
@@ -483,7 +501,8 @@
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
-		"uniques": ["Must be next to [Desert]", "[+1 Food, +1 Production] from [Desert] tiles [in this city]", "[-1 Food, -1 Production] from [Flood plains] tiles [in this city]", "[+6 Culture] <after discovering [Navigation]>"],
+		"uniques": ["Must be next to [Desert]", "[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]", 
+			"[+6 Culture] <after discovering [Navigation]>"],
 		"requiredTech": "Currency",
 		"quote": "'...who drinks the water I shall give him, says the Lord, will have a spring inside him welling up for eternal life. Let them bring me to your holy mountain in the place where you dwell. Across the desert and through the mountain to the Canyon of the Crescent Moon...'  - Indiana Jones"
 	},
@@ -523,7 +542,7 @@
 		"requiredTech": "Metal Casting",
 		// If spaceship parts are changed into units, the spaceship part unique should be changed to
 		// "[+15]% Production when constructing [Spaceship part] units [in this city]"
-		"uniques": ["[+15]% Production when constructing [Spaceship part] buildings [in this city]",
+		"uniques": ["[+15]% Production when constructing [Elementallist] wonders [in this city]"
 			"[+15]% Production when constructing [Land] units [in this city]",
 			"[+1 Production] from [Iron] tiles [in this city]"]
 	},
@@ -586,6 +605,21 @@
 		"requiredTech": "Education"
 	},
 	{
+		"name": "Alchemical Society",
+		"replaces": "Public School",
+		"uniqueTo": "Vedic",
+		"maintenance": 3,
+		"hurryCostModifier": 15,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"percentStatBonus": {"science": 15},
+		"specialistSlots": {"Scientist": 2},
+		"science": 3,
+		"production": 2,
+		"requiredBuilding": "Paper Maker",
+		"uniques": ["[+1 Gold] from [Mine] tiles [in this city]", "[+1 Gold] from [Quarry] tiles [in this city]"],
+		"requiredTech": "Education"
+	},
+	{
 		"name": "Castle",
 		"cityStrength": 10,
 		"cityHealth": 30,
@@ -604,7 +638,7 @@
 		"culture": 2,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Walls",
-		"uniques": ["[+1 Gold] <after discovering [Economics]>", "Destroyed when the city is captured"],
+		"uniques": ["[+2 Gold] <after discovering [Economics]>", "Destroyed when the city is captured"],
 		"requiredTech": "Chivalry"
 	},
 	{
@@ -1427,43 +1461,25 @@
 					"Unsellable", "Will not be displayed in Civilopedia"]
 	},
 	{
+        "name": "~suka",
+		"uniqueTo": "Frostmorrow",
+		"cityHealth": 1,
+		"uniques": ["[-25]% Culture cost of natural border growth [in this city]", "[-25]% unhappiness from specialists [in this city]", 
+					"Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"]
+	},
+	{
 		"name": "Astana",
 		"uniqueTo": "Thallin",
-		"isNationalWonder": true,
-		"cost": 1,
-		"greatPersonPoints": {"Great Artist": 2},
-		"uniques": ["Cannot be built with [~limit]", "Gain a free [~limit] [in this city]", "Destroyed when the city is captured", 
-					"Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "Astana1",
-		"uniqueTo": "Thallin",
-		"isNationalWonder": true,
-		"cost": 1,
-		"uniques": ["Cannot be built with [~limit]", "Gain a free [~limit] [in this city]", "Destroyed when the city is captured", 
-					"Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "Astana2",
-		"uniqueTo": "Thallin",
-		"isNationalWonder": true,
-		"cost": 1,
-		"uniques": ["Cannot be built with [~limit]", "Gain a free [~limit] [in this city]", "Destroyed when the city is captured", 
-					"Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "~limit",
-		"gold": 2,
-		"cost": 0,
 		"cityStrength": 1,
-		"uniques": ["[-25]% unhappiness from population [in this city]", "Destroyed when the city is captured", "Will not be displayed in Civilopedia", 
-					"Unbuildable", "Unsellable"],
+		"uniques": ["[-25]% unhappiness from population [in this city]", "Unbuildable", "Unsellable", "Destroyed when the city is captured", 
+					"Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Free Artist",
 		"uniqueTo": "Thallin",
 		"isNationalWonder": true,
-		"culture": 10,
+		"culture": 8,
+		"greatPersonPoints": {"Great Artist": 2},
 		"cost": 1,
 		"cityHealth": 2,
 		"uniques": ["Requires [Tradition Complete]", "Can only be built [in capital]", "Free [Para Artist] appears", "Unsellable", 
