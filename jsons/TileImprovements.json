@@ -11,11 +11,11 @@
 	},
 	{
 		"name": "Lumber mill",
-		"terrainsCanBeBuiltOn": ["Forest"],
+		"terrainsCanBeBuiltOn": ["Forest","Man-eating tree"],
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Construction",
-		"uniques": ["[+1 Production] <after discovering [Pharmaceuticals]>"],
+		"uniques": ["Does not need removal of [Forest]", "[+1 Production] <after discovering [Pharmaceuticals]>"],
 		"shortcutKey": "L"
 	},
 	{
@@ -39,9 +39,10 @@
 	{
 		"name": "Ice-calator",
 		"terrainsCanBeBuiltOn": ["Snow"],
-		"turnsToBuild": 7,
+		"turnsToBuild": 6,
 		"uniques": ["[+1 Food] for each adjacent [Ice-calator]", 
-					"[+1 Production] for each adjacent [Strategic resource, Luxury resource]", 
+					"[+1 Production] for each adjacent [Strategic resource]", 
+					"[+1 Production] for each adjacent [Luxury resource]", 
 					"[+1 Production, +1 Science] for each adjacent [Great Improvement]", 
 					"Cannot be built on [Fresh water] tiles", 
 					"Cannot be built on [Coastal] tiles", 
@@ -244,6 +245,14 @@
 					"Cannot be built on [Bonus resource] tiles", "Cannot be built on [Luxury resource] tiles", 
 					"[+1 Production] for each adjacent [Land]"]
 	},
+	{
+		"name": "Cultivated farm",
+		"food": 3,
+		"faith": 1,
+		"culture": 1,
+		"terrainsCanBeBuiltOn": ["Tundra","Snow"],
+		"uniques": ["Great Improvement", "[+1 Food] <after discovering [Fertilizer]>"]
+	},
 	
 	// Civilization unique improvements
 	{
@@ -295,7 +304,6 @@
 	},
 	{
 		"name": "Vampire Castle",
-		"uniqueTo": "Morlovia",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Hill"],
 		"culture": 1,
 		"techRequired": "Construction",
@@ -313,6 +321,7 @@
 		"name": "Coffin",
 		"uniqueTo": "Morlovia",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Hill"],
+		"turnsToBuild": 6,
 		"techRequired": "Engineering",
 		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [33]%"],
 		"shortcutKey": "C"
