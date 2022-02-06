@@ -97,8 +97,8 @@
 		"cost": 44,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
-		"uniques": ["[+20]% Strength <when fighting in [Rough terrain] tiles>", "Heals [25] damage if it kills a unit"],
-		"promotions": ["Fight Bark", "Shock I"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>", "Heals [15] damage if it kills a unit"],
+		"promotions": ["Fight Bark"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -111,6 +111,7 @@
 		"cost": 20,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
+		"uniques": ["Can only attack [Civilian] units", "Can only attack [Military] units"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -121,8 +122,7 @@
 		"strength": 75,
 		"rangedStrength": 75,
 		"range": 15,
-		"uniques": ["Unbuildable", "[-66]% Strength <vs cities>", "[-15]% Strength <vs [Water] units>", 
-			"[-100]% maintenance costs"],
+		"uniques": ["Unbuildable", "[-66]% Strength <vs cities>", "[-100]% maintenance costs"],
 		"attackSound": "torpedo"
 	},
 	{
@@ -130,7 +130,7 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Morlovia",
 		"movement": 2,
-		"uniques": ["Can construct [Vampire Castle]", "Unbuildable", "Uncapturable", "Will not be displayed in Civilopedia"]
+		"uniques": ["Can construct [Vampire Castle]", "Unbuildable", "Uncapturable"]
 	},
 	
 	// Classical age
@@ -225,7 +225,7 @@
 		"replaces": "Horseman",
 		"movement": 2,
 		"strength": 16,
-		"cost": 90,
+		"cost": 88,
 		"requiredTech": "Domestication",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
@@ -328,7 +328,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Can only attack [Civilian] units", "Can only attack [Military] units"],
 		"attackSound": "metalhit"
 	},
 	
@@ -339,7 +339,7 @@
 		"uniqueTo": "Morlovia",
 		"movement": 2,
 		"strength": 14,
-		"uniques": ["Can build [Coffin] improvements on tiles", "Unbuildable", "Will not be displayed in Civilopedia"],
+		"uniques": ["Can build [Coffin] improvements on tiles", "[+5] HP when healing <in [Coffin] tiles>", "Unbuildable"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -418,7 +418,7 @@
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
-		"uniques": ["Can build [Road] improvements on tiles", "Can build [Fort] improvements on tiles"],
+		"uniques": ["Can build [Land] improvements on tiles"],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
@@ -454,7 +454,7 @@
 		"strength": 10,
 		"rangedStrength": 10,
 		"range": 1,
-		"cost": 60,
+		"cost": 55,
 		"requiredTech": "Engineering",
 		"upgradesTo": "Wayfarer",
 		"obsoleteTech": "Scientific Theory",
@@ -685,6 +685,19 @@
 		"attackSound": "nonmetalhit"
 	},
 	{
+		"name": "Musketeer",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "Vedic",
+		"movement": 2,
+		"strength": 28,
+		"cost": 150,
+		"requiredTech": "Alchemy",
+		"obsoleteTech": "Enlightment",
+		"upgradesTo": "Lightsaberman",
+		"attackSound": "shot"
+	},
+	{
 		"name": "Lancer",
 		"unitType": "Mounted",
 		"movement": 4,
@@ -744,8 +757,8 @@
 		"replaces": "Musketman",
 		"uniqueTo": "Frostmorrow",
 		"movement": 2,
-		"strength": 30,
-		"cost": 180,
+		"strength": 32,
+		"cost": 185,
 		"requiredTech": "Gunpowder",
 		"obsoleteTech": "Sacred Path",
 		"upgradesTo": "Smokebeards",
@@ -766,23 +779,6 @@
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "Must set up to ranged attack", "[-1] Sight", 
 			"Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
-	},
-	{
-		"name": "Throwing Yeti",
-		"unitType": "Armored",
-		"replaces": "Cannon",
-		"uniqueTo": "Frostmorrow",
-		"movement": 2,
-		"strength": 22,
-		"rangedStrength": 30,
-		"cost": 275,
-		"requiredTech": "Gunpowder",
-		"upgradesTo": "Adamman",
-		"obsoleteTech": "Sacred Path",
-		"uniques": ["[+50]% Strength <vs cities> <when attacking>", "[+50]% Strength <vs [Melee] units>", 
-			"Never appears as a Barbarian unit"],
-		"promotions": ["Skating"],
-		"attackSound": "throw"
 	},
 	{
 		"name": "Privateer",
@@ -862,14 +858,14 @@
 		"movement": 2,
 		"strength": 30,
 		"rangedStrength": 40,
-		"range": 2,
+		"range": 3,
 		"interceptRange": 2,
 		"cost": 290,
 		"requiredTech": "Railroads",
 		"uniques": ["No defensive terrain bonus", "Must set up to ranged attack", "[+1] Sight", "Ignores Zone of Control", 
 			"[+200]% Strength <vs [Air Terror] units>", "[+200]% Strength <vs [Air] units>", 
 			"[33]% chance to intercept air attacks", "Never appears as a Barbarian unit"],
-		"promotions": ["Barrage I","Extended Range","Indirect Fire"],
+		"promotions": ["Barrage I"],
 		"attackSound": "arrow"
 	},
 	{
@@ -881,7 +877,8 @@
 		"range": 1,
 		"cost": 235,
 		"requiredTech": "Sacred Path",
-		"uniques": ["Invisible to non-adjacent units", "Can see invisible [Military] units", "Unbuildable", "Never appears as a Barbarian unit"],
+		"uniques": ["Invisible to non-adjacent units", "Can see invisible [Military] units", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost", "Scouting I", "Scouting II"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -1384,7 +1381,7 @@
 		"uniqueTo": "Urg",
 		"replaces": "Great General",
 		"uniques": ["Can start an [8]-turn golden age", "Bonus for units in 2 tile radius 15%", "Uncapturable",
-			"Heal adjacent units for an additional 15 HP per turn", "Can construct [Citadel]", "Great Person - [War]", "Unbuildable"],
+			"All adjacent units heal [+15] HP when healing", "Can construct [Citadel]", "Great Person - [War]", "Unbuildable"],
 		"movement": 5
 	},
 	{
@@ -1394,6 +1391,13 @@
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 5
 	},
+	{
+		"name": "Great Farmer",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence", "Can construct [Cultivated farm]", 
+			"Great Person - [Food]", "Unbuildable"],
+		"movement": 2
+	}
 
 	// Religious units
 	{
