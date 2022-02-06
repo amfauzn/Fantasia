@@ -26,7 +26,7 @@
 	},
 	{
 		"name": "Survivalism I",
-		"uniques": ["[+5] HP when healing in [Foreign Land] tiles", "[+33]% Strength <when defending>"],
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+33]% Strength <when defending>"],
 		"unitTypes": ["Scout"]
 	},
 	{
@@ -185,41 +185,41 @@
 	{
 		"name": "Medic II",
 		"prerequisites": ["Medic"],
-		"uniques": ["[+1] HP when healing", "[+5] HP when healing in [Foreign Land] tiles", "All adjacent units heal [+5] HP when healing"],
+		"uniques": ["[+1] HP when healing", "[+5] HP when healing <in [Foreign Land] tiles>", "All adjacent units heal [+5] HP when healing"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Scout"]
 	},
 	{
 		"name": "Bloodlust I",
-		"uniques": ["[+5] HP when healing in [Friendly Land] tiles"],
+		"uniques": ["[+5] HP when healing <in [Friendly Land] tiles>", "[+5] HP when healing <in [Coffin] tiles>"],
 		"unitTypes": ["Vampire"]
 	},
 	{
 		"name": "Bloodlust II",
 		"prerequisites": ["Bloodlust I"],
-		"uniques": ["[+2] HP when healing in [Foreign Land] tiles", "[+2] HP when healing in [Enemy Land] tiles"],
+		"uniques": ["[+3] HP when healing"],
 		"unitTypes": ["Vampire"]
 	},
 	{
-		"name": "Vampiric Touch",
+		"name": "Bloodlust III",
 		"prerequisites": ["Bloodlust II"],
-		"uniques": ["Heals [15] damage if it kills a unit"],
+		"uniques": ["[+2] HP when healing"],
 		"unitTypes": ["Vampire"]
 	},
 	{
 		"name": "Winged Vampire",
-		"prerequisites": ["Vampiric Touch"],
+		"prerequisites": ["Bloodlust III"],
 		"uniques": ["[+2] Movement"],
 		"unitTypes": ["Vampire"]
 	},
 	{
 		"name": "Vampiric Intimidation",
-		"prerequisites": ["Vampiric Touch"],
+		"prerequisites": ["Bloodlust III"],
 		"uniques": ["[-10]% Strength for enemy [All] units in adjacent [All] tiles"],
 		"unitTypes": ["Vampire"]
 	},
 	{
 		"name": "Blood Baptism",
-		"prerequisites": ["Vampiric Touch"],
+		"prerequisites": ["Bloodlust III"],
 		"uniques": ["[+33]% Strength"],
 		"unitTypes": ["Vampire"]
 	},
@@ -357,7 +357,7 @@
 	{
 		"name" : "Supply",
 		"prerequisites": ["Bombardment III", "Targeting III", "Boarding Party III", "Coastal Raider III"],
-		"uniques": ["May heal outside of friendly territory", "[+15] HP when healing in [Foreign Land] tiles"],
+		"uniques": ["May heal outside of friendly territory", "[+15] HP when healing <in [Foreign Land] tiles>"],
 		"unitTypes": ["Melee Water", "Ranged Water", "Water Terror", "Water Hero"]
 	},
 
@@ -607,7 +607,7 @@
 	},
 	{
 		"name": "Kal Withdraw", // only for Kalsharin and subsequent upgrades
-		"uniques": ["May withdraw before melee ([80]%)"]
+		"uniques": ["May withdraw before melee ([66]%)"]
 	},
 	{
 		"name": "Ignore terrain cost",
@@ -620,5 +620,9 @@
 	{
 		"name": "Skating", // only for Yeti and Throwing Yeti Units
 		"uniques": ["Double movement in [Snow]"]
-	}
+	},
+	{
+		"name": "Vampiric Touch", // Vampire
+		"uniques": ["Heals [15] damage if it kills a unit"]
+	},
 ]
