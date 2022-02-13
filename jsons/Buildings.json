@@ -66,7 +66,6 @@
 		"uniqueTo": "Frostmorrow",
 		"food": 2,
 		"culture": 1,
-		"specialistSlots": {"Farmer": 2},
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Food] from [Deer] tiles [in this city]", 
@@ -104,7 +103,8 @@
 		"hurryCostModifier": 0,
 		"uniques": ["[+1 Production] from [Stone] tiles [in this city]", 
 					"[+1 Production] from [Marble] tiles [in this city]", 
-					"[+1 Production] from [Obsidian] tiles [in this city]"],
+					"[+1 Production] from [Obsidian] tiles [in this city]", 
+					"Provides [1] [Rune Stone]"],
 		"requiredTech": "Calendar"
 	},
 	{
@@ -493,7 +493,7 @@
 		"maintenance": 0,
 		"hurryCostModifier": 25,
 		"uniques": ["Consumes [2] [Mammoth]", "Provides [2] [Ivory]", "Provides [2] [Meatball]", 
-					"Can only be built [in capital]", "Destroyed when the city is captured", "Not displayed as an available construction without [Mammoth]"],
+					"Can only be built [in capital]", "Destroyed when the city is captured", "Only available <with [Mammoth]>"],
 		"requiredTech": "Currency"
 	},
 	{ // Flood plains are not supposed to be affected by this wonder. Add stats to all desert tiles and then add negative stats to flood plains to undo the effect on them for now
@@ -610,13 +610,12 @@
 		"uniqueTo": "Vedic",
 		"maintenance": 3,
 		"hurryCostModifier": 15,
-		"greatPersonPoints": {"Great Scientist": 1},
 		"percentStatBonus": {"science": 15},
 		"specialistSlots": {"Scientist": 2},
-		"science": 3,
+		"science": 4,
 		"production": 2,
 		"requiredBuilding": "Paper Maker",
-		"uniques": ["[+1 Gold] from [Mine] tiles [in this city]", "[+1 Gold] from [Quarry] tiles [in this city]"],
+		"uniques": ["Provides [1] [Philosopher's Stone]"],
 		"requiredTech": "Education"
 	},
 	{
@@ -749,10 +748,9 @@
 		"cost": 150,
 		"production": 8,
 		"culture": 1,
-		"greatPersonPoints": {"Great Engineer": 1},
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [25] per owned city", 
-					"Free [Great Engineer] appears", "[+5]% Production when constructing [All] buildings [in this city]"],
+					"Free [Great Engineer] appears"],
 		"requiredTech": "Steel"
 	},
 	// Column 7
@@ -843,9 +841,9 @@
 		"production": 2,
 		"maintenance": 3,
 		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Iron"],
 		"requiredBuilding": "Forge",
-		"requiredResource": "Iron",
-		"uniques": ["Will not be displayed in Civilopedia", "Provides [1] [Kyber]", "Not displayed as an available construction without [Forge]"],
+		"uniques": ["Will not be displayed in Civilopedia", "Consumes [2] [Iron]", "Provides [2] [Kyber]"],
 		"requiredTech": "Alchemy"
 	},
 	{
@@ -870,6 +868,18 @@
 	// Heroic age
 	
 	// Column 8
+	{
+		"name": "Mana Generator",
+		"cost": 350,
+		"production": 5,
+		"percentStatBonus": {"production": 20},
+		"isNationalWonder": true,
+		"uniques": ["Can only be built [in capital]", "[+15]% Production when constructing [Magician] units [in all cities]", 
+					"[Gold] cost of purchasing [Magician] units [-15]%", "[+15]% Strength <for [Hero] units> <when attacking>", 
+					"[+15]% Strength <for [Water Hero] units> <when attacking>"],
+		"requiredResource": "Rune Stone",
+		"requiredTech": "Architecture"
+	},
 	{
 		"name": "Bastar Dussehra",
 		"cost": 200,
@@ -910,9 +920,9 @@
 	{
 		"name": "God's Messenger Monument",
 		"culture": 3,
-		"greatPersonPoints": {"Great Artist": 2},
+		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
-		"uniques": ["Free [Great Artist] appears", "Free [Great Merchant] appears", "Free [Great Prophet] appears"],
+		"uniques": ["Free [Great Artist] appears", "Free [Great Merchant] appears", "Free [Great Prophet] appears", "Hidden when religion is disabled"],
 		"requiredTech": "Mass Media",
 		"quote": "'The body is wiser than its inhabitants. The body is God's messenger' - Horace"
 	},
@@ -962,13 +972,13 @@
 		"requiredTech": "Military Science"
 	},
 	{
-		"name": "Bath Gate",
-		"culture": 3,
-		"greatPersonPoints": {"Great Engineer": 2},
-		"isWonder": true,
-		"uniques": ["Free [Great General] appears", "Free [Great Admiral] appears"],
-		"requiredTech": "Military Science",
-		"quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
+		"name": "Mana Channeller",
+		"production": 5,
+		"percentStatBonus": {"production": 15},
+		"requiredBuilding": "Workshop",
+		"maintenance": 3,
+		"requiredResource": "Rune Stone",
+		"requiredTech": "Military Science"
 	},
 	{
 		"name": "Arsenal",
@@ -978,6 +988,15 @@
 		"requiredBuilding": "Castle",
 		"requiredTech": "Gunpowder",
 		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Bath Gate",
+		"culture": 3,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"isWonder": true,
+		"uniques": ["Free [Great General] appears", "Free [Great Admiral] appears"],
+		"requiredTech": "Gunpowder",
+		"quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
 	},
 	// Column 9
 	{
@@ -1024,7 +1043,7 @@
 		"specialistSlots": {"Engineer": 2},
 		"maintenance": 3,
 		"hurryCostModifier": 25,
-		"uniques": ["Consumes [2] [Iron]", "Consumes [1] [Horses]", "Provides [1] [Adamantium]"],
+		"uniques": ["Consumes [1] [Iron]", "Consumes [1] [Horses]", "Provides [2] [Adamantium]"],
 		"requiredTech": "Scientific Theory"
 	},
 	{
@@ -1068,6 +1087,16 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
+		"name": "Fog of Klabautermann",
+		"production": 5,
+		"percentStatBonus": {"production": 5},
+		"greatPersonPoints": {"Great Artist": 1},
+		"isWonder": true,
+		"uniques": ["Must be next to [Coast]", "All newly-trained [Water] units [in this city] receive the [Medic] promotion"],
+		"requiredTech": "Archaeology",
+		"quote": "'The ascent to the highest story is by stairs, and at their side are water engines, by means of which persons, appointed expressly for the purpose.' –Strabo"
+	},
+	{
 		"name": "Bald Mountain",
 		"happiness": 2,
 		"culture": 4,
@@ -1106,7 +1135,7 @@
 		"name": "Talents Audition",
 		"happiness": 3,
 		"hurryCostModifier": 10,
-		"maintenance": 2,
+		"maintenance": 3,
 		"uniques": ["[+1 Happiness] from [Jade] tiles [in this city]", "[+1 Happiness] from [Gu] tiles [in this city]", 
 					"[+1 Happiness] from [Tea] tiles [in this city]"],
 		"requiredBuilding": "Theatre",
@@ -1129,6 +1158,14 @@
 		"requiredBuilding": "Arsenal",
 		"requiredTech": "Sacred Path",
 		"uniques": ["Population loss from nuclear attacks [-75]% [in this city]", "Destroyed when the city is captured"]
+	},
+	{
+		"name": "Breakthrough Chamber",
+		"cost": 300,
+		"production": 3,
+		"uniques": ["[+50]% Production when constructing [Elementallist] wonders [in this city]", 
+					"All newly-trained [Melee] units [in this city] receive the [Breakthrough] promotion", "Consumes [2] [Adamantium]"],
+		"requiredTech": "Sacred Path"
 	},
 	{
 		"name": "Elementallist Program",
@@ -1155,7 +1192,7 @@
 		"culture": 2,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
-		"uniques": ["Provides [1] [Titan]", "Not displayed as an available construction without [God's Key]"],
+		"uniques": ["Provides [1] [Titan]", "Only available <with [God's Key]>"],
 		"requiredResource": "God's Key",
 		"requiredTech": "Ancestor Ruler"
 	},
@@ -1165,7 +1202,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
-		"uniques": ["[+1 Production] per [3] population [in all cities]", "Not displayed as an available construction without [God's Key]"],
+		"uniques": ["[+1 Production] per [3] population [in all cities]", "Only available <with [God's Key]>"],
 		"requiredResource": "God's Key",
 		"requiredTech": "God of Craftsman"
 	},
@@ -1174,7 +1211,7 @@
 		"culture": 2,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
-		"uniques": ["Provides [1] [Garuda's Egg]", "Not displayed as an available construction without [God's Key]"],
+		"uniques": ["Provides [1] [Garuda's Egg]", "Only available <with [God's Key]>"],
 		"requiredResource": "God's Key",
 		"requiredTech": "God of the Open Sky"
 	},
@@ -1183,7 +1220,7 @@
 		"culture": 2,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
-		"uniques": ["Provides [1] [Kraken's Baby]", "Not displayed as an available construction without [God's Key]"],
+		"uniques": ["Provides [1] [Kraken's Baby]", "Only available <with [God's Key]>"],
 		"requiredResource": "God's Key",
 		"requiredTech": "God of the Sea"
 	},
@@ -1193,7 +1230,7 @@
 		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
 		"uniques": ["[+1] Range <for [Air Terror] units>", "[+2] Range <for [Air] units>", "[+2] Movement <for [Land] units>", 
-					"[+1] Sight <for [Water] units>", "Not displayed as an available construction without [God's Key]"],
+					"[+1] Sight <for [Water] units>", "Only available <with [God's Key]>"],
 		"requiredResource": "God's Key",
 		"requiredTech": "God of War"
 	},
@@ -1203,7 +1240,7 @@
 		"happiness": 1,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
-		"uniques": ["[+2 Happiness] per [8] population [in all cities]", "Not displayed as an available construction without [God's Key]"],
+		"uniques": ["[+2 Happiness] per [8] population [in all cities]", "Only available <with [God's Key]>"],
 		"requiredResource": "God's Key",
 		"requiredTech": "Goddess of Love"
 	},
@@ -1214,7 +1251,7 @@
 		"cityHealth": 100,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
-		"uniques": ["[+33]% Strength for cities <when defending>", "Not displayed as an available construction without [God's Key]"],
+		"uniques": ["[+33]% Strength for cities <when defending>", "Only available <with [God's Key]>"],
 		"requiredResource": "God's Key",
 		"requiredTech": "Goddess of Protection"
 	},
@@ -1226,7 +1263,7 @@
 		"uniques": ["[+1 Culture] from every [Plantation]", "[+1 Culture] from [Wine] tiles [in all cities]", 
 					"[+1 Culture] from [Incense] tiles [in all cities]", "[+1 Culture] from [Perfume] tiles [in all cities]", 
 					"[+1 Culture] from [Sugar] tiles [in all cities]", "[+1 Culture] from [Tea] tiles [in all cities]", 
-					"Not displayed as an available construction without [God's Key]"],
+					"Only available <with [God's Key]>"],
 		"requiredResource": "God's Key",
 		"requiredTech": "Goddess of Festivals"
 	},
@@ -1236,7 +1273,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
-		"uniques": ["[+10]% [Food] [in all cities]", "[+1 Food] from every [Camp]", "Not displayed as an available construction without [God's Key]"],
+		"uniques": ["[+10]% [Food] [in all cities]", "[+1 Food] from every [Camp]", "Only available <with [God's Key]>"],
 		"requiredResource": "God's Key",
 		"requiredTech": "Goddess of the Hunt"
 	},
@@ -1245,7 +1282,7 @@
 		"culture": 2,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
-		"uniques": ["Provides [2] [Hero Candidate]", "Not displayed as an available construction without [God's Key]"],
+		"uniques": ["Provides [2] [Hero Candidate]", "Only available <with [God's Key]>"],
 		"requiredResource": "God's Key",
 		"requiredTech": "Heroism Banner"
 	},
@@ -1253,14 +1290,6 @@
 	// Chaos age
 	
 	// Column 13
-	{
-		"name": "Breakthrough Chamber",
-		"cost": 380,
-		"production": 3,
-		"uniques": ["[+50]% Production when constructing [Elementallist] wonders [in this city]", 
-					"All newly-trained [Melee] units [in this city] receive the [Breakthrough] promotion", "Consumes [2] [Adamantium]"],
-		"requiredTech": "Enlightment"
-	},
 	{
 		"name": "Midnight Propechy",
 		"cost": 1000,
@@ -1281,6 +1310,14 @@
 		"requiredTech": "Enlightment",
 		"uniques": ["Elementallist", "Provides [1] [Elements]", "Triggers a global alert upon completion", "Cannot be purchased", 
 					"Hidden when [Scientific] Victory is disabled"]
+	},
+	{
+		"name": "Heavenly Nature",
+		"cost": 15,
+		"isNationalWonder": true,
+		"requiredBuilding": "Elementallist Program",
+		"uniques": ["Triggers victory", "Consumes [5] [Elements]", "Hidden when [Scientific] Victory is disabled"]
+		"requiredTech": "Enlightment",
 	},
 	// Column 14
 	{
@@ -1335,14 +1372,6 @@
 	// Future age
 	
 	// Column 15
-	{
-		"name": "Heavenly Nature",
-		"cost": 15,
-		"isNationalWonder": true,
-		"requiredBuilding": "Elementallist Program",
-		"uniques": ["Triggers victory", "Consumes [5] [Elements]", "Not displayed as an available construction without [Elementallist Program]"]
-		"requiredTech": "Future tech",
-	},
 	
 	// Cultural Victory
 	{
@@ -1484,5 +1513,41 @@
 		"cityHealth": 2,
 		"uniques": ["Requires [Tradition Complete]", "Can only be built [in capital]", "Free [Para Artist] appears", "Unsellable", 
 					"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Andarass (1 gold = 1 science)",
+		"uniqueTo": "Vedic",
+		"science": 1,
+		"maintenance": 1,
+		"cost": 1,
+		"requiredBuilding": "Public School",
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Andarass (2 gold = 2 science)",
+		"uniqueTo": "Vedic",
+		"science": 2,
+		"maintenance": 2,
+		"cost": 3,
+		"requiredBuilding": "Andarass (1 gold = 1 science)",
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Andarass (3 gold = 3 science)",
+		"uniqueTo": "Vedic",
+		"science": 3,
+		"maintenance": 3,
+		"cost": 5,
+		"requiredBuilding": "Andarass (2 gold = 2 science)",
+		"uniques": ["Requires [Heroic age]", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Andarass (4 gold = 4 science)",
+		"uniqueTo": "Vedic",
+		"science": 4,
+		"maintenance": 4,
+		"cost": 7,
+		"requiredBuilding": "Andarass (3 gold = 3 science)",
+		"uniques": ["Requires [Mythic age]", "Will not be displayed in Civilopedia"]
 	}
 ]
