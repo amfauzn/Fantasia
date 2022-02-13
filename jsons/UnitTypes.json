@@ -38,7 +38,7 @@
     {
         "name": "Hero",
         "movementType": "Land",
-	"uniques": ["Ignores terrain cost", "[-100]% maintenance costs"]
+        "uniques": ["Ignores terrain cost", "[-100]% maintenance costs"]
     },
     {
         "name": "Civilian Water",
@@ -55,7 +55,7 @@
     {
         "name": "Water Terror",
         "movementType": "Water",
-        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [WaterTerror] units"]
+        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Water Terror] units"]
     },
     {
         "name": "Water Hero",
@@ -65,7 +65,7 @@
     {
         "name": "Vampire",
         "movementType": "Land",
-	"uniques": ["Ignores terrain cost", "[-100]% maintenance costs", "[-5] HP when healing", 
+        "uniques": ["Ignores terrain cost", "[-100]% maintenance costs", "[-5] HP when healing", 
 			"[+66]% Strength <during the [Renaissance age]>", "[+115]% Strength <during the [Heroic age]>", 
 			"[+325]% Strength <during the [Mythic age]>", "[+510]% Strength <starting from the [Chaos age]>"]
     },
@@ -76,33 +76,35 @@
     },
     {
         "name": "Aircraft Carrier",
-        "movementType": "Water"
+        "movementType": "Land",
+	"uniques": ["Can pass through impassable tiles", "All tiles cost 1 movement", "Normal vision when embarked"]
     },
     {
         "name": "Fighter",
         "movementType": "Air",
-        "uniques": ["Aircraft", "6 tiles in every direction always visible"]
+        "uniques": ["Flying", "6 tiles in every direction always visible"]
     },
-	{
+    {
         "name": "Air Terror",
         "movementType": "Land",
-        "uniques": ["Can pass through impassable tiles", "Can see invisible [WaterTerror] units", 
-			"Can move after attacking", "All tiles cost 1 movement"]
+        "uniques": ["Can pass through impassable tiles", "Can see invisible [Water Terror] units", "Can move after attacking", 
+			"All tiles cost 1 movement", "Normal vision when embarked", "Units pay only 1 movement point to disembark", 
+			"Eliminates combat penalty for attacking over a river"]
     },
     {
         "name": "Bomber",
         "movementType": "Air",
-        "uniques": ["Aircraft"]
+        "uniques": ["Flying"]
     },
     {
         "name": "Atomic Bomber",
         "movementType": "Air",
-        "uniques": ["Aircraft"]
+        "uniques": ["Flying"]
     },
     {
         "name": "Missile",
         "movementType": "Air",
-        "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
+        "uniques": ["Flying", "Self-destructs when attacking", "Cannot be intercepted"]
     },
     {
         "name": "Helicopter",
