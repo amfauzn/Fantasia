@@ -317,7 +317,7 @@
 		"unitTypes": ["Submarine","Water Terror"]
 	},
 
-	// Aircraft Carrier
+	// Carrier
 	{
 		"name": "Armor Plating I",
 		"uniques": ["[+25]% Strength <when defending>"],
@@ -337,19 +337,25 @@
 	},
 	{
 		"name": "Flight Deck I",
-		"uniques": ["Can carry [1] extra [Aircraft] units"],
+		"uniques": ["Can carry [1] extra [Flying] units"],
 		"unitTypes": ["Aircraft Carrier"]
 	},
 	{
 		"name": "Flight Deck II",
 		"prerequisites": ["Flight Deck I"],
-		"uniques": ["Can carry [1] extra [Aircraft] units"],
+		"uniques": ["Can carry [1] extra [Flying] units"],
 		"unitTypes": ["Aircraft Carrier"]
 	},
 	{
 		"name": "Flight Deck III",
 		"prerequisites": ["Flight Deck II"],
-		"uniques": ["Can carry [1] extra [Aircraft] units"],
+		"uniques": ["Can carry [1] extra [Flying] units"],
+		"unitTypes": ["Aircraft Carrier"]
+	},
+	{
+		"name": "Combustion",
+		"prerequisites": ["Flight Deck II","Armor Plating II"],
+		"uniques": ["[+2] Movement"],
 		"unitTypes": ["Aircraft Carrier"]
 	},
 
@@ -624,5 +630,5 @@
 	{
 		"name": "Vampiric Touch", // Vampire
 		"uniques": ["Heals [15] damage if it kills a unit"]
-	},
+	}
 ]
