@@ -63,13 +63,6 @@
 		"techRequired": "Calendar",
 		"shortcutKey": "F"
 	},
-	{
-		"name": "Archaeological Dig",
-		"culture": 1,
-		"resourceTerrainAllow": ["Grassland","Plains","Desert","Flood plains","Tundra"],
-		"uniques": ["[+2 Science, +1 Culture] for each adjacent [City ruins]", 
-					"Can be built outside your borders"]
-	},
 	
 	// Resource-specific
 	{
@@ -248,10 +241,8 @@
 	{
 		"name": "Cultivated farm",
 		"food": 3,
-		"faith": 1,
-		"culture": 1,
 		"terrainsCanBeBuiltOn": ["Tundra","Snow"],
-		"uniques": ["Great Improvement", "[+1 Food] <after discovering [Fertilizer]>"]
+		"uniques": ["Great Improvement", "[+2 Food] <after discovering [Fertilizer]>"]
 	},
 	
 	// Civilization unique improvements
