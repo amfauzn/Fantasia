@@ -16,12 +16,9 @@
 		"uniques": ["Will not be displayed in Civilopedia"]
 	},
 	{
-		"name": "Antiquity Site",
+		"name": "Philosopher's Stone",
 		"resourceType": "Bonus",
-		"revealedBy": "Archaeology",
-		"terrainsCanBeFoundOn": ["Grassland","Plains","Forest","Jungle","Desert","Tundra"],
-		"improvement": "Archaeological Dig",
-		"improvementStats": {"culture": 5},
+		"uniques": ["Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Bananas",
@@ -253,6 +250,12 @@
 	},
 	{
 		"name": "Titan",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Rune Stone",
 		"resourceType": "Luxury",
 		"gold": 2,
 		"uniques": ["Will not be displayed in Civilopedia"]
