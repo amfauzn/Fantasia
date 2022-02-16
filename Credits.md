@@ -33,12 +33,10 @@ Any icons not listed below are taken from the base game, see [Unciv credits](htt
 * Sacred Path: [praying](https://thenounproject.com/term/praying/740809/) by parkjisun
 
 ## Nation Icons
+* Almuria: [hydra](https://thenounproject.com/icon/hydra-2128288/) by Buztas Linggar
 * Cavegoa: [Gaul](https://github.com/Ravignir/RekMOD/tree/main/Images/NationIcons/Gaul.png) by Ravignir
 * Erhab: [Viking](https://thenounproject.com/icon/viking-4509240/) by Vectorstall
 * Frostmorrow: [Snowflake](https://thenounproject.com/icon/snowflake-4563930/) by Peter Lakenbrink
-* Malus: [Songhai](https://github.com/ravignir/5Hex-Tileset/blob/master/Images/NationIcons/Songhai.png) by Ravignir
-* Marunesia: From the base game - [Siam](https://github.com/yairm210/Unciv/tree/master/android/Images/NationIcons/Siam.png)
-* Morlovia: From the base game - [Rome](https://github.com/yairm210/Unciv/tree/master/android/Images/NationIcons/Rome.png)
 * Nas: [Iron Cross](https://thenounproject.com/search/?q=iron%20cross&i=373241) by Souvik Maity
 * Niranna: [Iroquois](https://github.com/ravignir/5Hex-Tileset/blob/master/Images/NationIcons/Iroquois.png) by Ravignir. The original work has been modified
 * Polgar Sod'em: [Logo](https://thenounproject.com/icon/logo-2372941/) by Rafina Andra
@@ -46,7 +44,6 @@ Any icons not listed below are taken from the base game, see [Unciv credits](htt
 * Red Moon: From the base game - [Aztecs](https://github.com/yairm210/Unciv/tree/master/android/Images/NationIcons/Aztecs.png) by Sean
 * Smeheng: [sun](https://thenounproject.com/icon/sun-1202490/) by yasminvisible
 * Sulvana: [Logo](https://thenounproject.com/icon/logo-2278928/) by Rafina Andra
-* Thallin: From the base game - [Sweden](https://github.com/yairm210/Unciv/tree/master/android/Images/NationIcons/Sweden.png)
 * Thorin: [Marathi Rider](https://github.com/Ravignir/RekMOD/tree/main/Images/UnitIcons/Marathi-Rider.png) by Ravignir
 * Torakj: Created with Paint 3D from [Spear](https://thenounproject.com/term/spear/313412/) by lastspark
 * Townfolk: [Lion](https://thenounproject.com/icon/lion-3042087/) by Kieu Thi Kim Cuong
@@ -67,7 +64,7 @@ Any icons not listed below are taken from the base game, see [Unciv credits](htt
 * Cocoa: [chocolate bar](https://thenounproject.com/icon/chocolate-bar-1596194/) by parkjisun. The original work has been modified
 * Coffee: [coffee bag](https://thenounproject.com/icon/coffee-bag-4548696/) by ToZIcon
 * Eggs: [Eggs](https://thenounproject.com/icon/eggs-1119369/) by Danil Polshin
-* God's Key: Created with Paint 3D
+* God's Key: [catholicism](https://thenounproject.com/term/catholicism/142762) by Valerio Poltrini
 * Gu: [Caterpillar](https://thenounproject.com/icon/caterpillar-1019114/) by Bakunetsu Kaito
 * Honey: [honey](https://thenounproject.com/icon/honey-4591385/) by Sumit Saengthong
 * Jade: [Jade](https://github.com/Ravignir/RekMOD/tree/main/Images/ResourceIcons/Jade.png)
@@ -78,7 +75,6 @@ Any icons not listed below are taken from the base game, see [Unciv credits](htt
 * Niter: [Niter](https://github.com/Ravignir/LOTR-Unciv/tree/main/Images/ResourceIcons/Niter.png)
 * Obsidian: [Obsidian](logomakr.com/23yhKB) by Cavenir
 * Perfume: [Perfume](https://thenounproject.com/icon/perfume-4557970/) by Rank Sol
-* Philosopher's Stone: From the base game - [Stone](https://github.com/yairm210/Unciv/tree/master/android/Images/ResourceIcons/Stone.png)
 * Tea: [Tea](https://github.com/Ravignir/RekMOD/tree/main/Images/ResourceIcons/Tea.png)
 
 ## Improvement Icons
@@ -108,7 +104,7 @@ Any icons not listed below are taken from the base game, see [Unciv credits](htt
 * Fog of Klabautermann: [Lighthouse](https://thenounproject.com/icon/lighthouse-30752/) by Claire Jones
 * Frosten Granary: [Farm](https://thenounproject.com/icon/farm-1361628/) by Marco Livolsi
 * Garuda's Altar: [Eagle](https://thenounproject.com/icon/eagle-1025832/) by m. turan ercan
-* Gemcutter: [Gemcutter] (logomakr.com/4iZIRQ) by Cavenir
+* Gemcutter: [Gemcutter](logomakr.com/4iZIRQ) by Cavenir
 * Glaciruptor: [ice](https://thenounproject.com/icon/ice-1412726/) by Landan Lloyd
 * Gulddin's Treasury: [skill magic ice wall](https://thenounproject.com/icon/skill-magic-ice-wall-2360171/) by Maxicons
 * Heavenly Nature: [philosophy](https://thenounproject.com/icon/philosophy-3965094/) by Adrien Coquet
@@ -126,23 +122,22 @@ Any icons not listed below are taken from the base game, see [Unciv credits](htt
 * Rheog Baddan: [Snake](https://thenounproject.com/icon/snake-241512/) by Ari Junior
 * Royal Camp: [camp](https://thenounproject.com/icon/camp-2035697/) by NTT
 * Sacred Dance: [sacred](https://thenounproject.com/icon/sacred-2457770/) by Eucalyp
-* Sect: [Gurdwara](https://github.com/Ravignir/RekMOD/tree/main/Images/BuildingIcons/Gurdwara.png)
+* Sect: [temple](https://thenounproject.com/icon/temple-3381012/) by supalerk laipawat
 * Sulong's Training: [Boxing Ring](https://thenounproject.com/icon/boxing-ring-4342323/) by Doodle Icons
 * Talents Audition: [talents audition] (https://thenounproject.com/term/skills/2587259/) by Adrien Coquet
 * Textile Mill: [textile fabric](https://thenounproject.com/icon/textile-fabric-3961065/) by varvarvarvarra
 * The Great Watchtower: [Watchtower](https://thenounproject.com/icon/watchtower-16877/) by Ragini Lall. The original work has been modified
 * Ulick Myne: [gate](https://thenounproject.com/icon/gate-2080851/) by Mariya Zola
-* Vihara: [Vihara](https://github.com/Ravignir/RekMOD/tree/main/Images/BuildingIcons/Vihara.png)
+* Vihara: [temple](https://thenounproject.com/icon/temple-2126198/) by ProSymbols
 * Yimasp An'a: [Research](https://thenounproject.com/icon/research-2167113/) by tezar tantular
 
 ## Unit Icons
 * Adamman: [Knight](https://thenounproject.com/icon/knight-3155839/) by Eucalyp
 * Air Balloon: [Balloon](https://thenounproject.com/icon/balloon-147462/) by marshmallow_cat
-* Alessia: From the base game - [Longbowman](https://github.com/yairm210/Unciv/tree/master/android/Images.Construction/UnitIcons/Longbowman.png)
 * Anzu: Created with Paint 3D from [Manticore](https://thenounproject.com/icon/manticore-1005186/) and [Lion](https://thenounproject.com/search/?q=lion&i=912735) by parkjisun
-* Arbalester: [arbalest](https://thenounproject.com/icon/crossbow-440132/ by parkjisun
+* Arbalester: [arbalest](https://thenounproject.com/icon/crossbow-440132/) by parkjisun
 * Armoured Frigate: [Ship](https://thenounproject.com/search/?q=ship&i=800131) by Mungang Kim
-* Bake-kujira: [Whale] (https://thenounproject.com/icon/whale-3029706/) by Ben Didier
+* Bake-kujira: [Whale](https://thenounproject.com/icon/whale-3029706/) by Ben Didier
 * Caladrius: [Heron](https://thenounproject.com/icon/heron-2940950/) by emka angelina
 * Centaurs: [Centaur](https://thenounproject.com/search/?q=horse+archer&i=1791296) by Michael Wohlwend
 * Daggerman: [dagger](https://thenounproject.com/icon/dagger-3675640/) by Vectors Market
@@ -154,8 +149,13 @@ Any icons not listed below are taken from the base game, see [Unciv credits](htt
 * Gaius Duilius: [pirate ship](https://thenounproject.com/icon/pirate-ship-1122660/) by Madison Apple
 * Golem: [Golem](https://thenounproject.com/icon/golem-1387808/) by Icons Producer
 * Great Farmer: [Sickle](https://thenounproject.com/icon/sickle-726366/) by ranjit kumar
-* Jeanne d'Arc:
+* Hydra: [Lerne Hydra](https://thenounproject.com/icon/lerne-hydra-1389034/) by Icons Producer
 * Kalsharin: [Corinthian Helmet](https://thenounproject.com/icon/corinthian-helmet-200585/) by Alexander Skowalsky
+* Ken Arok: [Kris](https://thenounproject.com/icon/kris-1642662/) by Mochammad Kafi
+* Laskar: [Lithuania](https://github.com/Ravignir/RekMOD/tree/main/Images/NationIcons/Lithuania.png) by Ravignir
+* Leonidas: [Man](https://thenounproject.com/icon/man-13856/) by Joshua McMahan
+* Leviathan: [Leviathan](https://thenounproject.com/icon/leviathan-1389036/) by Icons Producer. The original work has been modified
+* Lightsaberman: [lightsaber](https://thenounproject.com/icon/lightsaber-641308/) by Jev Downer
 
 ( ... unit incomplete)
 

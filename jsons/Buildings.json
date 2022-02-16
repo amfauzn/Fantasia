@@ -157,8 +157,8 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["Provides a sum of gold each time you spend a Great Person",
-					"[+2 Gold] from [Marble] tiles [in this city]", "[+2 Gold] from [Stone] tiles [in this city]"],
+		"uniques": ["Provides a sum of gold each time you spend a Great Person", "[+2 Gold] from [Marble] tiles [in this city]", 
+					"[+2 Gold] from [Stone] tiles [in this city]", "[+2 Gold] from [Obsidian] tiles [in this city]"],
 		"requiredTech": "Masonry",
 		"quote": "'O, let not the pains of death which come upon thee enter into my body.' - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
 	},
@@ -841,9 +841,8 @@
 		"production": 2,
 		"maintenance": 3,
 		"hurryCostModifier": 25,
-		"requiredNearbyImprovedResources": ["Iron"],
-		"requiredBuilding": "Forge",
-		"uniques": ["Will not be displayed in Civilopedia", "Consumes [2] [Iron]", "Provides [2] [Kyber]"],
+		"uniques": ["Will not be displayed in Civilopedia", "Only available <in cities with a [Forge]>", 
+					"Consumes [2] [Iron]", "Provides [2] [Kyber]"],
 		"requiredTech": "Alchemy"
 	},
 	{
@@ -978,6 +977,7 @@
 		"requiredBuilding": "Workshop",
 		"maintenance": 3,
 		"requiredResource": "Rune Stone",
+		"uniques": ["Only available <in cities without a [Mana Generator]>"],
 		"requiredTech": "Military Science"
 	},
 	{
@@ -1062,7 +1062,7 @@
 		"maintenance": 3,
 		"requiredTech": "Dynamite",
 		"uniques": ["Must not be on [Grassland]", "Must not be on [Tundra]", "Must not be on [Snow]", 
-					"Cannot be built with [Watchtower]"]
+					"Only available <in cities without a [Watchtower]>"]
 	},
 	{
 		"name": "Magician Project",
@@ -1520,8 +1520,7 @@
 		"science": 1,
 		"maintenance": 1,
 		"cost": 1,
-		"requiredBuilding": "Public School",
-		"uniques": ["Will not be displayed in Civilopedia"]
+		"uniques": ["Only available <in cities with a [Public School]>", "Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Andarass (2 gold = 2 science)",
@@ -1530,7 +1529,7 @@
 		"maintenance": 2,
 		"cost": 3,
 		"requiredBuilding": "Andarass (1 gold = 1 science)",
-		"uniques": ["Will not be displayed in Civilopedia"]
+		"uniques": ["Only available <in cities with a [Public School]>", "Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Andarass (3 gold = 3 science)",
@@ -1538,8 +1537,7 @@
 		"science": 3,
 		"maintenance": 3,
 		"cost": 5,
-		"requiredBuilding": "Andarass (2 gold = 2 science)",
-		"uniques": ["Requires [Heroic age]", "Will not be displayed in Civilopedia"]
+		"uniques": ["Requires [Heroic age]", "Only available <in cities with a [Andarass (2 gold = 2 science)]>", "Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Andarass (4 gold = 4 science)",
@@ -1547,7 +1545,6 @@
 		"science": 4,
 		"maintenance": 4,
 		"cost": 7,
-		"requiredBuilding": "Andarass (3 gold = 3 science)",
-		"uniques": ["Requires [Mythic age]", "Will not be displayed in Civilopedia"]
+		"uniques": ["Requires [Mythic age]", "Only available <in cities with a [Andarass (3 gold = 3 science)]>", "Will not be displayed in Civilopedia"]
 	}
 ]

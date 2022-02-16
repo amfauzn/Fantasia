@@ -154,6 +154,16 @@
 			"May create improvements on water resources", "Uncapturable"]
 	},
 	{
+		"name": "Siren",
+		"unitType": "Civilian Water",
+		"uniqueTo": "Almuria",
+		"replaces": "Work Boats",
+		"movement": 4,
+		"cost": 40,
+		"requiredTech": "Sailing",
+		"uniques": ["Can only be built [in capital]", "Can build [Water] improvements on tiles", "Uncapturable", "Will not be displayed in Civilopedia"]
+	},
+	{
 		"name": "Trireme",
 		"unitType": "Melee Water",
 		"movement": 4,
@@ -352,8 +362,7 @@
 		"requiredTech": "Mathematics",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
-			"Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
+		"uniques": ["No defensive terrain bonus", "Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
 	},
@@ -369,8 +378,7 @@
 		"requiredTech": "Mathematics",
 		"obsoleteTech": "Physics",
 		"upgradesTo": "Trebuchet",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
-			"Must set up to ranged attack", "[-1] Sight"],
+		"uniques": ["No defensive terrain bonus", "Must set up to ranged attack", "[-1] Sight"],
 		"hurryCostModifier": 20,
 		"promotions": ["Barrage I"],
 		"attackSound": "throw"
@@ -611,8 +619,7 @@
 		"requiredTech": "Physics",
 		"obsoleteTech": "Gunpowder",
 		"upgradesTo": "Cannon",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "Must set up to ranged attack", "[-1] Sight", 
-			"Never appears as a Barbarian unit"],
+		"uniques": ["No defensive terrain bonus", "Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
 		"attackSound": "throw"
 	},
 	{
@@ -678,7 +685,7 @@
 		"cost": 150,
 		"requiredTech": "Acoustics",
 		"replacementTextForUniques": "Cannot attack\nCan carry Magician units\nCan carry Watcher units\nCan carry Flying units",
-		"uniques": ["Cannot attack", "Can carry [2] [Flying] units"]
+		"uniques": ["Cannot attack", "Can carry [2] [Aircraft] units"]
 	},
 	{
 		"name": "Lancer",
@@ -774,8 +781,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Spell Cannon",
 		"obsoleteTech": "Mana Manipulation",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "Must set up to ranged attack", "[-1] Sight", 
-			"Never appears as a Barbarian unit"],
+		"uniques": ["No defensive terrain bonus", "Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
 	},
 	{
@@ -790,6 +796,22 @@
 		"promotions": ["Coastal Raider I"],
 		"uniques": ["May capture killed [Water] units"],
 		"attackSound": "cannon"
+	},
+	{
+		"name": "Leviathan",
+		"uniqueTo": "Almuria",
+		"replaces": "Privateer",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 32,
+		"cost": 180,
+		"requiredResource": "Megall",
+		"requiredTech": "Navigation",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "God of War",
+		"uniques": ["May capture killed [Water] units"],
+		"promotions": ["Sentry"],
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Frigate",
@@ -851,8 +873,8 @@
 		"requiredTech": "Biology",
 		"obsoleteTech": "Enlightment",
 		"upgradesTo": "Lightsaberman",
-		"uniques": ["[+10] HP when healing"],
-		"attackSound": "shot"
+		"uniques": ["[+10] HP when healing", "Can pass through impassable tiles"],
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Homunculus",
@@ -867,11 +889,11 @@
 		"upgradesTo": "Lightsaberman",
 		"uniques": ["[-10]% Strength <when defending>"],
 		"promotions": ["March"],
-		"attackSound": "shot"
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Scorpion",
-		"unitType": "Siege",
+		"unitType": "Archery",
 		"movement": 2,
 		"strength": 30,
 		"rangedStrength": 40,
@@ -939,10 +961,28 @@
 		"strength": 55,
 		"interceptRange": 1,
 		"cost": 325,
+		"requiredResource": "Iron",
 		"requiredTech": "God of War",
-		"uniques": ["Can see invisible [Water Terror] units", "May withdraw before melee ([75]%)", "[+100]% Strength <vs [Water Terror] units>", 
-			"Double movement in [Coast]", "Consumes [1] [Adamantium]", "Consumes [1] [Iron]", "Never appears as a Barbarian unit"],
+		"uniques": ["Can see invisible [Water Terror] units", "May withdraw before melee ([33]%)", "[+33]% Strength <vs cities>", 
+			"Double movement in [Coast]", "[33]% chance to intercept air attacks", "Consumes [1] [Adamantium]", 
+			"Never appears as a Barbarian unit"],
 		"attackSound": "shipguns"
+	},
+	{
+		"name": "Hydra",
+		"uniqueTo": "Almuria",
+		"replaces": "Ironclad",
+		"unitType": "Melee Water",
+		"movement": 6,
+		"strength": 55,
+		"interceptRange": 1,
+		"cost": 325,
+		"requiredResource": "Megall",
+		"requiredTech": "God of War",
+		"uniques": ["Can see invisible [Water Terror] units", "May withdraw before melee ([33]%)", "[+33]% Strength <vs cities>", 
+			"[33]% chance to intercept air attacks"],
+		"promotions": ["Sentry"],
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Quenya",
@@ -1005,7 +1045,7 @@
 		"requiredTech": "Heroism Banner",
 		"upgradesTo": "Saber Horseman",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus"],
-		"promotions": ["Ignore terrain cost",],
+		"promotions": ["Ignore terrain cost"],
 		"attackSound": "horse"
 	},
 	
@@ -1019,7 +1059,8 @@
 		"range": 3,
 		"cost": 375,
 		"requiredTech": "Enlightment",
-		"uniques": ["Ranged attacks may be performed over obstacles", "Consumes [1] [Adamantium]", "Consumes [1] [Iron]", "Never appears as a Barbarian unit"],
+		"uniques": ["Consumes [1] [Adamantium]", "Consumes [1] [Iron]", "Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -1037,7 +1078,7 @@
 	{
 		"name": "Pegasus",
 		"unitType": "Mounted",
-		"movement": 6,
+		"movement": 5,
 		"strength": 60,
 		"cost": 430,
 		"requiredTech": "Telepathy",
@@ -1121,8 +1162,7 @@
 		"cost": 450,
 		"requiredTech": "Mana Manipulation",
 		"requiredResource": "Niter",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "Must set up to ranged attack", 
-			"Ranged attacks may be performed over obstacles", "Requires [Magician Project]", "Never appears as a Barbarian unit"],
+		"uniques": ["No defensive terrain bonus", "Must set up to ranged attack", "Ranged attacks may be performed over obstacles", "Requires [Magician Project]", "Never appears as a Barbarian unit"],
 		"promotions": ["Cover I"],
 		"attackSound": "cannon"
 	},
@@ -1154,7 +1194,7 @@
 	// Heroes
 	{
 		"name": "Mas Karebet",
-		"unitType": "Hero",
+		"unitType": "Hero", // Sword
 		"movement": 2,
 		"strength": 47,
 		"cost": 5,
@@ -1166,7 +1206,7 @@
 	},
 	{
 		"name": "Ken Arok",
-		"unitType": "Hero",
+		"unitType": "Hero", // Armored
 		"movement": 2,
 		"strength": 46,
 		"cost": 5,
@@ -1178,21 +1218,22 @@
 	},
 	{
 		"name": "Pandji",
-		"unitType": "Hero",
+		"unitType": "Hero", // Longbowman
 		"movement": 2,
 		"strength": 32,
-		"rangedStrength": 45,
+		"rangedStrength": 44,
 		"range": 2,
 		"cost": 5,
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Great Generals I"],
 		"uniques": ["Requires [Heroic age]", "Only available <with [Hero Candidate]>", "[+50]% Strength <vs [Water Terror] units>", 
 			"[+75]% Strength <vs [Air Terror] units>", "Never appears as a Barbarian unit"],
+		"promotions": ["Extended Range"],
 		"attackSound": "arrow"
 	},
 	{
 		"name": "Leonidas",
-		"unitType": "Hero",
+		"unitType": "Hero", // Anti-cav
 		"movement": 2,
 		"strength": 45,
 		"cost": 5,
@@ -1204,7 +1245,7 @@
 	},
 	{
 		"name": "Siliwangi",
-		"unitType": "Hero",
+		"unitType": "Hero", // Cavalry
 		"movement": 5,
 		"strength": 45,
 		"cost": 5,
@@ -1216,7 +1257,7 @@
 	},
 	{
 		"name": "Zhuge Liang",
-		"unitType": "Hero",
+		"unitType": "Hero", // Chu-Ko-Nu
 		"movement": 2,
 		"strength": 31,
 		"rangedStrength": 33,
@@ -1230,7 +1271,7 @@
 	},
 	{
 		"name": "Jeanne d'Arc",
-		"unitType": "Hero",
+		"unitType": "Hero",	// Siege
 		"movement": 4,
 		"strength": 43,
 		"cost": 5,
@@ -1241,7 +1282,7 @@
 	},
 	{
 		"name": "Gaius Duilius",
-		"unitType": "Water Hero",
+		"unitType": "Water Hero", // Ranged Water
 		"movement": 4,
 		"strength": 33,
 		"rangedStrength": 43,
@@ -1255,7 +1296,7 @@
 	},
 	{
 		"name": "Themistocles",
-		"unitType": "Water Hero",
+		"unitType": "Water Hero", // Melee Water
 		"movement": 4,
 		"strength": 45,
 		"cost": 5,
@@ -1298,7 +1339,7 @@
 		"unitType": "Water Terror",
 		"movement": 5,
 		"strength": 70,
-		"range": 2,
+		"range": 3,
 		"cost": 1,
 		"requiredResource": "Kraken's Baby",
 		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Can move after attacking", "Ignores Zone of Control",

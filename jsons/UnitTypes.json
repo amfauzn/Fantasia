@@ -13,7 +13,8 @@
     },
     {
         "name": "Archery",
-        "movementType": "Land"
+        "movementType": "Land",
+		"uniques": ["[-10]% Strength <vs cities> <when attacking>"]
     },
     {
         "name": "Ranged Gunpowder",
@@ -33,7 +34,8 @@
     },
     {
         "name": "Siege",
-        "movementType": "Land"
+        "movementType": "Land",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>"]
     },
     {
         "name": "Hero",
@@ -77,12 +79,12 @@
     {
         "name": "Aircraft Carrier",
         "movementType": "Land",
-	"uniques": ["Can pass through impassable tiles", "All tiles cost 1 movement", "Normal vision when embarked"]
+	    "uniques": ["Can pass through impassable tiles", "All tiles cost 1 movement", "Normal vision when embarked"]
     },
     {
         "name": "Fighter",
         "movementType": "Air",
-        "uniques": ["Flying", "6 tiles in every direction always visible"]
+        "uniques": ["Aircraft", "6 tiles in every direction always visible"]
     },
     {
         "name": "Air Terror",
@@ -94,17 +96,17 @@
     {
         "name": "Bomber",
         "movementType": "Air",
-        "uniques": ["Flying"]
+        "uniques": ["Aircraft"]
     },
     {
         "name": "Atomic Bomber",
         "movementType": "Air",
-        "uniques": ["Flying"]
+        "uniques": ["Aircraft"]
     },
     {
         "name": "Missile",
         "movementType": "Air",
-        "uniques": ["Flying", "Self-destructs when attacking", "Cannot be intercepted"]
+        "uniques": ["Aircraft", "Self-destructs when attacking", "Cannot be intercepted"]
     },
     {
         "name": "Helicopter",

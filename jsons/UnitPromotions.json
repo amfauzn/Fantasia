@@ -173,7 +173,7 @@
 	{
 		"name": "Amphibious",
 		"prerequisites": ["Shock II","Drill II","Riverrun"],
-		"uniques": ["Normal vision when embarked", "Eliminates combat penalty for attacking from the sea"],
+		"uniques": ["Normal vision when embarked", "Eliminates combat penalty for attacking across a coast"],
 		"unitTypes": ["Sword","Gunpowder","Hero"]
 	},
 	{
@@ -261,7 +261,7 @@
 		"unitTypes": ["Melee Water"]
 	},
 
-	// Water Ranged+WaterHero
+	// Water Ranged+Water Hero
 	{
 		"name": "Targeting I",
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
@@ -298,7 +298,7 @@
 		"unitTypes": ["Ranged Water","Water Hero"]
 	},
 
-	// Submarine+WaterTerror
+	// Submarine+Water Terror
 	{
 		"name": "Wolfpack I",
 		"uniques": ["[+25]% Strength <when attacking>"],
@@ -630,5 +630,11 @@
 	{
 		"name": "Vampiric Touch", // Vampire
 		"uniques": ["Heals [15] damage if it kills a unit"]
+	},
+	{
+		"name": "Water Creature", // Almuria
+		"uniques": ["[+10]% Strength <when fighting in [Fresh Water] tiles> <in [Land] tiles> <with [0] to [0] neighboring [Coast] tiles>", 
+			"[+15]% Strength <when fighting in [Coastal] tiles>", "Normal vision when embarked", 
+			"Eliminates combat penalty for attacking across a coast", "Defense bonus when embarked", "Eliminates combat penalty for attacking over a river"]
 	}
 ]
