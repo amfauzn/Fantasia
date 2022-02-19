@@ -46,7 +46,7 @@
 	{
 		"name": "Liberty",
 		"era": "Dark age",
-		"uniques": ["[+1 Culture] [in all cities]", "Unlocks building Bandung Bondowoso"],
+		"uniques": ["[+1 Culture] [in all cities]", "Unlocks building Bondowoso"],
 		"policies": [
 			{
 				"name": "Collective Rule",

@@ -101,6 +101,7 @@
 				"Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [0.7]",
 				"[+1] to Fertility for Map Generation",
 				"A Region is formed with at least [25]% [Desert] tiles, with priority [4]",
+				"Becomes [Flood plains] when adjacent to [River]",
 				"Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
 				"Every [13] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
@@ -129,6 +130,7 @@
 		"name": "Snow",
 		"type": "Land",
 		"movementCost": 1,
+		"defenceBonus": -0.1,
 		"RGB": [231, 242, 249],
 		"uniques": ["Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
 				"Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
@@ -137,6 +139,7 @@
 				"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.2]",
 				"Always Fertility [-1] for Map Generation",
 				"Considered [Undesirable] when determining start locations",
+				"Becomes [Tundra] when adjacent to [River]",
 				"Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
 				"Never receives any resources <in [Hill] tiles>"]
 	},
@@ -259,7 +262,6 @@
 		"type": "TerrainFeature",
 		"faith": 2,
 		"movementCost": 2,
-		"defenceBonus": 0.1,
 		"occursOn": ["Grassland"],
 		"uniques": ["Rare feature",
 					"Units ending their turn on this terrain take [50] damage"]

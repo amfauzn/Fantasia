@@ -87,3 +87,11 @@
 - Move Scientific victory building: Breakthrough Chamber, Heavenly Nature
 - Add building & wonder: Mana Generator, Mana Channeller, Fog of Klabautermann
 - Add unit: Air Balloon, Golem
+
+## v2.7
+- Adjust Civs: Malus NA, Cavegoa NA, Frostmorrow UB, Marunesia UU, Smeheng, Almuria (Add and adjust)
+- Belief: Add Follower Sharing Freedom, Reduce strength bonus by Enhancer Defender of the Faith and Just War
+- Fix trade routes over water
+- Balancing Cathedral and Mandir
+- Adjust terrain: Desert (flood plains), Snow (defence reduction)
+- Adjust promotion: Landing Party, Regenerative Tissue, Survivalism II

@@ -64,6 +64,7 @@
 		"name": "Frosten Granary",
 		"replaces": "Granary",
 		"uniqueTo": "Frostmorrow",
+		"specialistSlots": {"Farmer": 2},
 		"food": 2,
 		"culture": 1,
 		"maintenance": 1,
@@ -285,7 +286,7 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"uniques": ["Requires a [Colosseum] in all cities", "Cost increases by [25] per owned city", "[+1 Gold] from each Trade Route", 
-			"[+10]% Strength <for [Melee] units> <when defending>"],
+			"[+5]% Strength <for [Melee] units> <when defending>"],
 		"requiredTech": "Construction"
 	},
 	{
@@ -561,22 +562,21 @@
 	
 	// Column 6
 	{
-		"name": "Anchorage",
-		"cost": 170,
+		"name": "Harbor",
+		"cost": 165,
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
-			"Connects trade routes over water", "Must be next to [Coast]"],
+		"uniques": ["Connects trade routes over water", "Must be next to [Coast]"],
 		"requiredTech": "Compass"
 	},
 	{
-		"name": "Harbor",
+		"name": "Golden Anchor Statue",
 		"cost": 400,
 		"culture": 1,
 		"gold": 5,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["Gain a free [Anchorage] [in this city]", "Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]"],
+		"uniques": ["Gain a free [Harbor] [in this city]", "Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]"],
 		"requiredTech": "Compass",
 		"quote": "'Joyfully to the breeze royal Odysseus spread his sail, and with his rudder skillfully he steered.' - Homer"
 	},
@@ -647,7 +647,7 @@
 		"isWonder": true,
 		"percentStatBonus": {"culture": 20},
 		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Drill I] promotion",
-			"Gain a free [Castle] [in this city]"],
+					"Gain a free [Castle] [in this city]"],
 		"requiredTech": "Chivalry",
 		"quote": "'Justice is an unassailable fortress, built on the brow of a mountain which cannot be overthrown by the violence of torrents, nor demolished by the force of armies.' - Joseph Addison"
 	},
@@ -683,7 +683,7 @@
 		"percentStatBonus": {"gold": 33},
 		"greatPersonPoints": {"Great Merchant": 1},
 		"uniques": ["Requires a [Market] in all cities", "[+2 Production, +4 Gold] from [Mountain] tiles [in all cities]", 
-			"Cost increases by [25] per owned city"],
+					"Cost increases by [25] per owned city"],
 		"requiredTech": "Astronomy"
 	},
 	{
@@ -983,7 +983,7 @@
 	{
 		"name": "Arsenal",
 		"cityStrength": 12,
-		"cityHealth": 30,
+		"cityHealth": 35,
 		"hurryCostModifier": 35,
 		"requiredBuilding": "Castle",
 		"requiredTech": "Gunpowder",
@@ -1003,7 +1003,7 @@
 		"name": "Seaport",
 		"hurryCostModifier": 25,
 		"maintenance": 3,
-		"requiredBuilding": "Anchorage",
+		"requiredBuilding": "Harbor",
 		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
 			"Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]"],
 		"requiredTech": "Navigation"
@@ -1389,16 +1389,16 @@
 		"cost": 0,
 		"faith": 1,
 		"culture": 3,
-		"happiness": 1,
 		"specialistSlots": {"Artist": 1},
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
 	},
 	{
 		"name": "Mandir",
 		"cost": 0,
-		"faith": 3,
+		"culture": 1,
+		"faith": 1,
 		"happiness": 1,
-		"uniques": ["Unbuildable", "[20]% Food is carried over after population increases [in this city]", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "[10]% Food is carried over after population increases [in this city]", "Hidden when religion is disabled"]
 	},
 	{
 		"name": "Mosque",
@@ -1504,7 +1504,7 @@
 					"Will not be displayed in Civilopedia"]
 	},
 	{
-		"name": "Free Artist",
+		"name": "~free Artist",
 		"uniqueTo": "Thallin",
 		"isNationalWonder": true,
 		"culture": 8,

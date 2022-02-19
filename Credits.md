@@ -92,7 +92,6 @@ Any icons not listed below are taken from the base game, see [Unciv credits](htt
 ## Building Icons
 * Adam Harvester & Kyber Refinery: Created with Paint 3D from [Forge](https://thenounproject.com/term/forge/1044767/) by Monjin Friends & [Recycle](https://thenounproject.com/search/?q=recycling&i=4397434) by Umer Younas
 * Alchemical Society: [School](https://thenounproject.com/icon/school-4548561/) by ToZIcon
-* Anchorage: [Antique Building](https://thenounproject.com/icon/antique-building-1095426/) by Ben Davis
 * Bakery: [bakery](https://thenounproject.com/icon/bakery-1694741/) by indra anis
 * Burning Mirror: [SS Booster](https://github.com/SpacedOutChicken/DeCiv-Redux/tree/main/Images/BuildingIcons/SS-Booster.png)
 * Butchery Camp: [Quara U'y](https://github.com/Ravignir/RekMOD/tree/main/Images/ImprovementIcons/Quara-U'y.png) by Ravignir
@@ -162,5 +161,6 @@ Any icons not listed below are taken from the base game, see [Unciv credits](htt
 ## Promotion Icons
 * Blood Baptism: [Blood](https://thenounproject.com/icon/blood-4532645/) by Zky Icon
 * Bloodlust & Vampiric Touch: [Vampire](https://thenounproject.com/icon/vampire-30595/) by Abby Milberg
+* Regenerative Tissue: [Regenerative Tissue](https://github.com/AceHank/FantasiaExtension) by AceHank
 * Vampiric Intimidation: [skull](https://thenounproject.com/icon/vampire-skull-449592/) by Rafael Garcia Motta
 * Winged Vampire: [vampire](https://thenounproject.com/icon/vampire-2035567/) by Hada Arkanda

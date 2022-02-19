@@ -155,13 +155,14 @@
 	},
 	{
 		"name": "Siren",
-		"unitType": "Civilian Water",
+		"unitType": "Civilian",
 		"uniqueTo": "Almuria",
 		"replaces": "Work Boats",
-		"movement": 4,
-		"cost": 40,
+		"movement": 2,
+		"cost": 44,
 		"requiredTech": "Sailing",
-		"uniques": ["Can only be built [in capital]", "Can build [Water] improvements on tiles", "Uncapturable", "Will not be displayed in Civilopedia"]
+		"uniques": ["Can build [Land] improvements on tiles", "May create improvements on water resources", "Double movement in [Coast]",
+			"Double movement in [Ocean]", "Uncapturable"]
 	},
 	{
 		"name": "Trireme",
@@ -235,7 +236,7 @@
 		"replaces": "Horseman",
 		"movement": 2,
 		"strength": 16,
-		"cost": 85,
+		"cost": 82,
 		"requiredTech": "Domestication",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
@@ -291,13 +292,13 @@
 		"uniqueTo": "Smeheng",
 		"replaces": "Composite Bowman",
 		"movement": 2,
-		"strength": 10,
+		"strength": 9,
 		"rangedStrength": 11,
-		"cost": 77,
+		"cost": 75,
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
-		"uniques": ["Double movement in [Desert]"]
+		"uniques": ["[+1] Movement <in [Friendly Land] tiles>"]
 		"attackSound": "arrow"
 	},
 	{
@@ -349,7 +350,8 @@
 		"uniqueTo": "Morlovia",
 		"movement": 2,
 		"strength": 14,
-		"uniques": ["Can build [Coffin] improvements on tiles", "[+5] HP when healing <in [Coffin] tiles>", "Unbuildable"],
+		"uniques": ["Can build [Coffin] improvements on tiles", "[+5] HP when healing <in [Coffin] tiles>", 
+			"[-1] Movement <in [Desert] tiles>", "Unbuildable"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -491,13 +493,13 @@
 		"uniqueTo": "Marunesia",
 		"replaces": "Galleass",
 		"movement": 4,
-		"strength": 15,
+		"strength": 16,
 		"rangedStrength": 20,
-		"cost": 105,
+		"cost": 100,
 		"requiredTech": "Compass",
 		"obsoleteTech": "Navigation",
 		"upgradesTo": "Frigate",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Compass]>", "May withdraw before melee ([34]%)"],
+		"uniques": ["May withdraw before melee ([50]%)"],
 		"attackSound": "arrow"
 	},
 	{
@@ -804,13 +806,12 @@
 		"unitType": "Melee Water",
 		"movement": 5,
 		"strength": 32,
-		"cost": 180,
+		"cost": 175,
 		"requiredResource": "Megall",
 		"requiredTech": "Navigation",
 		"upgradesTo": "Ironclad",
 		"obsoleteTech": "God of War",
 		"uniques": ["May capture killed [Water] units"],
-		"promotions": ["Sentry"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -963,9 +964,9 @@
 		"cost": 325,
 		"requiredResource": "Iron",
 		"requiredTech": "God of War",
-		"uniques": ["Can see invisible [Water Terror] units", "May withdraw before melee ([33]%)", "[+33]% Strength <vs cities>", 
-			"Double movement in [Coast]", "[33]% chance to intercept air attacks", "Consumes [1] [Adamantium]", 
-			"Never appears as a Barbarian unit"],
+		"uniques": ["Can see invisible [Water Terror] units", "May withdraw before melee ([33]%)", "Double movement in [Coast]", 
+			"[33]% chance to intercept air attacks", "Consumes [1] [Adamantium]", "Never appears as a Barbarian unit"],
+		"promotions": ["Coastal Raider I"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -979,9 +980,8 @@
 		"cost": 325,
 		"requiredResource": "Megall",
 		"requiredTech": "God of War",
-		"uniques": ["Can see invisible [Water Terror] units", "May withdraw before melee ([33]%)", "[+33]% Strength <vs cities>", 
-			"[33]% chance to intercept air attacks"],
-		"promotions": ["Sentry"],
+		"uniques": ["Can see invisible [Water Terror] units", "May withdraw before melee ([33]%)",	"[33]% chance to intercept air attacks"],
+		"promotions": ["Sentry","Landing Party"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -1437,10 +1437,9 @@
 		"name": "Great Farmer",
 		"unitType": "Civilian",
 		"uniqueTo": "Frostmorrow",
-		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [15] Influence", "Can construct [Cultivated farm]", 
-			"Great Person - [Food]", "Unbuildable", "Will not be displayed in Civilopedia"],
+		"uniques": ["Can construct [Cultivated farm]", "Great Person - [Food]", "Unbuildable", "Will not be displayed in Civilopedia"],
 		"movement": 2
-	}
+	},
 
 	// Religious units
 	{

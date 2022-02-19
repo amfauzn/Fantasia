@@ -2,13 +2,12 @@
 Built around Ancient Empires II, and then expanded. A fantasy world~
 
 
-## Changelog for v2.6.0 (13.Feb.2022)
-- Adjust Civs: Vedic, Frostmorrow, Townfolk NA
-- Adjust buildings: Adam Harvester, Kyber Refinery, Stone Works
-- Adjust GI: Cultivated Farm
-- Move Scientific victory building: Breakthrough Chamber, Heavenly Nature
-- Add building & wonder: Mana Generator, Mana Channeller, Fog of Klabautermann
-- Add unit: Air Balloon, Golem
+## Changelog for v2.7.0 (19.Feb.2022)
+- Adjust Civs: Malus NA, Cavegoa NA, Frostmorrow UB, Marunesia UU, Smeheng, Almuria (Add and adjust)
+- Fix trade routes over water
+- Balancing Cathedral and Mandir
+- Adjust terrain: Desert (flood plains), Snow (defence reduction)
+- Adjust promotion: Landing Party, Regenerative Tissue, Survivalism II
 
 
 # Roadmap
