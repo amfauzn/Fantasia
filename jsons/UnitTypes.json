@@ -14,7 +14,7 @@
     {
         "name": "Archery",
         "movementType": "Land",
-		"uniques": ["[-10]% Strength <vs cities> <when attacking>"]
+		"uniques": ["[-15]% Strength <vs cities> <when attacking>"]
     },
     {
         "name": "Ranged Gunpowder",

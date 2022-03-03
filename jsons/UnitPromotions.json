@@ -326,9 +326,9 @@
 	
 	{
 		"name": "Regenerative Tissue",
-		"prerequisites": ["Wolfpack III"],
+		"prerequisites": ["Wolfpack III","Hunt Instinc III"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Water Terror"]
+		"unitTypes": ["Water Terror","Air Terror"]
 	},
 
 	// Carrier
@@ -477,7 +477,7 @@
 		"unitTypes": ["Fighter", "Bomber", "Helicopter"]
 	},
 
-	// Helicopter
+	// Helicopter+Air Terror
 	{
 		"name": "Mobility I",
 		"uniques": ["[+1] Movement"],
@@ -492,7 +492,7 @@
 	{
 		"name": "Anti-Armor I",
 		"uniques": ["[+25]% Strength <vs [Armored] units>"],
-		"unitTypes": ["Helicopter"]
+		"unitTypes": ["Helicopter","Air Terror"]
 	},
 	{
 		"name": "Anti-Armor II",
@@ -501,7 +501,6 @@
 		"unitTypes": ["Helicopter"]
 	},
 	
-	// Air Terror
 	{
 		"name": "Hunt Instinc I",
 		"uniques": ["[+25]% Strength <when attacking>"],
@@ -522,7 +521,7 @@
 	
 	{
 		"name": "Intimidation",
-		"prerequisites": ["Hunt Instinc II","Wolfpack III","Shock III","Drill III"],
+		"prerequisites": ["Hunt Instinc III","Wolfpack III","Shock III","Drill III"],
 		"uniques": ["[-15]% Strength for enemy [All] units in adjacent [All] tiles"],
 		"unitTypes": ["Air Terror","Water Terror","Water Hero","Hero"]
 	},
@@ -638,7 +637,7 @@
 		"uniques": ["[-5]% Strength for enemy [Military] units in adjacent [All] tiles"]
 	},
 	{
-		"name": "Skating", // only for Yeti and Throwing Yeti Units
+		"name": "Skating", // only for Yeti and subsequent upgrades
 		"uniques": ["Double movement in [Snow]"]
 	},
 	{

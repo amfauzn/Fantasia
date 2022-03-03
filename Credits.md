@@ -136,6 +136,7 @@ Any icons not listed below are taken from the base game, see [Unciv credits](htt
 * Anzu: Created with Paint 3D from [Manticore](https://thenounproject.com/icon/manticore-1005186/) and [Lion](https://thenounproject.com/search/?q=lion&i=912735) by parkjisun
 * Arbalester: [arbalest](https://thenounproject.com/icon/crossbow-440132/) by parkjisun
 * Armoured Frigate: [Ship](https://thenounproject.com/search/?q=ship&i=800131) by Mungang Kim
+* Axeman: [Axe](https://thenounproject.com/icon/axe-2216707/) by glyph.faisalovers. The original work has been modified
 * Bake-kujira: [Whale](https://thenounproject.com/icon/whale-3029706/) by Ben Didier
 * Caladrius: [Heron](https://thenounproject.com/icon/heron-2940950/) by emka angelina
 * Centaurs: [Centaur](https://thenounproject.com/search/?q=horse+archer&i=1791296) by Michael Wohlwend

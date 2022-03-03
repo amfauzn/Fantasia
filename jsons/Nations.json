@@ -104,7 +104,7 @@
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": "Your armies kneel before you, oh great Lord Saeth. Through cunning diplomacy and military prowess, great Lord conquered proud Sulvana, wealthy Cavegoa, and indirectly control Valadorn I, king of Thorin. Over time, your army might expanded into far away Red Moon, until the upstart villains The League, destroyed the great empire in one shocking campaign.",
+		"startIntroPart1": "Your armies kneel before you, oh great Lord Saeth. Through cunning diplomacy and military prowess, great Lord conquered proud Sulvana, wealthy Cavegoa, and indirectly control Valadorn I, king of Thorin. Over time, your army might expanded into far away Twin Mountain, until the upstart villains The League, destroyed the great empire in one shocking campaign.",
 		"startIntroPart2": "Oh, Lord Saeth, for uncounted years your armies endured, they look to you to lead them once more into greatness. Can you build a civilization that will stand the test of time?",
 		
 		"declaringWar": "You are but a pest on this Earth, prepare to be eliminated!",
@@ -218,37 +218,37 @@
 	{
 		"name": "Twin Mountain",
 		"leaderName": "Thraldin",
-		"adjective": ["Troll"],
+		"adjective": ["Dwarven"],
 		"startBias":["Mountain"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Scientific",
 		
-		"startIntroPart1": "Greetings, Thraldin, general of Twin Mountain and all his holdings. Despite being half-troll, you show the capability to lead all trolls into the battlefield. Your empire was the smartest to take advantage of mountains resources. Nobody loves the mountain as you do. The mountains serves you.",
-		"startIntroPart2": "O mighty general, your people turn to you to once more appreciate the mountains! Can you build a civilization that will stand the test of time?",
+		"startIntroPart1": "Greetings, Thraldin, general and emperor of Twin Mountain and all his holdings, king under the mountain. Your empire was the smartest to take advantage of mountains resources. Nobody loves the mountain as you do. The mountains serves you.",
+		"startIntroPart2": "O mighty king, your people turn to you to once more appreciate the mountains! Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": "You step in the forbidden palace... <sigh> ...therefore you must die.",
-		"attacked": "So brave, yet so stupid! If only you had a brain similar to your courage.",
-		"defeated": "Agh burzum-ishi mas!",
-		"introduction": "I am Thraldin. Ash shara durbatulük!",
+		"declaringWar": "Now we will see if you are cowards or warriors!",
+		"attacked": "I shall tell my historians to record your empire for the future, after I have ground your cities into the dust.",
+		"defeated": "I never thought this could happen… not like this.",
+		"introduction": "I am Thraldin. My fortress will stand forever.",
 		
 		"neutralHello": "What?",
 		"hateHello": "What do you want?",
-		"tradeRequest": "I am not always this generous, but we hope you take this rare opportunity we give you.",
+		"tradeRequest": "I offer this, for your consideration.",
 		
-		"outerColor": [70, 70, 70],
-		"innerColor": [255,255,255],
+		"outerColor": [27,53,63]
+		"innerColor": [213,249,255],
 		"favoredReligion": "Butterfly Effects",
-		"style": "Troll",
+		"style": "Dwarven",
 		"uniqueName": "Shield of the Mountain",
 		"uniques": ["+[10]% Strength if within [2] tiles of a [Mountain]", "Land units may cross [Mountain] tiles after the first [Great Person] is earned", 
 			"Units ending their turn on [Mountain] tiles take [15] damage"],
-		"cities": ["Thraldin's Court","Khorin's Summit","Khorin's Slope","Gulddin's Ridge","Mourning Plateau","Lampion Pass","Twin Fortress","Sunken Valley",
+		"cities": ["Thraldin's Palace","Khorin's Summit","Khorin's Slope","Gulddin's Ridge","Mourning Plateau","Lampion Pass","Twin Fortress","Sunken Valley",
 			"Circle Cliff","Darken Crest","Cremona","Red Ice","Tiltein","Vennelin","Drumlen"]
 	},
 	
 	{
 		"name": "Polgar Sod'em",
 		"leaderName": "Hajruddin",
-		"adjective": ["Dwarven"],
+		"adjective": ["Dwarvem"],
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Cultural",
 		
@@ -479,7 +479,7 @@
 		"favoredReligion": "Preformationism",
 		"style": "Moken",
 		"uniqueName": "Tiger Trawl",
-		"uniques": ["[+2 Gold] from every [Water resource]", "Enables embarked units to enter ocean tiles <after discovering [Compass]>", 
+		"uniques": ["[+2 Gold] from every [Water resource]", "Enables [All] units to enter ocean tiles <after discovering [Compass]>", 
 			"[+15]% Production when constructing [{Military} {Water}] units [in all coastal cities]"],
 		"cities": ["Regalia","Alion","Gatland","Burnei","Vinia","Sibisia","Codendia","Riverbed","Schoels Ridge","Magath Trench",
 			"Seamountea","Creef","Galesia","Aneka","Moresby","Palau"]
@@ -610,7 +610,7 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
 		
-		"startIntroPart1": "Honour be with you, oh great emperor Fala Vieya. Almuria was a powerful empire, controlling Manas Island and the entire Archiea Continent. In an attempt to seize Smeheng, The League defeated you and drowned your entire empire with the power of the Tridstone. It is said that the remains of your empire still active under the sea, only you and your people knew what is truly going on.",
+		"startIntroPart1": "Honour be with you, oh great emperor Fala Vieya. Almuria was a powerful empire, controlling Manas Island and the entire Archiea Continent. In an attempt to seize Smeheng, The League defeated you and drowned your entire empire with the power of the Tristone. It is said that the remains of your empire still active under the sea, only you and your people knew what is truly going on.",
 		"startIntroPart2": "But is Almuria indeed gone forever, great Fala Vieya? Your people look to you to bring the empire back to life once more. Will you build a civilization that will stand the test of time?",
 		
 		"declaringWar": "Let there be war between us! I will wrestle your lands away, and rule your subjects with strength.",
@@ -628,7 +628,7 @@
 		"uniqueName": "The Lost Continent",
 		"uniqueText": "Can embark and move over Coasts and Oceans immediately\nMilitary Land units become stronger when fighting in adjacent to Water tiles and become weaker when fighting in Desert\nEmbarked units can defend themselves",
 		"uniques": ["Enables embarkation for land units <starting from the [Dark age]>", 
-			"Enables embarked units to enter ocean tiles <starting from the [Dark age]>",
+			"Enables [All] units to enter ocean tiles <starting from the [Dark age]>",
 			"[{Military} {Land}] units gain the [Water Creature] promotion", "Embarked units can defend themselves", 
 			"Double quantity of [Megall] produced"],
 		"cities": ["Lemuria","Atlantis","Agarthea","Avalonia","Erum","Kitezha","Kumari Kanda","Mu","Shangri-La","Lyonessa","Quivira","Buyana",
@@ -684,7 +684,7 @@
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "Unacceptable!",
-		"outerColor": [0, 0, 0],
+		"outerColor": [30, 30, 30],
 		"innerColor": [153,0,76],
 		"cities": ["Manthrill"]
 	},
@@ -834,7 +834,7 @@
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
-		"outerColor": [0, 0, 0],
+		"outerColor": [30, 30, 30],
 		"innerColor": [45,255,86],
 		"cities": ["Gahaldur"]
 	},
@@ -896,7 +896,6 @@
 		"name": "Rackedt",
 		"adjective": ["Mercenary-Beast"],
 		"cityStateType": "Militaristic",
-		"uniques": ["Starts with [Trapping]"],
 
 		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
 		"attacked": "Traitorous man! The Rackedt peoples will not stand for such wanton abuse and slander - I shall have your head!",

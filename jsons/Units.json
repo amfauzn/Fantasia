@@ -230,20 +230,6 @@
 		"attackSound": "horse"
 	},
 	{
-		"name": "Torog",
-		"unitType": "Armored",
-		"uniqueTo": "Twin Mountain",
-		"replaces": "Horseman",
-		"movement": 2,
-		"strength": 16,
-		"cost": 82,
-		"requiredTech": "Domestication",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Steel",
-		"uniques": ["Bonus for units in 2 tile radius 15%", "[+15]% Strength when stacked with [Great General]"],
-		"attackSound": "nonmetalhit"
-	},
-	{
 		"name": "Wolf Rider",
 		"unitType": "Mounted",
 		"uniqueTo": "Torakj",
@@ -471,6 +457,21 @@
 		"uniques": ["Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost", "Scouting I"],
 		"attackSound": "arrow"
+	},
+	{
+		"name": "Axeman",
+		"uniqueTo": "Twin Mountain",
+		"replaces": "Longswordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 22,
+		"cost": 120,
+		"requiredResource": "Iron",
+		"requiredTech": "Metal Casting",
+		"obsoleteTech": "Gunpowder",
+		"upgradesTo": "Musketman",
+		"uniques": ["[+15]% Strength <when attacking>", "[-10]% Strength <when defending>"],
+		"attackSound": "metalhit"
 	},
 	
 	// Renaissance age
@@ -781,7 +782,7 @@
 		"cost": 280,
 		"requiredResource": "Niter",
 		"requiredTech": "Gunpowder",
-		"upgradesTo": "Spell Cannon",
+		"upgradesTo": "Howitzer",
 		"obsoleteTech": "Mana Manipulation",
 		"uniques": ["No defensive terrain bonus", "Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
@@ -874,7 +875,7 @@
 		"requiredTech": "Biology",
 		"obsoleteTech": "Enlightment",
 		"upgradesTo": "Lightsaberman",
-		"uniques": ["[+10] HP when healing", "Can pass through impassable tiles"],
+		"uniques": ["[+10] HP when healing", "Can pass through impassable tiles", "Limited to [5] per Civilization"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -1084,7 +1085,7 @@
 		"requiredTech": "Telepathy",
 		"requiredResource": "Meatball",
 		"uniques": ["[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking", 
-			"Unable to capture cities", "Never appears as a Barbarian unit"],
+			"Unable to capture cities", "Can pass through impassable tiles", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 	},
 	{
@@ -1149,11 +1150,12 @@
 		"range": 10,
 		"cost": 600,
 		"requiredTech": "Mana Manipulation",
-		"uniques": ["Magician", "Nuclear weapon of Strength [1]", "Requires [Magician Project]", "Blast radius [2]", "Consumes [2] [Niter]"],
+		"uniques": ["Magician", "Nuclear weapon of Strength [1]", "Blast radius [2]", "Only available <if [Magician Project] is constructed>", 
+			"Consumes [2] [Niter]"],
 		"attackSound": "torpedo"
 	},
 	{
-		"name": "Spell Cannon",
+		"name": "Howitzer",
 		"unitType": "Siege",
 		"movement": 2,
 		"strength": 40,
@@ -1162,7 +1164,8 @@
 		"cost": 450,
 		"requiredTech": "Mana Manipulation",
 		"requiredResource": "Niter",
-		"uniques": ["No defensive terrain bonus", "Must set up to ranged attack", "Ranged attacks may be performed over obstacles", "Requires [Magician Project]", "Never appears as a Barbarian unit"],
+		"uniques": ["No defensive terrain bonus", "Must set up to ranged attack", "Ranged attacks may be performed over obstacles",
+			"Never appears as a Barbarian unit"],
 		"promotions": ["Cover I"],
 		"attackSound": "cannon"
 	},
@@ -1188,6 +1191,7 @@
 		"requiredTech": "Lasers",
 		"uniques": ["[+20]% Strength <when attacking>", "Can move after attacking", "No defensive terrain bonus", 
 			"[-30]% Strength <vs cities>", "Consumes [1] [Horses]", "Consumes [1] [Kyber]", "Never appears as a Barbarian unit"],
+		"promotions": ["Shock I"],
 		"attackSound": "horse"
 	},
 		
@@ -1200,7 +1204,7 @@
 		"cost": 5,
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Great Generals II"],
-		"uniques": ["Requires [Heroic age]", "Only available <with [Hero Candidate]>", "[+50]% Strength <vs [Water Terror] units>", 
+		"uniques": ["Only available <with [Hero Candidate]> <starting from the [Heroic age]>", "[+50]% Strength <vs [Water Terror] units>", 
 			"[+75]% Strength <vs [Air Terror] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "metalhit"
 	},
@@ -1212,7 +1216,7 @@
 		"cost": 5,
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Cover I", "Great Generals I"],
-		"uniques": ["Requires [Heroic age]", "Only available <with [Hero Candidate]>", "[+50]% Strength <vs [Water Terror] units>", 
+		"uniques": ["Only available <with [Hero Candidate]> <starting from the [Heroic age]>", "[+50]% Strength <vs [Water Terror] units>", 
 			"[+75]% Strength <vs [Air Terror] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "metalhit"
 	},
@@ -1226,8 +1230,8 @@
 		"cost": 5,
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Great Generals I"],
-		"uniques": ["Requires [Heroic age]", "Only available <with [Hero Candidate]>", "[+50]% Strength <vs [Water Terror] units>", 
-			"[+75]% Strength <vs [Air Terror] units>", "Never appears as a Barbarian unit"],
+		"uniques": ["Only available <with [Hero Candidate]> <starting from the [Heroic age]>", "[-15]% Strength <when attacking> <vs cities>", 
+			"[+50]% Strength <vs [Water Terror] units>", "[+75]% Strength <vs [Air Terror] units>", "Never appears as a Barbarian unit"],
 		"promotions": ["Extended Range"],
 		"attackSound": "arrow"
 	},
@@ -1238,7 +1242,7 @@
 		"strength": 45,
 		"cost": 5,
 		"requiredResource": "Hero Candidate",
-		"uniques": ["Requires [Heroic age]", "[+100]% Strength <vs [Mounted] units>", "Only available <with [Hero Candidate]>", 
+		"uniques": ["[+100]% Strength <vs [Mounted] units> <starting from the [Heroic age]>", "Only available <with [Hero Candidate]>", 
 			"[+50]% Strength <vs [Water Terror] units>", "[+75]% Strength <vs [Air Terror] units>", 
 			"Never appears as a Barbarian unit"],
 		"attackSound": "metalhit"
@@ -1251,7 +1255,7 @@
 		"cost": 5,
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Great Generals II"],
-		"uniques": ["Requires [Heroic age]", "Can move after attacking", "No defensive terrain bonus", "Only available <with [Hero Candidate]>", 
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Only available <with [Hero Candidate]> <starting from the [Heroic age]>", 
 			"[+50]% Strength <vs [Water Terror] units>", "[+75]% Strength <vs [Air Terror] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 	},
@@ -1265,8 +1269,8 @@
 		"cost": 5,
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Great Generals I", "Logistics"],
-		"uniques": ["Requires [Heroic age]", "Only available <with [Hero Candidate]>", "[+50]% Strength <vs [Water Terror] units>", 
-			"[+75]% Strength <vs [Air Terror] units>", "Never appears as a Barbarian unit"],
+		"uniques": ["Only available <with [Hero Candidate]> <starting from the [Heroic age]>", "[-15]% Strength <when attacking> <vs cities>", 
+			"[+50]% Strength <vs [Water Terror] units>", "[+75]% Strength <vs [Air Terror] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "arrow"
 	},
 	{
@@ -1276,7 +1280,7 @@
 		"strength": 43,
 		"cost": 5,
 		"requiredResource": "Hero Candidate",
-		"uniques": ["Requires [Heroic age]", "[+150]% Strength <when attacking> <vs cities>", "Only available <with [Hero Candidate]>", 
+		"uniques": ["[+150]% Strength <when attacking> <vs cities>", "Only available <with [Hero Candidate]> <starting from the [Heroic age]>", 
 			"[+25]% Strength <vs [Water Terror] units>", "[+50]% Strength <vs [Air Terror] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
 	},
@@ -1290,8 +1294,8 @@
 		"cost": 5,
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Mobility", "Great Generals I"],
-		"uniques": ["Requires [Heroic age]", "[+100]% Strength <when attacking> <vs [Water] units>", "Can see invisible [Water Terror] units"
-			"Only available <with [Hero Candidate]>", "Never appears as a Barbarian unit"],
+		"uniques": ["[+100]% Strength <when attacking> <vs [Water] units>", "Can see invisible [Water Terror] units", 
+			"Only available <with [Hero Candidate]> <starting from the [Heroic age]>", "Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
 	},
 	{
@@ -1302,8 +1306,8 @@
 		"cost": 5,
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Sentry"],
-		"uniques": ["Requires [Heroic age]", "[+100]% Strength <when attacking> <vs [Water] units>", "May withdraw before melee ([33]%)"
-			"Can see invisible [Water Terror] units", "Only available <with [Hero Candidate]>", "Never appears as a Barbarian unit"],
+		"uniques": ["[+100]% Strength <when attacking> <vs [Water] units>", "May withdraw before melee ([33]%)", "Can see invisible [Water Terror] units", 
+			"Only available <with [Hero Candidate]> <starting from the [Heroic age]>", "Never appears as a Barbarian unit"],
 		"attackSound": "metalhit"
 	},
 

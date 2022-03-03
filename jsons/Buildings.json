@@ -122,7 +122,7 @@
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
-		"uniques": ["Requires [Honor]", "[+10]% [Food] [in all cities]", "[+15]% Production when constructing [Ranged] units [in all cities]"],
+		"uniques": ["[+10]% [Food] [in all cities]", "[+15]% Production when constructing [Ranged] units [in all cities]"],
 		"requiredTech": "Archery",
 		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.'  - Robert Louis Stevenson"
 	},
@@ -149,7 +149,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["Requires [Liberty]", "[-25]% tile improvement construction time", "[2] free [Worker] units appear"],
+		"uniques": ["Only available <after adopting [Liberty]>", "[-25]% tile improvement construction time", "[2] free [Worker] units appear"],
 		"requiredTech": "Masonry",
 		"quote": "'Build me 1000 candis tonight and I will marry you.' - Roro Jonggrang"
 	},
@@ -311,7 +311,7 @@
 		"culture": 2,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
+		"uniques": ["Only available <after adopting [Honor]>", "[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
 		"requiredTech": "Bronze Working",
 		"quote": "If Gurun, Seram, Tanjung Pura, Hary, Pahang, Dompo, Bali, Sunda, Palembang, Temasek, are all defeated, I will break my fast.' - Gajah Mada"
 	},
@@ -391,7 +391,7 @@
 		"culture": 1,
 		"isWonder": true,
 		"requiredTech": "Mathematics",
-		"uniques": ["Requires [Tradition]", "Gain a free [Garden] [in this city]"],
+		"uniques": ["Only available <after adopting [Tradition]>", "Gain a free [Garden] [in this city]"],
 		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.'  - F. Frankfort Moore"
 	},
 	{
@@ -1430,7 +1430,7 @@
 		"uniqueTo": "Urg",
         	"cost": 1,
 		"cityHealth": 1,
-		"uniques": ["Requires [Dark age]", "Can only be built [in capital]", "Free [Fury] appears", 
+		"uniques": ["Can only be built [in capital]", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
 	},
 	{
@@ -1438,7 +1438,7 @@
 		"uniqueTo": "Urg",
         	"cost": 1,
 		"cityHealth": 1,
-		"uniques": ["Requires [Classical age]", "Can only be built [in capital]", "Free [Fury] appears", 
+		"uniques": ["Only available <starting from the [Classical age]>", "Can only be built [in capital]", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
 	},
 	{
@@ -1446,7 +1446,7 @@
 		"uniqueTo": "Urg",
         	"cost": 1,
 		"cityHealth": 1,
-		"uniques": ["Requires [Feudal age]", "Can only be built [in capital]", "Free [Fury] appears", 
+		"uniques": ["Only available <starting from the [Feudal age]>", "Can only be built [in capital]", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
 	},
 	{
@@ -1454,7 +1454,7 @@
 		"uniqueTo": "Urg",
         	"cost": 1,
 		"cityHealth": 1,
-		"uniques": ["Requires [Renaissance age]", "Can only be built [in capital]", "Free [Fury] appears", 
+		"uniques": ["Only available <starting from the [Renaissance age]>", "Can only be built [in capital]", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
 	},
 	{
@@ -1462,7 +1462,7 @@
 		"uniqueTo": "Urg",
         	"cost": 1,
 		"cityHealth": 1,
-		"uniques": ["Requires [Heroic age]", "Can only be built [in capital]", "Free [Fury] appears", 
+		"uniques": ["Only available <starting from the [Heroic age]>", "Can only be built [in capital]", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
 	},
 	{
@@ -1470,7 +1470,7 @@
 		"uniqueTo": "Urg",
         	"cost": 1,
 		"cityHealth": 2,
-		"uniques": ["Requires [Mythic age]", "Can only be built [in capital]", "Free [Fury] appears", 
+		"uniques": ["Only available <starting from the [Mythic age]>", "Can only be built [in capital]", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
 	},
 	{
@@ -1478,7 +1478,7 @@
 		"uniqueTo": "Urg",
         	"cost": 1,
 		"cityHealth": 2,
-		"uniques": ["Requires [Chaos age]", "Can only be built [in capital]", "Free [Fury] appears", 
+		"uniques": ["Only available <starting from the [Chaos age]>", "Can only be built [in capital]", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
 	},
 	{
@@ -1486,7 +1486,7 @@
 		"uniqueTo": "Urg",
         	"cost": 1,
 		"cityHealth": 1,
-		"uniques": ["Requires [Future age]", "Can only be built [in capital]", "Free [Fury] appears", 
+		"uniques": ["Only available <starting from the [Future age]>", "Can only be built [in capital]", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
 	},
 	{
@@ -1511,7 +1511,7 @@
 		"greatPersonPoints": {"Great Artist": 2},
 		"cost": 1,
 		"cityHealth": 2,
-		"uniques": ["Requires [Tradition Complete]", "Can only be built [in capital]", "Free [Para Artist] appears", "Unsellable", 
+		"uniques": ["Only available <after adopting [Tradition Complete]>", "Can only be built [in capital]", "Free [Para Artist] appears", "Unsellable", 
 					"Will not be displayed in Civilopedia"]
 	},
 	{
@@ -1537,7 +1537,8 @@
 		"science": 3,
 		"maintenance": 3,
 		"cost": 5,
-		"uniques": ["Requires [Heroic age]", "Only available <in cities with a [Andarass (2 gold = 2 science)]>", "Will not be displayed in Civilopedia"]
+		"uniques": ["Only available <in cities with a [Andarass (2 gold = 2 science)]> <starting from the [Heroic age]>", 
+					"Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Andarass (4 gold = 4 science)",
@@ -1545,6 +1546,7 @@
 		"science": 4,
 		"maintenance": 4,
 		"cost": 7,
-		"uniques": ["Requires [Mythic age]", "Only available <in cities with a [Andarass (3 gold = 3 science)]>", "Will not be displayed in Civilopedia"]
+		"uniques": ["Only available <in cities with a [Andarass (3 gold = 3 science)]> <starting from the [Mythic age]>", 
+					"Will not be displayed in Civilopedia"]
 	}
 ]

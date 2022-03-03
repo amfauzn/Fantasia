@@ -94,7 +94,7 @@
 		"name": "Honor",
 		"era": "Classical age",
 		"uniques": ["[+33]% Strength <vs [Barbarian] units>", "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
-					"Notified of new Barbarian encampments", "Unlocks building Gerude"],
+					"Notified of new Barbarian encampments", "Unlocks building Bubrah Tikus"],
 		"policies": [
 			{
 				"name": "Warrior Code",
@@ -190,10 +190,7 @@
 	{
 		"name": "Legacy",
 		"era": "Feudal age",
-		"uniques": ["[+15]% Production when constructing [Monument] buildings [in all cities]", 
-					"[+15]% Production when constructing [Pyramid] buildings [in all cities]", 
-					"[+15]% Production when constructing [Composer Hall] buildings [in all cities]", 
-					"[+15]% Production when constructing [Antique Heritage] buildings [in all cities]"],
+		"uniques": ["[+15]% Production when constructing [Culture] buildings [in all cities]"],
 		"policies": [
 			{
 				"name": "Inheritance",
@@ -219,7 +216,7 @@
 			{
 				"name": "Cultural Exchange",
 				"uniques": ["[+1 Culture] from every [Trading post]", "[+1 Culture] from every [Information Market]", 
-							"[+1 Culture] from every [Great Improvement]"],
+							"[+1 Culture] from every [Great Improvement]", "[Great Artist] is earned [10]% faster"],
 				"requires": ["Wisdom"],
 				"row": 2,
 				"column": 5
@@ -233,7 +230,7 @@
 			},
 			{
 				"name": "Legacy Complete",
-				"uniques": ["[Great Artist] is earned [25]% faster", "[-10]% Culture cost of adopting new Policies", "[+3 Culture] from every [Landmark]", 
+				"uniques": ["[-10]% Culture cost of adopting new Policies", "[+3 Culture] from every [Landmark]", 
 							"May buy [Great Artist] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250]) <starting from the [Heroic age]>"],
 			} 
 		]
