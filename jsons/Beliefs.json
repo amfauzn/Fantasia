@@ -61,12 +61,12 @@
     {
         "name": "Goddess of Love",
         "type": "Pantheon",
-        "uniques": ["[+1 Happiness] in cities with [6] or more population"]
+        "uniques": ["[+1 Happiness] <in cities with at least [6] [Population]>"]
     },
     {
         "name": "Godly Prowess",
         "type": "Pantheon",
-        "uniques": ["[+33]% attacking Strength for cities"]
+        "uniques": ["[+33]% Strength for cities <when attacking>"]
     },
     {
         "name": "Lord of the Hunt",

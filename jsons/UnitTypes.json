@@ -84,14 +84,14 @@
     {
         "name": "Fighter",
         "movementType": "Air",
-        "uniques": ["Aircraft", "6 tiles in every direction always visible"]
+        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles"]
     },
     {
         "name": "Air Terror",
         "movementType": "Land",
         "uniques": ["Can pass through impassable tiles", "Can see invisible [Water Terror] units", "Can move after attacking", 
-			"All tiles cost 1 movement", "Normal vision when embarked", "Units pay only 1 movement point to disembark", 
-			"Eliminates combat penalty for attacking over a river"]
+			"All tiles cost 1 movement", "Normal vision when embarked",	"[1] Movement point cost to disembark", 
+			"Eliminates combat penalty for attacking over a river", "Can see over obstacles"]
     },
     {
         "name": "Bomber",

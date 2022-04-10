@@ -95,3 +95,9 @@
 - Balancing Cathedral and Mandir
 - Adjust terrain: Desert (flood plains), Snow (defence reduction)
 - Adjust promotion: Landing Party, Regenerative Tissue, Survivalism II
+
+## v2.8 (10.Apr.2022)
+- Change Scientific Victory from buildings into units
+- Improve Air Terror mechanism
+- Add policies prierities based Civs prefered victory type
+- Adjust Nas NA

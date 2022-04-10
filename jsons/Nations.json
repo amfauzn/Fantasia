@@ -31,10 +31,11 @@
 		"innerColor": [255,255,255],
 		"favoredReligion": "Spontanism",
 		"uniqueName": "Preacher King",
-		"uniqueText": "67% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment\n50% chance of capturing defeated Barbarian naval units and earning 25 Gold\n-25% maintenance costs for Military Land and Water units",
-		"uniques": ["67% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment", 
-			"50% chance of capturing defeated Barbarian naval units and earning 25 Gold", "[-25]% maintenance costs <for [{Military} {Land}] units>", 
-			"[-25]% maintenance costs <for [Water] units>"],
+		"uniqueText": "100% chance to recruit a Barbarian unit from a conquered encampment\n25% chance of capturing defeated Barbarian naval units\n-33% maintenance costs for Military Land and Water units",
+		"uniques": ["When conquering an encampment, earn [0] Gold and recruit a Barbarian unit <with [100]% chance>", 
+			"When defeating a [{Barbarian} {Water}] unit, earn [0] Gold and recruit it <with [25]% chance>", 
+			"[-33]% maintenance costs <for [{Military} {Land}] units>", 
+			"[-33]% maintenance costs <for [Water] units>"],
 		"cities": ["Nagar","Kramas","Irasandi","Mugassari","Ellasar","Surbata","Awan","Halli Lintra","Eshnunna","Palebon","Metesech",
 			"Jaragar","Erech","Arbela","Gandariya"]
 	},
@@ -122,7 +123,7 @@
 		"style": "Demonic",
 		"uniqueName": "Heaven's Fury",
 		"uniqueText": "Units fight as though they were at full strength even when damaged\nGain a Free Fury from every age.",
-		"uniques": ["Units fight as though they were at full strength even when damaged", "\"Borrows\" city names from other civilizations in the game"],
+		"uniques": ["Damage is ignored when determining unit Strength <for [All] units>", "\"Borrows\" city names from other civilizations in the game"],
 		"cities": ["Tugu","Luxor","Karnak","Oryx"]
 	},
 	
@@ -239,7 +240,7 @@
 		"favoredReligion": "Butterfly Effects",
 		"style": "Dwarven",
 		"uniqueName": "Shield of the Mountain",
-		"uniques": ["+[10]% Strength if within [2] tiles of a [Mountain]", "Land units may cross [Mountain] tiles after the first [Great Person] is earned", 
+		"uniques": ["[+10]% Strength <within [2] tiles of a [Mountain]>", "Land units may cross [Mountain] tiles after the first [Great Person] is earned", 
 			"Units ending their turn on [Mountain] tiles take [15] damage"],
 		"cities": ["Thraldin's Palace","Khorin's Summit","Khorin's Slope","Gulddin's Ridge","Mourning Plateau","Lampion Pass","Twin Fortress","Sunken Valley",
 			"Circle Cliff","Darken Crest","Cremona","Red Ice","Tiltein","Vennelin","Drumlen"]
@@ -508,7 +509,7 @@
 		"favoredReligion": "Monetarism",
 		"uniqueName": "Pure Bloodline",
 		"uniqueText": "Settler gained slower \n+2 Gold, -25% unhappiness from population in your first 4 cities \n+8 Culture, Gain a free Great Artist equivalent upon completion of Tradition policy Tree \n+33% unhappiness from population in annexed cities",
-		"uniques": ["Provides a [Astana] in your first [4] cities for free", "[+33]% unhappiness from population [in annexed cities]"],
+		"uniques": ["Provides a [Astana] in your first [4] cities for free", "[+33]% Unhappiness from [Population] [in annexed cities]"],
 		"cities": ["Clansperson","Getih","Kinsfolk","Consanguine","Sib","Grandeur","Cults","Claret","Clot","House Rules",
 			"Steel Throne","Nightwatch","Forbidden Palace","Traitors' Gate","Free District"]
 	},
@@ -629,7 +630,7 @@
 		"uniqueText": "Can embark and move over Coasts and Oceans immediately\nMilitary Land units become stronger when fighting in adjacent to Water tiles and become weaker when fighting in Desert\nEmbarked units can defend themselves",
 		"uniques": ["Enables embarkation for land units <starting from the [Dark age]>", 
 			"Enables [All] units to enter ocean tiles <starting from the [Dark age]>",
-			"[{Military} {Land}] units gain the [Water Creature] promotion", "Embarked units can defend themselves", 
+			"[{Military} {Land}] units gain the [Water Creature] promotion", "Defense bonus when embarked <for [All] units>", 
 			"Double quantity of [Megall] produced"],
 		"cities": ["Lemuria","Atlantis","Agarthea","Avalonia","Erum","Kitezha","Kumari Kanda","Mu","Shangri-La","Lyonessa","Quivira","Buyana",
 			"Cantre'r Gwaelea","Cibola","Llys","Ys","Ogygia"]

@@ -26,7 +26,7 @@
 		"happiness": 1,
 		"cityStrength": 3,
 		"cost": 1,
-		"uniques": ["Indicates the capital city", "[-50]% unhappiness from population [in this city]"]
+		"uniques": ["Indicates the capital city", "[-50]% Unhappiness from [Population] [in this city]"]
 	},
 	{
 		"name": "Monument",
@@ -372,7 +372,7 @@
 		"cost": 150,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Monument] in all cities", "[+25]% great person generation [in this city]", "Free Great Person", 
+		"uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "Free Great Person", 
 					"Cost increases by [25] per owned city"],
 		"requiredTech": "Poetry"
 	},
@@ -380,8 +380,8 @@
 		"name": "Courthouse",
 		"maintenance": 4,
 		"hurryCostModifier": 50,
-		"uniques": ["Remove extra unhappiness from annexed cities", 
-					"Can only be built in annexed cities"],
+		"uniques": ["Remove extra unhappiness from annexed cities",
+					"Can only be built [in annexed cities]"],
 		"requiredTech": "Mathematics"
 	},
 	{
@@ -447,7 +447,7 @@
 	},
 	{
 		"name": "Garden",
-		"uniques": ["[+25]% great person generation [in this city]", "Must be next to [Fresh water]"],
+		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredTech": "Civil Service"
@@ -541,11 +541,9 @@
 		"greatPersonPoints": {"Great Artist": 1},
 		"requiredNearbyImprovedResources": ["Iron"],
 		"requiredTech": "Metal Casting",
-		// If spaceship parts are changed into units, the spaceship part unique should be changed to
-		// "[+15]% Production when constructing [Spaceship part] units [in this city]"
-		"uniques": ["[+15]% Production when constructing [Elementallist] wonders [in this city]"
-			"[+15]% Production when constructing [Land] units [in this city]",
-			"[+1 Production] from [Iron] tiles [in this city]"]
+		"uniques": ["[+15]% Production when constructing [Spaceship part] units [in this city]", 
+					"[+15]% Production when constructing [Land] units [in this city]",
+					"[+1 Production] from [Iron] tiles [in this city]"]
 	},
 	{
 		"name": "Rheog Baddan",
@@ -692,7 +690,7 @@
 		"greatPersonPoints": {"Great Merchant": 2},
 		"culture": 1,
 		"isWonder": true,
-		"uniques": ["Gold from all trade routes +25%","Must have an owned [Mountain] within [2] tiles"],
+		"uniques": ["[+25]% [Gold] from Trade Routes", "Must have an owned [Mountain] within [2] tiles"],
 		"requiredTech": "Guilds",
 		"quote": "'Our beards will grow till they hang down the cliff to the valley before anything happens here.'  - Dwalin"
 	},
@@ -832,7 +830,7 @@
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
-		"uniques": ["[-10]% unhappiness from population [in all cities]"],
+		"uniques": ["[-10]% Unhappiness from [Population] [in all cities]"],
 		"requiredTech": "Loans and Saving",
 		"quote": "'Most of us can, as we choose, make of this world either a palace or a prison' - John Lubbock"
 	},
@@ -1163,7 +1161,7 @@
 		"name": "Breakthrough Chamber",
 		"cost": 300,
 		"production": 3,
-		"uniques": ["[+50]% Production when constructing [Elementallist] wonders [in this city]", 
+		"uniques": ["[+50]% Production when constructing [Spaceship part] units [in this city]", 
 					"All newly-trained [Melee] units [in this city] receive the [Breakthrough] promotion", "Consumes [2] [Adamantium]"],
 		"requiredTech": "Sacred Path"
 	},
@@ -1302,42 +1300,6 @@
 		"requiredTech": "Enlightment",
 		"quote": "'To achieve great things, two things are needed: a plan, and not quite enough time.' - Leonard Bernstein"
 	},
-	{
-		"name": "Earth Element",
-		"requiredResource": "Adamantium",
-		"cost": 250,
-		"isNationalWonder": true,
-		"requiredTech": "Enlightment",
-		"uniques": ["Elementallist", "Provides [1] [Elements]", "Triggers a global alert upon completion", "Cannot be purchased", 
-					"Hidden when [Scientific] Victory is disabled"]
-	},
-	{
-		"name": "Heavenly Nature",
-		"cost": 15,
-		"isNationalWonder": true,
-		"requiredBuilding": "Elementallist Program",
-		"uniques": ["Triggers victory", "Consumes [5] [Elements]", "Hidden when [Scientific] Victory is disabled"]
-		"requiredTech": "Enlightment",
-	},
-	// Column 14
-	{
-		"name": "Wood Element",
-		"requiredResource": "Adamantium",
-		"cost": 250,
-		"isNationalWonder": true,
-		"requiredTech": "Telepathy",
-		"uniques": ["Elementallist", "Provides [1] [Elements]", "Triggers a global alert upon completion", "Cannot be purchased", 
-					"Hidden when [Scientific] Victory is disabled"]
-	},
-	{
-		"name": "Water Element",
-		"requiredResource": "Adamantium",
-		"cost": 250,
-		"isNationalWonder": true,
-		"requiredTech": "Foresight",
-		"uniques": ["Elementallist", "Provides [1] [Elements]", "Triggers a global alert upon completion", "Cannot be purchased", 
-					"Hidden when [Scientific] Victory is disabled"]
-	},
 	
 	// Diplomatic Victory
 	{
@@ -1349,29 +1311,6 @@
 		"uniques": ["Triggers voting for the Diplomatic Victory", "Hidden when [Diplomatic] Victory is disabled", "Triggers a global alert upon completion"],
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together.' - Kofi Annan"
 	},
-	
-	{
-		"name": "Fire Element",
-		"requiredResource": "Adamantium",
-		"cost": 250,
-		"isNationalWonder": true,
-		"requiredTech": "Mana Manipulation",
-		"uniques": ["Elementallist", "Provides [1] [Elements]", "Triggers a global alert upon completion", "Cannot be purchased", 
-					"Hidden when [Scientific] Victory is disabled"]
-	},
-	{
-		"name": "Metal Element",
-		"requiredResource": "Adamantium",
-		"cost": 250,
-		"isNationalWonder": true,
-		"requiredTech": "Lasers",
-		"uniques": ["Elementallist", "Provides [1] [Elements]", "Triggers a global alert upon completion", "Cannot be purchased", 
-					"Hidden when [Scientific] Victory is disabled"]
-	},
-	
-	// Future age
-	
-	// Column 15
 	
 	// Cultural Victory
 	{
@@ -1493,14 +1432,14 @@
         "name": "~suka",
 		"uniqueTo": "Frostmorrow",
 		"cityHealth": 1,
-		"uniques": ["[-25]% Culture cost of natural border growth [in this city]", "[-25]% unhappiness from specialists [in this city]", 
+		"uniques": ["[-25]% Culture cost of natural border growth [in this city]", "[-25]% Unhappiness from [Specialists] [in this city]", 
 					"Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Astana",
 		"uniqueTo": "Thallin",
 		"cityStrength": 1,
-		"uniques": ["[-25]% unhappiness from population [in this city]", "Unbuildable", "Unsellable", "Destroyed when the city is captured", 
+		"uniques": ["[-25]% Unhappiness from [Population] [in this city]", "Unbuildable", "Unsellable", "Destroyed when the city is captured", 
 					"Will not be displayed in Civilopedia"]
 	},
 	{

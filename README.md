@@ -2,12 +2,11 @@
 Built around Ancient Empires II, and then expanded. A fantasy world~
 
 
-## Changelog for v2.7.0 (19.Feb.2022)
-- Adjust Civs: Malus NA, Cavegoa NA, Frostmorrow UB, Marunesia UU, Smeheng, Almuria (Add and adjust)
-- Fix trade routes over water
-- Balancing Cathedral and Mandir
-- Adjust terrain: Desert (flood plains), Snow (defence reduction)
-- Adjust promotion: Landing Party, Regenerative Tissue, Survivalism II
+## Changelog for v2.8.0 (10.Apr.2022)
+- Change Scientific Victory from buildings into units
+- Improve Air Terror mechanism
+- Add policies prierities based Civs prefered victory type
+- Adjust Nas NA
 
 
 # Roadmap
