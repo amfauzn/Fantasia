@@ -657,7 +657,6 @@
 	},
 	{
 		"name": "No Suicide", // Barbarians Melee
-		"uniques": ["Can only attack [Civilian] units", "Can only attack [Military] units"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Armored","Melee Water","Submarine"]
+		"uniques": ["Can only attack [Civilian] units", "Can only attack [Military] units"]
 	},
 ]
