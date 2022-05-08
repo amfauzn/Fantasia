@@ -106,7 +106,6 @@ Any icons not listed below are taken from the base game, see [Unciv credits](htt
 * Gemcutter: [Gemcutter](logomakr.com/4iZIRQ) by Cavenir
 * Glaciruptor: [ice](https://thenounproject.com/icon/ice-1412726/) by Landan Lloyd
 * Gulddin's Treasury: [skill magic ice wall](https://thenounproject.com/icon/skill-magic-ice-wall-2360171/) by Maxicons
-* Heavenly Nature: [philosophy](https://thenounproject.com/icon/philosophy-3965094/) by Adrien Coquet
 * Hunt's Altar: [Hunting Trophy](https://thenounproject.com/icon/hunting-trophy-4459362/) by elasticlstudio
 * Kalacha: [Candi](https://github.com/Ravignir/RekMOD/tree/main/Images/BuildingIcons/Candi.png)
 * Kraken's Altar: [Kraken](https://thenounproject.com/icon/kraken-4135921/) by Amethyst Studio
@@ -149,6 +148,7 @@ Any icons not listed below are taken from the base game, see [Unciv credits](htt
 * Gaius Duilius: [pirate ship](https://thenounproject.com/icon/pirate-ship-1122660/) by Madison Apple
 * Golem: [Golem](https://thenounproject.com/icon/golem-1387808/) by Icons Producer
 * Great Farmer: [Sickle](https://thenounproject.com/icon/sickle-726366/) by ranjit kumar
+* Heavenly Nature: [philosophy](https://thenounproject.com/icon/philosophy-3965094/) by Adrien Coquet
 * Hydra: [Lerne Hydra](https://thenounproject.com/icon/lerne-hydra-1389034/) by Icons Producer
 * Kalsharin: [Corinthian Helmet](https://thenounproject.com/icon/corinthian-helmet-200585/) by Alexander Skowalsky
 * Ken Arok: [Kris](https://thenounproject.com/icon/kris-1642662/) by Mochammad Kafi

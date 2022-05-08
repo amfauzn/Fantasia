@@ -621,8 +621,12 @@
 		"uniques": ["[+50]% XP gained from combat"]
 	},
 	{
-		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
-		"uniques": ["All healing effects doubled"]
+		"name": "Water of Life", // only for Units that have been close to Natural Wonder Fountain of Youth
+		"uniques": ["[+10] HP when healing"]
+	},
+	{
+		"name": "Cold Resistant", // only for Units that have been close to Natural Wonder Mount Snowpeak
+		"uniques": ["Double movement in [Snow]"]
 	},
 	{
 		"name": "Kal Withdraw", // only for Kalsharin and subsequent upgrades
@@ -650,5 +654,10 @@
 			"[+15]% Strength <when fighting in [Coastal] tiles>", "Normal vision when embarked", 
 			"Eliminates combat penalty for attacking across a coast", "Eliminates combat penalty for attacking over a river", 
 			"[-20]% Strength <when fighting in [Desert] tiles>"]
-	}
+	},
+	{
+		"name": "No Suicide", // Barbarians Melee
+		"uniques": ["Can only attack [Civilian] units", "Can only attack [Military] units"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Armored","Melee Water","Submarine"]
+	},
 ]

@@ -47,6 +47,14 @@
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured"]
 	},
+	{
+		"name": "Phantom Cults",
+		"isNationalWonder": true,
+		"cityHealth": 3,
+		"cost": 1,
+		"uniques": ["Provides [1] [Megall]", "Provides [1] [Pearls]", "Provides [1] [Whales]", "Provides [1] [Crab]", 
+					"Must have an owned [Phantom Island] within [3] tiles"]
+	},
 	// Column 1
 	{
 		"name": "Granary",
@@ -531,6 +539,7 @@
 		"maintenance": 2,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 5},
 		"uniques": ["[+2 Production] from [Forest] tiles [in this city]"],
 		"requiredTech": "Metal Casting"
 	},
@@ -635,7 +644,7 @@
 		"culture": 2,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Walls",
-		"uniques": ["[+2 Gold] <after discovering [Economics]>", "Destroyed when the city is captured"],
+		"uniques": ["[+2 Gold] [in this city] <after discovering [Economics]>", "Destroyed when the city is captured"],
 		"requiredTech": "Chivalry"
 	},
 	{
@@ -1041,7 +1050,7 @@
 		"specialistSlots": {"Engineer": 2},
 		"maintenance": 3,
 		"hurryCostModifier": 25,
-		"uniques": ["Consumes [1] [Iron]", "Consumes [1] [Horses]", "Provides [2] [Adamantium]"],
+		"uniques": ["Consumes [1] [Iron]", "Provides [-1] [Horses]", "Only available <with [Iron]> <with [Horses]>", "Provides [2] [Adamantium]"],
 		"requiredTech": "Scientific Theory"
 	},
 	{
@@ -1181,7 +1190,7 @@
 		"culture": 2,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isNationalWonder": true,
-		"uniques": ["Triggers a global alert upon completion", "Provides [1] [God's Key]"],
+		"uniques": ["Triggers a global alert upon completion", "Provides [1] [God's Key]", "Free Technology"],
 		"requiredTech": "Sacred Path"
 	},
 	// Column 12
@@ -1277,10 +1286,21 @@
 	},
 	{
 		"name": "Hero's Altar",
-		"culture": 2,
+		"culture": 1,
+		"faith": 1,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"isWonder": true,
-		"uniques": ["Provides [2] [Hero Candidate]", "Only available <with [God's Key]>"],
+		"uniques": ["Provides [2] [Hero Candidate]", "Only available <with [God's Key]>", 
+					"May buy [Mas Karebet] units for [300] [Faith] [in all cities] at an increasing price ([100])", 
+					"May buy [Ken Arok] units for [300] [Faith] [in all cities] at an increasing price ([100])", 
+					"May buy [Pandji] units for [300] [Faith] [in all cities] at an increasing price ([100])", 
+					"May buy [Leonidas] units for [300] [Faith] [in all cities] at an increasing price ([100])", 
+					"May buy [Siliwangi] units for [300] [Faith] [in all cities] at an increasing price ([100])", 
+					"May buy [Zhuge Liang] units for [300] [Faith] [in all cities] at an increasing price ([100])", 
+					"May buy [Jeanne d'Arc] units for [300] [Faith] [in all cities] at an increasing price ([100])", 
+					"May buy [Gaius Duilius] units for [300] [Faith] [in all cities] at an increasing price ([100])", 
+					"May buy [Themistocles] units for [300] [Faith] [in all cities] at an increasing price ([100])"],
+		"replacementTextForUniques": "May buy 2 additional Hero, Unlock All Heroes",
 		"requiredResource": "God's Key",
 		"requiredTech": "Heroism Banner"
 	},
@@ -1363,67 +1383,146 @@
 		"uniques": ["Unbuildable", "[+15]% [Gold] [in this city]", "Hidden when religion is disabled"]
 	},
 	
+	// Hero Summoner
+	{
+		"name": "Portal",
+		"faith": 1,
+		"uniques": ["Unbuildable", "Unsellable", "[+1 Faith] [in this city] <after discovering [Sacred Path]>"],
+	},
+	{
+		"name": "Mas Karebet Portal",
+		"isWonder": true,
+		"cost": 5,
+		"uniques": ["May buy [Mas Karebet] units for [300] [Faith] [in all cities] at an increasing price ([100])", 
+					"Gain a free [Portal] [in this city]", 
+					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Heroic age]>"],
+	},
+	{
+		"name": "Ken Arok Portal",
+		"isWonder": true,
+		"cost": 5,
+		"uniques": ["May buy [Ken Arok] units for [300] [Faith] [in all cities] at an increasing price ([100])", 
+					"Gain a free [Portal] [in this city]", 
+					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Heroic age]>"],
+	},
+	{
+		"name": "Pandji Portal",
+		"isWonder": true,
+		"cost": 5,
+		"uniques": ["May buy [Pandji] units for [300] [Faith] [in all cities] at an increasing price ([100])", 
+					"Gain a free [Portal] [in this city]", 
+					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Heroic age]>"],
+	},
+	{
+		"name": "Leonidas Portal",
+		"isWonder": true,
+		"cost": 5,
+		"uniques": ["May buy [Leonidas] units for [300] [Faith] [in all cities] at an increasing price ([100])", 
+					"Gain a free [Portal] [in this city]", 
+					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Heroic age]>"],
+	},
+	{
+		"name": "Siliwangi Portal",
+		"isWonder": true,
+		"cost": 5,
+		"uniques": ["May buy [Siliwangi] units for [300] [Faith] [in all cities] at an increasing price ([100])", 
+					"Gain a free [Portal] [in this city]", 
+					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Heroic age]>"],
+	},
+	{
+		"name": "Liang Portal",
+		"isWonder": true,
+		"cost": 5,
+		"uniques": ["May buy [Zhuge Liang] units for [300] [Faith] [in all cities] at an increasing price ([100])", 
+					"Gain a free [Portal] [in this city]", 
+					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Heroic age]>"],
+	},
+	{
+		"name": "Jeanne Portal",
+		"isWonder": true,
+		"cost": 5,
+		"uniques": ["May buy [Jeanne d'Arc] units for [300] [Faith] [in all cities] at an increasing price ([100])", 
+					"Gain a free [Portal] [in this city]", 
+					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Heroic age]>"],
+	},
+	{
+		"name": "Gaius Portal",
+		"isWonder": true,
+		"cost": 5,
+		"uniques": ["May buy [Gaius Duilius] units for [300] [Faith] [in all cities] at an increasing price ([100])", 
+					"Gain a free [Portal] [in this city]", 
+					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Heroic age]>"],
+	},
+	{
+		"name": "Themistocles Portal",
+		"isWonder": true,
+		"cost": 5,
+		"uniques": ["May buy [Themistocles] units for [300] [Faith] [in all cities] at an increasing price ([100])", 
+					"Gain a free [Portal] [in this city]", 
+					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Heroic age]>"],
+	},
+	
 	// Specific Unique Buildings
 	{
-        	"name": "Free Fury1",
+		"name": "Free Fury1",
 		"uniqueTo": "Urg",
-        	"cost": 1,
+		"cost": 1,
 		"cityHealth": 1,
-		"uniques": ["Can only be built [in capital]", "Free [Fury] appears", 
+		"uniques": ["Only available <starting from the [Feudal age]> <in cities with a [Palace]>", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
 	},
 	{
-        	"name": "Free Fury2",
+		"name": "Free Fury2",
 		"uniqueTo": "Urg",
-        	"cost": 1,
+		"cost": 1,
 		"cityHealth": 1,
-		"uniques": ["Only available <starting from the [Classical age]>", "Can only be built [in capital]", "Free [Fury] appears", 
+		"uniques": ["Only available <starting from the [Feudal age]> <in cities with a [Palace]>", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
 	},
 	{
-        	"name": "Free Fury3",
+		"name": "Free Fury3",
 		"uniqueTo": "Urg",
-        	"cost": 1,
+		"cost": 1,
 		"cityHealth": 1,
-		"uniques": ["Only available <starting from the [Feudal age]>", "Can only be built [in capital]", "Free [Fury] appears", 
+		"uniques": ["Only available <starting from the [Feudal age]> <in cities with a [Palace]>", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
 	},
 	{
-        	"name": "Free Fury4",
+		"name": "Free Fury4",
 		"uniqueTo": "Urg",
-        	"cost": 1,
+		"cost": 1,
 		"cityHealth": 1,
 		"uniques": ["Only available <starting from the [Renaissance age]>", "Can only be built [in capital]", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
 	},
 	{
-        	"name": "Free Fury5",
+		"name": "Free Fury5",
 		"uniqueTo": "Urg",
-        	"cost": 1,
-		"cityHealth": 1,
+		"cost": 1,
+		"cityHealth": 2,
 		"uniques": ["Only available <starting from the [Heroic age]>", "Can only be built [in capital]", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
 	},
 	{
-        	"name": "Free Fury6",
+		"name": "Free Fury6",
 		"uniqueTo": "Urg",
-        	"cost": 1,
+		"cost": 1,
 		"cityHealth": 2,
 		"uniques": ["Only available <starting from the [Mythic age]>", "Can only be built [in capital]", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
 	},
 	{
-        	"name": "Free Fury7",
+		"name": "Free Fury7",
 		"uniqueTo": "Urg",
-        	"cost": 1,
+		"cost": 1,
 		"cityHealth": 2,
 		"uniques": ["Only available <starting from the [Chaos age]>", "Can only be built [in capital]", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
 	},
 	{
-        	"name": "Free Fury8",
+		"name": "Free Fury8",
 		"uniqueTo": "Urg",
-        	"cost": 1,
+		"cost": 1,
 		"cityHealth": 1,
 		"uniques": ["Only available <starting from the [Future age]>", "Can only be built [in capital]", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
@@ -1452,6 +1551,16 @@
 		"cityHealth": 2,
 		"uniques": ["Only available <after adopting [Tradition Complete]>", "Can only be built [in capital]", "Free [Para Artist] appears", "Unsellable", 
 					"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Vampiric Block",
+		"uniqueTo": "Morlovia",
+		"isNationalWonder": true,
+		"cost": 1,
+		"cityHealth": 2,
+		"uniques": ["Destroyed when the city is captured", "Provides [4] [Block]", "Can only be built [in capital]", "Unsellable", 
+					"Will not be displayed in Civilopedia"],
+		"requiredTech": "Chivalry",
 	},
 	{
 		"name": "Andarass (1 gold = 1 science)",

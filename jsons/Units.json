@@ -111,7 +111,6 @@
 		"cost": 20,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
-		"uniques": ["Can only attack [Civilian] units", "Can only attack [Military] units"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -130,7 +129,8 @@
 		"unitType": "Civilian",
 		"uniqueTo": "Morlovia",
 		"movement": 2,
-		"uniques": ["Can construct [Vampire Castle]", "Unbuildable", "Uncapturable", "Will not be displayed in Civilopedia"]
+		"requiredResource": "Block",
+		"uniques": ["Can construct [Vampire Castle]", "Uncapturable", "Only available <with [Block]>", "Will not be displayed in Civilopedia"]
 	},
 	
 	// Classical age
@@ -336,8 +336,8 @@
 		"uniqueTo": "Morlovia",
 		"movement": 2,
 		"strength": 14,
-		"uniques": ["Can build [Coffin] improvements on tiles", "[+5] HP when healing <in [Coffin] tiles>", 
-			"[-1] Movement <in [Desert] tiles>", "Unbuildable"],
+		"uniques": ["Unbuildable", "Can build [Coffin] improvements on tiles", "[+5] HP when healing <in [Coffin] tiles>", 
+			"[-15]% Strength <when fighting in [Desert] tiles>"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -801,6 +801,22 @@
 		"attackSound": "cannon"
 	},
 	{
+		"name": "Pirates",
+		"uniqueTo": "Barbarians",
+		"replaces": "Privateer",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 32,
+		"rangedStrength": 32,
+		"cost": 190,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Ironclad",
+		"obsoleteTech": "God of War",
+		"promotions": ["Coastal Raider I","Coastal Raider II"],
+		"uniques": ["May capture killed [Water] units"],
+		"attackSound": "cannon"
+	},
+	{
 		"name": "Leviathan",
 		"uniqueTo": "Almuria",
 		"replaces": "Privateer",
@@ -1201,10 +1217,9 @@
 		"unitType": "Hero", // Sword
 		"movement": 2,
 		"strength": 47,
-		"cost": 5,
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Great Generals II"],
-		"uniques": ["Only available <with [Hero Candidate]> <starting from the [Heroic age]>", "[+50]% Strength <vs [Water Terror] units>", 
+		"uniques": ["Unbuildable", "Only available <with [Hero Candidate]>", "[+50]% Strength <vs [Water Terror] units>", 
 			"[+75]% Strength <vs [Air Terror] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "metalhit"
 	},
@@ -1213,10 +1228,9 @@
 		"unitType": "Hero", // Armored
 		"movement": 2,
 		"strength": 46,
-		"cost": 5,
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Cover I", "Great Generals I"],
-		"uniques": ["Only available <with [Hero Candidate]> <starting from the [Heroic age]>", "[+50]% Strength <vs [Water Terror] units>", 
+		"uniques": ["Unbuildable", "Only available <with [Hero Candidate]>", "[+50]% Strength <vs [Water Terror] units>", 
 			"[+75]% Strength <vs [Air Terror] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "metalhit"
 	},
@@ -1227,10 +1241,9 @@
 		"strength": 32,
 		"rangedStrength": 44,
 		"range": 2,
-		"cost": 5,
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Great Generals I"],
-		"uniques": ["Only available <with [Hero Candidate]> <starting from the [Heroic age]>", "[-15]% Strength <when attacking> <vs cities>", 
+		"uniques": ["Unbuildable", "Only available <with [Hero Candidate]>", "[-15]% Strength <when attacking> <vs cities>", 
 			"[+50]% Strength <vs [Water Terror] units>", "[+75]% Strength <vs [Air Terror] units>", "Never appears as a Barbarian unit"],
 		"promotions": ["Extended Range"],
 		"attackSound": "arrow"
@@ -1240,9 +1253,8 @@
 		"unitType": "Hero", // Anti-cav
 		"movement": 2,
 		"strength": 45,
-		"cost": 5,
 		"requiredResource": "Hero Candidate",
-		"uniques": ["[+100]% Strength <vs [Mounted] units> <starting from the [Heroic age]>", "Only available <with [Hero Candidate]>", 
+		"uniques": ["Unbuildable", "[+100]% Strength <vs [Mounted] units> <starting from the [Heroic age]>", "Only available <with [Hero Candidate]>", 
 			"[+50]% Strength <vs [Water Terror] units>", "[+75]% Strength <vs [Air Terror] units>", 
 			"Never appears as a Barbarian unit"],
 		"attackSound": "metalhit"
@@ -1252,10 +1264,9 @@
 		"unitType": "Hero", // Cavalry
 		"movement": 5,
 		"strength": 45,
-		"cost": 5,
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Great Generals II"],
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Only available <with [Hero Candidate]> <starting from the [Heroic age]>", 
+		"uniques": ["Unbuildable", "Can move after attacking", "No defensive terrain bonus", "Only available <with [Hero Candidate]>", 
 			"[+50]% Strength <vs [Water Terror] units>", "[+75]% Strength <vs [Air Terror] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 	},
@@ -1266,10 +1277,9 @@
 		"strength": 31,
 		"rangedStrength": 33,
 		"range": 2,
-		"cost": 5,
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Great Generals I", "Logistics"],
-		"uniques": ["Only available <with [Hero Candidate]> <starting from the [Heroic age]>", "[-15]% Strength <when attacking> <vs cities>", 
+		"uniques": ["Unbuildable", "Only available <with [Hero Candidate]>", "[-15]% Strength <when attacking> <vs cities>", 
 			"[+50]% Strength <vs [Water Terror] units>", "[+75]% Strength <vs [Air Terror] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "arrow"
 	},
@@ -1278,9 +1288,8 @@
 		"unitType": "Hero",	// Siege
 		"movement": 4,
 		"strength": 43,
-		"cost": 5,
 		"requiredResource": "Hero Candidate",
-		"uniques": ["[+150]% Strength <when attacking> <vs cities>", "Only available <with [Hero Candidate]> <starting from the [Heroic age]>", 
+		"uniques": ["Unbuildable", "[+150]% Strength <when attacking> <vs cities>", "Only available <with [Hero Candidate]>", 
 			"[+25]% Strength <vs [Water Terror] units>", "[+50]% Strength <vs [Air Terror] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
 	},
@@ -1291,11 +1300,10 @@
 		"strength": 33,
 		"rangedStrength": 43,
 		"range": 2,
-		"cost": 5,
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Mobility", "Great Generals I"],
-		"uniques": ["[+100]% Strength <when attacking> <vs [Water] units>", "Can see invisible [Water Terror] units", 
-			"Only available <with [Hero Candidate]> <starting from the [Heroic age]>", "Never appears as a Barbarian unit"],
+		"uniques": ["Unbuildable", "[+100]% Strength <when attacking> <vs [Water] units>", "Can see invisible [Water Terror] units", 
+			"Only available <with [Hero Candidate]>", "Never appears as a Barbarian unit"],
 		"attackSound": "cannon"
 	},
 	{
@@ -1306,8 +1314,8 @@
 		"cost": 5,
 		"requiredResource": "Hero Candidate",
 		"promotions": ["Sentry"],
-		"uniques": ["[+100]% Strength <when attacking> <vs [Water] units>", "May withdraw before melee ([33]%)", "Can see invisible [Water Terror] units", 
-			"Only available <with [Hero Candidate]> <starting from the [Heroic age]>", "Never appears as a Barbarian unit"],
+		"uniques": ["Unbuildable", "[+100]% Strength <when attacking> <vs [Water] units>", "May withdraw before melee ([33]%)", "Can see invisible [Water Terror] units", 
+			"Only available <with [Hero Candidate]>", "Never appears as a Barbarian unit"],
 		"attackSound": "metalhit"
 	},
 
@@ -1470,18 +1478,29 @@
 	// Must be transported to the Capital for launch.
 	// Can be destroyed by any hostile military unit walking in their tile.
 	{
-		"name": "SS Booster", // Fire
+		"name": "Earth Element", // Earth
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 500,
+		"requiredTech": "Enlightment",
+		"requiredResource": "Adamantium",
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Elementallist Program] is constructed>", "Uncapturable", 
+			"Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
+		// costs 1500 in BNW
+	},
+	{
+		"name": "Fire Element", // Fire
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 500,
 		"requiredTech": "Mana Manipulation",
 		"requiredResource": "Adamantium",
 		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Elementallist Program] is constructed>", "Uncapturable", 
-			"Can be added to [The Spaceship] in the Capital", "Limited to [3] per Civilization"]
+			"Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
 		// costs 1500 in BNW
 	},
 	{
-		"name": "SS Cockpit", // Wood
+		"name": "Wood Element", // Wood
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 500,
@@ -1491,7 +1510,7 @@
 			"Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
 	},
 	{
-		"name": "SS Engine", //Metal
+		"name": "Metal Element", //Metal
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 500,
@@ -1501,7 +1520,7 @@
 			"Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization"]
 	},
 	{
-		"name": "SS Stasis Chamber", // Water
+		"name": "Water Element", // Water
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 500,

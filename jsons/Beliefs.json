@@ -125,17 +125,23 @@
         "uniques": ["[+1 Production, +1 Culture] from every [Cotton]", "[+1 Production, +1 Culture] from every [Dyes]", 
 					"[+1 Production, +1 Culture] from every [Furs]", "[+1 Production, +1 Culture] from every [Silk]"]
     },
+	{
+        "name": "Shamanism",
+        "type": "Pantheon",
+        "uniques": ["[+2 Faith] from every [Deer]", "[+2 Faith] from every [Furs]"]
+    },
 	
 ///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
     {
+        "name": "Army of the Lord",
+        "type": "Follower",
+        "uniques": ["[+1 Faith] from every [Barracks]", "[+1 Faith] from every [Armory]", 
+					"[+2 Faith] from every [Military Academy] <in cities where this religion has at least [5] followers>"]
+    },
+	{
         "name": "Blessing of Peace",
         "type": "Follower",
         "uniques": ["[+15]% growth [in this city] <when not at war>"]
-    },
-	{
-        "name": "Paramita",
-        "type": "Follower",
-        "uniques": ["[+8 Culture] from every [Bastar Dussehra]"]
     },
 	{
         "name": "Diversity Respects",
@@ -166,6 +172,11 @@
         "name": "Hymns of Praise",
         "type": "Follower",
         "uniques": ["[+1 Happiness] from every [Shrine] <in cities where this religion has at least [3] followers>"]
+    },
+	{
+        "name": "Paramita",
+        "type": "Follower",
+        "uniques": ["[+8 Culture] from every [Bastar Dussehra]"]
     },
 	{
         "name": "Peace Gardens",

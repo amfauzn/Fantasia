@@ -7,6 +7,29 @@
 		"[-33]% [Production] [in all cities] <when below [-10] Happiness>",
 		"[-33]% Strength <for [All] units> <when below [-10] Happiness>",
 		"Cannot build [Settler] units <when below [-10] Happiness>",
-		"Rebel units may spawn <when below [-20] Happiness>"
+		"Rebel units may spawn <when below [-20] Happiness>",
+		
+		// mechanism
+		"[+1 Food] from every [Grassland] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		"[+1 Food] from every [Plains] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		"[+1 Production] from every [Plains] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
+		"[+1 Food] from every [Tundra] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		"[+1 Food] from every [Desert] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		"[+1 Production] from every [Desert] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
+		"[+1 Food] from every [Lakes] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		"[+1 Production] from every [Lakes] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 		
+		"[+1 Production] from every [Mountain] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
+		"[+1 Food] from every [Hill] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		"[+1 Production] from every [Hill] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
+		"[+1 Food] from every [Forest] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		"[+1 Production] from every [Forest] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
+		"[+1 Food] from every [Jungle] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		"[+1 Production] from every [Jungle] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
+		"[+1 Food] from every [Marsh] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		"[+1 Food] from every [Oasis] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		"[+1 Production] from every [Oasis] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
+		"[+1 Food] from every [Flood plains] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		"[+1 Production] from every [Flood plains] <with [1] to [6] neighboring [Rock of Levitation] tiles>"
+		"[+1 Food] from every [Man-eating tree] <with [1] to [6] neighboring [Crater Lake] tiles>"
     ]
 }

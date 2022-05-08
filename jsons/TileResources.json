@@ -16,6 +16,11 @@
 		"uniques": ["Will not be displayed in Civilopedia"]
 	},
 	{
+		"name": "Block",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
 		"name": "Philosopher's Stone",
 		"resourceType": "Bonus",
 		"uniques": ["Will not be displayed in Civilopedia"]

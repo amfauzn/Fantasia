@@ -297,34 +297,29 @@
 		"name": "Vampire Castle",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Hill"],
 		"culture": 1,
-		"techRequired": "Construction",
 		"uniques": ["[+1 Food] for each adjacent [Farm]", "[+1 Food] for each adjacent [Terrace farm]", 
 					"[+1 Production] for each adjacent [Lumber mill]", "[+1 Production] for each adjacent [Mine]", 
 					"[+1 Production] for each adjacent [Quarry]", "[+2 Production] for each adjacent [Manufactory]", 
 					"[+1 Food, +1 Production] for each adjacent [Pasture]", "[+1 Food, +1 Production] for each adjacent [Taming]", 
 					"[+4 Science] for each adjacent [Academy]", "[+1 Science] for each adjacent [Ice-calator]", 
 					"[+3 Culture] for each adjacent [Landmark]", "[+1 Gold] for each adjacent [Trading post]", 
-					"[+2 Gold] for each adjacent [Custom house]", "[+2 Gold] for each adjacent [Plantation]", 
-					"[+3 Faith] for each adjacent [Holy site]"],
+					"[+2 Gold] for each adjacent [Customs house]", "[+2 Gold] for each adjacent [Plantation]", 
+					"[+3 Faith] for each adjacent [Holy site]", "Provides [-1] [Block]"],
+		// "replacementTextForUniques": "Provides half of neighboring improvements stats",
 		"shortcutKey": "F"
 	},
 	{
 		"name": "Coffin",
 		"uniqueTo": "Morlovia",
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Desert","Snow","Hill"],
-		"turnsToBuild": 5,
+		"turnsToBuild": 4,
 		"techRequired": "Engineering",
 		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [33]%"],
 		"shortcutKey": "C"
 	},
 
 	{ 
-		"name": "Ancient ruins", 
-		"uniques": ["Unpillagable", "Provides a random bonus when entered"]
-	},
-	{ 
-		"name": "City ruins", 
-		"culture": 2,
+		"name": "City ruins",
 		"uniques": ["Unpillagable"],
 		"civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
 	},
@@ -338,7 +333,7 @@
 	},
 	{ 
 		"name": "Barbarian encampment", 
-		"uniques": ["Unpillagable"],
+		"uniques": ["Unpillagable", "Provides a random bonus when entered"],
 		"civilopediaText": [{"text":"Home to uncivilized barbarians, will spawn a hostile unit from time to time"}]
 	}
 ]

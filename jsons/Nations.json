@@ -14,6 +14,7 @@
 		"adjective": ["Nassette"],
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Spontanism",
 		
 		"startIntroPart1": "All hail King Galamar, the King in the north. With your courage and strategy, Thorin become the first kingdom to almost rule over the north of Pangaea. But when you just at war with Malus Kingdom, your only brother, Valadorn point his sword to you. Worry no more, with the help of your Knight, Nas Kingdom join war for you!",
 		"startIntroPart2": "King Galamar, will you once again unite the nort of Pangaea? Can you build a civilization that will stand the test of time?",
@@ -29,7 +30,6 @@
 				
 		"outerColor": [ 28,51,119],
 		"innerColor": [255,255,255],
-		"favoredReligion": "Spontanism",
 		"uniqueName": "Preacher King",
 		"uniqueText": "100% chance to recruit a Barbarian unit from a conquered encampment\n25% chance of capturing defeated Barbarian naval units\n-33% maintenance costs for Military Land and Water units",
 		"uniques": ["When conquering an encampment, earn [0] Gold and recruit a Barbarian unit <with [100]% chance>", 
@@ -46,6 +46,7 @@
 		"adjective": ["Thorian"],
 		"startBias": ["Avoid [Tundra]"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Monetarism",
 		
 		"startIntroPart1": "Hail King Valadorn The Usurper. Your brother king fight in an endless war and force civilian for military services. With the God's whisper and blessing, you sit on the throne. It is now your duty to hunt down your mad brother and end his deeds.",
 		"startIntroPart2": "King Valadorn, will you stop your brother warmongering way? Can you build a civilization that will stand the test of time?",
@@ -61,7 +62,6 @@
 				
 		"outerColor": [255,184,33]
 		"innerColor": [153,5,3],
-		"favoredReligion": "Monetarism",
 		"uniqueName": "Tracker Legion",
 		"uniques": ["[+1] Movement <for [{Military} {Water}] units>", "[+1] Sight <for [{Military} {Land}] units>", 
 			"[+1] Movement <for [{Military} {Land}] units> <when at war>", "Normal vision when embarked <for [{Military} {Land}] units>"],
@@ -75,6 +75,7 @@
 		"adjective": ["Malusian"],
 		"startBias": ["Grassland"],
 		"preferredVictoryType": "Scientific",
+		"favoredReligion": "Butterfly Effects",
 		
 		"startIntroPart1": "The blessings of the gods be upon you, King Barret. Your kingdom is the only one who can stand againt Galamar army. Not only repel them, you also captured Malusaö city as the new kingdom's capital.",
 		"startIntroPart2": "O' King Barret, will you stop evil deeds again? Can you build a civilization that will stand the test of time?",
@@ -90,7 +91,6 @@
 		
 		"outerColor": [146,221,9],
 		"innerColor": [0,0,9],
-		"favoredReligion": "Butterfly Effects",
 		"uniqueName": "Experience is the Best Teacher",
 		"uniques": ["[Great Scientist] is earned [50]% faster", "[+2 Science] from every [Great Improvement]", 
 			"Earn [10]% of killed [Barbarian] unit's [Cost] as [Science]"]
@@ -104,6 +104,8 @@
 		"adjective": ["Demonic"],
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Uncertainty",
+		"style": "Demonic",
 		
 		"startIntroPart1": "Your armies kneel before you, oh great Lord Saeth. Through cunning diplomacy and military prowess, great Lord conquered proud Sulvana, wealthy Cavegoa, and indirectly control Valadorn I, king of Thorin. Over time, your army might expanded into far away Twin Mountain, until the upstart villains The League, destroyed the great empire in one shocking campaign.",
 		"startIntroPart2": "Oh, Lord Saeth, for uncounted years your armies endured, they look to you to lead them once more into greatness. Can you build a civilization that will stand the test of time?",
@@ -119,10 +121,8 @@
 		
 		"outerColor": [35,35,35],
 		"innerColor": [246,205,137],
-		"favoredReligion": "Uncertainty",
-		"style": "Demonic",
 		"uniqueName": "Heaven's Fury",
-		"uniqueText": "Units fight as though they were at full strength even when damaged\nGain a Free Fury from every age.",
+		"uniqueText": "Units fight as though they were at full strength even when damaged\nStarting from the Feudal age, gain a Free Fury from every age\nGain 2 additional Fury during the Feudal age",
 		"uniques": ["Damage is ignored when determining unit Strength <for [All] units>", "\"Borrows\" city names from other civilizations in the game"],
 		"cities": ["Tugu","Luxor","Karnak","Oryx"]
 	},
@@ -132,6 +132,8 @@
 		"leaderName": "Lulla",
 		"adjective": ["High-Elven"],
 		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Evolutionism",
+		"style": "Elven",
 	
 		"startIntroPart1": "Praises upon her serene highness, Queen Lulla Artiana, favored daughter of the gods and shield to the citizens of Sulvana. You love peace but mercilessly struck back at the enemies of your people, sacrificing their leaders in retribution for the insults dealt to your predecessors.",
 		"startIntroPart2": "Queen Lulla, will you bring about a new golden age for the Sulvana people? Can you build a civilization that will stand the test of time?",
@@ -147,8 +149,6 @@
 		
 		"outerColor": [228,208,43],
 		"innerColor": [0,0,0],
-		"favoredReligion": "Evolutionism",
-		"style": "Elven",
 		"uniqueName": "Arrow of the West",
 		"uniqueText": "+10% great person generation in all cities\nGreat Artist generated by Sulvana become the Maeron, which can create the Sacred Grove",
 		"uniques": ["[+10]% great person generation in all cities"], 
@@ -162,6 +162,8 @@
 		"adjective": ["Elven"],
 		"startBias": ["Forest"],
 		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Balance",
+		"style": "Elven",
 		
 		"startIntroPart1": "Long life and triumph to you, Queen Nualla Nina. Queen Nualla, you are the founder of The League for the world peace. You are the one who pursuade Galamar to stop his expansion and reunite him with his brother, Valadorn.",
 		"startIntroPart2": "O' beauty Queen Nualla, Niranna yearns for you to lead them once more to greatness and maintain the world peace. Can you build a civilization that will stand the test of time?",
@@ -177,8 +179,6 @@
 		
 		"outerColor": [255,255,78],
 		"innerColor": [70, 0, 4],
-		"favoredReligion": "Balance",
-		"style": "Elven",
 		"uniqueName": "Peace upon All",
 		"uniques": ["City-State Influence recovers at twice the normal rate", "Science gained from research agreements [+33]%", 
 			"When declaring friendship, both parties gain a [10]% boost to great person generation"],
@@ -192,6 +192,7 @@
 		"adjective": ["Witches"],
 		"startBias": ["Jungle"],
 		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Preformationism",
 	
 		"startIntroPart1": "Greetings, our wondrous Lady Claudia. Red Moon lies at the heart of Pangaea. Despite blessed with unparalelled strength, Lady Claudia choose diplomatic way for both interest. You are the first person to acknowledge Queen Nualla idea and became the first leader of The League.",
 		"startIntroPart2": "Lady Claudia, the people look to you to bring forth peace days for everyone. Can you build a civilization that will stand the test of time?",
@@ -207,11 +208,10 @@
 		
 		"outerColor": [153,5,3],
 		"innerColor": [255,255,255],
-		"favoredReligion": "Preformationism",
 		"uniqueName": "Infinite Power",
 		"uniques": ["Great General provides double combat bonus", "[+50]% [Faith] from City-States", 
 			"May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost", 
-			"Gain a free [Vihara] [in capital] <after discovering [Philosophy]>"],
+			"Starts with [Piety] adopted"],
 		"cities": ["Blasicken","Phocaea","Elashmunein","Poitien","Velitrae","Niue","Boien","Ishe","Madirae","Kiea",
 			"Sil Ifken","Ringsten","Godthenae","Hellulae","Novosten"]
 	},
@@ -222,6 +222,8 @@
 		"adjective": ["Dwarven"],
 		"startBias":["Mountain"],
 		"preferredVictoryType": "Scientific",
+		"favoredReligion": "Butterfly Effects",
+		"style": "Dwarven",
 		
 		"startIntroPart1": "Greetings, Thraldin, general and emperor of Twin Mountain and all his holdings, king under the mountain. Your empire was the smartest to take advantage of mountains resources. Nobody loves the mountain as you do. The mountains serves you.",
 		"startIntroPart2": "O mighty king, your people turn to you to once more appreciate the mountains! Can you build a civilization that will stand the test of time?",
@@ -237,8 +239,6 @@
 		
 		"outerColor": [27,53,63]
 		"innerColor": [213,249,255],
-		"favoredReligion": "Butterfly Effects",
-		"style": "Dwarven",
 		"uniqueName": "Shield of the Mountain",
 		"uniques": ["[+10]% Strength <within [2] tiles of a [Mountain]>", "Land units may cross [Mountain] tiles after the first [Great Person] is earned", 
 			"Units ending their turn on [Mountain] tiles take [15] damage"],
@@ -252,6 +252,8 @@
 		"adjective": ["Dwarvem"],
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Relativity",
+		"style": "Dwarven",
 		
 		"startIntroPart1": "The blessings of the gods be upon you, Hajruddin, leader of the Polgar Sod'em! Oh great lord, from time immemorial your people brought architecture to the next level. They created the great monuments which still stand tall and proud.",
 		"startIntroPart2": "Great lord, your people look to you to return them to greatness! Can you build a civilization that will stand the test of time?",
@@ -267,8 +269,6 @@
 		
 		"outerColor": [37,56,123],
 		"innerColor": [255,46,46],
-		"favoredReligion": "Relativity",
-		"style": "Dwarven",
 		"uniqueName": "Master Builder",
 		"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
 			"[+15]% Production towards any buildings that already exist in the Capital", 
@@ -283,6 +283,7 @@
 		"adjective": ["Folks"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Scientific",
+		"favoredReligion": "Dualism",
 		
 		"startIntroPart1": "Welcome King Jag'ar, leader of the massacred civilization! Formed in the brink of extinction and forced slavery, you lead your people to reclaim what is rightfully yours. With the united of racial and historical similarities, you build your own country and now, slavery is no more.",
 		"startIntroPart2": "King Jag'ar, can you lead the Townfolk people to greatness? Can you build a civilization that will stand the test of time?",
@@ -298,7 +299,6 @@
 		
 		"outerColor": [228, 26, 40],
 		"innerColor": [134,238,214],
-		"favoredReligion": "Dualism",
 		"uniqueName": "Rage of the Beast",
 		"uniques": ["[+50]% Golden Age length", "[+10]% Strength <for [All] units> <during a Golden Age>", 
 			"[+15]% [Science] <during a Golden Age>", "Gain a free [Sulong's Training] [in capital] <after discovering [Bronze Working]>"],
@@ -312,6 +312,7 @@
 		"adjective": ["Goans"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Spontanism",
 		
 		"startIntroPart1": "Greetings to you, King Baldur. The Cavegoa people are grateful for King Jag'ar's help in the past. But by the time goes, their very brothers and descendants become uncontrollably wild. They start discriminate their brothers and hunt them down mercilesly. And you, o' King Baldur, you stand tall and save the people.",
 		"startIntroPart2": "O' saviour, will you lead the Cavegoa people to prosperity? Will you build a civilization that stands the test of time?",
@@ -327,7 +328,6 @@
 		
 		"outerColor": [16,126,5],
 		"innerColor": [134,238,214],
-		"favoredReligion": "Spontanism",
 		"uniqueName": "Survival Instinc",
 		"uniques": ["[+5] HP when healing <for [Wounded] units>", "[+10]% Strength <for [Wounded] units>", 
 			"[+10]% Strength <when below [50] HP> <when defending>", "[+1] Sight <for [Civilian] units>"],
@@ -341,6 +341,7 @@
 		"adjective": ["Dryad"],
 		"startBias": ["Forest"],
 		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Balance",
 		
 		"startIntroPart1": "Praise upon m'lady, Ridha Mascha. You are the ruler of Rain Forest, a forest in the south which disconcerting any stranger passing through. It is said that no army can enter your holy home and only good deeds may encounter you.",
 		"startIntroPart2": "M'lady, your people look to you to lead them to an utopia! Can you build a civilization that will stand the test of time?",
@@ -356,12 +357,10 @@
 		
 		"outerColor": [ 41,83,42],
 		"innerColor": [146,221,9],
-		"favoredReligion": "Balance",
 		"uniqueName": "Forest Guardian",
-		"uniques": ["[+1 Culture, +1 Faith] [in all cities] <with [1] to [3] neighboring [unimproved] [Forest] tiles>", 
-			"[+2 Culture, +2 Faith] [in all cities] <with [4] to [6] neighboring [unimproved] [Forest] tiles>", 
-			"[+1 Culture] [in all cities] <with [2] to [4] neighboring [improved] [Forest] tiles>", 
-			"[+2 Culture] [in all cities] <with [5] to [6] neighboring [improved] [Forest] tiles>", 
+		"uniques": ["[+1 Culture, +1 Faith] [in all cities] <with [1] to [2] neighboring [unimproved] [Forest] tiles>", 
+			"[+2 Culture, +2 Faith] [in all cities] <with [3] to [4] neighboring [unimproved] [Forest] tiles>", 
+			"[+3 Culture, +3 Faith] [in all cities] <with [5] to [6] neighboring [unimproved] [Forest] tiles>", 
 			"No Maintenance costs for improvements in [Forest] tiles"],
 		"cities": ["Loggervia","Yandala","Southmarsh","Guuleaf","Lindschel","Agra","Sunda","Soulisa","Tuasika","Bula","Namlea",
 			"Gulbarga","Larantuka","Curia","Crastha"]
@@ -372,6 +371,8 @@
 		"leaderName": "Anzogh",
 		"adjective": ["Goblin"],
 		"startBias": ["Avoid [Tundra]","Avoid [Desert]"],
+		"favoredReligion": "Uncertainty"
+		"style": "Goblin",
 		
 		"startIntroPart1": "Welcome, O' elder Anzogh! We grovel in awe at your magnificence! You are the leader of Torakj people, through cunning diplomacy, the tiny village grew into a mighty forces.",
 		"startIntroPart2": "Oh, wise and puissant tetua Anzogh, your people need you to once again lead them to greatness! Can you build a civilization that will stand the test of time?",
@@ -387,8 +388,6 @@
 		
 		"outerColor": [12,75,25],
 		"innerColor": [255,255,255],
-		"favoredReligion": "Uncertainty"
-		"style": "Goblin",
 		"uniqueName": "Justice League",
 		"uniques": ["[-25]% City-State Influence degradation", "City-State territory always counts as friendly territory",
 			"[+50]% [Food] from City-States", "[+50]% [Culture] from City-States"],
@@ -402,6 +401,8 @@
 		"adjective": ["Icemen"],
 		"startBias": ["Tundra"],
 		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Evolutionism",
+		"style": "Icemen",
 		
 		"startIntroPart1": "Greetings, wise chief Tormund. Your men stand proudly to greet you, grand leader of the Frozen Empire. Together with your people you survive the ferocity of the cold, droughts, and every manner of disaster.",
 		"startIntroPart2": "Chief General, your people call for the recreation of a new Frozen Empire. Will you build a civilization that stands the test of time?",
@@ -417,10 +418,8 @@
 		
 		"outerColor": [215,225,225],
 		"innerColor": [0, 0, 0],
-		"favoredReligion": "Evolutionism",
-		"style": "Icemen",
 		"uniqueName": "Blessed Winter",
-		"uniqueText": "-25% Culture cost of natural border growth in your first 4 cities. \n-25% unhappiness from specialists in your first 4 cities. \nReceive free Great Farmer when you discover Pottery",
+		"uniqueText": "-25% Culture cost of natural border growth in your first 4 cities\n-25% unhappiness from specialists in your first 4 cities\nReceive free Great Farmer when you discover Pottery",
 		"uniques": ["Provides a [~suka] in your first [4] cities for free", "Receive free [Great Farmer] when you discover [Pottery]"],
 		"cities": ["Frostmorrow","Igos","Sandless","Noach","Maumere","Iver","Ykutz","Vladivostok","Smolensk","Orenburg",
 			"Bryansk","Kver","Murmansk","Irkutsk","Chita","Samara"]
@@ -432,6 +431,8 @@
 		"adjective": ["Deserter"],
 		"startBias": ["Oasis","Desert"],
 		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Evolutionism",
+		"style": "Desert",
 		
 		"startIntroPart1": "'Do not come near that creature!' they say. While everybody agree with that argument, you are different. Not only did you come near them, but also slaughter them as your prey. Before long, your men become the only one to control the east.",
 		"startIntroPart2": "Illustrious Tukang Ngumbar Janji, your people once again look to you for leadership and counsel in the coming days. Can you build a civilization that will stand the test of time?",
@@ -447,8 +448,6 @@
 		
 		"outerColor": [221, 141, 0],
 		"innerColor": [255, 244, 174],
-		"favoredReligion": "Evolutionism",
-		"style": "Desert",
 		"uniqueName": "Sand Dweller",
 		"uniques": ["[+1 Food] from every [Flood plains]", "[+5]% Strength <when fighting in [Desert] tiles>", 
 			"[+10]% Strength <when fighting in [Friendly Land] tiles>"],
@@ -462,6 +461,8 @@
 		"adjective": ["Moken-Arun"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Preformationism",
+		"style": "Moken",
 		
 		"startIntroPart1": "Great Zalash of Marunesia, King of Benevolence, wealth has been on your side for long. You rally your people towards an era of peace and comfort. Surely the Moken-Arun adore such a King as thyself, O, Great Zalash. Your cunning use of Empire's wealth to secure diplomatic advantage is admirable. No peace is unattainable, even if you must force it by your hands.",
 		"startIntroPart2": "Revered King Zalash, your people longs for a leader who can provide a shelter from the coming storm. Will you build a civilization that will stand the test of time?",
@@ -477,8 +478,6 @@
 		
 		"outerColor": [156, 197, 237],
 		"innerColor": [16, 25, 115],
-		"favoredReligion": "Preformationism",
-		"style": "Moken",
 		"uniqueName": "Tiger Trawl",
 		"uniques": ["[+2 Gold] from every [Water resource]", "Enables [All] units to enter ocean tiles <after discovering [Compass]>", 
 			"[+15]% Production when constructing [{Military} {Water}] units [in all coastal cities]"],
@@ -491,6 +490,7 @@
 		"leaderName": "Sengai",
 		"adjective": ["Bloodliner"],
 		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Monetarism",
 		
 		"startIntroPart1": "Greetings, most astute Parun Sengai of Thallin, master of statecraft and shrewd negotiator. In aligning yourself with the Crusaders, you carefully gained a strategic advantage and used the Crusaders to acquire an even greater expansion of your power and secured your legacy throughout history, by ensuring pure bloodline as the dukes. What you did ain't racism, you are the pioneer of the art of feudalism",
 		"startIntroPart2": "Most insightful and cunning Parun, Thallin once again requires the service of a skilled leader. Can you build a civilization that will stand the test of time?",
@@ -506,9 +506,8 @@
 		
 		"outerColor": [55,25,8],
 		"innerColor": [156,197,237],
-		"favoredReligion": "Monetarism",
 		"uniqueName": "Pure Bloodline",
-		"uniqueText": "Settler gained slower \n+2 Gold, -25% unhappiness from population in your first 4 cities \n+8 Culture, Gain a free Great Artist equivalent upon completion of Tradition policy Tree \n+33% unhappiness from population in annexed cities",
+		"uniqueText": "Settler gained slower\n+2 Gold, -25% unhappiness from population in your first 4 cities\n+8 Culture, Gain a free Great Artist equivalent upon completion of Tradition policy Tree\n+33% Unhappiness from population in annexed cities",
 		"uniques": ["Provides a [Astana] in your first [4] cities for free", "[+33]% Unhappiness from [Population] [in annexed cities]"],
 		"cities": ["Clansperson","Getih","Kinsfolk","Consanguine","Sib","Grandeur","Cults","Claret","Clot","House Rules",
 			"Steel Throne","Nightwatch","Forbidden Palace","Traitors' Gate","Free District"]
@@ -518,6 +517,7 @@
 		"leaderName": "Vlad Dracula",
 		"adjective": ["Vampire"],
 		"startBias": ["Hill"],
+		"favoredReligion": "Monetarism",
 		
 		"startIntroPart1": "Hail mighty Vlad Ţepeş, notorious Voivode of Morlovia! Morlovia is an upstart kingdom, fashioned from the ruins of the Jorah Empire, a cursed ancient ruins, and established during Men's War started by King Galamar. Almost every races judges vampirism as a curse or a disease, but they don't know that, this body changes, is actually a blessing. By your vision, you turn the ancient ruin, which is contain the sources of vampirism, as all vampires home.",
 		"startIntroPart2": "Great Voivode Vlad, the Morlovia people look up to you to lead them to greater days of glory. Can you build a civilization that will stand the test of time?",
@@ -533,13 +533,10 @@
 		
 		"outerColor": [254,204,32],
 		"innerColor": [0,55,106],
-		"favoredReligion": "Monetarism",
 		"uniqueName": "Bloodlust",
-		"uniqueText": "Receive free Dracula, Damphyr when you discover Poetry, Acoustics, Pharmaceuticals, Sacred Path. \nAll Military Land units Heals 15 damage if it kills a unit. \nDracula units become stronger from every age\nMay construct 4 Vampire Castle with half of neighboring improvements stat",
-		"uniques": ["Receive free [Dracula] when you discover [Poetry]", "Receive free [Dracula] when you discover [Acoustics]", 
-			"Receive free [Dracula] when you discover [Pharmaceuticals]", "Receive free [Dracula] when you discover [Sacred Path]",
-			"Receive free [Damphyr] when you discover [Poetry]", "Receive free [Damphyr] when you discover [Acoustics]", 
-			"Receive free [Damphyr] when you discover [Pharmaceuticals]", "Receive free [Damphyr] when you discover [Sacred Path]", 
+		"uniqueText": "Starting from the Feudal age, May buy Dracula units for 250 Faith in all cities at an increasing price 250\nDracula units become stronger from every age\nAll Military Land units Heals 15 damage if it kills a unit\nUpon discovering Chivalry, May construct 4 Vampire Castle with half of neighboring improvements stats",
+		"uniques": ["May buy [Dracula] units for [250] [Faith] [in all cities] at an increasing price ([250]) <starting from the [Feudal age]>",
+			"Gain a free [Vampiric Block] [in capital] <after discovering [Chivalry]>", 
 			"[{Military} {Land}] units gain the [Vampiric Touch] promotion"],
 		"cities": ["Transylvania","Varkola","Sanguins","Chupacabra","Vlokodla","Mormolykia","Abhartcia","Kravopiea","Llorona","Lampire",
 			"Dachnavar","Op'a","K'uei","Nuruanna","Zolla"]
@@ -550,6 +547,7 @@
 		"leaderName": "Magnar",
 		"adjective": ["Giants"],
 		"preferredVictoryType": "Diplomatic",
+		"favoredReligion": "Butterfly Effects",
 		
 		"startIntroPart1": "Honor and glory be yours, Og Magnar, founder of the Erhab Tribe and his most distinguished military tactician. Giants are a free race, joining every battle to defend anyone for the right price. It was because your greatness that giant race united and emerged as the greatest powers in the world. Your tribe was the only one who dared to refuse King Galamar's invitation during Men's War and ridicule the idea of submitting to Lord Saeth.",
 		"startIntroPart2": "Mighty Og, you are called to rise up and lead your people to renewed power and triumph! Will you build a civilization that stands the test of time?",
@@ -565,7 +563,6 @@
 		
 		"outerColor": [40, 19, 2],
 		"innerColor": [229, 179, 57],
-		"favoredReligion": "Butterfly Effects",
 		"uniqueName": "Mercenary Combatant",
 		"uniques": ["[+10]% Strength <for [Melee] units>", "No movement cost to pillage <for [Melee] units>", 
 			"Resting point for Influence with City-States is increased by [10]", "Gain [20] Influence with a [{Military} {Melee}] gift to a City-State"],
@@ -578,6 +575,7 @@
 		"leaderName": "Rumpleister Zeiwass",
 		"adjective": ["Gnome"],
 		"preferredVictoryType": "Scientific",
+		"favoredReligion": "Dualism",
 		
 		"startIntroPart1": "Especially in times of great changes, when new knowledge and new ways of being show great potential to change the way of life, society tries to arise based around the cultivation and protection of this secret, world-transforming knowledge. Honorable Zeiwass, with your limitless knowledge, you know all secrets, even the formulae to transmute base metals to gold.",
 		"startIntroPart2": "Clever and inquisitive Zeiwass, your people desire that you rise and lead them again in the calling that is your namesake. Will you build a civilization that stands the test of time?",
@@ -593,7 +591,6 @@
 		
 		"outerColor": [78,244,234],
 		"innerColor": [65,54,42],
-		"favoredReligion": "Dualism",
 		"uniqueName": "Occult Research",
 		"uniqueText": "+15 Gold, +15 Science whenever a Great Person is expended\n-1 Production, +2 Gold from tiles of Any resource to be mined\nCan buy science with gold (max 10 science per city) after constructing Alchemical Society",
 		"uniques": ["[+15 Gold, +15 Science] whenever a Great Person is expended", "[-1 Production, +2 Gold] from [Iron] tiles [in all cities]", 
@@ -610,6 +607,7 @@
 		"adjective": ["Merfolks"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
+		"favoredReligion": "Relativity",
 		
 		"startIntroPart1": "Honour be with you, oh great emperor Fala Vieya. Almuria was a powerful empire, controlling Manas Island and the entire Archiea Continent. In an attempt to seize Smeheng, The League defeated you and drowned your entire empire with the power of the Tristone. It is said that the remains of your empire still active under the sea, only you and your people knew what is truly going on.",
 		"startIntroPart2": "But is Almuria indeed gone forever, great Fala Vieya? Your people look to you to bring the empire back to life once more. Will you build a civilization that will stand the test of time?",
@@ -625,7 +623,6 @@
 		
 		"outerColor": [0,43,11],
 		"innerColor": [0,242,189],
-		"favoredReligion": "Relativity",
 		"uniqueName": "The Lost Continent",
 		"uniqueText": "Can embark and move over Coasts and Oceans immediately\nMilitary Land units become stronger when fighting in adjacent to Water tiles and become weaker when fighting in Desert\nEmbarked units can defend themselves",
 		"uniques": ["Enables embarkation for land units <starting from the [Dark age]>", 
@@ -966,7 +963,7 @@
 		"outerColor": [0,0,0],
 		"innerColor": [182,0,0],
 		"style": "Barbarians",
-		"uniques": ["Can only heal by pillaging"]
+		"uniques": ["Can only heal by pillaging", "[Melee] units gain the [No Suicide] promotion"]
 	}
 
 ]

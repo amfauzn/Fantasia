@@ -101,3 +101,13 @@
 - Improve Air Terror mechanism
 - Add policies prierities based Civs prefered victory type
 - Adjust Nas NA
+
+## v2.9 (08.May.2022)
+- Add 2 new Beliefs
+- Change Hero mechanism & Hero's Altar unique (Unlock All Heroes)
+- Change Mercantile CS bonus Provides Gold instead of Happiness
+- Adjust NA: Urg, Morlovia & Rain Forest
+- Remove Ancient Ruins, add Ruins bonus through clearing Barbarian encampment
+- Adjust some Natural Wonders
+- AI Can now built Adam Harvester
+- Fix All Victory types
