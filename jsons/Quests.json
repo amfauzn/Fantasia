@@ -5,8 +5,8 @@
     "influence": 50
   },
   {
-    "name": "Clear Barbarian Camp",
-    "description": "We feel threatened by a Barbarian Camp near our city. Please take care of it.",
+    "name": "Finish a Dungeon",
+    "description": "We feel exhausted trying to clear the dungeon near our city. Please take care of it.",
     "type": "Global",
     "influence": 50,
     "minimumCivs": 1

@@ -1,18 +1,11 @@
 # Fantasia
 Built around Ancient Empires II, and then expanded. A fantasy world~
 
-
-## Changelog for v2.9.0 (08.May.2022)
-- Change Hero mechanism & Hero's Altar unique (Unlock All Heroes)
-- Change Mercantile CS bonus Provides Gold instead of Happiness
-- Adjust NA: Urg, Morlovia & Rain Forest
-- Remove Ancient Ruins, add Ruins bonus through clearing Barbarian encampment
-- Adjust some Natural Wonders
-- AI Can now built Adam Harvester
-- Fix All Victory types
-
-
-# Roadmap
-- Complete tile sprite
-- Add unit sprite
-
+## Features
+- Fantasy races (Eleven, Dwarven, Goblin, Demonic, Beastmen, Dryad, Merfolk)
+- Dungeon, grant bonuses when cleared
+- Mythycal beast, powerful monster that can one-hit kill any units, except heroes
+- Brand new unit class: Construct, Mage, Monk, Air Terror, Water Terror, & Hero
+- Total Domination Victory, conquer any cities owned by other civs, while Domination Victory needs only their capital
+- Skills, to strengthen your army
+- Fantasy tech tree, combined with vanilla

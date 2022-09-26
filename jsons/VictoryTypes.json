@@ -3,7 +3,7 @@
         "name": "Scientific",
         "victoryScreenHeader": "Complete all the elementallist and \nadd them to the Heavenly Nature to win!"
         "milestones": [
-            "Build [Elementallist Program]", "Add all [spaceship parts] in capital"
+            "Build [Elementalist Program]", "Add all [spaceship parts] in capital"
         ],
         "requiredSpaceshipParts": [
             "Earth Element", "Fire Element", "Wood Element", "Metal Element", "Water Element"
@@ -13,13 +13,20 @@
     },
     {
         "name": "Cultural",
-        "victoryScreenHeader": "Complete 5 policy branches and\nbuild the Utopia Project to win!",
-        "milestones": ["Complete [5] Policy branches", "Build [Utopia Project]"],
+        "victoryScreenHeader": "Complete 6 policy branches and\nbuild the Utopia Project to win!",
+        "milestones": ["Complete [6] Policy branches", "Build [Utopia Project]"],
         "victoryString": "You have achieved victory through the awesome power of your Culture. Your civilization's greatness - the magnificence of its monuments and the power of its artists - have astounded the world! Poets will honor you as long as beauty brings gladness to a weary heart.",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
     {
         "name": "Domination",
+        "victoryScreenHeader": "Capture all enemies' capital\nto win!",
+        "milestones": ["Capture all capitals"],
+        "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have lost control of their sovereignty, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
+        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+    },
+	{
+        "name": "Total Domination",
         "victoryScreenHeader": "Destroy all enemies\nto win!",
         "milestones": ["Destroy all players"],
         "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
@@ -28,6 +35,7 @@
     {
         "name": "Diplomatic",
         "hiddenInVictoryScreen": false,
+        "victoryScreenHeader": "The Round Table is constructed and \nbe voted world leader to win!",
         "milestones": ["Anyone should build [The Round Table]", "Win diplomatic vote"],
         "victoryString": "You have triumphed over your foes through the art of diplomacy! Your cunning and wisdom have earned you great friends - and divided and sown confusion among your enemies! Forever will you be remembered as the leader who brought peace to this weary world!",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"

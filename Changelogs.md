@@ -111,3 +111,17 @@
 - Adjust some Natural Wonders
 - AI Can now built Adam Harvester
 - Fix All Victory types
+
+# v3.0.0
+## v3.0 (26.09.2022)
+- Era & Tech revamp
+- Remove Altar mechanism
+- Change Hero mechanism
+- Skill tree revamp
+- Rework Piety Policy
+- Rework Nas, Rain Forest, & Torakj
+- Canonizing Extension civs, and balancing
+- Increase XP gained from combat with Barbarian (max 360 XP)
+- Introducing rock-paper-scissor aspect for units
+- New unit class: Construct, Mage, & Monk
+- Unit balancing

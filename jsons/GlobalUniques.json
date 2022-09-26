@@ -9,7 +9,13 @@
 		"Cannot build [Settler] units <when below [-10] Happiness>",
 		"Rebel units may spawn <when below [-20] Happiness>",
 		
-		// mechanism
+		// Military mechanism
+		"[1] Movement point cost to embark <for [Air Terror] units>", 
+		"[1] Movement point cost to disembark <for [Air Terror] units>", 
+		"[1] Movement point cost to disembark <for [Air Balloon] units>", 
+		"New [Recon] units start with [10] Experience [in all cities]"
+		
+		// Natural Wonders mechanism
 		"[+1 Food] from every [Grassland] <with [1] to [6] neighboring [Crater Lake] tiles>", 
 		"[+1 Food] from every [Plains] <with [1] to [6] neighboring [Crater Lake] tiles>", 
 		"[+1 Production] from every [Plains] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
@@ -29,7 +35,14 @@
 		"[+1 Food] from every [Oasis] <with [1] to [6] neighboring [Crater Lake] tiles>", 
 		"[+1 Production] from every [Oasis] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
 		"[+1 Food] from every [Flood plains] <with [1] to [6] neighboring [Crater Lake] tiles>", 
-		"[+1 Production] from every [Flood plains] <with [1] to [6] neighboring [Rock of Levitation] tiles>"
-		"[+1 Food] from every [Man-eating tree] <with [1] to [6] neighboring [Crater Lake] tiles>"
+		"[+1 Production] from every [Flood plains] <with [1] to [6] neighboring [Rock of Levitation] tiles>",
+		"[+1 Food] from every [Man-eating tree] <with [1] to [6] neighboring [Crater Lake] tiles>",
+		"[+1 Food] from every [City center] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		"[+1 Production] from every [City center] <with [1] to [6] neighboring [Rock of Levitation] tiles>",
+		
+		// Beast Tamer
+		/*"When defeating a [Beast] unit, earn [0] Gold and recruit it <with [33]% chance> <for [Novice Beast Tamer] units>",
+		"When defeating a [Beast] unit, earn [0] Gold and recruit it <with [66]% chance> <for [Educated Beast Tamer] units>", 
+		"When defeating a [Beast] unit, earn [0] Gold and recruit it <with [100]% chance> <for [Elite Beast Tamer] units>"/*
     ]
 }

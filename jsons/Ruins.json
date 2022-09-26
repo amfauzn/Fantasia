@@ -7,14 +7,14 @@
     },
 	{
         "name": "shared cultural inspiration",
-        "notification": "Villagers share the secrets of their well-ordered society (+60 culture)",
-        "uniques": ["Gain [60] [Culture]", "Only available after [20] turns"],
+        "notification": "Captured villagers share the secrets of their well-ordered society (+60 culture)",
+        "uniques": ["Gain [50] [Culture]", "Only available after [20] turns"],
         "color": "#cf8ff7"
     },
 	{
         "name": "adopt foreign policy",
         "notification": "We have discovered a scripture of policy idea, we can now try adopt it!",
-        "uniques": ["Free Social Policy", "Only available after [20] turns"],
+        "uniques": ["Gain [80] [Culture]", "Only available after [20] turns"],
         "color": "#cf8ff7"
     },
 	{
@@ -46,6 +46,11 @@
         "uniques": ["Free [Great Merchant] found in the ruins"],
 		"color": "#ffeb7f"
     },
+	/*{
+        "name": "levied spearman",
+        "notification": "A young [Spearman] has joined us!",
+        "uniques": ["Free [Sparman] found in the ruins", "Only available after [20] turns"],
+    },*/
     {
         "name": "your exploring unit receives training",
         "notification": "An elder trained us in their ways of combat!",
@@ -64,7 +69,7 @@
     },
 	{
         "name": "accepted immigrants (adds 3 population to a city)",
-        "notification": "A family of immigrants saved in the ruins! Population added to [cityName].",
+        "notification": "A family of immigrants saved in the ruins! Population added to capital.",
         "uniques": ["[+3] population [in capital]", "Only available after [40] turns"],
         "color": "#81c784"
     },
@@ -95,25 +100,19 @@
     {
         "name": "discover a lost technology",
         "notification": "We have discovered the lost technology of [techName] in the ruins!",
-        "uniques": ["[1] free random researchable Tech(s) from the [Dark age]"],
-		"color": "#7f7fff"
-    },
-	{
-        "name": "discover a lost classic technology",
-        "notification": "We have discovered the lost technology of [techName] in the ruins!",
         "uniques": ["[1] free random researchable Tech(s) from the [Classical age]"],
 		"color": "#7f7fff"
     },
 	{
         "name": "discover a portion of technology",
-        "notification": "We have discovered a portion of advanced technology! (+100 science)",
-        "uniques": ["Gain [100] [Science]", "Only available after [10] turns"],
+        "notification": "We have discovered a portion of advanced technology! (+50 science)",
+        "uniques": ["Gain [50] [Science]", "Only available after [10] turns"],
 		"color": "#7f7fff"
     },
 	{
         "name": "stolen technology",
-        "notification": "We succesfully take control of stolen technology! (Free Technology)",
-        "uniques": ["[1] Free Technologies", "Only available after [40] turns"],
+        "notification": "We succesfully take control of stolen technology! (+100 Science)",
+        "uniques": ["Gain [100] [Science]", "Only available after [40] turns"],
 		"color": "#7f7fff"
     },
     {
@@ -135,6 +134,12 @@
         "name": "reveal nearby Luxury resource",
         "notification": "You found notes of rare and valueable resources!",
         "uniques": ["Reveal up to [All] [Luxury resource] within a [7] tile radius"]
+    },
+	{
+        "name": "reveal nearby Beast location",
+        "notification": "A dying beast tamer share their beast location!",
+        "uniques": ["Reveal up to [3] [Dragon's Egg] within a [15] tile radius", 
+					"Reveal up to [1] [Megall] within a [7] tile radius"]
     },
     {
         "name": "find a crudely-drawn map",
@@ -163,5 +168,5 @@
         "notification": "An oracle pray for you (+100 Faith)",
         "uniques": ["Hidden when religion is disabled", "Gain [100] [Faith]", "Only available after [30] turns"],
 		"color": "#CDDDF4"
-    },
+    }
 ]

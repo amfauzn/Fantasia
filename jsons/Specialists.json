@@ -1,6 +1,6 @@
 [
 	{
-		"name":"Scientist",
+		"name":"Inventor",
 		"science":3,
 		"greatPersonPoints": {"Great Scientist":3},
 		"color": [0,0,255]
@@ -28,5 +28,13 @@
 		"food":3,
 		"greatPersonPoints": {"Great Artist":1, "Great Merchant":1},
 		"color": [56,255,112]
-	}
+	},
+	{
+		"name":"Alchemist",
+		"science": 2,
+		"gold": 2,
+		"production": 2,
+		"greatPersonPoints": {"Great Scientist": 5},
+		"color": [240,230,140]
+	},
 ]

@@ -1,8 +1,8 @@
 [
 	{
 		"name": "Tradition",
-		"era": "Dark age",
-		"priorities": { "Cultural": 30, "Diplomatic": 30, "Domination": 0, "Scientific": 0 },
+		"era": "Archaic age",
+		"priorities": { "Cultural": 20, "Diplomatic": 20, "Domination": 0, "Scientific": 0 },
 		"uniques": ["[+3 Culture] [in capital]", "[-25]% Culture cost of natural border growth [in all cities]", "Unlocks building Cetho Lighyn"],
 		"policies": [
 			{
@@ -46,8 +46,8 @@
 	},
 	{
 		"name": "Liberty",
-		"era": "Dark age",
-		"priorities": { "Cultural": 0, "Diplomatic": 0, "Domination": 30, "Scientific": 30 },
+		"era": "Archaic age",
+		"priorities": { "Cultural": 0, "Diplomatic": 0, "Domination": 20, "Scientific": 20 },
 		"uniques": ["[+1 Culture] [in all cities]", "Unlocks building Bondowoso"],
 		"policies": [
 			{
@@ -94,7 +94,7 @@
 	},
 	{
 		"name": "Honor",
-		"era": "Classical age",
+		"era": "Archaic age",
 		"priorities": { "Cultural": 10, "Diplomatic": 10, "Domination": 20, "Scientific": 10 },
 		"uniques": ["[+33]% Strength <vs [Barbarian] units>", "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
 					"Notified of new Barbarian encampments", "Unlocks building Bubrah Tikus"],
@@ -146,16 +146,16 @@
 	},
 	{
 		"name": "Piety",
-		"era": "Feudal age",
+		"era": "Classical age",
 		"priorities": { "Neutral": 0, "Cultural": 10, "Diplomatic": 10, "Domination": 10, "Scientific": 0 },
-		"uniques": ["[+100]% Production when constructing [Shrine] buildings [in all cities]", 
-					"[+100]% Production when constructing [Temple] buildings [in all cities]", 
+		"uniques": ["[+50]% Production when constructing [Shrine] buildings [in all cities]", 
+					"[+100]% Production when constructing [Temple] buildings [in all cities]",  
 					"[+100]% Production when constructing [Mawene] buildings [in all cities]", 
 					"Only available <before adopting [Rationalism]>"],
 		"policies": [
 			{
 				"name": "Mandate Of Heaven",
-				"uniques": ["May choose [1] additional [Follower] beliefs when [enhancing] a religion"],
+				"uniques": ["Gain a free [Pantheon] belief"],
 				"row": 1,
 				"column": 2
 			},
@@ -182,7 +182,7 @@
 			{
 				"name": "Postulant",
 				"requires": ["Religious Agency"],
-				"uniques": ["Free [Great Prophet] appears", "Free [Inquisitor] appears"],
+				"uniques": ["Free [Great Prophet] appears", "Free [Inquisitor] appears", "May build Warrior Monk"],
 				"row": 3,
 				"column": 2
 			},
@@ -293,7 +293,7 @@
 	},
 	{
 		"name": "Commerce",
-		"era": "Renaissance age",
+		"era": "Feudal age",
 		"priorities": { "Neutral": 0, "Cultural": 10, "Diplomatic": 10, "Domination": 10, "Scientific": 10 },
 		"uniques": ["[+25]% [Gold] [in capital]"],
 		"policies": [
@@ -344,7 +344,7 @@
 	},
 	{
 		"name": "Rationalism",
-		"era": "Renaissance age",
+		"era": "Feudal age",
 		"priorities": { "Neutral": 0, "Cultural": 10, "Diplomatic": 10, "Domination": 10, "Scientific": 20 },
 		"uniques": ["[+15]% [Science] <while the empire is happy>", "Only available <before adopting [Piety]>"],
 		"policies": [
@@ -396,7 +396,7 @@
 	},
 	{
 		"name": "Quixotic A",
-		"era": "Heroic age",
+		"era": "Industrial age",
 		"priorities": { "Neutral": 50, "Cultural": 50, "Diplomatic": 30, "Domination": 30, "Scientific": 40 },
 		"uniques": ["[+25]% Great Person generation [in all cities]", "[+3 Happiness] [in capital]", "Only available <before adopting [Quixotic B]>"],
 		"policies": [
@@ -443,7 +443,7 @@
 	},
 	{
 		"name": "Quixotic B",
-		"era": "Heroic age",
+		"era": "Industrial age",
 		"priorities": { "Neutral": 50, "Cultural": 30, "Diplomatic": 30, "Domination": 50, "Scientific": 40 },
 		"uniques": ["[-33]% maintenance costs <for [All] units>", "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately", 
 					"Only available <before adopting [Quixotic A]>"],

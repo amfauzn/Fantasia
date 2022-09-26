@@ -1,15 +1,16 @@
 [
-    {
-        "name": "Dark age",
+	{
+        "name": "Archaic age",
         "researchAgreementCost": 150,
-        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingSettlerCount": 1,
         "startingWorkerCount": 0,
         "startingMilitaryUnitCount": 1,
-        "startingMilitaryUnit": "Scout",
+        "startingMilitaryUnit": "Warrior",
         "settlerPopulation": 1,
         "baseUnitBuyCost": 200,
         "embarkDefense": 5,
         "startPercent": 0,
+        "citySound": "cityAncient",
         "friendBonus": {
             "Cultured": ["Provides [+3 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn"],
@@ -22,24 +23,33 @@
             "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
             "Mercantile": ["Provides [+2 Gold] per turn", "Provides a unique luxury"],
             "Religious": ["Provides [+6 Faith] per turn"],
-            "Militaristic": ["Provides military units every ≈[17] turns"]
+            "Militaristic": ["Provides [+3 Production] [in capital] per turn", "Provides military units every ≈[20] turns"]
         },
-        "iconRGB": [255, 87, 35]
+        "iconRGB": [255, 87, 35],
+		"civilopediaText": [
+            {"text":"Time of the beginning. The Gods create Earth and all life that lives upon it."},
+            {"text":"When Koltron, God of Torture, is accused of torturing animals and creates mythical beast, he is warped into a hideous form and thrown in to abyss."},
+            {"text":"The Gods then withdraw from the Earth."}
+			{"text":"Before leaving Earth, The Gods creates human and other races."},
+            {"text":"The Gods left them clues how to deals with the wandering mythical beast."},
+            {"text":"Lots shrine are built and lots Gods being worshiped."}
+        ]
     },
     {
         "name": "Classical age",
         "researchAgreementCost": 150,
         "startingSettlerCount": 1,
         "startingWorkerCount": 0,
-        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnitCount": 2,
         "startingMilitaryUnit": "Warrior",
-        "startingGold": 20,
-        "startingCulture": 100,
+        "startingGold": 50,
+        "startingCulture": 75,
         "settlerPopulation": 1,
         "settlerBuildings": ["Granary"],
         "baseUnitBuyCost": 200,
         "embarkDefense": 6,
         "startPercent": 5,
+		"citySound": "cityClassical",
         "friendBonus": {
             "Cultured": ["Provides [+3 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn"],
@@ -52,17 +62,21 @@
             "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
             "Mercantile": ["Provides [+2 Gold] per turn", "Provides a unique luxury"],
             "Religious": ["Provides [+6 Faith] per turn"],
-            "Militaristic": ["Provides military units every ≈[17] turns"]
+            "Militaristic": ["Provides [+3 Production] [in capital] per turn", "Provides military units every ≈[20] turns"]
         },
-        "iconRGB": [233, 31, 99]
+        "iconRGB": [233, 31, 99],
+		"civilopediaText": [
+            {"text":"The tribes of mankind survive from the assault of the mythical beast."},
+            {"text":"They discover a lot of knowledge, and learn the concept of magic."}
+        ]
     },
     {
-        "name": "Feudal age",
+        "name": "Heroic age",
         "researchAgreementCost": 250,
         "startingSettlerCount": 1,
         "startingWorkerCount": 1,
         "startingMilitaryUnitCount": 2,
-        "startingMilitaryUnit": "Warrior",
+        "startingMilitaryUnit": "Spearman",
         "startingGold": 75,
         "startingCulture": 200,
         "settlerPopulation": 1,
@@ -70,29 +84,34 @@
         "baseUnitBuyCost": 200,
         "embarkDefense": 8,
         "startPercent": 20,
+		"citySound": "cityClassical",
         "friendBonus": {
-            "Cultured": ["Provides [+8 Culture] per turn"],
+            "Cultured": ["Provides [+6 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+4 Gold] per turn"],
-            "Religious": ["Provides [+8 Faith] per turn"],
+            "Mercantile": ["Provides [+3 Gold] per turn"],
+            "Religious": ["Provides [+6 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[20] turns"]
         },
         "allyBonus": {
-            "Cultured": ["Provides [+16 Culture] per turn"],
+            "Cultured": ["Provides [+12 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+4 Gold] per turn", "Provides a unique luxury"],
-            "Religious": ["Provides [+16 Faith] per turn"],
-            "Militaristic": ["Provides military units every ≈[17] turns"]
+            "Mercantile": ["Provides [+3 Gold] per turn", "Provides a unique luxury"],
+            "Religious": ["Provides [+12 Faith] per turn"],
+            "Militaristic": ["Provides [+4 Production] [in capital] per turn", "Provides military units every ≈[20] turns"]
         },
-        "iconRGB": [157, 39, 176]
+        "iconRGB": [157, 39, 176],
+		"civilopediaText": [
+            {"text":"Mankind studied more advanced way to control mana."},
+            {"text":"During this age, born Heroes whose can slay mythical beast with their might."}
+        ]
     },
-    {
-        "name": "Renaissance age",
-        "researchAgreementCost": 300,
+	{
+        "name": "Feudal age",
+        "researchAgreementCost": 250,
         "startingSettlerCount": 2,
         "startingWorkerCount": 1,
         "startingMilitaryUnitCount": 3,
-        "startingMilitaryUnit": "Spearman",
+        "startingMilitaryUnit": "Pikeman",
         "startingGold": 150,
         "startingCulture": 300,
         "settlerPopulation": 2,
@@ -100,95 +119,111 @@
         "startingObsoleteWonders": ["Bondowoso","The Great Lighthouse","Sukamerta"],
         "baseUnitBuyCost": 250,
         "embarkDefense": 10,
-        "startPercent": 30,
+        "startPercent": 35,
+		"citySound": "cityMedieval",
         "friendBonus": {
             "Cultured": ["Provides [+8 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+5 Gold] per turn"],
-            "Religious": ["Provides [+12 Faith] per turn"],
+            "Mercantile": ["Provides [+3 Gold] per turn"],
+            "Religious": ["Provides [+10 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[20] turns"]
         },
         "allyBonus": {
             "Cultured": ["Provides [+16 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+5 Gold] per turn", "Provides a unique luxury"],
-            "Religious": ["Provides [+24 Faith] per turn"],
-            "Militaristic": ["Provides military units every ≈[17] turns"]
+            "Mercantile": ["Provides [+3 Gold] per turn", "Provides a unique luxury"],
+            "Religious": ["Provides [+20 Faith] per turn"],
+            "Militaristic": ["Provides [+5 Production] [in capital] per turn", "Provides military units every ≈[20] turns"]
         },
-        "iconRGB": [104, 58, 183]
+        "iconRGB": [104, 58, 183],
+		"civilopediaText": [
+            {"text":"Some Heroes decided to form their own country, while the other keep wandering to hunt monster."},
+            {"text":"War break-out as people try to take control of each other."}
+        ]
     },
 	{
-        "name": "Heroic age",
-        "researchAgreementCost": 350,
-        "startingSettlerCount": 3,
+        "name": "Renaissance age",
+        "researchAgreementCost": 300,
+        "startingSettlerCount": 2,
         "startingWorkerCount": 2,
         "startingMilitaryUnitCount": 4,
-        "startingMilitaryUnit": "Pikeman",
+        "startingMilitaryUnit": "Halberdier",
         "startingGold": 300,
 		"startingCulture": 400,
 		"settlerPopulation": 3,
         "settlerBuildings": ["Monument","Granary","Shrine","Walls","Lighthouse","Paper Maker","Colosseum","Barracks","Pyramid","Market","Workshop"],
         "startingObsoleteWonders": ["Aknamuki","Gerude","Bondowoso","The Great Lighthouse","Sukamerta","Bubrah Tikus"],
-		"baseUnitBuyCost": 400,
-        "embarkDefense": 12,
-		"startPercent": 45,
+		"baseUnitBuyCost": 350,
+        "embarkDefense": 11,
+		"startPercent": 50,
+        "citySound": "cityRenaissance",
 		"friendBonus": {
+            "Cultured": ["Provides [+10 Culture] per turn"],
+            "Maritime": ["Provides [+2 Food] [in capital] per turn"],
+            "Mercantile": ["Provides [+4 Gold] per turn"],
+            "Religious": ["Provides [+12 Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [+20 Culture] per turn"],
+            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
+            "Mercantile": ["Provides [+4 Gold] per turn", "Provides a unique luxury"],
+            "Religious": ["Provides [+24 Faith] per turn"],
+            "Militaristic": ["Provides [+6 Production] [in capital] per turn", "Provides military units every ≈[20] turns"]
+        },
+        "iconRGB": [63, 81, 182],
+		"civilopediaText": [
+            {"text":"People without magic talent adapted the way to use magic tools to create and control magic."}
+        ]
+    },
+    {
+        "name": "Industrial age",
+        "researchAgreementCost": 350,
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 2,
+        "startingMilitaryUnitCount": 5,
+        "startingMilitaryUnit": "Halberdier",
+        "startingGold": 450,
+        "startingCulture": 500,
+        "settlerPopulation": 3,
+        "settlerBuildings": ["Monument","Granary","Shrine","Walls","Lighthouse","Paper Maker","Colosseum","Barracks","Pyramid","Market","Workshop",
+			"Public Bath","Bank"],
+	    "startingObsoleteWonders": ["Aknamuki","Gerude","Bondowoso","Brahula","The Great Lighthouse","Sukamerta","Dai Palgum","Bubrah Tikus","Kalacha"],
+        "baseUnitBuyCost": 500,
+        "embarkDefense": 15,
+        "startPercent": 65,
+        "citySound": "cityIndustrial",
+        "friendBonus": {
             "Cultured": ["Provides [+12 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+6 Gold] per turn"],
+            "Mercantile": ["Provides [+4 Gold] per turn"],
             "Religious": ["Provides [+13 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[20] turns"]
         },
         "allyBonus": {
             "Cultured": ["Provides [+24 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+6 Gold] per turn", "Provides a unique luxury"],
+            "Mercantile": ["Provides [+4 Gold] per turn", "Provides a unique luxury"],
             "Religious": ["Provides [+26 Faith] per turn"],
-            "Militaristic": ["Provides military units every ≈[17] turns"]
-        },
-        "iconRGB": [63, 81, 182]
-    },
-    {
-        "name": "Mythic age",
-        "researchAgreementCost": 350,
-        "startingSettlerCount": 3,
-        "startingWorkerCount": 2,
-        "startingMilitaryUnitCount": 5,
-        "startingMilitaryUnit": "Musketman",
-        "startingGold": 450,
-        "startingCulture": 500,
-        "settlerPopulation": 3,
-        "settlerBuildings": ["Monument","Granary","Shrine","Walls","Lighthouse","Paper Maker","Colosseum","Barracks","Pyramid","Market","Workshop",
-			"Public Bath","Bank"],
-	    "startingObsoleteWonders": ["Aknamuki","Gerude","Bondowoso","Brahula","The Great Lighthouse","Sukamerta","Bubrah Tikus"],
-        "baseUnitBuyCost": 500,
-        "embarkDefense": 15,
-        "startPercent": 60,
-        "friendBonus": {
-            "Cultured": ["Provides [+13 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+7 Gold] per turn"],
-            "Religious": ["Provides [+13 Faith] per turn"],
-            "Militaristic": ["Provides military units every ≈[20] turns"]
-        },
-        "allyBonus": {
-            "Cultured": ["Provides [+26 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+7 Gold] per turn", "Provides a unique luxury"],
-            "Religious": ["Provides [+26 Faith] per turn"],
-            "Militaristic": ["Provides military units every ≈[17] turns"]
+            "Militaristic": ["Provides [+7 Production] [in capital] per turn", "Provides military units every ≈[20] turns"]
         },
         "iconRGB": [33, 150, 243],
 		"uniques": ["May not generate great prophet equivalents naturally", 
-			"May buy [Great Prophet] units for [300] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])"]
+			"May buy [Great Prophet] units for [300] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
+			"Starting in this era disables religion"
+		],
+		"civilopediaText": [
+            {"text":"Mass production of magic tools."},
+            {"text":"mankind learn how to save mana in a device."}
+        ]
     },
 	{
-        "name": "Chaos age",
-        "researchAgreementCost": 400,
+        "name": "Pre-Modern age",
+        "researchAgreementCost": 350,
         "startingSettlerCount": 3,
         "startingWorkerCount": 3,
         "startingMilitaryUnitCount": 5,
-        "startingMilitaryUnit": "Entmates",
+        "startingMilitaryUnit": "Pike and Shot",
         "startingGold": 600,
         "startingCulture": 550,
         "settlerPopulation": 5,
@@ -197,34 +232,74 @@
 	    "startingObsoleteWonders": ["Aknamuki","Gerude","Bondowoso","Brahula","The Great Lighthouse","Sukamerta","Dai Palgum","Bubrah Tikus",
 			"Kalacha","Cetho Lighyn","Ker'sai","Kad'Hall","Rheog Baddan","Harbor"],
         "baseUnitBuyCost": 700,
-        //"embarkDefense": 16,
-        "startPercent": 70,
+        "embarkDefense": 20,
+        "startPercent": 80,
+		"citySound": "cityIndustrial",
         "friendBonus": {
             "Cultured": ["Provides [+13 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+8 Gold] per turn"],
+            "Mercantile": ["Provides [+4 Gold] per turn"],
             "Religious": ["Provides [+13 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[20] turns"]
         },
         "allyBonus": {
             "Cultured": ["Provides [+26 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+8 Gold] per turn", "Provides a unique luxury"],
+            "Mercantile": ["Provides [+4 Gold] per turn", "Provides a unique luxury"],
             "Religious": ["Provides [+26 Faith] per turn"],
-            "Militaristic": ["Provides military units every ≈[16] turns"]
+            "Militaristic": ["Provides [+7 Production] [in capital] per turn", "Provides military units every ≈[18] turns"]
         },
         "iconRGB": [0, 150, 136],
 		"uniques": ["May not generate great prophet equivalents naturally", 
-			"May buy [Great Prophet] units for [300] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])", 
-			"Starting in this era disables religion"]
+			"May buy [Great Prophet] units for [300] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
+			"Starting in this era disables religion"
+		]
     },
-    {
-        "name": "Future age",
-        "researchAgreementCost": 400,
+	{
+        "name": "Modern age",
+        "researchAgreementCost": 350,
         "startingSettlerCount": 3,
         "startingWorkerCount": 3,
         "startingMilitaryUnitCount": 5,
-        "startingMilitaryUnit": "Entmates",
+        "startingMilitaryUnit": "Pike and Shot",
+        "startingGold": 600,
+        "startingCulture": 550,
+        "settlerPopulation": 5,
+        "settlerBuildings": ["Monument","Granary","Shrine","Walls","Lighthouse","Paper Maker","Colosseum","Barracks","Pyramid","Market","Workshop",
+			"Castle","Public Bath","Composer Hall","Bank"],
+	    "startingObsoleteWonders": ["Aknamuki","Gerude","Bondowoso","Brahula","The Great Lighthouse","Sukamerta","Dai Palgum","Bubrah Tikus",
+			"Kalacha","Cetho Lighyn","Ker'sai","Kad'Hall","Rheog Baddan","Harbor"],
+        "baseUnitBuyCost": 700,
+        "embarkDefense": 20,
+        "startPercent": 80,
+		"citySound": "cityModern",
+        "friendBonus": {
+            "Cultured": ["Provides [+13 Culture] per turn"],
+            "Maritime": ["Provides [+2 Food] [in capital] per turn"],
+            "Mercantile": ["Provides [+4 Gold] per turn"],
+            "Religious": ["Provides [+13 Faith] per turn"],
+            "Militaristic": ["Provides military units every ≈[20] turns"]
+        },
+        "allyBonus": {
+            "Cultured": ["Provides [+26 Culture] per turn"],
+            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
+            "Mercantile": ["Provides [+4 Gold] per turn", "Provides a unique luxury"],
+            "Religious": ["Provides [+26 Faith] per turn"],
+            "Militaristic": ["Provides [+8 Production] [in capital] per turn", "Provides military units every ≈[18] turns"]
+        },
+        "iconRGB": [76, 176, 81],
+		"uniques": ["May not generate great prophet equivalents naturally", 
+			"May buy [Great Prophet] units for [300] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
+			"Starting in this era disables religion"
+		]
+    },
+    {
+        "name": "Future age",
+        "researchAgreementCost": 350,
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 3,
+        "startingMilitaryUnitCount": 5,
+        "startingMilitaryUnit": "Cyborg",
         "startingGold": 700,
         "startingCulture": 600,
         "settlerPopulation": 5,
@@ -233,21 +308,21 @@
 	    "startingObsoleteWonders": ["Aknamuki","Gerude","Bondowoso","Brahula","The Great Lighthouse","Sukamerta","Dai Palgum","Bubrah Tikus",
 			"Kalacha","Cetho Lighyn","Ker'sai","Kad'Hall","Rheog Baddan","Harbor","Ulick Myne","Mountain of Loneliness"],
         "baseUnitBuyCost": 900,
-        //"embarkDefense": 20,
-        "startPercent": 80,
+        "embarkDefense": 25,
+        "startPercent": 85,
         "friendBonus": {
             "Cultured": ["Provides [+13 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+9 Gold] per turn"],
+            "Mercantile": ["Provides [+5 Gold] per turn"],
             "Religious": ["Provides [+13 Faith] per turn"],
             "Militaristic": ["Provides military units every ≈[20] turns"]
         },
         "allyBonus": {
             "Cultured": ["Provides [+26 Culture] per turn"],
             "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+9 Gold] per turn", "Provides a unique luxury"],
+            "Mercantile": ["Provides [+5 Gold] per turn", "Provides a unique luxury"],
             "Religious": ["Provides [+26 Faith] per turn"],
-            "Militaristic": ["Provides military units every ≈[16] turns"]
+            "Militaristic": ["Provides [+8 Production] [in capital] per turn", "Provides military units every ≈[18] turns"]
         },
         "iconRGB": [76, 176, 81],
         "uniques": ["May not generate great prophet equivalents naturally", 

@@ -1,22 +1,12 @@
 [	
 	// Bonus resources
 	{
-		"name": "Elements",
-		"resourceType": "Bonus",
-		"uniques": ["Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "Hero Candidate",
-		"resourceType": "Bonus",
-		"uniques": ["Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "Meatball",
-		"resourceType": "Bonus",
-		"uniques": ["Will not be displayed in Civilopedia"]
-	},
-	{
 		"name": "Block",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Orichalcum Ingot",
 		"resourceType": "Bonus",
 		"uniques": ["Will not be displayed in Civilopedia"]
 	},
@@ -31,15 +21,9 @@
 		"terrainsCanBeFoundOn": ["Jungle"],
 		"food": 1,
 		"improvement": "Plantation",
-		"improvementStats": {"food": 1}
-	},
-	{
-		"name": "Bison",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains","Grassland"],
-		"food": 1,
-		"improvement": "Camp",
-		"improvementStats": {"food": 1}
+		"improvementStats": {"food": 1},
+		"uniques": ["Generated on every [20] tiles <in [Jungle] tiles>",
+					"Generated on every [22] tiles <in [Jungle] tiles> <in [Hill] Regions>"]
 	},
 	{
 		"name": "Cattle",
@@ -50,6 +34,15 @@
 		"improvementStats": {"production": 1},
 		"uniques": ["Generated on every [16] tiles <in [Featureless] [Grassland] tiles>",
 					"Generated on every [22] tiles <in [Featureless] [Grassland] tiles> <in [Hill] Regions>"]
+	},
+	{
+		"name": "Corn",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains","Grassland"],
+		"food": 1,
+		"improvement": "Farm",
+		"uniques": ["Generated on every [27] tiles <in [Featureless] [Plains] tiles>",
+					"Generated on every [33] tiles <in [Featureless] [Grassland] tiles>"]
 	},
 	{
 		"name": "Deer",
@@ -64,13 +57,6 @@
 					"Generated on every [25] tiles <in [Grassland] [Forest] tiles> <in tiles without [Hill]>",
 					"Generated on every [16] tiles <in [Featureless] [Tundra] tiles> <in [Hill] Regions>",
 					"Generated on every [28] tiles <in [Forest] tiles> <in [Hill] Regions>"]
-	},
-	{
-		"name": "Maize",
-		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Plains","Grassland"],
-		"food": 1,
-		"improvement": "Farm"
 	},
 	{
 		"name": "Sheep",
@@ -98,18 +84,80 @@
 		"terrainsCanBeFoundOn": ["Plains","Flood plains","Desert"],
 		"food": 1,
 		"improvement": "Farm",
-		"improvementStats": {"food": 1}
+		"improvementStats": {"food": 1},
+		"uniques": ["Generated on every [27] tiles <in [Featureless] [Plains] tiles>",
+					"Generated on every [10] tiles <in [Desert] [Fresh Water] tiles> <in tiles without [Hill]>",
+					"Generated on every [20] tiles <in [Featureless] [Plains] tiles> <in [Hill] Regions>",
+					"Generated on every [20] tiles <in [Fresh Water] [Desert] tiles> <in tiles without [Hill]> <in [Hill] Regions>"]
 	},
 	{
 		"name": "Fish",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Coast"],
+		"terrainsCanBeFoundOn": ["Coast","Atoll"],
 		"food": 1,
 		"improvement": "Fishing Boats",
 		"uniques": ["Generated on every [10] tiles <in [Featureless] [Coast] tiles>"]
 	},
+	{
+		"name": "Ley Line",
+		"resourceType": "Bonus",
+		"revealedBy": "Mana Sensing",
+		"terrainsCanBeFoundOn": ["Plains","Grassland","Desert","Flood plains","Hill","Tundra","Snow","Marsh"],
+		"faith": 1,
+		"improvement": "Beacon of Power",
+		"improvementStats": {"science": 1},
+		"uniques": ["Generated on every [22] tiles <in [Featureless] [Plains] tiles>",
+					"Generated on every [22] tiles <in [Featureless] [Grassland] tiles>", 
+					"Generated on every [22] tiles <in [Featureless] [Desert] tiles>",
+					"Generated on every [13] tiles <in [Featureless] [Flood plains] tiles>",
+					"Generated on every [18] tiles <in [Featureless] [Hill] tiles>",
+					"Generated on every [22] tiles <in [Featureless] [Tundra] tiles>",
+					"Generated on every [20] tiles <in [Featureless] [Snow] tiles>",
+					"Generated on every [13] tiles <in [Featureless] [Marsh] tiles>",]
+	},
 	
 	// Strategic resources
+	{
+		"name": "Adamantium",
+		"resourceType": "Strategic",
+		"revealedBy": "Alchemy",
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Hero Candidate",
+		"resourceType": "Strategic",
+		"revealedBy": "Mana Sensing",
+		"culture": 1,
+	},
+	{
+		"name": "Kyber",
+		"resourceType": "Strategic",
+		"revealedBy": "Alchemy",
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Magician",
+		"resourceType": "Strategic",
+		"revealedBy": "Enlightenment",
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Dragon's Egg",
+		"resourceType": "Strategic",
+		"revealedBy": "Compass",
+		"terrainsCanBeFoundOn": ["Hill","Jungle"],
+		"production": 1,
+		"improvement": "Taming",
+		"improvementStats": {"production": 2},
+		"uniques": ["Generated with weight [5] <in [Hill] tiles>",
+					"Generated with weight [30] <in [Jungle] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Tundra] [Hill] tiles>",
+					"Minor deposits generated with weight [10] <in [Grassland] [Hill] tiles>",
+					"Minor deposits generated with weight [10] <in [Plains] [Hill] tiles>",
+					"Minor deposits generated with weight [20] <in [Desert] [Hill] tiles>"],
+		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+	},
 	{
 		"name": "Horses",
 		"resourceType": "Strategic",
@@ -156,22 +204,6 @@
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 	{
-		"name": "Mammoth",
-		"resourceType": "Strategic",
-		"revealedBy": "Domestication",
-		"terrainsCanBeFoundOn": ["Tundra","Snow"],
-		"production": 1,
-		"improvement": "Taming",
-		"improvementStats": {"production": 1},
-		"uniques": ["Guaranteed with Strategic Balance resource option",
-					"Generated with weight [25] <in [Featureless] [Tundra] tiles>",
-					"Generated with weight [80] <in [Featureless] [Snow] tiles>",
-					"Deposits in [Snow] tiles always provide [4] resources",
-					"Minor deposits generated with weight [10] <in [Featureless] [Tundra] tiles>"],
-		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
-	},
-	{
 		"name": "Megall",
 		"resourceType": "Strategic",
 		"revealedBy": "Sailing",
@@ -183,35 +215,6 @@
 					"Generated with weight [70] <in [Featureless] [Coast] tiles>"],
 		"majorDepositAmount": {"sparse": 3, "default": 4, "abundant": 5},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
-	},
-	{
-		"name": "Dragon's Egg",
-		"resourceType": "Strategic",
-		"revealedBy": "Optics",
-		"terrainsCanBeFoundOn": ["Hill","Jungle"],
-		"production": 1,
-		"improvement": "Taming",
-		"improvementStats": {"production": 1},
-		"uniques": ["Generated with weight [5] <in [Hill] tiles>",
-					"Generated with weight [30] <in [Jungle] tiles> <in tiles without [Hill]>",
-					"Minor deposits generated with weight [10] <in [Tundra] [Hill] tiles>",
-					"Minor deposits generated with weight [10] <in [Grassland] [Hill] tiles>",
-					"Minor deposits generated with weight [10] <in [Plains] [Hill] tiles>",
-					"Minor deposits generated with weight [20] <in [Desert] [Hill] tiles>"],
-		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
-	},
-	{
-		"name": "Adamantium",
-		"resourceType": "Strategic",
-		"revealedBy": "Alchemy",
-		"uniques": ["Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "Kyber",
-		"resourceType": "Strategic",
-		"revealedBy": "Alchemy",
-		"uniques": ["Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Niter",
@@ -234,37 +237,48 @@
 		"majorDepositAmount": {"sparse": 5, "default": 8, "abundant": 10},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
-	
-	// Luxury resources
 	{
-		"name": "Garuda's Egg",
-		"resourceType": "Luxury",
-		"gold": 2,
-		"uniques": ["Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "God's Key",
-		"resourceType": "Luxury",
-		"uniques": ["Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "Kraken's Baby",
-		"resourceType": "Luxury",
-		"gold": 2,
-		"uniques": ["Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "Titan",
-		"resourceType": "Luxury",
-		"gold": 2,
-		"uniques": ["Will not be displayed in Civilopedia"]
+		"name": "Oil",
+		"resourceType": "Strategic",
+		"revealedBy": "Refining",
+		"terrainsCanBeFoundOn": ["Desert","Coast","Tundra","Snow","Marsh","Jungle"],
+		"production": 1,
+		"improvedBy": ["Oil well","Offshore Platform"],
+		"improvementStats": {"production": 3},
+		"uniques": ["Deposits in [Coast] tiles always provide [4] resources",
+					"Guaranteed with Strategic Balance resource option",
+					"Generated with weight [65] <in [Marsh] tiles> <in tiles without [Hill]>",
+					"Generated with weight [40] <in [Featureless] [Tundra] tiles>",
+					"Generated with weight [60] <in [Featureless] [Snow] tiles>",
+					"Generated with weight [65] <in [Featureless] [Desert] tiles>",
+					"Generated with weight [100] <in [Featureless] [Coast] tiles>",
+					"Minor deposits generated with weight [20] <in [Marsh] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Jungle] tiles> <in tiles without [Hill]>",
+					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
+					"Minor deposits generated with weight [20] <in [Featureless] [Tundra] tiles>",
+					"Minor deposits generated with weight [20] <in [Featureless] [Snow] tiles>"],
+		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 9},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
 	{
 		"name": "Rune Stone",
-		"resourceType": "Luxury",
-		"gold": 2,
-		"uniques": ["Will not be displayed in Civilopedia"]
+		"resourceType": "Strategic",
+		"revealedBy": "Magic Industrialization",
+		"terrainsCanBeFoundOn": ["Forest","Tundra","Snow","Hill","Desert"],
+		"production": 1,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1},
+		"uniques": ["Deposits in [Snow] tiles always provide [4] resources",
+					"Generated with weight [15] <in [Featureless] [Tundra] tiles>",
+					"Generated with weight [15] <in [Featureless] [Snow] tiles>",
+					"Generated with weight [30] <in [Hill] tiles>",
+					"Minor deposits generated with weight [25] <in [Forest] tiles>",
+					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>"],
+		"majorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4},
+		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
+	
+	// Luxury resources
 	{
 		"name": "Amber",
 		"resourceType": "Luxury",
@@ -381,9 +395,11 @@
 		"uniques": ["Generated near City States with weight [15]"]
 	},
 	{
-		"name": "Ivory",
+		"name": "Mammoth",
 		"resourceType": "Luxury",
-		"gold": 3
+		"terrainsCanBeFoundOn": ["Tundra","Snow"],
+		"gold": 2,
+		"improvement": "Taming"
 	},
 	{
 		"name": "Jade",
@@ -497,7 +513,7 @@
 		"gold": 2,
 		"improvement": "Camp",
 		"improvementStats": {"gold": 1},
-		"uniques": ["Appears near City States with weight [15]"]
+		"uniques": ["Generated near City States with weight [15]"]
 	},
 	{
 		"name": "Wine",
@@ -530,7 +546,7 @@
 		"gold": 2,
 		"improvement": "Fishing Boats",
 		"improvementStats": {"food": 1},
-		"uniques": ["Appears near City States with weight [15]"]
+		"uniques": ["Generated near City States with weight [15]"]
 	},
 	{
 		"name": "Whales",
