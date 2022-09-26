@@ -38,11 +38,7 @@
 		"[+1 Production] from every [Flood plains] <with [1] to [6] neighboring [Rock of Levitation] tiles>",
 		"[+1 Food] from every [Man-eating tree] <with [1] to [6] neighboring [Crater Lake] tiles>",
 		"[+1 Food] from every [City center] <with [1] to [6] neighboring [Crater Lake] tiles>", 
-		"[+1 Production] from every [City center] <with [1] to [6] neighboring [Rock of Levitation] tiles>",
+		"[+1 Production] from every [City center] <with [1] to [6] neighboring [Rock of Levitation] tiles>"
 		
-		// Beast Tamer
-		/*"When defeating a [Beast] unit, earn [0] Gold and recruit it <with [33]% chance> <for [Novice Beast Tamer] units>",
-		"When defeating a [Beast] unit, earn [0] Gold and recruit it <with [66]% chance> <for [Educated Beast Tamer] units>", 
-		"When defeating a [Beast] unit, earn [0] Gold and recruit it <with [100]% chance> <for [Elite Beast Tamer] units>"/*
     ]
 }
