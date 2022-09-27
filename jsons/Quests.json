@@ -4,13 +4,13 @@
     "description": "Build a road to connect your capital to our city.",
     "influence": 50
   },
-  {
+  /*{
     "name": "Finish a Dungeon",
     "description": "We feel exhausted trying to clear the dungeon near our city. Please take care of it.",
     "type": "Global",
     "influence": 50,
     "minimumCivs": 1
-  },
+  },*/
   {
     "name": "Connect Resource",
     "description": "In order to make our civilizations stronger, connect [tileResource] to your trade network."
