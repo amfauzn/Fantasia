@@ -1859,9 +1859,8 @@
 		"unitType": "Hero", // Sword
 		"movement": 2,
 		"strength": 25,
-		"requiredResource": "Hero Candidate",
 		"promotions": ["Great Generals II"],
-		"uniques": ["Unbuildable", "Only available <with [Hero Candidate]>", "Never appears as a Barbarian unit", "The Heroes"],
+		"uniques": ["Unbuildable", "Limited to [1] per Civilization", "Never appears as a Barbarian unit", "The Heroes"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "metalhit"
 	},
@@ -1870,9 +1869,8 @@
 		"unitType": "Hero", // Armored
 		"movement": 2,
 		"strength": 24,
-		"requiredResource": "Hero Candidate",
 		"promotions": ["Tortoise","Great Generals I"],
-		"uniques": ["Unbuildable", "Only available <with [Hero Candidate]>", "Never appears as a Barbarian unit", "The Heroes"],
+		"uniques": ["Unbuildable", "Limited to [1] per Civilization", "Never appears as a Barbarian unit", "The Heroes"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "metalhit"
 	},
@@ -1883,9 +1881,8 @@
 		"strength": 18,
 		"rangedStrength": 22,
 		"range": 2,
-		"requiredResource": "Hero Candidate",
 		"promotions": ["Great Generals I"],
-		"uniques": ["Unbuildable", "Only available <with [Hero Candidate]>", "[-15]% Strength <when attacking> <vs cities>", 
+		"uniques": ["Unbuildable", "Limited to [1] per Civilization", "[-15]% Strength <when attacking> <vs cities>", 
 			"Never appears as a Barbarian unit", "The Heroes"],
 		"replacementTextForUniques": "Unbuildable",
 		"promotions": ["Extended Range"],
@@ -1896,8 +1893,7 @@
 		"unitType": "Hero", // Anti-cav
 		"movement": 2,
 		"strength": 24,
-		"requiredResource": "Hero Candidate",
-		"uniques": ["Unbuildable", "[+100]% Strength <vs [Mounted] units>", "Only available <with [Hero Candidate]>", 
+		"uniques": ["Unbuildable", "[+66]% Strength <vs [Mounted] units>", "Limited to [1] per Civilization", 
 			"Never appears as a Barbarian unit", "The Heroes"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "metalhit"
@@ -1907,9 +1903,8 @@
 		"unitType": "Hero", // Cavalry
 		"movement": 5,
 		"strength": 24,
-		"requiredResource": "Hero Candidate",
 		"promotions": ["Great Generals I"],
-		"uniques": ["Unbuildable", "Can move after attacking", "No defensive terrain bonus", "Only available <with [Hero Candidate]>", 
+		"uniques": ["Unbuildable", "Can move after attacking", "No defensive terrain bonus", "Limited to [1] per Civilization", 
 			"Never appears as a Barbarian unit", "The Heroes"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "horse"
@@ -1921,9 +1916,8 @@
 		"strength": 18,
 		"rangedStrength": 18,
 		"range": 2,
-		"requiredResource": "Hero Candidate",
 		"promotions": ["Great Generals I","Logistics"],
-		"uniques": ["Unbuildable", "Only available <with [Hero Candidate]>", "[-15]% Strength <when attacking> <vs cities>", 
+		"uniques": ["Unbuildable", "Limited to [1] per Civilization", "[-15]% Strength <when attacking> <vs cities>", 
 			"[-15]% Strength <when attacking> <vs [Water] units>", "Never appears as a Barbarian unit", "The Heroes"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "arrow"
@@ -1933,9 +1927,7 @@
 		"unitType": "Siege Hero",	// Siege
 		"movement": 4,
 		"strength": 22,
-		"requiredResource": "Hero Candidate",
-		"uniques": ["Unbuildable", "Only available <with [Hero Candidate]>", 
-			"Never appears as a Barbarian unit", "The Heroes"],
+		"uniques": ["Unbuildable", "Limited to [1] per Civilization", "Never appears as a Barbarian unit", "The Heroes"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "cannon"
 	},
@@ -1946,9 +1938,8 @@
 		"strength": 18,
 		"rangedStrength": 23,
 		"range": 2,
-		"requiredResource": "Hero Candidate",
 		"promotions": ["Navigator","Great Generals I"],
-		"uniques": ["Unbuildable", "Only available <with [Hero Candidate]>", "Never appears as a Barbarian unit", "Uncapturable", "The Heroes"],
+		"uniques": ["Unbuildable", "Limited to [1] per Civilization", "Never appears as a Barbarian unit", "Uncapturable", "The Heroes"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "cannon"
 	},
@@ -1958,9 +1949,8 @@
 		"movement": 4,
 		"strength": 24,
 		"cost": 5,
-		"requiredResource": "Hero Candidate",
 		"promotions": ["Sentry"],
-		"uniques": ["Unbuildable", "May withdraw before melee ([33]%)", "Only available <with [Hero Candidate]>", "Never appears as a Barbarian unit", 
+		"uniques": ["Unbuildable", "May withdraw before melee ([33]%)", "Limited to [1] per Civilization", "Never appears as a Barbarian unit", 
 			"Uncapturable", "The Heroes"],
 		"replacementTextForUniques": "Unbuildable, May withdraw before melee (33%)",
 		"attackSound": "metalhit"

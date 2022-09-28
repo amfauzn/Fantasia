@@ -11,11 +11,6 @@
 		"uniques": ["Will not be displayed in Civilopedia"]
 	},
 	{
-		"name": "Philosopher's Stone",
-		"resourceType": "Bonus",
-		"uniques": ["Will not be displayed in Civilopedia"]
-	},
-	{
 		"name": "Bananas",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Jungle"],
@@ -124,12 +119,6 @@
 		"uniques": ["Will not be displayed in Civilopedia"]
 	},
 	{
-		"name": "Hero Candidate",
-		"resourceType": "Strategic",
-		"revealedBy": "Mana Sensing",
-		"culture": 1,
-	},
-	{
 		"name": "Kyber",
 		"resourceType": "Strategic",
 		"revealedBy": "Alchemy",
@@ -139,6 +128,13 @@
 		"name": "Magician",
 		"resourceType": "Strategic",
 		"revealedBy": "Enlightenment",
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Philosopher's Stone",
+		"resourceType": "Strategic",
+		"revealedBy": "Philosophy",
+		"production": 1,
 		"uniques": ["Will not be displayed in Civilopedia"]
 	},
 	{

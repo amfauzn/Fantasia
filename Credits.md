@@ -83,7 +83,7 @@ Any icons not listed below are taken from the base game, see [Unciv credits](htt
 * Arxia:
 * Cavegoa: [Gaul](https://github.com/Ravignir/RekMOD/tree/main/Images/NationIcons/Gaul.png) by Ravignir
 * Dwargon:
-* Eldariya:
+* Eldariya: Created by AceHank
 * Erhab: [Viking](https://thenounproject.com/icon/viking-4509240/) by Vectorstall
 * First Order:
 * Frostmorrow: [Snowflake](https://thenounproject.com/icon/snowflake-4563930/) by Peter Lakenbrink
