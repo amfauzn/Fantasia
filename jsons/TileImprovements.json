@@ -122,6 +122,7 @@
 	},
 	{
 		"name": "Taming",
+		terrainsCanBeBuiltOn": ["Land","Coast"],
 		"turnsToBuild": 7,
 		"production": 1,
 		"techRequired": "Domestication",
