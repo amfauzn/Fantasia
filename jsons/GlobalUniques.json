@@ -13,32 +13,46 @@
 		"[1] Movement point cost to embark <for [Air Terror] units>", 
 		"[1] Movement point cost to disembark <for [Air Terror] units>", 
 		"[1] Movement point cost to disembark <for [Air Balloon] units>", 
-		"New [Recon] units start with [10] Experience [in all cities]"
+		"New [Recon] units start with [10] Experience [in all cities]",
+		
+		// Heroes
+		"[+40]% Strength <for [The Heroes] units> <during the [Feudal age]>",	 			// 35
+		"[+80]% Strength <for [The Heroes] units> <during the [Renaissance age]>", 			// 45
+		"[+120]% Strength <for [The Heroes] units> <starting from the [Industrial age]>", 	// 55
+		"[+80]% Strength <for [The Heroes] units> <during the [Pre-Modern age]>",		 	// 75
+		"[+160]% Strength <for [The Heroes] units> <starting from the [Modern age]>",	 	// 95
+		
+		// Tamer
+		"[+15]% Strength <for [Beast] units> <when adjacent to a [Tamer] unit>",
 		
 		// Natural Wonders mechanism
 		"[+1 Food] from every [Grassland] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		"[+1 Gold] from every [Grassland] <with [1] to [6] neighboring [Zamrud Khatulistiwa] tiles>", 
 		"[+1 Food] from every [Plains] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		"[+1 Gold] from every [Plains] <with [1] to [6] neighboring [Zamrud Khatulistiwa] tiles>", 
 		"[+1 Production] from every [Plains] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
 		"[+1 Food] from every [Tundra] <with [1] to [6] neighboring [Crater Lake] tiles>", 
 		"[+1 Food] from every [Desert] <with [1] to [6] neighboring [Crater Lake] tiles>", 
 		"[+1 Production] from every [Desert] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
 		"[+1 Food] from every [Lakes] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		"[+1 Gold] from every [Lakes] <with [1] to [6] neighboring [Zamrud Khatulistiwa] tiles>", 
 		"[+1 Production] from every [Lakes] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 		
 		"[+1 Production] from every [Mountain] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
-		"[+1 Food] from every [Hill] <with [1] to [6] neighboring [Crater Lake] tiles>", 
-		"[+1 Production] from every [Hill] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
-		"[+1 Food] from every [Forest] <with [1] to [6] neighboring [Crater Lake] tiles>", 
-		"[+1 Production] from every [Forest] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
-		"[+1 Food] from every [Jungle] <with [1] to [6] neighboring [Crater Lake] tiles>", 
-		"[+1 Production] from every [Jungle] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
-		"[+1 Food] from every [Marsh] <with [1] to [6] neighboring [Crater Lake] tiles>", 
-		"[+1 Food] from every [Oasis] <with [1] to [6] neighboring [Crater Lake] tiles>", 
-		"[+1 Production] from every [Oasis] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
-		"[+1 Food] from every [Flood plains] <with [1] to [6] neighboring [Crater Lake] tiles>", 
-		"[+1 Production] from every [Flood plains] <with [1] to [6] neighboring [Rock of Levitation] tiles>",
-		"[+1 Food] from every [Man-eating tree] <with [1] to [6] neighboring [Crater Lake] tiles>",
-		"[+1 Food] from every [City center] <with [1] to [6] neighboring [Crater Lake] tiles>", 
-		"[+1 Production] from every [City center] <with [1] to [6] neighboring [Rock of Levitation] tiles>"
+		//"[+1 Food] from every [Hill] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		//"[+1 Gold] from every [Hill] <with [1] to [6] neighboring [Zamrud Khatulistiwa] tiles>", 
+		//"[+1 Production] from every [Hill] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
+		//"[+1 Food] from every [Forest] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		//"[+1 Production] from every [Forest] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
+		//"[+1 Food] from every [Jungle] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		//"[+1 Production] from every [Jungle] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
+		//"[+1 Food] from every [Marsh] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		//"[+1 Food] from every [Oasis] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		//"[+1 Production] from every [Oasis] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
+		//"[+1 Food] from every [Flood plains] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		//"[+1 Production] from every [Flood plains] <with [1] to [6] neighboring [Rock of Levitation] tiles>",
+		//"[+1 Food] from every [Man-eating tree] <with [1] to [6] neighboring [Crater Lake] tiles>",
+		//"[+1 Food] from every [City center] <with [1] to [6] neighboring [Crater Lake] tiles>", 
+		//"[+1 Production] from every [City center] <with [1] to [6] neighboring [Rock of Levitation] tiles>"
 		
     ]
 }

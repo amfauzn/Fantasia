@@ -33,39 +33,41 @@
 		"uniqueName": "Preacher King",
 		"uniqueText": "100% chance to recruit defeated enemy unique military units, including Barbarian's unique unit \n-33% maintenance costs for Military Land and Water units",
 		"uniques": ["When defeating a [Leviathan] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"When defeating a [Hydra] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"When defeating a [Rakshasa] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"When defeating a [Yeti] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"When defeating a [Elite Spearman] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"When defeating a [Zeal Galleass] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"When defeating a [Dracula] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"When defeating a [Ballista] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"When defeating a [Laskar] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"When defeating a [Centaurs] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"When defeating a [Warhammer] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"When defeating a [Entilon] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"When defeating a [Daggerman] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"When defeating a [Realm Patrol] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"When defeating a [Alessia] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"When defeating a [Kalsharin] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"When defeating a [Wolf Rider] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"When defeating a [Orc] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"When defeating a [Mink] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"When defeating a [Axeman] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"When defeating a [Skeleton Warrior] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"When defeating a [Dullahan] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"When defeating a [Homunculus] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"When defeating a [Brute] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"When defeating a [Galley] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"When defeating a [Hunter] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"When defeating a [Marauder] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"When defeating a [Pillager] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"When defeating a [Tomb Guard] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"When defeating a [Orichalcum] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"When defeating a [Divine Order] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"When defeating a [Iron Templar] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-			"[-33]% maintenance costs <for [{Military} {Land}] units>", 
-			"[-33]% maintenance costs <for [Water] units>"],
+					"When defeating a [Hydra] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Rakshasa] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Yeti] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Elite Spearman] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Zeal Galleass] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Dracula] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Ballista] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Laskar] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Centaurs] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Warhammer] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Entilon] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Daggerman] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Realm Patrol] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Alessia] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Kalsharin] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Wolf Rider] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Orc] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Mink] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Axeman] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Skeleton Warrior] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Dullahan] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Homunculus] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Brute] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Galley] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Hunter] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Marauder] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Pillager] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Tomb Guard] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Orichalcum] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Divine Order] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Iron Templar] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Cerberus] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Bladedancer] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"[-33]% maintenance costs <for [{Military} {Land}] units>", 
+					"[-33]% maintenance costs <for [Water] units>"],
 		"cities": ["Nagar","Kramas","Irasandi","Mugassari","Ellasar","Surbata","Awan","Halli Lintra","Eshnunna","Palebon","Metesech",
 			"Jaragar","Erech","Arbela","Gandariya"],
 		"civilopediaText": [
@@ -89,8 +91,8 @@
 		"startIntroPart2": "King Valadorn, will you stop your brother warmongering way? Can you build a civilization that will stand the test of time?",
 		
 		"declaringWar": "You are in my way, you must be destroyed.",
-		"attacked": "As a matter of fact I too grow weary of peace.",
-		"defeated": "You have somehow become my undoing! What kind of beast are you?",
+		"attacked": "You've fallen into my trap. I'll bury you.",
+		"defeated": "You mongrel! Cursed be you! The world will long lament your heinous crime!",
 		"introduction": "Hello stranger! I am Valadorn, your true king!",
 		
 		"neutralHello": "Greetings!",
@@ -101,7 +103,7 @@
 		"innerColor": [153,  5, 3],
 		"uniqueName": "Tracker Legion",
 		"uniques": ["[+1] Movement <for [Military] units> <when at war>", "[+1] Sight <for [{Military} {Land}] units>", 
-			"Normal vision when embarked <for [{Military} {Land}] units>"],
+					"Normal vision when embarked <for [{Military} {Land}] units>"],
 		"cities": ["Sokharin","Tembayat","Sribit","Lemahirush","Kokosin","Narakesh","Chalkis","Kwar Hirin","Birit Chanan","Beneran",
 			"Lörissa","Joho Lor","Temwan","Sobayan","Senden"],
 		"civilopediaText": [
@@ -137,7 +139,7 @@
 		"innerColor": [  0,  0,9],
 		"uniqueName": "Experience is the Best Teacher",
 		"uniques": ["[Great Scientist] is earned [50]% faster", "[+2 Science] from every [Great Improvement]", 
-			"Earn [10]% of killed [Barbarian] unit's [Cost] as [Science]"],
+					"Earn [10]% of killed [Barbarian] unit's [Cost] as [Science]"],
 		"cities": ["Målusaö","Mlese","Tegålruö","Wanrådjö","Böran","Jåpanöan","Khujön","Böwan Pök","Trösö","Watese",
 			"Wetön","Bönusö","Låiden Hill","Tlulaö","Sudd Garden"],
 		"civilopediaText": [
@@ -151,7 +153,7 @@
 	{
 		"name": "Urg",
 		"leaderName": "Saeth",
-		"adjective": ["Demonic"],
+		"adjective": ["Undead"],
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Domination",
 		"favoredReligion": "Uncertainty",
@@ -173,10 +175,11 @@
 		"innerColor": [246,205,137],
 		"uniqueName": "Heaven's Fury",
 		"uniqueText": "Units fight as though they were at full strength even when damaged\nStarting from the Renaissance age, gain a Free Fury from every age\nGain 3 additional Fury during the Feudal age",
-		"uniques": ["Damage is ignored when determining unit Strength <for [All] units>", "\"Borrows\" city names from other civilizations in the game"],
-		"cities": ["Tugu","Luxor","Karnak","Oryx"],
+		"uniques": ["Damage is ignored when determining unit Strength <for [All] units>", 
+					"\"Borrows\" city names from other civilizations in the game"],
+		"cities": ["Tugu","Luxor","Karnak","Oryx","Kurx"],
 		"civilopediaText": [
-			{"text":"Urg is a demonic civilization, led by Saeth. Through the power of Ancient Citadel, Saeth may launch one-hit-kill attack on Land enemies."},
+			{"text":"Urg is an undead civilization, led by Saeth. Through the power of Ancient Citadel, Saeth may launch one-hit-kill attack on Land enemies."},
 			{"text":"Tips to play:"},
 			{"text":"War is after you create lots Dullahan and Fury, and since Skroths are fast, domination it must be."}
         ]
@@ -241,7 +244,7 @@
 		"innerColor": [ 70,  0, 4],
 		"uniqueName": "Peace upon All",
 		"uniques": ["City-State Influence recovers at twice the normal rate", "Science gained from research agreements [+33]%", 
-			"When declaring friendship, both parties gain a [10]% boost to great person generation"],
+					"When declaring friendship, both parties gain a [10]% boost to great person generation"],
 		"cities": ["Possadha","Sikaiana","Nuguria","Uvea","Java","Javabazha","Takhada","Tea","Heava","Rindhanna",
 			"Icha","Archana","Na Nirwana","Nuallazea","Zazhua"],
 		"civilopediaText": [
@@ -257,14 +260,13 @@
 		"leaderName": "Claudia",
 		"adjective": ["Witches"],
 		"startBias": ["Jungle"],
-		"preferredVictoryType": "Diplomatic",
 		"favoredReligion": "Preformationism",
 	
-		"startIntroPart1": "Greetings, our wondrous Lady Claudia. Red Moon lies at the heart of Pangaea. Despite blessed with unparalelled strength, Lady Claudia choose diplomatic way for both interest. You are the first person to acknowledge Queen Nualla idea and became the first leader of The League.",
-		"startIntroPart2": "Lady Claudia, the people look to you to bring forth peace days for everyone. Can you build a civilization that will stand the test of time?",
+		"startIntroPart1": "Greetings, our wondrous Lady Claudia. As a lady with unique powers, many feel both admiration and envy of you. They start to think of you as a curse and torture you. But worry no more, Lady. If we can't coexist, then we'll show the world our awesome power, in the name of Red Moon.",
+		"startIntroPart2": "Lady Claudia, once more the people look to your guidance for understanding of power and to control it. Can you build a civilization that will stand the test of time?",
 		
 		"declaringWar": "You've behaved yourself very badly, you know it. Now it's payback time.",
-		"attacked": "It is obvious now that I misjudged you and your true intentions.",
+		"attacked": "We shall never surrender.",
 		"defeated": "We were defeated, so this makes me your prisoner. I suppose there are worse fates.",
 		"introduction": "I greet you, stranger! If you are as intelligent and tactful as you are attractive, we'll get along just fine.",
 		
@@ -275,16 +277,17 @@
 		"outerColor": [153,  5,  3],
 		"innerColor": [255,255,255],
 		"uniqueName": "Infinite Power",
-		"uniques": ["Great General provides double combat bonus", "[+50]% [Faith] from City-States", 
-			"May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost", 
-			"Starts with [Piety] adopted"],
+		"uniques": ["Starts with [Piety] adopted", 
+					"May buy [Mage] units with [Faith] for [1] times their normal Production cost", 
+					"Provides a [Sect] in your first [4] cities for free <after discovering [Education]>", 
+					"[+34]% Natural religion spread [in all cities connected to capital]"],
 		"cities": ["Blasicken","Phocaea","Elashmunein","Poitien","Velitrae","Niue","Boien","Ishe","Madirae","Kiea",
 			"Sil Ifken","Ringsten","Godthenae","Hellulae","Novosten"],
 		"civilopediaText": [
-			{"text":"Red Moon is a witches civilization, led by Claudia. Red Moon posses infinite power and infinite faith."},
+			{"text":"Red Moon is a witches civilization, led by Claudia. Their unique unit replace Sword-type unit with Mage-type unit, in which can be bought with Faith."},
 			{"text":"Tips to play:"},
-			{"text":"Fokus on Faith and Daggerman."},
-			{"text":"Daggerman generate Great General 50% faster, which is grants double Strength bonus"}
+			{"text":"Save Faith as much as possible to buy Mage unit, beside buying Hero of course."},
+			{"text":"When available, pick Piety-group policies for more benefit, either more Faith, Gold, or unlock Monk-type units."}
         ]
 	},
 	
@@ -313,7 +316,7 @@
 		"innerColor": [213,249,255],
 		"uniqueName": "Shield of the Mountain",
 		"uniques": ["[+10]% Strength <within [2] tiles of a [Mountain]>", "Land units may cross [Mountain] tiles after the first [Great Person] is earned", 
-			"Units ending their turn on [Mountain] tiles take [15] damage"],
+					"Units ending their turn on [Mountain] tiles take [15] damage"],
 		"cities": ["Thraldin's Palace","Khorin's Summit","Khorin's Slope","Gulddin's Ridge","Mourning Plateau","Lampion Pass","Twin Fortress","Sunken Valley",
 			"Circle Cliff","Darken Crest","Cremona","Red Ice","Tiltein","Vennelin","Drumlen"],
 		"civilopediaText": [
@@ -348,8 +351,8 @@
 		"innerColor": [255,46, 46],
 		"uniqueName": "Master Builder",
 		"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
-			"[+15]% Production towards any buildings that already exist in the Capital", 
-			"[+1 Production] from every [Strategic resource]"],
+					"[+15]% Production towards any buildings that already exist in the Capital", 
+					"[+1 Production] from every [Strategic resource]"],
 		"cities": ["King's Summit","Borbuddem","Pyr Amid'em","Mausollem","Gridden Wall","Kolussem","Hangen Stone","Tamja Hellin","Chotchen","Panema Caniem",
 			"Petra","Redemeer","Picchu","Angkoreen","Mozi","Fez","Balkh"],
 		"civilopediaText": [
@@ -385,7 +388,8 @@
 		"innerColor": [134,238,214],
 		"uniqueName": "Rage of the Beast",
 		"uniques": ["[+50]% Golden Age length", "[+10]% Strength <for [All] units> <during a Golden Age>", 
-			"[+15]% [Science] <during a Golden Age>", "Gain a free [Sulong's Training] [in capital] <after discovering [Bronze Working]>"],
+					"[+15]% [Science] <during a Golden Age>", 
+					"Gain a free [Sulong's Training] [in capital] <after discovering [Bronze Working]>"],
 		"cities": ["Townfolk","Lions","Tigers","Bears","Bulls","Wolves","Foxes","Gorillas","Leopards","Houston",
 			"Raccoons","Rhinocheroses","Warthogs","Orcas","Pandas","Piranhas"],
 		"civilopediaText": [
@@ -409,7 +413,7 @@
 		"startIntroPart2": "O' saviour, will you lead the Cavegoa people to prosperity? Will you build a civilization that stands the test of time?",
 		
 		"declaringWar": "You are an abomination to earth, the chief of ignorant savages! You must be destroyed!",
-		"attacked": "We shall never surrender.",
+		"attacked": "It is obvious now that I misjudged you and your true intentions.",
 		"defeated": "Monster! Who are you to destroy my greatness?",
 		"introduction": "We hope for a fair and just relationship with you, who are renowned for military bravery.",
 		
@@ -421,7 +425,7 @@
 		"innerColor": [134,238,214],
 		"uniqueName": "Survival Instinc",
 		"uniques": ["[+5] HP when healing <for [Wounded] units>", "[+10]% Strength <for [Wounded] units>", 
-			"[+10]% Strength <when below [50] HP> <when defending>"],
+					"[+10]% Strength <when below [50] HP> <when defending>"],
 		"cities": ["Goa","Armant","Lisht","Chondote","Nedrow","Lawless","Pajaten","Skien","Crossy","Grassrich",
 			"Amphibeast","Stone Valley","Cattle","Shining Lake","Nomad River"],
 		"civilopediaText": [
@@ -458,9 +462,9 @@
 		"innerColor": [146,221,9],
 		"uniqueName": "Forest Guardian",
 		"uniques": ["Cannot [Remove Forest] except by Great Improvement", 
-			"Cannot build [Lumber mill] improvements", 
-			"[+1 Culture, +1 Faith] from every [Forest] <with [2] to [6] neighboring [Forest] tiles>", 
-			"[+15]% Strength <in [Forest] tiles> <for [All] units>"],
+					"Cannot build [Lumber mill] improvements", 
+					"[+1 Culture, +1 Faith] from every [Forest] <with [2] to [6] neighboring [Forest] tiles>", 
+					"[+15]% Strength <in [Forest] tiles> <for [All] units>"],
 		"cities": ["Loggervia","Yandala","Southmarsh","Guuleaf","Lindschel","Agra","Sunda","Soulisa","Tuasika","Bula","Namlea",
 			"Gulbarga","Larantuka","Curia","Crastha"],
 		"civilopediaText": [
@@ -496,7 +500,7 @@
 		"innerColor": [255,255,255],
 		"uniqueName": "Horde of Greens",
 		"uniques": ["[+1] Movement <in [Enemy Land] tiles> <for [Land] units>", "[+15]% to Flank Attack bonuses <for [Land] units>",
-			"[+2] XP gained from combat <for [non-air] units>", "[+1 Happiness] from every [Courthouse]"],
+					"[+2] XP gained from combat <for [non-air] units>", "[+1 Happiness] from every [Courthouse]"],
 		"cities": ["Torakj","Mogrim","Gaul","Dade","Talu","Bullu","Bao","Kasel","Neuss","Herne","Bonn","Loyn","Wisbaden",
 			"Horkj","Skurkj"],
 		"civilopediaText": [
@@ -567,7 +571,7 @@
 		"innerColor": [255,244,174],
 		"uniqueName": "Sand Dweller",
 		"uniques": ["[+1 Food] from every [Fresh Water]", "[+10]% Strength <when fighting in [Desert] tiles>", 
-			"[+10]% Strength <when fighting in [Friendly Land] tiles>"],
+					"[+10]% Strength <when fighting in [Friendly Land] tiles>"],
 		"cities": ["Dageeng","Dhendheng","Sie","Cakep","Ampal","Lunuk","Dengke","Usi","Cengkir","Cakkekh",
 			"Degel","Dagiang","Keureut","Gepuk","Recah","Tiir"],
 		"civilopediaText": [
@@ -602,8 +606,8 @@
 		"innerColor": [ 16, 25,115],
 		"uniqueName": "Tiger Trawl",
 		"uniques": ["[+2 Gold] from every [Water resource]", "Enables [All] units to enter ocean tiles <after discovering [Compass]>", 
-			"[+15]% Production when constructing [{Military} {Water}] units [in all coastal cities]", 
-			"+1 Happiness in cities with an improved Bonus or Luxury resources on Coast"],
+					"[+15]% Production when constructing [{Military} {Water}] units [in all coastal cities]", 
+					"+1 Happiness in cities with an improved Bonus or Luxury resources on Coast"],
 		"cities": ["Regalia","Alion","Gatland","Burnei","Vinia","Sibisia","Codendia","Riverbed","Schoels Ridge","Magath Trench",
 			"Seamountea","Creef","Galesia","Aneka","Moresby","Palau"],
 		"civilopediaText": [
@@ -670,19 +674,19 @@
 		"outerColor": [254,204,32],
 		"innerColor": [  0,55,106],
 		"uniqueName": "Bloodlust",
-		"uniqueText": "Starting from the Feudal age, May buy Dracula units for 100 Faith in all cities at an increasing price 25\nDracula units become stronger from every age but start with -15 Experiece\nAll Military Land units Heals 15 damage if it kills a unit\nUpon discovering Chivalry, May construct 4 Vampire Castle with half of neighboring improvements stats, including Great improvements",
+		"uniqueText": "Starting from the Feudal age, May summon Dracula units for 100 Faith in all cities at an increasing price 25\nDracula units become stronger from every age but start with -15 Experiece\nAll Military Land units Heals 15 damage if it kills a unit\nUpon discovering Chivalry, May construct 4 Vampire Castle with half of neighboring improvements stats, including Great improvements",
 		"uniques": ["May buy [Dracula] units for [100] [Faith] [in all cities] at an increasing price ([25]) <starting from the [Feudal age]>",
-			"Gain a free [Vampiric Block] [in capital] <after discovering [Chivalry]>", 
-			"[{Military} {Land}] units gain the [Vampiric Touch] promotion",
-			"New [Dracula] units start with [-15] Experience [in all cities]", 
-			"Receive free [Dracula] when you discover [Quintessence Force]"],
+					"Gain a free [Vampiric Block] [in capital] <after discovering [Chivalry]>", 
+					"[{Military} {Land}] units gain the [Vampiric Touch] promotion",
+					"New [Dracula] units start with [-15] Experience [in all cities]", 
+					"Receive free [Dracula] when you discover [Quintessence Force]"],
 		"cities": ["Transylvania","Varkola","Sanguins","Chupacabra","Vlokodla","Mormolykia","Abhartcia","Kravopiea","Llorona","Lampire",
 			"Dachnavar","Op'a","K'uei","Nuruanna","Zolla"],
 		"civilopediaText": [
 			{"text":"Morlovia is a home of vampire."},
 			{"text":"Tips to play:"}
 			{"text":"Build Dracula as much as possible since they'll get stronger every age."},
-			{"text":"Construct Vampire Castle near Great Improvement for maximum gains, especially near Holy Site to generate Faith to buy more Dracula."},
+			{"text":"Construct Vampire Castle near Great Improvement for maximum gains, especially near Holy Site to generate Faith to summon more Dracula."},
 			{"text":"Place Dracula in Coffin when healing."}
         ]
 	},
@@ -710,7 +714,7 @@
 		"innerColor": [229,179,57],
 		"uniqueName": "Mercenary Combatant",
 		"uniques": ["[+10]% Strength <for [Melee] units>", "No movement cost to pillage <for [Melee] units>", 
-			"Resting point for Influence with City-States is increased by [10]", "Gain [20] Influence with a [{Military} {Melee}] gift to a City-State"],
+					"Resting point for Influence with City-States is increased by [10]", "Gain [20] Influence with a [{Military} {Melee}] gift to a City-State"],
 		"cities": ["Og","Fomoran","Fachan","Fódla","Ravna","Angrboða","Farragus","Kapra","Khalefi","Odánu",
 			"Ogeass","‘Uj Anaq","Bomba","Kuafu","Pecas Ndah","Blačko"],
 		"civilopediaText": [
@@ -747,10 +751,10 @@
 		"uniqueName": "Occult Research",
 		"uniqueText": "+15 Gold, +15 Science whenever a Great Person is expended\n-1 Production, +2 Gold from tiles of Any resource to be mined\nCan buy science with gold (max 10 science per city) after constructing Alchemical Society",
 		"uniques": ["[+15 Gold, +15 Science] whenever a Great Person is expended", "[-1 Production, +2 Gold] from [Iron] tiles [in all cities]", 
-			"[-1 Production, +2 Gold] from [Amber] tiles [in all cities]", "[-1 Production, +2 Gold] from [Copper] tiles [in all cities]", 
-			"[-1 Production, +2 Gold] from [Gems] tiles [in all cities]", "[-1 Production, +2 Gold] from [Gold Ore] tiles [in all cities]", 
-			"[-1 Production, +2 Gold] from [Jade] tiles [in all cities]", "[-1 Production, +2 Gold] from [Salt] tiles [in all cities]", 
-			"[-1 Production, +2 Gold] from [Silver] tiles [in all cities]"],
+					"[-1 Production, +2 Gold] from [Amber] tiles [in all cities]", "[-1 Production, +2 Gold] from [Copper] tiles [in all cities]", 
+					"[-1 Production, +2 Gold] from [Gems] tiles [in all cities]", "[-1 Production, +2 Gold] from [Gold Ore] tiles [in all cities]", 
+					"[-1 Production, +2 Gold] from [Jade] tiles [in all cities]", "[-1 Production, +2 Gold] from [Salt] tiles [in all cities]", 
+					"[-1 Production, +2 Gold] from [Silver] tiles [in all cities]"],
 		"cities": ["Krimora","Moribar","Scoetel","Eywass","Zheyn","Mogush","Nomen","Jurdem","Gnash","Sarthkiri",
 			"Hakanan","Ley","Tilt Lines","Shandas","Remore","Neophyte"],
 		"civilopediaText": [
@@ -786,10 +790,10 @@
 		"uniqueName": "The Lost Continent",
 		"uniqueText": "Can embark and move over Coasts and Oceans immediately\nMilitary Land units become stronger when fighting in adjacent to Water tiles and become weaker when fighting in Desert\nEmbarked units can defend themselves",
 		"uniques": ["Enables embarkation for land units <starting from the [Archaic age]>", 
-			"Enables [All] units to enter ocean tiles <starting from the [Archaic age]>",
-			"[{Military} {Land}] units gain the [Water Creature] promotion", "Defense bonus when embarked <for [All] units>", 
-			"Double quantity of [Megall] produced", "[1] Movement point cost to embark <for [Sword] units>", 
-			"[1] Movement point cost to embark <for [Anti-Cav] units>"],
+					"Enables [All] units to enter ocean tiles <starting from the [Archaic age]>",
+					"[{Military} {Land}] units gain the [Water Creature] promotion", "Defense bonus when embarked <for [All] units>", 
+					"Double quantity of [Megall] produced", "[1] Movement point cost to embark <for [Sword] units>", 
+					"[1] Movement point cost to embark <for [Anti-Cav] units>"],
 		"cities": ["Lemuria","Atlantis","Agarthea","Avalonia","Erum","Kitezha","Kumari Kanda","Mu","Shangri-La","Lyonessa","Quivira","Buyana",
 			"Cantre'r Gwaelea","Cibola","Llys","Ys","Ogygia"],
 		"civilopediaText": [
@@ -934,7 +938,8 @@
 		"uniqueName": "Magnum Opus",
 		"uniqueText": "+10% Strength for Mage and Construct units\nGain a free Porta Alchemica in Capital after discovering Mathematics\nReceive free Great Scientist when you discover Alchemy\nGreat Scientist can construct Matter Transmuter",
 		"uniques": ["[+10]% Strength <for [Mage] units>", "[+10]% Strength <for [Construct] units>", 
-					"Gain a free [Porta Alchemica] [in capital] <after discovering [Mathematics]>", "Receive free [Great Scientist] when you discover [Alchemy]", 
+					"Gain a free [Porta Alchemica] [in capital] <after discovering [Mathematics]>", 
+					"Receive free [Great Scientist] when you discover [Alchemy]", 
 					"[Great Scientist] units gain the [Alchemist Horizon] promotion"], 
 		"cities": ["Aurelion","Malach","Pyr","Rhodochros","Arcanum","Sapphirus","Acathes","Lunarius","Estest","Solus","Mercury","Mellago",
 			"Regulus","Natra Cinerius","Glacies","Alrescha Aurum","Dodekatos"],
@@ -989,7 +994,7 @@
 	
 	{
 		"name": "Arxia",
-		"leaderName": "Hierarch Mordus",
+		"leaderName": "Mordus", // Hierarch Mordus
 		"adjective": ["Arxian"],
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Domination",
@@ -998,19 +1003,19 @@
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
+		"declaringWar": "The time has come, prepare for war!",
+		"attacked": "Surely you had to know that one day there would be war between us.",
+		"defeated": "Who would have thought the time had come for our destruction.",
+		"introduction": "You stand before Hierarch Mordus. Do I see a fellow warrior?",
 		
-		"neutralHello": ".",
-		"hateHello": ".",
-		"tradeRequest": ".",
+		"neutralHello": "Be quick.",
+		"hateHello": "Well?",
+		"tradeRequest": "I give you this, you give me that. What do you think?",
 		
 		"outerColor": [242,101,0],
 		"innerColor": [89, 255,0],
 		"uniqueName": "Prophecy of Prosperity",
-		"uniqueText": "+1 Food, +1 Production for Desert tiles adjacent to City Center\nNew Military Land unit starts with 5 Experience\nCannot gain Great General (-100% generation), but receive free Scorpion General every age in Capital, starting from Heroic Age",
+		"uniqueText": "+1 Food, +1 Production for Desert tiles adjacent to City center\nNew Military Land unit starts with 5 Experience\nCannot gain Great General, but receive free Traon General every age in capital, starting from Heroic age",
 		"uniques": ["[+1 Food, +1 Production] from [Desert] tiles [in all cities] <with [1] to [6] neighboring [City center] tiles>",
 					"New [{Military} {Land}] units start with [5] Experience [in all cities]",
 					"[Great General] is earned [-100]% faster"], 
@@ -1019,7 +1024,7 @@
 		"civilopediaText": [
 			{"text":"Arxia can turn Desert tiles into essentially Plains tiles around its City Center. They are good at military and production and have moderate Science and Faith output."},
 			{"text":"Tips to play:"},
-			{"text":"Settle near Desert Hill to maximize Arxia's National Ability. Try not to lose your Scorpion General, you can only earn them once every era."},
+			{"text":"Settle near Desert Hill to maximize Arxia's National Ability. Try not to lose your Traon General, you can only earn them once every era."},
         ]
 	},
 	
@@ -1034,14 +1039,14 @@
 		"startIntroPart1": ".",
 		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
 		
-		"declaringWar": ".",
+		"declaringWar": "I can engage in this war without sacrificing morals. Can you?",
 		"attacked": "I warn you against making a habit of shedding blood. Blood never sleeps.",
 		"defeated": "No, I am not ready to leave my people. No!",
-		"introduction": ".",
+		"introduction": "I am Erish, and who are you, gentleman?",
 		
 		"neutralHello": "You have my gratitude.",
 		"hateHello": "Shame on you.",
-		"tradeRequest": ".",
+		"tradeRequest": "I offers you this exceptional proposition.",
 		
 		"outerColor": [105,34,172],
 		"innerColor": [255,102,102],
@@ -1054,7 +1059,8 @@
 		"civilopediaText": [
 			{"text":"'Nkuhanea is a tall cultured civilization. It's no wonder that they are masterful at both scientific and arcane arts."},
 			{"text":"Tips to play:"},
-			{"text":"Conquer as many cities as possible, build Porta Alchemica, and fill the Alchemist specialist slot as soon as possible. They worth more than normal Scientist."},
+			{"text":"Settle beside Hill, and build Lodepit around your cities. Or ... Settle on River."},
+			{"text":"Any Land on River beside Hill is your favorit spot to settle."},
         ]
 	},
 	
@@ -1084,9 +1090,82 @@
 		"cities": ["Hakensei","Nakahama","Kinkasaki","Mizutora","Yamazaka","Kyoshi","Nagakura","Touhama","Fujihidaka","Kumamoto","Shingawa",
 			"Asatori","Hoshiyama","Iwazawa","Okamikawa","Asahaba","Tateki","Miyakumo"],
 		"civilopediaText": [
-			{"text":""},
-			{"text":""},
-			{"text":""},
+			{"text":"Shinso is a 'jack of all trades' civilization. They get bonuses for 5 stats (Food, Gold, Science, Faith, and Production)."},
+			{"text":"Tips to play:"},
+			{"text":"You need to research either Writing, Mana Sensing, or The Wheel as fast as possible to gain your Stat bonus."},
+			{"text":"After you reveals Ley Line, claim it by settling or conquering."},
+        ]
+	},
+	
+	{
+		"name": "Urush",
+		"leaderName": "Zorgorath",
+		"adjective": ["Demonic"],
+		"preferredVictoryType": "Domination",
+		"favoredReligion": "Preformationism",
+		"style": "Demonic",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "The demon wants the blood of soldiers!",
+		"attacked": "Oh well, I presume you know what you're doing.",
+		"defeated": "Agh burzum-ishi mas!",
+		"introduction": "I am Sorgorath. Ash dägül durbatulük!",
+		
+		"neutralHello": "Hello.",
+		"hateHello": "Are you mad?",
+		"tradeRequest": "It appears that you do have a reason for existing – to make this deal with me.",
+		
+		"outerColor": [  7,  0, 54],
+		"innerColor": [228,134,228],
+		"uniqueName": "Scorching Land",
+		"uniqueText": "-1 Movement for Enemy Military units in Friendly Land tiles\nCannot summon Hero, but gain access to summon Archdemon Kor'vash",
+		"uniques": ["Enemy [Military] units must spend [1] extra movement points when inside your territory <after discovering [Quintessence Force]>", 
+					"Gain a free [Black Hole] [in capital]", "[-1 Faith] from every [Portal] <before the [Heroic age]>",
+					"Cannot build [Hero] units", "Cannot build [Siege Hero] units", 
+					"Cannot build [Water Hero] units", "Cannot build [Melee Water Hero] units", 
+					"May buy [Archdemon Kor'vash] units for [0] [Faith] [in all cities] at an increasing price ([100]) <starting from the [Heroic age]>"],
+		"cities": ["Meg'thath","Agruk","Zonnol","Volvellath","Azrarad","Xolmonach","Zoz'guleth","Eg'thuth","Mir'gumoth","Barthrolloz","Ath'tannuth","Thul'gog",
+			"Kil'ganath","Dalvoloch","Gannoros","Xorthrizar","Trezgemith"],
+		"civilopediaText": [
+			{"text":"Urush is strong at both defensive and offensive with good Production bonus to Military production."},
+			{"text":"Tips to play:"},
+			{"text":"Its unique unit heals everytime it kills, so make sure to last hit enemy unit with the least HP Cerberus."},
+        ]
+	},
+	
+	{
+		"name": "Ilythiir",
+		"leaderName": "Shurshana",
+		"adjective": ["Drow"],
+		"startBias": ["Mountain"],
+		//"preferredVictoryType": "Domination",
+		"favoredReligion": "Dualism",
+		
+		"startIntroPart1": ".",
+		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "You are in my way, you must be destroyed.",
+		"attacked": "As a matter of fact I too grow weary of peace.",
+		"defeated": "You have somehow become my undoing! What kind of beast are you?",
+		"introduction": "You must be grateful to witness the greatness of me, Shurshana.",
+		
+		"neutralHello": "Hello,",
+		"hateHello": "Speak!"
+		"tradeRequest": "This is better than you deserve, agree?",
+		
+		"outerColor": [114,162,233],
+		"innerColor": [ 61,  0,109],
+		"uniqueName": "Underdark's Wrath",
+		"uniqueText": "+2 Production, +1 Food from every city settled next to a Mountain \nReceive free strongest available Sword-type or Gunpowder-type units upon building a Courthouse",
+		"uniques": ["[+2 Food, +1 Production] in cities on [Land] tiles <with [1] to [6] neighboring [Mountain] tiles>"], 
+		"cities": ["Shurdriira","Helvion'lyr","Kalankoth","Despt'tar","Yolis","Omarryn","Noquani","Argath","Lashire","Chenlaena","Ordton","Xaryna",
+			"Alerough","Yauntyrr","Chysarae","Zauiryn","Goyln"],
+		"civilopediaText": [
+			{"text":"Ilythiir is a strong domination civilization with great economic bonus for cities next to a Mountain."},
+			{"text":"Its unique unit is very good at tanking melee damage, so ranged attack is their weakness."},
+			{"text":"You can recruit slaves to fight for you after you build Courthouse."}
         ]
 	},
 	
@@ -1096,6 +1175,7 @@
 		"adjective": ["Artizan"],
 		"cityStateType": "Cultured",
 		"style": "Human",
+		"uniques": ["Receive free [Spearman] when you discover [Bronze Working]"],
 		
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1110,6 +1190,7 @@
 		"cityStateType": "Cultured",
 		"startBias": ["Desert"],
 		"style": "Desert",
+		"uniques": ["Receive free [Worker] when you discover [Agriculture]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1120,8 +1201,9 @@
 	},
 	{
 		"name": "Gildar",
-		"adjective": ["Dark-Elven"],
+		"adjective": ["Drow"],
 		"cityStateType": "Cultured",
+		"uniques": ["[+10]% Strength <for [Archery] units>"],
 		
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1148,6 +1230,7 @@
 		"name": "Feu Follet",
 		"adjective": ["Ego-Vampire"],
 		"cityStateType": "Cultured",
+		"uniques": ["[-15]% Culture cost of natural border growth [in capital]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1176,6 +1259,7 @@
 		"adjective": ["Primal-Beastmen"],
 		"cityStateType": "Maritime",
 		"startBias": ["Tundra"],
+		"uniques": ["[+1] Movement <for [{Military} {Melee}] units> <in [Tundra] tiles>"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1189,6 +1273,7 @@
 		"adjective": ["Primitive"],
 		"cityStateType": "Maritime",
 		"startBias": ["Desert"],
+		"uniques": ["[+1] Sight <for [Recon] units> <in [Desert] tiles>"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1203,6 +1288,7 @@
 		"cityStateType": "Maritime",
 		"startBias": ["Hill"],
 		"style": "Elven",
+		"uniques": ["Receive free [Composite Bowman] when you discover [Construction]"],
 
 		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
 		"attacked": "You can see how fruitless this will be for you... right?",
@@ -1217,6 +1303,7 @@
 		"cityStateType": "Maritime",
 		"startBias": ["Coast"],
 		"style": "Goblin",
+		"uniques": ["[+15]% [Food] [in capital]"],
 
 		"declaringWar": "I will enjoy hearing your last breath as you witness the destruction of your realm!",
 		"attacked": "Why do we fight? Because Inanna demands it. Now, witness the power of Irgaskians!",
@@ -1314,6 +1401,7 @@
 		"adjective": ["Pirates"],
 		"cityStateType": "Militaristic",
 		"startBias": ["Coast"],
+		"uniques": ["[+1] Movement <for [{Military} {Water}] units>"],
 
 		"declaringWar": "Do you really think you can walk over us so easily? I will not let it happen. Not to my people!",
 		"attacked": "We are no strangers to war. You have strayed from the right path, and now we will correct it.",
@@ -1327,6 +1415,7 @@
 		"adjective": ["Mercenary-Troll"],
 		"cityStateType": "Militaristic",
 		"style": "Troll",
+		"uniques": ["Receive free [Luan] when you discover [Military Science]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1340,6 +1429,7 @@
 		"adjective": ["Mercenary-Demonic"],
 		"cityStateType": "Militaristic",
 		"style": "Demonic",
+		"uniques": ["[Sword] units gain the [Bloodbath] promotion"],
 
 		"declaringWar": "After thorough deliberation, Pidians finds itself at a crossroads. Prepare yourself, for war is upon us.",
 		"attacked": "We will mobilize every means of resistance to stop this transgression against our nation!",
@@ -1352,6 +1442,7 @@
 		"name": "Rackedt",
 		"adjective": ["Mercenary-Beast"],
 		"cityStateType": "Militaristic",
+		"uniques": ["All newly-trained [Recon] units [in capital] receive the [Ranger] promotion"],
 
 		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
 		"attacked": "Traitorous man! The Rackedt peoples will not stand for such wanton abuse and slander - I shall have your head!",
@@ -1392,7 +1483,7 @@
 		"name": "Gomorra",
 		"adjective": ["Gomorra"],
 		"cityStateType": "Religious",
-		"uniques": ["Starts with [Pottery]"],
+		"uniques": ["Gain a free [Shrine] [in capital]"],
 
 		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
 		"attacked": "Very well, we will kick you back to the ancient era!",
@@ -1405,6 +1496,7 @@
 		"name": "Zilla",
 		"adjective": ["Zilla"],
 		"cityStateType": "Religious",
+		"uniques": ["Gain a free [Monastery] [in capital]"],
 
 		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
 		"attacked": "May god have mercy on your evil soul.",

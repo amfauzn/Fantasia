@@ -22,7 +22,7 @@
 		"production": 3,
 		"science": 3,
 		"gold": 3,
-		"culture": 2,
+		"culture": 4,
 		"happiness": 1,
 		"cityStrength": 3,
 		"cost": 1,
@@ -303,6 +303,16 @@
 		"requiredTech": "Construction"
 	},
 	{
+		"name": "Arena of Blood",
+		"replaces": "Colosseum",
+		"uniqueTo": "Ilythiir",
+		"maintenance": 0,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Gold, +1 Happiness] [in this city] <when at war>"],
+		"requiredTech": "Construction"
+	},
+	{
 		"name": "The Great Colosseum",
 		"cost": 150,
 		"happiness": 5,
@@ -353,7 +363,7 @@
 		"uniques": ["Destroyed when the city is captured", "New [Military] units start with [15] Experience [in this city]"],
 		"requiredTech": "Bronze Working",
 		"civilopediaText": [
-            {"text":"Control your movement to control your enemies."}
+            {"text":"Control yourself to control your enemies."}
         ]
 	},
 	{
@@ -414,6 +424,18 @@
 		"requiredTech": "Philosophy",
 		"uniques": ["Hidden when religion is disabled", "[+1 Faith] from [Incense] tiles [in this city]", 
 					"[+1 Culture] per [3] population [in this city]", "Destroyed when the city is captured"]
+	},
+	{
+		"name": "Infernal Gate",
+		"replaces": "Temple",
+		"uniqueTo": "Urush",
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["Hidden when religion is disabled", "[+1 Faith] from [Incense] tiles [in this city]", 
+					"[+25]% Production when constructing [{Military} {Land}] units [in this city]"]
 	},
 	{
 		"name": "College",
@@ -482,8 +504,28 @@
 		"requiredTech": "Mathematics",
 		"uniques": ["Remove extra unhappiness from annexed cities", 
 					"Can only be built [in annexed cities]", 
-					"Never destroyed when the city is captured", "Unsellable"]
-	}
+					"Never destroyed when the city is captured", "Unsellable"],
+		"civilopediaText": [
+            {"text":"Unlock Alchemist specialist, provide 2 Science, 2 Gold, and 2 Production."}
+        ]
+	},
+	{
+		"name": "Ilythiir Courthouse",
+		"replaces": "Courthouse",
+		"uniqueTo": "Ilythiir",
+		"maintenance": 4,
+		"hurryCostModifier": 50,
+		"uniques": ["Remove extra unhappiness from annexed cities", "Unsellable", "Never destroyed when the city is captured",
+					"Can only be built [in annexed cities]", "Will not be displayed in Civilopedia",
+					"Free [Warrior] appears <before discovering [Iron Working]>", 
+					"Free [Bladedancer] appears <after discovering [Iron Working]> <before discovering [Steel]>",
+					"Free [Longswordsman] appears <after discovering [Steel]> <before discovering [Gunpowder]>",
+					"Free [Musketman] appears <after discovering [Gunpowder]> <before discovering [Rifling]>",
+					"Free [Rifleman] appears <after discovering [Rifling]> <before discovering [Replaceable Parts]>",
+					"Free [Infantry] appears <after discovering [Replaceable Parts]> <before discovering [Lasers]>",
+					"Free [Lightsaberman] appears <after discovering [Lasers]>"],
+		"requiredTech": "Mathematics"
+	},
 	{
 		"name": "Cetho Lighyn",
 		"greatPersonPoints": {"Great Artist": 1},
@@ -737,10 +779,10 @@
 		"science": 4,
 		"faith": 3,
 		"requiredBuilding": "Paper Maker",
-		"uniques": ["[+2 Gold] [in this city] <when not at war>"],
+		"uniques": ["[+1 Faith] per [5] population [in this city]"],
 		"requiredTech": "Education",
 		"civilopediaText": [
-            {"text":"The school is also tought about beliefes."}
+            {"text":"The school is also teaches about beliefes."}
         ]
 	},
 	{
@@ -1086,10 +1128,8 @@
 		"percentStatBonus": {"production": 20},
 		"isNationalWonder": true,
 		"uniques": ["Only available <in cities with a [Palace]>", "[+15]% Production when constructing [Mage] units [in all cities]", 
-					"[Gold] cost of purchasing [Mage] units [-15]%", "[+15]% Strength <for [Hero] units> <when attacking>", 
-					"[+15]% Strength <for [Siege Hero] units> <when attacking>", "[+15]% Strength <for [Melee Water Hero] units> <when attacking>", 
-					"[+15]% Strength <for [Water Hero] units> <when attacking>"],
-		"replacementTextForUniques": "+15% Production when constructing Magician units in all cities, +15% Strength for Hero units when attacking",
+					"[Gold] cost of purchasing [Mage] units [-15]%", "[+10]% Strength <for [The Heroes] units> <when attacking>"],
+		"replacementTextForUniques": "+15% Production when constructing Magician units in all cities, +10% Strength for Hero units when attacking",
 		"requiredResource": "Rune Stone",
 		"requiredTech": "Enlightenment",
 		"civilopediaText": [
@@ -1513,7 +1553,7 @@
 					"May buy [Jeanne d'Arc] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"May buy [Gaius Duilius] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"May buy [Themistocles] units for [200] [Faith] [in all cities] at an increasing price ([100])"],
-		"replacementTextForUniques": "May buy 2 additional Hero, Unlock All Heroes",
+		"replacementTextForUniques": "Unlock All Heroes",
 		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
 		"requiredTech": "Machinery"
 	},
@@ -1524,13 +1564,21 @@
 		"replacementTextForUniques": "Unbuildable",
 	},
 	{
+		"name": "Black Hole",
+		"replaces": "Portal",
+		"uniqueTo": "Urush",
+		"faith": 1,
+		"uniques": ["Unbuildable", "Unsellable", "Will not be displayed in Civilopedia"],
+		"replacementTextForUniques": "Unbuildable",
+	},
+	{
 		"name": "Mas Karebet Portal",
 		"isWonder": true,
 		"cost": 5,
 		"uniques": ["May buy [Mas Karebet] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Gain a free [Portal] [in this city]", "Free [Mas Karebet] appears", 
 					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Heroic age]>"],
-		"replacementTextForUniques": "Unlock Mas Karebet for 300 Faith at an increasing price of 100",
+		"replacementTextForUniques": "Unlock Mas Karebet for 200 Faith at an increasing price of 100",
 		"civilopediaText": [
 			{"text":"This building only available in Capital"}
         ]
@@ -1542,7 +1590,7 @@
 		"uniques": ["May buy [Ken Arok] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Gain a free [Portal] [in this city]", "Free [Ken Arok] appears", 
 					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Heroic age]>"],
-		"replacementTextForUniques": "Unlock Ken Arok for 300 Faith at an increasing price of 100",
+		"replacementTextForUniques": "Unlock Ken Arok for 200 Faith at an increasing price of 100",
 		"civilopediaText": [
 			{"text":"This building only available in Capital"}
         ]
@@ -1554,7 +1602,7 @@
 		"uniques": ["May buy [Pandji] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Gain a free [Portal] [in this city]", "Free [Pandji] appears", 
 					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Heroic age]>"],
-		"replacementTextForUniques": "Unlock Pandji for 300 Faith at an increasing price of 100",
+		"replacementTextForUniques": "Unlock Pandji for 200 Faith at an increasing price of 100",
 		"civilopediaText": [
 			{"text":"This building only available in Capital"}
         ]
@@ -1566,7 +1614,7 @@
 		"uniques": ["May buy [Leonidas] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Gain a free [Portal] [in this city]", 
 					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Heroic age]>"],
-		"replacementTextForUniques": "Unlock Leonidas for 300 Faith at an increasing price of 100",
+		"replacementTextForUniques": "Unlock Leonidas for 200 Faith at an increasing price of 100",
 		"civilopediaText": [
 			{"text":"This building only available in Capital"}
         ]
@@ -1578,7 +1626,7 @@
 		"uniques": ["May buy [Siliwangi] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Gain a free [Portal] [in this city]", "Free [Siliwangi] appears", 
 					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Heroic age]>"],
-		"replacementTextForUniques": "Unlock Siliwangi for 300 Faith at an increasing price of 100",
+		"replacementTextForUniques": "Unlock Siliwangi for 200 Faith at an increasing price of 100",
 		"civilopediaText": [
 			{"text":"This building only available in Capital"}
         ]
@@ -1590,7 +1638,7 @@
 		"uniques": ["May buy [Zhuge Liang] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Gain a free [Portal] [in this city]", "Free [Zhuge Liang] appears", 
 					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Heroic age]>"],
-		"replacementTextForUniques": "Unlock Zhuge Liang for 300 Faith at an increasing price of 100",
+		"replacementTextForUniques": "Unlock Zhuge Liang for 200 Faith at an increasing price of 100",
 		"civilopediaText": [
 			{"text":"This building only available in Capital"}
         ]
@@ -1602,7 +1650,7 @@
 		"uniques": ["May buy [Jeanne d'Arc] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Gain a free [Portal] [in this city]", "Free [Jeanne d'Arc] appears", 
 					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Heroic age]>"],
-		"replacementTextForUniques": "Unlock Jeanne d'Arc for 300 Faith at an increasing price of 100",
+		"replacementTextForUniques": "Unlock Jeanne d'Arc for 200 Faith at an increasing price of 100",
 		"civilopediaText": [
 			{"text":"This building only available in Capital"}
         ]
@@ -1613,8 +1661,9 @@
 		"cost": 5,
 		"uniques": ["May buy [Gaius Duilius] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Gain a free [Portal] [in this city]", "Free [Gaius Duilius] appears", 
-					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Heroic age]>"],
-		"replacementTextForUniques": "Unlock Gaius Duilius for 300 Faith at an increasing price of 100",
+					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Heroic age]>", 
+					"Must be next to [Coast]"],
+		"replacementTextForUniques": "Unlock Gaius Duilius for 200 Faith at an increasing price of 100",
 		"civilopediaText": [
 			{"text":"This building only available in Capital"}
         ]
@@ -1625,8 +1674,9 @@
 		"cost": 5,
 		"uniques": ["May buy [Themistocles] units for [200] [Faith] [in all cities] at an increasing price ([100])", 
 					"Gain a free [Portal] [in this city]", "Free [Themistocles] appears", 
-					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Heroic age]>"],
-		"replacementTextForUniques": "Unlock Themistocles for 300 Faith at an increasing price of 100",
+					"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Heroic age]>", 
+					"Must be next to [Coast]"],
+		"replacementTextForUniques": "Unlock Themistocles for 200 Faith at an increasing price of 100",
 		"civilopediaText": [
 			{"text":"This building only available in Capital"}
         ]
@@ -1765,74 +1815,74 @@
 					"[+1 Production] [in this city] <starting from the [Future age]>"]
 	},
 	{
-		"name": "Scorpion General I",
+		"name": "Traon General I",
 		"uniqueTo": "Arxia",
 		"hurryCostModifier": -100,
 		"maintenance": 0,
 		"cost": 1,
 		"uniques": ["Unsellable", "Will not be displayed in Civilopedia",
 					"Only available <starting from the [Heroic age]> <in cities with a [Palace]>",
-					"Free [Scorpion General] appears"]
+					"Free [Traon General] appears"]
 	},
 	{
-		"name": "Scorpion General II",
+		"name": "Traon General II",
 		"uniqueTo": "Arxia",
 		"hurryCostModifier": -100,
 		"maintenance": 0,
 		"cost": 1,
 		"uniques": ["Unsellable", "Will not be displayed in Civilopedia",
 					"Only available <starting from the [Feudal age]> <in cities with a [Palace]>",
-					"Free [Scorpion General] appears"]
+					"Free [Traon General] appears"]
 	},
 	{
-		"name": "Scorpion General III",
+		"name": "Traon General III",
 		"uniqueTo": "Arxia",
 		"hurryCostModifier": -100,
 		"maintenance": 0,
 		"cost": 1,
 		"uniques": ["Unsellable", "Will not be displayed in Civilopedia",
 					"Only available <starting from the [Renaissance age]> <in cities with a [Palace]>",
-					"Free [Scorpion General] appears"]
+					"Free [Traon General] appears"]
 	},
 	{
-		"name": "Scorpion General IV",
+		"name": "Traon General IV",
 		"uniqueTo": "Arxia",
 		"hurryCostModifier": -100,
 		"maintenance": 0,
 		"cost": 1,
 		"uniques": ["Unsellable", "Will not be displayed in Civilopedia",
 					"Only available <starting from the [Industrial age]> <in cities with a [Palace]>",
-					"Free [Scorpion General] appears"]
+					"Free [Traon General] appears"]
 	},
 	{
-		"name": "Scorpion General V",
+		"name": "Traon General V",
 		"uniqueTo": "Arxia",
 		"hurryCostModifier": -100,
 		"maintenance": 0,
 		"cost": 1,
 		"uniques": ["Unsellable", "Will not be displayed in Civilopedia",
 					"Only available <starting from the [Pre-Modern age]> <in cities with a [Palace]>",
-					"Free [Scorpion General] appears"]
+					"Free [Traon General] appears"]
 	},
 	{
-		"name": "Scorpion General VI",
+		"name": "Traon General VI",
 		"uniqueTo": "Arxia",
 		"hurryCostModifier": -100,
 		"maintenance": 0,
 		"cost": 1,
 		"uniques": ["Unsellable", "Will not be displayed in Civilopedia",
 					"Only available <starting from the [Modern age]> <in cities with a [Palace]>",
-					"Free [Scorpion General] appears"]
+					"Free [Traon General] appears"]
 	},
 	{
-		"name": "Scorpion General VII",
+		"name": "Traon General VII",
 		"uniqueTo": "Arxia",
 		"hurryCostModifier": -100,
 		"maintenance": 0,
 		"cost": 1,
 		"uniques": ["Unsellable", "Will not be displayed in Civilopedia",
 					"Only available <starting from the [Future age]> <in cities with a [Palace]>",
-					"Free [Scorpion General] appears"]
+					"Free [Traon General] appears"]
 	},
 	{
 		"name": "FWFreePop",

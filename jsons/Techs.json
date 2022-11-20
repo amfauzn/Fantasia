@@ -334,7 +334,7 @@
 	{
 		"columnNumber": 9,
 		"era": "Renaissance age",
-		"techCost": 1200,
+		"techCost": 1300,
 		"buildingCost": 280,
 		"wonderCost": 700,
 		"techs": [
@@ -379,7 +379,7 @@
 	{
 		"columnNumber": 10,
 		"era": "Renaissance age",
-		"techCost": 1650,
+		"techCost": 1850,
 		"buildingCost": 320,
 		"wonderCost": 800,
 		"techs": [
@@ -413,7 +413,7 @@
 	{
 		"columnNumber": 11,
 		"era": "Industrial age",
-		"techCost": 2350,
+		"techCost": 3100,
 		"buildingCost": 400,
 		"wonderCost": 975,
 		"techs": [
@@ -424,7 +424,7 @@
 				"quote": "'Those who cannot remember the past are condemned to repeat it.' - George Santayana"
 			},
 			{
-				"name": "Mana Channelling",
+				"name": "Mana Channeling",
 				"row": 5,
 				"prerequisites": ["Enlightenment","Scientific Theory"],
 				"quote": "'Is it a fact - or have I dreamt it - the world of matter has become a great nerve, vibrating thousands of miles in a breathless point of time?' - Nathaniel Hawthorne"
@@ -452,7 +452,7 @@
 	{
 		"columnNumber": 12,
 		"era": "Industrial age",
-		"techCost": 3100,
+		"techCost": 4100,
 		"buildingCost": 500,
 		"wonderCost": 1250,
 		"techs": [
@@ -465,14 +465,14 @@
 			{
 				"name": "Empowerment",
 				"row": 4,
-				"prerequisites": ["Mana Channelling"],
+				"prerequisites": ["Mana Channeling"],
 				"quote": "'Technology is the foundation of the empowerment economy.' - Elise Stefanik"
 			},
 			{
 				"name": "Mana Battery",
 				"row": 5,
 				"uniques": ["[+200]% Strength <for [The Heroes] units>"],
-				"prerequisites": ["Mana Channelling","Magic Industrialization"],
+				"prerequisites": ["Mana Channeling","Magic Industrialization"],
 				"quote": "I think of the sun of as my battery, my charger.' - Alexis Ren"
 			},
 			{
@@ -492,14 +492,14 @@
 	{
 		"columnNumber": 13,
 		"era": "Pre-Modern age",
-		"techCost": 4150,
+		"techCost": 6400,
 		"buildingCost": 500,
 		"wonderCost": 1250,
 		"techs": [
 			{
 				"name": "Refrigeration",
 				"row": 3,
-				"prerequisites": ["Biology"],
+				"prerequisites": ["Biology","Empowerment"],
 				"quote": "'And homeless near a thousand homes I stood, and near a thousand tables pined and wanted food.' - William Wordsworth"
 			},
 			{
@@ -525,7 +525,7 @@
 	{
 		"columnNumber": 14,
 		"era": "Pre-Modern age",
-		"techCost": 5200,
+		"techCost": 7700,
 		"buildingCost": 500,
 		"wonderCost": 1250,
 		"techs": [
@@ -559,7 +559,7 @@
 	{
 		"columnNumber": 15,
 		"era": "Modern age",
-		"techCost": 6600,
+		"techCost": 8800,
 		"buildingCost": 500,
 		"wonderCost": 1250,
 		"techs": [
@@ -598,7 +598,7 @@
 	{
 		"columnNumber": 16,
 		"era": "Modern age",
-		"techCost": 8000,
+		"techCost": 9500,
 		"buildingCost": 500,
 		"wonderCost": 1250,
 		"techs": [
@@ -627,7 +627,7 @@
 	{
 		"columnNumber": 17,
 		"era": "Future age",
-		"techCost": 9500,
+		"techCost": 11000,
 		"buildingCost": 700,
 		"wonderCost": 1250,
 		"techs": [

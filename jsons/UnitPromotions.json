@@ -3,18 +3,19 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Recon","Sword","Gunpowder","Mounted","Anti-Cav","Archery","Siege","Melee Water","Ranged Water","Submarine","Hero","Siege Hero","Melee Water Hero","Water Hero","Air Terror","Water Terror"]
+		"unitTypes": ["Recon","Sword","Gunpowder","Mounted","Anti-Cav","Archery","Siege","Melee Water","Ranged Water","Submarine","Hero","Evil Hero","Siege Hero","Melee Water Hero","Water Hero","Air Terror","Water Terror"]
 	},
 	{
 		"name": "Heal Instantly II",
 		"uniques": ["Heal this unit by [75] HP", "Doing so will consume this opportunity to choose a Promotion", "Only available <after discovering [Pharmaceuticals]>"],
-		"unitTypes": ["Recon","Sword","Gunpowder","Mounted","Anti-Cav","Archery","Siege","Melee Water","Ranged Water","Submarine","Hero","Siege Hero","Melee Water Hero","Water Hero","Air Terror","Water Terror"]
+		"unitTypes": ["Recon","Sword","Gunpowder","Mounted","Anti-Cav","Archery","Siege","Melee Water","Ranged Water","Submarine","Hero","Evil Hero","Siege Hero","Melee Water Hero","Water Hero","Air Terror","Water Terror"]
 	},
 	
 	// Recon
 	{
 		"name": "Ranger",
-		"uniques": ["[+1] Movement <in [Forest] tiles>", "[+1] Movement <in [Jungle] tiles>"],
+		"uniques": ["[+1] Movement <in [Forest] tiles>", 
+					"[+1] Movement <in [Jungle] tiles>"],
 		"unitTypes": ["Recon"]
 	},
 	{
@@ -31,13 +32,15 @@
 	{
 		"name": "Survivalism",
 		"prerequisites": ["Ranger","Highlander"],
-		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "[+33]% Strength <when defending>"],
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", 
+					"[+33]% Strength <when defending>"],
 		"unitTypes": ["Recon"]
 	},
 	{
 		"name": "Spyglass",
 		"prerequisites": ["Scouting"],
-		"uniques": ["Can see over obstacles", "May withdraw before melee ([50]%)"],
+		"uniques": ["Can see over obstacles", 
+					"May withdraw before melee ([50]%)"],
 		"unitTypes": ["Recon"]
 	},
 	{
@@ -133,19 +136,22 @@
 	{
 		"name": "Sapping",
 		"prerequisites": ["Grapeshot","Crew Weapons"],
-		"uniques": ["[+25]% Strength <vs cities>", "No movement cost to pillage"],
+		"uniques": ["[+25]% Strength <vs cities>", 
+					"No movement cost to pillage"],
 		"unitTypes": ["Siege","Siege Hero"]
 	},
 	{
 		"name": "Crew Weapons",
 		"prerequisites": ["Sapping","Entrenched Position"],
-		"uniques": ["[+25]% Strength <when defending>", "[+10] HP when healing"],
+		"uniques": ["[+25]% Strength <when defending>", 
+					"[+10] HP when healing"],
 		"unitTypes": ["Siege","Siege Hero"]
 	},
 	{
 		"name": "Flare",
 		"prerequisites": ["Sapping","Crew Weapons"],
-		"uniques": ["[+1] Sight", "Ranged attacks may be performed over obstacles"],
+		"uniques": ["[+1] Sight", 
+					"Ranged attacks may be performed over obstacles"],
 		"unitTypes": ["Siege","Siege Hero"]
 	},
 	{
@@ -155,39 +161,41 @@
 		"unitTypes": ["Siege","Siege Hero"]
 	},
 	
-	// Melee+Hero
-	{
-		"name": "Exposed Core",
-		"uniques": ["[+50]% Strength <when below [40] HP>"],
-		"unitTypes": ["Construct"]
-	},
+	// Melee+Hero+Construct
 	{
 		"name": "Shock",
 		"uniques": ["[+25]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Anti-Cav","Hero","Construct"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Anti-Cav","Hero","Evil Hero","Construct","Tamer"]
 	},
 	{
 		"name": "Drill",
 		"uniques": ["[+25]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Anti-Cav","Hero","Construct"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Anti-Cav","Hero","Evil Hero","Construct","Tamer"]
 	},
 	{
 		"name": "Battlecry",
 		"prerequisites": ["Shock"],
 		"uniques": ["[+25]% Strength <vs [Land] units> <when attacking>"],
-		"unitTypes": ["Sword","Gunpowder","Hero","Construct"]
+		"unitTypes": ["Sword","Gunpowder","Hero","Evil Hero","Construct"]
+	},
+	{
+		"name": "Pet Command",
+		"prerequisites": ["Shock"],
+		"uniques": ["[+15]% Strength bonus for [Beast] units within [2] tiles"],
+		"unitTypes": ["Tamer"]
 	},
 	{
 		"name": "Tortoise",
 		"prerequisites": ["Drill"],
-		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>", "[+25]% Strength <in [City center] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Hero","Construct"]
+		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>", 
+					"[+25]% Strength <in [City center] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Hero","Evil Hero","Construct","Tamer"]
 	},
 	{
 		"name": "Besiege",
 		"prerequisites": ["Battlecry","March"],
 		"uniques": ["[+50]% Strength <vs cities>"],
-		"unitTypes": ["Sword","Gunpowder","Hero","Construct"]
+		"unitTypes": ["Sword","Gunpowder","Hero","Evil Hero","Construct"]
 	},
 	{
 		"name": "Assault Protocol",
@@ -196,10 +204,16 @@
 		"unitTypes": ["Construct"]
 	},
 	{
+		"name": "Pet Heal",
+		"prerequisites": ["Pet Command","Pet Vision"],
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "All adjacent units heal [+5] HP when healing"], // Should just Beast
+		"unitTypes": ["Tamer"]
+	},
+	{
 		"name": "March",
 		"prerequisites": ["Tortoise","Besiege"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Sword","Gunpowder","Hero"]
+		"unitTypes": ["Sword","Gunpowder","Hero","Evil Hero"]
 	},
 	{
 		"name": "Auxiliary Core",
@@ -208,10 +222,30 @@
 		"unitTypes": ["Construct"]
 	},
 	{
+		"name": "Pet Vision",
+		"prerequisites": ["Tortoise","Pet Heal"]
+		"uniques": ["[+2] Sight"],
+		"unitTypes": ["Tamer"]
+	},
+	{
 		"name": "Woodsman",
 		"prerequisites": ["Besiege","March"],
-		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]"],
-		"unitTypes": ["Sword","Gunpowder","Hero"]
+		"uniques": ["Double movement in [Forest]", 
+					"Double movement in [Jungle]"],
+		"unitTypes": ["Sword","Gunpowder","Hero","Evil Hero"]
+	},
+	{
+		"name": "Exposed Core",
+		"prerequisites": ["Assault Protocol","Auxiliary Core"],
+		"uniques": ["[+25]% Strength <when below [40] HP>", 
+					"[+25]% Strength <when below [40] HP> <when defending>"],
+		"unitTypes": ["Construct"]
+	},
+	{
+		"name": "Healing Featherite",
+		"prerequisites": ["Pet Heal","Pet Vision"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Tamer"]
 	},
 	/*{
 		"name": "Advancement",
@@ -224,7 +258,8 @@
 	{
 		"name": "Coursers",
 		"prerequisites": ["Shock"],
-		"uniques": ["[+25]% Strength <vs [Archery] units> <when attacking>", "[+25]% Strength <vs [Siege] units> <when attacking>", 
+		"uniques": ["[+25]% Strength <vs [Archery] units> <when attacking>", 
+					"[+25]% Strength <vs [Siege] units> <when attacking>", 
 					"[+25]% Strength <vs [Siege Hero] units> <when attacking>"],
 		"unitTypes": ["Mounted"]
 	},
@@ -237,7 +272,8 @@
 	{
 		"name": "Depredation",
 		"prerequisites": ["Coursers","Calming Amulet"],
-		"uniques": ["[+1] Movement", "No movement cost to pillage"],
+		"uniques": ["[+1] Movement", 
+					"No movement cost to pillage"],
 		"unitTypes": ["Mounted"]
 	},
 	{
@@ -269,7 +305,8 @@
 	{
 		"name": "Thrust",
 		"prerequisites": ["Formation","Holding Spirit"],
-		"uniques": ["[+25]% Strength <vs [Sword] units>", "[+25]% Strength <vs [Gunpowder] units>"],
+		"uniques": ["[+25]% Strength <vs [Sword] units>", 
+					"[+25]% Strength <vs [Gunpowder] units>"],
 		"unitTypes": ["Anti-Cav"]
 	},
 	{
@@ -288,7 +325,8 @@
 	// Vampire
 	{
 		"name": "Bloodlust",
-		"uniques": ["[+5] HP when healing <in [Friendly Land] tiles>", "[+5] HP when healing <in [Coffin] tiles>"],
+		"uniques": ["[+5] HP when healing <in [Friendly Land] tiles>", 
+					"[+5] HP when healing <in [Coffin] tiles>"],
 		"unitTypes": ["Vampire"]
 	},
 	{
@@ -367,32 +405,32 @@
 	// Mixed Land
 	{
 		"name": "Charge",
-		"prerequisites": ["Battlecry","Tortoise","Formation","Shield Wall","Coursers","Barding","Winged Vampire"],
+		"prerequisites": ["Battlecry","Tortoise","Formation","Shield Wall","Coursers","Barding","Winged Vampire","Daywalker"],
 		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
-		"unitTypes": ["Mounted","Anti-Cav","Hero","Vampire"]
+		"unitTypes": ["Mounted","Anti-Cav","Hero","Evil Hero","Vampire"]
 	},
 	{
 		"name": "Sentry",
 		"prerequisites": ["Battlecry","Tortoise","Formation","Shield Wall","Coursers","Barding","Navigator","Line of Battle","Preparatory Fire",
 			"Loot","Lurking Attack"]
 		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Anti-Cav","Hero","Ranged Water","Water Hero","Water Terror"]
+		"unitTypes": ["Sword","Gunpowder","Construct","Mounted","Anti-Cav","Hero","Evil Hero","Ranged Water","Water Hero","Water Terror"]
 	},
 	{
 		"name": "Amphibious",
-		"prerequisites": ["Battlecry","Tortoise"],
+		"prerequisites": ["Battlecry","Pet Command","Tortoise","Winged Vampire","Daywalker"],
 		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
-		"unitTypes": ["Sword","Gunpowder","Hero","Construct"]
+		"unitTypes": ["Sword","Gunpowder","Hero","Evil Hero","Construct","Vampire","Tamer"]
 	},
 	{
 		"name": "Blitz",
-		"prerequisites": ["Besiege","March","Thrust","Holding Spirit","Depredation","Calming Amulet","Frightening Vibe"],
+		"prerequisites": ["Besiege","March","Thrust","Holding Spirit","Depredation","Calming Amulet","Frightening Vibe","Pet Heal","Pet Vision"],
 		"uniques": ["[1] additional attacks per turn", "Can move after attacking"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Anti-Cav","Hero","Vampire"]
+		"unitTypes": ["Sword","Gunpowder","Mounted","Anti-Cav","Hero","Evil Hero","Vampire","Tamer"]
 	},
 	{
 		"name": "Medic",
-		"prerequisites": ["Shock","Drill","Scouting","Survivalism"],
+		"prerequisites": ["Shock","Drill","Ranger","Highlander"],
 		"uniques": ["All adjacent units heal [+5] HP when healing"],
 		"unitTypes": ["Sword","Gunpowder","Anti-Cav","Recon"]
 	},
@@ -406,7 +444,7 @@
 		"name": "Teleportation",
 		"prerequisites": ["Woodsman","Flare",],
 		"uniques": ["May Paradrop up to [15] tiles from inside friendly territory"],
-		"unitTypes": ["Siege Hero","Hero"]
+		"unitTypes": ["Siege Hero","Hero","Evil Hero"]
 	},
 	
 	// Water Melee
@@ -440,7 +478,8 @@
 	{
 		"name": "Coastal Raider",
 		"prerequisites": ["Landing Party"],
-		"uniques": ["[+25]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
+		"uniques": ["[+25]% Strength <vs cities>", 
+					"Earn [33]% of the damage done to [City] units as [Gold]"],
 		"unitTypes": ["Melee Water","Melee Water Hero"]
 	},
 	{
@@ -452,7 +491,14 @@
 	{
 		"name": "Green Water Navy",
 		"prerequisites": ["Convoy","Coastal Raider"],
-		"uniques": ["[+15]% Strength <in [Coast] tiles>", "[+15]% Strength <when fighting in [Atoll] tiles>"],
+		"uniques": ["[+15]% Strength <in [Coast] tiles>", 
+					"[+25]% Strength <when fighting in [Atoll] tiles>"],
+		"unitTypes": ["Melee Water","Melee Water Hero"]
+	},
+	{
+		"name": "Creeping Attack",
+		"prerequisites": ["Convoy","Green Water Navy"],
+		"uniques": ["[+25]% Strength <vs [Submarine] units>"],
 		"unitTypes": ["Melee Water","Melee Water Hero"]
 	},
 
@@ -499,7 +545,7 @@
 	{
 		"name": "Bombardment",
 		"prerequisites": ["Rolling Barrage","Coincidence Rangefinding"],
-		"uniques": ["[+33]% Strength <vs [Land] units> <when attacking>", "Ranged attacks may be performed over obstacles"],
+		"uniques": ["[+33]% Strength <vs [Land] units> <when attacking>"],
 		"unitTypes": ["Ranged Water"]
 	},
 	{
@@ -509,16 +555,16 @@
 		"unitTypes": ["Water Hero"]
 	},
 	
-	// Water Terror
+	// Water Terror+Submarine
 	{
 		"name": "Loot",
 		"uniques": ["No movement cost to pillage", "Earn [33]% of the damage done to [Water] units as [Gold]"],
-		"unitTypes": ["Water Terror"]
+		"unitTypes": ["Water Terror","Submarine"]
 	},
 	{
 		"name": "Lurking Attack",
 		"uniques": ["[+25]% Strength <when attacking>"],
-		"unitTypes": ["Water Terror"]
+		"unitTypes": ["Water Terror","Submarine"]
 	},
 	{
 		"name": "Lunate Tail",
@@ -527,40 +573,52 @@
 		"unitTypes": ["Water Terror"]
 	},
 	{
+		"name": "Blockade Runner",
+		"prerequisites": ["Loot"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Submarine"]
+	},
+	{
 		"name": "Water Veteran",
 		"prerequisites": ["Lurking Attack"],
 		"uniques": ["[+25]% Strength <vs [Water] units>"],
-		"unitTypes": ["Water Terror"]
+		"unitTypes": ["Water Terror","Submarine"]
 	},
 	{
 		"name": "Underwater Vision",
-		"prerequisites": ["Lunate Tail"],
+		"prerequisites": ["Lunate Tail","Blockade Runner"],
 		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Water Terror"]
+		"unitTypes": ["Water Terror","Submarine"]
 	},
 	{
 		"name": "Extended Range",
 		"prerequisites": ["Water Veteran"],
 		"uniques": ["[+1] Range"],
-		"unitTypes": ["Water Terror"]
+		"unitTypes": ["Water Terror","Submarine"]
 	},
 	{
 		"name": "Weakpoint Exploitation",
-		"prerequisites": ["Underwater Vision","Wolfpack"],
+		"prerequisites": ["Underwater Vision","Wolfpack","Homing Torpedoes"],
 		"uniques": ["[+25]% Strength <vs [Wounded] units> <when attacking>"],
-		"unitTypes": ["Water Terror"]
+		"unitTypes": ["Water Terror","Submarine"]
 	},
 	{
 		"name": "Wolfpack",
 		"prerequisites": ["Weakpoint Exploitation","Extended Range"],
-		"uniques": ["[+25]% Strength <when adjacent to a [{Military} {Water}] unit>"],
+		"uniques": ["[+25]% Strength <when adjacent to a [Water Terror] unit>"],
 		"unitTypes": ["Water Terror"]
+	},
+	{
+		"name": "Homing Torpedoes",
+		"prerequisites": ["Weakpoint Exploitation","Extended Range"],
+		"uniques": ["[+25]% Strength <when attacking>"],
+		"unitTypes": ["Submarine"]
 	},
 	{
 		"name": "Silent Running",
 		"prerequisites": ["Weakpoint Exploitation","Wolfpack"],
 		"uniques": ["Can move after attacking"],
-		"unitTypes": ["Water Terror"]
+		"unitTypes": ["Water Terror","Submarine"]
 	},
 	
 	// Mixed Water
@@ -602,7 +660,7 @@
 	},
 	{
 		"name": "Deck Crews",
-		"prerequisites": ["Double Armor Plating","Combustion"],
+		"prerequisites": ["Secondary Armor Plating","Combustion"],
 		"uniques": ["[+25]% Strength <when defending>", "[+5] HP when healing"],
 		"unitTypes": ["Airship"]
 	},
@@ -672,7 +730,7 @@
 		"name": "Mana Flare",
 		"prerequisites": ["Weakpoint Exploitation","Wolfpack","Titanium Scale","Hunter Killer"],
 		"uniques": ["[1] additional attacks per turn", "Can move after attacking"],
-		"unitTypes": ["Water Terror","Air Terror","Hero"]
+		"unitTypes": ["Water Terror","Air Terror",/*"Hero"*/]
 	},
 	{
 		"name": "Clairvoyant",
@@ -698,14 +756,19 @@
 		"unitTypes": ["Bomber"]
 	},
 	{
+		"name": "Dogfighting",
+		"uniques": ["[+33]% Strength when performing Air Sweep"],
+		"unitTypes": ["Fighter"]
+	},
+	{
 		"name": "Air Targeting",
-		"prerequisites": ["Siege","Interception","Evasion"],
+		"prerequisites": ["Siege","Interception","Evasion","Dogfighting"],
 		"uniques": ["[+33]% Strength <vs [Water] units>"],
 		"unitTypes": ["Fighter","Bomber"]
 	},
 	{
 		"name": "Air Bombardment",
-		"prerequisites": ["Siege","Interception","Evasion"],
+		"prerequisites": ["Siege","Interception","Evasion","Dogfighting"],
 		"uniques": ["[+33]% Strength <vs [Land] units>"],
 		"unitTypes": ["Fighter","Bomber"]
 	},
@@ -745,7 +808,7 @@
 		"name": "Intimidation",
 		"prerequisites": ["Weakpoint Exploitation","Wolfpack","Titanium Scale","Hunter Killer","Supply","Flare","Teleportation"],
 		"uniques": ["[-15]% Strength for enemy [All] units in adjacent [All] tiles"],
-		"unitTypes": ["Air Terror","Water Terror","Water Hero","Melee Water Hero","Siege Hero","Hero"]
+		"unitTypes": ["Air Terror","Water Terror","Water Hero","Melee Water Hero","Siege Hero","Hero","Evil Hero"]
 	},
 	{
 		"name": "Logistics",
@@ -812,7 +875,7 @@
 		"uniques": ["Earn [50]% of the damage done to [City] units as [Gold]"]
 	},
 	{
-		"name": "Skating", // Realm Patrol
+		"name": "Snowman", // Realm Patrol
 		"uniques": ["Double movement in [Snow]"]
 	},
 	{
@@ -860,6 +923,14 @@
 	},
 	{
 		"name": "Impetus", // Fanatic
-		"uniques": ["[+25]% Strength <when attacking> <when above [99] HP>"]
+		"uniques": ["[+25]% Strength <when attacking> <when above [95] HP>"]
+	},
+	{
+		"name": "Bloodbath", // Cerberus
+		"uniques": ["Heals [10] damage if it kills a unit"],
+	},
+	{
+		"name": "Elusive", // Bladedancer
+		"uniques": ["May withdraw before melee ([50]%)"]
 	},
 ]

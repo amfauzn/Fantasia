@@ -75,7 +75,7 @@
 		"strength": 3,
 		"cost": 12,
 		"upgradesTo": "Swordsman",
-		"obsoleteTech": "Domestication",
+		"obsoleteTech": "Iron Working",
 		"uniques": ["[-100]% maintenance costs", "Will not be displayed in Civilopedia"],
 		"promotions": ["Great Generals I"],
 		"attackSound": "nonmetalhit"
@@ -212,7 +212,7 @@
 		"uniqueTo": "Marunesia",
 		"replaces": "Work Boats",
 		"movement": 4,
-		"cost": 40,
+		"cost": 30,
 		"requiredTech": "Sailing",
 		"uniques": ["Can construct [Ulu Wae]", "Cannot enter ocean tiles <before discovering [Astronomy]>", 
 			"May create improvements on water resources", "Uncapturable"],
@@ -283,7 +283,7 @@
 		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
 	},
-	/*{
+	{
 		"name": "Novice Beast Tamer",
 		"unitType": "Tamer",
 		"movement": 2,
@@ -292,13 +292,14 @@
 		"requiredTech": "Domestication",
 		"obsoleteTech": "Acoustics",
 		"upgradesTo": "Educated Beast Tamer",
-		"uniques" : ["May upgrade to [Arch-Wizard] through ruins-like effects", "[-66]% Strength <when attacking>"],
-		"replacementTextForUniques": "-66% Strength when attacking, 33% chance to recruit Beast",
+		"uniques": ["May upgrade to [Arch-Wizard] through ruins-like effects", "[-66]% Strength <when attacking>", 
+					"May capture killed [Beast] units <with [33]% chance>"],
+		"replacementTextForUniques": "-66% Strength when attacking, 33% chance to tame Beast",
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
 			{"text": "Beast Tamer is very weak when attacking, but they have chances to recruit a beast."}
 		]
-	},*/
+	},
 	{
 		"name": "Horseman",
 		"unitType": "Mounted",
@@ -489,7 +490,7 @@
 		"movement": 2,
 		"cost": 100,
 		"requiredTech": "Arcane Magic",
-		"obsoleteTech": "Mana Channelling",
+		"obsoleteTech": "Mana Channeling",
 		"upgradesTo": "Cleric",
 		"uniques": ["[+1] Sight", "All adjacent units heal [10] extra HP when healing", "Uncapturable"],
 		"civilopediaText": [
@@ -544,25 +545,25 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Daggerman",
-		"unitType": "Sword",
+		"name": "Adept",
+		"unitType": "Mage",
 		"uniqueTo": "Red Moon",
 		"replaces": "Swordsman",
 		"movement": 2,
 		"range": 2,
 		"strength": 13,
-		"rangedStrength": 11,
+		"rangedStrength": 13,
 		"cost": 75,
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
-		"promotions": ["Great Generals I","Seduction"],
+		"promotions": ["Seduction"],
 		"attackSound": "metalhit",
-		"civilopediaText": [
+		/*"civilopediaText": [
 			{"text": "Ranged version of Swordsman."}
-		]
+		]*/
 	},
 	{
 		"name": "Warhammer",
@@ -619,6 +620,22 @@
 		"attackSound": "metalhit"
 	},
 	{
+		"name": "Bladedancer",
+		"uniqueTo": "Ilythiir",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 17,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"promotions": ["Elusive"],
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Pikeman",
 		"unitType": "Anti-Cav",
 		"movement": 2,
@@ -647,7 +664,7 @@
 		"uniqueTo": "Dwargon",
 		"unitType": "Construct",
 		"movement": 2,
-		"strength": 25,
+		"strength": 20,
 	//	"rangedStrength": 25,
 	//	"range": 0,
 		"cost": 150,
@@ -787,6 +804,22 @@
 		]
 	},
 	{
+		"name": "Cerberus",
+		"replaces": "Knight",
+		"uniqueTo": "Urush",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"promotions": ["Intimidation","Bloodbath"],
+		"attackSound": "horse"
+	},
+	{
 		"name": "Mammoth Rider",
 		"unitType": "Mounted",
 		"movement": 3,
@@ -807,7 +840,7 @@
 		"range": 1,
 		"cost": 125,
 		"requiredTech": "Quintessence Force",
-		"obsoleteTech": "Mana Channelling",
+		"obsoleteTech": "Mana Channeling",
 		"upgradesTo": "Arch-Wizard",
 		"requiredResource": "Magician",
 		"uniques": ["[+50]% Strength <vs cities> <when attacking>", "[-15]% Strength <vs [Melee] units> <when defending>"],
@@ -977,13 +1010,13 @@
 		"strength": 24,
 		"cost": 170,
 		"requiredTech": "Astronomy",
-		"obsoleteTech": "Combustion",
+		"obsoleteTech": "Empowerment",
 		"upgradesTo": "Ironclad",
 		"uniques": ["[+1] Sight", "May withdraw before melee ([80]%)"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
 	},
-	/*{
+	{
 		"name": "Educated Beast Tamer",
 		"unitType": "Tamer",
 		"movement": 2,
@@ -992,13 +1025,13 @@
 		"requiredTech": "Acoustics",
 		"obsoleteTech": "Archaeology",
 		"upgradesTo": "Elite Beast Tamer",
-		"uniques" : ["[-33]% Strength <when attacking>"],
+		"uniques": ["[-33]% Strength <when attacking>", "May capture killed [Beast] units <with [66]% chance>"],
 		"replacementTextForUniques": "-33% Strength when attacking, 66% chance to recruit Beast",
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
-			{"text": "Educated Beast Tamer gains more chances to recruit beast and gain less penalty when attacking."}
+			{"text": "Educated Beast Tamer gains more chances to tame beast and gain less penalty when attacking."}
 		]
-	},*/
+	},
 	{
 		"name": "Roc",
 		"unitType": "Air Terror",
@@ -1006,7 +1039,7 @@
 		"strength": 28,
 		"cost": 200,
 		"requiredTech": "Magic Negation",
-		"obsoleteTech": "Mana Channelling",
+		"obsoleteTech": "Mana Channeling",
 		"upgradesTo": "Griffon",
 		"uniques": ["No defensive terrain bonus", "[+100]% Strength <vs [Air Terror] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "whoosh",
@@ -1021,7 +1054,7 @@
 		"strength": 30,
 		"cost": 210,
 		"requiredTech": "Magic Negation",
-		"obsoleteTech": "Mana Channelling",
+		"obsoleteTech": "Mana Channeling",
 		"upgradesTo": "Dragon Knight",
 		"requiredResource": "Dragon's Egg",
 		"promotions": ["Fire Breath"],
@@ -1051,7 +1084,7 @@
 		"requiredTech": "Gunpowder",
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Rifleman",
-		"promotions": ["Skating"],
+		"promotions": ["Snowman"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{"text": "Stronger than Musketman, doesn't need Niter."}
@@ -1111,7 +1144,7 @@
 		"uniqueTo": "Dwargon",
 		"unitType": "Construct",
 		"movement": 2,
-		"strength": 35,
+		"strength": 32,
 	//	"rangedStrength": 30,
 	//	"range": 0,
 		"cost": 220,
@@ -1145,7 +1178,7 @@
 		"cost": 195,
 		"requiredTech": "Navigation",
 		"upgradesTo": "Ironclad",
-		"obsoleteTech": "Combustion",
+		"obsoleteTech": "Empowerment",
 		"promotions": ["Coastal Raider"],
 		"uniques": ["May capture killed [Water] units"],
 		"attackSound": "cannon"
@@ -1226,26 +1259,26 @@
 		"promotions": ["Lurking Attack"],
 		"attackSound": "nonmetalhit"
 	},
-	/*{
+	{
 		"name": "Elite Beast Tamer",
 		"unitType": "Tamer",
 		"movement": 2,
 		"strength": 40,
 		"cost": 290,
 		"requiredTech": "Archaeology",
-		"uniques" : ["[-10]% Strength <when attacking>"],
-		"replacementTextForUniques": "-10% Strength when attacking, 100% chance to recruit Beast",
+		"uniques" : ["[-10]% Strength <when attacking>", "May capture killed [Beast] units <with [100]% chance>"],
+		"replacementTextForUniques": "-10% Strength when attacking, 100% chance to tame Beast",
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
-			{"text": "Elite Beast Tamer always success when recruit beast and gain less penalty when attacking."}
+			{"text": "Elite Beast Tamer always managed to tame beast and gain less penalty when attacking."}
 		]
-	},*/
+	},
 	{
 		"name": "Cleric",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 250,
-		"requiredTech": "Mana Channelling",
+		"requiredTech": "Mana Channeling",
 		"uniques": ["[+1] Sight", "All adjacent units heal [25] extra HP when healing", "Uncapturable"],
 		"civilopediaText": [
 			{"text": "Support unit with heal aura."}
@@ -1256,7 +1289,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 200,
-		"requiredTech": "Mana Channelling",
+		"requiredTech": "Mana Channeling",
 		"uniques": ["[-10]% Strength for enemy [Military] units in adjacent [All] tiles", "Uncapturable"],
 		"civilopediaText": [
 			{"text": "Intimidating support unit."}
@@ -1268,7 +1301,7 @@
 		"movement": 5,
 		"strength": 38,
 		"cost": 320,
-		"requiredTech": "Mana Channelling",
+		"requiredTech": "Mana Channeling",
 		"obsoleteTech": "Flight",
 		"upgradesTo": "Garuda",
 		"uniques": ["No defensive terrain bonus", "[+75]% Strength <vs [Air Terror] units>", "Never appears as a Barbarian unit"],
@@ -1285,7 +1318,7 @@
 		"rangedStrength": 36,
 		"range": 1,
 		"cost": 330,
-		"requiredTech": "Mana Channelling",
+		"requiredTech": "Mana Channeling",
 		"obsoleteTech": "Flight",
 		"upgradesTo": "Dragon Paladin",
 		"requiredResource": "Dragon's Egg"
@@ -1390,7 +1423,7 @@
 		"uniqueTo": "Dwargon",
 		"unitType": "Construct",
 		"movement": 2,
-		"strength": 42,
+		"strength": 40,
 	//	"rangedStrength": 36,
 	//	"range": 0,
 		"cost": 310,
@@ -1413,7 +1446,7 @@
 		"requiredResource": "Iron",
 		"requiredTech": "Empowerment",
 		"upgradesTo": "Destroyer",
-		"obsoleteTech": "Combustion",
+		"obsoleteTech": "Combined Arms",
 		"uniques": ["[+33]% Strength <vs cities>", "May withdraw before melee ([33]%)", "Double movement in [Coast]", "Never appears as a Barbarian unit"],
 		"promotions": ["Coastal Raider"],
 		"attackSound": "shipguns"
@@ -1860,7 +1893,8 @@
 		"movement": 2,
 		"strength": 25,
 		"promotions": ["Great Generals II"],
-		"uniques": ["Unbuildable", "Limited to [1] per Civilization", "Never appears as a Barbarian unit", "The Heroes"],
+		"uniques": ["Unbuildable", "Limited to [1] per Civilization", "Never appears as a Barbarian unit", "The Heroes", 
+					"Only available <if [Mas Karebet Portal] is constructed>"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "metalhit"
 	},
@@ -1870,7 +1904,8 @@
 		"movement": 2,
 		"strength": 24,
 		"promotions": ["Tortoise","Great Generals I"],
-		"uniques": ["Unbuildable", "Limited to [1] per Civilization", "Never appears as a Barbarian unit", "The Heroes"],
+		"uniques": ["Unbuildable", "Limited to [1] per Civilization", "Never appears as a Barbarian unit", "The Heroes", 
+					"Only available <if [Ken Arok Portal] is constructed>"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "metalhit"
 	},
@@ -1883,7 +1918,7 @@
 		"range": 2,
 		"promotions": ["Great Generals I"],
 		"uniques": ["Unbuildable", "Limited to [1] per Civilization", "[-15]% Strength <when attacking> <vs cities>", 
-			"Never appears as a Barbarian unit", "The Heroes"],
+					"Never appears as a Barbarian unit", "The Heroes", "Only available <if [Pandji Portal] is constructed>"],
 		"replacementTextForUniques": "Unbuildable",
 		"promotions": ["Extended Range"],
 		"attackSound": "arrow"
@@ -1894,7 +1929,7 @@
 		"movement": 2,
 		"strength": 24,
 		"uniques": ["Unbuildable", "[+66]% Strength <vs [Mounted] units>", "Limited to [1] per Civilization", 
-			"Never appears as a Barbarian unit", "The Heroes"],
+					"Never appears as a Barbarian unit", "The Heroes", "Only available <if [Leonidas Portal] is constructed>"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "metalhit"
 	},
@@ -1905,7 +1940,7 @@
 		"strength": 24,
 		"promotions": ["Great Generals I"],
 		"uniques": ["Unbuildable", "Can move after attacking", "No defensive terrain bonus", "Limited to [1] per Civilization", 
-			"Never appears as a Barbarian unit", "The Heroes"],
+					"Never appears as a Barbarian unit", "The Heroes", "Only available <if [Siliwangi Portal] is constructed>"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "horse"
 	},
@@ -1918,16 +1953,20 @@
 		"range": 2,
 		"promotions": ["Great Generals I","Logistics"],
 		"uniques": ["Unbuildable", "Limited to [1] per Civilization", "[-15]% Strength <when attacking> <vs cities>", 
-			"[-15]% Strength <when attacking> <vs [Water] units>", "Never appears as a Barbarian unit", "The Heroes"],
+					"[-15]% Strength <when attacking> <vs [Water] units>", "Never appears as a Barbarian unit", "The Heroes", 
+					"Only available <if [Liang Portal] is constructed>"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "arrow"
 	},
 	{
 		"name": "Jeanne d'Arc",
 		"unitType": "Siege Hero",	// Siege
-		"movement": 4,
-		"strength": 22,
-		"uniques": ["Unbuildable", "Limited to [1] per Civilization", "Never appears as a Barbarian unit", "The Heroes"],
+		"movement": 2,
+		"strength": 20,
+		"rangedStrength": 24,
+		"range": 3,
+		"uniques": ["Unbuildable", "Limited to [1] per Civilization", "Must set up to ranged attack", 
+					"Never appears as a Barbarian unit", "The Heroes", "Only available <if [Jeanne Portal] is constructed>"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "cannon"
 	},
@@ -1948,11 +1987,21 @@
 		"unitType": "Melee Water Hero", // Melee Water
 		"movement": 4,
 		"strength": 24,
-		"cost": 5,
 		"promotions": ["Sentry"],
 		"uniques": ["Unbuildable", "May withdraw before melee ([33]%)", "Limited to [1] per Civilization", "Never appears as a Barbarian unit", 
-			"Uncapturable", "The Heroes"],
+					"Uncapturable", "The Heroes"],
 		"replacementTextForUniques": "Unbuildable, May withdraw before melee (33%)",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Archdemon Kor'vash",
+		"unitType": "Evil Hero", // Evil Hero
+		"movement": 2,
+		"strength": 25,
+		"promotions": ["Intimidation"],
+		"uniques": ["Unbuildable", "[+15]% Strength bonus for [Military] units within [2] tiles", "Limited to [1] per Civilization", 
+					"Never appears as a Barbarian unit", "The Heroes", "Only available <if [Black Hole] is constructed>"],
+		"replacementTextForUniques": "Unbuildable, +15% Strength bonus for Military units within 2 tiles",
 		"attackSound": "metalhit"
 	},
 	
@@ -2040,7 +2089,7 @@
 		"movement": 5
 	},
 	{
-		"name": "Scorpion General",
+		"name": "Traon General",
 		"unitType": "Civilian",
 		"uniqueTo": "Arxia",
 		"replaces": "Great General"
@@ -2115,12 +2164,14 @@
 		"unitType": "Air Terror",
 		"uniqueTo": "Barbarians",
 		"movement": 3,
-		"strength": 30,
+		"strength": 28,
 		"cost": 50,
 		"requiredTech": "Trapping",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["[+15]% Strength <when fighting in [Barbarian encampment] tiles>", "Only available <in [Plains] tiles>", "Limited to [1] per Civilization", 
-			"Will not be displayed in Civilopedia", "Beast"],
+		"uniques": ["[+15]% Strength <when fighting in [Barbarian encampment] tiles>", 
+					"Only available <in [Plains] tiles>", 
+					"Limited to [3] per Civilization", 
+					"Will not be displayed in Civilopedia", "Beast"],
 		"attackSound": "shot"
 	},
 	{
@@ -2131,25 +2182,27 @@
 		"strength": 40,
 		"cost": 100,
 		"requiredTech": "Chivalry",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Only available <in [Grassland] tiles>", "Limited to [1] per Civilization", 
-			"Will not be displayed in Civilopedia", "Beast"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", 
+					"Only available <in [Grassland] tiles>", 
+					"Limited to [1] per Civilization", 
+					"Will not be displayed in Civilopedia", "Beast"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "horse"
 	},
 	{
-		"name": "Titan",
+		"name": "Minotaur",
 		"unitType": "Sword",
 		"uniqueTo": "Barbarians",
 		"movement": 2,
 		"strength": 30,
 		"cost": 50,
 		"obsoleteTech": "Wizardry",
-		"uniques": ["Ignores Zone of Control", "Only available <in [Tundra] tiles>", "Limited to [3] per Civilization", 
-			"Will not be displayed in Civilopedia", "Beast"],
+		"uniques": ["Limited to [3] per Civilization", 
+					"Will not be displayed in Civilopedia", "Beast"],
 		"promotions": ["Battlecry"],
 		"attackSound": "metalhit"
 	},
-	/*{
+	{
 		"name": "Sandworm",
 		"unitType": "Anti-Cav",
 		"uniqueTo": "Barbarians",
@@ -2157,22 +2210,11 @@
 		"strength": 25,
 		"cost": 50,
 		"obsoleteTech": "Wizardry",
-		"uniques": ["[+15]% Strength <vs [Mounted] units>", "[+2] Movement <in [Desert] tiles>", "Only available <in [Desert] tiles>", 
-			"Limited to [1] per Civilization", "Will not be displayed in Civilopedia", "Beast"],
+		"uniques": ["[+2] Movement <in [Desert] tiles>", 
+					"Only available <in [Desert] tiles>", 
+					"Limited to [1] per Civilization", 
+					"Will not be displayed in Civilopedia", "Beast"],
 		"attackSound": "nonmetalhit"
-	},*/
-	{
-		"name": "Pegasus",
-		"unitType": "Mounted",
-		"uniqueTo": "Barbarians",
-		"movement": 4,
-		"strength": 35,
-		"cost": 50,
-		"requiredTech": "Arcane Magic",
-		"obsoleteTech": "Mana Channelling",
-		"uniques": ["No defensive terrain bonus", "Can move after attacking", "Can pass through impassable tiles", "Only available <in [Hill] tiles>", 
-			"Limited to [2] per Civilization", "Will not be displayed in Civilopedia", "Beast"],
-		"attackSound": "horse"
 	},
 	{
 		"name": "Entmates",
@@ -2183,11 +2225,59 @@
 		"rangedStrength": 28,
 		"cost": 60,
 		"obsoleteTech": "Wizardry",
-		"uniques": ["[+15]% Strength <when defending>", "[+1] Movement <in [Forest] tiles>", "Only available <in [Forest] tiles>", 
-			"Limited to [3] per Civilization", "Will not be displayed in Civilopedia", "Beast"],
+		"uniques": ["[+15]% Strength <when defending>", "[+1] Movement <in [Forest] tiles>", 
+					"Only available <in [Forest] tiles>", 
+					"Limited to [3] per Civilization", 
+					"Will not be displayed in Civilopedia", "Beast"],
 		"attackSound": "nonmetalhit"
 	},
 	{
+		"name": "Pegasus",
+		"unitType": "Mounted",
+		"uniqueTo": "Barbarians",
+		"movement": 4,
+		"strength": 35,
+		"cost": 50,
+		"requiredTech": "Arcane Magic",
+		"obsoleteTech": "Mana Channeling",
+		"uniques": ["No defensive terrain bonus", "Can move after attacking", "Can pass through impassable tiles", 
+					"Only available <in [Hill] tiles>", 
+					"Limited to [2] per Civilization", 
+					"Will not be displayed in Civilopedia", "Beast"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Cyclop",
+		"unitType": "Archery",
+		"uniqueTo": "Barbarians",
+		"movement": 3,
+		"strength": 40,
+		"rangedStrength": 55,
+		"cost": 150,
+		"requiredTech": "Quintessence Force",
+		"obsoleteTech": "Mana Channeling",
+		"uniques": ["[+15]% Strength <when attacking> <with [10]% chance>", 
+					"Only available <in [Jungle] tiles>", 
+					"Limited to [2] per Civilization", 
+					"Will not be displayed in Civilopedia", "Beast"],
+		"attackSound": "bombing"
+	},
+	{
+		"name": "Titan",
+		"unitType": "Sword",
+		"uniqueTo": "Barbarians",
+		"movement": 2,
+		"strength": 60,
+		"cost": 250,
+		"requiredTech": "Mana Battery",
+		"uniques": ["Ignores Zone of Control", 
+					"Only available <in [Tundra] tiles>", 
+					"Limited to [3] per Civilization", 
+					"Will not be displayed in Civilopedia", "Beast"],
+		"promotions": ["Battlecry"],
+		"attackSound": "metalhit"
+	},
+	/*{
 		"name": "Jormungandr",
 		"unitType": "Melee Water",
 		"uniqueTo": "Barbarians",
@@ -2196,9 +2286,10 @@
 		"cost": 60,
 		"upgradesTo": "Leviathan",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Limited to [1] per Civilization", "Will not be displayed in Civilopedia", "Beast"],
+		"uniques": ["Limited to [1] per Civilization", 
+					"Will not be displayed in Civilopedia", "Beast"],
 		"attackSound": "nonmetalhit"
-	},
+	},*/
 	{
 		"name": "Leviathan",
 		"unitType": "Melee Water",
@@ -2208,7 +2299,9 @@
 		"cost": 175,
 		"requiredTech": "Chivalry",
 		"promotions": ["Observation"],
-		"uniques": ["May capture killed [Water] units", "Limited to [2] per Civilization", "Will not be displayed in Civilopedia", "Beast"],
+		"uniques": ["May capture killed [Water] units", 
+					"Limited to [2] per Civilization", 
+					"Will not be displayed in Civilopedia", "Beast"],
 		"attackSound": "nonmetalhit"
 	},
 	

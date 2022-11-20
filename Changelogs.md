@@ -125,3 +125,12 @@
 - Introducing rock-paper-scissor aspect for units
 - New unit class: Construct, Mage, & Monk
 - Unit balancing
+
+## v3.0.1 (20.11.2022)
+- Fix Heroes become obsolete (weaker) as the age progress
+- Rework Red Moon
+- Add new Civs: Ilythiir & Urush
+- Buff Warrior Code, a policy branch of Honor
+- Add more dungeon bonus effect
+- Add new Natural Wonder: Kalimutu
+- New unit class: Tamer

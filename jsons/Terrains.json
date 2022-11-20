@@ -343,7 +343,7 @@
 		"type": "NaturalWonder",
 		"happiness": 10,
 		"overrideStats": true,
-		"occursOn": ["Plains"],
+		"occursOn": ["Grassland"],
 		"turnsInto": "Lakes",
 		"impassable": true,
 		"unbuildable": true,
@@ -377,7 +377,7 @@
 		"culture": 3,
 		"faith": 3,
 		"overrideStats": true,
-		"occursOn": ["Grassland","Tundra","Snow"],
+		"occursOn": ["Plains","Tundra"],
 		"uniques": ["Must be adjacent to [0] [Coast] tiles",
 					"Must be adjacent to [0] [Desert] tiles", 
 					"Must be adjacent to [1] to [6] [Tundra] tiles"
@@ -444,21 +444,24 @@
 		"turnsInto": "Lakes",
 		//"impassable": false,
 		"unbuildable": true,
-		"weight": 10
+		"weight": 8
 	},
-	/*{
-		"name": "Mount Kailash",
+	{
+		"name": "Zamrud Khatulistiwa",
 		"type": "NaturalWonder",
-		"faith": 6,
+		"gold": 2,
 		"happiness": 2,
-		"occursOn": ["Plains","Grassland"],
+		"overrideStats": true,
+		"occursOn": ["Plains","Grassland","Desert"],
 		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-					"Must be adjacent to [2] to [6] [Elevated] tiles"],
+					"Must be adjacent to [0] [Tundra] tiles",
+					"Occurs on latitudes from [0] to [5] percent of distance equator to pole",
+					"Neighboring tiles provides +1 Gold"],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 10
-	},*/
+		"weight": 8
+	},
 	{
 		"name": "Rock of Levitation",
 		"type": "NaturalWonder",
@@ -476,21 +479,22 @@
 		"unbuildable": true,
 		"weight": 10
 	},
-	/*{
-		"name": "Sri Pada",
+	{
+		"name": "Kalimutu",
 		"type": "NaturalWonder",
-		"food": 2,
-		"faith": 4,
-		"happiness": 2,
+		"food": 1,
+		"culture": 3,
+		"science": 2,
 		"occursOn": ["Plains","Grassland"],
 		"uniques": ["Must be adjacent to [0] [Tundra] tiles",
-					"Must be adjacent to [0] [Desert] tiles"],
-		"turnsInto": "Mountain",
-		"impassable": true,
+					"Must be adjacent to [0] [Desert] tiles",
+					"Must be adjacent to [2] to [6] [Elevated] tiles"],
+		"turnsInto": "Lakes",
+		"impassable": false,
 		"unbuildable": true,
 		"weight": 10
 	},
-	{
+	/*{
 		"name": "Uluru",
 		"type": "NaturalWonder",
 		"food": 2,

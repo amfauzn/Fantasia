@@ -27,12 +27,14 @@
     {
         "name": "Archery",
         "movementType": "Land",
-		"uniques": ["[-10]% Strength <vs cities> <when attacking>", "[-10]% Strength <vs [Water] units> <when attacking>"]
+		"uniques": ["[-10]% Strength <vs cities> <when attacking>", 
+					"[-10]% Strength <vs [Water] units> <when attacking>"]
     },
     {
         "name": "Mounted",
         "movementType": "Land",
-		"uniques": ["[+10]% Strength <vs [Sword] units> <when attacking>", "[+5]% Strength <vs [Gunpowder] units> <when attacking>"]
+		"uniques": ["[+10]% Strength <vs [Sword] units> <when attacking>", 
+					"[+5]% Strength <vs [Gunpowder] units> <when attacking>"]
     },
     {
         "name": "Anti-Cav",
@@ -48,13 +50,20 @@
         "name": "Hero",
         "movementType": "Land",
         "uniques": ["Ignores terrain cost", "[-100]% maintenance costs", "[+33]% Strength <vs [Water Terror] units>", 
-			"[+50]% Strength <vs [Air Terror] units>", "[+100]% Strength <vs [Beast] units>"]
+					"[+50]% Strength <vs [Air Terror] units>", "[+100]% Strength <vs [Beast] units>"]
     },
 	{
         "name": "Siege Hero",
         "movementType": "Land",
         "uniques": ["Ignores terrain cost", "[-100]% maintenance costs", "[+10]% Strength <vs [Water Terror] units>", 
-					"[+15]% Strength <vs [Air Terror] units>", "[+200]% Strength <vs cities> <when attacking>", "[+100]% Strength <vs [Beast] units>"]
+					"[+15]% Strength <vs [Air Terror] units>", "[+200]% Strength <vs cities> <when attacking>", 
+					"[+100]% Strength <vs [Beast] units>"]
+    },
+	{
+        "name": "Evil Hero",
+        "movementType": "Land",
+        "uniques": ["Ignores terrain cost", "[-100]% maintenance costs", "[+33]% Strength <vs [Water Terror] units>", 
+					"[+50]% Strength <vs [Air Terror] units>", "[+100]% Strength <vs [Beast] units>"]
     },
 	{
 		"name": "Airship",
@@ -64,20 +73,24 @@
 	{
         "name": "Vampire",
         "movementType": "Land",
-        "uniques": ["[-100]% maintenance costs", "[-5] HP when healing", 
-					"[+25]% Strength <starting from the [Renaissance age]>", "[+50]% Strength <starting from the [Industrial age]>", 
-					"[+215]% Strength <starting from the [Modern age]>"]
+        "uniques": ["[-100]% maintenance costs", "[-5] HP when healing", 		// 25
+					"[+45]% Strength <starting from the [Renaissance age]>", 	// 35
+					"[+40]% Strength <starting from the [Industrial age]>", 	// 45
+					"[+85]% Strength <starting from the [Pre-Modern age]>", 	// 65
+					"[+85]% Strength <starting from the [Modern age]>"]			// 85
     },
 	{
 		"name": "Air Terror",
 		"movementType": "Land",
 		"uniques": ["Can pass through impassable tiles", "Normal vision when embarked"
-					"All tiles cost 1 movement", "Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"]
+					"All tiles cost 1 movement", "Eliminates combat penalty for attacking over a river", 
+					"Eliminates combat penalty for attacking across a coast"]
 	},
 	{
         "name": "Mage",
         "movementType": "Land",
-		"uniques": ["[+50]% Strength <vs cities> <when attacking>", "[+25]% Strength <vs [Construct] units> <when attacking>", 
+		"uniques": ["[+50]% Strength <vs cities> <when attacking>", 
+					"[+25]% Strength <vs [Construct] units> <when attacking>", 
 					"[-15]% Strength <vs [Melee] units> <when defending>"]
     },
 	{
@@ -91,7 +104,8 @@
     },
 	{
         "name": "Tamer",
-        "movementType": "Land"
+        "movementType": "Land",
+		"uniques": ["[+50]% XP gained from combat"]
     },
     
 	// Water

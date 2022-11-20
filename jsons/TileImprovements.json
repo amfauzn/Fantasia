@@ -122,7 +122,7 @@
 	},
 	{
 		"name": "Taming",
-		terrainsCanBeBuiltOn": ["Land","Coast"],
+		//"terrainsCanBeBuiltOn": ["Land","Coast","Lakes"],
 		"turnsToBuild": 7,
 		"production": 1,
 		"techRequired": "Domestication",
@@ -375,7 +375,7 @@
 					"[+2 Gold] for each adjacent [Customs house]", "[+2 Gold] for each adjacent [Plantation]", 
 					"[+3 Faith] for each adjacent [Holy site]", "Provides [-1] [Block]",
 					"Pillaging this improvement yields approximately [+15 Gold]"],
-		// "replacementTextForUniques": "Provides half of neighboring improvements stats",
+		//"replacementTextForUniques": "Provides half of neighboring improvements stats",
 		"shortcutKey": "F"
 	},
 	{
