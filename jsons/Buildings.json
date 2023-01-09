@@ -906,7 +906,7 @@
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"requiredTech": "Physics",
-		"uniques": ["Provides 1 happiness per 2 additional social policies adopted"],
+		"uniques": ["[+1 Happiness] per [2] social policies adopted"],
 		"quote": "'Architecture has recorded the great ideas of the human race. Not only every religious symbol, but every human thought has its page in that vast book.' - Victor Hugo"
 	},
 	{
@@ -1712,7 +1712,7 @@
 		"uniqueTo": "Urg",
 		"cost": 1,
 		"cityHealth": 1,
-		"uniques": ["Only available <starting from the [Pre-Modern age]> <in cities with a [Palace]>", "Free [Fury] appears", 
+		"uniques": ["Only available <starting from the [Prosperity age]> <in cities with a [Palace]>", "Free [Fury] appears", 
 					"Unsellable", "Will not be displayed in Civilopedia"]
 	},
 	{
@@ -1811,7 +1811,7 @@
 					"[+1 Production] [in this city] <starting from the [Archaic age]>",
 					"[+1 Production] [in this city] <starting from the [Heroic age]>",
 					"[+1 Production] [in this city] <starting from the [Renaissance age]>",
-					"[+1 Production] [in this city] <starting from the [Pre-Modern age]>",
+					"[+1 Production] [in this city] <starting from the [Prosperity age]>",
 					"[+1 Production] [in this city] <starting from the [Future age]>"]
 	},
 	{
@@ -1861,7 +1861,7 @@
 		"maintenance": 0,
 		"cost": 1,
 		"uniques": ["Unsellable", "Will not be displayed in Civilopedia",
-					"Only available <starting from the [Pre-Modern age]> <in cities with a [Palace]>",
+					"Only available <starting from the [Prosperity age]> <in cities with a [Palace]>",
 					"Free [Traon General] appears"]
 	},
 	{

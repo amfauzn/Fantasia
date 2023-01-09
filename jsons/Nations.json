@@ -44,7 +44,7 @@
 					"When defeating a [Centaurs] unit, earn [0] Gold and recruit it <with [100]% chance>", 
 					"When defeating a [Warhammer] unit, earn [0] Gold and recruit it <with [100]% chance>", 
 					"When defeating a [Entilon] unit, earn [0] Gold and recruit it <with [100]% chance>", 
-					"When defeating a [Daggerman] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+					"When defeating a [Adept] unit, earn [0] Gold and recruit it <with [100]% chance>", 
 					"When defeating a [Realm Patrol] unit, earn [0] Gold and recruit it <with [100]% chance>", 
 					"When defeating a [Alessia] unit, earn [0] Gold and recruit it <with [100]% chance>", 
 					"When defeating a [Kalsharin] unit, earn [0] Gold and recruit it <with [100]% chance>", 
@@ -1169,11 +1169,11 @@
         ]
 	},
 	
-	// City-States
+	/// City-States
 	{
 		"name": "Artiza",
 		"adjective": ["Artizan"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Cultural",
 		"style": "Human",
 		"uniques": ["Receive free [Spearman] when you discover [Bronze Working]"],
 		
@@ -1187,10 +1187,10 @@
 	{
 		"name": "Doomspire",
 		"adjective": ["Sandman"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Cultural",
 		"startBias": ["Desert"],
 		"style": "Desert",
-		"uniques": ["Receive free [Worker] when you discover [Agriculture]"],
+		"uniques": ["Receive free [Worker] when you discover [Pottery]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1202,8 +1202,8 @@
 	{
 		"name": "Gildar",
 		"adjective": ["Drow"],
-		"cityStateType": "Cultured",
-		"uniques": ["[+10]% Strength <for [Archery] units>"],
+		"cityStateType": "Cultural",
+		"uniques": ["[+10]% Strength <for [Sword] units>"],
 		
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1215,7 +1215,7 @@
 	{
 		"name": "Manthrill",
 		"adjective": ["Dwarvs"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Cultural",
 		"style": "Dwarven",
 		"uniques": ["Starts with [Mining]"],
 		
@@ -1229,7 +1229,7 @@
 	{
 		"name": "Feu Follet",
 		"adjective": ["Ego-Vampire"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Cultural",
 		"uniques": ["[-15]% Culture cost of natural border growth [in capital]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1242,7 +1242,7 @@
 	{
 		"name": "Windemer",
 		"adjective": ["Essen-Elven"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Cultural",
 		"style": "Elven",
 		"uniques": ["Starts with [Archery]"],
 		
@@ -1252,6 +1252,89 @@
 		"outerColor": [ 20,20, 20],
 		"innerColor": [152, 0,241],
 		"cities": ["Windemer"]
+	},
+	
+	{
+		"name": "Asil",
+		"adjective": ["Asilese"],
+		"cityStateType": "Industrial",
+		"uniques": ["[+100]% Production when constructing [Worker] units [in capital]"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "The great things we'll about to create are gone.",
+		"outerColor": [ 20,20,20],
+		"innerColor": [189,99, 0],
+		"cities": ["Asil"]
+	},
+	{
+		"name": "Canthyria",
+		"adjective": ["Centaurs"],
+		"cityStateType": "Industrial",
+		"startBias": ["Plains"],
+		"uniques": ["[+1] Movement <for [Land] units>"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "A barbarian like you will never enough with just a horse. I am not a horse!",
+		"defeated": "I don't like you, not from the beginning.",
+		"outerColor": [ 20, 20, 20],
+		"innerColor": [199,59,19],
+		"cities": ["Canthyria"]
+	},
+	{
+		"name": "Clockwerk",
+		"adjective": ["Clockwerks"],
+		"cityStateType": "Industrial",
+		"uniques": ["[+1 Production] from all [Science] buildings"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Guess I'll work for you then.",
+		"outerColor": [ 20,20,20],
+		"innerColor": [139,69,19],
+		"cities": ["Clockwerk"]
+	},
+	{
+		"name": "Dayne",
+		"adjective": ["Daynian"],
+		"cityStateType": "Industrial",
+		"style": "Human",
+		"uniques": ["[-50]% tile improvement construction time"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Just because you can't pay me, you declare war on me?",
+		"defeated": "Just take all of my slave, will you?",
+		"outerColor": [ 20, 20, 20],
+		"innerColor": [239,169,119],
+		"cities": ["Dayne"]
+	},
+	{
+		"name": "Kov",
+		"adjective": ["Kobolds"],
+		"cityStateType": "Industrial",
+		"startBias": ["Hill"],
+		"uniques": ["Gain a free [Walls] [in capital]"],
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "So what is the meaning of a miner?",
+		"outerColor": [ 20,20,20],
+		"innerColor": [139,69,19],
+		"cities": ["Kov"]
+	},
+	{
+		"name": "Rog",
+		"adjective": ["Ogre"],
+		"cityStateType": "Industrial",
+		"startBias": ["Jungle"],
+		"uniques": ["All newly-trained [Sword] units [in capital] gain the [Charge] promotion"],
+		
+		"declaringWar": "Hungry ... hungry for eternity ...",
+		"attacked": "I am hungry of a fresh flesh myself!",
+		"defeated": "I hope you'll spare me your leftover to eat.",
+		"outerColor": [ 20, 20, 20],
+		"innerColor": [239,169,119],
+		"cities": ["Rog"]
 	},
 
 	{
@@ -1330,8 +1413,9 @@
 	{
 		"name": "Concordia",
 		"adjective": ["Cordians"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Mercantile-Concordia",
 		"startBias": ["Coast"],
+		"uniques": ["[+1 Food] from [Fish] tiles [in capital]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1343,8 +1427,9 @@
 	{
 		"name": "Crotoa",
 		"adjective": ["Merchant-Beast"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Mercantile-Crotoa",
 		"startBias": ["Coast"],
+		"uniques": ["Double quantity of [Crab] produced"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1356,9 +1441,10 @@
 	{
 		"name": "Frostwaste",
 		"adjective": ["Wildling"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Mercantile-Frostwaste",
 		"startBias": ["Snow"],
 		"style": "Icemen",
+		"uniques": ["Double quantity of [Mammoth] produced"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1370,7 +1456,7 @@
 	{
 		"name": "Gahaldur",
 		"adjective": ["Merchant-Dwarven"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Mercantile-Gahaldur",
 		"style": "Dwarven",
 		"uniques": ["Starts with [Mining]"],
 
@@ -1383,8 +1469,8 @@
 	},
 	{
 		"name": "Tonthon",
-		"adjective": ["Merchant-Goblin"],
-		"cityStateType": "Mercantile",
+		"adjective": ["Tonthonese"],
+		"cityStateType": "Mercantile-Tonthon",
 		"style": "Goblin",
 		"uniques": ["Starts with [Trapping]"],
 
@@ -1404,7 +1490,7 @@
 		"uniques": ["[+1] Movement <for [{Military} {Water}] units>"],
 
 		"declaringWar": "Do you really think you can walk over us so easily? I will not let it happen. Not to my people!",
-		"attacked": "We are no strangers to war. You have strayed from the right path, and now we will correct it.",
+		"attacked": "We are no strangers to war.",
 		"defeated": "You are nothing but a glorified barbarian. Cruel, and ruthless.",
 		"outerColor": [ 20, 20, 20],
 		"innerColor": [221,170,113],
@@ -1455,7 +1541,7 @@
 		"name": "Shaquad",
 		"adjective": ["Shaquadians"],
 		"cityStateType": "Militaristic",
-		"uniques": ["Starts with [Trapping]"],
+		"uniques": ["Receive free [Watcher] when you discover [Optics]"],
 
 		"declaringWar": "War lingers in our hearts. Why carry on with a false peace?",
 		"attacked": "You gormless radger! You'll dine on your own teeth before you set foot in Shaquad!",
@@ -1466,8 +1552,21 @@
 	},
 
 	{
+		"name": "Aysus",
+		"adjective": ["Aysusian"],
+		"cityStateType": "Religious",
+		"uniques": ["Receive free [Inquisitor] when you discover [Philosophy]"],
+
+		"declaringWar": "By the grace of God, we declare war!",
+		"attacked": "Peace was never an option.",
+		"defeated": "God is forgiving, will you forgive us?",
+		"outerColor": [ 20, 20, 20],
+		"innerColor": [203,193,252],
+		"cities": ["Aysus"]
+	},
+	{
 		"name": "Chorislavia",
-		"adjective": ["Chorislavia"],
+		"adjective": ["Chorislavian"],
 		"cityStateType": "Religious",
 		"style": "Elven",
 		"uniques": ["Starts with [Pottery]"],
@@ -1480,8 +1579,23 @@
 		"cities": ["Chorislavia"]
 	},
 	{
+		"name": "Estuary",
+		"adjective": ["Druid"],
+		"cityStateType": "Religious",
+		"startBias": ["Jungle"],
+		"uniques": ["[+1 Faith, +1 Culture] [in all cities] <with [1] to [2] neighboring [unimproved] [Jungle] tiles>",
+					"[+2 Faith, +2 Culture] [in all cities] <with [3] to [6] neighboring [unimproved] [Jungle] tiles>"],
+
+		"declaringWar": "You shall stain this land no longer, prepare for war!",
+		"attacked": "Oh, truly you are as cruel as your nicknaame.",
+		"defeated": "Remember, the end of us is the beginning of your doom!",
+		"outerColor": [ 20, 20, 20],
+		"innerColor": [203,255,252],
+		"cities": ["Estuary"]
+	},
+	{
 		"name": "Gomorra",
-		"adjective": ["Gomorra"],
+		"adjective": ["Gomorrese"],
 		"cityStateType": "Religious",
 		"uniques": ["Gain a free [Shrine] [in capital]"],
 
@@ -1493,8 +1607,22 @@
 		"cities": ["Gomorra"]
 	},
 	{
+		"name": "Nevdes",
+		"adjective": ["Nevdan"],
+		"cityStateType": "Religious",
+		"startBias": ["Grassland"],
+		"uniques": ["[+10]% Strength <for [Anti-Cav] units>"],
+
+		"declaringWar": "Everyday you stray further from God. Let me show you the right path!",
+		"attacked": "You think God will permit your abominations?",
+		"defeated": "Your evil nature are too strong for us to handle.",
+		"outerColor": [ 20, 20, 20],
+		"innerColor": [223,203,212],
+		"cities": ["Nevdes"]
+	},
+	{
 		"name": "Zilla",
-		"adjective": ["Zilla"],
+		"adjective": ["Zillan"],
 		"cityStateType": "Religious",
 		"uniques": ["Gain a free [Monastery] [in capital]"],
 

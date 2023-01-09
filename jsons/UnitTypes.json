@@ -76,7 +76,7 @@
         "uniques": ["[-100]% maintenance costs", "[-5] HP when healing", 		// 25
 					"[+45]% Strength <starting from the [Renaissance age]>", 	// 35
 					"[+40]% Strength <starting from the [Industrial age]>", 	// 45
-					"[+85]% Strength <starting from the [Pre-Modern age]>", 	// 65
+					"[+85]% Strength <starting from the [Prosperity age]>", 	// 65
 					"[+85]% Strength <starting from the [Modern age]>"]			// 85
     },
 	{

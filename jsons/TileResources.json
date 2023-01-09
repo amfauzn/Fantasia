@@ -563,21 +563,43 @@
 	// Mercantile City-States Luxury
 	{
 		"name": "Honey", 
-		"gold": 2,
 		"resourceType": "Luxury",
-		"uniques": ["Can only be created by Mercantile City-States"]
+		"gold": 2,
+		"civilopediaText": [
+            {"text":"Honey available when you allied with Crotoa."}
+        ]
+	},
+	{
+		"name": "Ivory", 
+		"resourceType": "Luxury",
+		"gold": 2,
+		"civilopediaText": [
+            {"text":"Ivory available when you allied with Frostwaste."}
+        ]
 	},
 	{
 		"name": "Jewelry",
 		"resourceType": "Luxury",
 		"gold": 2,
-		"uniques": ["Can only be created by Mercantile City-States"]
+		"civilopediaText": [
+            {"text":"Jewelry available when you allied with Concordia."}
+        ]
+	},
+	{
+		"name": "Mithril",
+		"resourceType": "Luxury",
+		"gold": 2,
+		"civilopediaText": [
+            {"text":"Mithril available when you allied with Gahaldur."}
+        ]
 	},
 	{
 		"name": "Porcelain",
 		"resourceType": "Luxury",
 		"gold": 2,
-		"uniques": ["Can only be created by Mercantile City-States"]
+		"civilopediaText": [
+            {"text":"Porcelain available when you allied with Tonthon."}
+        ]
 	}
 	
 ]

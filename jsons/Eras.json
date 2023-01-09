@@ -11,20 +11,6 @@
         "embarkDefense": 5,
         "startPercent": 0,
         "citySound": "cityAncient",
-        "friendBonus": {
-            "Cultured": ["Provides [+3 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+2 Gold] per turn"],
-            "Religious": ["Provides [+3 Faith] per turn"],
-            "Militaristic": ["Provides military units every ≈[20] turns"]
-        },
-        "allyBonus": {
-            "Cultured": ["Provides [+6 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+2 Gold] per turn", "Provides a unique luxury"],
-            "Religious": ["Provides [+6 Faith] per turn"],
-            "Militaristic": ["Provides [+3 Production] [in capital] per turn", "Provides military units every ≈[20] turns"]
-        },
         "iconRGB": [255, 87, 35],
 		"civilopediaText": [
             {"text":"Time of the beginning. The Gods create Earth and all life that lives upon it."},
@@ -50,20 +36,6 @@
         "embarkDefense": 6,
         "startPercent": 5,
 		"citySound": "cityClassical",
-        "friendBonus": {
-            "Cultured": ["Provides [+3 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+2 Gold] per turn"],
-            "Religious": ["Provides [+3 Faith] per turn"],
-            "Militaristic": ["Provides military units every ≈[20] turns"]
-        },
-        "allyBonus": {
-            "Cultured": ["Provides [+6 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+2 Gold] per turn", "Provides a unique luxury"],
-            "Religious": ["Provides [+6 Faith] per turn"],
-            "Militaristic": ["Provides [+3 Production] [in capital] per turn", "Provides military units every ≈[20] turns"]
-        },
         "iconRGB": [233, 31, 99],
 		"civilopediaText": [
             {"text":"The tribes of mankind survive from the assault of the mythical beast."},
@@ -85,20 +57,6 @@
         "embarkDefense": 8,
         "startPercent": 20,
 		"citySound": "cityClassical",
-        "friendBonus": {
-            "Cultured": ["Provides [+6 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+3 Gold] per turn"],
-            "Religious": ["Provides [+6 Faith] per turn"],
-            "Militaristic": ["Provides military units every ≈[20] turns"]
-        },
-        "allyBonus": {
-            "Cultured": ["Provides [+12 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+3 Gold] per turn", "Provides a unique luxury"],
-            "Religious": ["Provides [+12 Faith] per turn"],
-            "Militaristic": ["Provides [+4 Production] [in capital] per turn", "Provides military units every ≈[20] turns"]
-        },
         "iconRGB": [157, 39, 176],
 		"civilopediaText": [
             {"text":"Mankind studied more advanced way to control mana."},
@@ -121,20 +79,6 @@
         "embarkDefense": 10,
         "startPercent": 35,
 		"citySound": "cityMedieval",
-        "friendBonus": {
-            "Cultured": ["Provides [+8 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+3 Gold] per turn"],
-            "Religious": ["Provides [+10 Faith] per turn"],
-            "Militaristic": ["Provides military units every ≈[20] turns"]
-        },
-        "allyBonus": {
-            "Cultured": ["Provides [+16 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+3 Gold] per turn", "Provides a unique luxury"],
-            "Religious": ["Provides [+20 Faith] per turn"],
-            "Militaristic": ["Provides [+5 Production] [in capital] per turn", "Provides military units every ≈[20] turns"]
-        },
         "iconRGB": [104, 58, 183],
 		"civilopediaText": [
             {"text":"Some Heroes decided to form their own country, while the other keep wandering to hunt monster."},
@@ -157,21 +101,7 @@
         "embarkDefense": 11,
 		"startPercent": 50,
         "citySound": "cityRenaissance",
-		"friendBonus": {
-            "Cultured": ["Provides [+10 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+4 Gold] per turn"],
-            "Religious": ["Provides [+12 Faith] per turn"],
-            "Militaristic": ["Provides military units every ≈[20] turns"]
-        },
-        "allyBonus": {
-            "Cultured": ["Provides [+20 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+4 Gold] per turn", "Provides a unique luxury"],
-            "Religious": ["Provides [+24 Faith] per turn"],
-            "Militaristic": ["Provides [+6 Production] [in capital] per turn", "Provides military units every ≈[20] turns"]
-        },
-        "iconRGB": [63, 81, 182],
+		"iconRGB": [63, 81, 182],
 		"civilopediaText": [
             {"text":"People without magic talent adapted the way to use magic tools to create and control magic."}
         ]
@@ -193,20 +123,6 @@
         "embarkDefense": 15,
         "startPercent": 65,
         "citySound": "cityIndustrial",
-        "friendBonus": {
-            "Cultured": ["Provides [+12 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+4 Gold] per turn"],
-            "Religious": ["Provides [+13 Faith] per turn"],
-            "Militaristic": ["Provides military units every ≈[20] turns"]
-        },
-        "allyBonus": {
-            "Cultured": ["Provides [+24 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+4 Gold] per turn", "Provides a unique luxury"],
-            "Religious": ["Provides [+26 Faith] per turn"],
-            "Militaristic": ["Provides [+7 Production] [in capital] per turn", "Provides military units every ≈[20] turns"]
-        },
         "iconRGB": [33, 150, 243],
 		"uniques": ["May not generate great prophet equivalents naturally", 
 			"May buy [Great Prophet] units for [300] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
@@ -218,7 +134,7 @@
         ]
     },
 	{
-        "name": "Pre-Modern age",
+        "name": "Prosperity age",
         "researchAgreementCost": 350,
         "startingSettlerCount": 3,
         "startingWorkerCount": 3,
@@ -234,21 +150,7 @@
         "baseUnitBuyCost": 700,
         "embarkDefense": 20,
         "startPercent": 80,
-		"citySound": "cityIndustrial",
-        "friendBonus": {
-            "Cultured": ["Provides [+13 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+4 Gold] per turn"],
-            "Religious": ["Provides [+13 Faith] per turn"],
-            "Militaristic": ["Provides military units every ≈[20] turns"]
-        },
-        "allyBonus": {
-            "Cultured": ["Provides [+26 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+4 Gold] per turn", "Provides a unique luxury"],
-            "Religious": ["Provides [+26 Faith] per turn"],
-            "Militaristic": ["Provides [+7 Production] [in capital] per turn", "Provides military units every ≈[18] turns"]
-        },
+		"citySound": "cityModern",
         "iconRGB": [0, 150, 136],
 		"uniques": ["May not generate great prophet equivalents naturally", 
 			"May buy [Great Prophet] units for [300] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
@@ -272,21 +174,7 @@
         "baseUnitBuyCost": 700,
         "embarkDefense": 20,
         "startPercent": 80,
-		"citySound": "cityModern",
-        "friendBonus": {
-            "Cultured": ["Provides [+13 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+4 Gold] per turn"],
-            "Religious": ["Provides [+13 Faith] per turn"],
-            "Militaristic": ["Provides military units every ≈[20] turns"]
-        },
-        "allyBonus": {
-            "Cultured": ["Provides [+26 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+4 Gold] per turn", "Provides a unique luxury"],
-            "Religious": ["Provides [+26 Faith] per turn"],
-            "Militaristic": ["Provides [+8 Production] [in capital] per turn", "Provides military units every ≈[18] turns"]
-        },
+		"citySound": "cityAtomic",
         "iconRGB": [76, 176, 81],
 		"uniques": ["May not generate great prophet equivalents naturally", 
 			"May buy [Great Prophet] units for [300] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
@@ -310,20 +198,7 @@
         "baseUnitBuyCost": 900,
         "embarkDefense": 25,
         "startPercent": 85,
-        "friendBonus": {
-            "Cultured": ["Provides [+13 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn"],
-            "Mercantile": ["Provides [+5 Gold] per turn"],
-            "Religious": ["Provides [+13 Faith] per turn"],
-            "Militaristic": ["Provides military units every ≈[20] turns"]
-        },
-        "allyBonus": {
-            "Cultured": ["Provides [+26 Culture] per turn"],
-            "Maritime": ["Provides [+2 Food] [in capital] per turn", "Provides [+1 Food] [in all cities] per turn"],
-            "Mercantile": ["Provides [+5 Gold] per turn", "Provides a unique luxury"],
-            "Religious": ["Provides [+26 Faith] per turn"],
-            "Militaristic": ["Provides [+8 Production] [in capital] per turn", "Provides military units every ≈[18] turns"]
-        },
+		"citySound": "cityFuture",
         "iconRGB": [76, 176, 81],
         "uniques": ["May not generate great prophet equivalents naturally", 
             "May buy [Great Prophet] units for [300] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])", 
