@@ -315,7 +315,7 @@
 				"row": 5,
 				"uniques": ["[+33]% Strength for cities <when defending> <vs [Mage] units>"],
 				"prerequisites": ["Chivalry","Quintessence Force"],
-				"quote": "'No, my friends, we have not fallen back upon the erath' - Julius Verne"
+				"quote": "'No, my friends, we have not fallen back upon the earth' - Julius Verne"
 			},
 			{
 				"name": "Loans and Saving",
