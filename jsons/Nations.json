@@ -7,6 +7,52 @@
 	},
 	
 	// Nations
+	
+// Before the Doom of the Old World
+	// The Pangaea Saga
+	{
+		"name": "'Nkuhanea",
+		"leaderName": "Erish",
+		"adjective": ["Nkuhanean"],
+		"startBias": ["Fresh Water"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Spontanism",
+		
+		"startIntroPart1": "'Nkuhanea is the earliest known civilization in the historical region of southeastern Pangaea, emerging during Karamithic, the time before the Gods left Earth. It is one of the cradles of civilization in the world, along with ancient Almuria, Shangri-La, Polgar Sod'em, Louvargia, and ancient Eldariya. Living along the valleys of the Madris and Timika rivers, Nkuhanean farmers grew an abundance of grain and other crops, the surplus from which enabled them to form urban settlements. Finding the magic stone Tridstone, Nkuhanea became a prosperous civilization ever.",
+		"startIntroPart2": "Queen Erish, The Jewel of Timika, The Bearer of Tridstone, for uncounted years your people endured. They look to you to lead them once more into greatness. Will you answer the call? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "I can engage in this war without sacrificing morals. Can you?",
+		"attacked": "I warn you against making a habit of shedding blood. Blood never sleeps.",
+		"defeated": "No, I am not ready to leave my people. No!",
+		"afterPeace": "Because of war, haven't we all been hurt?",
+		"introduction": "I am Erish, and who are you, gentleman?",
+		
+		"neutralHello": "You have my gratitude.",
+		"hateHello": "Shame on you.",
+		"tradeRequest": "I offers you this exceptional proposition.",
+		
+		"outerColor": [105,34,172],
+		"innerColor": [255,102,102],
+		"uniqueName": "Valley of Rejuvenation",
+		"uniqueText": "+1 Population to all cities settled on Fresh Water\nAll Land-Military units gain the Amphibious promotion\n-33% tile improvement construction time in River tiles",
+		"uniques": ["[-33]% tile improvement construction time <in [River] tiles>",
+					"[{Military} {Land}] units gain the [Amphibious] promotion"], 
+		"cities": ["Akhetutan","Sabata","Guzana","Noenna","Chu'ata","Vrybergam","Jundiaí","Pliska","Jayapura","Beikthano",
+			"Kyaukse","Veptis Parla","Hieraconpolia","Binnaka","Nias","Quirigua","Q'umarkaj","Mamuju","Kaur","Seluma"],
+		"spyNames": ["Heba","Sukaesih","Ma'at","Felish","Naru","Bahe","Atan","Ndruru","Refaat","Neuth"]
+		"civilopediaText": [
+			{"text": "'Nkuhanea is the earliest known civilization in the historical region of southern Pangaea, emerging during Karamithic, the time before the Gods left Earth. It is one of the cradles of civilization in the world, along with ancient Almuria, Shangri-La, Polgar Sod'em, Louvargia, and ancient Eldariya. Living along the valleys of the Madris and Timika rivers, Nkuhanean farmers grew an abundance of grain and other crops, the surplus from which enabled them to form urban settlements."},
+			{"text": "During Queen Erish's reign, the miners of Nkuhanea discovered an unknown stone, which became known as the Tridstone. The Tridstone shone of its own inner light, and appeared a little globe of pallid light in darkness. This stone was sent to Polgar Sod'em to be made into a necklace for Queen Erish. It is a stone that is dangerous yet useful for the chosen ones because it can affect the user's soul. Queen Erish, almost every time she sleeps, dreams of strange signs. Some of these signs help her bring prosperity to the kingdom after being interpreted."},
+			{"separator": true},
+			{"text": "'Nkuhanea is a tall cultured civilization. It's no wonder that they are masterful at both scientific and arcane arts."},
+			{"text": "Tips to play:"},
+			{"text": "Settle beside Hill, and build Lodepit around your cities. Or ... Settle on River."},
+			{"text": "Any Land on River beside Hill is your favorit spot to settle."}
+        ]
+	},
+	
+	
+	
 	{				
 		"name": "Nas",
 		"leaderName": "Galamar III",
@@ -1025,42 +1071,6 @@
 			{"text":"Arxia can turn Desert tiles into essentially Plains tiles around its City Center. They are good at military and production and have moderate Science and Faith output."},
 			{"text":"Tips to play:"},
 			{"text":"Settle near Desert Hill to maximize Arxia's National Ability. Try not to lose your Traon General, you can only earn them once every era."},
-        ]
-	},
-	
-	{
-		"name": "'Nkuhanea",
-		"leaderName": "Erish",
-		"adjective": ["Nkuhanean"],
-		"startBias": ["Fresh Water"],
-		"preferredVictoryType": "Cultural",
-		"favoredReligion": "Spontanism",
-		
-		"startIntroPart1": ".",
-		"startIntroPart2": " Can you build a civilization that will stand the test of time?",
-		
-		"declaringWar": "I can engage in this war without sacrificing morals. Can you?",
-		"attacked": "I warn you against making a habit of shedding blood. Blood never sleeps.",
-		"defeated": "No, I am not ready to leave my people. No!",
-		"introduction": "I am Erish, and who are you, gentleman?",
-		
-		"neutralHello": "You have my gratitude.",
-		"hateHello": "Shame on you.",
-		"tradeRequest": "I offers you this exceptional proposition.",
-		
-		"outerColor": [105,34,172],
-		"innerColor": [255,102,102],
-		"uniqueName": "Valley of Rejuvenation",
-		"uniqueText": "+1 Population to all cities settled on Fresh Water\nAll Land-Military units gain the Amphibious promotion\n-33% tile improvement construction time in River tiles",
-		"uniques": ["[-33]% tile improvement construction time <in [River] tiles>",
-					"[{Military} {Land}] units gain the [Amphibious] promotion"], 
-		"cities": ["Akhetutan","Sabata","Guzana","Noenna","Chu'ata","Vrybergam","Jundiaí","Pliska","Jayapura","Beikthano","Kyaukse","Veptis Parla",
-			"Hieraconpolia","Binnaka","Nias","Quirigua","Q'umarkaj"],
-		"civilopediaText": [
-			{"text":"'Nkuhanea is a tall cultured civilization. It's no wonder that they are masterful at both scientific and arcane arts."},
-			{"text":"Tips to play:"},
-			{"text":"Settle beside Hill, and build Lodepit around your cities. Or ... Settle on River."},
-			{"text":"Any Land on River beside Hill is your favorit spot to settle."},
         ]
 	},
 	
