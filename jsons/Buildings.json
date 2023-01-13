@@ -34,7 +34,10 @@
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
-		"uniques": ["Destroyed when the city is captured"]
+		"uniques": ["Destroyed when the city is captured"],
+		"civilopediaText": [
+			{"text": "A structure built to commemorate an important person, deity, or event."}
+		]
 	},
 	{
 		"name": "Manumem",
@@ -45,10 +48,11 @@
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
-		"uniques": ["[+1 Science] [in this city] <after discovering [Writing]>", "Destroyed when the city is captured"],
+		"uniques": ["[+1 Science] [in this city] <after discovering [Writing]>", 
+					"Destroyed when the city is captured"],
 		"civilopediaText": [
-            {"text":"An edifice to remember the accomplishment with scripture."}
-        ]
+			{"text": "An edifice with scripture, built to commemorate an important event and  accomplishment."}
+		]
 	},
 	{
 		"name": "Phantom Cults",

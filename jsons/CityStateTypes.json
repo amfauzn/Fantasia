@@ -21,13 +21,13 @@
 			"[+2 Production] [in all cities] <before the [Heroic age]>",
 			"[+4 Production] [in all cities] <starting from the [Heroic age]> <before the [Renaissance age]>",
 			"[+6 Production] [in all cities] <starting from the [Renaissance age]>",
-			"[+4 Production] [in capital] <starting from the [Industrial age]>"
+			"[+2 Production] [in capital] <starting from the [Industrial age]>"
 		],
 		"allyBonusUniques":  [
 			"[+4 Production] [in all cities] <before the [Heroic age]>",
 			"[+8 Production] [in all cities] <starting from the [Heroic age]> <before the [Renaissance age]>",
 			"[+12 Production] [in all cities] <starting from the [Renaissance age]>",
-			"[+8 Production] [in capital] <starting from the [Industrial age]>"
+			"[+4 Production] [in capital] <starting from the [Industrial age]>"
 		],
 		"color": [139,69,19]
 	},
@@ -54,9 +54,9 @@
 		],
 		"allyBonusUniques": [
 			"[+2 Gold] <before the [Heroic age]>",
-			"[+8 Gold] <starting from the [Heroic age]> <before the [Renaissance age]>",
-			"[+16 Gold] <starting from the [Renaissance age]>",
-			"Provides 2 copies of a unique luxury"
+			"[+4 Gold] <starting from the [Heroic age]> <before the [Renaissance age]>",
+			"[+8 Gold] <starting from the [Renaissance age]>",
+			"Provides a unique luxury"
 		],
 		"color": [255,216,0]
 	},
@@ -70,8 +70,8 @@
 		],
 		"allyBonusUniques": [
 			"[+2 Gold] <before the [Heroic age]>",
-			"[+8 Gold] <starting from the [Heroic age]> <before the [Renaissance age]>",
-			"[+16 Gold] <starting from the [Renaissance age]>",
+			"[+4 Gold] <starting from the [Heroic age]> <before the [Renaissance age]>",
+			"[+8 Gold] <starting from the [Renaissance age]>",
 			"Provides [2] [Jewelry]"
 		],
 		"color": [255,216,0]
@@ -86,8 +86,8 @@
 		],
 		"allyBonusUniques": [
 			"[+2 Gold] <before the [Heroic age]>",
-			"[+8 Gold] <starting from the [Heroic age]> <before the [Renaissance age]>",
-			"[+16 Gold] <starting from the [Renaissance age]>",
+			"[+4 Gold] <starting from the [Heroic age]> <before the [Renaissance age]>",
+			"[+8 Gold] <starting from the [Renaissance age]>",
 			"Provides [2] [Honey]"
 		],
 		"color": [255,216,0]
@@ -102,8 +102,8 @@
 		],
 		"allyBonusUniques": [
 			"[+2 Gold] <before the [Heroic age]>",
-			"[+8 Gold] <starting from the [Heroic age]> <before the [Renaissance age]>",
-			"[+16 Gold] <starting from the [Renaissance age]>",
+			"[+4 Gold] <starting from the [Heroic age]> <before the [Renaissance age]>",
+			"[+8 Gold] <starting from the [Renaissance age]>",
 			"Provides [2] [Ivory]"
 		],
 		"color": [255,216,0]
@@ -118,8 +118,8 @@
 		],
 		"allyBonusUniques": [
 			"[+2 Gold] <before the [Heroic age]>",
-			"[+8 Gold] <starting from the [Heroic age]> <before the [Renaissance age]>",
-			"[+16 Gold] <starting from the [Renaissance age]>",
+			"[+4 Gold] <starting from the [Heroic age]> <before the [Renaissance age]>",
+			"[+8 Gold] <starting from the [Renaissance age]>",
 			"Provides [2] [Mithril]"
 		],
 		"color": [255,216,0]
@@ -134,8 +134,8 @@
 		],
 		"allyBonusUniques": [
 			"[+2 Gold] <before the [Heroic age]>",
-			"[+8 Gold] <starting from the [Heroic age]> <before the [Renaissance age]>",
-			"[+16 Gold] <starting from the [Renaissance age]>",
+			"[+4 Gold] <starting from the [Heroic age]> <before the [Renaissance age]>",
+			"[+8 Gold] <starting from the [Renaissance age]>",
 			"Provides [2] [Porcelain]"
 		],
 		"color": [255,216,0]

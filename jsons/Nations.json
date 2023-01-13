@@ -51,6 +51,48 @@
         ]
 	},
 	
+	{
+		"name": "Polgar Sod'em",
+		"leaderName": "Hajruddin",
+		"adjective": ["Dwarven"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Relativity",
+		"style": "Dwarven",
+		
+		"startIntroPart1": "Polgar Sod'em is a historical kingdom in the southern region of Pangaea. Together with 'Nkuhanea, Eldariya, and Almuria, it was one of four early civilizations of Pangaea, and of the other three, the only non-human civilization. Its sites spanned an area from much of Somarum Hill, to northeast Khetamun, and northwestern Avalonia. Its culture played a crucial role during the Eldariya dynasty that annexed Polgar Sod'em, when the Sodite language remained and the rest of its buildings became the inspiration for Eldariya's greatness. The concepts of Construct and Golem were first coined among the Sodites.",
+		"startIntroPart2": "Great King Hajrudin, The Architectural Digest, The King of Hammer, your kingdom endured but a short time after your death. Your people look to you to bring the kingdom back to life once more. Will you answer the call? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "I hereby inform you of our intention to wipe out your civilization from this world.",
+		"attacked": "Foolish, miserable wretch! You will be crushed by this country's magnificent power!",
+		"defeated": "How could we fall to the likes of you?!",
+		"afterPeace": "Well played, fellow warrior.",
+		"introduction": "Welcome foreigner, I am Hajruddin. Come and tell me about your empire.",
+		
+		"neutralHello": "Peace be upon you.",
+		"hateHello": "Well?",
+		"tradeRequest": "Friend, I believe I may have found a way to save us all! Look, look and accept my offering!",
+		
+		"outerColor": [ 37,56,123],
+		"innerColor": [255,46, 46],
+		"uniqueName": "Master Builder",
+		"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
+					"[+15]% Production towards any buildings that already exist in the Capital", 
+					"[+1 Production] from every [Strategic resource]",
+					"[+1 Production] from every [Luxury resource]"],
+		"cities": ["King's Summit","Borbuddem","Pyr Amid'em","Mausollem","Gridden Wall","Kolussem","Hangen Stone","Tamja Hellin","Chotchen","Panema Caniem",
+			"Petra","Redemeer","Picchu","Angkoreen","Holonbay","Stonen Mengen","Hagan Sophiem","Mozi","Fez","Balkh"],
+		"spyNames": ["Eridd","Yurrgin","Kulin","Dili","Noli","Broil","Uroil","Bifur","Baur","Budigin"]
+		"civilopediaText": [
+			{"text": "Polgar Sod'em is a historical kingdom in the southern region of Pangaea. Together with 'Nkuhanea, Eldariya, and Almuria, it was one of four early civilizations of Pangaea, and of the other three, the only non-human civilization. Its sites spanned an area from much of Somarum Hill, to northeast Khetamun, and northwestern Avalonia. Its culture played a crucial role during the Eldariya dynasty that annexed Polgar Sod'em, when the Sodite language remained and the rest of its buildings became the inspiration for Eldariya's greatness."},
+			{"text": "After Queen Erish found the Tridstone, she requested King Hajruddin to make her a necklace from the stone. Knowing this, Dathun sent his envoy to persuade Hajruddin to conspire and exchange the Tridstone for another stone. Hajruddin rejected the greed shown by the envoy. He was sure that Eldariya would not be satisfied with just stealing the Tridstone, they would definitely take over the Nkuhanean homeland, moreover the Eldars was repeatedly attempted to annex Polgar Sod'em."},
+			{"separator": true},
+			{"text": "Polgar Sod'em is a dwarven civilization, led by Hajruddin. As dwarfs, they can build magnificent monuments."},
+			{"text": "Tips to play:"},
+			{"text": "Fokus on building & building, buy every available non-Wonder building in Capital."},
+			{"text": "Aim for Scientific or Cultural vitory."}
+        ]
+	},
 	
 	
 	{				
@@ -369,43 +411,6 @@
 			{"text":"Twin Mountain is a dwarven civilization, led by Thraldin. Mountains is heaven for them."},
 			{"text":"Tips to play:"},
 			{"text":"Claim Mountain as much as possible, not only it'll boost units Strength, it also generate Science, Gold, and Production when the time comes."}
-        ]
-	},
-	
-	{
-		"name": "Polgar Sod'em",
-		"leaderName": "Hajruddin",
-		"adjective": ["Dwarven"],
-		"startBias": ["Hill"],
-		"preferredVictoryType": "Cultural",
-		"favoredReligion": "Relativity",
-		"style": "Dwarven",
-		
-		"startIntroPart1": "The blessings of the gods be upon you, Hajruddin, leader of the Polgar Sod'em! Oh great lord, from time immemorial your people brought architecture to the next level. They created the great monuments which still stand tall and proud.",
-		"startIntroPart2": "Great lord, your people look to you to return them to greatness! Can you build a civilization that will stand the test of time?",
-		
-		"declaringWar": "I hereby inform you of our intention to wipe out your civilization from this world.",
-		"attacked": "Foolish, miserable wretch! You will be crushed by this country's magnificent power!",
-		"defeated": "How could we fall to the likes of you?!",
-		"introduction": "Welcome foreigner, I am Hajruddin. Come and tell me about your empire.",
-		
-		"neutralHello": "Peace be upon you.",
-		"hateHello": "Well?",
-		"tradeRequest": "Friend, I believe I may have found a way to save us all! Look, look and accept my offering!",
-		
-		"outerColor": [ 37,56,123],
-		"innerColor": [255,46, 46],
-		"uniqueName": "Master Builder",
-		"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
-					"[+15]% Production towards any buildings that already exist in the Capital", 
-					"[+1 Production] from every [Strategic resource]"],
-		"cities": ["King's Summit","Borbuddem","Pyr Amid'em","Mausollem","Gridden Wall","Kolussem","Hangen Stone","Tamja Hellin","Chotchen","Panema Caniem",
-			"Petra","Redemeer","Picchu","Angkoreen","Mozi","Fez","Balkh"],
-		"civilopediaText": [
-			{"text":"Polgar Sod'em is a dwarven civilization, led by Hajruddin. As dwarfs, they can build an unimaginable monuments."},
-			{"text":"Tips to play:"},
-			{"text":"Fokus on building & building, buy every available non-Wonder building in Capital."},
-			{"text":"Aim for Scientific or Cultural vitory."}
         ]
 	},
 	
