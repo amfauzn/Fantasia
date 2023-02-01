@@ -18,8 +18,8 @@
 		"preferredVictoryType": "Cultural",
 		"favoredReligion": "Spontanism",
 		
-		"startIntroPart1": "'Nkuhanea is the earliest known civilization in the historical region of southeastern Pangaea, emerging during Karamithic, the time before the Gods left Earth. It is one of the cradles of civilization in the world, along with ancient Almuria, Shangri-La, Polgar Sod'em, Louvargia, and ancient Eldariya. Living along the valleys of the Madris and Timika rivers, Nkuhanean farmers grew an abundance of grain and other crops, the surplus from which enabled them to form urban settlements. Finding the magic stone Tridstone, Nkuhanea became a prosperous civilization ever.",
-		"startIntroPart2": "Queen Erish, The Jewel of Timika, The Bearer of Tridstone, for uncounted years your people endured. They look to you to lead them once more into greatness. Will you answer the call? Can you build a civilization that will stand the test of time?",
+		"startIntroPart1": "'Nkuhanea is the earliest known civilization in the historical continent of southern Pangaea, emerging during Karamithic, the time before the Gods left Earth. It is one of the cradles of civilization in the world, along with ancient Lemuria, Shangri-La, Polgar Sod'em, Artiza, Chorislavia, and ancient Eldariya. Living along the valleys of the Madris and Timika rivers, Nkuhanean farmers grew an abundance of grain and other crops, the surplus from which enabled them to form urban settlements. Finding the magic stone Tridstone, Nkuhanea became a prosperous civilization ever.",
+		"startIntroPart2": "Queen Erish, The Jewel of Timika, The Bearer of the Tridstone, for uncounted years your people endured. They look to you to lead them once more into greatness. Will you answer the call? Can you build a civilization that will stand the test of time?",
 		
 		"declaringWar": "I can engage in this war without sacrificing morals. Can you?",
 		"attacked": "I warn you against making a habit of shedding blood. Blood never sleeps.",
@@ -34,17 +34,16 @@
 		"outerColor": [105,34,172],
 		"innerColor": [255,102,102],
 		"uniqueName": "Valley of Rejuvenation",
-		"uniqueText": "+1 Population to all cities settled on Fresh Water\nAll Land-Military units gain the Amphibious promotion\n-33% tile improvement construction time in River tiles",
+		"uniqueText": "+1 Population to all cities settled on Fresh Water \nAll Land-Military units gain the Amphibious promotion \n-33% tile improvement construction time in River tiles",
 		"uniques": ["[-33]% tile improvement construction time <in [River] tiles>",
 					"[{Military} {Land}] units gain the [Amphibious] promotion"], 
 		"cities": ["Akhetutan","Sabata","Guzana","Noenna","Chu'ata","Vrybergam","Jundiaí","Pliska","Jayapura","Beikthano",
-			"Kyaukse","Veptis Parla","Hieraconpolia","Binnaka","Nias","Quirigua","Q'umarkaj","Mamuju","Kaur","Seluma"],
+			"Kyaukse","Veptis Parla","Hieraconpolia","Binnaka","Nias","Quirigua","Q'umarkaj","Mamuju","Kaur","Tsymbalka"],
 		"spyNames": ["Heba","Sukaesih","Ma'at","Felish","Naru","Bahe","Atan","Ndruru","Refaat","Neuth"]
 		"civilopediaText": [
-			{"text": "'Nkuhanea is the earliest known civilization in the historical region of southern Pangaea, emerging during Karamithic, the time before the Gods left Earth. It is one of the cradles of civilization in the world, along with ancient Almuria, Shangri-La, Polgar Sod'em, Louvargia, and ancient Eldariya. Living along the valleys of the Madris and Timika rivers, Nkuhanean farmers grew an abundance of grain and other crops, the surplus from which enabled them to form urban settlements."},
+			{"text": "'Nkuhanea is the earliest known civilization in the historical region of southern Pangaea, emerging during Karamithic, the time before the Gods left Earth. It is one of the cradles of civilization in the world, along with ancient Lemuria, Shangri-La, Polgar Sod'em, Artiza, Chorislavia, and ancient Eldariya. Living along the valleys of the Madris and Timika rivers, Nkuhanean farmers grew an abundance of grain and other crops, the surplus from which enabled them to form urban settlements."},
 			{"text": "During Queen Erish's reign, the miners of Nkuhanea discovered an unknown stone, which became known as the Tridstone. The Tridstone shone of its own inner light, and appeared a little globe of pallid light in darkness. This stone was sent to Polgar Sod'em to be made into a necklace for Queen Erish. It is a stone that is dangerous yet useful for the chosen ones because it can affect the user's soul. Queen Erish, almost every time she sleeps, dreams of strange signs. Some of these signs help her bring prosperity to the kingdom after being interpreted."},
 			{"separator": true},
-			{"text": "'Nkuhanea is a tall cultured civilization. It's no wonder that they are masterful at both scientific and arcane arts."},
 			{"text": "Tips to play:"},
 			{"text": "Settle beside Hill, and build Lodepit around your cities. Or ... Settle on River."},
 			{"text": "Any Land on River beside Hill is your favorit spot to settle."}
@@ -54,13 +53,13 @@
 	{
 		"name": "Polgar Sod'em",
 		"leaderName": "Hajruddin",
-		"adjective": ["Dwarven"],
+		"adjective": ["Sodites"],
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Cultural",
 		"favoredReligion": "Relativity",
 		"style": "Dwarven",
 		
-		"startIntroPart1": "Polgar Sod'em is a historical kingdom in the southern region of Pangaea. Together with 'Nkuhanea, Eldariya, and Almuria, it was one of four early civilizations of Pangaea, and of the other three, the only non-human civilization. Its sites spanned an area from much of Somarum Hill, to northeast Khetamun, and northwestern Avalonia. Its culture played a crucial role during the Eldariya dynasty that annexed Polgar Sod'em, when the Sodite language remained and the rest of its buildings became the inspiration for Eldariya's greatness. The concepts of Construct and Golem were first coined among the Sodites.",
+		"startIntroPart1": "Polgar Sod'em is a historical kingdom in the southern continent of Pangaea. Together with 'Nkuhanea, Eldariya, and Chorislavia, it was one of four early civilizations of Pangaea, and of the four, the only dwarfs civilization. Its sites spanned an area from much of Somarum Hill, to north Binnaka, and southeastern Avalonia. Its culture played a crucial role during the Eldariya dynasty that annexed Polgar Sod'em, when the Sodite language remained and the rest of its buildings became the inspiration for Eldariya's greatness. The concepts of Construct and Golem were first coined among the Sodites.",
 		"startIntroPart2": "Great King Hajrudin, The Architectural Digest, The King of Hammer, your kingdom endured but a short time after your death. Your people look to you to bring the kingdom back to life once more. Will you answer the call? Can you build a civilization that will stand the test of time?",
 		
 		"declaringWar": "I hereby inform you of our intention to wipe out your civilization from this world.",
@@ -84,13 +83,56 @@
 			"Petra","Redemeer","Picchu","Angkoreen","Holonbay","Stonen Mengen","Hagan Sophiem","Mozi","Fez","Balkh"],
 		"spyNames": ["Eridd","Yurrgin","Kulin","Dili","Noli","Broil","Uroil","Bifur","Baur","Budigin"]
 		"civilopediaText": [
-			{"text": "Polgar Sod'em is a historical kingdom in the southern region of Pangaea. Together with 'Nkuhanea, Eldariya, and Almuria, it was one of four early civilizations of Pangaea, and of the other three, the only non-human civilization. Its sites spanned an area from much of Somarum Hill, to northeast Khetamun, and northwestern Avalonia. Its culture played a crucial role during the Eldariya dynasty that annexed Polgar Sod'em, when the Sodite language remained and the rest of its buildings became the inspiration for Eldariya's greatness."},
+			{"text": "Polgar Sod'em is a historical kingdom in the southern region of Pangaea. Together with 'Nkuhanea, Eldariya, and Chorislavia, it was one of four early civilizations of Pangaea, and of the four, the only dwarfs civilization. Its sites spanned an area from much of Somarum Hill, to north Binnaka, and southeastern Avalonia. Its culture played a crucial role during the Eldariya dynasty that annexed Polgar Sod'em, when the Sodite language remained and the rest of its buildings became the inspiration for Eldariya's greatness."},
 			{"text": "After Queen Erish found the Tridstone, she requested King Hajruddin to make her a necklace from the stone. Knowing this, Dathun sent his envoy to persuade Hajruddin to conspire and exchange the Tridstone for another stone. Hajruddin rejected the greed shown by the envoy. He was sure that Eldariya would not be satisfied with just stealing the Tridstone, they would definitely take over the Nkuhanean homeland, moreover the Eldars was repeatedly attempted to annex Polgar Sod'em."},
 			{"separator": true},
-			{"text": "Polgar Sod'em is a dwarven civilization, led by Hajruddin. As dwarfs, they can build magnificent monuments."},
+			{"text": "Polgar Sod'em is a dwarfs civilization, led by Hajruddin. As dwarfs, they can build magnificent monuments."},
 			{"text": "Tips to play:"},
 			{"text": "Fokus on building & building, buy every available non-Wonder building in Capital."},
 			{"text": "Aim for Scientific or Cultural vitory."}
+        ]
+	},
+	
+	{
+		"name": "Eldariya",
+		"leaderName": "Atun",
+		"adjective": ["Eldars"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Relativity",
+		
+		"startIntroPart1": "Eldariya was the first empire of Pangaea after the long-lived civilization of 'Nkuhanea and the first dwarven civilization of Polgar Sod'em. It was centered in the city of Phaeron's Seat (named after their leader title) and its surrounding region. The empire united Nkuhanean, Sodites and Eldarry speakers under one rule.  For a brief period, the Eldars was the most powerful in the world, sending military expeditions as far north as Oakenfell, and as far south as Mamuju. But the empire fell at last under the assault of barbaric people, Almurian.",
+		"startIntroPart2": "O' Great Phaeron Atun, Ulur Satarabpa, Lord of the Three Kingdoms, will you rise again to take back what is yours and reclaim your marvels? Will you accept the challenge? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "You lower lifeform has something that is beyond your right. We will take back what is ours!",
+		"attacked": "You dare to defy the Eldars? Face our wrath!",
+		"defeated": "I.. I can't believe it. The Eldars.. Our legacy..",
+		"afterPeace": "Huh, cowards!",
+		"introduction": "I am Atun, Phaeron of the Eldars. We will reclaim our people's glory whatever it takes.",
+		
+		"neutralHello": "Be quick.",
+		"hateHello": "It seems lower lifeform has come to talk.",
+		"tradeRequest": "We believe you have something worthy of our time.",
+		
+		"outerColor": [ 0, 0,205],
+		"innerColor": [50,205,50],
+		"uniqueName": "Buried Marvels",
+		"uniqueText": "+2 Culture, +1 Happiness from every World Wonder and another +2 Culture after discovering Archaeology \n+1 Culture from every National Wonder \n+33% Production when constructing the first World Wonder in a city",
+		"uniques": ["[+2 Culture, +1 Happiness] from every [World Wonder]", 
+					"[+2 Culture] from every [World Wonder] <after discovering [Archaeology]>",
+					"[+33]% Production when constructing [World Wonder] wonders [in all cities]",
+					"[-33]% Production when constructing [World Wonder] wonders [in all cities with a world wonder]"],
+		"cities": ["Phaeron's Seat","Ankhesefret","Isetnotanath","Khetamun","Nimaetef","Imhokhmet","Khaera","Seshetamen","Horemka","Ptoletep",
+			"Nakhtoptah","Tutatamen","Khutamun","Anlakhotep","Rahotef","Nebnebiankh","Sensedjem","Saramun","Psuseramen","Karimun",
+			"Nebethis","Takhathap","Partis","Hetecris","Nubkhecris"],
+		"spyNames": ["Dathun","Amun","Numna","Tun","Astep","Panaen","Octar","Gudrun","Etena","Matla"],
+		"civilopediaText": [
+			{"text": "Eldariya was the first empire of Pangaea after the long-lived civilization of 'Nkuhanea and the first dwarven civilization of Polgar Sod'em. It was centered in the city of Phaeron's Seat (named after their leader title) and its surrounding region. The empire united Nkuhanean, Sodites and Eldarry speakers under one rule. Despite their failing of seizing possession of the Tridstone, Eldariya gains the knowledge and technology to develop a magical being , Golems. They also managed to create a Tomb Guard thanks to the Sodites."},
+			{"text": "As the dominant power of the eastern part of neutral Pangea, Eldariya inevitably came into conflict with many neighbors and rivals, from the indigenous Chorislavians of North Pangea to the nascent Almuria. Following the conflict and annexation of Nubkhecris, its growing competition with Almuria culminated in the Mudariya Wars, which saw some of the largest battles in history. Eldariya narrowly avoided destruction after the Third Mudariya War, and was destroyed by the Almurians after the fourth and final Mudariya War. All remnants of the Eldars civilization came under Almuria rule, and Almuria subsequently became the dominant power, paving the way for its rise as a major empire. Almuria, howerver, decided not to mess with the Crypt of the Unliving because of the Tomb Guard, an entity they had never seen before."},
+			{"separator": true},
+			{"text": "Eldariya is a long lost civilization coming back to life to reclaim their old glory. Led by Phaeron Atun, they came back to retake what rightfully theirs."},
+			{"text": "Tips to play:"},
+			{"text": "Try and settle (or conquer) as many cities as you can to maximize Eldariya's Unique Ability to build Wonder."},
+			{"text": "Eldarya is a typical wide yet cultural civilization."}
         ]
 	},
 	
@@ -889,42 +931,6 @@
 			{"text":"Tips to play:"}
 			{"text":"You want to settles your cities on Hill, especially next to Mountain."},
 			{"text":"Bring Orichalcum Golem to every battlefield."}
-        ]
-	},
-	
-	{
-		"name": "Eldariya",
-		"leaderName": "Phaeron Atun",
-		"adjective": ["Eldars"],
-		"preferredVictoryType": "Cultural",
-		"favoredReligion": "Relativity",
-		
-		"startIntroPart1": "Phaeron Atun, your people has been brough to life again after the Long Sleep. Long it has been since your people walked this world. Civilization rose and fell as your people still in deep slumber, not knowing who's the master of this world.",
-		"startIntroPart2": "Oh, Great Phaeron, your people needs you to lead them back to their old glory. Will you take back what is yours and reclaim your marvels. Can you build a civilization that will stand the test of time?",
-		
-		"declaringWar": "You lower lifeform has something that is beyond your right. We will take back what is ours!",
-		"attacked": "You dare to defy the Eldars? Face our wrath!",
-		"defeated": "I.. I can't believe it. The Eldars.. Our legacy..",
-		"introduction": "I am Atun, Phaeron of the Eldars. We will reclaim our people's glory whatever it takes.",
-		
-		"neutralHello": "Be quick.",
-		"hateHello": "It seems lower lifeform has come to talk.",
-		"tradeRequest": "We believe you have something worthy of our time.",
-		
-		"outerColor": [ 0, 0,205],
-		"innerColor": [50,205,50],
-		"uniqueName": "Buried Marvels",
-		"uniqueText": "+2 Culture, +1 Happiness from every World Wonder and another +2 Culture after discovering Archaeology\n+1 Culture from every National Wonder\n+33% Production when constructing the first World Wonder in a city",
-		"uniques": ["[+2 Culture, +1 Happiness] from every [World Wonder]", "[+2 Culture] from every [World Wonder] <after discovering [Archaeology]>",
-					"[+1 Culture] from every [National Wonder]",
-					"[+33]% Production when constructing [World Wonder] wonders [in all cities]",
-					"[-33]% Production when constructing [World Wonder] wonders [in all cities with a world wonder]"],
-		"cities": ["Phaeron's Seat","Ankhesefret","Isetnotanath","Khetamun","Nimaetef","Imhokhmet","Khaera","Seshetamen","Horemka","Ptoletep","Nakhtoptah","Tutatamen",
-			"Khutamun","Anlakhotep","Rahotef","Nebnebiankh","Sensedjem","Nebethis","Takhathap","Psuseramen","Hetecris","Nubkhecris"],
-		"civilopediaText": [
-			{"text":"Eldariya is a long lost civilization coming back to life to reclaim their old glory. Led by Phaeron Atun, they came back to retake what rightfully theirs."},
-			{"text":"Tips to play:"},
-			{"text":"Try and settle (or conquer) as many cities as you can to maximize Eldariya's National Ability to build Wonder."},
         ]
 	},
 	

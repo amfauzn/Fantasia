@@ -5,28 +5,35 @@
 	{
 		"name": "Palace",
 		"isNationalWonder": true,
-		"production": 3,
-		"science": 3,
-		"gold": 3,
+		"production": 2,
+		"science": 2,
+		"gold": 2,
 		"culture": 2,
-		"happiness": 1,
-		"cityStrength": 3,
+		"happiness": 2,
+		"cityStrength": 2,
 		"cost": 1,
-		"uniques": ["Indicates the capital city"]
+		"uniques": ["Indicates the capital city"],
+		"civilopediaText": [
+			{"text": "A residence of a civilization's ruler."}
+		]
 	},
 	{
 		"name": "Para",
 		"replaces": "Palace",
 		"uniqueTo": "Thallin",
 		"isNationalWonder": true,
-		"production": 3,
-		"science": 3,
-		"gold": 3,
+		"production": 2,
+		"science": 2,
+		"gold": 2,
 		"culture": 4,
-		"happiness": 1,
-		"cityStrength": 3,
+		"happiness": 2,
+		"cityStrength": 2,
 		"cost": 1,
-		"uniques": ["Indicates the capital city", "[-50]% Unhappiness from [Population] [in this city]"]
+		"uniques": ["Indicates the capital city", 
+					"[-50]% Unhappiness from [Population] [in this city]"],
+		"civilopediaText": [
+			{"text": "A residence of a Parun, and the physical center of Pohala'a."}
+		]
 	},
 	{
 		"name": "Monument",
@@ -553,13 +560,30 @@
 	{
 		"name": "Monastery",
 		"happiness": 1,
-		"culture": 1,
-		"maintenance": 0,
+		"requiredBuilding": "Shrine",
+		"maintenance": 1,
 		"requiredNearbyImprovedResources": ["Wine","Incense","Perfume"],
 		"hurryCostModifier": 25,
-		"requiredTech": "Theology"
-		"uniques": ["[+1 Culture, +1 Faith] from [Incense] tiles [in this city]", "[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
-					"[+1 Culture, +1 Faith] from [Perfume] tiles [in this city]", "Destroyed when the city is captured"]
+		"uniques": ["[+1 Culture, +1 Faith] from [Incense] tiles [in this city]", 
+					"[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
+					"[+1 Culture, +1 Faith] from [Perfume] tiles [in this city]", 
+					"[+15]% Production when constructing [Monk] units [in this city]", 
+					"Destroyed when the city is captured"],
+		"requiredTech": "Theology",
+		"civilopediaText": [
+			{"text": "A complex of buildings housing people who have renounced worldly affairs."}
+		]
+	},
+	{
+		"name": "Great Monastery",
+		"culture": 2,
+		"faith": 3,
+		"greatPersonPoints": {"Great Artist": 1},
+		"isWonder": true,
+		"uniques": ["Gain a free [Monastery] [in this city]", "Hidden when religion is disabled",
+					"[Missionary] units built [in this city] can [Spread Religion] [1] extra times", "[2] free [Warrior Monk] units appear"],
+		"requiredTech": "Theology",
+		"quote": "'With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.' - Thomas Chalmers"
 	},
 	{
 		"name": "Pillar of Faith",
@@ -572,17 +596,6 @@
 					//"Only available <in cities without a [Pillar of Life]> <in cities without a [Pillar of Learning]> <in cities without a [Pillar of Prosperity]>", 
 					"Will not be displayed in Civilopedia"],
 		"requiredTech": "Theology"
-	},
-	{
-		"name": "Great Monastery",
-		"culture": 2,
-		"faith": 3,
-		"greatPersonPoints": {"Great Artist": 1},
-		"isWonder": true,
-		"uniques": ["Gain a free [Monastery] [in this city]", "Hidden when religion is disabled",
-					"[Missionary] units built [in this city] can [Spread Religion] [1] extra times", "[2] free [Warrior Monk] appear"],
-		"requiredTech": "Theology",
-		"quote": "'With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.' - Thomas Chalmers"
 	},
 	{
 		"name": "Grand Temple",
@@ -1543,7 +1556,7 @@
 	},
 	
 	// Hero Summoner
-	{
+	/*{
 		"name": "Heroism Banner",
 		"faith": 1,
 		"greatPersonPoints": {"Great Engineer": 2},
@@ -1560,7 +1573,7 @@
 		"replacementTextForUniques": "Unlock All Heroes",
 		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
 		"requiredTech": "Machinery"
-	},
+	},*/
 	{
 		"name": "Portal",
 		"faith": 1,

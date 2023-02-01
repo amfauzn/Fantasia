@@ -1,6 +1,8 @@
 # Development
-* [amfauzn (AKA faw)](https://github.com/amfauzn) - sprites, idea, code, lore, autogen translation template
-* [AceHank](https://github.com/AceHank) - icon, idea, lore
+* [amfauzn (AKA faw)](https://github.com/amfauzn) - sprites, icon, idea, code, lore, translation template
+* [AceHank](https://github.com/AceHank) - icon, idea, code, lore
+* [Caballero Arepa](https://github.com/Caballero-Arepa) - Spanish translation
+* [Belias02](https://github.com/Belias02) - Balancing
 
 # Inspired by
 * Ancient Empires, a symbian fantasy TBS game by Macrospace and Soren
@@ -13,7 +15,7 @@
 * [Cavenir](https://github.com/Cavenir) - Creator of Extra Resources
 * [Subcher](https://github.com/Subcher) - Creator of More Luxuries
 * [SpacedOutChicken](https://github.com/SpacedOutChicken) & [9kgsrice](https://github.com/9kgsofrice) - Creator & Developer of DeCiv
-* [ravignir](https://github.com/ravignir) - Creator of LOTR Unciv
+* [ravignir](https://github.com/ravignir) - Creator of LOTR Unciv & RekMOD
 
 
 # Credits
