@@ -1,0 +1,70 @@
+Civ balancing v3.1.0
+
+Almuria
++ Double quantity of Megall
+
+Louvargia
++ Free Divine Order upon discovering Theology
+
+The Shinso
+Pillar of Wealth Currency -> Mathematics
+Pillar of Faith Theology -> Philosopy
++ Free Great Person after building all pillars
+
+Arxia
+UU Fanatic +10% str when stacked with Traon General
+
+Thallin
++8 Culture after adopting tradition complete -> +1 Population +1 Culture in capital upon adopting every Tradition policy tree
+
+Torakj
++15 % Flank attack bonus -> +10% Flank attack bonus
++1 Happiness every Courthouse -> Receive triple gold pillaging cities
+UU Wolf Rider str 14 -> 12 cost 85 -> 70
+
+Smeheng
++10% str bonus in Desert -> +15% str bonus in Desert
++10% str bonus in Freindly Land -> +15% str bonus in Freindly Land
+
+Cavegoa
+Posha +1 Production +3 Gold from water resources -> +1 Food +1 Gold from Fish tiles
++5 HP when healing -> +10 HP when healing
++10% str when belom 50 HP when defending - > +10% str when below 50 HP
+
+Ilythiir
++ Free Settler appears upon discovering Calendar
+
+Vedic
+UU Homunculus str 36 -> 35
+
+Thorin
+Normal vision when embarked -> Gain 330 Gold upon capturing a city
+UB Cashier Stable maintenance 1 -> 0
+UB +33% Production for Mounted -> +50% Production for Mounted
+
+Malus
+UB Malus' Barricade -> UB Fortified Walls
+
+Nas
+-33% maintenance costs for Military Land and Water units -> -50% City-State Influence degradation
++ Militaristic City-States grant units 2 times as fast when you are at war with a common nation
+UU Ballista -> UB Ancient Citadel
+
+Erhab
+UB Sacred Dance +1 Gold from each trade route -> +4 Culture from the UB
+UB Sacred Dance +5% str for Melee unit when defending -> +10% str for Land unit when defending
+
+Sulvana
++ +10% Great Person generation in all cities
+
+Urush
++ +1 Happiness from every Barrack, Armory, and Knight Academy if Infernal Gate is constructed
+
+Red Moon
++34% Natural religion spread -> Double quantity of Magician produced
+UB Sect -> UB Draen Sanctuary
+UU Adept replaces Swordsman -> replaces Ranger
+
+Frostmorrow
+-25% Culture cost of natural border growth in first 4 cities -> -15% Culture cost of natural border growth in all cities
+-25% unhappiness from specialists in first 4 cities -> on all cities
