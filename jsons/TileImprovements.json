@@ -58,7 +58,8 @@
 		"uniques": ["[+1 Food] for each adjacent [Mountain]", 
 					"Cannot be built on [Bonus resource] tiles", 
 					"Cannot be built on [Strategic resource] tiles", 
-					"Cannot be built on [Coastal] tiles", 
+					"Cannot be built on [Desert] tiles", 
+					"Cannot be built on [Snow] tiles", 
 					"[+1 Food] <after discovering [Education]>"],
 		"techRequired": "Calendar",
 		"shortcutKey": "F"
@@ -185,6 +186,7 @@
 		"food": 3,
 		"uniques": ["Great Improvement", 
 					"[+2 Food] <after discovering [Fertilizer]>", 
+					"Removes removable features when built", 
 					"Pillaging this improvement yields approximately [+15 Gold]"],
 		"civilopediaText": [
 			{"text": "A method of farming, which involves the best next generation aspiring farmers with retiring farmers, with special seeds that can be planted even in very cold areas."}
@@ -209,7 +211,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"techRequired": "The Wheel",
 		"uniques": ["Can be built outside your borders", 
-					"Costs [1] gold per turn when in your territory"],
+					"Costs [1] [Gold] per turn"],
 		"shortcutKey": "R",
 		"civilopediaText": [
 			{"text": "Reduces movement cost to ½ if the other tile also has a Road or Railroad"},
@@ -228,7 +230,8 @@
 		"turnsToBuild": 4,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"techRequired": "Railroads",
-		"uniques": ["Can be built outside your borders", "Costs [2] gold per turn when in your territory"],
+		"uniques": ["Can be built outside your borders", 
+					"Costs [2] [Gold] per turn"],
 		"shortcutKey": "R",
 		"civilopediaText": [
 			{"text": "Reduces movement cost to ⅒ if the other tile also has a Railroad"}
@@ -424,12 +427,18 @@
 		"production": 1,
 		"culture": 3,
 		"faith": 1,
-		"uniques": ["Great Improvement", "[+2 Faith] <after discovering [Theology]>", 
+		"uniques": ["Great Improvement", 
+					"[+2 Faith] <after discovering [Theology]>", 
 					"[+2 Culture] <after discovering [Acoustics]>", 
 					"[+2 Gold] <after discovering [Scientific Theory]>", 
 					"[+1 Science, +1 Production, +1 Culture, +1 Food] <after discovering [Empowerment]>", 
 					"Removes removable features when built", 
-					"Pillaging this improvement yields approximately [+10 Gold, +5 Culture]"]
+					"Pillaging this improvement yields approximately [+10 Gold, +5 Culture]"],
+		"civilopediaText": [
+			{"text": "A sacred place constructed by a Maeron."},
+			{"text": "Home for artists, where a Maeron trains and teaches other Maeron candidates, a place that provides beauty and comfort."},
+			{"text": "Many great elves have had enlightenment in this place.."}
+		]
 	},
 	{
 		"name": "Ulu Wae",
@@ -442,21 +451,23 @@
 					"Cannot be built on [Coast] tiles <with [1] to [6] neighboring [Ulu Wae] tiles>", 
 					"Pillaging this improvement yields approximately [+8 Gold]"],
 		"civilopediaText": [
-			{"text":"Ulu Wae can not be built next to each other."}
+			{"text": "A tightly-clustered houses on stilts to accommodate people while protecting them from flooding and wildlife in the densely-packed islands"},
+			{"text": "Do note that Ulu Wae can not be built next to each other."}
 		]
 	},
 	{
-		"name": "Observatory",
+		"name": "Staerie",
 		"uniqueTo": "Twin Mountain",
 		"terrainsCanBeBuiltOn": ["Mountain"],
-		"science": 2,
+		"science": 1,
 		"turnsToBuild": 7,
 		"uniques": ["[+2 Science] <after discovering [Astronomy]>",
 					"Pillaging this improvement yields approximately [+8 Gold, +2 Science]"],
 		"techRequired": "Optics",
 		"shortcutKey": "F",
 		"civilopediaText": [
-			{"text":"While Observatory is safe from any pillaging during early game, it's better guard this improvement from the invasion of Golems."}
+			{"text": "An encampment with two different functions, that is to observe nature events and to monitor, guard, and anticipate surprise attacks by enemies."},
+			{"text": "While Staerie is safe from any pillaging during early game, it's better guard this improvement from the invasion of Golems."}
 		]
 	},
 	{
@@ -466,13 +477,14 @@
 		"food": 2,
 		"culture": 1,
 		"turnsToBuild": 7,
-		"techRequired": "Archery",
+		"techRequired": "Construction",
 		"uniques": ["[+2 Culture] <after discovering [Acoustics]>", 
 					"Cannot be built on [Desert] tiles <with [1] to [6] neighboring [Dhab Hunter Camp] tiles>", 
 					"Pillaging this improvement yields approximately [+8 Gold]"],
 		"shortcutKey": "C",
 		"civilopediaText": [
-			{"text":"Dhab Hunter Camp can not be be built next to each other."}
+			{"text": "A settlement along the Karionam river, which is used by the Smeheng people to gather food, mainly from desert animals, and collect water."},
+			{"text": "Dhab Hunter Camp can not be be built next to each other."}
 		]
 	},
 	{
@@ -480,17 +492,30 @@
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Hill"],
 		"culture": 1,
 		"faith": 1,
-		"uniques": ["[+1 Food] for each adjacent [Farm]", "[+1 Food] for each adjacent [Terrace farm]", 
-					"[+1 Production] for each adjacent [Lumber mill]", "[+1 Production] for each adjacent [Mine]", 
-					"[+1 Production] for each adjacent [Quarry]", "[+2 Production] for each adjacent [Manufactory]", 
-					"[+1 Food, +1 Production] for each adjacent [Pasture]", "[+1 Food, +1 Production] for each adjacent [Taming]", 
-					"[+4 Science] for each adjacent [Academy]", "[+1 Science] for each adjacent [Ice-calator]", 
-					"[+3 Culture] for each adjacent [Landmark]", "[+1 Gold] for each adjacent [Trading post]", 
-					"[+2 Gold] for each adjacent [Customs house]", "[+2 Gold] for each adjacent [Plantation]", 
-					"[+3 Faith] for each adjacent [Holy site]", "Provides [-1] [Block]",
+		"uniques": ["[+1 Food] for each adjacent [Farm]", 
+					"[+1 Food] for each adjacent [Terrace farm]", 
+					"[+1 Production] for each adjacent [Lumber mill]", 
+					"[+1 Production] for each adjacent [Mine]", 
+					"[+1 Production] for each adjacent [Quarry]", 
+					"[+2 Production] for each adjacent [Manufactory]", 
+					"[+1 Food, +1 Production] for each adjacent [Pasture]", 
+					"[+1 Food, +1 Production] for each adjacent [Taming]", 
+					"[+4 Science] for each adjacent [Academy]", 
+					"[+1 Science] for each adjacent [Ice-calator]", 
+					"[+3 Culture] for each adjacent [Landmark]", 
+					"[+1 Gold] for each adjacent [Trading post]", 
+					"[+2 Gold] for each adjacent [Customs house]", 
+					"[+2 Gold] for each adjacent [Plantation]", 
+					"[+3 Faith] for each adjacent [Holy site]", 
+					"Provides [-1] [Vampiric Block]",
 					"Pillaging this improvement yields approximately [+15 Gold]"],
 		//"replacementTextForUniques": "Provides half of neighboring improvements stats",
-		"shortcutKey": "F"
+		"shortcutKey": "F",
+		"civilopediaText": [
+			{"text": "A cursed castle that can cause one to be dazed and unable to get out."},
+			{"text": "The strong blood aura on every wall can arouse thirst."},
+			{"text": "That's right, a person may become a vampire by being bitten by a vampire, having a cat jump over a person's corpse, and by being in this cursed castle 10 nights straight."}
+		]
 	},
 	{
 		"name": "Coffin",
@@ -499,7 +524,11 @@
 		"turnsToBuild": 4,
 		"techRequired": "Engineering",
 		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [33]%"],
-		"shortcutKey": "C"
+		"shortcutKey": "C",
+		"civilopediaText": [
+			{"text": "A funerary box used for keeping a corpse, either for burial or cremation."},
+			{"text": "Dracula, unable to stand the sun, uses coffin to rest and recuperate."}
+		]
 	},
 	{
 		"name": "Blessed Farm",
@@ -508,9 +537,12 @@
 		"food": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
-		"uniques": ["[+1 Food] <after discovering [Civil Service]>", "[+1 Food] for each adjacent [Blessed Farm]",
+		"uniques": ["[+1 Food] <after discovering [Civil Service]>", 
 					"Pillaging this improvement yields approximately [+8 Gold]"],
-		"shortcutKey": "F"
+		"shortcutKey": "F",
+		"civilopediaText": [
+			{"text": "A farm that received a blessing from Inua, the Tundra Goddess, a gift from her to the Louvargians."}
+		]
 	},
 	{
 		"name": "Matter Transmuter",
@@ -519,9 +551,15 @@
 		"gold": 2,
 		"science": 3,
 		"production": 2,
-		"uniques": ["Great Improvement", "Removes removable features when built", 
+		"uniques": ["Great Improvement", 
+					"[+2 Science] <after discovering [Education]>", 
+					"[+2 Science] <after discovering [Scientific Theory]>", 
+					"Removes removable features when built", 
 					"Tile provides yield without assigned population",
-					"Pillaging this improvement yields approximately [+12 Gold, +2 Science]"]
+					"Pillaging this improvement yields approximately [+12 Gold, +2 Science]"],
+		"civilopediaText": [
+			{"text": "A place where the alchemists of First Order ponder, study, and conduct experiments of changing one matter into another."}
+		]
 	},
 	{
 		"name": "Meka-Monastery",
@@ -530,11 +568,12 @@
 		"science": 2,
 		"faith": 4,
 		"uniques": ["Great Improvement", "Removes removable features when built", 
-					"[+2 Gold, +3 Culture, +1 Faith] <after adopting [Piety Complete]>",
-					"[+2 Science, +2 Production, +1 Faith] <after adopting [Rationalism Complete]>",
+					"[+1 Culture, +2 Faith] <after adopting [Piety Complete]>",
+					"[+2 Science, +1 Faith] <after adopting [Rationalism Complete]>",
 					"Pillaging this improvement yields approximately [+12 Gold, +3 Culture]"],
 		"civilopediaText": [
-			{"text":"Either Piety or Rationalism grants additional bonus for this improvement."}
+			{"text": "The place of worship to the Machine-God and their prophet."},
+			{"text": "Completing either Piety or Rationalism grants additional bonus for this improvement."}
 		]
 	},
 	{
@@ -545,11 +584,12 @@
 		"production": 1,
 		"faith": 2,
 		"uniques": ["Great Improvement", "Removes removable features when built", 
-					"[+2 Gold, +3 Culture, +1 Faith] <after adopting [Piety Complete]>",
-					"[+2 Science, +2 Production, +1 Faith] <after adopting [Rationalism Complete]>",
+					"[+1 Culture, +2 Faith] <after adopting [Piety Complete]>",
+					"[+2 Science, +1 Faith] <after adopting [Rationalism Complete]>",
 					"Pillaging this improvement yields approximately [+12 Gold, +3 Culture]"],
 		"civilopediaText": [
-			{"text":"Either Piety or Rationalism grants additional bonus for this improvement."}
+			{"text": "A place where the Machinicus forge their machine of war."},
+			{"text": "Completing either Piety or Rationalism grants additional bonus for this improvement."}
 		]
 	},
 	{
@@ -559,13 +599,19 @@
 		"faith": 3,
 		"turnsToBuild": 7,
 		"techRequired": "Writing",
-		"uniques": ["[+1 Science] <after discovering [Theology]>", "[+1 Science] <after discovering [Scientific Theory]>", 
+		"uniques": ["[+1 Science] <after discovering [Theology]>", 
+					"[+1 Science] <after discovering [Scientific Theory]>", 
 					"Cannot be built on [Land] tiles <with [0] to [0] neighboring [City center] tiles>", 
-					"Pillaging this improvement yields approximately [+8 Gold]"]
+					"Pillaging this improvement yields approximately [+10 Gold]"],
+		"shortcutKey": "O",
+		"civilopediaText": [
+			{"text": "A tall monument where the oracles, or the Ephor, resides and foretold the future of the Arxian and the probable victory of their army in the future war."}
+			{"text": "Apart from fortune-telling, the oracles also sell information to the commoners and sometimes sell good luck charms."}
+		]
 	},
 	{
 		"name": "Sacred Cove",
-		"uniqueTo": "Shinso",
+		"uniqueTo": "The Shinso",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"faith": 1,
 		"gold": 1,
@@ -574,7 +620,11 @@
 		"uniques": ["[+2 Culture] <after discovering [Enlightenment]>", 
 					"Cannot be built on [Land] tiles <with [0] to [0] neighboring [Ley Line] tiles>",
 					"Cannot be built on [Land] tiles <with [1] to [6] neighboring [Sacred Cove] tiles>",
-					"Pillaging this improvement yields approximately [+6 Gold, +2 Culture]"]
+					"Pillaging this improvement yields approximately [+6 Gold, +2 Culture]"],
+		"civilopediaText": [
+			{"text": "An extension wing of the Beacon of Power, although sometimes this building is not actually connected to the beacon of power."},
+			{"text": "The Shinso harness the power of the Ley Line in this place."}
+		]
 	},
 
 	// Unbuildable improvements

@@ -80,6 +80,7 @@
         "startPercent": 35,
 		"citySound": "cityMedieval",
         "iconRGB": [104, 58, 183],
+		"uniques": ["Every major Civilization gains a spy once a civilization enters this era"],
 		"civilopediaText": [
             {"text":"Some Heroes decided to form their own country, while the other keep wandering to hunt monster."},
             {"text":"War break-out as people try to take control of each other."}
@@ -102,6 +103,7 @@
 		"startPercent": 50,
         "citySound": "cityRenaissance",
 		"iconRGB": [63, 81, 182],
+		"uniques": ["Every major Civilization gains a spy once a civilization enters this era"],
 		"civilopediaText": [
             {"text":"People without magic talent adapted the way to use magic tools to create and control magic."}
         ]
@@ -126,7 +128,8 @@
         "iconRGB": [33, 150, 243],
 		"uniques": ["May not generate great prophet equivalents naturally", 
 			"May buy [Great Prophet] units for [300] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
-			"Starting in this era disables religion"
+			"Starting in this era disables religion",
+			"Every major Civilization gains a spy once a civilization enters this era"
 		],
 		"civilopediaText": [
             {"text":"Mass production of magic tools."},
@@ -154,7 +157,8 @@
         "iconRGB": [0, 150, 136],
 		"uniques": ["May not generate great prophet equivalents naturally", 
 			"May buy [Great Prophet] units for [300] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
-			"Starting in this era disables religion"
+			"Starting in this era disables religion",
+			"Every major Civilization gains a spy once a civilization enters this era"
 		]
     },
 	{
@@ -178,7 +182,8 @@
         "iconRGB": [76, 176, 81],
 		"uniques": ["May not generate great prophet equivalents naturally", 
 			"May buy [Great Prophet] units for [300] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([100])",
-			"Starting in this era disables religion"
+			"Starting in this era disables religion",
+			"Every major Civilization gains a spy once a civilization enters this era"
 		]
     },
     {

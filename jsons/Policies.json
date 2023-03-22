@@ -9,7 +9,10 @@
 			"Domination": 0,
 			"Scientific": 0
 		},
-		"uniques": ["[+3 Culture] [in capital]", "[-25]% Culture cost of natural border growth [in all cities]", "Unlocks building Cetho Lighyn"],
+		"uniques": ["[+3 Culture] [in capital]", 
+					"[-25]% Culture cost of natural border growth [in all cities]", 
+					"Unlocks building Cetho Lighyn"
+		],
 		"policies": [
 			{
 				"name": "Aristocracy",
@@ -24,14 +27,15 @@
 							"[+2 Culture] from every [The Great Colosseum]", 
 							"[+2 Culture] from every [Bastar Dussehra]"],
 				"row": 1,
-				"column": 3
+				"column": 4
 			},
 			{
 				"name": "Oligarchy",
 				"uniques": ["Units in cities cost no Maintenance", 
 							"[+50]% Strength for cities <with a garrison> <when attacking>"],
-				"row": 1,
-				"column": 5
+				"requires": ["Aristocracy"],
+				"row": 2,
+				"column": 1
 			},
 			{
 				"name": "Landed Elite",
@@ -39,7 +43,7 @@
 							"[+2 Food] [in capital]"],
 				"requires": ["Legalism"],
 				"row": 2,
-				"column": 2
+				"column": 3
 			},
 			{
 				"name": "Monarchy",
@@ -47,13 +51,12 @@
 							"[+1 Production] per [5] population [in capital]"],
 				"requires": ["Legalism"],
 				"row": 2,
-				"column": 4
+				"column": 5
 			},
 			{
 				"name": "Tradition Complete",
 				"uniques": ["[+15]% growth [in all cities]", 
-							"Provides a [Aqueduct] in your first [4] cities for free", 
-							"[+2 Food] [in all cities]"]
+							"Provides a [Aqueduct] in your first [4] cities for free"]
 			}
 		]
 	},
@@ -67,7 +70,9 @@
 			"Domination": 10,
 			"Scientific": 20
 		},
-		"uniques": ["[+1 Culture] [in all cities]", "Unlocks building Bondowoso"],
+		"uniques": ["[+1 Culture] [in all cities]", 
+					"Unlocks building Bondowoso"
+		],
 		"policies": [
 			{
 				"name": "Republic",
@@ -111,7 +116,7 @@
 				"name": "Liberty Complete",
 				"uniques": ["Free Great Person", 
 							"[+15]% Production when constructing [Monument] buildings [in all cities]", 
-							"[+33]% Production when constructing [Jajaghu] wonders [in all cities]"
+							"[+33]% Production when constructing [National Epic] wonders [in all cities]"
 							"[+15]% Production when constructing [Colosseum] buildings [in all cities]", 
 							"[+33]% Production when constructing [The Great Colosseum] wonders [in all cities]"]
 			}
@@ -127,8 +132,11 @@
 			"Domination": 20,
 			"Scientific": 10
 		},
-		"uniques": ["[+33]% Strength <vs [Barbarian] units>", "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
-					"Notified of new Barbarian encampments", "Unlocks building Bubrah Tikus"],
+		"uniques": ["[+33]% Strength <vs [Barbarian] units>",
+					"Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
+					"Notified of new Barbarian encampments", 
+					"Unlocks building Bubrah Tikus"
+		],
 		"policies": [
 			{
 				"name": "Warrior Code",
@@ -136,12 +144,11 @@
 							"[2] free [Spearman] units appear <starting from the [Heroic age]>",
 							"Free [Great General] appears"],
 				"row": 1,
-				"column": 2
+				"column": 1
 			},
 			{
 				"name": "Discipline",
-				"uniques": ["[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>", 
-							"[4] units cost no maintenance"],
+				"uniques": ["[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit>"],
 				"row": 1,
 				"column": 4
 			},
@@ -151,14 +158,14 @@
 							"[+50]% XP gained from combat <for [Military] units>"],
 				"requires": ["Warrior Code"],
 				"row": 2,
-				"column": 2
+				"column": 1
 			},
 			{
 				"name": "Military Caste",
 				"uniques": ["[+1 Happiness, +2 Culture] [in all cities with a garrison]"],
 				"requires": ["Discipline"],
 				"row": 2,
-				"column": 4
+				"column": 3
 			},
 			{
 				"name": "Professional Army",
@@ -167,17 +174,16 @@
 							"[+1 Happiness] from every [Castle]", 
 							"[+1 Happiness] from every [Arsenal]", 
 							"[+1 Happiness] from every [Countermeasures Council]"],
-				"requires": ["Military Caste"],
-				"row": 3,
-				"column": 4
+				"requires": ["Discipline"],
+				"row": 2,
+				"column": 5
 			},
 			{
 				"name": "Honor Complete",
 				"uniques": ["Earn [10]% of killed [Military] unit's [Cost] as [Gold]", "[+4 Production, +4 Culture] from every [Heroic Epic]", 
-							"[+66]% Production when constructing [Barracks] buildings [in all cities]", 
-							"[+33]% Production when constructing [Armory] buildings [in all cities]", 
-							"[+66]% Production when constructing [Heroic Epic] wonders [in all cities]", 
-							"May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250]) <starting from the [Heroic age]>"]
+							"[+25]% Production when constructing [Barracks] buildings [in all cities]", 
+							"[+25]% Production when constructing [Heroic Epic] wonders [in all cities]", 
+							"May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250]) <starting from the [Feudal age]>"]
 			}
 		]
 	},
@@ -191,10 +197,8 @@
 			"Domination": 10,
 			"Scientific": 0
 		},
-		"uniques": ["[+50]% Production when constructing [Shrine] buildings [in all cities]", 
-					"[+100]% Production when constructing [Temple] buildings [in all cities]",  
-					"[+100]% Production when constructing [Mawene] buildings [in all cities]", 
-					"Only available <before adopting [Rationalism]>"],
+		"uniques": ["[+100]% Production when constructing [Shrine] buildings [in all cities]", 
+					"[+100]% Production when constructing [Temple] buildings [in all cities]"],
 		"policies": [
 			{
 				"name": "Mandate Of Heaven",
@@ -208,13 +212,13 @@
 							"[+1 Faith] from every [Temple]", 
 							"[+1 Happiness] from every [Mawene]"],
 				"row": 1,
-				"column": 5
+				"column": 4
 			},
 			{
-				"name": "Religious Agency",
+				"name": "Postulant",
 				"requires": ["Mandate Of Heaven"],
-				"uniques": ["[+5 Faith] [in holy cities]", 
-							"[2] free [Missionary] units appear"],
+				"uniques": ["[2] free [Missionary] units appear",
+							"May build Warrior Monk"],
 				"row": 2,
 				"column": 2
 			},
@@ -224,14 +228,14 @@
 							"[+1 Happiness] from every [Temple]"],
 				"requires": ["Organized Religion"],
 				"row": 2,
-				"column": 5
+				"column": 4
 			},
 			{
-				"name": "Postulant",
-				"requires": ["Religious Agency"],
-				"uniques": ["Free [Great Prophet] appears", 
-							"Free [Inquisitor] appears", 
-							"May build Warrior Monk"],
+				"name": "Religious Agency",
+				"requires": ["Postulant"],
+				"uniques": ["[+5 Faith] [in holy cities]", 
+							"Free [Great Prophet] appears", 
+							"Free [Inquisitor] appears"],
 				"row": 3,
 				"column": 2
 			},
@@ -257,41 +261,40 @@
 			{
 				"name": "Inheritance",
 				"uniques": ["[+2 Culture, +1 Science] from every [Palace]", 
-							"[+1 Happiness] from every [Pyramid]", 
-							"[+1 Culture, +1 Happiness] from every [Antique Heritage]"],
+							"[+5]% [Gold] from every [National Treasury]"],
 				"row": 1,
-				"column": 2
-			},
-			{
-				"name": "Wisdom",
-				"uniques": ["[+5]% [Gold] from every [National Treasury]",
-							"[50]% of excess happiness converted to [Culture]"],
-				"row": 1,
-				"column": 5
-			},
-			{
-				"name": "Reformation",
-				"uniques": ["[+33]% [Culture] [in all cities with a world wonder]", 
-							"Empire enters golden age"],
-				"requires": ["Inheritance"],
-				"row": 2,
 				"column": 2
 			},
 			{
 				"name": "Cultural Exchange",
 				"uniques": ["[+1 Culture] from every [Trading post]", 
-							"[+1 Culture] from every [Information Market]", 
 							"[+1 Culture] from every [Great Improvement]", 
-							"[Great Artist] is earned [10]% faster"],
-				"requires": ["Wisdom"],
+							"[Great Artist] is earned [15]% faster"],
+				"row": 1,
+				"column": 4
+			},
+			{
+				"name": "Wisdom",
+				"uniques": ["[50]% of excess happiness converted to [Culture]",
+							"[+1 Gold, +1 Happiness] from every [Antique Heritage]"],
+				"requires": ["Inheritance"],
 				"row": 2,
-				"column": 5
+				"column": 2
+			},
+			{
+				"name": "Flourishing of the Arts",
+				"uniques": ["[+33]% [Culture] [in all cities with a world wonder]", 
+							"Empire enters golden age"],
+				"requires": ["Cultural Exchange"],
+				"row": 2,
+				"column": 4
 			},
 			{
 				"name": "Spiritual Tolerance",
-				"uniques": ["Free Social Policy", "[+1 Culture] from every [Monastery]", 
+				"uniques": ["Free Social Policy", 
+							"[+1 Culture] from every [Monastery]", 
 							"[+1 Happiness] from every [Composer Hall]"],
-				"requires": ["Reformation"],
+				"requires": ["Wisdom"],
 				"row": 3,
 				"column": 2
 			},
@@ -337,7 +340,7 @@
 			},
 			{
 				"name": "Cultural Diplomacy",
-				"uniques": ["[+25]% [Culture] from City-States", 
+				"uniques": ["City-State territory always counts as friendly territory", 
 							"[+100]% resources gifted by City-States"],
 				"requires": ["Scholasticism"],
 				"row": 3,
@@ -348,7 +351,7 @@
 				"uniques": ["Allied City-States will occasionally gift Great People"],
 				"requires": ["Scholasticism","Aesthetics"],
 				"row": 3,
-				"column": 3
+				"column": 4
 			},
 			{
 				"name": "Patronage Complete",
@@ -390,7 +393,6 @@
 			{
 				"name": "Entrepreneurship",
 				"uniques": ["[Great Merchant] is earned [25]% faster", 
-							"[+1 Science] from every [Mint]", 
 							"[+1 Science] from every [Market]", 
 							"[+1 Science] from every [Bank]"],
 				"requires": ["Trade Unions"],
@@ -400,7 +402,6 @@
 			{
 				"name": "Merchant Navy",
 				"uniques": ["[+3 Production] [in all coastal cities]", 
-							"[+1 Gold] from every [Harbor]", 
 							"[+50]% Production when constructing [Harbor] buildings [in all coastal cities]"],
 				"requires": ["Naval Tradition"],
 				"row": 2,
@@ -433,13 +434,11 @@
 			"Domination": 10,
 			"Scientific": 20
 		},
-		"uniques": ["[+15]% [Science] <while the empire is happy>", 
-					"Only available <before adopting [Piety]>"],
+		"uniques": ["[+15]% [Science] <while the empire is happy>"],
 		"policies": [
 			{
 				"name": "Secularism",
-				"uniques": ["[+2 Science] from every specialist [in all cities]", 
-							"[+1 Science] from every specialist [in capital]"],
+				"uniques": ["[+2 Science] from every specialist [in all cities]"],
 				"row": 1,
 				"column": 2
 			},
@@ -447,7 +446,7 @@
 				"name": "Humanism",
 				"uniques": ["[+1 Happiness] from every [Public School]", 
 							"[+1 Happiness] from every [Information Market]",
-							"[+1 Happiness] from every [Watchtower]"],
+							"[+1 Happiness] from every [Observatory]"],
 				"row": 1,
 				"column": 4
 			},
@@ -455,7 +454,7 @@
 				"name": "Free Thought",
 				"uniques": ["[+1 Science] from every [Trading post]", 
 							"[+1 Science] from every [Information Market]", 
-							"[+4 Science] from every [Academy]", 
+							"[+2 Science] from every [Academy]", 
 							"[+20]% [Science] from every [Public School]"],
 				"requires": ["Secularism"],
 				"row": 2,
@@ -464,10 +463,10 @@
 			{
 				"name": "Sovereignty",
 				"uniques": ["[+1 Gold] from all [Science] buildings", 
-							"[+50]% Production when constructing [Public School] buildings [in all cities]", 
-							"[+50]% Production when constructing [Information Market] buildings [in all cities]", 
-							"[+50]% Production when constructing [Watchtower] buildings [in all cities]", 
-							"[+50]% Production when constructing [Messengers] buildings [in all cities]"],
+							"[+33]% Production when constructing [Public School] buildings [in all cities]", 
+							"[+33]% Production when constructing [Information Market] buildings [in all cities]", 
+							"[+33]% Production when constructing [Observatory] buildings [in all cities]", 
+							"[+33]% Production when constructing [Messengers] buildings [in all cities]"],
 				"requires": ["Humanism"],
 				"row": 2,
 				"column": 4

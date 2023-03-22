@@ -134,3 +134,20 @@
 - Add more dungeon bonus effect
 - Add new Natural Wonder: Kalimutu
 - New unit class: Tamer
+
+## v3.1.0 (22.03.2023)
+- Separate between Militaristic and Industrial CS
+- Allied Mercantile CS now provide 2 copies a 'unique' luxury resources
+- More CS added, 6 CS every type
+- Arbalester no longer upgrade to Scorpion, upgrade to Gatling Gun instead
+- Scorpion available after discovering Physic, updrade to Ballista (anti Air Terror unit)
+- Increase rock-paper-scissor bonus (Sword - Anti-Cav - Mounted) from +10% to +33%
+- Civ balancing
+- Add lore for every civ
+- Add description for every unique buildings and unique units
+- Add 3 new Civs (Tianwu, Necropoleis, and The Trolls)
+- Fix Policy placement and some minor balancing
+- Can now adopt both Piety and Rationalism
+- More mythical beast, or the so called barbarians monster
+- Mythical beast no longer appears at the start of the game, except Slime
+- Add Spanish translation by Caballero-Arepa

@@ -1,7 +1,7 @@
 [	
 	// Bonus resources
 	{
-		"name": "Block",
+		"name": "Vampiric Block",
 		"resourceType": "Bonus",
 		"uniques": ["Will not be displayed in Civilopedia"]
 	},
@@ -16,7 +16,7 @@
 		"terrainsCanBeFoundOn": ["Jungle"],
 		"food": 1,
 		"improvement": "Plantation",
-		"improvementStats": {"food": 1},
+		"improvementStats": {"food": 1, "gold": -1},
 		"uniques": ["Generated on every [18] tiles <in [Jungle] tiles>",
 					"Generated on every [22] tiles <in [Jungle] tiles> <in [Hill] Regions>"]
 	},
@@ -196,8 +196,8 @@
 					"Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Tundra] tiles>",
 					"Minor deposits generated with weight [10] <in [Featureless] [Snow] tiles>"],
-		"majorDepositAmount": {"sparse": 4, "default": 6, "abundant": 9},
-		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
+		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 9},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}
 	},
 	{
 		"name": "Megall",

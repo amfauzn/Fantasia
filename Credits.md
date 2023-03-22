@@ -58,6 +58,7 @@ Any icons not listed below are taken from the base game, see [Unciv credits](htt
 * Leyline: [Diamond](https://thenounproject.com/icon/diamond-2105049/) by Vectors Market
 * Mammoth: [Mammoth](https://thenounproject.com/icon/mammoth-411126/) by parkjisun
 * Megall: [Shark](https://thenounproject.com/icon/shark-1481710/) by Kick
+* Mithril; [armor](https://thenounproject.com/icon/armor-2873073/) by Template
 * Niter: [Niter](https://github.com/Ravignir/LOTR-Unciv/tree/main/Images/ResourceIcons/Niter.png)
 * Obsidian: [Obsidian](logomakr.com/23yhKB) by Cavenir
 * Perfume: [Perfume](https://thenounproject.com/icon/perfume-4557970/) by Rank Sol
@@ -98,6 +99,7 @@ Any icons not listed below are taken from the base game, see [Unciv credits](htt
 * Louvargia:
 * Machinia:
 * Nas: [Iron Cross](https://thenounproject.com/search/?q=iron%20cross&i=373241) by Souvik Maity
+* Necropoleis: [Skull](https://thenounproject.com/icon/skull-5331644/) by Maxicons
 * 'Nkuhanea: [Egyptian Scepter](https://thenounproject.com/icon/egyptian-scepter-737290/) by Smashicons
 * Niranna: [Iroquois](https://github.com/ravignir/5Hex-Tileset/blob/master/Images/NationIcons/Iroquois.png) by Ravignir. The original work has been modified
 * Polgar Sod'em: [Logo](https://thenounproject.com/icon/logo-2372941/) by Rafina Andra
@@ -141,9 +143,9 @@ Any icons not listed below are taken from the base game, see [Unciv credits](htt
 * Kalacha: [Candi](https://github.com/Ravignir/RekMOD/tree/main/Images/BuildingIcons/Candi.png)
 * Magic Barrier: Created from [fort](https://thenounproject.com/icon/fort-3758683/) by iconcheese & [spell](https://thenounproject.com/icon/spell-4606043/) by Eucalyp
 * Malus' Barricade: [wall](https://thenounproject.com/icon/wall-1592461/) by BGBOXXX Design
-* Mandir: [katas raj temple](https://thenounproject.com/icon/katas-raj-temple-3017488/) by Vectors Point
 * Manumem: [Monument](https://thenounproject.com/icon/monument-4577883/) by Firza Alamsyah
 * Maso Commune: [Trident](https://thenounproject.com/icon/trident-118459/) by Bohdan Burmich
+* Mass Grave: [necropolis](https://thenounproject.com/icon/necropolis-191541/) by Magicon
 * Pillar: [Pillar](https://thenounproject.com/icon/pillar-2079096/) by yudi
 * Porta Alchemica:
 * Portal: [portal](https://thenounproject.com/icon/portal-3505289/) by Toli
@@ -151,6 +153,7 @@ Any icons not listed below are taken from the base game, see [Unciv credits](htt
 * Resort Hotel: [Resort](https://thenounproject.com/icon/resort-3474750/) by Komkrit Noenpoempisut
 * Rheog Baddan: [Snake](https://thenounproject.com/icon/snake-241512/) by Ari Junior
 * Royal Inventor Assembly:
+* Rugudeia: [katas raj temple](https://thenounproject.com/icon/katas-raj-temple-3017488/) by Vectors Point
 * Sacred Dance: [sacred](https://thenounproject.com/icon/sacred-2457770/) by Eucalyp
 * Sect: [temple](https://thenounproject.com/icon/temple-3381012/) by supalerk laipawat
 * Sulong's Training: [Boxing Ring](https://thenounproject.com/icon/boxing-ring-4342323/) by Doodle Icons
@@ -159,11 +162,13 @@ Any icons not listed below are taken from the base game, see [Unciv credits](htt
 * The Great Watchtower: [Watchtower](https://thenounproject.com/icon/watchtower-16877/) by Ragini Lall. The original work has been modified
 * Tinkerer's Depot: 
 * Ulick Myne: [gate](https://thenounproject.com/icon/gate-2080851/) by Mariya Zola
-* Vihara: [temple](https://thenounproject.com/icon/temple-2126198/) by ProSymbols
+* Claehym: [temple](https://thenounproject.com/icon/temple-2126198/) by ProSymbols
 * Yimasp An'a: [Research](https://thenounproject.com/icon/research-2167113/) by tezar tantular
+* Zaghronk: [cave](https://thenounproject.com/icon/cave-1842202/) by Bakunetsu Kaito
 
 ## Unit Icons
 * Adamantite Golem: [Ice Golem](https://www.pngrepo.com/svg/322582/ice-golem) by game-icons.net. The original work has been modified
+* Arachne: [Spider](https://thenounproject.com/icon/spider-2552391/) by Travis Avery
 * Arbalester: [arbalest](https://thenounproject.com/icon/crossbow-440132/) by parkjisun
 * Armoured Frigate: [Ship](https://thenounproject.com/search/?q=ship&i=800131) by Mungang Kim
 * Axeman: [Axe](https://thenounproject.com/icon/axe-2216707/) by glyph.faisalovers. The original work has been modified
@@ -193,6 +198,7 @@ Any icons not listed below are taken from the base game, see [Unciv credits](htt
 * Hydra: [Lerne Hydra](https://thenounproject.com/icon/lerne-hydra-1389034/) by Icons Producer
 * Iron Golem: [Rock Golem](https://www.svgrepo.com/svg/323126/rock-golem) game-icons.net
 * Iron Templar: 
+* Jackalope: [Jackalope](https://thenounproject.com/icon/jackalope-23788/) by Lance Weisser
 * Kalsharin: [Corinthian Helmet](https://thenounproject.com/icon/corinthian-helmet-200585/) by Alexander Skowalsky
 * Ken Arok: [Kris](https://thenounproject.com/icon/kris-1642662/) by Mochammad Kafi
 * Kraken: [Kraken](https://thenounproject.com/icon/kraken-4135921/) by Amethyst Studio
@@ -212,16 +218,20 @@ Any icons not listed below are taken from the base game, see [Unciv credits](htt
 * Patorani: [Boat](https://thenounproject.com/icon/boat-4383005/) by Pham Duy Phuong Hung
 * Pegasus: [Pegasus](https://thenounproject.com/icon/pegasus-1023756/) by Bakunetsu Kaito
 * Petard: [Mine](https://thenounproject.com/icon/mine-965385/) by Smashicons
+* Peuchen: [Snake](https://thenounproject.com/icon/snake-4079246/) by Icongeek26
 * Priest: [medical symbol](https://thenounproject.com/icon/medical-symbol-1017634/) by IconTrack
 * Pseudo Mage: [cloak](https://thenounproject.com/icon/cloak-4605506/) by Eucalyp. The original work has been modified
 * Rakshasa: [medallion](https://thenounproject.com/icon/medallion-885880/) by Alex Muravev. The original work has been modified
+* Ramming Troll: [troll](https://thenounproject.com/icon/troll-1005187/) by parkjisun
 * Roc: [hawk](https://thenounproject.com/icon/hawk-2183238/) by ProSymbols
 * Sage: [sage](https://thenounproject.com/icon/sage-57323/) by Karthik M. The original work has been modified
 * Shaolin: [Martial Arts](https://thenounproject.com/icon/martial-arts-4018718/) by Icongeek26
+* Shifu: [hand fan](https://thenounproject.com/icon/hand-fan-5600422/) by iconixar
 * Siliwangi: [Horse](https://thenounproject.com/icon/horse-24573/) by Thier Mundim
 * Siren: [Mermaid](https://thenounproject.com/icon/mermaid-2464419/) by Tina Berrett
-* Skeleton: [Skelerton](https://thenounproject.com/icon/skeleton-3461881/) by Amethyst Studio
+* Skeletal Cgampion: [Skelerton](https://thenounproject.com/icon/skeleton-3461881/) by Amethyst Studio
 * Skroth: [Nazgul](https://github.com/Ravignir/LOTR-Unciv/tree/main/Images/UnitIcons/Nazgul.png) by Ravignir
+* Slime: [slime](https://thenounproject.com/icon/slime-4634761/) by Saneseed
 * Stone Golem: [Golem](https://thenounproject.com/icon/golem-1387808/) by Icons Producer
 * Titan: [Halberd](https://thenounproject.com/icon/halberd-3447894/) by Smalllike
 * Tomb Guard:
@@ -251,10 +261,12 @@ Any icons not listed below are taken from the base game, see [Unciv credits](htt
 * Flare: [flare](https://thenounproject.com/icon/flare-4148604/) by pertiwi putri
 * Frightening Vibe: [skull](https://thenounproject.com/icon/vampire-skull-449592/) by Rafael Garcia Motta
 * Grapeshot: [Fireworks](https://thenounproject.com/icon/fireworks-2687462/) by Rainbow Designs. The original work has been modified
+* Qigong: [foot](https://thenounproject.com/icon/foot-3354198/) by Andrejs Kirma
 * Regenerative Bio-Steel:
 * Regenerative Tissue: Created from [DNA](https://thenounproject.com/icon/dna-1088100/) by Creative Stall & [Plus](https://thenounproject.com/icon/plus-4536661/) by ainul muttaqin
 * Ripping Claw: [claw](https://thenounproject.com/icon/claw-1849553/) by regina
 * Seduction: [mouth](https://thenounproject.com/icon/mouth-30014/) by Shovy Rahman
 * Tremor Attack: [vibration](https://thenounproject.com/icon/vibration-2320858/) by ahmad
+* Troll's Skin: [concrete](https://thenounproject.com/icon/concrete-2414938/) by Leif Michelsen
 * Twin Fang: Created from [fangs](https://thenounproject.com/icon/fangs-3028646/) by Phạm Thanh Lộc
 * Winged Vampire: [vampire](https://thenounproject.com/icon/vampire-2035567/) by Hada Arkanda

@@ -17,58 +17,62 @@
 	{
         "name": "Sword",
         "movementType": "Land",
-		"uniques": ["[+10]% Strength <vs [Anti-Cav] units> <when attacking>"]
+		"uniques": ["[+33]% Strength <vs [Anti-Cav] units> <when attacking>",
+					"[+25]% Strength <vs [Anti-Armor] units> <when attacking>"]
     },
     {
         "name": "Gunpowder",
         "movementType": "Land",
-		"uniques": ["[+10]% Strength <vs [Anti-Cav] units> <when attacking>"]
+		"uniques": ["[+33]% Strength <vs [Anti-Cav] units> <when attacking>",
+					"[+33]% Strength <vs [Anti-Armor] units> <when attacking>"]
     },
-    {
-        "name": "Archery",
+	{
+        "name": "Anti-Cav",
         "movementType": "Land",
-		"uniques": ["[-10]% Strength <vs cities> <when attacking>", 
-					"[-10]% Strength <vs [Water] units> <when attacking>"]
+		"uniques": ["[+33]% Strength <vs [Mounted] units> <when attacking>",
+					"[+25]% Strength <vs [Armored] units> <when attacking>"]
+    },
+	{
+        "name": "Anti-Armor",
+        "movementType": "Land",
+		"uniques": ["[+33]% Strength <vs [Mounted] units> <when attacking>",
+					"[+33]% Strength <vs [Armored] units> <when attacking>"]
     },
     {
         "name": "Mounted",
         "movementType": "Land",
-		"uniques": ["[+10]% Strength <vs [Sword] units> <when attacking>", 
-					"[+5]% Strength <vs [Gunpowder] units> <when attacking>"]
+		"uniques": ["[+33]% Strength <vs [Sword] units> <when attacking>", 
+					"[+25]% Strength <vs [Gunpowder] units> <when attacking>"]
     },
-    {
-        "name": "Anti-Cav",
+	{
+        "name": "Armored",
         "movementType": "Land",
-		"uniques": ["[+10]% Strength <vs [Mounted] units> <when attacking>"]
+		"uniques": ["[+33]% Strength <vs [Sword] units> <when attacking>", 
+					"[+33]% Strength <vs [Gunpowder] units> <when attacking>"]
+    },
+	{
+        "name": "Archery",
+        "movementType": "Land",
+		"uniques": ["[-15]% Strength <vs cities> <when attacking>", 
+					"[-15]% Strength <vs [Water] units> <when attacking>"]
+    },
+	{
+        "name": "Ranged Gunpowder",
+        "movementType": "Land",
+		"uniques": ["[-10]% Strength <vs cities> <when attacking>", 
+					"[-10]% Strength <vs [Water] units> <when attacking>"]
     },
     {
         "name": "Siege",
         "movementType": "Land",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>"]
     },
-    {
-        "name": "Hero",
-        "movementType": "Land",
-        "uniques": ["Ignores terrain cost", "[-100]% maintenance costs", "[+33]% Strength <vs [Water Terror] units>", 
-					"[+50]% Strength <vs [Air Terror] units>", "[+100]% Strength <vs [Beast] units>"]
-    },
-	{
-        "name": "Siege Hero",
-        "movementType": "Land",
-        "uniques": ["Ignores terrain cost", "[-100]% maintenance costs", "[+10]% Strength <vs [Water Terror] units>", 
-					"[+15]% Strength <vs [Air Terror] units>", "[+200]% Strength <vs cities> <when attacking>", 
-					"[+100]% Strength <vs [Beast] units>"]
-    },
-	{
-        "name": "Evil Hero",
-        "movementType": "Land",
-        "uniques": ["Ignores terrain cost", "[-100]% maintenance costs", "[+33]% Strength <vs [Water Terror] units>", 
-					"[+50]% Strength <vs [Air Terror] units>", "[+100]% Strength <vs [Beast] units>"]
-    },
 	{
 		"name": "Airship",
 		"movementType": "Land",
-		"uniques": ["Can pass through impassable tiles", "All tiles cost 1 movement", "Normal vision when embarked"]
+		"uniques": ["Can pass through impassable tiles", 
+					"All tiles cost 1 movement", 
+					"Normal vision when embarked"]
 	},
 	{
         "name": "Vampire",
@@ -82,16 +86,17 @@
 	{
 		"name": "Air Terror",
 		"movementType": "Land",
-		"uniques": ["Can pass through impassable tiles", "Normal vision when embarked"
-					"All tiles cost 1 movement", "Eliminates combat penalty for attacking over a river", 
+		"uniques": ["Can pass through impassable tiles", 
+					"Normal vision when embarked"
+					"All tiles cost 1 movement", 
+					"Eliminates combat penalty for attacking over a river", 
 					"Eliminates combat penalty for attacking across a coast"]
 	},
 	{
         "name": "Mage",
         "movementType": "Land",
 		"uniques": ["[+50]% Strength <vs cities> <when attacking>", 
-					"[+25]% Strength <vs [Construct] units> <when attacking>", 
-					"[-15]% Strength <vs [Melee] units> <when defending>"]
+					"[+25]% Strength <vs [Construct] units> <when attacking>"]
     },
 	{
         "name": "Monk",
@@ -100,12 +105,112 @@
 	{
         "name": "Construct",
         "movementType": "Land",
-        "uniques": ["[+20]% Strength <when defending>", "Ignores Zone of Control"]
+        "uniques": ["[+20]% Strength <when defending>", 
+					"Ignores Zone of Control"]
     },
 	{
         "name": "Tamer",
         "movementType": "Land",
 		"uniques": ["[+50]% XP gained from combat"]
+    },
+	
+	// Hero
+	{
+        "name": "Infantry Hero",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs", 
+					"[+25]% Strength <vs [Water Terror] units>", 
+					"[+25]% Strength <vs [Air Terror] units>", 
+					"[+100]% Strength <vs [Beast] units>",
+					"[+33]% Strength <vs [Anti-Cav] units> <when attacking>", 
+					"[+33]% Strength <vs [Anti-Armor] units> <when attacking>", 
+					"Will not be displayed in Civilopedia"]
+    },
+	{
+        "name": "Anti-Cav Hero",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs", 
+					"[+25]% Strength <vs [Water Terror] units>", 
+					"[+25]% Strength <vs [Air Terror] units>", 
+					"[+100]% Strength <vs [Beast] units>",
+					"[+33]% Strength <vs [Mounted] units> <when attacking>", 
+					"[+33]% Strength <vs [Armored] units> <when attacking>", 
+					"Will not be displayed in Civilopedia"]
+    },
+	{
+        "name": "Cavalry Hero",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs", 
+					"[+25]% Strength <vs [Water Terror] units>", 
+					"[+25]% Strength <vs [Air Terror] units>", 
+					"[+100]% Strength <vs [Beast] units>",
+					"[+33]% Strength <vs [Sword] units> <when attacking>", 
+					"[+33]% Strength <vs [Gunpowder] units> <when attacking>",
+					"[-33]% Strength <vs cities> <when attacking>", 
+					"Will not be displayed in Civilopedia"]
+    },
+	{
+        "name": "Archery Hero",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs", 
+					"[+25]% Strength <vs [Water Terror] units>", 
+					"[+25]% Strength <vs [Air Terror] units>", 
+					"[+100]% Strength <vs [Beast] units>",
+					"[-10]% Strength <when attacking> <vs cities>", 
+					"[-10]% Strength <when attacking> <vs [Water] units>", 
+					"Will not be displayed in Civilopedia"]
+    },
+	{
+        "name": "Siege Hero",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs", 
+					"[+33]% Strength <vs [Water Terror] units>", 
+					"[+33]% Strength <vs [Air Terror] units>", 
+					"[+100]% Strength <vs [Beast] units>", 
+					"[+200]% Strength <vs cities> <when attacking>", 
+					"Will not be displayed in Civilopedia"]
+    },
+	{
+        "name": "Evil Hero",
+        "movementType": "Land",
+        "uniques": ["Ignores terrain cost", 
+					"[-100]% maintenance costs", 
+					"[+25]% Strength <vs [Water Terror] units>", 
+					"[+25]% Strength <vs [Air Terror] units>", 
+					"[+100]% Strength <vs [Beast] units>", 
+					"[+33]% Strength <vs [Mage] units> <when attacking>", 
+					"Will not be displayed in Civilopedia"]
+    },
+	{
+        "name": "Mage Hero",
+        "movementType": "Land",
+        "uniques": ["[-100]% maintenance costs", 
+					"[+33]% Strength <vs [Water Terror] units>", 
+					"[+33]% Strength <vs [Air Terror] units>", 
+					"[+100]% Strength <vs [Beast] units>", 
+					"[+50]% Strength <vs cities> <when attacking>", 
+					"[+25]% Strength <vs [Construct] units> <when attacking>", 
+					"Will not be displayed in Civilopedia"]
+    },
+	{
+        "name": "Melee Water Hero",
+        "movementType": "Water",
+        "uniques": ["Can enter ice tiles", 
+					"[-100]% maintenance costs", 
+					"[+66]% Strength <when attacking> <vs [Water Terror] units>", 
+					"Can see invisible [Water] units", 
+					"[+100]% Strength <vs [Beast] units>", 
+					"Will not be displayed in Civilopedia"]
+    },
+	{
+        "name": "Water Hero",
+        "movementType": "Water",
+        "uniques": ["Can enter ice tiles", 
+					"[-100]% maintenance costs", 
+					"[+66]% Strength <when attacking> <vs [Water Terror] units>", 
+					"Can see invisible [Water] units", 
+					"[+100]% Strength <vs [Beast] units>", 
+					"Will not be displayed in Civilopedia"]
     },
     
 	// Water
@@ -113,32 +218,25 @@
         "name": "Melee Water",
         "movementType": "Water"
     },
-	{
-        "name": "Melee Water Hero",
-        "movementType": "Water",
-        "uniques": ["Can enter ice tiles", "[-100]% maintenance costs", "[+66]% Strength <when attacking> <vs [Water Terror] units>", 
-					"Can see invisible [Water] units", "[+100]% Strength <vs [Beast] units>"]
-    },
     {
         "name": "Ranged Water",
         "movementType": "Water"
     },
-	{
-        "name": "Water Hero",
-        "movementType": "Water",
-        "uniques": ["Can enter ice tiles", "[-100]% maintenance costs", "[+66]% Strength <when attacking> <vs [Water Terror] units>", 
-					"Can see invisible [Water] units", "[+100]% Strength <vs [Beast] units>"]
-    },
     {
         "name": "Water Terror",
         "movementType": "Water",
-        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Water Terror] units", "Can see invisible [Submarine] units", 
-					"[+33]% Strength <when attacking> <vs [Submarine] units>", "May heal outside of friendly territory"]
+        "uniques": ["Can enter ice tiles", 
+					"Invisible to non-adjacent units", 
+					"Can see invisible [Water] units", 
+					"[+33]% Strength <when attacking> <vs [Submarine] units>", 
+					"May heal outside of friendly territory"]
     },
 	{
         "name": "Submarine",
         "movementType": "Water",
-        "uniques": ["Can enter ice tiles", "Invisible to non-adjacent units", "Can see invisible [Submarine] units"]
+        "uniques": ["Can enter ice tiles", 
+					"Invisible to non-adjacent units", 
+					"Can see invisible [Submarine] units"]
     },
 	{
         "name": "Naval Carrier",
@@ -149,7 +247,9 @@
 	{
         "name": "Fighter",
         "movementType": "Air",
-        "uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles", "Can perform Air Sweep"]
+        "uniques": ["Aircraft", 
+					"[+4] Sight", 
+					"Can see over obstacles"]
     },
     {
         "name": "Bomber",
@@ -164,6 +264,8 @@
     {
         "name": "Missile",
         "movementType": "Air",
-        "uniques": ["Aircraft", "Self-destructs when attacking", "Cannot be intercepted"]
+        "uniques": ["Aircraft", 
+					"Self-destructs when attacking", 
+					"Cannot be intercepted"]
     }
 ]

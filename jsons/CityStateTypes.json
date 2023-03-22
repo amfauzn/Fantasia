@@ -27,7 +27,7 @@
 			"[+4 Production] [in all cities] <before the [Heroic age]>",
 			"[+8 Production] [in all cities] <starting from the [Heroic age]> <before the [Renaissance age]>",
 			"[+12 Production] [in all cities] <starting from the [Renaissance age]>",
-			"[+4 Production] [in capital] <starting from the [Industrial age]>"
+			"[+2 Production] [in capital]"
 		],
 		"color": [139,69,19]
 	},

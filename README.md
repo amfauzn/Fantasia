@@ -1,5 +1,6 @@
 # Fantasia
-Built around Ancient Empires II, and then expanded. A fantasy world~
+Play a fantasy race in a fantasy world.
+Built around Ancient Empires II, and then expanded.
 
 ## Features
 - Fantasy races (Elven, Dwarven, Goblin, Undead, Demonic, Beastmen, Dryad, Merfolk, Drow, Gnome)
