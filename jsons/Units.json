@@ -2079,6 +2079,7 @@
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 20,
+		"requiredTech": "Metal Casting",
 		"upgradesTo": "Musketman",
 		"uniques": ["[-100]% maintenance costs", 
 					"Damage is ignored when determining unit Strength", 
@@ -2623,7 +2624,7 @@
 		//"promotions": ["Life Treasure"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
-            {"text": "Shifu unlocked after discovering Quintessence Force, but required a Temple."}
+		{"text": "Shifu unlocked after discovering Quintessence Force, but required a Temple."}
 		]
 	},
 	{

@@ -17,6 +17,7 @@
 		"startBias": ["Fresh Water"],
 		"preferredVictoryType": "Cultural",
 		"favoredReligion": "Spontanism",
+		"style": "Human",
 		
 		"startIntroPart1": "'Nkuhanea is the earliest known civilization in the historical region of Aaru on the southern Pangaea, emerging during the Karamithic, the time before the Gods left Earth. It is one of the cradles of civilization in the world, along with ancient Lemuria, Shangri-La, Polgar Sod'em, Artiza, Chorislavia, and ancient Eldariya. Living along the valleys of the Madris and Timika rivers, Nkuhanean farmers grew an abundance of grain and other crops, the surplus from which enabled them to form urban settlements. Finding the magic stone Tridstone, Nkuhanea became a prosperous civilization ever.",
 		"startIntroPart2": "Queen Erish the Jewel of Timika, the Bearer of the Tridstone, for uncounted years your people endured. They look to you to lead them once more into greatness. Will you answer the call? Can you build a civilization that will stand the test of time?",
@@ -835,7 +836,7 @@
 					"Enables [All] units to enter ocean tiles <after discovering [Compass]>", 
 					"[+15]% Production when constructing [{Military} {Water}] units [in all coastal cities]", 
 					"+1 [Happiness] in cities with an improved Bonus or Luxury resources on Coast", 
-					"[Work Boats] units receive the [Trawl] promotion"],
+					"[Work Boats] units gain the [Trawl] promotion"],
 		"cities": ["Regalia","Alion","Gatland","Burnei","Vinia","Sibisia","Codendia","Riverbed","Schoels Ridge","Magath Trench",
 			"Seamountea","Creef","Galesia","Aneka","Moresby","Palau","Tishtar","Cari","Orta","Tertis"],
 		"spyNames": ["Zephyr","Argeon","Squalos","Talis","Avian","Nova","Askane","Orzish","Triki","Veve"],
@@ -1908,7 +1909,7 @@
 		"name": "Rackedt",
 		"adjective": ["Mercenary-Beast"],
 		"cityStateType": "Militaristic",
-		"uniques": ["All newly-trained [Recon] units [in capital] receive the [Ranger] promotion"],
+		"uniques": ["All newly-trained [Recon] units [in capital] gain the [Ranger] promotion"],
 
 		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
 		"attacked": "Traitorous man! The Rackedt peoples will not stand for such wanton abuse and slander - I shall have your head!",
