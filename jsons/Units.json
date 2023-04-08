@@ -289,18 +289,18 @@
 		"replaces": "Swordsman",
 		"movement": 2,
 		"strength": 14,
-		"cost": 80,
+		"cost": 75,
 		"requiredTech": "Theology",
 		"upgradesTo": "Longswordsman",
 		"obsoleteTech": "Steel",
-		//"requiredResource": "Iron",
+		"requiredResource": "Iron",
 		"uniques": ["Preachable"],
 		"promotions": ["Divine Right","Sentry"],
 		"uniques": ["Research Theology vs Iron Working",
 					"Can [Remove Foreign religions from your own cities] [3] times"],
 		"attackSound": "metalhit",
 		"civilopediaText": [
-			{"text": "Devout and fanatic follower of the religion. May prevents and remove foreign religion but more expensive than normal Swordsman. Another advantage of this unit is the fact that Iron doesn't required.",}
+			{"text": "Devout and fanatic follower of the religion. May prevents and remove foreign religion.",}
 		]
 	},
 	{
@@ -470,7 +470,7 @@
 		"cost": 120,
 		"requiredTech": "Steel",
 		"upgradesTo": "Musketman",
-		"obsoleteTech": "Dynamite",
+		"obsoleteTech": "Gunpowder",
 		"requiredResource": "Iron",
 		"uniques": ["Preachable"],
 		"promotions": ["Regenerative Bio-Steel"],
@@ -1218,27 +1218,6 @@
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
 	},
-	/*{
-		"name": "Ballista",  // gantijeneng
-		"unitType": "Siege",
-		"replaces": "Catapult",
-		"uniqueTo": "Nas",
-		"movement": 2,
-		"strength": 8,
-		"rangedStrength": 10,
-		"cost": 75,
-		"requiredTech": "Mathematics",
-		"obsoleteTech": "Physics",
-		"upgradesTo": "Trebuchet",
-		"uniques": ["No defensive terrain bonus", "Must set up to ranged attack", "[-1] Sight"],
-		"hurryCostModifier": 20,
-		"promotions": ["Burst Attack"],
-		"attackSound": "throw",
-		"civilopediaText": [
-			{"text": "Stronger than Catapult, much stronger when attacking cities on Rough terrain.", "link":"Terrains/Hill"}
-		]
-	},*/
-	
 	{
 		"name": "Trebuchet",
 		"unitType": "Siege",
@@ -1526,14 +1505,25 @@
 		"requiredTech": "Domestication",
 		"obsoleteTech": "Acoustics",
 		"upgradesTo": "Educated Beast Tamer",
-		"uniques": ["May upgrade to [Arch-Wizard] through ruins-like effects", 
-					"[-33]% Strength <when attacking>", 
-					"May capture killed [Beast] units <with [33]% chance>",
+		"uniques": ["May capture killed [Slime] units <with [50]% chance>", 
+					"May capture killed [Peuchen] units <with [50]% chance>", 
+					"May capture killed [Sandworm] units <with [50]% chance>", 
+					"May capture killed [Entmates] units <with [50]% chance>", 
+					"May capture killed [Jackalope] units <with [50]% chance>", 
+					"May capture killed [Luan] units <with [50]% chance>", 
+					"May capture killed [Minotaur] units <with [50]% chance>", 
+					"May capture killed [Pegasus] units <with [50]% chance>", 
+					"May capture killed [Arachne] units <with [50]% chance>", 
+					"May capture killed [Unicorn] units <with [50]% chance>", 
+					"May capture killed [Cyclop] units <with [50]% chance>", 
+					"May capture killed [Titan] units <with [50]% chance>", 
+					"May capture killed [Leviathan] units <with [50]% chance>", 
+					"May capture killed [Megalodon] units <with [50]% chance>", 
 					"Never appears as a Barbarian unit"],
-		"replacementTextForUniques": "-33% Strength when attacking, 33% chance to tame Beast",
+		"replacementTextForUniques": "May capture killed Beast units with 50% chance",
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
-			{"text": "Beast Tamer is very weak when attacking, but they have chances to recruit a beast."}
+			{"text": "Beast Tamer is very weak when attacking against non-beast units, but they have chances to recruit defeated beast."}
 		]
 	},
 	{
@@ -1545,13 +1535,25 @@
 		"requiredTech": "Acoustics",
 		"obsoleteTech": "Archaeology",
 		"upgradesTo": "Elite Beast Tamer",
-		"uniques": ["[-20]% Strength <when attacking>", 
-					"May capture killed [Beast] units <with [66]% chance>",
+		"uniques": ["May capture killed [Slime] units <with [70]% chance>", 
+					"May capture killed [Peuchen] units <with [70]% chance>", 
+					"May capture killed [Sandworm] units <with [70]% chance>", 
+					"May capture killed [Entmates] units <with [70]% chance>", 
+					"May capture killed [Jackalope] units <with [70]% chance>", 
+					"May capture killed [Luan] units <with [70]% chance>", 
+					"May capture killed [Minotaur] units <with [70]% chance>", 
+					"May capture killed [Pegasus] units <with [70]% chance>", 
+					"May capture killed [Arachne] units <with [70]% chance>", 
+					"May capture killed [Unicorn] units <with [70]% chance>", 
+					"May capture killed [Cyclop] units <with [70]% chance>", 
+					"May capture killed [Titan] units <with [70]% chance>", 
+					"May capture killed [Leviathan] units <with [70]% chance>", 
+					"May capture killed [Megalodon] units <with [70]% chance>", 
 					"Never appears as a Barbarian unit"],
-		"replacementTextForUniques": "-20% Strength when attacking, 66% chance to recruit Beast",
+		"replacementTextForUniques": "May capture killed Beast units with 70% chance",
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
-			{"text": "Educated Beast Tamer gains more chances to tame beast and gain less penalty when attacking."}
+			{"text": "Educated Beast Tamer gains more chances to tame defeated beast."}
 		]
 	},
 	{
@@ -1561,13 +1563,25 @@
 		"strength": 40,
 		"cost": 290,
 		"requiredTech": "Archaeology",
-		"uniques" : ["[-5]% Strength <when attacking>", 
-					"May capture killed [Beast] units <with [100]% chance>", 
+		"uniques": ["May capture killed [Slime] units <with [95]% chance>", 
+					"May capture killed [Peuchen] units <with [95]% chance>", 
+					"May capture killed [Sandworm] units <with [95]% chance>", 
+					"May capture killed [Entmates] units <with [95]% chance>", 
+					"May capture killed [Jackalope] units <with [95]% chance>", 
+					"May capture killed [Luan] units <with [95]% chance>", 
+					"May capture killed [Minotaur] units <with [95]% chance>", 
+					"May capture killed [Pegasus] units <with [95]% chance>", 
+					"May capture killed [Arachne] units <with [95]% chance>", 
+					"May capture killed [Unicorn] units <with [95]% chance>", 
+					"May capture killed [Cyclop] units <with [95]% chance>", 
+					"May capture killed [Titan] units <with [95]% chance>", 
+					"May capture killed [Leviathan] units <with [95]% chance>", 
+					"May capture killed [Megalodon] units <with [95]% chance>", 
 					"Never appears as a Barbarian unit"],
-		"replacementTextForUniques": "-5% Strength when attacking, 100% chance to tame Beast",
+		"replacementTextForUniques": "May capture killed Beast units with 95% chance",
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
-			{"text": "Elite Beast Tamer always managed to tame beast and gain less penalty when attacking."}
+			{"text": "Elite Beast Tamer almost always managed to tame defeated beast."}
 		]
 	},
 	
@@ -2067,6 +2081,7 @@
 		"uniques": ["[-100]% maintenance costs", 
 					"Damage is ignored when determining unit Strength", 
 					"Unbuildable", 
+					"Only available <in cities with a [~limiter]>", 
 					"Preachable"],
 		"promotions": ["Great Generals I"],
 		"attackSound": "nonmetalhit",
@@ -2084,6 +2099,7 @@
 		"uniques": ["[-100]% maintenance costs", 
 					"Damage is ignored when determining unit Strength", 
 					"Unbuildable", 
+					"Only available <in cities with a [~limiter]>", 
 					"Preachable"],
 		"promotions": ["Great Generals I"],
 		"attackSound": "nonmetalhit",
@@ -2231,6 +2247,7 @@
 		"promotions": ["Great Generals II"],
 		"uniques": ["Unbuildable", "The Heroes", 
 					"Limited to [1] per Civilization", 
+					"Only available <if [Mas Karebet Portal] is constructed>", 
 					"Never appears as a Barbarian unit"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "metalhit"
@@ -2243,6 +2260,7 @@
 		"promotions": ["Great Generals I","Tortoise"],
 		"uniques": ["Unbuildable", "The Heroes", 
 					"Limited to [1] per Civilization", 
+					"Only available <if [Ken Arok Portal] is constructed>", 
 					"Never appears as a Barbarian unit"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "metalhit"
@@ -2254,6 +2272,7 @@
 		"strength": 25,
 		"uniques": ["Unbuildable", "The Heroes", 
 					"Limited to [1] per Civilization", 
+					"Only available <if [Pandji Portal] is constructed>", 
 					"Never appears as a Barbarian unit"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "metalhit"
@@ -2268,6 +2287,7 @@
 					"Limited to [1] per Civilization", 
 					"Can move after attacking", 
 					"No defensive terrain bonus", 
+					"Only available <if [Siliwangi Portal] is constructed>", 
 					"Never appears as a Barbarian unit"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "horse"
@@ -2282,6 +2302,7 @@
 		"promotions": ["Great Generals I","Extended Range"],
 		"uniques": ["Unbuildable", "The Heroes", 
 					"Limited to [1] per Civilization", 
+					"Only available <if [Pandji Portal] is constructed>", 
 					"Never appears as a Barbarian unit"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "crossbow"
@@ -2297,6 +2318,7 @@
 		"promotions": ["Great Generals I","Logistics"],
 		"uniques": ["Unbuildable", "The Heroes", 
 					"Limited to [1] per Civilization", 
+					"Only available <if [Liang Portal] is constructed>", 
 					"Never appears as a Barbarian unit"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "crossbow"
@@ -2312,6 +2334,7 @@
 					"Limited to [1] per Civilization", 
 					"No defensive terrain bonus", 
 					"Must set up to ranged attack", 
+					"Only available <if [Jeanne Portal] is constructed>", 
 					"Never appears as a Barbarian unit"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "cannon"
@@ -2326,6 +2349,7 @@
 					"Limited to [1] per Civilization", 
 					"Uncapturable", 
 					"May withdraw before melee ([33]%)", 
+					"Only available <if [Themistocles Portal] is constructed>", 
 					"Never appears as a Barbarian unit"],
 		"replacementTextForUniques": "Unbuildable, May withdraw before melee (33%)",
 		"attackSound": "metalhit"
@@ -2341,6 +2365,7 @@
 		"uniques": ["Unbuildable", "The Heroes", 
 					"Limited to [1] per Civilization", 
 					"Uncapturable", 
+					"Only available <if [Gaius Portal] is constructed>", 
 					"Never appears as a Barbarian unit"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "cannon"
@@ -2354,8 +2379,8 @@
 		"uniques": ["Unbuildable", "The Heroes", 
 					"Limited to [1] per Civilization", 
 					"[+15]% Strength bonus for [Military] units within [2] tiles", 
-					"Never appears as a Barbarian unit", 
-					"Only available <if [Black Hole] is constructed>"],
+					"Only available <if [Black Hole] is constructed>"
+					"Never appears as a Barbarian unit"],
 		"replacementTextForUniques": "Unbuildable, +15% Strength bonus for Military units within 2 tiles",
 		"attackSound": "metalhit"
 	},
@@ -2739,7 +2764,7 @@
 					"[-75]% Strength <vs [Mage] units>", 
 					"[-75]% Strength <vs [Monk] units>", 
 					"Limited to [10] per Civilization", 
-					"Will not be displayed in Civilopedia", "Beast"],
+					"Beast"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -2753,7 +2778,7 @@
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Heals [20] damage if it kills a unit", 
 					"Limited to [1] per Civilization", 
-					"Will not be displayed in Civilopedia", "Beast"],
+					"Beast"],
 		"promotions": ["Woodsman"],
 		"attackSound": "metalhit"
 	},
@@ -2769,7 +2794,7 @@
 		"uniques": ["[+2] Movement <in [Desert] tiles>", 
 					"Only available <in [Desert] tiles>", 
 					"Limited to [1] per Civilization", 
-					"Will not be displayed in Civilopedia", "Beast"],
+					"Beast"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -2786,7 +2811,7 @@
 					"[+1] Movement <in [Forest] tiles>", 
 					"Only available <in [Forest] tiles>", 
 					"Limited to [3] per Civilization", 
-					"Will not be displayed in Civilopedia", "Beast"],
+					"Beast"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -2799,7 +2824,7 @@
 		"requiredTech": "Domestication",
 		"obsoleteTech": "Acoustics",
 		"uniques": ["Limited to [8] per Civilization", 
-					"Will not be displayed in Civilopedia", "Beast"],
+					"Beast"],
 		"attackSound": "metalhit"
 	},
 	{
@@ -2814,7 +2839,7 @@
 		"uniques": ["[+15]% Strength <when fighting in [Barbarian encampment] tiles>", 
 					"Only available <in [Plains] tiles>", 
 					"Limited to [3] per Civilization", 
-					"Will not be displayed in Civilopedia", "Beast"],
+					"Beast"],
 		"attackSound": "shot"
 	},
 	{
@@ -2827,7 +2852,7 @@
 		"requiredTech": "Mana Sensing",
 		"obsoleteTech": "Magic Negation",
 		"uniques": ["Limited to [3] per Civilization", 
-					"Will not be displayed in Civilopedia", "Beast"],
+					"Beast"],
 		"promotions": ["Battlecry"],
 		"attackSound": "metalhit"
 	},
@@ -2843,7 +2868,7 @@
 		"uniques": ["No defensive terrain bonus", "Can move after attacking", "Can pass through impassable tiles", 
 					"Only available <in [Hill] tiles>", 
 					"Limited to [2] per Civilization", 
-					"Will not be displayed in Civilopedia", "Beast"],
+					"Beast"],
 		"attackSound": "horse"
 	},
 	{
@@ -2859,7 +2884,7 @@
 		"uniques": ["[+50]% Strength <in [Forest] tiles>", 
 					"[+50]% Strength <in [Jungle] tiles>",
 					"Limited to [3] per Civilization", 
-					"Will not be displayed in Civilopedia", "Beast"],
+					"Beast"],
 		"promotions": ["Woodsman"],
 		"attackSound": "nonmetalhit"
 	},
@@ -2874,7 +2899,7 @@
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", 
 					"Only available <in [Grassland] tiles>", 
 					"Limited to [1] per Civilization", 
-					"Will not be displayed in Civilopedia", "Beast"],
+					"Beast"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "horse"
 	},
@@ -2891,7 +2916,7 @@
 		"uniques": ["[+15]% Strength <when attacking> <with [10]% chance>", 
 					"Only available <in [Jungle] tiles>", 
 					"Limited to [2] per Civilization", 
-					"Will not be displayed in Civilopedia", "Beast"],
+					"Beast"],
 		"attackSound": "bombing"
 	},
 	{
@@ -2905,7 +2930,7 @@
 		"uniques": ["Ignores Zone of Control", 
 					"Only available <in [Tundra] tiles>", 
 					"Limited to [3] per Civilization", 
-					"Will not be displayed in Civilopedia", "Beast"],
+					"Beast"],
 		"promotions": ["Battlecry"],
 		"attackSound": "metalhit"
 	},
@@ -2933,7 +2958,7 @@
 		"promotions": ["Observation"],
 		"uniques": ["May capture killed [Water] units", 
 					"Limited to [2] per Civilization", 
-					"Will not be displayed in Civilopedia", "Beast"],
+					"Beast"],
 		"attackSound": "nonmetalhit"
 	},
 	

@@ -111,7 +111,9 @@
 	{
         "name": "Tamer",
         "movementType": "Land",
-		"uniques": ["[+50]% XP gained from combat"]
+		"uniques": ["[+50]% XP gained from combat", 
+					"[-25]% Strength <when attacking>", 
+					"[+33]% Strength <when attacking> <vs [Beast] units>"]
     },
 	
 	// Hero

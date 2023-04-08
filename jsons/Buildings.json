@@ -2156,5 +2156,10 @@
 		"cost": 1,
 		"uniques": ["Unsellable", "Must be on [Fresh Water]", "Will not be displayed in Civilopedia",
 					"[+1] population [in this city]"]
+	},
+	{
+		"name": "~limiter",
+		"uniques": ["Unbuildable", "Unsellable", 
+					"Will not be displayed in Civilopedia"],
 	}
 ]

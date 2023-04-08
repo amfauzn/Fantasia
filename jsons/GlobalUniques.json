@@ -23,7 +23,7 @@
 		"[+160]% Strength <for [The Heroes] units> <starting from the [Modern age]>",	 	// 95
 		
 		// Tamer
-		"[+15]% Strength <for [Beast] units> <when adjacent to a [Tamer] unit>",
+		//"[+15]% Strength <for [Beast] units> <when adjacent to a [Tamer] unit>",
 		
 		// Natural Wonders mechanism
 		"[+1 Food] from every [Grassland] <with [1] to [6] neighboring [Crater Lake] tiles>", 
