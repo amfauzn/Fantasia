@@ -2081,7 +2081,7 @@
 					"[+10]% Strength <for [Gunpowder] units> <for units with [Blitz]>", 
 					"Destroyed when the city is captured", 
 					"Will not be displayed in Civilopedia"],
-		"replacementTextForUniques": "Sword and Gunowder units gain +10% Strength for each skill they learned from the skill tree",
+		"replacementTextForUniques": "Sword and Gunpowder units gain +10% Strength for each skill they learned from the skill tree",
 	},
 	{
 		"name": "Path of Spear",
