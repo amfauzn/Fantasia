@@ -151,3 +151,17 @@
 - More mythical beast, or the so called barbarians monster
 - Mythical beast no longer appears at the start of the game, except Slime
 - Add Spanish translation by Caballero-Arepa
+
+## v3.1.1 (08.04.2023)
+- Fix Marunesia can't build Ulu Wae
+- Fix Tamer unit can't capture killed Beast units and increase it's chances
+- Fix Holy Warrior Belief enables buying any Land Heroes even without their respective Portal
+- Prevent buying Skeletal Warrior and Skeletal Champion
+- Fix Divine Order can't prevent religion spreading by Great Prophet and/or Missionary
+- Beast units now displayable in Civilopedia
+
+## v3.1.2 (25.05.2023)
+- Upload Images folder
+- Update translation file
+- Add missing sprites
+- Fix typo for Path of Sword by Belias

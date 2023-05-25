@@ -895,7 +895,7 @@
 		"name": "Water Creature", // Almuria
 		"uniques": ["[+10]% Strength <when fighting in [Fresh Water] tiles> <in [Land] tiles> <with [0] to [0] neighboring [Coast] tiles>", 
 					"[+15]% Strength <when fighting in [Coastal] tiles>", 
-					"Normal vision when embarked", 
+					"May attack when embarked", 
 					"Eliminates combat penalty for attacking across a coast", 
 					"Eliminates combat penalty for attacking over a river", 
 					"[-20]% Strength <when fighting in [Desert] tiles>"]

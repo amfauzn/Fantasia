@@ -355,7 +355,7 @@
 					"[+1 Happiness] <in [Luxury resource] tiles>", 
 					"Pillaging this improvement yields approximately [+10 Culture]"],
 		"civilopediaText": [
-			{"text": "A place of cultural significance,great work of art,  or antique structure that draws visitors."}
+			{"text": "A place of cultural significance, great work of art, or antique structure that draws visitors."}
 		]
 	},
 	{
@@ -416,7 +416,7 @@
 		"civilopediaText": [
 			{"text": "A mining site that is strengthened by a fortress and at the same time as a place for miners to live."},
 			{"text": "Born as Nkuhanean means born as a miner."},
-			{"text": "Even the nobles liked it, that's why many Lodepits were established around the city."}
+			{"text": "Even the nobles like it, that's why many Lodepits were established around the city."}
 		]
 	},
 	{
@@ -650,7 +650,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unbuildable", "Unpillagable", "Provides a random bonus when entered"],
 		"civilopediaText": [
-			{"text": "Home to uncivilized barbarians, will spawn a hostile unit from time to time and grants a random bonus when cleared"}
+			{"text": "Home to monster and uncivilized barbarians, will spawn a hostile unit from time to time and grants a random bonus when cleared."}
 		]
 	}
 ]

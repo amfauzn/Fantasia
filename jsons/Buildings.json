@@ -83,7 +83,7 @@
 					"[+1 Food] from [Citrus] tiles [in this city]"],
 		"requiredTech": "Pottery",
 		"civilopediaText": [
-			{"text": "A building to store grain for human or animal (or both)"}
+			{"text": "A building to store grain for human or animal (or both)."}
 		]
 	},
 	{
@@ -186,7 +186,7 @@
 					"Destroyed when the city is captured"],
 		"requiredTech": "Masonry",
 		"civilopediaText": [
-			{"text": "A tall and wonderful walls for keeping enemy away. Even an ant couldn't pass it without the Malusian's permission"}
+			{"text": "A tall and wonderful walls for keeping enemy away. Even an ant couldn't pass it without the Malusian's permission."}
 		]
 	},
 	{
@@ -787,7 +787,7 @@
 		"uniques": ["[40]% Food is carried over after population increases [in this city]"],
 		"requiredTech": "Engineering",
 		"civilopediaText": [
-			{"text": "A system for moving water from one location to another location, usually to irigate crops."}
+			{"text": "A system for moving water from one location to another location, usually to irrigate crops."}
 		]
 	},
 	{
@@ -841,7 +841,7 @@
 					"[+1 Production] from [Iron] tiles [in this city]"],
 		"requiredTech": "Metal Casting",
 		"civilopediaText": [
-            {"text": "A workplace where a furnace to melt and shape iron loaceted."}
+            {"text": "A workplace where a furnace to melt and shape iron loceted."}
         ]
 	},
 	{
@@ -986,7 +986,7 @@
 		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]"],
 		"requiredTech": "Guilds",
 		"civilopediaText": [
-			{"text": "Even the most unheard information can be brought here."}
+			{"text": "Even the most unheard information can be bought here."}
 		]
 	},
 	{
@@ -1048,7 +1048,7 @@
 		"requiredTech": "Physics",
 		"uniques": ["Must be next to [Desert]"],
 		"civilopediaText": [
-			{"text": "Clay refrigeration built on Desert."}
+			{"text": "Clay refrigerator built on Desert."}
 		]
 	},
 	{
@@ -1138,7 +1138,7 @@
 					"[+1 Science] from [Mine] tiles [in this city]"],
 		"requiredTech": "Astronomy",
 		"civilopediaText": [
-			{"text": "In addition to observing terrestrial, marine, or celestial events, this building is a residence for dwarven tinkerer to study and mess around with their invention.."}
+			{"text": "In addition to observing terrestrial, marine, or celestial events, this building is a residence for dwarven tinkerer to study and mess around with their invention."}
 		]
 	},
 	{
@@ -1151,7 +1151,7 @@
 		"uniques": ["Destroyed when the city is captured"],
 		"requiredTech": "Acoustics",
 		"civilopediaText": [
-			{"text": "A place where composers showcase their talent in fro."}
+			{"text": "A place where composers showcase their talent in front of the audiences."}
 		]
 	},
 	{
@@ -1503,7 +1503,7 @@
 		"uniques": ["Destroyed when the city is captured"],
 		"requiredTech": "Archaeology",
 		"civilopediaText": [
-			{"text": "Costumes, jewels, ancient weapons, or virtually anything else which might be of value and interest are stored and treasured as antique heritage"}
+			{"text": "Costumes, jewels, ancient weapons, or virtually anything else which might be of value and interest are stored and treasured as antique heritage."}
 		]
 	},
 	{
@@ -1841,7 +1841,7 @@
 		"replacementTextForUniques": "Unlock Mas Karebet for 200 Faith at an increasing price of 100",
 		"requiredTech": "Earth Goddess"
 		"civilopediaText": [
-			{"text":"This building only available in Capital"}
+			{"text":"This building only available in Capital."}
         ]
 	},
 	{
@@ -1854,7 +1854,7 @@
 		"replacementTextForUniques": "Unlock Ken Arok for 200 Faith at an increasing price of 100",
 		"requiredTech": "Earth Goddess"
 		"civilopediaText": [
-			{"text":"This building only available in Capital"}
+			{"text":"This building only available in Capital."}
         ]
 	},
 	{
@@ -1867,7 +1867,7 @@
 		"replacementTextForUniques": "Unlock Pandji for 200 Faith at an increasing price of 100",
 		"requiredTech": "Earth Goddess"
 		"civilopediaText": [
-			{"text":"This building only available in Capital"}
+			{"text":"This building only available in Capital."}
         ]
 	},
 	{
@@ -1880,7 +1880,7 @@
 		"replacementTextForUniques": "Unlock Leonidas for 200 Faith at an increasing price of 100",
 		"requiredTech": "Earth Goddess"
 		"civilopediaText": [
-			{"text":"This building only available in Capital"}
+			{"text":"This building only available in Capital."}
         ]
 	},
 	{
@@ -1893,7 +1893,7 @@
 		"replacementTextForUniques": "Unlock Siliwangi for 200 Faith at an increasing price of 100",
 		"requiredTech": "Earth Goddess"
 		"civilopediaText": [
-			{"text":"This building only available in Capital"}
+			{"text":"This building only available in Capital."}
         ]
 	},
 	{
@@ -1906,7 +1906,7 @@
 		"replacementTextForUniques": "Unlock Zhuge Liang for 200 Faith at an increasing price of 100",
 		"requiredTech": "Earth Goddess"
 		"civilopediaText": [
-			{"text":"This building only available in Capital"}
+			{"text":"This building only available in Capital."}
         ]
 	},
 	{
@@ -1919,7 +1919,7 @@
 		"replacementTextForUniques": "Unlock Jeanne d'Arc for 200 Faith at an increasing price of 100",
 		"requiredTech": "Earth Goddess"
 		"civilopediaText": [
-			{"text":"This building only available in Capital"}
+			{"text":"This building only available in Capital."}
         ]
 	},
 	{
@@ -1933,7 +1933,7 @@
 		"replacementTextForUniques": "Unlock Gaius Duilius for 200 Faith at an increasing price of 100",
 		"requiredTech": "Earth Goddess"
 		"civilopediaText": [
-			{"text":"This building only available in Capital"}
+			{"text":"This building only available in Capital."}
         ]
 	},
 	{
@@ -1947,7 +1947,7 @@
 		"replacementTextForUniques": "Unlock Themistocles for 200 Faith at an increasing price of 100",
 		"requiredTech": "Earth Goddess"
 		"civilopediaText": [
-			{"text":"This building only available in Capital"}
+			{"text":"This building only available in Capital."}
         ]
 	},
 	

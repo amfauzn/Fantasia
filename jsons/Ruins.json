@@ -210,7 +210,7 @@
 	
 	// Maps
 	{
-		"name": "reveal nearby Barbarian camps",
+		"name": "reveal nearby Dungeon",
 		"notification": "You find evidence of Barbarian activity. Nearby Dungeon are revealed!",
 		"uniques": ["Reveal up to [All] [Barbarian encampment] within a [10] tile radius", 
 					"Only available <before [250] turns>"],

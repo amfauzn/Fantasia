@@ -85,7 +85,7 @@
 		"obsoleteTech": "Mana Channeling",
 		"upgradesTo": "Cleric",
 		"uniques": ["[+1] Sight", 
-					"All adjacent units heal [10] extra HP when healing"],
+					"All adjacent units heal [+10] HP when healing"],
 		"civilopediaText": [
 			{"text": "Support unit with heal aura. They can be captured and forced to work for their enemies."}
 		]
@@ -97,7 +97,7 @@
 		"cost": 250,
 		"requiredTech": "Mana Channeling",
 		"uniques": ["[+1] Sight", 
-					"All adjacent units heal [25] extra HP when healing", 
+					"All adjacent units heal [+25] HP when healing", 
 					"Uncapturable"],
 		"civilopediaText": [
 			{"text": "Support unit with heal aura. They prefer death over helping the enemies."}
@@ -1038,7 +1038,7 @@
 		"uniques": ["Preachable"],
 		"attackSound": "whoosh",
 		"civilopediaText": [
-			{"text": "A practitioner of the art Onmyodo, a master of yin-yang."},
+			{"text": "A practitioner of the art Onmyōdo, a master of yin-yang."},
 		]
 	},
 	{
@@ -2394,7 +2394,7 @@
 					"Limited to [1] per Civilization", 
 					"Never appears as a Barbarian unit", 
 					"Only available <if [The Esplumoir] is constructed>"],
-		"replacementTextForUniques": "Unbuildables",
+		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "metalhit"
 	},
 	
@@ -2423,7 +2423,7 @@
 					"Unbuildable", "Uncapturable"],
 		"movement": 2,
 		"civilopediaText": [
-			{"text": "Visionary elves people, they can build and maintain the Sacred Groove which is a gathering place for all beauty and comfort."}
+			{"text": "Visionary elves people, they can build and maintain the Sacred Grove which is a gathering place for all beauty and comfort."}
 		]
 	},
 	{
@@ -2450,7 +2450,7 @@
 					"Unbuildable"],
 		"movement": 2,
 		"civilopediaText": [
-			{"text": "Brilliant inventors, they figure out how the world works. They make a civilization smarter and They invent the future."}
+			{"text": "Brilliant inventors, they figure out how the world works. They make a civilization smarter and invent the future."}
 		]
 	},
 	{
@@ -2668,7 +2668,7 @@
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{
-				"text": "Shaolin move faster than Warrior Monk", 
+				"text": "Shaolin move faster than Warrior Monk.", 
 				"link": "Policy/Postulant"
 			}
 		]
