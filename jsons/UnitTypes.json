@@ -72,7 +72,7 @@
 		"movementType": "Land",
 		"uniques": ["Can pass through impassable tiles", 
 					"All tiles cost 1 movement", 
-					"Normal vision when embarked"]
+					"[+1] Sight <when [Embarked]>"]
 	},
 	{
         "name": "Vampire",
@@ -87,7 +87,7 @@
 		"name": "Air Terror",
 		"movementType": "Land",
 		"uniques": ["Can pass through impassable tiles", 
-					"Normal vision when embarked"
+					"[+1] Sight <when [Embarked]>", 
 					"All tiles cost 1 movement", 
 					"Eliminates combat penalty for attacking over a river", 
 					"Eliminates combat penalty for attacking across a coast"]
@@ -102,6 +102,14 @@
         "name": "Monk",
         "movementType": "Land"
     },
+	{
+		"name": "Witcher",
+		"movementType": "Land",
+		"uniques": ["[+10]% Strength <vs [Vampire] units>",
+					"[+50]% Strength <during the [Industrial age]>",	// 36
+					"[+100]% Strength <during the [Prosperity age]>",	// 48
+					"[+175]% Strength <during the [Modern age]>"]		// 66
+	},
 	{
         "name": "Construct",
         "movementType": "Land",

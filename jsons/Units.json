@@ -885,6 +885,27 @@
 		]
 	},
 	{
+		"name": "Crusader",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Sanctum Regalia",
+		"movement": 4,
+		"strength": 22,
+		"cost": 128,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking", 
+					"No defensive terrain bonus", 
+					"[-33]% Strength <vs cities> <when attacking>", 
+					"Founds a new city <on foreign continents>", 
+					"Can be purchased for [120] [Faith] [in capital]", 
+					"Religious Unit"],
+		"attackSound": "horse",
+		"religiousStrength": 1000
+	},
+	{
 		"name": "Mammoth Rider",
 		"unitType": "Mounted",
 		"movement": 3,
@@ -1302,6 +1323,25 @@
 		"civilopediaText": [
 			{"text": "Mage unit, strong when attacking cities but vulnerable in close combat."} // perlu di reestablish
 		]
+	},
+	{
+		"name": "Witcher",
+		"unitType": "Witcher",
+		"uniqueTo": "The Order of Witchers",
+		"movement": 3,
+		"strength": 24,
+		"cost": 160,
+		"requiredTech": "Quintessence Force",
+		"requiredResource": "Mutagen",
+		//"promotions": ["Kiss"],
+		"replacementTextForUniques": "No defensive terrain penalty",
+		"uniques": ["[+10]% Strength <when defending> <in [Snow] tiles>", 
+					"[+15]% Strength <when defending> <in [Marsh] tiles>", 
+					"[+15]% Strength <when defending> <in [Fallout] tiles>", 
+					"[+10]% Strength <when defending> <in [Oasis] tiles>", 
+					"[+10]% Strength <when defending> <in [Flood plains] tiles>", 
+					"[+50]% Strength <when defending> <in [Suction Mud] tiles>", ],
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Arch-Wizard",

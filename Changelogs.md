@@ -165,3 +165,8 @@
 - Update translation file
 - Add missing sprites
 - Fix typo for Path of Sword by Belias
+
+## v3.1.3 (07.06.2023)
+- Reduce Path of Immortality bonus from +10% to +5%
+- Fix The Trolls not receive free Zaghronk in 4 cities upon adopting Tradition Complete
+- Add 2 new Civs (The Order of Witchers and Sanctum Regalia)

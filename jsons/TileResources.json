@@ -11,6 +11,11 @@
 		"uniques": ["Will not be displayed in Civilopedia"]
 	},
 	{
+		"name": "Mutagen",
+		"resourceType": "Bonus",
+		"uniques": ["Will not be displayed in Civilopedia"]
+	},
+	{
 		"name": "Bananas",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Jungle"],

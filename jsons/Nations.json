@@ -757,6 +757,49 @@
 		]
 	},
 	
+	// The Witcher of Sumbawa
+	{
+		"name": "The Order of Witchers",
+		"leaderName": "Cosimo Malaspina",
+		"adjective": ["Witchers"],
+		"startBias": ["Hills"],
+		"favoredReligion": "Evolutionism",
+		
+		"startIntroPart1": "The Order of Witchers was an attempt made by lonkos (chiefs) and affiliated mages on the Sumbawa Continent to create a magical order using warriors who will help them get rid of enemies they previously could not subdue, attach to reservations, or exterminate – monsters. The final outcome of the mutations disappointed most of the mages, who began referring to the result as 'witchers', charlatans capable of nothing more than mere witchery. The Order didn't last long however – its members had abandoned most of the original 'warrior' values over time and soon split into a handful of witcher schools, aimed at taking a more professional approach to eradicating monsters.",
+		"startIntroPart2": "Greetings to you, Cosimo Malaspina the Sorcerer! Amidst the chaos and uncertainty, you embark upon a noble quest to vanquish malevolence and protect the innocent from the encroaching forces of evil. Notorious master of mutation, the destiny of your order and the fates of countless lives now lie within your capable hands. Will you heed the call and harness the power of magic and swordsmanship to lead the Order of Witchers to triumph? Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "I run into dilemmas all the time... This is not one of them. You disgust me. And deserve to die.",
+		"attacked": "Why men throw their lives away attacking an armed witcher...I'll never know. Something about our faces?",
+		"defeated": "Even if the world lies in ruin which does not seem likely to me. We will carry on killing monsters in the ruins of this world until some monster kills us.",
+		"afterPeace": "Evil is evil. Lesser, greater, middling... Makes no difference. The degree is arbitrary. The definition's blurred. If I'm to choose between one evil and another... I'd rather not choose at all.",
+		"introduction": "Well met, perhaps you require the services of a witcher?",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "Damn, You're Ugly.",
+		"tradeRequest": "I think this is a fair price.",
+		
+		"outerColor": [ 65, 74,81],
+		"innerColor": [214,195,75],
+		"uniqueName": "The Path",
+		"uniqueText": "Notified of new Dungeon \n+25% Strength and +50% XP gained vs Beast units \nEarn 25% of killed Military unit's Cost as [Gold] \nResting point for Influence with City-States is increased by 10 \n+50% City-State Influence degradation before discovering [Acoustics]",
+		"uniques": ["Notified of new Barbarian encampments", 
+					"[+25]% Strength <vs [Beast] units>",
+					"[+50]% XP gained from combat <for [Military] units> <vs [Beast] units>", 
+					"Earn [25]% of killed [Military] unit's [Cost] as [Gold]",
+					"Resting point for Influence with City-States is increased by [10]", 
+					"[+50]% City-State Influence degradation <before discovering [Acoustics]>"], 
+		"cities": ["Morgraig","Kaer Morhen","Stygga Citadel","Haern Caduch","Gorthur Gvaed","Kaer Seren","Bialsuf Alsarea","Behelt Nar","Dyn Marv"],
+		"spyNames": ["Alzur","Idarran","Arnaghad","Erland","Letto","Serrit","Auckes","Ivar","Vesemir","Treyse"],
+		"civilopediaText": [
+			{"text": "The Order of Witchers was an attempt made by lonkos (chiefs) and affiliated mages on the Sumbawa Continent to create a magical order using warriors who will help them get rid of enemies they previously could not subdue, attach to reservations, or exterminate – monsters. The original idea for the formation of the Order coined after the fall of Morlovia, which caused many vampires to flee to the north and northwest. Argos, Praetor of Machinia, didn't bother with the runaway vampires and chose to conquer Morlovia's territory, and reclaim the area that used to belong to the Jorah Kingdom. Facing the terror of the remnants of vampires, and monsters lurking in the dark, the Order of Witchers was established under the leadership of Mage Cosimo Malaspina."},
+			{"text": "After the earliest attempts at creating witchers with adults proved unsatisfactory, it was decided that children would be used for future experiments. They were trained by professionals from all over the continents in their respective skills: the huntsmen taught them to track and hunt, the alchemists on how to brew potions and concoctions, and the swordsmen on how to fight. Despite all this, the children proved unsatisfactory and disappointed most of the mages, who began to call the result 'witchers', charlatans capable of nothing more than mere witchery. The mutations had opened their bodies to the flow of power, but they ended up with limited magical talent."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "It is advised to settle (or conquer) as many cities as possible in order to produce Mutagen, which is later needed by the Witcher."}
+			{"text": "Fight as many Beast units as you can because your units gain strength and experience bonuses when fighting them."},
+		]
+	},
+	
 	// Gnome of the Vedic Jungle
 	{
 		"name": "Vedic",
@@ -803,6 +846,50 @@
 			{"text": "Tips to play:"},
 			{"text": "Play calm, your [Science] output will shine from mid-to-last game, fill Scientist slot to get Great Scientist, expend it for quick research with bonus +15 [Science]."}
 			{"text": "Claim as much Mined Strategic and/or Luxury resources as possible to gain [Gold], the use your unused [Gold] to buy [Science]"},
+		]
+	},
+	
+	// The Ecclesiarchy of Selasia
+	{
+		"name": "Sanctum Regalia",
+		"leaderName": "Mattimeo",
+		"adjective": ["Regalian"],
+		"startBias": ["Plains"],
+		"favoredReligion": "Dualism",
+		
+		"startIntroPart1": "Sanctum Regalia were a series of territories in the Western Steppe under the direct sovereign rule of the Holy Ecclesiarch. The state had its origins in the rise of Dualism throughout the southern part of Selasia, with the decline of Nerubia, the ecclesiarchy became effectively sovereign. Several Dualis rulers, including the Antium kings Giovanni and Luca the Leaky Eye, further donated lands to be governed by the Holy Ecclessiarch, and some states decided to join completely. During the reign of Mattimeo, the ecclesiarchy's territory expanded greatly, and the ecclesiarch became one of Selasia's most important rulers as well as the head of the Sanctum. At its zenith, the ecclesiarchy covered most of the Western Steppe, Gomorra, Umbria, and portions of Romagna.",
+		"startIntroPart2": "Blessed Mattimeo, the Servant of God, Ecclessiarch of Gomorra, Umbria, and Romagna! You are the leader of the Crusaders, march into wars to spread your beliefs. O Holy Ecclessiarch, will you rebuild the Holy Ecclessiarchy and vanquish your foes under heaven’s watchful eyes? Your adoring subjects await your command! Can you build a civilization that will stand the test of time?",
+		
+		"declaringWar": "God will probably forgive you... but I shall not. Prepare for war.",
+		"attacked": "Repugnant spawn of the devil! You will pay!",
+		"defeated": "The end is nigh, and our destruction in sight.",
+		//"afterPeace": "",
+		"introduction": "God blesses those who deserve it. I am Mattimeo of the Holy Ecclesiarchy of Sanctum Regalia.",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "Well?",
+		"tradeRequest": "I hope this deal will receive your blessing.",
+		
+		"outerColor": [153,50,204],
+		"innerColor": [240,220,20],
+		"uniqueName": "Holy Ecclesiarchy",
+		"uniqueText": "Can spend Gold to annex or puppet a City-State that has been your ally for 5 turns. \n+1 [Gold] per 4 population when not at war, +1 [Faith] instead when at war \n+2 [Gold] from all [Faith] buildings \nNewly-trained Crusader units in capital may Spread Religion 2 times",
+		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns.", 
+					"[+1 Gold] per [4] population [in all cities] <when not at war>", 
+					"[+1 Faith] per [4] population [in all cities] <when at war>", 
+					"[+2 Gold] from all [Faith] buildings", 
+					//"[+33]% Strength <vs [Major] units> <with different religion>", 
+					"All newly-trained [Crusader] units [in capital] receive the [Evangelize Belief] promotion"], 
+		"cities": ["Sanctopolis","Providentia","Pax Sancta","Theodora","Caelestis","Theopolis","Pietas","Sacramentum","Fideles","Sancta Civitas",
+			"Sacra Urb","Sanctus Portus","Gloriae Urbis","Beatitudo","Sacris","Veritas","Aeternitas","Iustitia","Seraphina","Mirabilis"],
+		"spyNames": ["Aurelia","Lucius","Isadora","Caelius","Calista","Felix","Lucian","Miranda","Alessandro","Isabella"],
+		"civilopediaText": [
+			{"text": "Sanctum Regalia were a series of territories in the Western Steppe under the direct sovereign rule of the Holy Ecclesiarch. The state had its origins in the rise of Dualism throughout the southern part of Selasia; with the decline of Nerubia, the ecclesiarchy became effectively sovereign. Several Dualis rulers, including the Antium kings Giovanni and Luca the Leaky Eye, further donated lands to be governed by the Holy Ecclessiarch. During the reign of Mattimeo, the ecclesiarchy launched an attack on Gomorra and positioned Gomorra as an external threat to the faith. With fervor and conviction, he inspired the masses to take up arms, promising redemption, protection, and glory. The crusades proved successful in expanding the faith's influence and safeguarding its interests."},
+			{"text": "As the crusades unfolded, the ecclesiarchy's power continued to grow. Mattimeo took advantage of this opportunity to launch further crusades into Umbria and Romagna. The faith's dominance over the continent was solidified, and the Holy Ecclesiarch became the supreme authority in religious matters, effectively eclipsing the influence of secular rulers. At its zenith, the ecclessiatch not only spread its influence to the human race, Sanctum Regalia also managed to tie up cooperation with the stopover country of Vedic and convert some of its government members to Dualism."},
+			{"separator": true},
+			{"text": "Tips to play:"},
+			{"text": "Use your Crusaders to spread religion to the City-State, and if the other religion's pressure is too strong, use it for war instead."}
+			{"text": "Produce [Gold]  as much as possible, by allied with CS for 5 turns, you can annex them with [Gold]."},
 		]
 	},
 	
@@ -874,7 +961,7 @@
 		"outerColor": [153,  5, 3],
         "innerColor": [244,232,54],
 		"uniqueName": "Path of Immortality",
-		"uniqueText": "Free Shifu appears upon constructing Sect in capital \nMay choose Path of Immortality: +10% Strength from each skill learned from the skill tree for Sword or Spear units (up to +100%) \nSword and Spear units start with extra 10 Experience \nDouble quantity of Jade produced",
+		"uniqueText": "Free Shifu appears upon constructing Sect in capital \nMay choose Path of Immortality (+5% Strength from each skill learned, up to +50%) for Sword or Spear units \nSword and Spear units start with extra 10 Experience \nDouble quantity of Jade produced = ",
 		"uniques": ["Free [Shifu] appears <upon constructing [Sect] [in capital]>", 
 					"New [Sword] units start with [10] Experience [in this city]", 
 					"New [Gunpowder] units start with [10] Experience [in this city]", 
@@ -1217,7 +1304,7 @@
 		"uniqueName": "Mercenary Combatant",
 		"uniques": ["[+10]% Strength <for [{Melee} {Land}] units>", 
 					"No movement cost to pillage <for [Land] units>", 
-					"Resting point for Influence with City-States is increased by [10]", 
+					"[+20]% Strength for cities <when defending>", 
 					"Gain [10] Influence with a [Military] gift to a City-State"],
 		"cities": ["Og","Fomoran","Fachan","Fódla","Ravna","Angrboða","Farragus","Kapra","Khalefi","Odánu",
 			"Ogeass","‘Uj Anaq","Bomba","Kuafu","Pecas Ndah","Blačko","Bildsfell","Mjola","Akranas","Skarpaögon"],

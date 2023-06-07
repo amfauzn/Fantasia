@@ -1,13 +1,15 @@
 # Development
 * [amfauzn (AKA faw)](https://github.com/amfauzn) - sprites, icon, idea, code, lore, translation template
-* [AceHank](https://github.com/AceHank) - icon, idea, code, lore
-* [Caballero Arepa](https://github.com/Caballero-Arepa) - Spanish translation
-* [Belias02](https://github.com/Belias02) - Balancing
+* [AceHank](https://github.com/AceHank) - icon, idea, code, lore, balancing
+* [Caballero Arepa](https://github.com/Caballero-Arepa) - Spanish translation, balancing
+* [Belias02](https://github.com/Belias02) - balancing, code and lore The Order of Witchers
+* Tenason - lore Sanctum Regalia
 
 # Inspired by
 * Ancient Empires, a symbian fantasy TBS game by Macrospace and Soren
 * The Lord of The Rings, a fantasy world by J. R. R. Tolkien
 * Dungeons & Dragons, a fantasy role-playing game by Gary Gygax & Dave Arneson
+* The Witcher, a fantasy world by Andrzej Sapkowski
 
 # Thanks to
 * [GeneralWadaling (AKA TheBucketeer)](https://github.com/GeneralWadaling) - Creator of HexaRealm & Civ style set by Bucketeer
@@ -59,6 +61,7 @@ Any icons not listed below are taken from the base game, see [Unciv credits](htt
 * Mammoth: [Mammoth](https://thenounproject.com/icon/mammoth-411126/) by parkjisun
 * Megall: [Shark](https://thenounproject.com/icon/shark-1481710/) by Kick
 * Mithril; [armor](https://thenounproject.com/icon/armor-2873073/) by Template
+* Mutagen: [mutation](https://thenounproject.com/icon/mutation-3757497/) by Kamin Ginkaew, TH
 * Niter: [Niter](https://github.com/Ravignir/LOTR-Unciv/tree/main/Images/ResourceIcons/Niter.png)
 * Obsidian: [Obsidian](logomakr.com/23yhKB) by Cavenir
 * Perfume: [Perfume](https://thenounproject.com/icon/perfume-4557970/) by Rank Sol
@@ -105,6 +108,7 @@ Any icons not listed below are taken from the base game, see [Unciv credits](htt
 * Polgar Sod'em: [Logo](https://thenounproject.com/icon/logo-2372941/) by Rafina Andra
 * Rain Forest: [Canada](https://github.com/Ravignir/RekMOD/tree/main/Images/NationIcons/Canada.png) by Ravignir. The original work has been modified
 * Red Moon: From the base game - [Aztecs](https://github.com/yairm210/Unciv/tree/master/android/Images/NationIcons/Aztecs.png) by Sean
+* Sanctum Regalia: [Papal Cross](https://thenounproject.com/icon/papal-cross-2069811/) by Avana Vana, US
 * Shinso: [Shintoism](https://thenounproject.com/icon/shintoism-740804/) by parkjisun
 * Smeheng: [sun](https://thenounproject.com/icon/sun-1202490/) by yasminvisible
 * Sulvana: [Logo](https://thenounproject.com/icon/logo-2278928/) by Rafina Andra
@@ -127,6 +131,7 @@ Any icons not listed below are taken from the base game, see [Unciv credits](htt
 * Burning Mirror: [SS Booster](https://github.com/SpacedOutChicken/DeCiv-Redux/tree/main/Images/BuildingIcons/SS-Booster.png)
 * Butchery Camp: [Quara U'y](https://github.com/Ravignir/RekMOD/tree/main/Images/ImprovementIcons/Quara-U'y.png) by Ravignir
 * Centre of Arcane: [ishtar gate](https://thenounproject.com/icon/ishtar-gate-3653260/) by Linseed Studio
+* Claehym: [temple](https://thenounproject.com/icon/temple-2126198/) by ProSymbols
 * Composer Hall: [Mustansiriya Madrasa](https://thenounproject.com/icon/mustansiriya-madrasa-321031/) by József Balázs-Hegedüs
 * Countermeasures Council & Order of Maesters: [Meeting](https://thenounproject.com/icon/meeting-1809789/) by Graphic Enginer
 * Crypt of the Unliving:
@@ -159,10 +164,11 @@ Any icons not listed below are taken from the base game, see [Unciv credits](htt
 * Sulong's Training: [Boxing Ring](https://thenounproject.com/icon/boxing-ring-4342323/) by Doodle Icons
 * Talents Audition: [talents audition] (https://thenounproject.com/term/skills/2587259/) by Adrien Coquet
 * Textile Mill: [textile fabric](https://thenounproject.com/icon/textile-fabric-3961065/) by varvarvarvarra
+* The Foundry: [Church](https://thenounproject.com/icon/church-2317646/) by Adam Bacskai, HU & [Factory](https://thenounproject.com/icon/factory-144858/) by Creative Stall, PK
 * The Great Watchtower: [Watchtower](https://thenounproject.com/icon/watchtower-16877/) by Ragini Lall. The original work has been modified
 * Tinkerer's Depot: 
 * Ulick Myne: [gate](https://thenounproject.com/icon/gate-2080851/) by Mariya Zola
-* Claehym: [temple](https://thenounproject.com/icon/temple-2126198/) by ProSymbols
+* Witcher School: [university](https://thenounproject.com/icon/university-2234551/) by Nhor. modified
 * Yimasp An'a: [Research](https://thenounproject.com/icon/research-2167113/) by tezar tantular
 * Zaghronk: [cave](https://thenounproject.com/icon/cave-1842202/) by Bakunetsu Kaito
 
@@ -176,6 +182,7 @@ Any icons not listed below are taken from the base game, see [Unciv credits](htt
 * Bazooka: [Bazooka](https://thenounproject.com/icon/bazooka-4022471/) by Visualeat Visualeat
 * Centaurs: [Centaur](https://thenounproject.com/search/?q=horse+archer&i=1791296) by Michael Wohlwend
 * Cerberus: [cerberus](https://thenounproject.com/icon/cerberus-1890707/) by Icons Producer
+* Crusader: [Helmet](https://thenounproject.com/icon/helmet-1115294/) by Paul Krizsan, DE
 * Cyborg: [cyborg](https://thenounproject.com/icon/cyborg-5217348/) by Amethyst Studio
 * Cyclop: [cyclop](https://thenounproject.com/icon/cyclop-3465924/) by Amethyst Studio. The original work has been modified
 * Daggerman: [dagger](https://thenounproject.com/icon/dagger-3675640/) by Vectors Market
@@ -239,6 +246,7 @@ Any icons not listed below are taken from the base game, see [Unciv credits](htt
 * Unicorn: [Unicorn](https://thenounproject.com/icon/unicorn-1155093/) by corpus delicti
 * Warlock: [crystal staff](https://thenounproject.com/icon/crystal-staff-4243133/) by Juicy Fish
 * Warrior Monk: [pray](https://thenounproject.com/icon/pray-1249666/) by icon4yu
+* Withcer: [Sword](https://thenounproject.com/icon/sword-5111/) by dsathiyaraj, IN
 * Wizard: [Wizard](https://thenounproject.com/icon/wizard-3890118/) by HideMaru
 * Wolf Rider: [Wolf](https://thenounproject.com/icon/wolf-151723/) by Jason Dilworth
 * Yeti: [bigfoot](https://thenounproject.com/icon/bigfoot-1385648/) by Icons Producer
@@ -248,12 +256,14 @@ Any icons not listed below are taken from the base game, see [Unciv credits](htt
 * Alchemist Horizon: [classes alchemist](https://thenounproject.com/icon/classes-alchemist-2360002/) by Maxicons
 * Auxiliary Core: Created from [Crystal](https://thenounproject.com/icon/crystal-48886/) by MarkieAnn Packer & [Plus](https://thenounproject.com/icon/plus-4536661/) by ainul muttaqin
 * Battlecry: [Sword](https://thenounproject.com/search/?q=Sword&i=1432662) By uzeir syarief
+* Blizzard: [wave](https://thenounproject.com/icon/wave-4983610/) by YANDI RS, ID
 * Blood Baptism: [Blood](https://thenounproject.com/icon/blood-4532645/) by Zky Icon
 * Bloodlust & Vampiric Touch: [Vampire](https://thenounproject.com/icon/vampire-30595/) by Abby Milberg
 * Burst Attack: [burst](https://thenounproject.com/icon/burst-3965251/) by Adrien Coquet
 * Calming Amulet: [Security](https://thenounproject.com/icon/security-4887917/) by Setyo Ari Wibowo
 * Clairvoyant: [Crystal Ball](https://thenounproject.com/icon/crystal-ball-115549/) by Gerardo Martín Martínez
 * Cold Resistant: [Private First Class](https://thenounproject.com/yeongrong.kim.5/collection/miltary-rank/?i=833161) By Yeong Rong Kim. The original work has been modified
+* De Vries' Extract: [Eye](https://thenounproject.com/icon/eye-5467936/) by ArtBone, ID
 * Divine Right: [Angel](https://thenounproject.com/icon/angel-236632/) by Andrew Was
 * Double Armor Plating: Armor Plating by [JackRainy](https://github.com/JackRainy). Modified
 * Exposed Core; [Crystal](https://thenounproject.com/icon/crystal-2122669/) by Deemak Daksina. The original work has been modified
@@ -261,12 +271,15 @@ Any icons not listed below are taken from the base game, see [Unciv credits](htt
 * Flare: [flare](https://thenounproject.com/icon/flare-4148604/) by pertiwi putri
 * Frightening Vibe: [skull](https://thenounproject.com/icon/vampire-skull-449592/) by Rafael Garcia Motta
 * Grapeshot: [Fireworks](https://thenounproject.com/icon/fireworks-2687462/) by Rainbow Designs. The original work has been modified
+* Maribor Forest: [creepy tree](https://thenounproject.com/icon/creepy-tree-4433183/) by Chuck Penzone
 * Qigong: [foot](https://thenounproject.com/icon/foot-3354198/) by Andrejs Kirma
 * Regenerative Bio-Steel:
 * Regenerative Tissue: Created from [DNA](https://thenounproject.com/icon/dna-1088100/) by Creative Stall & [Plus](https://thenounproject.com/icon/plus-4536661/) by ainul muttaqin
 * Ripping Claw: [claw](https://thenounproject.com/icon/claw-1849553/) by regina
 * Seduction: [mouth](https://thenounproject.com/icon/mouth-30014/) by Shovy Rahman
+* Thunderbolt: [thunder](https://thenounproject.com/icon/thunder-5772362/) by Mas Dhimas, ID
 * Tremor Attack: [vibration](https://thenounproject.com/icon/vibration-2320858/) by ahmad
 * Troll's Skin: [concrete](https://thenounproject.com/icon/concrete-2414938/) by Leif Michelsen
 * Twin Fang: Created from [fangs](https://thenounproject.com/icon/fangs-3028646/) by Phạm Thanh Lộc
 * Winged Vampire: [vampire](https://thenounproject.com/icon/vampire-2035567/) by Hada Arkanda
+* Wolf: [Wolf](https://thenounproject.com/icon/wolf-56584/) by m. turan ercan, TR

@@ -421,6 +421,67 @@
 		"unitTypes": ["Monk"]
 	},
 	
+	// Witcher
+	{
+		"name": "Full Moon",
+		"uniques": ["[+25]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Witcher"]
+	},
+	{
+		"name": "Thunderbolt",
+		"uniques": ["[+25]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Witcher"]
+	},
+	{
+		"name": "Wolverine",
+		"prerequisites": ["Full Moon"],
+		"uniques": ["[+33]% Strength <when below [50] HP>"],
+		"unitTypes": ["Witcher"]
+	},
+	{
+		"name": "Maribor Forest",
+		"prerequisites": ["Thunderbolt"],
+		"uniques": ["[+25]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Witcher"]
+	},
+	{
+		"name": "Petri's Philter",
+		"prerequisites": ["Wolverine","Swallow"],
+		"uniques": ["[+25]% Strength <vs [Construct] units> <when attacking>"],
+		"unitTypes": ["Witcher"]
+	},
+	{
+		"name": "Swallow",
+		"prerequisites": ["Maribor Forest","Petri's Philter"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Witcher"]
+	},
+	{
+		"name": "Blizzard",
+		"prerequisites": ["Petri's Philter","Swallow"],
+		"uniques": ["May withdraw before melee ([50]%)"],
+		"unitTypes": ["Witcher"]
+	},
+	{
+		"name": "Willow",
+		"prerequisites": ["Wolverine","Swallow"],
+		"uniques": ["Ignores Zone of Control"],
+		"unitTypes": ["Witcher"]
+	},
+	{
+		"name": "De Vries' Extract",
+		"prerequisites": ["Maribor Forest","Petri's Philter"],
+		"uniques": ["Can see invisible [Military] units", 
+					"Can see over obstacles"],
+		"unitTypes": ["Witcher"],
+		"unitTypes": ["Witcher"]
+	},
+	{
+		"name": "Wolf",
+		"prerequisites": ["Willow","De Vries' Extract"],
+		"uniques": ["[+50]% Strength <with [50]% chance>"]
+	},
+	
 	// Mixed Land
 	{
 		"name": "Charge",
@@ -945,6 +1006,20 @@
 		"name": "Regenerative Bio-Steel", // First Order
 		"uniques": ["[+10] HP when healing", 
 					"[+10]% Strength <when defending>"]
+	},
+	{
+		"name": "Kiss", // The Order of Witcher
+		"uniques": ["Damage is ignored when determining unit Strength"]
+	},
+	{
+		"name": "Evangelize Belief", // Sanctum Regalia
+		"uniques": ["Can [Spread Religion] [2] times", 
+					"Removes other religions when spreading religion",
+					"Religious Unit"]
+	},
+	{
+		"name": "Unwavering Faith", // Sanctum Regalia
+		"uniques": ["Damage is ignored when determining unit Strength"]
 	},
 	{
 		"name": "Trawl", // Marunesia
