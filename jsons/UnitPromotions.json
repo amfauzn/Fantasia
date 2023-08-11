@@ -148,14 +148,14 @@
 	},
 	{
 		"name": "Sapping",
-		"prerequisites": ["Grapeshot","Crew Weapons"],
+		"prerequisites": ["Grapeshot"],
 		"uniques": ["[+25]% Strength <vs cities>", 
 					"No movement cost to pillage"],
 		"unitTypes": ["Siege","Siege Hero"]
 	},
 	{
 		"name": "Crew Weapons",
-		"prerequisites": ["Sapping","Entrenched Position"],
+		"prerequisites": ["Entrenched Position"],
 		"uniques": ["[+25]% Strength <when defending>", 
 					"[+10] HP when healing"],
 		"unitTypes": ["Siege","Siege Hero"]
@@ -208,38 +208,38 @@
 	},
 	{
 		"name": "Besiege",
-		"prerequisites": ["Battlecry","March"],
+		"prerequisites": ["Battlecry"],
 		"uniques": ["[+50]% Strength <vs cities>"],
 		"unitTypes": ["Sword","Gunpowder","Construct","Infantry Hero","Evil Hero"]
 	},
 	{
 		"name": "Assault Protocol",
-		"prerequisites": ["Battlecry","Auxiliary Core"],
+		"prerequisites": ["Battlecry"],
 		"uniques": ["[1] additional attacks per turn"],
 		"unitTypes": ["Construct"]
 	},
 	{
 		"name": "Pet Heal",
-		"prerequisites": ["Pet Command","Pet Vision"],
+		"prerequisites": ["Pet Command"],
 		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", 
 					"All adjacent units heal [+5] HP when healing"], // Should just Beast
 		"unitTypes": ["Tamer"]
 	},
 	{
 		"name": "March",
-		"prerequisites": ["Tortoise","Besiege"],
+		"prerequisites": ["Tortoise"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Sword","Gunpowder","Infantry Hero","Evil Hero"]
 	},
 	{
 		"name": "Auxiliary Core",
-		"prerequisites": ["Tortoise","Assault Protocol"],
+		"prerequisites": ["Tortoise"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Construct"]
 	},
 	{
 		"name": "Pet Vision",
-		"prerequisites": ["Tortoise","Pet Heal"]
+		"prerequisites": ["Tortoise"]
 		"uniques": ["[+2] Sight"],
 		"unitTypes": ["Tamer"]
 	},
@@ -287,14 +287,14 @@
 	},
 	{
 		"name": "Depredation",
-		"prerequisites": ["Coursers","Calming Amulet"],
+		"prerequisites": ["Coursers"],
 		"uniques": ["[+1] Movement", 
 					"No movement cost to pillage"],
 		"unitTypes": ["Mounted","Armored","Cavalry Hero"]
 	},
 	{
 		"name": "Calming Amulet",
-		"prerequisites": ["Depredation","Barding"],
+		"prerequisites": ["Barding"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Mounted","Armored","Cavalry Hero"]
 	},
@@ -321,20 +321,20 @@
 	},
 	{
 		"name": "Thrust",
-		"prerequisites": ["Formation","Holding Spirit"],
+		"prerequisites": ["Formation"],
 		"uniques": ["[+25]% Strength <vs [Sword] units>", 
 					"[+25]% Strength <vs [Gunpowder] units>"],
 		"unitTypes": ["Anti-Cav","Anti-Armor","Anti-Cav Hero"]
 	},
 	{
 		"name": "Holding Spirit",
-		"prerequisites": ["Thrust","Shield Wall"],
+		"prerequisites": ["Shield Wall"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Anti-Cav","Anti-Armor","Anti-Cav Hero"]
 	},
 	{
 		"name": "Schiltron",
-		"prerequisites": ["Thrust"],
+		"prerequisites": ["Thrust","Holding Spirit"],
 		"uniques": ["[+25]% Strength <vs [Land] units>"],
 		"unitTypes": ["Anti-Cav","Anti-Armor","Anti-Cav Hero"]
 	},
@@ -397,13 +397,13 @@
 	},
 	{
 		"name": "Disciples",
-		"prerequisites": ["Exploding Palms","Sweeping Wind"],
+		"prerequisites": ["Exploding Palms"],
 		"uniques": ["Can [Remove Foreign religions from your own cities] [3] times"],
 		"unitTypes": ["Monk"]
 	},
 	{
 		"name": "Sweeping Wind",
-		"prerequisites": ["Hereditary Herb","Disciples"],
+		"prerequisites": ["Hereditary Herb"],
 		"uniques": ["[1] additional attacks per turn", 
 					"Can move after attacking"],
 		"unitTypes": ["Monk"]
@@ -446,13 +446,13 @@
 	},
 	{
 		"name": "Petri's Philter",
-		"prerequisites": ["Wolverine","Swallow"],
+		"prerequisites": ["Wolverine"],
 		"uniques": ["[+25]% Strength <vs [Construct] units> <when attacking>"],
 		"unitTypes": ["Witcher"]
 	},
 	{
 		"name": "Swallow",
-		"prerequisites": ["Maribor Forest","Petri's Philter"],
+		"prerequisites": ["Maribor Forest"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
 		"unitTypes": ["Witcher"]
 	},
@@ -473,7 +473,6 @@
 		"prerequisites": ["Maribor Forest","Petri's Philter"],
 		"uniques": ["Can see invisible [Military] units", 
 					"Can see over obstacles"],
-		"unitTypes": ["Witcher"],
 		"unitTypes": ["Witcher"]
 	},
 	{
@@ -567,13 +566,13 @@
 	},
 	{
 		"name": "Convoy",
-		"prerequisites": ["Observation","Reinforced Hull","Green Water Navy"],
+		"prerequisites": ["Observation","Reinforced Hull","Coastal Raider"],
 		"uniques": ["[+15]% Strength <when adjacent to a [Melee Water] unit>"],
 		"unitTypes": ["Melee Water","Melee Water Hero"]
 	},
 	{
 		"name": "Green Water Navy",
-		"prerequisites": ["Convoy","Coastal Raider"],
+		"prerequisites": ["Observation","Reinforced Hull","Coastal Raider"],
 		"uniques": ["[+15]% Strength <in [Coast] tiles>", 
 					"[+25]% Strength <when fighting in [Atoll] tiles>"],
 		"unitTypes": ["Melee Water","Melee Water Hero"]
@@ -621,19 +620,19 @@
 	},
 	{
 		"name": "Coincidence Rangefinding",
-		"prerequisites": ["Double Armor Plating","Targeting","Bombardment"],
+		"prerequisites": ["Double Armor Plating","Targeting","Rolling Barrage"],
 		"uniques": ["[+1] Range"],
 		"unitTypes": ["Ranged Water","Water Hero"]
 	},
 	{
 		"name": "Bombardment",
-		"prerequisites": ["Rolling Barrage","Coincidence Rangefinding"],
+		"prerequisites": ["Double Armor Plating","Targeting","Rolling Barrage"],
 		"uniques": ["[+33]% Strength <vs [Land] units> <when attacking>"],
 		"unitTypes": ["Ranged Water"]
 	},
 	{
 		"name": "Wave",
-		"prerequisites": ["Rolling Barrage","Coincidence Rangefinding"],
+		"prerequisites": ["Coincidence Rangefinding","Bombardment"],
 		"uniques": ["[+33]% Strength <vs [Land] units>", 
 					"Ranged attacks may be performed over obstacles"],
 		"unitTypes": ["Water Hero"]
@@ -683,25 +682,25 @@
 	},
 	{
 		"name": "Weakpoint Exploitation",
-		"prerequisites": ["Underwater Vision","Wolfpack","Homing Torpedoes"],
+		"prerequisites": ["Underwater Vision","Extended Range"],
 		"uniques": ["[+25]% Strength <vs [Wounded] units> <when attacking>"],
 		"unitTypes": ["Water Terror","Submarine"]
 	},
 	{
 		"name": "Wolfpack",
-		"prerequisites": ["Weakpoint Exploitation","Extended Range"],
+		"prerequisites": ["Underwater Vision","Extended Range"],
 		"uniques": ["[+25]% Strength <when adjacent to a [Water Terror] unit>"],
 		"unitTypes": ["Water Terror"]
 	},
 	{
 		"name": "Homing Torpedoes",
-		"prerequisites": ["Weakpoint Exploitation","Extended Range"],
+		"prerequisites": ["Underwater Vision","Extended Range"],
 		"uniques": ["[+25]% Strength <when attacking>"],
 		"unitTypes": ["Submarine"]
 	},
 	{
 		"name": "Silent Running",
-		"prerequisites": ["Weakpoint Exploitation","Wolfpack"],
+		"prerequisites": ["Weakpoint Exploitation","Wolfpack","Homing Torpedoes"],
 		"uniques": ["Can move after attacking"],
 		"unitTypes": ["Water Terror","Submarine"]
 	},
@@ -790,13 +789,13 @@
 	},
 	{
 		"name": "Titanium Scale",
-		"prerequisites": ["Strengthen Nose","Hunter Killer"],
+		"prerequisites": ["Strengthen Nose","Twin Fang"],
 		"uniques": ["[+25]% Strength <when defending>"],
 		"unitTypes": ["Air Terror"]
 	},
 	{
 		"name": "Hunter Killer",
-		"prerequisites": ["Twin Fang","Titanium Scale"],
+		"prerequisites": ["Strengthen Nose","Twin Fang"],
 		"uniques": ["[+25]% Strength"],
 		"unitTypes": ["Air Terror"]
 	},

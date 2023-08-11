@@ -961,7 +961,7 @@
 		"outerColor": [153,  5, 3],
         "innerColor": [244,232,54],
 		"uniqueName": "Path of Immortality",
-		"uniqueText": "Free Shifu appears upon constructing Sect in capital \nMay choose Path of Immortality (+5% Strength from each skill learned, up to +50%) for Sword or Spear units \nSword and Spear units start with extra 10 Experience \nDouble quantity of Jade produced = ",
+		"uniqueText": "Free Shifu appears upon constructing Sect in capital \nMay choose Path of Immortality (+5% Strength from each skill learned, up to +50%) for Sword or Spear units \nSword and Spear units start with extra 10 Experience \nDouble quantity of Jade produced",
 		"uniques": ["Free [Shifu] appears <upon constructing [Sect] [in capital]>", 
 					"New [Sword] units start with [10] Experience [in this city]", 
 					"New [Gunpowder] units start with [10] Experience [in this city]", 

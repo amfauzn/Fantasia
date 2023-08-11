@@ -2190,8 +2190,11 @@
 		"uniqueTo": "'Nkuhanea",
 		"maintenance": 0,
 		"cost": 1,
-		"uniques": ["Unsellable", "Must be on [Fresh Water]", "Will not be displayed in Civilopedia",
-					"[+1] population [in this city]"]
+		"uniques": ["Unsellable", 
+					"Must be on [Fresh Water]", 
+					"Will not be displayed in Civilopedia", 
+					"[+1] population [in this city]", 
+					"Automatically built in all cities where it is buildable"]
 	},
 	{
 		"name": "~limiter",
