@@ -61,7 +61,7 @@
     {
         "name": "Goddess of Love",
         "type": "Pantheon",
-        "uniques": ["[+1 Happiness] <in cities with at least [5] [Population]>"]
+        "uniques": ["[+1 Happiness] [in cities following this religion] <in cities with at least [5] [Population]>"]
     },
     {
         "name": "Goddess of Protection",
@@ -167,7 +167,7 @@
     {
         "name": "Guruship",
         "type": "Follower",
-        "uniques": ["[+2 Production] <in cities with at least [1] [Specialists]>"]
+        "uniques": ["[+2 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>"]
     },
 	{
         "name": "Holy Warriors",

@@ -4,6 +4,7 @@
 		"era": "Archaic age",
 		"techCost": 20,
 		"buildingCost": 40,
+		"wonderCost": 100,
 		"techs": [
 			{
 				"name": "Earth Goddess",
@@ -17,6 +18,7 @@
 		"era": "Archaic age",
 		"techCost": 20,
 		"buildingCost": 40,
+		"wonderCost": 100,
 		"techs": [
 			{
 				"name": "Agriculture",
@@ -31,7 +33,7 @@
 		"era": "Archaic age",
 		"techCost": 35,
 		"buildingCost": 60,
-		"wonderCost": 185,
+		"wonderCost": 160,
 		"techs": [
 			{
 				"name": "Pottery",
