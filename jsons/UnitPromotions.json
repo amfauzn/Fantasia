@@ -374,7 +374,7 @@
 	// Monk
 	{
 		"name": "Shadow Strike",
-		"uniques": ["[+100]% to Flank Attack bonuses"],
+		"uniques": ["[+50]% to Flank Attack bonuses"],
 		"unitTypes": ["Monk"]
 	},
 	{
@@ -385,7 +385,7 @@
 	{
 		"name": "Exploding Palms",
 		"prerequisites": ["Shadow Strike"],
-		"uniques": ["[+33]% Strength"],
+		"uniques": ["[+25]% Strength"],
 		"unitTypes": ["Monk"]
 	},
 	{
@@ -398,7 +398,8 @@
 	{
 		"name": "Disciples",
 		"prerequisites": ["Exploding Palms"],
-		"uniques": ["Can [Remove Foreign religions from your own cities] [3] times"],
+		"uniques": ["Can [Remove Foreign religions from your own cities] [3] times", 
+					"Religious Unit"],
 		"unitTypes": ["Monk"]
 	},
 	{
@@ -1009,6 +1010,14 @@
 	{
 		"name": "Kiss", // The Order of Witcher
 		"uniques": ["Damage is ignored when determining unit Strength"]
+	},
+	{
+		"name": "Kiss", // The Order of Witcher
+		"uniques": ["Damage is ignored when determining unit Strength"]
+	},
+	{
+		"name": "Beast Hunter", // The Order of Witcher
+		"uniques": ["Gain [50] [Gold] <upon defeating a [Beast] unit>"]
 	},
 	{
 		"name": "Evangelize Belief", // Sanctum Regalia

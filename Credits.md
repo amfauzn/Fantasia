@@ -1,6 +1,7 @@
 # Development
 * [amfauzn (AKA faw)](https://github.com/amfauzn) - sprites, icon, idea, code, lore, translation template
 * [AceHank](https://github.com/AceHank) - icon, idea, code, lore, balancing
+* [rica40](https://github.com/Rica40) - sprites
 * [Caballero Arepa](https://github.com/Caballero-Arepa) - Spanish translation, balancing
 * [Belias02](https://github.com/Belias02) - balancing, code and lore The Order of Witchers
 * Tenason - lore Sanctum Regalia

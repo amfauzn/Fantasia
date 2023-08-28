@@ -1334,6 +1334,7 @@
 		"requiredTech": "Quintessence Force",
 		"requiredResource": "Mutagen",
 		//"promotions": ["Kiss"],
+		"promotions": ["Beast Hunter"],
 		"replacementTextForUniques": "No defensive terrain penalty",
 		"uniques": ["[+10]% Strength <when defending> <in [Snow] tiles>", 
 					"[+15]% Strength <when defending> <in [Marsh] tiles>", 
@@ -2178,26 +2179,6 @@
 		]
 	},
 	{
-		"name": "Great Farmer",
-		"unitType": "Civilian",
-		"uniques": ["Can instantly construct a [Cultivated farm] improvement <by consuming this unit>", 
-					"Unbuildable"],
-		"movement": 2,
-		"civilopediaText": [
-			{"text": "If the farmers are the founders of human civilization, than surely great things that a Great farmer will do."},
-			{"text": "Great Farmer can construct Cultivated farm on Tundra/Snow."},
-			{"text": "See: "},
-			{
-				"text": "Tundra", 
-				"link":	"Terrains/Tundra"
-			},
-			{
-				"text": "Snow", 
-				"link":	"Terrains/Snow"
-			}
-		]
-	},
-	{
 		"name": "Orichalcum Golem",
 		"uniqueTo": "Dwargon",
 		"unitType": "Construct",
@@ -2446,7 +2427,8 @@
 		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", 
 					"Can instantly construct a [Landmark] improvement <by consuming this unit>", 
 					"Great Person - [Culture]", 
-					"Unbuildable", "Uncapturable"],
+					"Unbuildable", "Uncapturable", 
+					"Is part of Great Person group [All-Civ]"],
 		"movement": 2,
 		"civilopediaText": [
 			{"text": "Visionary people, they interpret the world, bringing beauty, aesthetics, convenience feeling and form where none may have been found before."}
@@ -2460,7 +2442,8 @@
 		"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", 
 					"Can instantly construct a [Sacred Grove] improvement <by consuming this unit>", 
 					"Great Person - [Culture]", 
-					"Unbuildable", "Uncapturable"],
+					"Unbuildable", "Uncapturable", 
+					"Is part of Great Person group [All-Civ]"],
 		"movement": 2,
 		"civilopediaText": [
 			{"text": "Visionary elves people, they can build and maintain the Sacred Grove which is a gathering place for all beauty and comfort."}
@@ -2474,7 +2457,8 @@
 		"uniques": ["Empire enters a [12]-turn Golden Age <by consuming this unit>", 
 					"Can instantly construct a [Landmark] improvement <by consuming this unit>", 
 					"Great Person - [Culture]", 
-					"Unbuildable", "Uncapturable"],
+					"Unbuildable", "Uncapturable", 
+					"Is part of Great Person group [All-Civ]"],
 		"movement": 2,
 		"civilopediaText": [
 			{"text": "Visionary Thallin people, often they appear almost simultaneously and trigger the very long era of greatness."},
@@ -2487,7 +2471,8 @@
 		"uniques": ["Can hurry technology research", 
 					"Can instantly construct a [Academy] improvement <by consuming this unit>", 
 					"Great Person - [Science]", 
-					"Unbuildable"],
+					"Unbuildable", 
+					"Is part of Great Person group [All-Civ]"],
 		"movement": 2,
 		"civilopediaText": [
 			{"text": "Brilliant inventors, they figure out how the world works. They make a civilization smarter and invent the future."}
@@ -2498,7 +2483,9 @@
 		"unitType": "Civilian",
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
 					"Can instantly construct a [Customs house] improvement <by consuming this unit>", 
-					"Great Person - [Gold]", "Unbuildable"],
+					"Great Person - [Gold]", 
+					"Unbuildable", 
+					"Is part of Great Person group [All-Civ]"],
 		"movement": 2,
 		"civilopediaText": [
 			{"text": "Excellent merchants, they create a civilization's wealth by providing the goods and services needed by a civilizations."}
@@ -2509,7 +2496,9 @@
 		"unitType": "Civilian",
 		"uniques": ["Can speed up construction of a building", 
 					"Can instantly construct a [Manufactory] improvement <by consuming this unit>", 
-					"Great Person - [Production]", "Unbuildable"],
+					"Great Person - [Production]", 
+					"Unbuildable", 
+					"Is part of Great Person group [All-Civ]"],
 		"movement": 2,
 		"civilopediaText": [
 			{"text": "Industrious engineers who get things done, they hasten urban project and improve the live those around them."}
@@ -2556,6 +2545,28 @@
 		"religiousStrength": 1000,
 		"civilopediaText": [
 			{"text": "A religious leader who had almost all of their body parts replaced with machines. A Meka-Priest was highly respected by the Machinicus for representing Machine-God, their god."}
+		]
+	},
+	{
+		"name": "Great Farmer",
+		"unitType": "Civilian",
+		"uniques": ["Can instantly construct a [Cultivated farm] improvement <by consuming this unit>", 
+					"[+2] population [in capital] <by consuming this unit>", 
+					"Unbuildable", 
+					"Is part of Great Person group [Frost]"],
+		"movement": 2,
+		"civilopediaText": [
+			{"text": "If the farmers are the founders of human civilization, than surely great things that a Great farmer will do."},
+			{"text": "Great Farmer can construct Cultivated farm on Tundra/Snow."},
+			{"text": "See: "},
+			{
+				"text": "Tundra", 
+				"link":	"Terrains/Tundra"
+			},
+			{
+				"text": "Snow", 
+				"link":	"Terrains/Snow"
+			}
 		]
 	},
 	{
@@ -2687,6 +2698,7 @@
 					"Can transform to [Pikeman]", 
 					"Only available <in cities with a [Temple]>"],
 		//"promotions": ["Life Treasure"],
+		"promotions": ["Twilight Veil"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 		{"text": "Shifu unlocked after discovering Quintessence Force, but required a Temple."}

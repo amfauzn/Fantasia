@@ -266,7 +266,7 @@
 		"faith": 1,
 		"movementCost": 2,
 		"unbuildable": true,
-		"occursOn": ["Grassland"],
+		"occursOn": ["Plains"],
 		"uniques": ["Rare feature", 
 					"Must be adjacent to [1] to [6] [Forest] tiles", 
 					"Units ending their turn on this terrain take [50] damage"]

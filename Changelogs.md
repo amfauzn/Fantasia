@@ -119,12 +119,64 @@
 - Change Hero mechanism
 - Skill tree revamp
 - Rework Piety Policy
-- Rework Nas, Rain Forest, & Torakj
-- Canonizing Extension civs, and balancing
 - Increase XP gained from combat with Barbarian (max 360 XP)
 - Introducing rock-paper-scissor aspect for units
 - New unit class: Construct, Mage, & Monk
 - Unit balancing
+- Rework Nas, Rain Forest, & Torakj
+- Canonizing Extension civs, and balancing
+### Balancing List for V3.0.0
+- Almuria
+	UA +Double quantity of Megall
+- Louvargia
+	UA +Free Divine Order upon discovering Theology
+- The Shinso
+	UB Pillar of Wealth Currency -> Mathematics
+	UB Pillar of Faith Theology -> Philosopy
+	UA +Free Great Person after building all pillars
+- Arxia
+	UU Fanatic +10% str when stacked with Traon General
+- Thallin
+	UA +8 Culture after adopting tradition complete -> +1 Population +1 Culture in capital upon adopting every Tradition policy tree
+- Torakj
+	UA +15 % Flank attack bonus -> +10% Flank attack bonus
+	UA +1 Happiness every Courthouse -> Receive triple gold pillaging cities
+	UU Wolf Rider str 14 -> 12 cost 85 -> 70
+- Smeheng
+	UA +10% str bonus in Desert -> +15% str bonus in Desert
+	UA +10% str bonus in Freindly Land -> +15% str bonus in Freindly Land
+- Cavegoa
+	UA +5 HP when healing -> +10 HP when healing
+	UA +10% str when belom 50 HP when defending - > +10% str when below 50 HP
+	UB Posha +1 Production +3 Gold from water resources -> +1 Food +1 Gold from Fish tiles
+- Ilythiir
+	UA +Free Settler appears upon discovering Calendar
+- Vedic
+	UU Homunculus str 36 -> 35
+- Thorin
+	UA Normal vision when embarked -> Gain 330 Gold upon capturing a city
+	UB Cashier Stable maintenance 1 -> 0
+	UB +33% Production for Mounted -> +50% Production for Mounted
+- Malus
+	UB Malus' Barricade -> UB Fortified Walls
+- Nas
+	UA -33% maintenance costs for Military Land and Water units -> -50% City-State Influence degradation
+	UA +Militaristic City-States grant units 2 times as fast when you are at war with a common nation
+	UU Ballista -> UB Ancient Citadel
+- Erhab
+	UB Sacred Dance +1 Gold from each trade route -> +4 Culture from the UB
+	UB Sacred Dance +5% str for Melee unit when defending -> +10% str for Land unit when defending
+- Sulvana
+	UA +10% Great Person generation in all cities
+- Urush
+	UA +1 Happiness from every Barrack, Armory, and Knight Academy if Infernal Gate is constructed
+- Red Moon
+	UA +34% Natural religion spread -> Double quantity of Magician produced
+	UB Sect -> UB Draen Sanctuary
+	UU Adept replaces Swordsman -> replaces Ranger
+- Frostmorrow
+	UA -25% Culture cost of natural border growth in first 4 cities -> -15% Culture cost of natural border growth in all cities
+	UA -25% unhappiness from specialists in first 4 cities -> in all cities
 
 ## v3.0.1 (20.11.2022)
 - Fix Heroes become obsolete (weaker) as the age progress
@@ -170,3 +222,21 @@
 - Reduce Path of Immortality bonus from +10% to +5%
 - Fix The Trolls not receive free Zaghronk in 4 cities upon adopting Tradition Complete
 - Add 2 new Civs (The Order of Witchers and Sanctum Regalia)
+
+## v3.1.4 (28.08.2023)
+- Frostmorrow
+	May now generate Great Farmer via specialists
+	No longer receive free Great Farmer upon discovering Fertilizer
+	Great Farmer may now be consumed to add +2 population in capital
+- Necropoleis
+	UA Sacrifice 3 population for a Great General -> Sacrifice 2 population
+- The Order of Withcer
+	UU Withcer +Beast Hunter skill (Gain 50 Gold upon defeating Beast units)
+- Tianwu	
+	UU Shifu free skill of Twilight Veil (Invisible to non-adjacent units)
+- Cultivated farm
+	+1 Food if constructed on Snow
+	+1 Food for each adjacent Ice-calator
+- Man-eating tree now appears on Plains
+- Fix 'Nkuhanea doesn't get +1 population for cities on Fresh water
+- Add sprites for Beast units by rica40

@@ -185,6 +185,8 @@
 		"terrainsCanBeBuiltOn": ["Tundra","Snow"],
 		"food": 3,
 		"uniques": ["Great Improvement", 
+					"[+1 Food] <in [Snow] tiles>", 
+					"[+1 Food] for each adjacent [Ice-calator]", 
 					"[+2 Food] <after discovering [Fertilizer]>", 
 					"Removes removable features when built", 
 					"Pillaging this improvement yields approximately [+15 Gold]"],
