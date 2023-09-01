@@ -525,7 +525,7 @@
 	},
 	{
 		"name": "Teleportation",
-		"prerequisites": ["Woodsman","Flare",],
+		"prerequisites": ["Woodsman","Owl's Eye","Flare"],
 		"uniques": ["May Paradrop up to [15] tiles from inside friendly territory"],
 		"unitTypes": ["Infantry Hero","Anti-Cav Hero","Cavalry Hero","Archery Hero","Siege Hero","Evil Hero","Mage Hero"]
 	},
