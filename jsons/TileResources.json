@@ -1,21 +1,6 @@
 [	
 	// Bonus resources
 	{
-		"name": "Vampiric Block",
-		"resourceType": "Bonus",
-		"uniques": ["Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "Orichalcum Ingot",
-		"resourceType": "Bonus",
-		"uniques": ["Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "Mutagen",
-		"resourceType": "Bonus",
-		"uniques": ["Will not be displayed in Civilopedia"]
-	},
-	{
 		"name": "Bananas",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Jungle"],
@@ -133,13 +118,6 @@
 		"name": "Magician",
 		"resourceType": "Strategic",
 		"revealedBy": "Enlightenment",
-		"uniques": ["Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "Philosopher's Stone",
-		"resourceType": "Strategic",
-		"revealedBy": "Philosophy",
-		"production": 1,
 		"uniques": ["Will not be displayed in Civilopedia"]
 	},
 	{
@@ -279,6 +257,36 @@
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
 	
+	// Unique Strategic resources
+	{
+		"name": "Vampiric Block",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen", 
+					"Cannot be traded", 
+					"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Mutagen",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen", 
+					"Cannot be traded", 
+					"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Philosopher's Stone",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen", 
+					"Cannot be traded", 
+					"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Orichalcum Ingot",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen", 
+					"Cannot be traded", 
+					"Will not be displayed in Civilopedia"]
+	},
+	
 	// Luxury resources
 	{
 		"name": "Amber",
@@ -294,7 +302,7 @@
 		"terrainsCanBeFoundOn": ["Jungle","Forest"],
 		"food": 1,
 		"gold": 1,
-		"improvement": "Plantation",
+		"improvedBy": ["Plantation","Rainee's Plantation"],
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated with weight [40] <in [Jungle] Regions>",
 					"Generated with weight [15] <in [Forest] Regions>",
@@ -309,7 +317,7 @@
 		"terrainsCanBeFoundOn": ["Jungle","Forest"],
 		"food": 1,
 		"gold": 1,
-		"improvement": "Plantation",
+		"improvedBy": ["Plantation","Rainee's Plantation"],
 		"improvementStats": {"food": 1,"gold": 1},
 		"uniques": ["Doesn't generate naturally <in [Tundra] tiles>"]
 	},
@@ -319,7 +327,7 @@
 		"terrainsCanBeFoundOn": ["Plains","Grassland"],
 		"production": 1,
 		"gold": 1,
-		"improvement": "Plantation",
+		"improvedBy": ["Plantation","Rainee's Plantation"],
 		"improvementStats": {"food": 1, "gold": 1}
 	},
 	{
@@ -347,7 +355,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
 		"gold": 2,
-		"improvement": "Plantation",
+		"improvedBy": ["Plantation","Rainee's Plantation"],
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
 					"Generated with weight [5] <in [Jungle] Regions>",
@@ -459,7 +467,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Jungle"],
 		"gold": 2,
-		"improvement": "Plantation",
+		"improvedBy": ["Plantation","Rainee's Plantation"],
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated with weight [10] <in [Jungle] Regions>",
 					"Generated with weight [40] <in [Forest] Regions>",
@@ -483,7 +491,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
 		"gold": 2,
-		"improvement": "Plantation",
+		"improvedBy": ["Plantation","Rainee's Plantation"],
 		"improvementStats": {"gold": 1}
 	},
 	{

@@ -239,4 +239,11 @@
 	+1 Food for each adjacent Ice-calator
 - Man-eating tree now appears on Plains
 - Fix 'Nkuhanea doesn't get +1 population for cities on Fresh water
+- All Heroes and it's type now displayable in Civilopedia
 - Add sprites for Beast units by rica40
+
+## v3.1.5 (04.09.2023)
+- Rain Forest
+	May now build Plantation without removing Forest
+- Fix Archery Hero can't pick Teleportation skill
+- Civ-specific Strategic resources now cannot be traded

@@ -3,17 +3,46 @@
     "fallbackTileSet": "FantasyHex",
     "ruleVariants": {
 
-        //forest and jungle
-        "Grassland+Forest": ["Grassland","ForestG"],
-        "Grassland+Jungle": ["Grassland","JungleG"],
-        "Grassland+Hill+Forest": ["Grassland+Hill","ForestGH"],
-        "Grassland+Hill+Jungle": ["Grassland+Hill","JungleG"],
-        "Plains+Forest": ["Plains","ForestP"],
-        "Plains+Jungle": ["Plains","JungleP"],
-        "Plains+Hill+Forest": ["Plains+Hill","ForestPH"],
-        "Plains+Hill+Jungle": ["Plains+Hill","JungleP"],
-        "Tundra+Forest": ["Tundra","ForestT"],
-        "Tundra+Hill+Forest": ["Tundra+Hill","ForestTH"],
+		// Rainee's Plantation
+		"Grassland+Forest+Citrus+Rainee's Plantation": ["Grassland","ForestGUp","Citrus+Plantation","ForestGLow"]
+		"Grassland+Hill+Forest+Citrus+Rainee's Plantation": ["Grassland+Hill","ForestGHUp","Citrus+Plantation","ForestGHLowR"]
+		"Plains+Forest+Citrus+Rainee's Plantation": ["Plains","ForestPUp","Citrus+Plantation","ForestPLow"]
+		"Plains+Hill+Forest+Citrus+Rainee's Plantation": ["Plains+Hill","ForestPHUp","Citrus+Plantation","ForestPHLow"]
+		"Tundra+Forest+Citrus+Rainee's Plantation": ["Tundra","ForestTUp","Citrus+Plantation","ForestTLow"]
+		"Tundra+Hill+Forest+Citrus+Rainee's Plantation": ["Tundra+Hill","ForestTUp","Citrus+Plantation","ForestTLow"]
+		
+		"Grassland+Forest+Dyes+Rainee's Plantation": ["Grassland","ForestGUp","Dyes+Plantation","ForestGLow"]
+		"Grassland+Hill+Forest+Dyes+Rainee's Plantation": ["Grassland+Hill","ForestGHUp","Dyes+Plantation","ForestGHLowR"]
+		"Plains+Forest+Dyes+Rainee's Plantation": ["Plains","ForestPUp","Dyes+Plantation","ForestPLow"]
+		"Plains+Hill+Forest+Dyes+Rainee's Plantation": ["Plains+Hill","ForestPHUp","Dyes+Plantation","ForestPHLow"]
+		"Tundra+Forest+Dyes+Rainee's Plantation": ["Tundra","ForestTUp","Dyes+Plantation","ForestTLow"]
+		"Tundra+Hill+Forest+Dyes+Rainee's Plantation": ["Tundra","ForestTUp","Dyes+Plantation","ForestTLow"]
+		
+		"Grassland+Forest+Silk+Rainee's Plantation": ["Grassland","ForestGUp","Silk+Plantation","ForestGLow"]
+		"Grassland+Hill+Forest+Silk+Rainee's Plantation": ["Grassland+Hill","ForestGHUp","Silk+Plantation","ForestGHLowR"]
+		"Plains+Forest+Silk+Rainee's Plantation": ["Plains","ForestPUp","Silk+Plantation","ForestPLow"]
+		"Plains+Hill+Forest+Silk+Rainee's Plantation": ["Plains+Hill","ForestPHUp","Silk+Plantation","ForestPHLow"]
+		"Tundra+Forest+Silk+Rainee's Plantation": ["Tundra","ForestTUp","Silk+Plantation","ForestTLow"]
+		"Tundra+Hill+Forest+Silk+Rainee's Plantation": ["Tundra","ForestTUp","Silk+Plantation","ForestTLow"]
+		
+		"Grassland+Forest+Spices+Rainee's Plantation": ["Grassland","ForestGUp","Spices+Plantation","ForestGLow"]
+		"Grassland+Hill+Forest+Spices+Rainee's Plantation": ["Grassland+Hill","ForestGHUp","Spices+Plantation","ForestGHLowR"]
+		"Plains+Forest+Spices+Rainee's Plantation": ["Plains","ForestPUp","Spices+Plantation","ForestPLow"]
+		"Plains+Hill+Forest+Spices+Rainee's Plantation": ["Plains+Hill","ForestPHUp","Spices+Plantation","ForestPHLow"]
+		"Tundra+Forest+Spices+Rainee's Plantation": ["Tundra","ForestTUp","Spices+Plantation","ForestTLow"]
+		"Tundra+Hill+Forest+Spices+Rainee's Plantation": ["Tundra","ForestTUp","Spices+Plantation","ForestTLow"]
+
+		//forest and jungle
+		"Grassland+Forest": ["Grassland","ForestG"],
+		"Grassland+Jungle": ["Grassland","JungleG"],
+		"Grassland+Hill+Forest": ["Grassland+Hill","ForestGH"],
+		"Grassland+Hill+Jungle": ["Grassland+Hill","JungleG"],
+		"Plains+Forest": ["Plains","ForestP"],
+		"Plains+Jungle": ["Plains","JungleP"],
+		"Plains+Hill+Forest": ["Plains+Hill","ForestPH"],
+		"Plains+Hill+Jungle": ["Plains+Hill","JungleP"],
+		"Tundra+Forest": ["Tundra","ForestT"],
+		"Tundra+Hill+Forest": ["Tundra+Hill","ForestTH"],
 
 	//Barbarian encampment
 	"Tundra+Forest+Barbarian encampment": ["Tundra","ForestTUp","Barbarian encampmentT", "ForestTLow"],

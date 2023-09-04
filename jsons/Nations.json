@@ -1205,7 +1205,7 @@
 		"style": "Dryad",
 		
 		"startIntroPart1": "Rain Forest is an ancient forest located on central Laurasia. The forest is considered sacred and is known for its magical properties, with a dense canopy of trees that block out most of the sunlight, and an ecosystem of its own. A dark place, Rain Forest inhabited by the Rainee, consisting of dryads, hamadryads, ents, and any other non-hostile species hunted in the outside world. The forest and its inhabitants play a crucial role in the Great War of Laurasia, as the Rainee march against Malakar's stronghold, Ancient Citadel, and help to turn the tide of the war in favor of the Aeyris Alliances.",
-		"startIntroPart2": "Praise upon m'lady, Ridha Mascha the Leaf-Crowned, the Green Queen of Loggervia. You are the leader of the Rainee, penduduk Rain Forest yang sakral. M'lady, will you lead. ypur people to an utopia?  Can you build a civilization that will stand the test of time?",
+		"startIntroPart2": "Praise upon m'lady, Ridha Mascha the Leaf-Crowned, the Green Queen of Loggervia. You are the leader of the Rainee, residents of the sacred Rain Forest. M'lady, will you lead your people to an utopia? Can you build a civilization that will stand the test of time?",
 		
 		"declaringWar": "Shame that it has come this far. But ya wished it so. Next time, be so good, choose your acts more wisely. ",
 		"attacked": "You shall not pass!!!",
@@ -1221,7 +1221,8 @@
 		"innerColor": [146,221,9],
 		"uniqueName": "Forest Guardian",
 		"uniques": ["Cannot [Remove Forest] except by Great Improvement", 
-					"Cannot build [Lumber mill] improvements", 
+					"Cannot build [Lumber mill] improvement", 
+					"May build [Plantation] improvement without removing Forest", 
 					"[+1 Culture, +1 Faith] from every [Forest] <with [2] to [6] neighboring [Forest] tiles>", 
 					"[+15]% Strength <in [Forest] tiles> <for [All] units>"],
 		"cities": ["Loggervia","Yandala","Southmarsh","Guuleaf","Lindschel","Agra","Sunda","Soulisa","Tuasika","Bula",

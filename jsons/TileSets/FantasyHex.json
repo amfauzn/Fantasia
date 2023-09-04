@@ -2,7 +2,49 @@
     "useColorAsBaseTerrain": "false",
     "fallbackTileSet": null,
     "ruleVariants": {
-        //Legacy hill support
+        // Rainee's Plantation
+		"Grassland+Forest+Citrus+Rainee's Plantation": ["Grassland","Forest+Citrus+Rainee's Plantation"]
+		"Grassland+Hill+Forest+Citrus+Rainee's Plantation": ["Grassland","Hill","Forest+Citrus+Rainee's Plantation"]
+		"Plains+Forest+Citrus+Rainee's Plantation": ["Plains","Forest+Citrus+Rainee's Plantation"]
+		"Plains+Hill+Forest+Citrus+Rainee's Plantation": ["Plains","Hill","Forest+Citrus+Rainee's Plantation"]
+		"Tundra+Forest+Citrus+Rainee's Plantation": ["Tundra","ForestT+Citrus+Rainee's Plantation"]
+		"Tundra+Hill+Forest+Citrus+Rainee's Plantation": ["Tundra","Hill","ForestT+Citrus+Rainee's Plantation"]
+		
+		"Grassland+Forest+Cocoa+Rainee's Plantation": ["Grassland","Forest+Cocoa+Rainee's Plantation"]
+		"Grassland+Hill+Forest+Cocoa+Rainee's Plantation": ["Grassland","Hill","Forest+Cocoa+Rainee's Plantation"]
+		"Plains+Forest+Cocoa+Rainee's Plantation": ["Plains","Forest+Cocoa+Rainee's Plantation"]
+		"Plains+Hill+Forest+Cocoa+Rainee's Plantation": ["Plains","Hill","Forest+Cocoa+Rainee's Plantation"]
+		"Tundra+Forest+Cocoa+Rainee's Plantation": ["Tundra","ForestT+Cocoa+Rainee's Plantation"]
+		"Tundra+Hill+Forest+Cocoa+Rainee's Plantation": ["Tundra","Hill","ForestT+Cocoa+Rainee's Plantation"]
+		
+		"Grassland+Forest+Coffee+Rainee's Plantation": ["Grassland","Forest+Coffee+Rainee's Plantation"]
+		"Grassland+Hill+Forest+Coffee+Rainee's Plantation": ["Grassland","Hill","Forest+Coffee+Rainee's Plantation"]
+		"Plains+Forest+Coffee+Rainee's Plantation": ["Plains","Forest+Coffee+Rainee's Plantation"]
+		"Plains+Hill+Forest+Coffee+Rainee's Plantation": ["Plains","Hill","Forest+Coffee+Rainee's Plantation"]
+		
+		"Grassland+Forest+Dyes+Rainee's Plantation": ["Grassland","Forest+Dyes+Rainee's Plantation"]
+		"Grassland+Hill+Forest+Dyes+Rainee's Plantation": ["Grassland","Hill","Forest+Dyes+Rainee's Plantation"]
+		"Plains+Forest+Dyes+Rainee's Plantation": ["Plains","Forest+Dyes+Rainee's Plantation"]
+		"Plains+Hill+Forest+Dyes+Rainee's Plantation": ["Plains","Hill","Forest+Dyes+Rainee's Plantation"]
+		"Tundra+Forest+Dyes+Rainee's Plantation": ["Tundra","ForestT+Dyes+Rainee's Plantation"]
+		"Tundra+Hill+Forest+Dyes+Rainee's Plantation": ["Tundra","Hill","ForestT+Dyes+Rainee's Plantation"]
+		
+		"Grassland+Forest+Silk+Rainee's Plantation": ["Grassland","Forest+Silk+Rainee's Plantation"]
+		"Grassland+Hill+Forest+Silk+Rainee's Plantation": ["Grassland","Hill","Forest+Silk+Rainee's Plantation"]
+		"Plains+Forest+Silk+Rainee's Plantation": ["Plains","Forest+Silk+Rainee's Plantation"]
+		"Plains+Hill+Forest+Silk+Rainee's Plantation": ["Plains","Hill","Forest+Silk+Rainee's Plantation"]
+		"Tundra+Forest+Silk+Rainee's Plantation": ["Tundra","ForestT+Silk+Rainee's Plantation"]
+		"Tundra+Hill+Forest+Silk+Rainee's Plantation": ["Tundra","Hill","ForestT+Silk+Rainee's Plantation"]
+		
+		"Grassland+Forest+Spices+Rainee's Plantation": ["Grassland","Forest+Spices+Rainee's Plantation"]
+		"Grassland+Hill+Forest+Spices+Rainee's Plantation": ["Grassland","Hill","Forest+Spices+Rainee's Plantation"]
+		"Plains+Forest+Spices+Rainee's Plantation": ["Plains","Forest+Spices+Rainee's Plantation"]
+		"Plains+Hill+Forest+Spices+Rainee's Plantation": ["Plains","Hill","Forest+Spices+Rainee's Plantation"]
+		"Tundra+Forest+Spices+Rainee's Plantation": ["Tundra","ForestT+Spices+Rainee's Plantation"]
+		"Tundra+Hill+Forest+Spices+Rainee's Plantation": ["Tundra","Hill","ForestT+Spices+Rainee's Plantation"]
+		
+		
+		//Legacy hill support
         "Hill": ["Grassland","Hill"],
         "Hill+Forest+Uranium": ["Grassland","Hill","Uranium","Forest"],
         "Hill+Forest+Furs": ["Grassland","Hill","Furs","HillForest"],

@@ -141,6 +141,18 @@
 		]
 	},
 	{
+		"name": "Rainee's Plantation",
+		"turnsToBuild": 6,
+		"gold": 1,
+		"techRequired": "Calendar",
+		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", 
+					"Can only be built to improve a resource", 
+					"Pillaging this improvement yields approximately [+10 Gold]", 
+					"Does not need removal of [Forest]", 
+					"Will not be displayed in Civilopedia"],
+		"shortcutKey": "P"
+	},
+	{
 		"name": "Quarry",
 		"turnsToBuild": 8,
 		"techRequired": "Masonry",
@@ -316,7 +328,6 @@
 					"[+2 Science] <after discovering [Education]>", 
 					"[+2 Science] <after discovering [Scientific Theory]>", 
 					"Removes removable features when built", 
-					"[+1 Happiness] <in [Luxury resource] tiles>", 
 					"Pillaging this improvement yields approximately [+15 Science]"],
 		"civilopediaText": [
 			{"text": "A research complexes where children can get an advanced education."}
@@ -329,7 +340,6 @@
 		"uniques": ["Great Improvement", 
 					"[+2 Gold] <after discovering [Economics]>", 
 					"Removes removable features when built", 
-					"[+1 Happiness] <in [Luxury resource] tiles>", 
 					"Pillaging this improvement yields approximately [+20 Gold]"],
 		"civilopediaText": [
 			{"text": "A governmental building where taxes on imported and exported goods are paid."}
@@ -341,7 +351,6 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Great Improvement", 
 					"Removes removable features when built", 
-					"[+1 Happiness] <in [Luxury resource] tiles>", 
 					"Pillaging this improvement yields approximately [+20 Faith]"],
 		"civilopediaText": [
 			{"text": "A location held sacred as a testament to the gods, prophets, traditions of a given religion, and as a place of spiritual enlightenment."}
@@ -354,7 +363,6 @@
 		"uniques": ["Great Improvement", 
 					"[+1 Culture] <after discovering [Architecture]>", 
 					"Removes removable features when built", 
-					"[+1 Happiness] <in [Luxury resource] tiles>", 
 					"Pillaging this improvement yields approximately [+10 Culture]"],
 		"civilopediaText": [
 			{"text": "A place of cultural significance, great work of art, or antique structure that draws visitors."}
@@ -367,7 +375,6 @@
 		"uniques": ["Great Improvement", 
 					"[+2 Production] <after discovering [Alchemy]>", 
 					"Removes removable features when built", 
-					"[+1 Happiness] <in [Luxury resource] tiles>", 
 					"Pillaging this improvement yields approximately [+20 Gold]"],
 		"civilopediaText": [
 			{"text": "A plant consisting of one or more buildings which can make anything you can think of."}
@@ -381,8 +388,7 @@
 					"Adjacent enemy units ending their turn take [30] damage", 
 					"Can be built just outside your borders", 
 					"Constructing it will take over the tiles around it and assign them to your closest city"
-					"Removes removable features when built", 
-					"[+1 Happiness] <in [Luxury resource] tiles>"],
+					"Removes removable features when built"],
 		"civilopediaText": [
 			{"text": "A mighty fortification that is almost impossible to take by direct attack, and they were capable of standing protracted sieges before they fell."}
 		]
@@ -509,7 +515,7 @@
 					"[+2 Gold] for each adjacent [Customs house]", 
 					"[+2 Gold] for each adjacent [Plantation]", 
 					"[+3 Faith] for each adjacent [Holy site]", 
-					"Provides [-1] [Vampiric Block]",
+					"Consumes [1] [Vampiric Block]",
 					"Pillaging this improvement yields approximately [+15 Gold]"],
 		//"replacementTextForUniques": "Provides half of neighboring improvements stats",
 		"shortcutKey": "F",
