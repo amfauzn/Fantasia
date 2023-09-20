@@ -2636,8 +2636,6 @@
 			{"text": "Tactical minded sea captains, they provide the leadership necessary to guide powerful navies to victory on the open sea."}
 		]
 	},
-	
-	
 	// Religious units
 	{
 		"name": "Missionary",
@@ -2737,8 +2735,6 @@
 			}
 		]
 	},
-	
-	
 	// Elementalist
 	// Must be transported to the Capital for launch.
 	// Can be destroyed by any hostile military unit walking in their tile.
@@ -2813,8 +2809,6 @@
 					"Can be added to [The Spaceship] in the Capital", 
 					"Limited to [1] per Civilization"]
 	},
-	
-	
 	// Mythical Beast (Barbarians Monster)
 	{
 		"name": "Slime",
@@ -3025,7 +3019,6 @@
 					"Beast"],
 		"attackSound": "nonmetalhit"
 	},
-	
 	// Civilopedia Text
 	{
 		"name": "Fantasia: Hero",
