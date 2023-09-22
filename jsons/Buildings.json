@@ -141,7 +141,7 @@
 		"uniques": ["[+1 Production] from [Stone] tiles [in this city]", 
 					"[+1 Production] from [Marble] tiles [in this city]", 
 					"[+1 Production] from [Obsidian] tiles [in this city]", 
-					"Provides [1] [Rune Stone]"],
+					"Provides [1] [Rune Stone] <after discovering [Magic Industrialization]>"],
 		"requiredTech": "Calendar",
 		"civilopediaText": [
 			{"text": "A place to learn, teach, and hone the art of stonemasonry."}

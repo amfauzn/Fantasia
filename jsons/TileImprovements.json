@@ -142,6 +142,7 @@
 	},
 	{
 		"name": "Rainee's Plantation",
+		"uniqueTo": "Rain Forest",
 		"turnsToBuild": 6,
 		"gold": 1,
 		"techRequired": "Calendar",

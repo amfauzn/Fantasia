@@ -1586,7 +1586,7 @@
 		"adjective": ["Artizan"],
 		"cityStateType": "Cultural",
 		"style": "Human",
-		"uniques": ["Receive free [Spearman] when you discover [Bronze Working]"],
+		"uniques": ["Free [Spearman] appears <upon discovering [Bronze Working]>"],
 		
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1604,7 +1604,7 @@
 		"cityStateType": "Cultural",
 		"startBias": ["Desert"],
 		"style": "Desert",
-		"uniques": ["Receive free [Worker] when you discover [Pottery]"],
+		"uniques": ["Free [Worker] appears <upon discovering [Pottery]>"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -1811,7 +1811,7 @@
 		"cityStateType": "Maritime",
 		"startBias": ["Hill"],
 		"style": "Elven",
-		"uniques": ["Receive free [Composite Bowman] when you discover [Construction]"],
+		"uniques": ["Free [Composite Bowman] appears <upon discovering [Construction]>"],
 
 		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
 		"attacked": "You can see how fruitless this will be for you... right?",
@@ -1963,7 +1963,7 @@
 		"adjective": ["Khemuli"],
 		"cityStateType": "Militaristic",
 		"style": "Human",
-		"uniques": ["Receive free [Luan] when you discover [Military Science]"],
+		"uniques": ["Free [Luan] appears <upon discovering [Military Science]>"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -2010,7 +2010,7 @@
 		"adjective": ["Shaquadi"],
 		"cityStateType": "Militaristic",
 		"style": "Human",
-		"uniques": ["Receive free [Watcher] when you discover [Optics]"],
+		"uniques": ["Free [Watcher] appears <upon discovering [Optics]>"],
 
 		"declaringWar": "War lingers in our hearts. Why carry on with a false peace?",
 		"attacked": "You gormless radger! You'll dine on your own teeth before you set foot in Shaquad!",
@@ -2027,7 +2027,7 @@
 		"name": "Aysus",
 		"adjective": ["Aysusian"],
 		"cityStateType": "Religious",
-		"uniques": ["Receive free [Inquisitor] when you discover [Philosophy]"],
+		"uniques": ["Free [Inquisitor] appears <upon discovering [Philosophy]>"],
 
 		"declaringWar": "By the grace of God, we declare war!",
 		"attacked": "You shall not trample our temple!",
