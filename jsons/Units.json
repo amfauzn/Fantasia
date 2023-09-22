@@ -125,7 +125,6 @@
 			{"text": "Intimidating support unit. They act as a wardrummer, blows the war horns, and singing heroic praises and screeching songs to terrify the enemy."}
 		]
 	},
-	
 	// Recon
 	{
 		"name": "Scout",
@@ -218,8 +217,6 @@
 			{"text": "Not only may perform mid ranged attack, this unit invisible to non-adjacent enemy unit. Wandering Oracle, by its mean, are special recon unit with unique magic tools."}
 		]
 	},
-	
-	
 	// Sword+Gunpowder
 	{
 		"name": "Warrior",
@@ -617,8 +614,6 @@
 					"Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
-
-	
 	// Anti-Cav
 	{
 		"name": "Spearman",
@@ -728,8 +723,6 @@
 					"Never appears as a Barbarian unit"],
 		"attackSound": "gdrAttack"
 	},
-	
-	
 	// Mounted
 	{
 		"name": "Horseman",
@@ -887,7 +880,8 @@
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking", 
 					"No defensive terrain bonus", 
-					"Never appears as a Barbarian unit", 
+					"Never appears as a Barbarian unit",
+			                "Beast",
 					"Preachable"],
 		"promotions": ["Intimidation","Bloodbath"],
 		"attackSound": "horse",
@@ -978,8 +972,6 @@
 					"Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
-	
-	
 	// Archery
 	{
 		"name": "Archer",
@@ -1231,8 +1223,6 @@
 		"requiredTech": "Advanced Ballistics",
 		"attackSound": "machinegun"
 	},
-	
-	
 	// Siege
 	{
 		"name": "Catapult",
@@ -1313,8 +1303,6 @@
 		"promotions": ["Flare"],
 		"attackSound": "artillery"
 	},
-	
-	
 	// Mage
 	{
 		"name": "Wizard",
@@ -1445,8 +1433,6 @@
 			{"text":"Mage unit, doesn't vulnerable in close combat."}
 		]
 	},
-	
-	
 	// Construct
 	{
 		"name": "Stone Golem",
@@ -1547,7 +1533,6 @@
 		"uniques": ["Can pass through impassable tiles"],
 		"attackSound": "gdrAttack"
 	},
-	
 	// Tamer
 	{
 		"name": "Novice Beast Tamer",
@@ -1637,8 +1622,6 @@
 			{"text": "Elite Beast Tamer almost always managed to tame defeated beast."}
 		]
 	},
-	
-	
 	// Melee Water
 	{
 		"name": "Trireme",
@@ -1727,8 +1710,6 @@
 					"Can move after attacking"],
 		"attackSound": "shipguns"
 	},
-	
-	
 	// Ranged Water
 	{
 		"name": "Galleass",
@@ -1791,8 +1772,6 @@
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	},
-	
-	
 	// Submarine
 	{
 		"name": "Submarine",
@@ -1805,8 +1784,6 @@
 		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit"],
 		"attackSound": "torpedo"
 	},
-	
-	
 	// Air
 	{
 		"name": "Watcher",
@@ -1887,8 +1864,6 @@
 					"Consumes [1] [Rune Stone]"],
 		"attackSound": "missile"
 	},
-	
-	
 	// Carrier
 	{
 		"name": "Carrier",
@@ -1926,8 +1901,6 @@
 			{"text":"Typical carrier that can attack."}
 		]
 	},
-	
-	
 	// Air Terror
 	{
 		"name": "Roc",
@@ -1940,7 +1913,8 @@
 		"upgradesTo": "Griffon",
 		"uniques": ["No defensive terrain bonus", 
 					"[+100]% Strength <vs [Dragon] units>", 
-					"Unable to capture cities", 
+					"Unable to capture cities",
+			                "Beast",
 					"Never appears as a Barbarian unit"],
 		"attackSound": "whoosh",
 		"civilopediaText": [
@@ -1978,7 +1952,8 @@
 		"upgradesTo": "Garuda",
 		"uniques": ["No defensive terrain bonus", 
 					"[+75]% Strength <vs [Dragon] units>", 
-					"Unable to capture cities", 
+					"Unable to capture cities",
+			                "Beast",
 					"Never appears as a Barbarian unit"],
 		"attackSound": "whoosh",
 		"civilopediaText": [
@@ -2017,7 +1992,8 @@
 					"[+50]% Strength <vs [Air Terror] units>", 
 					"[+50]% Strength <vs [Ranged] units> <when attacking>", 
 					"Ignores Zone of Control", 
-					"Unable to capture cities", 
+					"Unable to capture cities",
+			                "Beast",
 					"Never appears as a Barbarian unit"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
@@ -2042,8 +2018,6 @@
 			{"text": "Skilled Dragon Knight who has gone through various trials and won many battles, is the highest title for a Dragon Knight."}
 		]
 	},
-	
-	
 	// Water Terror
 	{
 		"name": "Megalodon",
@@ -2078,6 +2052,7 @@
 		"uniques": ["[+15]% Strength <when defending>", 
 					"Can only attack [Water] tiles", 
 					"Ignores Zone of Control", 
+			                "Beast",
 					"Can enter ice tiles"],
 		"promotions": ["Lurking Attack","Silent Running"],
 		"attackSound": "nonmetalhit",
@@ -2099,6 +2074,7 @@
 		"uniques": ["[+15]% Strength <when defending>", 
 					"Ignores Zone of Control", 
 					"Can enter ice tiles",
+			                "Beast",
 					"Preachable"],
 		"promotions": ["Silent Running","Underwater Vision","Regenerative Tissue"],
 		"attackSound": "nonmetalhit",
@@ -2106,7 +2082,6 @@
 			{"text": "Also referred to as Lernaean Hydra, is a serpentine water monster in Greek and Roman mythology. While Kraken can only attack Water units, Hydra can attack both Water and Land units."}
 		]
 	},
-	
 	// Unique Ability related
 	{
 		"name": "Fury",
@@ -2269,8 +2244,6 @@
 		"hurryCostModifier": 20,
 		"attackSound": "gdrAttack"
 	},
-	
-	
 	// Heroes
 	{
 		"name": "Mas Karebet",
@@ -2430,8 +2403,6 @@
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "metalhit"
 	},
-	
-	
 	// Great people
 	{
 		"name": "Great Artist",
@@ -2636,8 +2607,6 @@
 			{"text": "Tactical minded sea captains, they provide the leadership necessary to guide powerful navies to victory on the open sea."}
 		]
 	},
-	
-	
 	// Religious units
 	{
 		"name": "Missionary",
@@ -2737,8 +2706,6 @@
 			}
 		]
 	},
-	
-	
 	// Elementalist
 	// Must be transported to the Capital for launch.
 	// Can be destroyed by any hostile military unit walking in their tile.
@@ -2813,8 +2780,6 @@
 					"Can be added to [The Spaceship] in the Capital", 
 					"Limited to [1] per Civilization"]
 	},
-	
-	
 	// Mythical Beast (Barbarians Monster)
 	{
 		"name": "Slime",
@@ -3025,7 +2990,6 @@
 					"Beast"],
 		"attackSound": "nonmetalhit"
 	},
-	
 	// Civilopedia Text
 	{
 		"name": "Fantasia: Hero",
