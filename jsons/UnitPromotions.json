@@ -398,7 +398,7 @@
 	{
 		"name": "Disciples",
 		"prerequisites": ["Exploding Palms"],
-		"uniques": ["Can [Remove Foreign religions from your own cities] [3] times", 
+		"uniques": ["Can remove other religions from cities <in [Friendly] tiles> <once>", 
 					"Religious Unit"],
 		"unitTypes": ["Monk"]
 	},
@@ -525,7 +525,7 @@
 	},
 	{
 		"name": "Teleportation",
-		"prerequisites": ["Woodsman","Owl's Eye","Flare"],
+		"prerequisites": ["Woodsman","Owl's Eye","Double Envelopment","Flare"],
 		"uniques": ["May Paradrop up to [15] tiles from inside friendly territory"],
 		"unitTypes": ["Infantry Hero","Anti-Cav Hero","Cavalry Hero","Archery Hero","Siege Hero","Evil Hero","Mage Hero"]
 	},
@@ -911,6 +911,10 @@
 	
 	// Universal Skills
 	{
+		"name": "Devout", // Great Monastery
+		"uniques": ["Can Spread Religion <[1] additional time(s)>"]
+	},
+	{
 		"name": "Morale", // Heroic Epic
 		"uniques": ["[+15]% Strength"]
 	},
@@ -1021,7 +1025,7 @@
 	},
 	{
 		"name": "Evangelize Belief", // Sanctum Regalia
-		"uniques": ["Can [Spread Religion] [2] times", 
+		"uniques": ["Can Spread Religion <for [4] movement> <once>", 
 					"Removes other religions when spreading religion",
 					"Religious Unit"]
 	},

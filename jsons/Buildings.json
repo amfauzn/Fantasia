@@ -195,7 +195,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
-		"uniques": ["Only available <after adopting [Liberty]>", "[-25]% tile improvement construction time", "[2] free [Worker] units appear"],
+		"uniques": ["Only available <after adopting [Liberty]>", "[-25]% construction time for [All] improvements", "[2] free [Worker] units appear"],
 		"requiredTech": "Masonry",
 		"quote": "'Build me 1000 candis tonight and I will marry you.' - Roro Jonggrang"
 	},
@@ -672,7 +672,8 @@
 		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
 		"uniques": ["Gain a free [Monastery] [in this city]", "Hidden when religion is disabled",
-					"[Missionary] units built [in this city] can [Spread Religion] [1] extra times", "[2] free [Warrior Monk] units appear"],
+					"All newly-trained [Missionary] units [in this city] receive the [Devout] promotion", 
+					"[2] free [Warrior Monk] units appear"],
 		"requiredTech": "Theology",
 		"quote": "'With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.' - Thomas Chalmers"
 	},
@@ -682,7 +683,7 @@
 		"culture": 1,
 		"faith": 8,
 		"uniques": ["Requires a [Temple] in all cities", "Cost increases by [25] per owned city", "[+100]% Natural religion spread [in this city]", 
-					"[Great Prophet] units built [in this city] can [Spread Religion] [1] extra times"
+					"All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion", 
 					"Hidden when religion is disabled", "Can only be built [in holy cities]"],
 		"requiredTech": "Theology",
 		"isNationalWonder": true

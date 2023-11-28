@@ -241,19 +241,19 @@
 	{
 		"name": "find a crudely-drawn map",
 		"notification": "The ruins contains maps of the nearby area!",
-		"uniques": ["From a randomly chosen tile [5] tiles away, reveal tiles up to [5] tiles away with [75]% chance"],
+		"uniques": ["From a randomly chosen tile [5] tiles away from the ruins, reveal tiles up to [5] tiles away with [75]% chance"],
 		"weight": 9
 	},
 	{
 		"name": "find a well-drawn map",
 		"notification": "We have found a well-drawn map in the ruins!",
-		"uniques": ["From a randomly chosen tile [5] tiles away, reveal tiles up to [5] tiles away with [100]% chance"],
+		"uniques": ["From a randomly chosen tile [5] tiles away from the ruins, reveal tiles up to [5] tiles away with [100]% chance"],
 		"weight": 7
 	},
 	{
 		"name": "a big map barter",
 		"notification": "Bravo, we just bought a big map from a fellow adventurer!",
-		"uniques": ["From a randomly chosen tile [8] tiles away, reveal tiles up to [8] tiles away with [95]% chance",
+		"uniques": ["From a randomly chosen tile [8] tiles away from the ruins, reveal tiles up to [8] tiles away with [90]% chance", 
 					"Gain [-10] [Gold]", "Only available <before [150] turns>"],
 		"weight": 6
 	},
