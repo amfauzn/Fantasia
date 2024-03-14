@@ -64,6 +64,15 @@
 		"techRequired": "Calendar",
 		"shortcutKey": "F"
 	},
+	{
+		"name": "Canal Construction Site",
+		"gold": 1,
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra"],
+		"uniques": ["Turn this tile into a [Coast] tile", 
+					"Turn this tile into a [Canal] tile", 
+					"Can only be built on [Coastal] tiles", 
+					"Cannot be built on [Land] tiles <with [3] to [6] neighboring [Canal] tiles>"]
+	},
 	
 	// Resource-specific
 	{

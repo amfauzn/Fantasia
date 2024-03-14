@@ -54,5 +54,9 @@
 		//"[+1 Food] from every [City center] <with [1] to [6] neighboring [Crater Lake] tiles>", 
 		//"[+1 Production] from every [City center] <with [1] to [6] neighboring [Rock of Levitation] tiles>"
 		
+		// Canal Engineer Limiter
+		"Instantly provides [7] [Canal Limiter] <upon gaining a [Canal Engineer] unit>", 
+		"Cannot build [Canal Engineer] units <when above [20] [Canal Limiter]>"
+		
     ]
 }

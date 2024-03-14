@@ -289,6 +289,15 @@
 		"occursOn": ["Coast"],
 		"uniques": ["Rare feature"]
 	},
+	
+	{
+		"name": "Canal",
+		"type": "TerrainFeature",
+		"occursOn": ["Coast"],
+		"movementCost": 2,
+		"uniques": ["Doesn't generate naturally", 
+					"Units ending their turn on this terrain take [15] damage <for [{Melee Water} {Ranged Water} {Submarine} {Naval Carrier}] units>"]
+	},
 
 	// Natural Wonders
 	{

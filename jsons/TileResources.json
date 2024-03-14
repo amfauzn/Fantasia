@@ -286,6 +286,14 @@
 					"Cannot be traded", 
 					"Will not be displayed in Civilopedia"]
 	},
+	{
+		"name": "Canal Limiter",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen", 
+					"Stockpiled", 
+					"Cannot be traded", 
+					"Will not be displayed in Civilopedia"]
+	},
 	
 	// Luxury resources
 	{

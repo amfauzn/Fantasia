@@ -62,7 +62,15 @@
 					"Will not be displayed in Civilopedia"],
 		"replacementTextForUniques": "Can build Land improvements on tiles",
 	},
-	
+	{
+		"name": "Canal Engineer",
+		"unitType": "Civilian",
+		"movement": 2,
+		"requiredTech": "Engineering",
+		"uniques": ["Can instantly construct a [Canal Construction Site] improvement <once> <after which this unit is consumed>", 
+					"Comment [Can only be built 3 times]"],
+		"cost": 100
+	},
 	{
 		"name": "Work Boats",
 		"unitType": "Civilian Water",
@@ -2649,7 +2657,7 @@
 		"name": "Inquisitor",
 		"unitType": "Civilian",
 		"uniques": ["Prevents spreading of religion to the city it is next to",
-					"Can [Remove Foreign religions from your own cities] [1] times",
+					"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
 					"Can be purchased with [Faith] [in all cities in which the majority religion is an enhanced religion]",
 					"[+1] Sight", "Unbuildable",
 					"Religious Unit", 

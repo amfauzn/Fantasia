@@ -362,7 +362,8 @@
 		"happiness": 5,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Colosseum] in all cities", "Cost increases by [25] per owned city"],
+		"uniques": ["Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>", 
+					"Cost increases by [25] per owned city"],
 		"requiredTech": "Construction"
 	},
 	{
@@ -373,7 +374,8 @@
 		"happiness": 5,
 		"culture": 5,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Colosseum] in all cities", "Cost increases by [25] per owned city", 
+		"uniques": ["Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>", 
+					"Cost increases by [25] per owned city", 
 					"[+10]% Strength <for [Land] units> <when defending>"],
 		"requiredTech": "Construction",
 		"civilopediaText": [
@@ -518,7 +520,9 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"percentStatBonus": {"science": 50},
-		"uniques": ["Requires a [Paper Maker] in all cities", "Free Technology", "Cost increases by [25] per owned city"],
+		"uniques": ["Only available <if [Paper Maker] is constructed in all [non-[Puppeted]] cities>", 
+					"Free Technology", 
+					"Cost increases by [25] per owned city"],
 		"requiredTech": "Philosophy"
 	},
 	{
@@ -545,7 +549,8 @@
 		"cost": 150,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "Free Great Person", 
+		"uniques": ["Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", 
+					"[+25]% Great Person generation [in this city]", 
 					"Cost increases by [25] per owned city"],
 		"requiredTech": "Poetry"
 	},
@@ -557,7 +562,8 @@
 		"culture": 2,
 		"faith": 2,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "Free Great Person", 
+		"uniques": ["Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", 
+					"[+25]% Great Person generation [in this city]", 
 					"[+8] population [in capital]"],
 		"requiredTech": "Poetry",
 		"civilopediaText": [
@@ -643,7 +649,8 @@
 		"cost": 150,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Barracks] in all cities", "All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
+		"uniques": ["Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>", 
+					"All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
 					"Cost increases by [25] per owned city"],
 		"requiredTech": "Iron Working"
 	},
@@ -682,7 +689,8 @@
 		"cost": 150,
 		"culture": 1,
 		"faith": 8,
-		"uniques": ["Requires a [Temple] in all cities", "Cost increases by [25] per owned city", "[+100]% Natural religion spread [in this city]", 
+		"uniques": ["Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>", 
+					"Cost increases by [25] per owned city", "[+100]% Natural religion spread [in this city]", 
 					"All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion", 
 					"Hidden when religion is disabled", "Can only be built [in holy cities]"],
 		"requiredTech": "Theology",
@@ -1033,7 +1041,8 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"percentStatBonus": {"gold": 10},
-		"uniques": ["Requires a [Market] in all cities", "Cost increases by [25] per owned city"],
+		"uniques": ["Only available <if [Market] is constructed in all [non-[Puppeted]] cities>", 
+					"Cost increases by [25] per owned city"],
 		"requiredTech": "Guilds"
 	},
 	{
@@ -1045,7 +1054,8 @@
 		"culture": 1,
 		"isNationalWonder": true,
 		"percentStatBonus": {"gold": 20},
-		"uniques": ["Requires a [Market] in all cities", "[+1 Production, +3 Gold] from [Mountain] tiles [in all cities]", 
+		"uniques": ["Only available <if [Market] is constructed in all [non-[Puppeted]] cities>", 
+					"[+1 Production, +3 Gold] from [Mountain] tiles [in all cities]", 
 					"Cost increases by [25] per owned city"],
 		"requiredTech": "Guilds",
 		"civilopediaText": [
@@ -1116,7 +1126,8 @@
 		"production": 8,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Workshop] in all cities", "Cost increases by [25] per owned city", 
+		"uniques": ["Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>", 
+					"Cost increases by [25] per owned city", 
 					"Free [Great Engineer] appears"],
 		"requiredTech": "Steel",
 		"civilopediaText": [
@@ -1132,8 +1143,10 @@
 		"culture": 1,
 		"science": 3,
 		"isNationalWonder": true,
-		"uniques": ["Cost increases by [25] per owned city", "Provides [1] [Orichalcum Ingot]", 
-					"[+1 Science] from [Manufactory] tiles [in all cities]", "Free [Great Engineer] appears"],
+		"uniques": ["Cost increases by [25] per owned city", 
+					"Provides [1] [Orichalcum Ingot]", 
+					"[+1 Science] from [Manufactory] tiles [in all cities]", 
+					"Free [Great Engineer] appears"],
 		"requiredTech": "Steel",
 		"civilopediaText": [
 			{"text": "Magnificent workplace, the only place where Orichalcum Ingots were made."}
@@ -1297,7 +1310,8 @@
 		"percentStatBonus": {"culture": 50},
 		"culture": 6,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Pyramid] in all cities", "Cost increases by [25] per owned city"],
+		"uniques": ["Only available <if [Pyramid] is constructed in all [non-[Puppeted]] cities>", 
+					"Cost increases by [25] per owned city"],
 		"requiredTech": "Architecture"
 	},
 	{
@@ -1367,8 +1381,10 @@
 		"name": "Archmage Tribunal",
 		"cost": 200,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Academy of Magic] in all cities", "Provides [2] [Magician]", 
-					"Free Social Policy", "Cost increases by [25] per owned city"],
+		"uniques": ["Only available <if [Academy of Magic] is constructed in all [non-[Puppeted]] cities>", 
+					"Provides [2] [Magician]", 
+					"Free Social Policy", 
+					"Cost increases by [25] per owned city"],
 		"requiredTech": "Enlightenment"
 	},
 	{
@@ -1468,7 +1484,9 @@
 		"science": 3,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Requires a [Public School] in all cities", "Free Technology", "Cost increases by [25] per owned city"],
+		"uniques": ["Only available <if [Public School] is constructed in all [non-[Puppeted]] cities>", 
+					"Free Technology", 
+					"Cost increases by [25] per owned city"],
 		"requiredTech": "Scientific Theory"
 	},
 	{
