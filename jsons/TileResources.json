@@ -198,7 +198,7 @@
 	{
 		"name": "Niter",
 		"resourceType": "Strategic",
-		"revealedBy": "Alchemy",
+		"revealedBy": "Gunpowder",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow"],
 		"production": 1,
 		"improvement": "Quarry",

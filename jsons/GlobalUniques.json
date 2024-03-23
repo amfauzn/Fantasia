@@ -1,7 +1,7 @@
 {
 	"name": "Global uniques", 
 	"uniques": [
-		"[-50]% growth [in all cities] <when between [-5] and [0] Happiness>",
+		"[-50]% growth [in all cities] <when between [-5] and [-1] Happiness>",
 		"[-75]% growth [in all cities] <when between [-10] and [-6] Happiness>",
 		"Nullifies Growth [in all cities] <when below [-10] Happiness>",
 		"[-33]% [Production] [in all cities] <when below [-10] Happiness>",

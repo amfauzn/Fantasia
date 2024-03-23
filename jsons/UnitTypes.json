@@ -87,11 +87,13 @@
 		"name": "Air Terror",
 		"movementType": "Land",
 		"uniques": ["Can pass through impassable tiles", 
-					"[+1] Sight <when [Embarked]>", 
 					"All tiles cost 1 movement", 
 					"Eliminates combat penalty for attacking over a river", 
 					"Eliminates combat penalty for attacking across a coast", 
-					"May attack when embarked"]
+					"May travel on Water tiles without embarking", 
+					"No defensive terrain bonus", 
+					"[+100]% maintenance costs", 
+					"Never appears as a Barbarian unit"]
 	},
 	{
         "name": "Mage",
@@ -230,8 +232,10 @@
         "uniques": ["Can enter ice tiles", 
 					"Invisible to non-adjacent units", 
 					"Can see invisible [Water] units", 
-					"[+33]% Strength <when attacking> <vs [Submarine] units>", 
-					"May heal outside of friendly territory"]
+					"Ignores Zone of Control", 
+					"May heal outside of friendly territory", 
+					"[+5] HP when healing <in [Foreign Land] tiles> <hidden from users>", 
+					"[+50]% maintenance costs"]
     },
 	{
         "name": "Submarine",

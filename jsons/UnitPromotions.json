@@ -797,13 +797,14 @@
 	{
 		"name": "Hunter Killer",
 		"prerequisites": ["Strengthen Nose","Twin Fang"],
-		"uniques": ["[+25]% Strength"],
+		"uniques": ["[+25]% Strength <when attacking>"],
 		"unitTypes": ["Air Terror"]
 	},
 	{
 		"name": "Hunt Instinc",
 		"prerequisites": ["Titanium Scale","Hunter Killer"],
-		"uniques": ["Can move after attacking"],
+		"uniques": ["Can move after attacking", 
+					"[+10]% Strength <vs [Wounded] units>"],
 		"unitTypes": ["Air Terror"]
 	},
 	

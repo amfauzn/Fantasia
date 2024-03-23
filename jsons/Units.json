@@ -1935,10 +1935,8 @@
 		"obsoleteTech": "Mana Channeling",
 		"upgradesTo": "Griffon",
 		"uniques": ["Beast", 
-					"No defensive terrain bonus", 
-					"[+100]% Strength <vs [Dragon] units>", 
-					"Unable to capture cities", 
-					"Never appears as a Barbarian unit"],
+					"[+66]% Strength <vs [Dragon] units>", 
+					"Unable to capture cities"],
 		"attackSound": "whoosh",
 		"civilopediaText": [
 			{"text": "An enormous legendary bird of prey in the mythology of the Middle East. Roc is an Air Terror-to-Air Terror combat specialist."}
@@ -1955,10 +1953,7 @@
 		"upgradesTo": "Dragon Knight",
 		"requiredResource": "Dragon's Egg",
 		"promotions": ["Fire Breath"],
-		"uniques": ["Dragon",
-					"No defensive terrain bonus", 
-					"Ignores Zone of Control", 
-					"Never appears as a Barbarian unit"],
+		"uniques": ["Dragon"],
 		"attackSound": "torpedo",
 		"civilopediaText": [
 			{"text": "A dragon that have not been properly trained to fight. Dragonling still rely on their instinct and cannot aim their fire breath properly."}
@@ -1974,10 +1969,9 @@
 		"obsoleteTech": "Flight",
 		"upgradesTo": "Garuda",
 		"uniques": ["Beast", 
-					"No defensive terrain bonus", 
-					"[+75]% Strength <vs [Dragon] units>", 
-					"Unable to capture cities", 
-					"Never appears as a Barbarian unit"],
+					"[+66]% Strength <vs [Dragon] units>", 
+					"Ignores Zone of Control", 
+					"Unable to capture cities"],
 		"attackSound": "whoosh",
 		"civilopediaText": [
 			{"text": "A legendary creature with the body, tail, and back legs of a lion; the head and wings of an eagle; and sometimes an eagle's talons as its front feet. . Griffon is an Air Terror-to-Air Terror combat specialist."}
@@ -1996,9 +1990,7 @@
 		"upgradesTo": "Dragon Paladin",
 		"requiredResource": "Dragon's Egg"
 		"uniques": ["Dragon",
-					"No defensive terrain bonus", 
-					"Ignores Zone of Control", 
-					"Never appears as a Barbarian unit"],
+					"Ignores Zone of Control"],
 		"attackSound": "torpedo",
 		"civilopediaText": [
 			{"text": "A dragonoar, a term used to call a person who trains a dragon, who can collaborate properly with his/her dragon either during sparring or fight will be declared a Dragon Knight. A Dragon Knight may perform ranged attacks by utilizing his/her dragon's fire breath."}
@@ -2012,12 +2004,10 @@
 		"cost": 400,
 		"requiredTech": "Flight",
 		"uniques": ["Beast", 
-					"No defensive terrain bonus", 
-					"[+50]% Strength <vs [Air Terror] units>", 
-					"[+50]% Strength <vs [Ranged] units> <when attacking>", 
+					"[+66]% Strength <vs [Dragon] units>", 
+					"[+25]% Strength <vs [Ranged] units> <when attacking>", 
 					"Ignores Zone of Control", 
-					"Unable to capture cities", 
-					"Never appears as a Barbarian unit"],
+					"Unable to capture cities"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
 			{"text": "The king of the birds. Garuda is an Air Terror-to-Air Terror combat specialist."}
@@ -2033,9 +2023,8 @@
 		"requiredTech": "Flight",
 		"requiredResource": "Dragon's Egg"
 		"uniques": ["Dragon",
-					"No defensive terrain bonus", 
-					"[+100]% Strength <vs [Air Terror] units> <when defending>", 
-					"Never appears as a Barbarian unit"],
+					"Ignores Zone of Control", 
+					"[+50]% Strength <vs [Air Terror] units> <when defending>"],
 		"attackSound": "torpedo",
 		"civilopediaText": [
 			{"text": "Skilled Dragon Knight who has gone through various trials and won many battles, is the highest title for a Dragon Knight."}
@@ -2055,10 +2044,7 @@
 		"upgradesTo": "Kraken",
 		"uniques": ["Beast", 
 					"[+50]% Strength <when attacking>", 
-					"Ignores Zone of Control", 
-					"Unable to capture cities", 
-					"Can enter ice tiles", 
-					"Beast"],
+					"Unable to capture cities"],
 		"promotions": ["Lurking Attack"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
@@ -2075,10 +2061,8 @@
 		"requiredTech": "Pharmaceuticals",
 		"requiredResource": "Megall",
 		"uniques": ["Beast", 
-					"[+15]% Strength <when defending>", 
-					"Can only attack [Water] tiles", 
-					"Ignores Zone of Control", 
-					"Can enter ice tiles"],
+					"[+75]% Strength <when attacking>", 
+					"Can only attack [Water] tiles"],
 		"promotions": ["Lurking Attack","Silent Running"],
 		"attackSound": "nonmetalhit",
 		"civilopediaText": [
@@ -2096,8 +2080,7 @@
 		"cost": 400,
 		"requiredTech": "Pharmaceuticals",
 		"requiredResource": "Megall",
-		"uniques": ["[+15]% Strength <when defending>", 
-					"Ignores Zone of Control", 
+		"uniques": ["[+75]% Strength <when attacking>", 
 					"Can enter ice tiles",
 					"Preachable"],
 		"promotions": ["Silent Running","Underwater Vision","Regenerative Tissue"],
