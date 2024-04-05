@@ -16,11 +16,12 @@
 		"New [Recon] units start with [10] Experience [in all cities]",
 		
 		// Heroes
-		"[+40]% Strength <for [The Heroes] units> <during the [Feudal age]>",	 			// 35
-		"[+80]% Strength <for [The Heroes] units> <during the [Renaissance age]>", 			// 45
-		"[+120]% Strength <for [The Heroes] units> <starting from the [Industrial age]>", 	// 55
-		"[+80]% Strength <for [The Heroes] units> <during the [Prosperity age]>",		 	// 75
-		"[+160]% Strength <for [The Heroes] units> <starting from the [Modern age]>",	 	// 95
+		"[+40]% Strength <for [The Heroes] units> <during the [Feudal age]>",	 			// 35,
+		"[+80]% Strength <for [The Heroes] units> <during the [Renaissance age]>", 			// 45,
+		"[+120]% Strength <for [The Heroes] units> <starting from the [Industrial age]>", 	// 55,
+		"[+80]% Strength <for [The Heroes] units> <during the [Prosperity age]>",		 	// 75,
+		"[+160]% Strength <for [The Heroes] units> <starting from the [Modern age]>",	 	// 95,
+		"Instantly provides [1] [Portal Limiter] <upon discovering [Agriculture] technology>",
 		
 		// Player problems
 		//"Provides a [Zaghronk] in your first [4] cities for free <upon adopting [Tradition Complete]> <for [The Trolls]>", 
