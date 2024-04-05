@@ -259,6 +259,11 @@
 	
 	// Unique Strategic resources
 	{
+		"name": "Portal Limiter",
+		"resourceType": "Strategic",
+		"uniques": ["Stockpiled","Not shown on world screen","Excluded from map editor","Will not be displayed in Civilopedia"]
+	},
+	{
 		"name": "Vampiric Block",
 		"resourceType": "Strategic",
 		"uniques": ["Not shown on world screen", 
