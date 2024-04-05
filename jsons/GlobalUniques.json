@@ -24,7 +24,7 @@
 		"Instantly provides [1] [Portal Limiter] <upon discovering [Agriculture] technology>",
 		"Provides [1] [Hero Limiter] <for [Major]>",
 		
-		"[-33]% Strength <for [The Heroes] units> <for [City-States]>",
+		//"[-33]% Strength <for [The Heroes] units> <for [City-States]>",
 		"[-30]% Strength <for [The Heroes] units> <during the [Feudal age]> <for [City-States]>",
 		"[-60]% Strength <for [The Heroes] units> <during the [Renaissance age]> <for [City-States]>",
 		"[-90]% Strength <for [The Heroes] units> <starting from the [Industrial age]> <for [City-States]>",
