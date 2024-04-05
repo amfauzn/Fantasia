@@ -22,6 +22,7 @@
 		"[+80]% Strength <for [The Heroes] units> <during the [Prosperity age]>",		 	// 75,
 		"[+160]% Strength <for [The Heroes] units> <starting from the [Modern age]>",	 	// 95,
 		"Instantly provides [1] [Portal Limiter] <upon discovering [Agriculture] technology>",
+		"Provides [1] [Hero Limiter] <for [Major]>",
 		
 		"[-33]% Strength <for [The Heroes] units> <for [City-States]>",
 		"[-30]% Strength <for [The Heroes] units> <during the [Feudal age]> <for [City-States]>",
