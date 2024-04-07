@@ -17,17 +17,12 @@
 	
 	{
 		"name": "Industrial",
-		"friendBonusUniques":  [
-			"[+2 Production] [in all cities] <before the [Heroic age]>",
-			"[+4 Production] [in all cities] <starting from the [Heroic age]> <before the [Renaissance age]>",
-			"[+6 Production] [in all cities] <starting from the [Renaissance age]>",
-			"[+2 Production] [in capital] <starting from the [Industrial age]>"
-		],
-		"allyBonusUniques":  [
-			"[+4 Production] [in all cities] <before the [Heroic age]>",
-			"[+8 Production] [in all cities] <starting from the [Heroic age]> <before the [Renaissance age]>",
-			"[+12 Production] [in all cities] <starting from the [Renaissance age]>",
+		"friendBonusUniques": [
 			"[+2 Production] [in capital]"
+		],
+		"allyBonusUniques": [
+			"[+2 Production] [in capital]",
+			"[+1 Production] [in all cities]"
 		],
 		"color": [139,69,19]
 	},
