@@ -152,7 +152,7 @@
 	{
         "name": "Diversity Respects",
         "type": "Follower",
-        "uniques": ["[+2 Culture] from every [Temple] <in cities with at least [5] [Followers of this Religion]>"]
+        "uniques": ["[+2 Culture] from every [Pyramid] <in cities with at least [5] [Followers of this Religion]>"]
     },
 	{
         "name": "Divine inspiration",
@@ -192,7 +192,7 @@
 	{
         "name": "Religious Art",
         "type": "Follower",
-        "uniques": ["[+2 Happiness] from every [Pyramid] <in cities with at least [5] [Followers of this Religion]>"]
+        "uniques": ["[+2 Happiness] from every [Temple] <in cities with at least [5] [Followers of this Religion]>"]
     },
 	{
         "name": "Religious Center",
