@@ -523,10 +523,8 @@
 		
 		"outerColor": [ 16,126,  5],
 		"innerColor": [134,238,214],
-		"uniqueName": "Survival Instinc",
-		"uniques": ["[+10] HP when healing <for [Wounded] units>", 
-					"[+10]% Strength <for [Wounded] units>", 
-					"[+10]% Strength <when below [50] HP>"],
+		"uniqueName": "Survival Instinct",
+		"uniques": ["[+10] HP when healing <for [Wounded] units>"],
 		"cities": ["Goa","Armant","Lisht","Chondote","Nedrow","Lawless","Pajaten","Skien","Crossy","Grassrich",
 			"Amphibeast","Stone Valley","Cattlery","Shining Lake","Nomad River","Greenland","Dusteppe","Cesteppe","Lushleaf","Drysparo"],
 		"spyNames": ["Concelot","Fleshfur","Zolorul","Jurgor","Daulis","Dalarus","Myusel","Muse","Luce","Udeor"],
