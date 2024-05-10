@@ -2258,7 +2258,7 @@
 	{
 		"name": "Mas Karebet",
 		"unitType": "Infantry Hero",
-		"movement": 2,
+		"movement": 4,
 		"strength": 24,
 		"requiredResource": "Hero Limiter",
 		"promotions": ["Great Generals II"],
@@ -2272,7 +2272,7 @@
 	{
 		"name": "Ken Arok",
 		"unitType": "Infantry Hero",
-		"movement": 2,
+		"movement": 4,
 		"strength": 22,
 		"requiredResource": "Hero Limiter",
 		"promotions": ["Great Generals I","Tortoise"],
@@ -2286,7 +2286,7 @@
 	{
 		"name": "Leonidas",
 		"unitType": "Anti-Cav Hero",
-		"movement": 2,
+		"movement": 4,
 		"strength": 25,
 		"requiredResource": "Hero Limiter",
 		"uniques": ["Unbuildable", "The Heroes", 
@@ -2302,7 +2302,7 @@
 		"movement": 5,
 		"strength": 23,
 		"requiredResource": "Hero Limiter",
-		"promotions": ["Great Generals I"],
+		"promotions": ["Great Generals I","Logistics"],
 		"uniques": ["Unbuildable", "The Heroes", 
 					"Limited to [1] per Civilization", 
 					"Can move after attacking", 
@@ -2350,8 +2350,8 @@
 		"unitType": "Siege Hero",
 		"movement": 2,
 		"strength": 20,
-		"rangedStrength": 24,
-		"range": 3,
+		"rangedStrength": 22,
+		"range": 2,
 		"requiredResource": "Hero Limiter",
 		"uniques": ["Unbuildable", "The Heroes", 
 					"Limited to [1] per Civilization", 
@@ -2381,7 +2381,7 @@
 	{
 		"name": "Gaius Duilius",
 		"unitType": "Water Hero", 	// Ranged Water
-		"movement": 4,
+		"movement": 6,
 		"strength": 18,
 		"rangedStrength": 23,
 		"range": 2,
@@ -2398,7 +2398,7 @@
 	{
 		"name": "Archdemon Kor'vash",
 		"unitType": "Evil Hero",
-		"movement": 2,
+		"movement": 4,
 		"strength": 25,
 		"promotions": ["Intimidation"],
 		"uniques": ["Unbuildable", "The Heroes", 
