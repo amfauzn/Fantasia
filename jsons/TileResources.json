@@ -6,7 +6,7 @@
 		"terrainsCanBeFoundOn": ["Jungle"],
 		"food": 1,
 		"improvement": "Plantation",
-		"improvementStats": {"food": 1, "gold": -1},
+		"improvementStats": {"food": 2, "gold": -1},
 		"uniques": ["Generated on every [18] tiles <in [Jungle] tiles>",
 					"Generated on every [22] tiles <in [Jungle] tiles> <in [Hill] Regions>"]
 	},
@@ -321,7 +321,7 @@
 		"food": 1,
 		"gold": 1,
 		"improvedBy": ["Plantation","Rainee's Plantation"],
-		"improvementStats": {"gold": 1},
+		"improvementStats": {"food": 1", "gold": 1},
 		"uniques": ["Generated with weight [40] <in [Jungle] Regions>",
 					"Generated with weight [15] <in [Forest] Regions>",
 					"Generated with weight [5] <in [Desert] Regions>",
@@ -362,7 +362,7 @@
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Flood plains"],
 		"gold": 2,
 		"improvement": "Plantation",
-		"improvementStats": {"gold": 1},
+		"improvementStats": {"production": 1, "gold": 1},
 		"uniques": ["Generated with weight [15] <in [Desert] Regions>",
 					"Generated with weight [30] <in [Grassland] Regions>",
 					"Generated with weight [15] <in [Hybrid] Regions>",
@@ -374,7 +374,7 @@
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
 		"gold": 2,
 		"improvedBy": ["Plantation","Rainee's Plantation"],
-		"improvementStats": {"gold": 1},
+		"improvementStats": {"culture": 1, "gold": 1},
 		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
 					"Generated with weight [5] <in [Jungle] Regions>",
 					"Generated with weight [30] <in [Forest] Regions>",
@@ -386,7 +386,7 @@
 		"terrainsCanBeFoundOn": ["Forest","Tundra"],
 		"gold": 2,
 		"improvement": "Camp",
-		"improvementStats": {"gold": 1}
+		"improvementStats": {"production: 1", "gold": 1}
 	},
 	{
 		"name": "Gems",
@@ -418,7 +418,7 @@
 		"terrainsCanBeFoundOn": ["Plains","Desert"],
 		"gold": 2,
 		"improvement": "Plantation",
-		"improvementStats": {"gold": 1},
+		"improvementStats": {"faith": 1, "gold": 1},
 		"uniques": ["Generated near City States with weight [15]"]
 	},
 	{
@@ -426,7 +426,8 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Tundra","Snow"],
 		"gold": 2,
-		"improvement": "Taming"
+		"improvement": "Taming",
+		"improvementStats": {"prodcution": 1},
 	},
 	{
 		"name": "Jade",
@@ -486,7 +487,7 @@
 		"terrainsCanBeFoundOn": ["Forest","Jungle"],
 		"gold": 2,
 		"improvedBy": ["Plantation","Rainee's Plantation"],
-		"improvementStats": {"gold": 1},
+		"improvementStats": {"culture": 1, "gold": 1},
 		"uniques": ["Generated with weight [10] <in [Jungle] Regions>",
 					"Generated with weight [40] <in [Forest] Regions>",
 					"Generated with weight [5] <in [Hybrid] Regions>"]
@@ -510,7 +511,7 @@
 		"terrainsCanBeFoundOn": ["Jungle","Forest","Marsh"],
 		"gold": 2,
 		"improvedBy": ["Plantation","Rainee's Plantation"],
-		"improvementStats": {"gold": 1}
+		"improvementStats": {"food": 1, "gold": 1}
 	},
 	{
 		"name": "Sugar",
@@ -518,7 +519,7 @@
 		"terrainsCanBeFoundOn": ["Plains","Flood plains","Grassland","Marsh"],
 		"gold": 2,
 		"improvement": "Plantation",
-		"improvementStats": {"gold": 1},
+		"improvementStats": {"food": 1, "gold": 1},
 		"uniques": ["Generated with weight [20] <in [Jungle] Regions>",
 					"Generated with weight [15] <in [Desert] Regions>",
 					"Generated with weight [20] <in [Grassland] Regions>",
@@ -531,7 +532,7 @@
 		"production": 1,
 		"gold": 1,
 		"improvement": "Plantation",
-		"improvementStats": {"gold": 1}
+		"improvementStats": {"culture" :1, "gold": 1}
 	},
 	{
 		"name": "Truffles",
@@ -539,7 +540,7 @@
 		"terrainsCanBeFoundOn": ["Forest","Marsh","Jungle"],
 		"gold": 2,
 		"improvement": "Camp",
-		"improvementStats": {"gold": 1},
+		"improvementStats": {"food": 1, "gold": 1},
 		"uniques": ["Generated near City States with weight [15]"]
 	},
 	{
@@ -548,7 +549,7 @@
 		"terrainsCanBeFoundOn": ["Grassland","Plains"],
 		"gold": 2,
 		"improvement": "Plantation",
-		"improvementStats": {"gold": 1}
+		"improvementStats": {"faith": 1, "gold": 1}
 	},
 	{
 		"name": "Crab",
