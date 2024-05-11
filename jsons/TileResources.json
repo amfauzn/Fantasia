@@ -321,7 +321,7 @@
 		"food": 1,
 		"gold": 1,
 		"improvedBy": ["Plantation","Rainee's Plantation"],
-		"improvementStats": {"food": 1", "gold": 1},
+		"improvementStats": {"food": 1, "gold": 1},
 		"uniques": ["Generated with weight [40] <in [Jungle] Regions>",
 					"Generated with weight [15] <in [Forest] Regions>",
 					"Generated with weight [5] <in [Desert] Regions>",
@@ -336,7 +336,7 @@
 		"food": 1,
 		"gold": 1,
 		"improvedBy": ["Plantation","Rainee's Plantation"],
-		"improvementStats": {"food": 1,"gold": 1},
+		"improvementStats": {"food": 1, "gold": 1},
 		"uniques": ["Doesn't generate naturally <in [Tundra] tiles>"]
 	},
 	{
@@ -386,7 +386,7 @@
 		"terrainsCanBeFoundOn": ["Forest","Tundra"],
 		"gold": 2,
 		"improvement": "Camp",
-		"improvementStats": {"production: 1", "gold": 1}
+		"improvementStats": {"production:" 1, "gold": 1}
 	},
 	{
 		"name": "Gems",
@@ -427,7 +427,7 @@
 		"terrainsCanBeFoundOn": ["Tundra","Snow"],
 		"gold": 2,
 		"improvement": "Taming",
-		"improvementStats": {"prodcution": 1},
+		"improvementStats": {"production": 1},
 	},
 	{
 		"name": "Jade",
