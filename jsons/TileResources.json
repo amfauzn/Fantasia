@@ -386,7 +386,7 @@
 		"terrainsCanBeFoundOn": ["Forest","Tundra"],
 		"gold": 2,
 		"improvement": "Camp",
-		"improvementStats": {"production:" 1, "gold": 1}
+		"improvementStats": {"production": 1, "gold": 1}
 	},
 	{
 		"name": "Gems",
