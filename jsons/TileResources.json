@@ -90,7 +90,7 @@
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Desert","Flood plains","Hill","Tundra","Snow","Marsh"],
 		"faith": 1,
 		"improvement": "Beacon of Power",
-		"improvementStats": {"science": 1},
+		"improvementStats": {"science": 3},
 		"uniques": ["Generated on every [22] tiles <in [Featureless] [Plains] tiles>",
 					"Generated on every [22] tiles <in [Featureless] [Grassland] tiles>", 
 					"Generated on every [22] tiles <in [Featureless] [Desert] tiles>",
