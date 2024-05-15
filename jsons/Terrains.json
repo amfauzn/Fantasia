@@ -346,8 +346,8 @@
 		"unbuildable": true,
 		"uniques": ["Must be adjacent to [0] [Coast] tiles",
 					"Must be adjacent to [1] to [6] [Jungle] tiles",
-					"Grants 500 Gold to the first civilization to discover it",
-					"Tile provides yield without assigned population"],
+					"Grants [+500 Gold] to the first civilization to discover it",
+					],
 		"weight": 10
 	},
 	{
