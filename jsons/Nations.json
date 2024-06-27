@@ -1138,7 +1138,7 @@
 		"innerColor": [255,255,255],
 		"uniqueName": "Preacher King",
 		"uniqueText": "100% chance to recruit defeated enemy unique Military units, including Barbarian's unique unit \nMilitaristic City-States grant units 2 times as fast when you are at war with a common nation \n-50% City-State Influence degradation",
-		"uniques": ["When defeating a [Preachable] unit, earn [0] Gold and recruit it <with [100]% chance>", 
+		"uniques": ["When defeating a [Preachable] unit, earn [0] Gold and recruit it <with [100]% chance>","When defeating a [Peuchen] unit, earn [0] Gold and recruit it <with [100]% chance>",
 					"Militaristic City-States grant units [2] times as fast when you are at war with a common nation", 
 					"[-50]% City-State Influence degradation"],
 		"cities": ["Nas","Nagar","Kramas","Irasandi","Mugassari","Ellasar","Surbata","Awan","Halli Lintra","Eshnunna",
