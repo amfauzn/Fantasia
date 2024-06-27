@@ -501,7 +501,7 @@
 		"name": "Amphibious",
 		"prerequisites": ["Battlecry","Pet Command","Tortoise","Winged Vampire","Daywalker"],
 		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
-		"unitTypes": ["Sword","Gunpowder","Anti-Cav","Anti-Armor","Mage","Construct","Vampire","Tamer",
+		"unitTypes": ["Sword","Gunpowder","Anti-Cav","Anti-Armor","Construct","Vampire","Tamer",
 			"Infantry Hero","Anti-Cav Hero","Evil Hero"]
 	},
 	{

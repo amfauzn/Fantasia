@@ -1,4 +1,4 @@
-[
+ [
 	// Civilian
 	{
 		"name": "Settler",
@@ -2715,7 +2715,7 @@
 		"requiredTech": "Biology",
 		"uniques": ["Prevents spreading of religion to the city it is next to", 
 					"Religious Unit", 
-					"Only available <after adopting [Piety Complete]>", 
+					"Can only be built <after adopting [Piety Complete]>", 
 					"[+10]% Strength <when adjacent to a [Priest] unit>", "[+10]% Strength <when adjacent to a [Cleric] unit>", 
 					"Never appears as a Barbarian unit"],
 		"replacementTextForUniques": "Prevents spreading of religion to the city it is next to, +10% Strength when adjacent to a Cleric unit",

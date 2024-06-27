@@ -106,19 +106,19 @@
 		"name": "Adamantium",
 		"resourceType": "Strategic",
 		"revealedBy": "Alchemy",
-		"uniques": ["Will not be displayed in Civilopedia"]
+		//"uniques": ["Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Kyber",
 		"resourceType": "Strategic",
 		"revealedBy": "Alchemy",
-		"uniques": ["Will not be displayed in Civilopedia"]
+		//"uniques": ["Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Magician",
 		"resourceType": "Strategic",
 		"revealedBy": "Enlightenment",
-		"uniques": ["Will not be displayed in Civilopedia"]
+		//"uniques": ["Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Dragon's Egg",
@@ -266,7 +266,7 @@
 	{
 		"name": "Hero Limiter",
 		"resourceType": "Strategic",
-		"uniques": ["Not shown on world screen","Excluded from map editor","Will not be displayed in Civilopedia"]
+		"uniques": ["Cannot be traded","Not shown on world screen","Excluded from map editor","Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Vampiric Block",
