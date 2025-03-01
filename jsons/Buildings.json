@@ -111,7 +111,7 @@
 		"faith": 1,
 		"cost": 40,
 		"maintenance": 1,
-		"uniques": ["Hidden when religion is disabled"],
+		"uniques": ["Only available <when religion is enabled>"],
 		"requiredTech": "Pottery",
 		"civilopediaText": [
 			{"text": "Sacred structure built to memorialize revered cultural icons or religious figures."}
@@ -183,7 +183,7 @@
 		"cityStrength": 10,
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
-		"uniques": ["New [{Military} {Land}] units start with [15] Experience [in this city]", 
+		"uniques": ["New [{Military} {Land}] units start with [15] XP [in this city]", 
 					"Destroyed when the city is captured"],
 		"requiredTech": "Masonry",
 		"civilopediaText": [
@@ -329,7 +329,7 @@
 		"isWonder": true,
 		"uniques": ["Must be on [River]", "Gain a free [Water Mill] [in this city]", 
 					"[+1 Food, +1 Faith] from [River] tiles [in this city]", 
-					"Hidden when religion is disabled"],
+					"Only available <when religion is enabled>"],
 		"requiredTech": "The Wheel",
 		"quote": "'A good river is nature's life work in song.' ― Mark Helprin, 'Freddy And Fredericka'"
 	},
@@ -387,7 +387,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["Provides a sum of gold each time you spend a Great Person", "[+2 Gold] from [Marble] tiles [in this city]", 
+		"uniques": ["Gain [100][Gold] <upon expending a [Great Person] unit> <(modified by game speed)>", "[+2 Gold] from [Marble] tiles [in this city]", 
 					"[+2 Gold] from [Stone] tiles [in this city]", "[+2 Gold] from [Obsidian] tiles [in this city]"],
 		"requiredTech": "Construction",
 		"quote": "'O, let not the pains of death which come upon thee enter into my body.' - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
@@ -396,7 +396,7 @@
 		"name": "Barracks",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["Destroyed when the city is captured", "New [Military] units start with [15] Experience [in this city]"],
+		"uniques": ["Destroyed when the city is captured", "New [Military] units start with [15] XP [in this city]"],
 		"requiredTech": "Bronze Working",
 		"civilopediaText": [
 			{"text": "A place for a country's professional soldier, provides shelter, food, training, and medical facilities."}
@@ -409,7 +409,7 @@
 		"happiness": 2,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
-		"uniques": ["Destroyed when the city is captured", "New [Military] units start with [15] Experience [in this city]"],
+		"uniques": ["Destroyed when the city is captured", "New [Military] units start with [15] XP [in this city]"],
 		"requiredTech": "Bronze Working",
 		"civilopediaText": [
 			{"text": "A method to control one's emotion and power, created by Raflar Sulong, a beastman, for beastmen."}
@@ -465,7 +465,7 @@
 		"requiredBuilding": "Shrine",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["Hidden when religion is disabled", "[+1 Faith] from [Incense] tiles [in this city]"],
+		"uniques": ["Only available <when religion is enabled>", "[+1 Faith] from [Incense] tiles [in this city]"],
 		"requiredTech": "Philosophy",
 		"civilopediaText": [
 			{"text": "A religious building where the faithful can come together to worship."}
@@ -479,7 +479,7 @@
 		"requiredBuilding": "Shrine",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["Hidden when religion is disabled", "[+1 Faith] from [Incense] tiles [in this city]", 
+		"uniques": ["Only available <when religion is enabled>", "[+1 Faith] from [Incense] tiles [in this city]", 
 					"[+1 Culture] per [3] population [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Philosophy",
 		"civilopediaText": [
@@ -494,7 +494,7 @@
 		"requiredBuilding": "Shrine",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["Hidden when religion is disabled", "[+1 Faith] from [Incense] tiles [in this city]", 
+		"uniques": ["Only available <when religion is enabled>", "[+1 Faith] from [Incense] tiles [in this city]", 
 					"[+25]% Production when constructing [{Military} {Land}] units [in this city]"],
 		"requiredTech": "Philosophy",
 		"civilopediaText": [
@@ -678,7 +678,7 @@
 		"faith": 3,
 		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
-		"uniques": ["Gain a free [Monastery] [in this city]", "Hidden when religion is disabled",
+		"uniques": ["Gain a free [Monastery] [in this city]", "Only available <when religion is enabled>",
 					"All newly-trained [Missionary] units [in this city] receive the [Devout] promotion", 
 					"[2] free [Warrior Monk] units appear"],
 		"requiredTech": "Theology",
@@ -692,7 +692,7 @@
 		"uniques": ["Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>", 
 					"Cost increases by [25] per owned city", "[+100]% Natural religion spread [in this city]", 
 					"All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion", 
-					"Hidden when religion is disabled", "Can only be built [in holy cities]"],
+					"Only available <when religion is enabled>", "Can only be built [in holy cities] cities"],
 		"requiredTech": "Theology",
 		"isNationalWonder": true
 	},
@@ -1114,7 +1114,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredBuilding": "Barracks",
-		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Steel",
 		"civilopediaText": [
 			{"text": "To keep and maintain weapon during off-duty or peacetime."}
@@ -1228,7 +1228,7 @@
 		"requiredBuilding": "Temple",
 		"maintenance": 2,
 		"requiredTech": "Acoustics",
-		"uniques": ["Hidden when religion is disabled"],
+		"uniques": ["Only available <when religion is enabled>"],
 		"civilopediaText": [
 			{"text": "The songs are not only about hero and love, it also tells us about the God's whisper."}
 		]
@@ -1356,7 +1356,7 @@
 		"uniques": ["Free [Great Artist] appears", 
 					"Free [Great Merchant] appears", 
 					"Free [Great Prophet] appears", 
-					"Hidden when religion is disabled"],
+					"Only available <when religion is enabled>"],
 		"requiredTech": "Mass Media",
 		"quote": "'The body is wiser than its inhabitants. The body is God's messenger' - Horace"
 	},
@@ -1526,7 +1526,7 @@
 		"hurryCostModifier": 0,
 		"maintenance": 2,
 		"requiredBuilding": "Armory",
-		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Military Science",
 		"civilopediaText": [
 			{"text": "An institution dedicated to train the art of war including rigorous physical training and courses in command, strategy, logistics and other military subjects."}
@@ -1640,7 +1640,7 @@
 		"cost": 700,
 		"isNationalWonder": true,
 		"uniques": ["Enables construction of Spaceship parts", "Triggers a global alert upon completion", 
-					"Hidden when [Scientific] Victory is disabled", "Cannot be hurried"],
+					"Only available <when [Scientific] Victory is enabled>", "Cannot be hurried"],
 		"requiredTech": "Empowerment"
 	},
 	{
@@ -1802,7 +1802,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Artist": 1,"Great Engineer": 1,"Great Merchant": 1,"Great Scientist": 1},
 		"requiredTech": "Radar",
-		"uniques": ["Triggers voting for the Diplomatic Victory", "Hidden when [Diplomatic] Victory is disabled", "Triggers a global alert upon completion"],
+		"uniques": ["Triggers voting for the Diplomatic Victory", "Only available <when [Diplomatic] Victory is enabled>", "Triggers a global alert upon completion"],
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together.' - Kofi Annan"
 	},
 	
@@ -1812,7 +1812,7 @@
 		"cost": 1500,
 		"isNationalWonder": true,
 		"uniques": ["Hidden until [6] social policy branches have been completed", "Triggers a global alert upon build start",
-			"Triggers a Cultural Victory upon completion", "Hidden when [Cultural] Victory is disabled", "Cannot be hurried"]
+			"Triggers a Cultural Victory upon completion", "Only available <when [Cultural] Victory is enabled>", "Cannot be hurried"]
 	},
 	
 	// Religious buildings
@@ -1822,7 +1822,7 @@
 		"faith": 1,
 		"culture": 3,
 		"specialistSlots": {"Artist": 1},
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Rugudeia",
@@ -1830,7 +1830,7 @@
 		"culture": 1,
 		"faith": 1,
 		"happiness": 1,
-		"uniques": ["Unbuildable", "[10]% Food is carried over after population increases [in this city]", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "[10]% Food is carried over after population increases [in this city]", "Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Airukaya",
@@ -1838,7 +1838,7 @@
 		"culture": 2,
 		"faith": 3,
 		"happiness": 1,
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Ucruzaki",
@@ -1846,14 +1846,14 @@
 		"culture": 2,
 		"faith": 2,
 		"happiness": 2,
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	{
 		"name": "Claehym",
 		"cost": 0,
 		"faith": 1,
 		"happiness": 1,
-		"uniques": ["Unbuildable", "[+15]% [Gold] [in this city]", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "[+15]% [Gold] [in this city]", "Only available <when religion is enabled>"]
 	},
 	
 	// Hero Summoner
