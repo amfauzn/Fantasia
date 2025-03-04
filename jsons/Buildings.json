@@ -100,7 +100,7 @@
 					"[+1 Food] from [Wheat] tiles [in this city]", 
 					"[+1 Food] from [Corn] tiles [in this city]", 
 					"[+1 Food] from [Citrus] tiles [in this city]",
-					"Unlock 2 Farmer specialist slot (+3 Food)"],
+					"Comment [Unlock 2 Farmer specialist slot (+3 Food)]"],
 		"requiredTech": "Pottery",
 		"civilopediaText": [
 			{"text": "Not only for storing food, this building is equipped with a vertical planting system that can withstand the harsh cold."}
@@ -387,7 +387,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["Gain [100][Gold] <upon expending a [Great Person] unit> <(modified by game speed)>", "[+2 Gold] from [Marble] tiles [in this city]", 
+		"uniques": ["Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>", "[+2 Gold] from [Marble] tiles [in this city]", 
 					"[+2 Gold] from [Stone] tiles [in this city]", "[+2 Gold] from [Obsidian] tiles [in this city]"],
 		"requiredTech": "Construction",
 		"quote": "'O, let not the pains of death which come upon thee enter into my body.' - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
@@ -692,7 +692,7 @@
 		"uniques": ["Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>", 
 					"Cost increases by [25] per owned city", "[+100]% Natural religion spread [in this city]", 
 					"All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion", 
-					"Only available <when religion is enabled>", "Can only be built [in holy cities] cities"],
+					"Only available <when religion is enabled>", "Can only be built <in [Holy] cities>"],
 		"requiredTech": "Theology",
 		"isNationalWonder": true
 	},
@@ -743,8 +743,8 @@
 		"maintenance": 0,
 		"hurryCostModifier": 10,
 		"cost": 140,
-		"uniques": ["Research Arcane Magic vs Wizardry", 
-					"Can be built in all cities", 
+		"uniques": ["Comment [Research Arcane Magic vs Wizardry]", 
+					"Comment [Can be built in all cities]", 
 					"[+1 Culture, +1 Faith] from [Ley Line] tiles [in this city]", 
 					"[+1 Science] from [Ley Line] tiles [in this city]", 
 					"Provides [1] [Mutagen]"],
@@ -879,8 +879,8 @@
 		"faith": 2,
 		"maintenance": 0,
 		"hurryCostModifier": 25,
-		"uniques": ["Research Theology vs Metal Casting", 
-					"Can be built in all cities", 
+		"uniques": ["Comment [Research Theology vs Metal Casting]", 
+					"Comment [Can be built in all cities]", 
 					"[+15]% Production when constructing [Land] units [in this city]",
 					"[+1 Production] from [Iron] tiles [in this city]"
 					"All newly-trained [{Military} {Land}] units [in this city] receive the [Unwavering Faith] promotion"],
@@ -1215,7 +1215,7 @@
 		"requiredBuilding": "Pyramid",
 		"maintenance": 0,
 		"requiredTech": "Acoustics",
-		"uniques": ["Generates 1 Great Artist Point", "Destroyed when the city is captured"],
+		"uniques": ["Comment [Generates 1 Great Artist Point]", "Destroyed when the city is captured"],
 		"civilopediaText": [
             {"text": "As beautiful as its resident, Sulvana's art isn't something to be underestimated."}
         ]
