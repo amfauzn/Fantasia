@@ -397,7 +397,7 @@
 					"Gives a defensive bonus of [100]%", 
 					"Adjacent enemy units ending their turn take [30] damage", 
 					"Can be built just outside your borders", 
-					"Constructing it will take over the tiles around it and assign them to your closest city"
+					"Gain control over [all] tiles in a [1]-tile radius"
 					"Removes removable features when built"],
 		"civilopediaText": [
 			{"text": "A mighty fortification that is almost impossible to take by direct attack, and they were capable of standing protracted sieges before they fell."}

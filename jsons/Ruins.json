@@ -17,14 +17,14 @@
 	{
 		"name": "shared cultural inspiration",
 		"notification": "Captured villagers share the secrets of their well-ordered society! (+[cultureAmount] culture)",
-		"uniques": ["Gain [75]-[100] [Culture]", "Only available <after [35] turns>"],
+		"uniques": ["Gain [75]-[100] [Culture]", "Only available <after turn number [35]>"],
 		"weight": 6,
 		"color": "#cf8ff7"
 	},
 	{
 		"name": "adopt foreign policy",
 		"notification": "We have discovered a scripture of policy idea, we can now try adopt it!",
-		"uniques": ["Free Social Policy", "Only available <before [100] turns>"],
+		"uniques": ["Free Social Policy", "Only available <before turn number [100]>"],
 		"weight": 4,
 		"color": "#cf8ff7"
 	},
@@ -54,14 +54,14 @@
 	{
 		"name": "a treasure chest",
 		"notification": "We have found [goldAmount] Gold in the treasure chest we've secured!",
-		"uniques": ["Gain [300]-[500] [Gold]", "Only available <after [30] turns>"],
+		"uniques": ["Gain [300]-[500] [Gold]", "Only available <after turn number [30]>"],
 		"weight": 6,
 		"color": "#ffeb7f"
 	},
 	{
 		"name": "hit a jackpot",
 		"notification": "Jackpot! (+1000 gold)",
-		"uniques": ["Gain [1000] [Gold]", "Only available <after [60] turns>"],
+		"uniques": ["Gain [1000] [Gold]", "Only available <after turn number [60]>"],
 		"weight": 4,
 		"color": "#ffeb7f"
 	},
@@ -70,7 +70,7 @@
 	{
 		"name": "discover a lost technology",
 		"notification": "We have discovered the lost technology of [techName] in the ruins!",
-		"uniques": ["[1] free random researchable Tech(s) from the [Classical age]", "Only available <before [50] turns>"],
+		"uniques": ["[1] free random researchable Tech(s) from the [Classical age]", "Only available <before turn number [50]>"],
 		"weight": 9,
 		"color": "#7f7fff"
 	},
@@ -84,14 +84,14 @@
 	{
 		"name": "discover a research note",
 		"notification": "We have discovered an Inventor's research note! (+[scienceAmount] science)",
-		"uniques": ["Gain [80]-[100] [Science]", "Only available <after [20] turns>"],
+		"uniques": ["Gain [80]-[100] [Science]", "Only available <after turn number [20]>"],
 		"weight": 7,
 		"color": "#7f7fff"
 	},
 	{
 		"name": "stolen technology",
 		"notification": "We are succesfully take control of the stolen technology! (+[scienceAmount] science)",
-		"uniques": ["Gain [100]-[150] [Science]", "Only available <after [40] turns>"],
+		"uniques": ["Gain [100]-[150] [Science]", "Only available <after turn number [40]>"],
 		"weight": 5,
 		"color": "#7f7fff"
 	},
@@ -100,31 +100,31 @@
 	{
         "name": "discover holy symbols",
         "notification": "We have found religious texts in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)",
-        "uniques": ["Hidden when religion is disabled", "Gain enough Faith for a Pantheon", "Only available <before founding a Pantheon>"],
+        "uniques": ["Only available <when religion is enabled>", "Gain enough Faith for a Pantheon", "Only available <before founding a Pantheon>"],
 		"weight": 9,
 		"color": "#CDDDF4"
 	},
 	{
 		"name": "an ancient prophecy",
 		"notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection! (+[faithAmount] Faith)",
-		"uniques": ["Hidden when religion is disabled", "Gain enough Faith for [33]% of a Great Prophet", "Only available <after founding a Pantheon>",
-					"Only available <after [20] turns>"],
+		"uniques": ["Only available <when religion is enabled>", "Gain enough Faith for [33]% of a Great Prophet", "Only available <after founding a Pantheon>",
+					"Only available <after turn number [20]>"],
 		"weight": 9,
 		"color": "#CDDDF4"
 	},
 	{
 		"name": "a praying priest",
 		"notification": "A dying priest pray for you! (+[faithAmount] Faith)",
-		"uniques": ["Hidden when religion is disabled", "Gain [100]-[250] [Faith]", "Only available <after founding a Pantheon>",
-					"Only available <after [40] turns>"],
+		"uniques": ["Only available <when religion is enabled>", "Gain [100]-[250] [Faith]", "Only available <after founding a Pantheon>",
+					"Only available <after turn number [40]>"],
 		"weight": 7,
 		"color": "#CDDDF4"
 	},
 	{
 		"name": "a wandering oracle",
 		"notification": "An oracle foresee your future! (+[faithAmount] Faith)",
-		"uniques": ["Hidden when religion is disabled", "Gain [300]-[400] [Faith]", "Only available <after founding a Pantheon>",
-					"Only available <after [40] turns>"],
+		"uniques": ["Only available <when religion is enabled>", "Gain [300]-[400] [Faith]", "Only available <after founding a Pantheon>",
+					"Only available <after turn number [40]>"],
 		"weight": 5,
 		"color": "#CDDDF4"
 	},
@@ -140,7 +140,7 @@
 	{
 		"name": "accepted immigrants (adds 3 population to a city)",
 		"notification": "A family of immigrants saved in the ruins! Population added to [cityName].",
-		"uniques": ["[+3] population [in capital]", "Only available <after [30] turns>"],
+		"uniques": ["[+3] population [in capital]", "Only available <after turn number [30]>"],
 		"weight": 7,
 		"color": "#81c784"
 	},
@@ -165,7 +165,7 @@
 	{
 		"name": "free a general",
 		"notification": "Accidentally, we save a former general!",
-		"uniques": ["Free [Great General] found in the ruins", "Only available <after [20] turns>"]
+		"uniques": ["Free [Great General] found in the ruins", "Only available <after turn number [20]>"]
 		"weight": 8,
 		"color": "#e89220"
 		"excludedDifficulties": ["Immortal","Deity"]
@@ -182,28 +182,28 @@
 	{
 		"name": "your exploring unit receives training",
 		"notification": "An elder trained us in their ways of combat!",
-		"uniques": ["This Unit gains [15] XP"],
+		"uniques": ["[This Unit] gains [15] XP"],
 		"weight": 9,
 		"color": "#20afe8"
 	},
 	{
 		"name": "hell training",
 		"notification": "Your men experience a hellish training!",
-		"uniques": ["This Unit gains [30] XP"],
+		"uniques": ["[This Unit] gains [30] XP"],
 		"weight": 7,
 		"color": "#20afe8"
 	},
 	{
         "name": "advanced weaponry for your explorer",
         "notification": "Our unit finds advanced weaponry hidden in the ruins!",
-        "uniques": ["This Unit upgrades for free including special upgrades"],
+        "uniques": ["[This Unit] upgrades for free including special upgrades"],
 		"weight": 7,
 		"color": "#20afe8"
     },
 	{
         "name": "levied spearman",
         "notification": "A young [Spearman] has joined us!",
-        "uniques": ["Free [Spearman] appears", "Only available <after [20] turns> <before [150] turns>"],
+        "uniques": ["Free [Spearman] appears", "Only available <after turn number [20]> <before turn number [150]>"],
 		"weight": 8,
 		"color": "#20afe8"
     },
@@ -213,21 +213,21 @@
 		"name": "reveal nearby Dungeon",
 		"notification": "You find evidence of Barbarian activity. Nearby Dungeon are revealed!",
 		"uniques": ["Reveal up to [All] [Barbarian encampment] within a [10] tile radius", 
-					"Only available <before [250] turns>"],
+					"Only available <before turn number [250]>"],
 		"weight": 9
 	},
 	{
 		"name": "reveal nearby Bonus resource",
 		"notification": "You found notes of crop yields area!",
 		"uniques": ["Reveal up to [All] [Bonus resource] within a [10] tile radius",
-					"Only available <before [100] turns>"],
+					"Only available <before turn number [100]>"],
 		"weight": 9
 	},
 	{
 		"name": "reveal nearby Luxury resource",
 		"notification": "You found notes of rare and valueable resources!",
 		"uniques": ["Reveal up to [All] [Luxury resource] within a [7] tile radius",
-					"Only available <before [100] turns>"],
+					"Only available <before turn number [100]>"],
 		"weight": 9
 	},
 	{
@@ -235,7 +235,7 @@
 		"notification": "A dying beast tamer share their beast location!",
 		"uniques": ["Reveal up to [3] [Dragon's Egg] within a [15] tile radius", 
 					"Reveal up to [1] [Megall] within a [7] tile radius",
-					"Only available <before [200] turns>"],
+					"Only available <before turn number [200]>"],
 		"weight": 8
 	},
 	{
@@ -254,7 +254,7 @@
 		"name": "a big map barter",
 		"notification": "Bravo, we just bought a big map from a fellow adventurer!",
 		"uniques": ["From a randomly chosen tile [8] tiles away from the ruins, reveal tiles up to [8] tiles away with [90]% chance", 
-					"Gain [-10] [Gold]", "Only available <before [150] turns>"],
+					"Gain [-10] [Gold]", "Only available <before turn number [150]>"],
 		"weight": 6
 	},
 	
@@ -262,7 +262,7 @@
 	{
 		"name": "into era of greatness",
 		"notification": "Solving a potential problem bring us to the era of greatness",
-		"uniques": ["Empire enters golden age", "Only available <after [50] turns>"],
+		"uniques": ["Empire enters golden age", "Only available <after turn number [50]>"],
 		"weight": 8,
 		"color": "#cf8ff7"
 	}

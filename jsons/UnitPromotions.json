@@ -2,7 +2,7 @@
 
 	{
 		"name": "Heal Instantly",
-		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
 		"unitTypes": [
 			"Recon","Sword","Gunpowder","Anti-Cav","Anti-Armor","Mounted","Armored",
 			"Archery","Ranged Gunpowder","Siege",
@@ -14,7 +14,7 @@
 	},
 	{
 		"name": "Heal Instantly II",
-		"uniques": ["Heal this unit by [75] HP", "Doing so will consume this opportunity to choose a Promotion", "Only available <after discovering [Pharmaceuticals]>"],
+		"uniques": ["[This Unit] heals [75] HP", "Doing so will consume this opportunity to choose a Promotion", "Only available <after discovering [Pharmaceuticals]>"],
 		"unitTypes": [
 			"Recon","Sword","Gunpowder","Anti-Cav","Anti-Armor","Mounted","Armored",
 			"Archery","Ranged Gunpowder","Siege",
@@ -53,7 +53,7 @@
 		"name": "Spyglass",
 		"prerequisites": ["Scouting"],
 		"uniques": ["Can see over obstacles", 
-					"May withdraw before melee ([50]%)"],
+					"Withdraws before melee combat <with [50]% chance>"],
 		"unitTypes": ["Recon"]
 	},
 	{
@@ -266,7 +266,7 @@
 	/*{
 		"name": "Advancement",
 		"prerequisites": ["Woodsman"],
-		"uniques": ["This Unit upgrades for free including special upgrades"],
+		"uniques": ["[This Unit] upgrades for free including special upgrades"],
 		"unitTypes": ["Sword","Gunpowder"]
 	},*/
 	
@@ -460,7 +460,7 @@
 	{
 		"name": "Blizzard",
 		"prerequisites": ["Petri's Philter","Swallow"],
-		"uniques": ["May withdraw before melee ([50]%)"],
+		"uniques": ["Withdraws before melee combat <with [50]% chance>"],
 		"unitTypes": ["Witcher"]
 	},
 	{
@@ -825,7 +825,7 @@
 	{
 		"name": "Clairvoyant",
 		"prerequisites": ["Silent Running","Hunt Instinc","Regenerative Tissue","Mana Flare"],
-		"uniques": ["May withdraw before melee ([50]%)"],
+		"uniques": ["Withdraws before melee combat <with [50]% chance>"],
 		"unitTypes": ["Water Terror","Air Terror"]
 	},
 	
@@ -993,7 +993,7 @@
 	},
 	{
 		"name": "Elusive", // Ilythiir
-		"uniques": ["May withdraw before melee ([50]%)"]
+		"uniques": ["Withdraws before melee combat <with [50]% chance>"]
 	},
 	{
 		"name": "Vampiric Touch", // Morlovia
@@ -1014,11 +1014,11 @@
 	},
 	{
 		"name": "Kiss", // The Order of Witcher
-		"uniques": ["Damage is ignored when determining unit Strength"]
+		"uniques": ["No damage penalty for wounded units"]
 	},
 	{
 		"name": "Kiss", // The Order of Witcher
-		"uniques": ["Damage is ignored when determining unit Strength"]
+		"uniques": ["No damage penalty for wounded units"]
 	},
 	{
 		"name": "Beast Hunter", // The Order of Witcher
@@ -1032,7 +1032,7 @@
 	},
 	{
 		"name": "Unwavering Faith", // Sanctum Regalia
-		"uniques": ["Damage is ignored when determining unit Strength"]
+		"uniques": ["No damage penalty for wounded units"]
 	},
 	{
 		"name": "Trawl", // Marunesia
@@ -1048,7 +1048,7 @@
 	},
 	{
 		"name": "Reactive Armor", // Thorin
-		"uniques": ["May withdraw before melee ([66]%)"]
+		"uniques": ["Withdraws before melee combat <with [66]% chance>"]
 	},
 	{
 		"name": "[Laskar] ability", // Nas
@@ -1062,7 +1062,7 @@
 	},
 	{
 		"name": "[Lich] ability", // Necropoleis
-		"uniques": ["Damage is ignored when determining unit Strength"]
+		"uniques": ["No damage penalty for wounded units"]
 	},
 	{
 		"name": "Troll's Skin", // The Trolls

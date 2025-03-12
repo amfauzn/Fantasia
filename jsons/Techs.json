@@ -533,7 +533,7 @@
 			{
 				"name": "Pharmaceuticals",
 				"row": 3,
-				"uniques": ["Unlock better quick healing skill"],
+				"uniques": ["Comment [Unlock better quick healing skill]"],
 				"prerequisites": ["Refrigeration"],
 				"quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero"
 			},
@@ -636,7 +636,7 @@
 				"name": "Future tech",
 				"row": 5,
 				"prerequisites": ["Teleportation","Advanced Ballistics","Foresighting"],
-				"uniques": ["Who knows what the future holds?", "Can be continually researched"],
+				"uniques": ["Comment [Who knows what the future holds?]", "Can be continually researched"],
 				"quote": "¡¡For how many hour you have been playing??"
 			}
 		]
