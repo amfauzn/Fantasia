@@ -818,63 +818,63 @@ BuildingIcons/Quality Seeds Station
   index: -1
 BuildingIcons/Resort Hotel
   rotate: false
-  xy: 1192, 216
+  xy: 1300, 324
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Rheog Baddan
   rotate: false
-  xy: 1300, 324
+  xy: 1408, 432
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Royal Inventor's Assembly
   rotate: false
-  xy: 1516, 540
+  xy: 1624, 648
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Rugudeia
   rotate: false
-  xy: 1624, 648
+  xy: 1732, 756
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Sacred Dance
   rotate: false
-  xy: 1300, 216
+  xy: 1408, 324
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Sect
   rotate: false
-  xy: 1516, 324
+  xy: 1624, 432
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Sukamerta
   rotate: false
-  xy: 1840, 432
+  xy: 1408, 108
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Sulong's Training
   rotate: false
-  xy: 1408, 108
+  xy: 1732, 216
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Talents Audition
   rotate: false
-  xy: 1840, 324
+  xy: 1516, 108
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1005,44 +1005,51 @@ ImprovementIcons/Oracle Monument
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/Rainee's Plantation
+ImprovementIcons/Rainee's Farm
   rotate: false
   xy: 1084, 216
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+ImprovementIcons/Rainee's Plantation
+  rotate: false
+  xy: 1192, 324
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Sacred Cove
   rotate: false
-  xy: 1840, 864
+  xy: 1300, 216
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Sacred Grove
   rotate: false
-  xy: 1408, 324
+  xy: 1516, 432
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Sea fort
   rotate: false
-  xy: 1408, 216
+  xy: 1516, 324
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Staerie
   rotate: false
-  xy: 1624, 216
+  xy: 1732, 324
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Taming
   rotate: false
-  xy: 1516, 108
+  xy: 1840, 216
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1189,28 +1196,28 @@ NationIcons/Rain Forest
   index: -1
 NationIcons/Red Moon
   rotate: false
-  xy: 1624, 756
+  xy: 1732, 864
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Sanctum Regalia
   rotate: false
-  xy: 1624, 540
+  xy: 1732, 648
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Smeheng
   rotate: false
-  xy: 1732, 432
+  xy: 1840, 540
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Sulvana
   rotate: false
-  xy: 1732, 216
+  xy: 1840, 324
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1280,7 +1287,7 @@ ReligionIcons/Preformationism
   index: -1
 ReligionIcons/Relativity
   rotate: false
-  xy: 1840, 972
+  xy: 1192, 216
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1441,14 +1448,14 @@ ResourceIcons/Philosopher's Stone
   index: -1
 ResourceIcons/Rune Stone
   rotate: false
-  xy: 1732, 756
+  xy: 1840, 864
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Tea
   rotate: false
-  xy: 1624, 108
+  xy: 1732, 108
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1588,14 +1595,14 @@ TechIcons/Quintessence Force
   index: -1
 TechIcons/Refining
   rotate: false
-  xy: 1732, 864
+  xy: 1840, 972
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 TechIcons/Teleportation
   rotate: false
-  xy: 1732, 108
+  xy: 1840, 108
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2274,56 +2281,56 @@ UnitIcons/Rain Worker
   index: -1
 UnitIcons/Rakshasa
   rotate: false
-  xy: 1192, 324
+  xy: 1300, 432
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Ramming Troll
   rotate: false
-  xy: 1300, 432
+  xy: 1408, 540
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Ranger
   rotate: false
-  xy: 1408, 540
+  xy: 1516, 648
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Realm Patrol
   rotate: false
-  xy: 1516, 648
+  xy: 1624, 756
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Roc
   rotate: false
-  xy: 1408, 432
+  xy: 1516, 540
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Sage
   rotate: false
-  xy: 1516, 432
+  xy: 1624, 540
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Sandworm
   rotate: false
-  xy: 1732, 648
+  xy: 1840, 756
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Scorpion
   rotate: false
-  xy: 1840, 756
+  xy: 1408, 216
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2351,28 +2358,28 @@ UnitIcons/Siliwangi
   index: -1
 UnitIcons/Siren
   rotate: false
-  xy: 1624, 432
+  xy: 1732, 540
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Skeletal Champion
   rotate: false
-  xy: 1732, 540
+  xy: 1840, 648
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Skeletal Warrior
   rotate: false
-  xy: 1840, 648
+  xy: 1516, 216
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Skeleton Warrior
   rotate: false
-  xy: 1516, 216
+  xy: 1624, 324
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2386,35 +2393,28 @@ UnitIcons/Skroth
   index: -1
 UnitIcons/Slime
   rotate: false
-  xy: 1624, 324
+  xy: 1732, 432
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Sorcerer
   rotate: false
-  xy: 1840, 540
+  xy: 1624, 216
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Stone Golem
   rotate: false
-  xy: 1732, 324
+  xy: 1840, 432
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Tavari Worker
   rotate: false
-  xy: 1840, 216
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Teleporter
-  rotate: false
-  xy: 1840, 108
+  xy: 1624, 108
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2427,301 +2427,301 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Textile Mill
   rotate: false
-  xy: 4, 1943
+  xy: 4, 1835
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/The Foundry
   rotate: false
-  xy: 112, 1943
+  xy: 4, 1727
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/The Great Colosseum
   rotate: false
-  xy: 4, 1727
+  xy: 112, 1835
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/The Great Watchtower
   rotate: false
-  xy: 112, 1835
+  xy: 220, 1943
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/The Round Table
   rotate: false
-  xy: 4, 1619
+  xy: 112, 1727
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Threesed
   rotate: false
-  xy: 112, 1619
+  xy: 220, 1727
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Tinkerer's Depot
   rotate: false
-  xy: 328, 1835
+  xy: 436, 1943
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Uclaidhari
   rotate: false
-  xy: 4, 1295
+  xy: 112, 1403
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Ulick Myne
   rotate: false
-  xy: 112, 1403
+  xy: 220, 1511
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Warlock Project
   rotate: false
-  xy: 544, 1727
+  xy: 652, 1835
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Warteg
   rotate: false
-  xy: 4, 1079
+  xy: 112, 1187
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Watchtower
   rotate: false
-  xy: 220, 1295
+  xy: 328, 1403
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Witcher School
   rotate: false
-  xy: 436, 1511
+  xy: 544, 1619
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Yakhcal
   rotate: false
-  xy: 760, 1835
+  xy: 868, 1943
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Yimasp An'a
   rotate: false
-  xy: 4, 971
+  xy: 112, 1079
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Zaghronk
   rotate: false
-  xy: 112, 1079
+  xy: 220, 1187
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Ulu Wae
   rotate: false
-  xy: 220, 1511
+  xy: 328, 1619
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Vampire Castle
   rotate: false
-  xy: 4, 1187
+  xy: 112, 1295
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Thallin
   rotate: false
-  xy: 4, 1835
+  xy: 112, 1943
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Order of Witchers
   rotate: false
-  xy: 220, 1943
+  xy: 4, 1619
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Shinso
   rotate: false
-  xy: 112, 1727
+  xy: 220, 1835
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/The Trolls
   rotate: false
-  xy: 220, 1835
+  xy: 328, 1943
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Thorin
   rotate: false
-  xy: 4, 1511
+  xy: 112, 1619
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Tianwu
   rotate: false
-  xy: 220, 1727
+  xy: 328, 1835
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Torakj
   rotate: false
-  xy: 112, 1511
+  xy: 220, 1619
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Townfolk
   rotate: false
-  xy: 220, 1619
+  xy: 328, 1727
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Twin Mountain
   rotate: false
-  xy: 544, 1943
+  xy: 4, 1295
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Urg
   rotate: false
-  xy: 544, 1835
+  xy: 652, 1943
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Urush
   rotate: false
-  xy: 652, 1943
+  xy: 4, 1187
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Vedic
   rotate: false
-  xy: 112, 1295
+  xy: 220, 1403
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 PolicyIcons/Cultural Exchange
   rotate: false
-  xy: 107, 616
+  xy: 1792, 1802
   size: 50, 46
   orig: 50, 46
   offset: 0, 0
   index: -1
 PolicyIcons/Educated Elite
   rotate: false
-  xy: 998, 1776
+  xy: 328, 1148
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Entrepreneurship
   rotate: false
-  xy: 1114, 1776
+  xy: 76, 192
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Flourishing of the Arts
   rotate: false
-  xy: 840, 1560
+  xy: 134, 87
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Inheritance
   rotate: false
-  xy: 161, 264
+  xy: 1059, 1590
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Mandate Of Heaven
   rotate: false
-  xy: 192, 90
+  xy: 1238, 1640
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Postulant
   rotate: false
-  xy: 287, 918
+  xy: 1354, 1650
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Religious Agency
   rotate: false
-  xy: 179, 752
+  xy: 1850, 1689
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Scientific Revolution
   rotate: false
-  xy: 237, 802
+  xy: 359, 976
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Sovereignty
   rotate: false
-  xy: 295, 744
+  xy: 849, 1380
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Spiritual Tolerance
   rotate: false
-  xy: 237, 686
+  xy: 1407, 1534
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Wisdom
   rotate: false
-  xy: 250, 164
+  xy: 223, 738
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 ReligionIcons/Uncertainty
   rotate: false
-  xy: 328, 1619
+  xy: 436, 1727
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2749,98 +2749,98 @@ TileSets/AbsoluteUnits/Units/Anti-Tank Crew-2
   index: -1
 TileSets/AbsoluteUnits/Units/Arbalester
   rotate: false
-  xy: 544, 1530
+  xy: 652, 1638
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Arbalester-1
   rotate: false
-  xy: 652, 1638
+  xy: 760, 1746
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Arbalester-2
   rotate: false
-  xy: 760, 1746
+  xy: 868, 1854
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Elite Spearman
   rotate: false
-  xy: 868, 1854
+  xy: 976, 1962
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Elite Spearman-1
   rotate: false
-  xy: 976, 1962
+  xy: 4, 882
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Elite Spearman-2
   rotate: false
-  xy: 4, 882
+  xy: 112, 990
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Howitzer
   rotate: false
-  xy: 1624, 1914
+  xy: 755, 1618
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Howitzer-1
   rotate: false
-  xy: 1696, 1914
+  xy: 755, 1554
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Howitzer-2
   rotate: false
-  xy: 971, 1834
+  xy: 976, 1898
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Hunter
   rotate: false
-  xy: 112, 990
+  xy: 220, 1098
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Marauder
   rotate: false
-  xy: 220, 1098
+  xy: 328, 1206
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Pillager
   rotate: false
-  xy: 328, 1206
+  xy: 436, 1314
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Rain Worker
   rotate: false
-  xy: 436, 1314
+  xy: 544, 1422
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
   index: -1
 TileSets/AbsoluteUnits/Units/Tavari Worker
   rotate: false
-  xy: 544, 1441
+  xy: 652, 1549
   size: 95, 81
   orig: 95, 81
   offset: 0, 0
@@ -2903,5327 +2903,5348 @@ TileSets/AbsoluteUnits/Units/Worker-Elven
   index: -1
 TileSets/FantasyHex/Tiles/Amber
   rotate: false
-  xy: 458, 1148
+  xy: 602, 1386
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Arkatore
   rotate: false
-  xy: 1746, 1760
+  xy: 321, 758
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Beacon Power
   rotate: false
-  xy: 746, 1356
+  xy: 401, 736
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Blessed Farm
   rotate: false
-  xy: 786, 1358
+  xy: 263, 644
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Archaic age
   rotate: false
-  xy: 1117, 1605
+  xy: 1585, 1515
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Feudal age
   rotate: false
-  xy: 1117, 1565
+  xy: 907, 1426
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Heroic age
   rotate: false
-  xy: 1077, 1533
+  xy: 947, 1426
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Industrial age
   rotate: false
-  xy: 1117, 1524
+  xy: 907, 1385
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Modern age
   rotate: false
-  xy: 237, 918
+  xy: 947, 1384
   size: 32, 34
   orig: 32, 34
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/City center-Renaissance age
   rotate: false
-  xy: 1346, 1686
+  xy: 987, 1406
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Coffee
   rotate: false
-  xy: 1506, 1690
+  xy: 1625, 1520
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Coffee+Plantation
   rotate: false
-  xy: 1546, 1690
+  xy: 1027, 1409
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Coffin
   rotate: false
-  xy: 1586, 1690
+  xy: 1027, 1373
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Corn
   rotate: false
-  xy: 348, 215
+  xy: 1705, 1519
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Corn+Farm
+  rotate: false
+  xy: 1187, 1401
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Crater Lake
   rotate: false
-  xy: 348, 179
+  xy: 1187, 1365
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Cultivated farm
   rotate: false
-  xy: 1867, 1769
+  xy: 1745, 1518
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Desert
   rotate: false
-  xy: 1906, 1732
+  xy: 1812, 1592
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Desert+Farm
   rotate: false
-  xy: 1906, 1696
+  xy: 1785, 1556
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Desert+Flood plains+Farm
   rotate: false
-  xy: 1946, 1732
+  xy: 1785, 1520
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Desert+Flood plains+Wheat+Farm
   rotate: false
-  xy: 1946, 1696
+  xy: 1852, 1595
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Desert+Wheat+Farm
   rotate: false
-  xy: 1986, 1719
+  xy: 1825, 1556
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Dhab Hunter Camp
   rotate: false
-  xy: 1197, 1646
+  xy: 1892, 1595
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Dragon's Egg
   rotate: false
-  xy: 1197, 1538
+  xy: 1027, 1301
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Dragon's Egg+Taming
   rotate: false
-  xy: 1197, 1502
+  xy: 1067, 1292
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Farm
   rotate: false
-  xy: 1237, 1502
+  xy: 1905, 1487
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Rainee's Farm
+  rotate: false
+  xy: 1905, 1487
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Forest+Citrus+Rainee's Plantation
   rotate: false
-  xy: 1277, 1610
+  xy: 1536, 1704
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Forest+Cocoa+Rainee's Plantation
   rotate: false
-  xy: 1277, 1574
+  xy: 1576, 1704
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Forest+Coffee+Rainee's Plantation
   rotate: false
-  xy: 1277, 1538
+  xy: 1412, 1668
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Forest+Dyes+Rainee's Plantation
   rotate: false
-  xy: 1277, 1502
+  xy: 1412, 1632
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Forest+Silk+Rainee's Plantation
   rotate: false
-  xy: 1317, 1646
+  xy: 1452, 1668
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Forest+Spices+Rainee's Plantation
   rotate: false
-  xy: 1317, 1610
+  xy: 1452, 1632
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/ForestR
+  rotate: false
+  xy: 1492, 1668
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/ForestT+Citrus+Rainee's Plantation
   rotate: false
-  xy: 1317, 1574
+  xy: 1492, 1632
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/ForestT+Cocoa+Rainee's Plantation
   rotate: false
-  xy: 1317, 1538
+  xy: 1532, 1668
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/ForestT+Dyes+Rainee's Plantation
   rotate: false
-  xy: 1317, 1502
+  xy: 1532, 1632
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/ForestT+Silk+Rainee's Plantation
   rotate: false
-  xy: 1357, 1650
+  xy: 1572, 1668
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/ForestT+Spices+Rainee's Plantation
   rotate: false
-  xy: 1357, 1614
+  xy: 1572, 1632
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Grassland+Corn+Farm
   rotate: false
-  xy: 1517, 1654
+  xy: 219, 536
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Grassland+Farm
   rotate: false
-  xy: 1397, 1546
+  xy: 259, 572
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Grassland+Jungle+Dragon's Egg
   rotate: false
-  xy: 1437, 1582
+  xy: 219, 500
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Grassland+Jungle+Dragon's Egg+Taming
   rotate: false
-  xy: 1477, 1618
+  xy: 259, 536
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Gu
   rotate: false
-  xy: 1877, 1550
+  xy: 419, 153
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Gu+Camp
   rotate: false
-  xy: 1877, 1514
+  xy: 1912, 1887
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Ice-calator
   rotate: false
-  xy: 1146, 1285
+  xy: 417, 1006
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Jade
   rotate: false
-  xy: 1837, 1473
+  xy: 1948, 1835
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Kalimutu
   rotate: false
-  xy: 1797, 1437
+  xy: 1988, 1799
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Kyber Foundry
   rotate: false
-  xy: 1997, 1417
+  xy: 722, 1356
   size: 32, 39
   orig: 32, 39
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Ley Line
   rotate: false
-  xy: 1997, 1344
+  xy: 802, 1307
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Lodepit
   rotate: false
-  xy: 1259, 1834
+  xy: 1264, 1898
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Lodepit
   rotate: false
-  xy: 1259, 1834
+  xy: 1264, 1898
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Mammoth
   rotate: false
-  xy: 1026, 1277
+  xy: 1694, 1447
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Mammoth+Taming
   rotate: false
-  xy: 1186, 1249
+  xy: 1694, 1411
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Man-eating tree
   rotate: false
-  xy: 1226, 1237
+  xy: 1734, 1407
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Matter Transmuter
   rotate: false
-  xy: 1386, 1208
+  xy: 1814, 1368
   size: 32, 35
   orig: 32, 35
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Megall
   rotate: false
-  xy: 1426, 1217
+  xy: 1854, 1379
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Megall+Taming
   rotate: false
-  xy: 1466, 1217
+  xy: 1894, 1379
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Meka-Monastery
   rotate: false
-  xy: 1186, 1205
+  xy: 1894, 1335
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Mount Snowpeak
   rotate: false
-  xy: 1506, 1142
+  xy: 1894, 1295
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Niter
   rotate: false
-  xy: 1066, 1211
+  xy: 1121, 1183
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Obsidian
   rotate: false
-  xy: 390, 941
+  xy: 681, 1258
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Oracle Monument
   rotate: false
-  xy: 436, 1248
+  xy: 1840, 1921
   size: 64, 58
   orig: 64, 58
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Perfume
   rotate: false
-  xy: 393, 761
+  xy: 713, 1176
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Phantom Island
   rotate: false
-  xy: 379, 615
+  xy: 713, 1140
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Plains+Corn+Farm
   rotate: false
-  xy: 428, 256
+  xy: 1073, 1073
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Plains+Farm
   rotate: false
-  xy: 428, 220
+  xy: 1113, 1074
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Plains+Jungle+Dragon's Egg
   rotate: false
-  xy: 428, 184
+  xy: 1161, 1113
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Plains+Jungle+Dragon's Egg+Taming
   rotate: false
-  xy: 428, 148
+  xy: 1201, 1111
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Plains+Wheat+Farm
   rotate: false
-  xy: 428, 112
+  xy: 1241, 1112
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Rock of Levitation
   rotate: false
-  xy: 488, 1020
+  xy: 1393, 1386
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Rune Stone
   rotate: false
-  xy: 528, 1061
+  xy: 1553, 1371
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Rune Stone-Desert
   rotate: false
-  xy: 528, 953
+  xy: 1353, 1353
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Rune Stone2
   rotate: false
-  xy: 528, 1025
+  xy: 1593, 1374
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Rune Stone3
   rotate: false
-  xy: 528, 989
+  xy: 1633, 1374
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Sacred Grove
   rotate: false
-  xy: 528, 916
+  xy: 1393, 1349
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Sea fort
   rotate: false
-  xy: 608, 912
+  xy: 1913, 1198
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Suction Mud
   rotate: false
-  xy: 968, 952
+  xy: 1913, 1090
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tea
   rotate: false
-  xy: 1138, 1104
+  xy: 1433, 1159
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Ulu Wae
   rotate: false
-  xy: 768, 874
+  xy: 1433, 1047
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Vampire Castle
   rotate: false
-  xy: 848, 874
+  xy: 1513, 1083
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Zamrud Khatulistiwa
   rotate: false
-  xy: 455, 433
+  xy: 1673, 937
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Adept
   rotate: false
-  xy: 1346, 1798
+  xy: 827, 1574
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Alessia
   rotate: false
-  xy: 719, 1466
+  xy: 386, 1170
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Anti-Aircraft Crew
   rotate: false
-  xy: 1346, 1762
+  xy: 323, 1098
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Anti-Aircraft Crew-1
   rotate: false
-  xy: 904, 1682
+  xy: 1412, 1592
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Anti-Aircraft Crew-2
   rotate: false
-  xy: 759, 1466
+  xy: 170, 954
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Anti-Tank Crew
   rotate: false
-  xy: 1346, 1726
+  xy: 281, 760
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Anti-Tank Crew-1
   rotate: false
-  xy: 799, 1466
+  xy: 223, 644
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Anti-Tank Crew-2
   rotate: false
-  xy: 839, 1466
+  xy: 867, 1574
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Arachne
   rotate: false
-  xy: 879, 1466
+  xy: 907, 1574
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Arachne-Renaissance age
   rotate: false
-  xy: 863, 1754
+  xy: 281, 724
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Arbalester-Barbarians
   rotate: false
-  xy: 323, 1106
+  xy: 947, 1574
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Arbalester-Demonic
   rotate: false
-  xy: 919, 1466
+  xy: 281, 688
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Arbalester-Desert
   rotate: false
-  xy: 308, 244
+  xy: 971, 1862
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Arbalester-Dryad
   rotate: false
-  xy: 308, 208
+  xy: 539, 1328
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Arbalester-Dwarven
   rotate: false
-  xy: 308, 172
+  xy: 386, 1134
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Arbalester-Dwarven-1
   rotate: false
-  xy: 308, 136
+  xy: 426, 1150
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Chariot Archer-Dwarven-1
   rotate: false
-  xy: 308, 136
+  xy: 426, 1150
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Crossbowman-Dwarven-1
   rotate: false
-  xy: 308, 136
+  xy: 426, 1150
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Engineer-Dwarven-1
   rotate: false
-  xy: 308, 136
+  xy: 426, 1150
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Scientist-Human-1
   rotate: false
-  xy: 308, 136
+  xy: 426, 1150
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Howitzer-1
   rotate: false
-  xy: 308, 136
+  xy: 426, 1150
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ken Arok-1
   rotate: false
-  xy: 308, 136
+  xy: 426, 1150
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Leonidas-1
   rotate: false
-  xy: 308, 136
+  xy: 426, 1150
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mas Karebet-1
   rotate: false
-  xy: 308, 136
+  xy: 426, 1150
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pandji-1
   rotate: false
-  xy: 308, 136
+  xy: 426, 1150
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pike and Shot-Dwarven-1
   rotate: false
-  xy: 308, 136
+  xy: 426, 1150
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pseudo Mage-1
   rotate: false
-  xy: 308, 136
+  xy: 426, 1150
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Rifleman-Dwarven-1
   rotate: false
-  xy: 308, 136
+  xy: 426, 1150
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Siliwangi-1
   rotate: false
-  xy: 308, 136
+  xy: 426, 1150
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Sorcerer-1
   rotate: false
-  xy: 308, 136
+  xy: 426, 1150
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Teleporter-1
   rotate: false
-  xy: 308, 136
+  xy: 426, 1150
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wandering Oracle-Dwarven-1
   rotate: false
-  xy: 308, 136
+  xy: 426, 1150
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Arbalester-Dwarven-2
   rotate: false
-  xy: 308, 100
+  xy: 466, 1150
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Arbalester-Elven
   rotate: false
-  xy: 308, 64
+  xy: 506, 1150
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Arbalester-Gnome
   rotate: false
-  xy: 458, 1112
+  xy: 602, 1350
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Arbalester-Icemen 
   rotate: false
-  xy: 498, 1133
+  xy: 642, 1369
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Arbalester-Moken
   rotate: false
-  xy: 498, 1097
+  xy: 642, 1333
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Arch-Wizard
   rotate: false
-  xy: 1386, 1762
+  xy: 339, 882
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Arch-Wizard-1
   rotate: false
-  xy: 1386, 1726
+  xy: 339, 846
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Archer-Human-2
   rotate: false
-  xy: 1386, 1726
+  xy: 339, 846
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Bladedancer-1
   rotate: false
-  xy: 1386, 1726
+  xy: 339, 846
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-Human-2
   rotate: false
-  xy: 1386, 1726
+  xy: 339, 846
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wizard-1
   rotate: false
-  xy: 1386, 1726
+  xy: 339, 846
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Arch-Wizard-2
   rotate: false
-  xy: 1426, 1762
+  xy: 339, 810
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Archdemon Kor'vash
   rotate: false
-  xy: 1426, 1726
+  xy: 379, 882
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Archer-Demonic
   rotate: false
-  xy: 1466, 1762
+  xy: 379, 846
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Archer-Desert
   rotate: false
-  xy: 1466, 1726
+  xy: 379, 810
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Archer-Dryad
   rotate: false
-  xy: 1506, 1762
+  xy: 854, 1538
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Archer-Dwarven
   rotate: false
-  xy: 1506, 1726
+  xy: 854, 1502
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Archer-Dwarven-1
   rotate: false
-  xy: 1546, 1762
+  xy: 894, 1538
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Halberdier-Dwarven-1
   rotate: false
-  xy: 1546, 1762
+  xy: 894, 1538
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Lightsaberman-Dwarven-1
   rotate: false
-  xy: 1546, 1762
+  xy: 894, 1538
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Musketman-Dwarven-1
   rotate: false
-  xy: 1546, 1762
+  xy: 894, 1538
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pikeman-Dwarven-1
   rotate: false
-  xy: 1546, 1762
+  xy: 894, 1538
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Archer-Dwarven-2
   rotate: false
-  xy: 1546, 1726
+  xy: 854, 1466
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Archer-Elven
   rotate: false
-  xy: 1586, 1762
+  xy: 934, 1538
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Archer-Gnome
   rotate: false
-  xy: 1586, 1726
+  xy: 894, 1502
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Archer-Goblin
   rotate: false
-  xy: 1626, 1762
+  xy: 894, 1466
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Archer-Human
   rotate: false
-  xy: 1626, 1726
+  xy: 934, 1502
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Archer-Human-1
   rotate: false
-  xy: 1666, 1762
+  xy: 934, 1466
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Archer-Icemen
   rotate: false
-  xy: 1666, 1726
+  xy: 426, 1114
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Archer-Machina
   rotate: false
-  xy: 1706, 1762
+  xy: 466, 1114
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Archer-Moken
   rotate: false
-  xy: 1706, 1726
+  xy: 506, 1114
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Armoured Frigate
   rotate: false
-  xy: 1786, 1762
+  xy: 321, 722
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Armoured Frigate-1
   rotate: false
-  xy: 1826, 1762
+  xy: 321, 686
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Armoured Frigate-2
   rotate: false
-  xy: 1746, 1724
+  xy: 361, 774
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Axeman
   rotate: false
-  xy: 1786, 1726
+  xy: 361, 738
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ballista
   rotate: false
-  xy: 1826, 1726
+  xy: 361, 702
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Bard
   rotate: false
-  xy: 250, 12
+  xy: 361, 666
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Bazooka
   rotate: false
-  xy: 746, 1430
+  xy: 363, 1098
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Bazooka-1
   rotate: false
-  xy: 746, 1394
+  xy: 364, 1062
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Bazooka-2
   rotate: false
-  xy: 786, 1430
+  xy: 401, 774
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Bladedancer
   rotate: false
-  xy: 786, 1394
+  xy: 401, 700
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Bladedancer-2
   rotate: false
-  xy: 826, 1430
+  xy: 401, 664
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pike and Shot-Human-2
   rotate: false
-  xy: 826, 1430
+  xy: 401, 664
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Caravel
   rotate: false
-  xy: 826, 1394
+  xy: 303, 650
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Caravel-1
   rotate: false
-  xy: 866, 1430
+  xy: 1452, 1592
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Caravel-2
   rotate: false
-  xy: 826, 1358
+  xy: 1465, 1556
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Carrier
   rotate: false
-  xy: 866, 1394
+  xy: 1465, 1520
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Carrier-1
   rotate: false
-  xy: 906, 1430
+  xy: 974, 1538
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Carrier-2
   rotate: false
-  xy: 866, 1358
+  xy: 974, 1502
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Catapult
   rotate: false
-  xy: 906, 1394
+  xy: 974, 1466
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Catapult-1
   rotate: false
-  xy: 906, 1358
+  xy: 1014, 1554
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Catapult-2
   rotate: false
-  xy: 746, 1320
+  xy: 1054, 1554
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Cavalry-Demonic
   rotate: false
-  xy: 786, 1322
+  xy: 1014, 1518
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Cavalry-Desert
   rotate: false
-  xy: 826, 1322
+  xy: 1014, 1482
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Cavalry-Dryad
   rotate: false
-  xy: 866, 1321
+  xy: 1054, 1517
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Cavalry-Dwarven
   rotate: false
-  xy: 906, 1322
+  xy: 1054, 1481
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Cavalry-Dwarven-1
   rotate: false
-  xy: 308, 28
+  xy: 1014, 1446
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Cavalry-Dwarven-2
   rotate: false
-  xy: 339, 650
+  xy: 1054, 1445
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Cavalry-Elven
   rotate: false
-  xy: 339, 614
+  xy: 1094, 1546
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Cavalry-Gnome
   rotate: false
-  xy: 339, 578
+  xy: 1094, 1510
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Cavalry-Goblin
   rotate: false
-  xy: 944, 1682
+  xy: 1134, 1546
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Cavalry-Human
   rotate: false
-  xy: 957, 1646
+  xy: 1094, 1474
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Cavalry-Human-1
   rotate: false
-  xy: 957, 1610
+  xy: 1134, 1510
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Cavalry-Human-2
   rotate: false
-  xy: 957, 1574
+  xy: 1174, 1546
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Cavalry-Icemen
   rotate: false
-  xy: 946, 1430
+  xy: 1134, 1474
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Cavalry-Machina
   rotate: false
-  xy: 946, 1394
+  xy: 1174, 1510
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Cavalry-Moken
   rotate: false
-  xy: 946, 1358
+  xy: 1214, 1546
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Centaurs
   rotate: false
-  xy: 946, 1322
+  xy: 1174, 1474
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Chariot Archer-Demonic
   rotate: false
-  xy: 984, 1682
+  xy: 1214, 1510
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Chariot Archer-Desert
   rotate: false
-  xy: 997, 1646
+  xy: 1214, 1474
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Chariot Archer-Dryad
   rotate: false
-  xy: 997, 1610
+  xy: 1094, 1438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Chariot Archer-Dwarven
   rotate: false
-  xy: 997, 1574
+  xy: 1134, 1438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Chariot Archer-Dwarven-2
   rotate: false
-  xy: 1024, 1682
+  xy: 1174, 1438
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Chariot Archer-Elven
   rotate: false
-  xy: 1037, 1645
+  xy: 1214, 1437
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Chariot Archer-Gnome
   rotate: false
-  xy: 1037, 1609
+  xy: 1492, 1592
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Chariot Archer-Goblin
   rotate: false
-  xy: 1037, 1572
+  xy: 1505, 1555
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Chariot Archer-Human
   rotate: false
-  xy: 1064, 1682
+  xy: 1505, 1519
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Chariot Archer-Human-1
   rotate: false
-  xy: 1077, 1646
+  xy: 1532, 1592
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Chariot Archer-Human-2
   rotate: false
-  xy: 1077, 1610
+  xy: 1545, 1556
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Chariot Archer-Icemen
   rotate: false
-  xy: 1077, 1573
+  xy: 1545, 1519
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Chariot Archer-Machina
   rotate: false
-  xy: 1104, 1682
+  xy: 1572, 1592
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Chariot Archer-Moken
   rotate: false
-  xy: 1117, 1645
+  xy: 1585, 1555
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Cleric
   rotate: false
-  xy: 1386, 1690
+  xy: 987, 1370
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Cleric-1
   rotate: false
-  xy: 1426, 1690
+  xy: 1612, 1592
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Prophet-2
   rotate: false
-  xy: 1426, 1690
+  xy: 1612, 1592
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Cleric-2
   rotate: false
-  xy: 1466, 1690
+  xy: 1625, 1556
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Composite Bowman-Barbarians
   rotate: false
-  xy: 1626, 1690
+  xy: 1652, 1592
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Composite Bowman-Demonic
   rotate: false
-  xy: 1666, 1690
+  xy: 1665, 1556
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Composite Bowman-Dryad
   rotate: false
-  xy: 1706, 1690
+  xy: 1665, 1520
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Composite Bowman-Dwarven
   rotate: false
-  xy: 1746, 1687
+  xy: 1067, 1401
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Composite Bowman-Dwarven-1
   rotate: false
-  xy: 1786, 1689
+  xy: 1107, 1401
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Swordsman-Dwarven-1
   rotate: false
-  xy: 1786, 1689
+  xy: 1107, 1401
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Composite Bowman-Dwarven-2
   rotate: false
-  xy: 1826, 1689
+  xy: 1147, 1401
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Composite Bowman-Elven
   rotate: false
-  xy: 339, 541
+  xy: 1067, 1364
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Composite Bowman-Gnome
   rotate: false
-  xy: 335, 505
+  xy: 1107, 1365
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Composite Bowman-Goblin
   rotate: false
-  xy: 335, 468
+  xy: 1147, 1364
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Composite Bowman-Human
   rotate: false
-  xy: 335, 432
+  xy: 1027, 1337
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Composite Bowman-Human-1
   rotate: false
-  xy: 335, 396
+  xy: 1067, 1328
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Composite Bowman-Human-2
   rotate: false
-  xy: 335, 360
+  xy: 1107, 1329
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Composite Bowman-Icemen
   rotate: false
-  xy: 335, 324
+  xy: 1147, 1328
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Composite Bowman-Machina
   rotate: false
-  xy: 335, 288
+  xy: 1692, 1592
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Composite Bowman-Moken
   rotate: false
-  xy: 348, 251
+  xy: 1705, 1555
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Crossbowman-Demonic
   rotate: false
-  xy: 348, 143
+  xy: 1187, 1329
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Crossbowman-Desert
   rotate: false
-  xy: 348, 107
+  xy: 1227, 1401
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Crossbowman-Dryad
   rotate: false
-  xy: 348, 71
+  xy: 1227, 1365
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Crossbowman-Dwarven
   rotate: false
-  xy: 348, 35
+  xy: 1227, 1329
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Crossbowman-Dwarven-2
   rotate: false
-  xy: 957, 1537
+  xy: 303, 613
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Crossbowman-Gnome
   rotate: false
-  xy: 997, 1538
+  xy: 343, 630
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Crossbowman-Goblin
   rotate: false
-  xy: 1037, 1536
+  xy: 343, 594
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Crossbowman-Human
   rotate: false
-  xy: 1144, 1682
+  xy: 383, 628
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Crossbowman-Human-1
   rotate: false
-  xy: 1157, 1646
+  xy: 383, 592
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Crossbowman-Human-2
   rotate: false
-  xy: 1157, 1610
+  xy: 423, 628
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Crossbowman-Icemen
   rotate: false
-  xy: 1157, 1574
+  xy: 423, 592
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Crossbowman-Machina
   rotate: false
-  xy: 1157, 1538
+  xy: 1732, 1592
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Crossbowman-Moken
   rotate: false
-  xy: 1157, 1502
+  xy: 1745, 1556
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Cyborg
   rotate: false
-  xy: 1907, 1768
+  xy: 907, 1346
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Cyborg-1
   rotate: false
-  xy: 1947, 1768
+  xy: 947, 1345
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Cyborg-2
   rotate: false
-  xy: 1866, 1730
+  xy: 987, 1331
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Damphyr
   rotate: false
-  xy: 1866, 1694
+  xy: 1772, 1592
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Destroyer
   rotate: false
-  xy: 959, 1466
+  xy: 1825, 1520
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Destroyer-1
   rotate: false
-  xy: 1986, 1683
+  xy: 1865, 1559
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Destroyer-2
   rotate: false
-  xy: 1184, 1682
+  xy: 1865, 1523
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Divine Order
   rotate: false
-  xy: 1197, 1610
+  xy: 1905, 1559
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Dracula
   rotate: false
-  xy: 1197, 1574
+  xy: 1905, 1523
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Dullahan
   rotate: false
-  xy: 986, 1429
+  xy: 1107, 1292
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Earth Element
   rotate: false
-  xy: 986, 1393
+  xy: 1147, 1292
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Earth Element-1
   rotate: false
-  xy: 986, 1357
+  xy: 1187, 1293
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Earth Element-2
   rotate: false
-  xy: 986, 1321
+  xy: 1227, 1293
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Fire Element-2
   rotate: false
-  xy: 986, 1321
+  xy: 1227, 1293
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Metal Element-2
   rotate: false
-  xy: 986, 1321
+  xy: 1227, 1293
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Water Element-2
   rotate: false
-  xy: 986, 1321
+  xy: 1227, 1293
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wood Element-2
   rotate: false
-  xy: 986, 1321
+  xy: 1227, 1293
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Educated Beast Tamer
   rotate: false
-  xy: 999, 1466
+  xy: 1625, 1484
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Elite Beast Tamer
   rotate: false
-  xy: 997, 1502
+  xy: 1665, 1484
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Elite Beast Tamer-1
   rotate: false
-  xy: 1224, 1682
+  xy: 1705, 1483
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Lightsaberman-Human-1
   rotate: false
-  xy: 1224, 1682
+  xy: 1705, 1483
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Longswordsman-Human-1
   rotate: false
-  xy: 1224, 1682
+  xy: 1705, 1483
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Elite Beast Tamer-2
   rotate: false
-  xy: 1237, 1646
+  xy: 1745, 1482
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Elite Spearman
   rotate: false
-  xy: 1237, 1610
+  xy: 1785, 1484
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Entilon
   rotate: false
-  xy: 1237, 1574
+  xy: 1825, 1484
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Fanatic
   rotate: false
-  xy: 1237, 1538
+  xy: 1865, 1487
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Fast Worker
   rotate: false
-  xy: 1264, 1682
+  xy: 1416, 1704
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Fire Element
   rotate: false
-  xy: 1304, 1682
+  xy: 1456, 1704
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Fire Element-1
   rotate: false
-  xy: 1277, 1646
+  xy: 1496, 1704
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Frigate
   rotate: false
-  xy: 1357, 1578
+  xy: 1616, 1696
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Frigate-1
   rotate: false
-  xy: 1357, 1542
+  xy: 1656, 1696
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Frigate-2
   rotate: false
-  xy: 1357, 1506
+  xy: 1612, 1660
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Gaius Duilius
   rotate: false
-  xy: 1397, 1654
+  xy: 1652, 1660
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Gaius Duilius-1
   rotate: false
-  xy: 1437, 1654
+  xy: 1865, 1451
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Gaius Duilius-2
   rotate: false
-  xy: 1397, 1618
+  xy: 1905, 1451
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Galleass
   rotate: false
-  xy: 1477, 1654
+  xy: 223, 608
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Galleass-1
   rotate: false
-  xy: 1397, 1582
+  xy: 263, 608
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Galleass-2
   rotate: false
-  xy: 1437, 1618
+  xy: 219, 572
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Admiral
   rotate: false
-  xy: 1397, 1507
+  xy: 219, 461
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Admiral-1
   rotate: false
-  xy: 1437, 1543
+  xy: 259, 497
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Admiral-2
   rotate: false
-  xy: 1477, 1579
+  xy: 219, 422
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Artist-Demonic
   rotate: false
-  xy: 1557, 1654
+  xy: 259, 461
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Artist-Desert
   rotate: false
-  xy: 1517, 1618
+  xy: 219, 386
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Artist-Dryad
   rotate: false
-  xy: 1437, 1507
+  xy: 259, 425
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Artist-Dwarven
   rotate: false
-  xy: 1477, 1543
+  xy: 219, 350
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Artist-Dwarven-1
   rotate: false
-  xy: 1597, 1654
+  xy: 259, 389
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Merchant-Dwarven-1
   rotate: false
-  xy: 1597, 1654
+  xy: 259, 389
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Artist-Dwarven-2
   rotate: false
-  xy: 1517, 1582
+  xy: 219, 314
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Artist-Elven
   rotate: false
-  xy: 1557, 1618
+  xy: 259, 353
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Artist-Gnome
   rotate: false
-  xy: 1477, 1507
+  xy: 259, 317
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Artist-Goblin
   rotate: false
-  xy: 1637, 1654
+  xy: 303, 577
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Artist-Human
   rotate: false
-  xy: 1517, 1546
+  xy: 299, 541
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Artist-Human-1
   rotate: false
-  xy: 1557, 1582
+  xy: 299, 505
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Artist-Icemen
   rotate: false
-  xy: 1597, 1618
+  xy: 299, 469
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Artist-Machina
   rotate: false
-  xy: 1677, 1654
+  xy: 299, 433
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Artist-Moken
   rotate: false
-  xy: 1517, 1510
+  xy: 299, 397
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Engineer-Demonic
   rotate: false
-  xy: 1557, 1546
+  xy: 299, 361
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Engineer-Desert
   rotate: false
-  xy: 1597, 1582
+  xy: 299, 325
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Engineer-Dryad
   rotate: false
-  xy: 1637, 1618
+  xy: 219, 278
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Engineer-Dwarven
   rotate: false
-  xy: 1557, 1510
+  xy: 259, 281
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Engineer-Dwarven-2
   rotate: false
-  xy: 1597, 1546
+  xy: 299, 289
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Engineer-Elven
   rotate: false
-  xy: 1637, 1582
+  xy: 343, 558
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Engineer-Gnome
   rotate: false
-  xy: 1677, 1618
+  xy: 383, 556
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Engineer-Goblin
   rotate: false
-  xy: 1597, 1509
+  xy: 423, 555
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Engineer-Human
   rotate: false
-  xy: 1637, 1546
+  xy: 339, 522
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Engineer-Human-1
   rotate: false
-  xy: 1677, 1582
+  xy: 339, 486
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Engineer-Human-2
   rotate: false
-  xy: 1637, 1510
+  xy: 339, 450
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Engineer-Icemen
   rotate: false
-  xy: 1677, 1546
+  xy: 339, 414
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Engineer-Moken
   rotate: false
-  xy: 1677, 1510
+  xy: 339, 378
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Farmer
   rotate: false
-  xy: 1026, 1430
+  xy: 339, 342
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great General-Desert
   rotate: false
-  xy: 1026, 1391
+  xy: 339, 303
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great General-Dryad
   rotate: false
-  xy: 1026, 1352
+  xy: 379, 517
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great General-Elven
   rotate: false
-  xy: 1026, 1313
+  xy: 379, 478
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great General-Goblin
   rotate: false
-  xy: 1717, 1648
+  xy: 379, 439
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great General-Human
   rotate: false
-  xy: 1717, 1609
+  xy: 379, 400
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great General-Human-1
   rotate: false
-  xy: 1717, 1570
+  xy: 379, 361
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great General-Moken-1
   rotate: false
-  xy: 1717, 1570
+  xy: 379, 361
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great General-Human-2
   rotate: false
-  xy: 1717, 1531
+  xy: 379, 322
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great General-Moken-2
   rotate: false
-  xy: 1717, 1531
+  xy: 379, 322
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great General-Icemen
   rotate: false
-  xy: 1757, 1648
+  xy: 419, 516
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great General-Moken
   rotate: false
-  xy: 1757, 1609
+  xy: 419, 477
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Merchant-Demonic
   rotate: false
-  xy: 1757, 1573
+  xy: 419, 441
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Merchant-Desert
   rotate: false
-  xy: 1757, 1537
+  xy: 419, 405
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Merchant-Dryad
   rotate: false
-  xy: 1797, 1653
+  xy: 419, 369
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Merchant-Dwarven
   rotate: false
-  xy: 1797, 1617
+  xy: 419, 333
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Merchant-Dwarven-2
   rotate: false
-  xy: 1797, 1581
+  xy: 379, 286
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Merchant-Elven
   rotate: false
-  xy: 1797, 1545
+  xy: 419, 297
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Merchant-Gnome
   rotate: false
-  xy: 1837, 1653
+  xy: 339, 267
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Merchant-Goblin
   rotate: false
-  xy: 1837, 1617
+  xy: 299, 253
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Merchant-Human
   rotate: false
-  xy: 1837, 1581
+  xy: 259, 245
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Merchant-Human-1
   rotate: false
-  xy: 1837, 1545
+  xy: 379, 250
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Merchant-Human-2
   rotate: false
-  xy: 1039, 1466
+  xy: 419, 261
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Merchant-Machina
   rotate: false
-  xy: 1717, 1495
+  xy: 339, 231
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Merchant-Moken
   rotate: false
-  xy: 1757, 1501
+  xy: 299, 217
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Prophet
   rotate: false
-  xy: 1797, 1509
+  xy: 379, 214
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Prophet-1
   rotate: false
-  xy: 1837, 1509
+  xy: 419, 225
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Scientist-Human
   rotate: false
-  xy: 1877, 1658
+  xy: 339, 195
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Scientist-Human-2
   rotate: false
-  xy: 1877, 1622
+  xy: 379, 178
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Great Scientist-Moken
   rotate: false
-  xy: 1877, 1586
+  xy: 419, 189
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Halberdier
   rotate: false
-  xy: 1917, 1660
+  xy: 1908, 1851
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Halberdier-Barbarians
   rotate: false
-  xy: 1917, 1624
+  xy: 1908, 1815
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Halberdier-Demonic
   rotate: false
-  xy: 1917, 1588
+  xy: 1908, 1779
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Halberdier-Desert
   rotate: false
-  xy: 1917, 1552
+  xy: 1908, 1743
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Halberdier-Dryad
   rotate: false
-  xy: 1917, 1516
+  xy: 1908, 1707
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Halberdier-Dwarven
   rotate: false
-  xy: 1066, 1430
+  xy: 1908, 1671
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Halberdier-Dwarven-2
   rotate: false
-  xy: 1066, 1394
+  xy: 1908, 1635
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pikeman-Dwarven-2
   rotate: false
-  xy: 1066, 1394
+  xy: 1908, 1635
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Halberdier-Elven
   rotate: false
-  xy: 1066, 1358
+  xy: 1932, 1599
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Halberdier-Gnome
   rotate: false
-  xy: 1066, 1322
+  xy: 1945, 1563
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Halberdier-Goblin
   rotate: false
-  xy: 1079, 1466
+  xy: 1945, 1527
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Halberdier-Human
   rotate: false
-  xy: 1066, 1286
+  xy: 1945, 1491
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Halberdier-Human-1
   rotate: false
-  xy: 1106, 1430
+  xy: 1945, 1455
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pikeman-Human-1
   rotate: false
-  xy: 1106, 1430
+  xy: 1945, 1455
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Halberdier-Human-2
   rotate: false
-  xy: 1106, 1394
+  xy: 1945, 1419
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Halberdier-Iceman
   rotate: false
-  xy: 1106, 1358
+  xy: 1785, 1448
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Halberdier-Machina
   rotate: false
-  xy: 1106, 1322
+  xy: 1825, 1448
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Halberdier-Moken
   rotate: false
-  xy: 1106, 1286
+  xy: 1865, 1415
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Homunculus
   rotate: false
-  xy: 1119, 1466
+  xy: 1905, 1415
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Horseman-Demonic
   rotate: false
-  xy: 1159, 1466
+  xy: 1945, 1383
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Horseman-Desert
   rotate: false
-  xy: 1146, 1430
+  xy: 1187, 1257
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Horseman-Dryad
   rotate: false
-  xy: 1146, 1393
+  xy: 1227, 1256
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Horseman-Dwarven
   rotate: false
-  xy: 1199, 1466
+  xy: 579, 1314
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Horseman-Dwarven-1
   rotate: false
-  xy: 1186, 1430
+  xy: 580, 1278
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Horseman-Dwarven-2
   rotate: false
-  xy: 1146, 1357
+  xy: 441, 1078
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Horseman-Elven
   rotate: false
-  xy: 1186, 1393
+  xy: 481, 1077
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Horseman-Gnome
   rotate: false
-  xy: 1239, 1466
+  xy: 521, 1078
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Horseman-Human
   rotate: false
-  xy: 1226, 1430
+  xy: 561, 1098
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Horseman-Human-1
   rotate: false
-  xy: 1146, 1321
+  xy: 601, 1098
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Horseman-Human-2
   rotate: false
-  xy: 1186, 1357
+  xy: 561, 1062
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Horseman-Iceman
   rotate: false
-  xy: 1226, 1393
+  xy: 601, 1061
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Horseman-Machina
   rotate: false
-  xy: 1279, 1466
+  xy: 521, 1042
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Horseman-Moken
   rotate: false
-  xy: 1266, 1429
+  xy: 561, 1025
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Howitzer
   rotate: false
-  xy: 1186, 1321
+  xy: 601, 1025
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Howitzer-2
   rotate: false
-  xy: 1226, 1357
+  xy: 441, 1042
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Hunter
   rotate: false
-  xy: 1266, 1393
+  xy: 481, 1041
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Hybrid Airship
   rotate: false
-  xy: 1226, 1309
+  xy: 521, 994
   size: 32, 40
   orig: 32, 40
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Zeppelin
   rotate: false
-  xy: 1226, 1309
+  xy: 521, 994
   size: 32, 40
   orig: 32, 40
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Hybrid Airship-1
   rotate: false
-  xy: 1266, 1345
+  xy: 561, 977
   size: 32, 40
   orig: 32, 40
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Zeppelin-1
   rotate: false
-  xy: 1266, 1345
+  xy: 561, 977
   size: 32, 40
   orig: 32, 40
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Hybrid Airship-2
   rotate: false
-  xy: 1266, 1297
+  xy: 601, 977
   size: 32, 40
   orig: 32, 40
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Zeppelin-2
   rotate: false
-  xy: 1266, 1297
+  xy: 601, 977
   size: 32, 40
   orig: 32, 40
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Infantry-Barbarians
   rotate: false
-  xy: 1186, 1285
+  xy: 417, 970
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Infantry-Demonic
   rotate: false
-  xy: 1226, 1273
+  xy: 417, 934
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Infantry-Desert
   rotate: false
-  xy: 1319, 1466
+  xy: 419, 898
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Infantry-Dwarven
   rotate: false
-  xy: 1306, 1430
+  xy: 419, 862
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Infantry-Dwarven-1
   rotate: false
-  xy: 1306, 1394
+  xy: 419, 826
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Infantry-Dwarven-2
   rotate: false
-  xy: 1306, 1358
+  xy: 457, 1005
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Infantry-Elven
   rotate: false
-  xy: 1306, 1322
+  xy: 457, 969
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Infantry-Gnome
   rotate: false
-  xy: 1359, 1470
+  xy: 497, 958
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Infantry-Goblin
   rotate: false
-  xy: 1399, 1471
+  xy: 1692, 1660
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Infantry-Human
   rotate: false
-  xy: 1439, 1471
+  xy: 1732, 1644
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Infantry-Human-1
   rotate: false
-  xy: 1479, 1471
+  xy: 459, 519
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Infantry-Human-2
   rotate: false
-  xy: 1519, 1474
+  xy: 459, 483
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Infantry-Icemen
   rotate: false
-  xy: 1306, 1286
+  xy: 459, 447
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Infantry-Machina
   rotate: false
-  xy: 1266, 1261
+  xy: 459, 411
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Infantry-Moken
   rotate: false
-  xy: 1306, 1249
+  xy: 459, 374
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Inquisitor
   rotate: false
-  xy: 1346, 1430
+  xy: 459, 338
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Inquisitor-1
   rotate: false
-  xy: 1346, 1394
+  xy: 459, 302
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Inquisitor-2
   rotate: false
-  xy: 1346, 1358
+  xy: 459, 266
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Iron Templar
   rotate: false
-  xy: 1346, 1322
+  xy: 459, 230
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ironclad
   rotate: false
-  xy: 1346, 1286
+  xy: 459, 194
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ironclad-1
   rotate: false
-  xy: 1346, 1250
+  xy: 459, 158
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ironclad-2
   rotate: false
-  xy: 1797, 1473
+  xy: 459, 122
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Jeanne d'Arc
   rotate: false
-  xy: 1877, 1478
+  xy: 1948, 1799
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Jeanne d'Arc-1
   rotate: false
-  xy: 1917, 1480
+  xy: 1988, 1835
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Jeanne d'Arc-2
   rotate: false
-  xy: 1757, 1465
+  xy: 1948, 1763
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Kalsharin
   rotate: false
-  xy: 1837, 1436
+  xy: 1948, 1726
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ken Arok
   rotate: false
-  xy: 1877, 1442
+  xy: 1988, 1763
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ken Arok-2
   rotate: false
-  xy: 1917, 1444
+  xy: 1948, 1690
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Knight-Desert
   rotate: false
-  xy: 1957, 1646
+  xy: 1988, 1726
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Knight-Dryad
   rotate: false
-  xy: 1957, 1609
+  xy: 1948, 1653
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Knight-Dwarven
   rotate: false
-  xy: 1957, 1573
+  xy: 1988, 1690
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Knight-Gnome
   rotate: false
-  xy: 1957, 1573
+  xy: 1988, 1690
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Knight-Dwarven-1
   rotate: false
-  xy: 1957, 1537
+  xy: 1988, 1654
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Knight-Gnome-1
   rotate: false
-  xy: 1957, 1537
+  xy: 1988, 1654
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Knight-Dwarven-2
   rotate: false
-  xy: 1957, 1501
+  xy: 1988, 1618
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Knight-Gnome-2
   rotate: false
-  xy: 1957, 1501
+  xy: 1988, 1618
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Knight-Elven
   rotate: false
-  xy: 1957, 1464
+  xy: 1985, 1581
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Knight-Goblin
   rotate: false
-  xy: 1997, 1645
+  xy: 1985, 1543
   size: 32, 30
   orig: 32, 30
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Knight-Human
   rotate: false
-  xy: 1997, 1609
+  xy: 1985, 1507
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Knight-Human-1
   rotate: false
-  xy: 1997, 1573
+  xy: 1985, 1471
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Knight-Human-2
   rotate: false
-  xy: 1997, 1537
+  xy: 1985, 1435
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Knight-Icemen
   rotate: false
-  xy: 1997, 1500
+  xy: 1985, 1398
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Knight-Machina
   rotate: false
-  xy: 1997, 1464
+  xy: 1985, 1362
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Knight-Moken
   rotate: false
-  xy: 1957, 1427
+  xy: 682, 1366
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Landship
   rotate: false
-  xy: 1917, 1408
+  xy: 682, 1330
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Landship-1
   rotate: false
-  xy: 1877, 1406
+  xy: 722, 1320
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Landship-2
   rotate: false
-  xy: 1957, 1391
+  xy: 762, 1344
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Laskar
   rotate: false
-  xy: 1997, 1380
+  xy: 802, 1343
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Leonidas
   rotate: false
-  xy: 1917, 1372
+  xy: 842, 1344
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Leonidas-2
   rotate: false
-  xy: 1957, 1355
+  xy: 762, 1308
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Lich
   rotate: false
-  xy: 1386, 1431
+  xy: 842, 1305
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Lightsaberman-Demonic
   rotate: false
-  xy: 1386, 1395
+  xy: 882, 1310
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Lightsaberman-Desert
   rotate: false
-  xy: 1386, 1359
+  xy: 922, 1309
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Lightsaberman-Dryad
   rotate: false
-  xy: 1386, 1323
+  xy: 882, 1274
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Lightsaberman-Dwarven
   rotate: false
-  xy: 1386, 1287
+  xy: 922, 1273
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Lightsaberman-Dwarven-2
   rotate: false
-  xy: 1386, 1251
+  xy: 962, 1295
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Lightsaberman-Elven
   rotate: false
-  xy: 1426, 1434
+  xy: 962, 1258
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Lightsaberman-Gnome
   rotate: false
-  xy: 1466, 1435
+  xy: 1002, 1265
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Lightsaberman-Goblin
   rotate: false
-  xy: 1426, 1397
+  xy: 1002, 1228
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Lightsaberman-Human
   rotate: false
-  xy: 1466, 1399
+  xy: 1042, 1256
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Lightsaberman-Human-2
   rotate: false
-  xy: 1426, 1361
+  xy: 1082, 1256
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Lightsaberman-Icemen
   rotate: false
-  xy: 1466, 1362
+  xy: 1122, 1255
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Lightsaberman-Machina
   rotate: false
-  xy: 1426, 1325
+  xy: 1042, 1220
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Lightsaberman-Moken
   rotate: false
-  xy: 1466, 1325
+  xy: 1082, 1219
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Longswordsman-Barbarians
   rotate: false
-  xy: 1426, 1289
+  xy: 1122, 1219
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Longswordsman-Demonic
   rotate: false
-  xy: 1426, 1253
+  xy: 1162, 1221
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Longswordsman-Desert
   rotate: false
-  xy: 1466, 1289
+  xy: 1202, 1220
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Longswordsman-Dryad
   rotate: false
-  xy: 1466, 1253
+  xy: 1242, 1220
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Longswordsman-Dwarven
   rotate: false
-  xy: 1506, 1435
+  xy: 1162, 1185
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Longswordsman-Elven
   rotate: false
-  xy: 1506, 1398
+  xy: 1202, 1183
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Longswordsman-Gnome
   rotate: false
-  xy: 1506, 1362
+  xy: 1242, 1184
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Longswordsman-Human
   rotate: false
-  xy: 1506, 1326
+  xy: 1242, 1148
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Longswordsman-Human-2
   rotate: false
-  xy: 1506, 1290
+  xy: 1254, 1503
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Longswordsman-Icemen
   rotate: false
-  xy: 1506, 1254
+  xy: 1254, 1467
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Longswordsman-Moken
   rotate: false
-  xy: 1546, 1437
+  xy: 1294, 1502
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Luan
   rotate: false
-  xy: 1546, 1401
+  xy: 1294, 1466
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Machine Gun-Barbarians
   rotate: false
-  xy: 1546, 1365
+  xy: 1334, 1498
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Machine Gun-Demonic
   rotate: false
-  xy: 1546, 1329
+  xy: 1374, 1498
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Machine Gun-Desert
   rotate: false
-  xy: 1546, 1293
+  xy: 1414, 1498
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Machine Gun-Dwarven
   rotate: false
-  xy: 1546, 1257
+  xy: 1334, 1462
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Machine Gun-Dwarven-1
   rotate: false
-  xy: 1546, 1221
+  xy: 1374, 1462
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Machine Gun-Dwarven-2
   rotate: false
-  xy: 1506, 1218
+  xy: 1414, 1462
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Machine Gun-Elven
   rotate: false
-  xy: 1546, 1185
+  xy: 1454, 1484
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Machine Gun-Gnome
   rotate: false
-  xy: 647, 1133
+  xy: 1494, 1483
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Machine Gun-Goblin
   rotate: false
-  xy: 687, 1133
+  xy: 1534, 1483
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Machine Gun-Human
   rotate: false
-  xy: 727, 1133
+  xy: 1454, 1448
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Machine Gun-Human-1
   rotate: false
-  xy: 786, 1286
+  xy: 1494, 1447
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Machine Gun-Human-2
   rotate: false
-  xy: 826, 1286
+  xy: 1534, 1447
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Machine Gun-Icemen
   rotate: false
-  xy: 866, 1285
+  xy: 1574, 1479
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Machine Gun-Machina
   rotate: false
-  xy: 906, 1286
+  xy: 1574, 1443
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Machine Gun-Moken
   rotate: false
-  xy: 946, 1285
+  xy: 1614, 1447
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Maeron
   rotate: false
-  xy: 986, 1284
+  xy: 1654, 1447
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mammoth Rider
   rotate: false
-  xy: 1066, 1247
+  xy: 1734, 1443
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mammoth Rider-1
   rotate: false
-  xy: 1106, 1249
+  xy: 1614, 1410
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mammoth Rider-2
   rotate: false
-  xy: 1146, 1248
+  xy: 1654, 1410
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Marauder
   rotate: false
-  xy: 1266, 1225
+  xy: 1774, 1412
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mas Karebet
   rotate: false
-  xy: 1306, 1212
+  xy: 1814, 1411
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mas Karebet-2
   rotate: false
-  xy: 1346, 1213
+  xy: 1774, 1375
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Sorcerer-2
   rotate: false
-  xy: 1346, 1213
+  xy: 1774, 1375
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Megalodon
   rotate: false
-  xy: 1506, 1182
+  xy: 1854, 1343
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Metal Element
   rotate: false
-  xy: 1226, 1201
+  xy: 1934, 1347
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Metal Element-1
   rotate: false
-  xy: 1266, 1189
+  xy: 1934, 1311
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mink
   rotate: false
-  xy: 1306, 1176
+  xy: 1974, 1326
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Minotaur
   rotate: false
-  xy: 1346, 1177
+  xy: 1974, 1290
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Minotaur2
   rotate: false
-  xy: 1386, 1172
+  xy: 1694, 1375
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Minotaur3
   rotate: false
-  xy: 1426, 1181
+  xy: 1734, 1371
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Missionary
   rotate: false
-  xy: 1466, 1181
+  xy: 1774, 1339
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Missionary-1
   rotate: false
-  xy: 1426, 1145
+  xy: 1814, 1332
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Missionary-2
   rotate: false
-  xy: 1466, 1145
+  xy: 1854, 1307
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Musketman-Barbarians
   rotate: false
-  xy: 1546, 1149
+  xy: 1934, 1275
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Musketman-Demonic
   rotate: false
-  xy: 1546, 1113
+  xy: 1974, 1254
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Musketman-Desert
   rotate: false
-  xy: 1346, 1141
+  xy: 641, 1297
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Musketman-Dryad
   rotate: false
-  xy: 1386, 1136
+  xy: 681, 1294
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Musketman-Dwarven
   rotate: false
-  xy: 1426, 1109
+  xy: 721, 1284
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Musketman-Dwarven-2
   rotate: false
-  xy: 1466, 1109
+  xy: 761, 1272
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Musketman-Elven
   rotate: false
-  xy: 1506, 1105
+  xy: 801, 1270
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Musketman-Gnome
   rotate: false
-  xy: 1546, 1077
+  xy: 841, 1269
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Musketman-Goblin
   rotate: false
-  xy: 1106, 1212
+  xy: 881, 1237
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Musketman-Human
   rotate: false
-  xy: 1146, 1212
+  xy: 921, 1237
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Musketman-Human-1
   rotate: false
-  xy: 906, 1250
+  xy: 961, 1222
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Musketman-Human-2
   rotate: false
-  xy: 946, 1249
+  xy: 1001, 1192
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Musketman-Machina
   rotate: false
-  xy: 986, 1248
+  xy: 1041, 1184
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Musketman-Moken
   rotate: false
-  xy: 1026, 1240
+  xy: 1081, 1182
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Novice Beast Tamer
   rotate: false
-  xy: 350, 941
+  xy: 641, 1261
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Onmyouji
   rotate: false
-  xy: 353, 905
+  xy: 721, 1248
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Orc
   rotate: false
-  xy: 353, 868
+  xy: 761, 1235
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pandji
   rotate: false
-  xy: 353, 832
+  xy: 801, 1234
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pandji-2
   rotate: false
-  xy: 353, 796
+  xy: 841, 1233
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Para Artist
   rotate: false
-  xy: 353, 760
+  xy: 633, 1225
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Para Settler
   rotate: false
-  xy: 353, 723
+  xy: 633, 1188
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pathfinder
   rotate: false
-  xy: 353, 687
+  xy: 633, 1152
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pathfinder-1
   rotate: false
-  xy: 393, 905
+  xy: 673, 1222
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pathfinder-2
   rotate: false
-  xy: 393, 869
+  xy: 673, 1186
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Patorani
   rotate: false
-  xy: 393, 833
+  xy: 673, 1150
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pegasus
   rotate: false
-  xy: 393, 797
+  xy: 713, 1212
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Petard
   rotate: false
-  xy: 393, 725
+  xy: 753, 1199
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Peuchen
   rotate: false
-  xy: 393, 689
+  xy: 793, 1198
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Peuchen-Feudal age
   rotate: false
-  xy: 379, 651
+  xy: 833, 1197
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pike and Shot
   rotate: false
-  xy: 379, 579
+  xy: 753, 1163
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pike and Shot-Human
   rotate: false
-  xy: 379, 579
+  xy: 753, 1163
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pike and Shot-Demonic
   rotate: false
-  xy: 379, 543
+  xy: 793, 1162
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pike and Shot-Desert
   rotate: false
-  xy: 419, 653
+  xy: 833, 1161
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pike and Shot-Dryad
   rotate: false
-  xy: 419, 617
+  xy: 753, 1127
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pike and Shot-Dwarven
   rotate: false
-  xy: 419, 581
+  xy: 793, 1126
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pike and Shot-Dwarven-2
   rotate: false
-  xy: 419, 545
+  xy: 833, 1125
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pike and Shot-Elven
   rotate: false
-  xy: 379, 507
+  xy: 881, 1201
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pike and Shot-Gnome
   rotate: false
-  xy: 419, 509
+  xy: 921, 1201
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pike and Shot-Goblin
   rotate: false
-  xy: 375, 471
+  xy: 961, 1186
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pike and Shot-Human-1
   rotate: false
-  xy: 375, 435
+  xy: 873, 1165
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pike and Shot-Icemen
   rotate: false
-  xy: 375, 399
+  xy: 873, 1129
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pike and Shot-Machina
   rotate: false
-  xy: 375, 363
+  xy: 913, 1165
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pike and Shot-Moken
   rotate: false
-  xy: 375, 327
+  xy: 913, 1129
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pikeman-Barbarians
   rotate: false
-  xy: 375, 291
+  xy: 953, 1150
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pikeman-Demonic
   rotate: false
-  xy: 388, 255
+  xy: 953, 1114
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pikeman-Desert
   rotate: false
-  xy: 388, 219
+  xy: 1001, 1156
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pikeman-Dryad
   rotate: false
-  xy: 388, 183
+  xy: 1041, 1148
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pikeman-Dwarven
   rotate: false
-  xy: 388, 147
+  xy: 1081, 1146
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pikeman-Elven
   rotate: false
-  xy: 388, 110
+  xy: 1121, 1146
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pikeman-Gnome
   rotate: false
-  xy: 388, 74
+  xy: 1161, 1149
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pikeman-Goblin
   rotate: false
-  xy: 388, 38
+  xy: 1201, 1147
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pikeman-Human
   rotate: false
-  xy: 419, 473
+  xy: 993, 1120
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pikeman-Human-2
   rotate: false
-  xy: 415, 437
+  xy: 1033, 1112
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pikeman-Icemen
   rotate: false
-  xy: 415, 400
+  xy: 1073, 1109
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pikeman-Machina
   rotate: false
-  xy: 415, 364
+  xy: 1113, 1110
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pikeman-Moken
   rotate: false
-  xy: 415, 328
+  xy: 993, 1084
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pillager
   rotate: false
-  xy: 415, 292
+  xy: 1033, 1076
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Priest
   rotate: false
-  xy: 428, 76
+  xy: 1153, 1077
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Privateer
   rotate: false
-  xy: 428, 40
+  xy: 1193, 1075
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Privateer-1
   rotate: false
-  xy: 428, 4
+  xy: 1153, 1041
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Privateer-2
   rotate: false
-  xy: 1637, 1474
+  xy: 1113, 1038
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pseudo Mage
   rotate: false
-  xy: 1677, 1474
+  xy: 1193, 1039
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Pseudo Mage-2
   rotate: false
-  xy: 1717, 1459
+  xy: 1153, 1005
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Rain Worker
   rotate: false
-  xy: 1757, 1429
+  xy: 1193, 1003
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Rakshasa
   rotate: false
-  xy: 1797, 1397
+  xy: 1233, 1071
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ranger-Barbarians
   rotate: false
-  xy: 1837, 1400
+  xy: 1233, 1035
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ranger-Demonic
   rotate: false
-  xy: 1877, 1370
+  xy: 1233, 999
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ranger-Desert
   rotate: false
-  xy: 1837, 1364
+  xy: 873, 1093
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ranger-Dryad
   rotate: false
-  xy: 1917, 1336
+  xy: 913, 1093
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ranger-Dwarven
   rotate: false
-  xy: 1877, 1334
+  xy: 953, 1078
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ranger-Dwarven-1 
   rotate: false
-  xy: 1957, 1319
+  xy: 993, 1048
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Scout-Dwarven-1
   rotate: false
-  xy: 1957, 1319
+  xy: 993, 1048
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Spearman-Human-1
   rotate: false
-  xy: 1957, 1319
+  xy: 993, 1048
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ranger-Dwarven-2 
   rotate: false
-  xy: 1997, 1308
+  xy: 1033, 1040
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Scout-Dwarven-2
   rotate: false
-  xy: 1997, 1308
+  xy: 1033, 1040
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ranger-Elven
   rotate: false
-  xy: 1917, 1300
+  xy: 1073, 1037
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ranger-Gnome
   rotate: false
-  xy: 1957, 1283
+  xy: 1113, 1002
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ranger-Human
   rotate: false
-  xy: 1997, 1272
+  xy: 1153, 969
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ranger-Human-1
   rotate: false
-  xy: 1106, 1176
+  xy: 1193, 967
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Scout-Human-1
   rotate: false
-  xy: 1106, 1176
+  xy: 1193, 967
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ranger-Human-2
   rotate: false
-  xy: 1146, 1176
+  xy: 1233, 963
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Scout-Human-2
   rotate: false
-  xy: 1146, 1176
+  xy: 1233, 963
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ranger-Icemen
   rotate: false
-  xy: 1186, 1169
+  xy: 1273, 1076
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ranger-Machina
   rotate: false
-  xy: 1226, 1165
+  xy: 1273, 1040
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Ranger-Moken
   rotate: false
-  xy: 1266, 1153
+  xy: 1273, 1004
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Realm Patrol
   rotate: false
-  xy: 1306, 1140
+  xy: 1273, 968
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Rifleman-Barbarians
   rotate: false
-  xy: 1346, 1105
+  xy: 1281, 1112
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Rifleman-Demonic
   rotate: false
-  xy: 1386, 1100
+  xy: 1273, 932
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Rifleman-Desert
   rotate: false
-  xy: 1426, 1073
+  xy: 1313, 1076
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Rifleman-Dwarven
   rotate: false
-  xy: 1466, 1073
+  xy: 1313, 1040
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Rifleman-Dwarven-2
   rotate: false
-  xy: 1506, 1069
+  xy: 1313, 1004
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Rifleman-Elven
   rotate: false
-  xy: 1546, 1041
+  xy: 1313, 968
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Rifleman-Gnome
   rotate: false
-  xy: 408, 1090
+  xy: 1313, 932
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Rifleman-Goblin
   rotate: false
-  xy: 448, 1076
+  xy: 1353, 1426
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Rifleman-Human
   rotate: false
-  xy: 408, 1054
+  xy: 1393, 1426
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Rifleman-Human-1
   rotate: false
-  xy: 448, 1040
+  xy: 1433, 1412
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Rifleman-Human-2
   rotate: false
-  xy: 408, 1018
+  xy: 1473, 1411
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Rifleman-Icemen
   rotate: false
-  xy: 408, 982
+  xy: 1513, 1411
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Rifleman-Machina
   rotate: false
-  xy: 448, 1004
+  xy: 1553, 1407
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Rifleman-Moken
   rotate: false
-  xy: 488, 1060
+  xy: 1353, 1389
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Rocket Artillery
   rotate: false
-  xy: 448, 968
+  xy: 1433, 1376
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Rocket Artillery-1
   rotate: false
-  xy: 488, 984
+  xy: 1473, 1375
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Rocket Artillery-2
   rotate: false
-  xy: 488, 948
+  xy: 1513, 1375
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Sage
   rotate: false
-  xy: 538, 1097
+  xy: 1433, 1340
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Sandworm
   rotate: false
-  xy: 568, 1061
+  xy: 1473, 1339
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Scorpion
   rotate: false
-  xy: 568, 1025
+  xy: 1513, 1339
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Scorpion-1
   rotate: false
-  xy: 568, 989
+  xy: 1553, 1335
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Scorpion-2
   rotate: false
-  xy: 568, 953
+  xy: 1593, 1338
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Scout
   rotate: false
-  xy: 568, 917
+  xy: 1633, 1338
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Scout-Human
   rotate: false
-  xy: 568, 917
+  xy: 1633, 1338
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Scout-Barbarians
   rotate: false
-  xy: 578, 1097
+  xy: 1673, 1339
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Scout-Demonic
   rotate: false
-  xy: 618, 1097
+  xy: 1713, 1335
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Scout-Desert
   rotate: false
-  xy: 608, 1061
+  xy: 1673, 1303
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Scout-Dryad
   rotate: false
-  xy: 658, 1097
+  xy: 1713, 1299
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Scout-Dwarven
   rotate: false
-  xy: 608, 1025
+  xy: 1753, 1303
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Scout-Elven
   rotate: false
-  xy: 648, 1061
+  xy: 1793, 1296
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Scout-Gnome
   rotate: false
-  xy: 698, 1097
+  xy: 1753, 1267
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Scout-Gnome-1
   rotate: false
-  xy: 608, 989
+  xy: 1793, 1260
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Scout-Gnome-2
   rotate: false
-  xy: 648, 1025
+  xy: 1833, 1271
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Scout-Goblin
   rotate: false
-  xy: 688, 1061
+  xy: 1833, 1235
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Scout-Icemen
   rotate: false
-  xy: 608, 953
+  xy: 1873, 1259
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Scout-Machina
   rotate: false
-  xy: 648, 989
+  xy: 1873, 1223
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Scout-Moken
   rotate: false
-  xy: 688, 1025
+  xy: 1913, 1239
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Settler
   rotate: false
-  xy: 648, 952
+  xy: 1953, 1217
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Settler-Human
   rotate: false
-  xy: 648, 952
+  xy: 1953, 1217
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Settler-Barbarians
   rotate: false
-  xy: 688, 988
+  xy: 1953, 1180
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Settler-Demonic
   rotate: false
-  xy: 648, 916
+  xy: 1993, 1218
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Settler-Demonic-1
   rotate: false
-  xy: 688, 952
+  xy: 1993, 1182
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Settler-Demonic-2
   rotate: false
-  xy: 688, 916
+  xy: 1353, 1317
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Settler-Ilythiir-2
   rotate: false
-  xy: 688, 916
+  xy: 1353, 1317
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Settler-Desert
   rotate: false
-  xy: 738, 1097
+  xy: 1393, 1313
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Settler-Dryad
   rotate: false
-  xy: 728, 1061
+  xy: 1433, 1304
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Settler-Dwarven
   rotate: false
-  xy: 728, 1025
+  xy: 1473, 1303
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Settler-Dwarven-1
   rotate: false
-  xy: 728, 989
+  xy: 1513, 1303
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Settler-Gnome-1
   rotate: false
-  xy: 728, 989
+  xy: 1513, 1303
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Settler-Dwarven-2
   rotate: false
-  xy: 728, 953
+  xy: 1553, 1299
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Settler-Elven
   rotate: false
-  xy: 728, 917
+  xy: 1593, 1302
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Settler-Gildar
   rotate: false
-  xy: 767, 1133
+  xy: 1633, 1302
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Settler-Gnome
   rotate: false
-  xy: 778, 1097
+  xy: 1673, 1267
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Settler-Gnome-2
   rotate: false
-  xy: 768, 1061
+  xy: 1713, 1263
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Settler-Goblin
   rotate: false
-  xy: 768, 1024
+  xy: 1753, 1230
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Settler-Human-1
   rotate: false
-  xy: 768, 987
+  xy: 1793, 1223
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Settler-Human-2
   rotate: false
-  xy: 768, 950
+  xy: 1833, 1198
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Settler-Icemen
   rotate: false
-  xy: 768, 914
+  xy: 1873, 1187
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Settler-Ilythiir
   rotate: false
-  xy: 807, 1133
+  xy: 1913, 1162
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Settler-Ilythiir-1
   rotate: false
-  xy: 818, 1097
+  xy: 1953, 1144
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Settler-Machina
   rotate: false
-  xy: 808, 1061
+  xy: 1993, 1146
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Settler-Moken
   rotate: false
-  xy: 808, 1025
+  xy: 1353, 1281
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Shaolin
   rotate: false
-  xy: 808, 989
+  xy: 1393, 1277
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Siliwangi
   rotate: false
-  xy: 808, 952
+  xy: 1433, 1267
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Siliwangi-2
   rotate: false
-  xy: 808, 915
+  xy: 1473, 1266
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Siren
   rotate: false
-  xy: 847, 1133
+  xy: 1513, 1267
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Skeletal Champion
   rotate: false
-  xy: 858, 1097
+  xy: 1553, 1263
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Skeletal Warrior
   rotate: false
-  xy: 848, 1061
+  xy: 1593, 1266
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Skeleton
   rotate: false
-  xy: 848, 1025
+  xy: 1633, 1266
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Skirmisher
   rotate: false
-  xy: 848, 989
+  xy: 1513, 1231
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Skroth
   rotate: false
-  xy: 848, 950
+  xy: 1282, 1148
   size: 32, 31
   orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Slime
   rotate: false
-  xy: 848, 914
+  xy: 1282, 1187
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Slime-Feudal age
   rotate: false
-  xy: 887, 1133
+  xy: 1553, 1227
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Slime-Heroic age
   rotate: false
-  xy: 898, 1097
+  xy: 1593, 1230
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Sorcerer
   rotate: false
-  xy: 888, 1061
+  xy: 1633, 1230
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Spearman-Demonic
   rotate: false
-  xy: 888, 1025
+  xy: 1673, 1231
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Spearman-Desert
   rotate: false
-  xy: 888, 989
+  xy: 1713, 1227
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Spearman-Dryad
   rotate: false
-  xy: 888, 953
+  xy: 1321, 1112
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Spearman-Dwarven
   rotate: false
-  xy: 888, 917
+  xy: 1753, 1194
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Spearman-Dwarven-1
   rotate: false
-  xy: 927, 1133
+  xy: 1793, 1187
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Spearman-Dwarven-2
   rotate: false
-  xy: 938, 1097
+  xy: 1833, 1162
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Spearman-Elven
   rotate: false
-  xy: 928, 1061
+  xy: 1873, 1151
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Spearman-Gnome
   rotate: false
-  xy: 928, 1025
+  xy: 1913, 1126
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Spearman-Goblin
   rotate: false
-  xy: 928, 988
+  xy: 1953, 1107
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Spearman-Human
   rotate: false
-  xy: 928, 952
+  xy: 1993, 1110
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Spearman-Human-2
   rotate: false
-  xy: 928, 916
+  xy: 1673, 1195
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Spearman-Icemen
   rotate: false
-  xy: 967, 1133
+  xy: 1713, 1191
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Spearman-Ilythiir
   rotate: false
-  xy: 978, 1097
+  xy: 1753, 1158
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Spearman-Machina
   rotate: false
-  xy: 968, 1061
+  xy: 1793, 1151
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Spearman-Moken
   rotate: false
-  xy: 968, 1024
+  xy: 1833, 1125
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Stone Golem
   rotate: false
-  xy: 968, 988
+  xy: 1873, 1115
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Swordsman-Barbarians
   rotate: false
-  xy: 968, 916
+  xy: 1953, 1071
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Swordsman-Demonic
   rotate: false
-  xy: 1007, 1133
+  xy: 1993, 1074
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Swordsman-Desert
   rotate: false
-  xy: 1018, 1097
+  xy: 1353, 1076
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Swordsman-Dryad
   rotate: false
-  xy: 1008, 1061
+  xy: 1353, 1040
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Swordsman-Dwarven
   rotate: false
-  xy: 1008, 1025
+  xy: 1353, 1004
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Swordsman-Dwarven-2
   rotate: false
-  xy: 1008, 988
+  xy: 1353, 967
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Swordsman-Elven
   rotate: false
-  xy: 1008, 952
+  xy: 1353, 931
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Swordsman-Gnome
   rotate: false
-  xy: 1008, 916
+  xy: 1393, 1241
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Swordsman-Goblin
   rotate: false
-  xy: 1047, 1133
+  xy: 1433, 1231
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Swordsman-Human
   rotate: false
-  xy: 1058, 1097
+  xy: 1473, 1230
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Swordsman-Human-1
   rotate: false
-  xy: 1048, 1061
+  xy: 1393, 1205
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Swordsman-Human-2
   rotate: false
-  xy: 1048, 1025
+  xy: 1433, 1195
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Swordsman-Icemen
   rotate: false
-  xy: 1048, 989
+  xy: 1473, 1194
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Swordsman-Machina
   rotate: false
-  xy: 1048, 953
+  xy: 1513, 1195
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Swordsman-Moken
   rotate: false
-  xy: 1048, 916
+  xy: 1553, 1190
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Tank
   rotate: false
-  xy: 1087, 1140
+  xy: 1593, 1194
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Tank-1
   rotate: false
-  xy: 1127, 1140
+  xy: 1633, 1194
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Tank-2
   rotate: false
-  xy: 1098, 1104
+  xy: 1393, 1169
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Teleporter
   rotate: false
-  xy: 1098, 1068
+  xy: 1473, 1158
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Teleporter-2
   rotate: false
-  xy: 1138, 1068
+  xy: 1513, 1159
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Themistocles
   rotate: false
-  xy: 1088, 1032
+  xy: 1553, 1154
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Trireme-Human
   rotate: false
-  xy: 1088, 1032
+  xy: 1553, 1154
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Tomb Guard
   rotate: false
-  xy: 1088, 996
+  xy: 1593, 1158
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Trebuchet
   rotate: false
-  xy: 1128, 1032
+  xy: 1633, 1158
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Trebuchet-1
   rotate: false
-  xy: 1088, 960
+  xy: 1673, 1159
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Trebuchet-2
   rotate: false
-  xy: 1128, 996
+  xy: 1713, 1155
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Trireme-Barbarians
   rotate: false
-  xy: 1088, 924
+  xy: 1393, 1133
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Trireme-Demonic
   rotate: false
-  xy: 1128, 960
+  xy: 1433, 1123
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Trireme-Desert
   rotate: false
-  xy: 1128, 924
+  xy: 1473, 1122
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Trireme-Dryad
   rotate: false
-  xy: 1088, 888
+  xy: 1513, 1123
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Trireme-Dwarven
   rotate: false
-  xy: 1128, 888
+  xy: 1553, 1118
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Trireme-Dwarven-1
   rotate: false
-  xy: 1168, 1031
+  xy: 1593, 1121
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Trireme-Dwarven-2
   rotate: false
-  xy: 1168, 995
+  xy: 1633, 1122
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Trireme-Elven
   rotate: false
-  xy: 1168, 959
+  xy: 1673, 1123
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Trireme-Gnome
   rotate: false
-  xy: 1168, 923
+  xy: 1713, 1119
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Trireme-Goblin
   rotate: false
-  xy: 1168, 887
+  xy: 1753, 1122
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Trireme-Human-1
   rotate: false
-  xy: 568, 881
+  xy: 1793, 1115
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Trireme-Human-2
   rotate: false
-  xy: 608, 876
+  xy: 1393, 1097
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Trireme-Icemen
   rotate: false
-  xy: 648, 880
+  xy: 1393, 1061
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Trireme-Machina
   rotate: false
-  xy: 688, 880
+  xy: 1433, 1087
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Trireme-Moken
   rotate: false
-  xy: 728, 880
+  xy: 1393, 1024
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Unicorn
   rotate: false
-  xy: 808, 879
+  xy: 1473, 1086
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wandering Oracle
   rotate: false
-  xy: 888, 881
+  xy: 1473, 1050
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wandering Oracle-Demonic
   rotate: false
-  xy: 928, 880
+  xy: 1393, 988
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wandering Oracle-Desert
   rotate: false
-  xy: 968, 880
+  xy: 1433, 1011
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wandering Oracle-Dryad
   rotate: false
-  xy: 1008, 880
+  xy: 1473, 1014
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wandering Oracle-Dwarven
   rotate: false
-  xy: 1048, 880
+  xy: 1513, 1047
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wandering Oracle-Dwarven-2
   rotate: false
-  xy: 808, 843
+  xy: 1553, 1082
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wandering Oracle-Elven
   rotate: false
-  xy: 848, 838
+  xy: 1593, 1085
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wandering Oracle-Gnome
   rotate: false
-  xy: 888, 845
+  xy: 1633, 1086
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wandering Oracle-Goblin
   rotate: false
-  xy: 928, 843
+  xy: 1673, 1086
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wandering Oracle-Icemen
   rotate: false
-  xy: 968, 844
+  xy: 1393, 952
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wandering Oracle-Moken
   rotate: false
-  xy: 1008, 844
+  xy: 1433, 975
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warhammer
   rotate: false
-  xy: 1048, 844
+  xy: 1473, 978
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior Monk
   rotate: false
-  xy: 1088, 852
+  xy: 1513, 1011
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-Desert
   rotate: false
-  xy: 1128, 852
+  xy: 1553, 1046
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-Dryad
   rotate: false
-  xy: 1168, 851
+  xy: 1593, 1049
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-Dwarven
   rotate: false
-  xy: 888, 809
+  xy: 1633, 1050
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-Dwarven-1
   rotate: false
-  xy: 928, 806
+  xy: 1673, 1049
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-Dwarven-2
   rotate: false
-  xy: 968, 807
+  xy: 1713, 1082
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-Elven
   rotate: false
-  xy: 1008, 808
+  xy: 1753, 1086
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-Gnome
   rotate: false
-  xy: 1048, 808
+  xy: 1553, 1010
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-Goblin
   rotate: false
-  xy: 1088, 815
+  xy: 1593, 1012
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-Human
   rotate: false
-  xy: 1128, 816
+  xy: 1633, 1014
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-Human-1
   rotate: false
-  xy: 1168, 815
+  xy: 1673, 1013
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-Icemen
   rotate: false
-  xy: 1088, 779
+  xy: 1713, 1046
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-Ilythiir
   rotate: false
-  xy: 1128, 780
+  xy: 1753, 1050
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-Machina
   rotate: false
-  xy: 1168, 779
+  xy: 1793, 1079
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Warrior-Moken
   rotate: false
-  xy: 1178, 1068
+  xy: 1833, 1088
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Water Element
   rotate: false
-  xy: 1208, 1032
+  xy: 1873, 1079
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Water Element-1
   rotate: false
-  xy: 1208, 996
+  xy: 1513, 975
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wizard
   rotate: false
-  xy: 1208, 960
+  xy: 1553, 974
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wizard-2
   rotate: false
-  xy: 1208, 924
+  xy: 1593, 976
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wolf Rider
   rotate: false
-  xy: 1208, 887
+  xy: 1633, 977
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wood Element
   rotate: false
-  xy: 1208, 851
+  xy: 1673, 977
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Wood Element-1
   rotate: false
-  xy: 1208, 815
+  xy: 1713, 1010
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Work Boats-Demonic
   rotate: false
-  xy: 1208, 779
+  xy: 1753, 1014
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Work Boats-Desert
   rotate: false
-  xy: 648, 844
+  xy: 1793, 1043
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Work Boats-Dryad
   rotate: false
-  xy: 688, 844
+  xy: 1833, 1052
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Work Boats-Dwarven
   rotate: false
-  xy: 728, 844
+  xy: 1713, 974
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Work Boats-Elven
   rotate: false
-  xy: 728, 844
+  xy: 1713, 974
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Work Boats-Goblin
   rotate: false
-  xy: 768, 837
+  xy: 1753, 977
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Work Boats-Icemen
   rotate: false
-  xy: 808, 807
+  xy: 1793, 1007
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker
   rotate: false
-  xy: 848, 802
+  xy: 1833, 1016
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Barbarians
   rotate: false
-  xy: 888, 773
+  xy: 1873, 1043
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Demonic
   rotate: false
-  xy: 928, 770
+  xy: 1913, 1054
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Desert
   rotate: false
-  xy: 968, 771
+  xy: 1793, 971
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Dwarven
   rotate: false
-  xy: 1008, 771
+  xy: 1833, 979
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Dwarven-1
   rotate: false
-  xy: 1048, 771
+  xy: 1873, 1006
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Gnome-1
   rotate: false
-  xy: 1048, 771
+  xy: 1873, 1006
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Dwarven-2
   rotate: false
-  xy: 1218, 1068
+  xy: 1913, 1017
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Elven
   rotate: false
-  xy: 1088, 743
+  xy: 1953, 1035
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Gnome
   rotate: false
-  xy: 1128, 743
+  xy: 1993, 1037
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Gnome-2
   rotate: false
-  xy: 1168, 742
+  xy: 1873, 969
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Goblin
   rotate: false
-  xy: 1208, 743
+  xy: 1913, 981
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Human
   rotate: false
-  xy: 1248, 1032
+  xy: 1953, 999
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Human-1
   rotate: false
-  xy: 1248, 996
+  xy: 1993, 1001
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Human-2
   rotate: false
-  xy: 1248, 960
+  xy: 1433, 939
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Icemen
   rotate: false
-  xy: 1248, 924
+  xy: 1473, 942
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Ilythiir
   rotate: false
-  xy: 1248, 888
+  xy: 1393, 916
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Machina
   rotate: false
-  xy: 1248, 852
+  xy: 1513, 939
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Merfolk
   rotate: false
-  xy: 1248, 816
+  xy: 1553, 938
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Moken
   rotate: false
-  xy: 1248, 779
+  xy: 1593, 939
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Yeti
   rotate: false
-  xy: 1248, 742
+  xy: 1633, 940
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Zeal Galleass
   rotate: false
-  xy: 455, 396
+  xy: 1713, 937
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Zhuge Liang
   rotate: false
-  xy: 455, 360
+  xy: 1753, 941
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Zhuge Liang-1
   rotate: false
-  xy: 455, 324
+  xy: 1793, 935
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Zhuge Liang-2
   rotate: false
-  xy: 1208, 707
+  xy: 1833, 943
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -8251,35 +8272,35 @@ TileSets/HexaRealm/Tiles/Blessed Farm
   index: -1
 TileSets/HexaRealm/Tiles/Citadel-Industrial age
   rotate: false
-  xy: 544, 1369
+  xy: 652, 1477
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City center-Archaic age
   rotate: false
-  xy: 539, 1297
+  xy: 647, 1405
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City center-Classical age
   rotate: false
-  xy: 539, 1297
+  xy: 647, 1405
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City center-Feudal age
   rotate: false
-  xy: 616, 1367
+  xy: 724, 1475
   size: 64, 66
   orig: 64, 66
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/City center-Heroic age
   rotate: false
-  xy: 611, 1295
+  xy: 719, 1403
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
@@ -8321,273 +8342,280 @@ TileSets/HexaRealm/Tiles/Coffee+Plantation
   index: -1
 TileSets/HexaRealm/Tiles/Coffin
   rotate: false
-  xy: 760, 1682
+  xy: 868, 1790
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Corn
   rotate: false
-  xy: 755, 1618
+  xy: 863, 1726
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Crater Lake
   rotate: false
-  xy: 832, 1682
+  xy: 940, 1790
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Dhab Hunter Camp
   rotate: false
-  xy: 827, 1618
+  xy: 935, 1726
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Dragon's Egg
   rotate: false
-  xy: 976, 1898
+  xy: 220, 1034
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Dragon's Egg+Taming
   rotate: false
-  xy: 1048, 1898
+  xy: 215, 970
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/ForestGHLowR
   rotate: false
-  xy: 1120, 1898
+  xy: 292, 1034
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Fort-Industrial age
   rotate: false
-  xy: 1192, 1898
+  xy: 287, 970
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Grassland+Corn+Farm
   rotate: false
-  xy: 1264, 1898
+  xy: 436, 1250
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Grassland+Hill+Forest+Dragon's Egg
   rotate: false
-  xy: 1336, 1898
+  xy: 431, 1186
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Grassland+Hill+Forest+Dragon's Egg+Taming
   rotate: false
-  xy: 1408, 1914
+  xy: 508, 1250
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Grassland+Jungle+Dragon's Egg
   rotate: false
-  xy: 1480, 1914
+  xy: 503, 1186
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Grassland+Jungle+Dragon's Egg+Taming
   rotate: false
-  xy: 1552, 1914
+  xy: 760, 1682
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Jade
   rotate: false
-  xy: 1043, 1834
+  xy: 1048, 1898
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Kalimutu
   rotate: false
-  xy: 1115, 1834
+  xy: 1120, 1898
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Kyber Foundry
   rotate: false
-  xy: 1187, 1826
+  xy: 1192, 1890
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Mammoth
   rotate: false
-  xy: 1331, 1834
+  xy: 1336, 1898
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Mammoth+Taming
   rotate: false
-  xy: 1768, 1914
+  xy: 1408, 1914
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Megall
   rotate: false
-  xy: 1840, 1923
+  xy: 1480, 1914
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Megall+Taming
   rotate: false
-  xy: 1912, 1923
+  xy: 1552, 1914
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Meka-Monastery
   rotate: false
-  xy: 220, 1026
+  xy: 1624, 1906
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Mount Snowpeak
   rotate: false
-  xy: 215, 960
+  xy: 1696, 1912
   size: 64, 58
   orig: 64, 58
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Obsidian
   rotate: false
-  xy: 292, 1034
+  xy: 1768, 1914
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Perfume
   rotate: false
-  xy: 431, 1184
+  xy: 1912, 1923
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Perfume+Plantation
   rotate: false
-  xy: 652, 1574
+  xy: 1012, 1834
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Phantom Island
   rotate: false
-  xy: 647, 1510
+  xy: 1084, 1834
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Plains+Corn+Farm
   rotate: false
-  xy: 647, 1446
+  xy: 1012, 1770
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Plains+Hill+Forest+Dragon's Egg
   rotate: false
-  xy: 868, 1790
+  xy: 1084, 1770
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Plains+Hill+Forest+Dragon's Egg+Taming
   rotate: false
-  xy: 112, 926
+  xy: 1007, 1706
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Plains+Jungle+Dragon's Egg
   rotate: false
-  xy: 107, 862
+  xy: 1079, 1706
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Plains+Jungle+Dragon's Egg+Taming
   rotate: false
-  xy: 107, 798
+  xy: 1156, 1826
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Rainee's Farm
+  rotate: false
+  xy: 1156, 1762
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Rune Stone
   rotate: false
-  xy: 107, 734
+  xy: 1151, 1698
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Rune Stone2
   rotate: false
-  xy: 107, 670
+  xy: 1228, 1826
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Sacred Cove
   rotate: false
-  xy: 328, 1142
+  xy: 1228, 1762
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Sea fort
   rotate: false
-  xy: 508, 1233
+  xy: 1223, 1698
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Sea fort-Industrial age
   rotate: false
-  xy: 503, 1169
+  xy: 1300, 1834
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Tea
   rotate: false
-  xy: 580, 1231
+  xy: 1300, 1770
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Tea+Plantation
   rotate: false
-  xy: 575, 1167
+  xy: 1372, 1834
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/HexaRealm/Tiles/Zamrud Khatulistiwa
   rotate: false
-  xy: 652, 1227
+  xy: 1372, 1766
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
@@ -8662,268 +8690,275 @@ TileSets/HexaRealm/Units/Zeppelin
   orig: 77, 65
   offset: 0, 0
   index: -1
+UnitIcons/Teleporter
+  rotate: false
+  xy: 4, 1943
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Themistocles
   rotate: false
-  xy: 328, 1943
+  xy: 4, 1511
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Titan
   rotate: false
-  xy: 436, 1943
+  xy: 4, 1403
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Tomb Guard
   rotate: false
-  xy: 4, 1403
+  xy: 112, 1511
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Traon General
   rotate: false
-  xy: 328, 1727
+  xy: 436, 1835
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unicorn
   rotate: false
-  xy: 436, 1727
+  xy: 544, 1835
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Wandering Oracle
   rotate: false
-  xy: 220, 1403
+  xy: 328, 1511
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Warhammer
   rotate: false
-  xy: 328, 1511
+  xy: 436, 1619
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Warlock
   rotate: false
-  xy: 436, 1619
+  xy: 544, 1727
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Warlocks
   rotate: false
-  xy: 652, 1835
+  xy: 760, 1943
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Warrior Monk
   rotate: false
-  xy: 760, 1943
+  xy: 4, 1079
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Watcher
   rotate: false
-  xy: 112, 1187
+  xy: 220, 1295
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Witcher
   rotate: false
-  xy: 328, 1403
+  xy: 436, 1511
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Wizard
   rotate: false
-  xy: 544, 1619
+  xy: 652, 1727
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Wolf Rider
   rotate: false
-  xy: 652, 1727
+  xy: 760, 1835
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Yeti
   rotate: false
-  xy: 868, 1943
+  xy: 4, 971
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Zeal Galleass
   rotate: false
-  xy: 220, 1187
+  xy: 328, 1295
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Zeppelin
   rotate: false
-  xy: 328, 1295
+  xy: 436, 1403
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Zhuge Liang
   rotate: false
-  xy: 436, 1403
+  xy: 544, 1511
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Air Bombardment
   rotate: false
-  xy: 647, 1169
+  xy: 1984, 1929
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Alchemist Horizon
   rotate: false
-  xy: 1984, 1929
+  xy: 1444, 1856
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Assault Protocol
   rotate: false
-  xy: 688, 1388
+  xy: 1444, 1798
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Creeping Attack
   rotate: false
-  xy: 688, 1388
+  xy: 1444, 1798
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Hunt Instinc
   rotate: false
-  xy: 688, 1388
+  xy: 1444, 1798
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Marksman
   rotate: false
-  xy: 688, 1388
+  xy: 1444, 1798
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Precision
   rotate: false
-  xy: 688, 1388
+  xy: 1444, 1798
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Auxiliary Core
   rotate: false
-  xy: 688, 1330
+  xy: 1502, 1856
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Barding
   rotate: false
-  xy: 705, 1169
+  xy: 1502, 1798
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Entrenched Position
   rotate: false
-  xy: 705, 1169
+  xy: 1502, 1798
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Hardened Scale
   rotate: false
-  xy: 705, 1169
+  xy: 1502, 1798
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Shield Wall
   rotate: false
-  xy: 705, 1169
+  xy: 1502, 1798
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Tortoise
   rotate: false
-  xy: 705, 1169
+  xy: 1502, 1798
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Water Veteran
   rotate: false
-  xy: 705, 1169
+  xy: 1502, 1798
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Battle Recon
   rotate: false
-  xy: 1408, 1856
+  xy: 1560, 1856
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Battlecry
   rotate: false
-  xy: 1466, 1856
+  xy: 1560, 1798
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Cobra Strike
   rotate: false
-  xy: 1466, 1856
+  xy: 1560, 1798
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Homing Torpedoes
   rotate: false
-  xy: 1466, 1856
+  xy: 1560, 1798
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Hunter Killer
   rotate: false
-  xy: 1466, 1856
+  xy: 1560, 1798
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Beast Hunter
   rotate: false
-  xy: 1524, 1856
+  xy: 1618, 1848
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -8937,777 +8972,777 @@ UnitPromotionIcons/Blizzard
   index: -1
 UnitPromotionIcons/Blockade Runner
   rotate: false
-  xy: 1582, 1856
+  xy: 1618, 1790
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ignore Terrain Cost
   rotate: false
-  xy: 1582, 1856
+  xy: 1618, 1790
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Lunate Tail
   rotate: false
-  xy: 1582, 1856
+  xy: 1618, 1790
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Snowman
   rotate: false
-  xy: 1582, 1856
+  xy: 1618, 1790
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Blood Baptism
   rotate: false
-  xy: 1640, 1856
+  xy: 1444, 1740
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Bloodbath
   rotate: false
-  xy: 1640, 1856
+  xy: 1444, 1740
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Bloodlust
   rotate: false
-  xy: 1698, 1856
+  xy: 1502, 1740
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Vampiric Touch
   rotate: false
-  xy: 1698, 1856
+  xy: 1502, 1740
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Boarding Party
   rotate: false
-  xy: 1756, 1856
+  xy: 1560, 1740
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Wolfpack
   rotate: false
-  xy: 1756, 1856
+  xy: 1560, 1740
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Breakthrough
   rotate: false
-  xy: 1814, 1856
+  xy: 1618, 1732
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Burst Attack
   rotate: false
-  xy: 1872, 1865
+  xy: 796, 1496
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Exploding Palms
   rotate: false
-  xy: 1872, 1865
+  xy: 796, 1496
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Calming Amulet
   rotate: false
-  xy: 1930, 1865
+  xy: 796, 1438
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Holding Spirit
   rotate: false
-  xy: 1930, 1865
+  xy: 796, 1438
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Camouflage
   rotate: false
-  xy: 1988, 1871
+  xy: 791, 1380
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Twilight Veil
   rotate: false
-  xy: 1988, 1871
+  xy: 791, 1380
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Clairvoyant
   rotate: false
-  xy: 1403, 1798
+  xy: 1676, 1848
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Coincidence Rangefinding
   rotate: false
-  xy: 1461, 1798
+  xy: 1676, 1790
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Cold Resistant
   rotate: false
-  xy: 1519, 1798
+  xy: 1676, 1732
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Combustion
   rotate: false
-  xy: 1577, 1798
+  xy: 1734, 1854
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Fire Breath
   rotate: false
-  xy: 1577, 1798
+  xy: 1734, 1854
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Convoy
   rotate: false
-  xy: 1635, 1798
+  xy: 1734, 1796
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Schiltron
   rotate: false
-  xy: 1635, 1798
+  xy: 1734, 1796
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Coursers
   rotate: false
-  xy: 1693, 1798
+  xy: 1734, 1738
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Crew Weapons
   rotate: false
-  xy: 1751, 1798
+  xy: 1792, 1856
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Deck Crews
   rotate: false
-  xy: 1751, 1798
+  xy: 1792, 1856
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Damage Absorb
   rotate: false
-  xy: 1809, 1798
+  xy: 1792, 1744
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Healing Featherite
   rotate: false
-  xy: 1809, 1798
+  xy: 1792, 1744
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Healing Spirit
   rotate: false
-  xy: 1809, 1798
+  xy: 1792, 1744
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Dancing Crane
   rotate: false
-  xy: 76, 192
+  xy: 1850, 1863
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Guerrilla
   rotate: false
-  xy: 76, 192
+  xy: 1850, 1863
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Daywalker
   rotate: false
-  xy: 76, 134
+  xy: 1850, 1805
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/De Vries' Extract
   rotate: false
-  xy: 76, 76
+  xy: 1850, 1747
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Depredation
   rotate: false
-  xy: 76, 18
+  xy: 112, 932
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Loot
   rotate: false
-  xy: 76, 18
+  xy: 112, 932
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Plunderer
   rotate: false
-  xy: 76, 18
+  xy: 112, 932
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Disciples
   rotate: false
-  xy: 134, 203
+  xy: 107, 874
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Divine Right
   rotate: false
-  xy: 134, 145
+  xy: 107, 816
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Dominion Patrol
   rotate: false
-  xy: 134, 87
+  xy: 107, 758
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Double Armor Plating
   rotate: false
-  xy: 134, 29
+  xy: 107, 700
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Secondary Armor Plating
   rotate: false
-  xy: 134, 29
+  xy: 107, 700
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Double Envelopment
   rotate: false
-  xy: 940, 1776
+  xy: 107, 642
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Shadow Strike
   rotate: false
-  xy: 940, 1776
+  xy: 107, 642
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Elusive
   rotate: false
-  xy: 1056, 1776
+  xy: 544, 1364
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Lurking Attack
   rotate: false
-  xy: 1056, 1776
+  xy: 544, 1364
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Evangelize Belief
   rotate: false
-  xy: 1172, 1768
+  xy: 76, 134
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Exposed Core
   rotate: false
-  xy: 1230, 1768
+  xy: 76, 76
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Fight Howl
   rotate: false
-  xy: 1288, 1776
+  xy: 76, 18
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Intimidation
   rotate: false
-  xy: 1288, 1776
+  xy: 76, 18
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Flapping Wing
   rotate: false
-  xy: 724, 1560
+  xy: 134, 203
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Flare
   rotate: false
-  xy: 782, 1560
+  xy: 134, 145
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Forward Observers
   rotate: false
-  xy: 719, 1502
+  xy: 134, 29
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Frightening Vibe
   rotate: false
-  xy: 777, 1502
+  xy: 832, 1668
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Full Moon
   rotate: false
-  xy: 835, 1502
+  xy: 890, 1668
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Grapeshot
   rotate: false
-  xy: 400, 1126
+  xy: 948, 1668
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Green Water Navy
   rotate: false
-  xy: 165, 612
+  xy: 827, 1610
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Helmsman
   rotate: false
-  xy: 161, 554
+  xy: 885, 1610
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Navigator
   rotate: false
-  xy: 161, 554
+  xy: 885, 1610
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Hereditary Herb
   rotate: false
-  xy: 161, 496
+  xy: 943, 1610
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Pet Heal
   rotate: false
-  xy: 161, 496
+  xy: 943, 1610
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Highlander
   rotate: false
-  xy: 161, 438
+  xy: 1006, 1648
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Highly Trained
   rotate: false
-  xy: 161, 380
+  xy: 1064, 1648
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Impetus
   rotate: false
-  xy: 161, 322
+  xy: 1001, 1590
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Teleportation
   rotate: false
-  xy: 161, 322
+  xy: 1001, 1590
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Line of Battle
   rotate: false
-  xy: 192, 206
+  xy: 1122, 1640
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Mana Flare
   rotate: false
-  xy: 192, 148
+  xy: 1180, 1640
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Maribor Forest
   rotate: false
-  xy: 192, 32
+  xy: 1117, 1582
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/No Suicide
   rotate: false
-  xy: 1872, 1807
+  xy: 1175, 1582
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Observation
   rotate: false
-  xy: 1930, 1807
+  xy: 1233, 1582
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Spyglass
   rotate: false
-  xy: 1930, 1807
+  xy: 1233, 1582
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Owl's Eye
   rotate: false
-  xy: 1988, 1813
+  xy: 1300, 1712
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Pet Vision
   rotate: false
-  xy: 1988, 1813
+  xy: 1300, 1712
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Scout Balloon
   rotate: false
-  xy: 1988, 1813
+  xy: 1300, 1712
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Sharpen Eye
   rotate: false
-  xy: 1988, 1813
+  xy: 1300, 1712
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Underwater Vision
   rotate: false
-  xy: 1988, 1813
+  xy: 1300, 1712
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Pet Command
   rotate: false
-  xy: 292, 976
+  xy: 1358, 1708
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Petri's Philter
   rotate: false
-  xy: 350, 977
+  xy: 1296, 1655
   size: 50, 49
   orig: 50, 49
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Preparatory Fire
   rotate: false
-  xy: 1288, 1718
+  xy: 1296, 1597
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Qigong
   rotate: false
-  xy: 1988, 1755
+  xy: 1354, 1592
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ranger
   rotate: false
-  xy: 899, 1624
+  xy: 1291, 1539
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Reactive Armor
   rotate: false
-  xy: 899, 1566
+  xy: 1349, 1534
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Regenerative Bio-Steel
   rotate: false
-  xy: 893, 1502
+  xy: 1984, 1871
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Regenerative Tissue
   rotate: false
-  xy: 179, 868
+  xy: 1734, 1680
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Reinforced Hull
   rotate: false
-  xy: 179, 810
+  xy: 1792, 1686
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ripping Claw
   rotate: false
-  xy: 179, 694
+  xy: 1792, 1628
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Rolling Barrage
   rotate: false
-  xy: 237, 860
+  xy: 1850, 1631
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Sapping
   rotate: false
-  xy: 237, 860
+  xy: 1850, 1631
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Seductive Submission
   rotate: false
-  xy: 237, 744
+  xy: 359, 918
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Silent Running
   rotate: false
-  xy: 295, 860
+  xy: 575, 1192
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Slow Learner
   rotate: false
-  xy: 295, 802
+  xy: 575, 1134
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Strafe
   rotate: false
-  xy: 295, 686
+  xy: 165, 874
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Sweeping Wind
   rotate: false
-  xy: 295, 686
+  xy: 165, 874
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Strengthen Nose
   rotate: false
-  xy: 223, 628
+  xy: 165, 816
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Swallow
   rotate: false
-  xy: 281, 628
+  xy: 165, 758
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Thrust
   rotate: false
-  xy: 223, 570
+  xy: 165, 700
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Thunderbolt
   rotate: false
-  xy: 281, 570
+  xy: 165, 642
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Titanium Scale
   rotate: false
-  xy: 219, 512
+  xy: 161, 584
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Trawl
   rotate: false
-  xy: 219, 454
+  xy: 161, 526
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Tremor Attack
   rotate: false
-  xy: 277, 512
+  xy: 161, 468
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Troll's Skin
   rotate: false
-  xy: 436, 1835
+  xy: 544, 1943
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Twin Fang
   rotate: false
-  xy: 219, 396
+  xy: 161, 410
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Unwavering Faith
   rotate: false
-  xy: 277, 454
+  xy: 161, 352
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Water Creature
   rotate: false
-  xy: 219, 338
+  xy: 161, 294
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Water of Life
   rotate: false
-  xy: 277, 396
+  xy: 223, 912
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Wave
   rotate: false
-  xy: 219, 280
+  xy: 223, 854
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Weakpoint Exploitation
   rotate: false
-  xy: 277, 338
+  xy: 281, 912
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Willow
   rotate: false
-  xy: 277, 280
+  xy: 223, 796
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Winged Vampire
   rotate: false
-  xy: 250, 222
+  xy: 281, 854
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Wolf
   rotate: false
-  xy: 250, 106
+  xy: 281, 796
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Wolverine
   rotate: false
-  xy: 250, 48
+  xy: 223, 680
   size: 50, 50
   orig: 50, 50
   offset: 0, 0

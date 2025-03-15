@@ -10,9 +10,6 @@
 		"Rebel units may spawn <when below [-20] Happiness>",
 		
 		// Military mechanism
-		"[1] Movement point cost to embark <for [Air Terror] units>", 
-		"[1] Movement point cost to disembark <for [Air Terror] units>", 
-		"[1] Movement point cost to disembark <for [Air Balloon] units>", 
 		"New [Recon] units start with [10] XP [in all cities]",
 		
 		// Heroes

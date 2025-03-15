@@ -1,1 +1,8 @@
-{"isBaseRuleset":true,"constants":{"maxXPfromBarbarians":360,"cityStrengthFromGarrison":0.3},"modUrl":"https://github.com/AlatarTheYoung/FantasiaNewDawn","author":"AlatarTheYoung","lastUpdated":"2025-03-01T22:52:06Z","modSize":29165,"topics":["unciv-mod"],"uniques":["Can trade civilization introductions for [10] Gold"]}
+{
+	"isBaseRuleset": true,
+	"constants": {
+		"maxXPfromBarbarians": 360,
+		"cityStrengthFromGarrison": 0.3
+	},
+	"uniques": ["Can trade civilization introductions for [50] Gold"]
+}

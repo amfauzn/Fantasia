@@ -72,7 +72,10 @@
 		"movementType": "Land",
 		"uniques": ["Can pass through impassable tiles", 
 					"All tiles cost 1 movement", 
-					"[+1] Sight <when [Embarked]>"]
+					"[+1] Sight <when [Embarked]>",
+					"May travel on Water tiles without embarking",
+					"No defensive terrain bonus",
+					"Never appears as a Barbarian unit"]
 	},
 	{
         "name": "Vampire",

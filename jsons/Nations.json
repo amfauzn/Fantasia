@@ -76,10 +76,11 @@
 		"outerColor": [ 35,53,116],
 		"innerColor": [255,56, 56],
 		"uniqueName": "Master Builder",
-		"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
-					"[+15]% Production towards any buildings that already exist in the Capital", 
-					"[+1 Production] from every [Strategic resource]",
-					"[+1 Production] from every [Luxury resource]"],
+		"uniques": [
+			"[+15]% Production when constructing [All] wonders [in all cities]", 
+			"[+15]% Production towards any buildings that already exist in the Capital", 
+			"[+1 Production] from every [Strategic resource]",
+		],
 		"cities": ["King's Summit","Borbuddem","Pyr Amid'em","Mausollem","Gridden Wall","Kolussem","Hangen Stone","Tamja Hellin","Chotchen","Panma Caniem",
 			"Petra","Redemeer","Picchu","Angkoreen","Holonbay","Stonen Mengen","Hagan Sophiem","Mozi","Fez","Balkh"],
 		"spyNames": ["Eridd","Yurrgin","Kulin","Dili","Noli","Broil","Uroil","Bifur","Baur","Budigin"]
@@ -1221,11 +1222,12 @@
 		"outerColor": [ 41,83,42],
 		"innerColor": [146,221,9],
 		"uniqueName": "Forest Guardian",
-		"uniques": ["Comment [Cannot [Remove Forest] except by Great Improvement]", 
-					"Comment [Cannot build [Lumber mill] improvement]", 
-					"Comment [May build [Plantation] improvement without removing Forest]", 
-					"[+1 Culture, +1 Faith] from every [Forest] <with [2] to [6] neighboring [Forest] tiles>", 
-					"[+15]% Strength <in [Forest] tiles> <for [All] units>"],
+		"uniques": [
+			"Comment [Cannot build [Lumber mill] improvement]",
+			"Comment [May build [Plantation] and [Farm] improvement without removing [Forest]]",
+			"[+1 Culture, +1 Faith] from every [Forest] <with [2] to [6] neighboring [Forest] tiles>", 
+			"[+15]% Strength <in [Forest] tiles> <for [All] units>"
+		],
 		"cities": ["Loggervia","Yandala","Southmarsh","Guuleaf","Lindschel","Agra","Sunda","Soulisa","Tuasika","Bula",
 			"Namlea","Gulbarga","Larantuka","Curia","Crastha","Tanglewood","Shadowfall","Roothold","Wildwood","Entwatch"],
 		"spyNames": ["Orethylia","Minthe","Dammeri","Lilea","Ivy","Cyrilla","Almoris","Thehion","Ashbush","Elmfury"],
