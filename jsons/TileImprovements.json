@@ -31,7 +31,7 @@
 		"techRequired": "Construction",
 		"uniques": [
 			"[+1 Production] <after discovering [Scientific Theory]>",
-			"Only available <for [non-[Rain Forest] Civilizations] Civilizations>"
+			"Only available <for [non-[Rain Forest]] Civilizations>"
 		],
 		"shortcutKey": "L"
 	},
