@@ -19,7 +19,8 @@
 		"uniques": [
 			"Does not need removal of [Forest]",
 			"Can also be built on tiles adjacent to fresh water", 
-			"[+1 Food] <after discovering [Education]>"
+			"[+1 Food] <after discovering [Education]>",
+			"Only available <for [Rain Forest] Civilizations>"
 		],
 		"shortcutKey": "F"
 	},
