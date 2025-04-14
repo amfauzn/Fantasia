@@ -1418,7 +1418,7 @@
 		"name": "Kyber Refinery",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"uniques": ["Will not be displayed in Civilopedia", "Only available <in cities with a [Forge]>", 
+		"uniques": ["Only available <in cities with a [Forge]>", 
 					"Consumes [2] [Iron]", "Provides [2] [Kyber]"],
 		"requiredTech": "Alchemy",
 		"civilopediaText": [
