@@ -1764,7 +1764,7 @@
 		"adjective": ["Ogre"],
 		"cityStateType": "Industrial",
 		"startBias": ["Jungle"],
-		"uniques": ["All newly-trained [Swprd] units [in capital] receive the [Charge] promotion"],
+		"uniques": ["All newly-trained [Sword] units [in capital] receive the [Charge] promotion"],
 		
 		"declaringWar": "Hungry ... hungry for eternity ...",
 		"attacked": "I am hungry of a fresh flesh myself!",
