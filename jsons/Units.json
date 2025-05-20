@@ -1157,7 +1157,7 @@
 					"Must set up to ranged attack", 
 					"[+1] Sight", "Ignores Zone of Control", 
 					"[+200]% Strength <vs [Air Terror] units>", 
-					"[+100]% Strength <vs [City] units>", 
+					"[+100]% Strength <vs cities>", 
 					"Never appears as a Barbarian unit"],
 		"promotions": ["Barrage"],
 		"attackSound": "throw",
