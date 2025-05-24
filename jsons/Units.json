@@ -2260,7 +2260,7 @@
 		"requiredResource": "Hero Limiter",
 		"uniques": ["Unbuildable", "The Heroes", 
 					"Limited to [1] per Civilization", 
-					"Only available <if [Pandji Portal] is constructed>", 
+					"Only available <if [Leonidas Portal] is constructed>", 
 					"Never appears as a Barbarian unit"],
 		"replacementTextForUniques": "Unbuildable",
 		"attackSound": "metalhit"
