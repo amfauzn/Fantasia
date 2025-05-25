@@ -572,6 +572,7 @@
 			{
 				"name": "Fascism",
 				"uniques": ["Quantity of strategic resources produced by the empire +[100]%", 
+							"Provides [-1] [Hero Limiter] <hidden from users>",
 							"[+2] Movement <for [Great General] units>"],
 				"requires": ["Populism","Militarism"],
 				"row": 2,
