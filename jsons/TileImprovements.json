@@ -516,6 +516,7 @@
 		"techRequired": "Construction",
 		"uniques": ["[+2 Culture] <after discovering [Acoustics]>", 
 					"Cannot be built on [Desert] tiles <with [1] to [6] neighboring [Dhab Hunter Camp] tiles>", 
+					"[-2 Food, -3 Culture] <with [1] to [6] neighboring [Dhab Hunter Camp] tiles>",
 					"Pillaging this improvement yields approximately [+8 Gold]"],
 		"shortcutKey": "C",
 		"civilopediaText": [
