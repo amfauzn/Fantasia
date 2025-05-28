@@ -2022,7 +2022,9 @@
 		"cost": 1,
 		"cityHealth": 5,
 		"uniques": ["Free Great Person", 
-					"Only available <if [Pillar of Learning] is constructed> <if [Pillar of Life] is constructed> <if [Pillar of Faith] is constructed> <if [Pillar of Wealth] is constructed>"
+					"Only available <if [Pillar of Learning] is constructed> <if [Pillar of Life] is constructed> <if [Pillar of Faith] is constructed> <if [Pillar of Wealth] is constructed> <in cities with a [Palace]>",
+					"Only available <without [Counter Something]> <hidden from users>",
+					"Instantly gain [1] [Counter Something] <hidden from users>",
 					"Unsellable", 
 					"Will not be displayed in Civilopedia"],
 		"replacementTextForUniques": "Free Great Person",
