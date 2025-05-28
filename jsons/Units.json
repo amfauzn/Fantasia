@@ -2081,6 +2081,7 @@
 		"upgradesTo": "Skeletal Champion",
 		"obsoleteTech": "Metal Casting",
 		"uniques": ["[-100]% maintenance costs", 
+			"Can transform to [Skeletal Champion] <for all movement> <after discovering [Metal Casting]>",
 					"No damage penalty for wounded units", 
 					"Unbuildable", "Cannot be purchased",
 					"Only available <in cities with a [~limiter]>", 
