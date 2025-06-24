@@ -248,7 +248,7 @@
 		"prerequisites": ["Besiege","March"],
 		"uniques": ["Double movement in [Forest]", 
 					"Double movement in [Jungle]"],
-		"unitTypes": ["Sword","Gunpowder","Infantry Hero","Evil Hero"]
+		"unitTypes": ["Sword","Gunpowder","Infantry Hero","Anti-Cav Hero","Evil Hero"]
 	},
 	{
 		"name": "Exposed Core",
