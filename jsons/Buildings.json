@@ -452,7 +452,7 @@
 		"maintenance": 0,
 		"hurryCostModifier": 25,
 		"specialistSlots": {"Artist": 1},
-		"uniques": ["Destroyed when the city is captured", "Doubles Gold given to enemy if city is captured",
+		"uniques": ["Destroyed when the city is captured", "[+100]% Gold given to enemy if city is captured <in this city>",
 					"All newly-trained [{Military} {Land}] units [in this city] receive the [Dominion Patrol] promotion"],
 		"requiredTech": "Philosophy",
 		"civilopediaText": [
