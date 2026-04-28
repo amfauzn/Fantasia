@@ -10,7 +10,9 @@
 			"Airship","Air Terror","Water Terror",
 			"Infantry Hero","Anti-Cav Hero","Cavalry Hero","Archery Hero","Siege Hero","Evil Hero","Mage Hero","Melee Water Hero","Water Hero",
 			"Melee Water","Ranged Water","Submarine"
-		]
+		],
+		"column": 0,
+		"row": 0
 	},
 	{
 		"name": "Heal Instantly II",
@@ -21,7 +23,9 @@
 			"Mage","Construct","Vampire","Monk","Tamer",
 			"Airship","Air Terror","Water Terror",
 			"Infantry Hero","Anti-Cav Hero","Cavalry Hero","Archery Hero","Siege Hero","Evil Hero","Mage Hero","Melee Water Hero","Water Hero",
-			"Melee Water","Ranged Water","Submarine"]
+			"Melee Water","Ranged Water","Submarine"],
+		"column": 1,
+		"row": 0
 	},
 	
 	// Recon
@@ -113,12 +117,16 @@
 	{
 		"name": "Owl's Eye",
 		"prerequisites": ["Volley","Damage Absorb"],
-		"uniques": ["[+1] Sight", "[+1] Range"],
+		"uniques": [
+			"[+1] Sight",
+			"[+1] Range",
+			"Only available <for units without [Extended Range]>"
+		],
 		"unitTypes": ["Archery","Ranged Gunpowder","Mage","Archery Hero","Mage Hero"]
 	},
 	{
 		"name": "Indirect Fire",
-		"prerequisites": ["Owl's Eye"],
+		"prerequisites": ["Owl's Eye","Extended Range"],
 		"uniques": ["Ranged attacks may be performed over obstacles"],
 		"unitTypes": ["Archery","Ranged Gunpowder","Mage","Archery Hero","Mage Hero"]
 	},
@@ -678,7 +686,10 @@
 	{
 		"name": "Extended Range",
 		"prerequisites": ["Water Veteran"],
-		"uniques": ["[+1] Range"],
+		"uniques": [
+			"[+1] Range",
+			"[+1] Sight <for [Pandji] units>",
+		],
 		"unitTypes": ["Water Terror","Submarine"]
 	},
 	{
