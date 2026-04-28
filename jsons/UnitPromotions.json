@@ -126,7 +126,7 @@
 	},
 	{
 		"name": "Indirect Fire",
-		"prerequisites": ["Owl's Eye","Extended Range"],
+		"prerequisites": ["Owl's Eye"],
 		"uniques": ["Ranged attacks may be performed over obstacles"],
 		"unitTypes": ["Archery","Ranged Gunpowder","Mage","Archery Hero","Mage Hero"]
 	},
