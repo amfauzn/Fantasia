@@ -144,7 +144,7 @@ ImprovementIcons/Coffin
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/Cultivated Farm
+ImprovementIcons/Cultivated farm
   rotate: false
   xy: 328, 4
   size: 100, 100
@@ -228,7 +228,7 @@ ImprovementIcons/Sacred Grove
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/Sea fort
+ImprovementIcons/Sea Fort
   rotate: false
   xy: 1516, 328
   size: 100, 100

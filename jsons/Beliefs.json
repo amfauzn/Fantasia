@@ -471,16 +471,6 @@
 		]
 	},
 	{
-		"name": "Master of Gu",
-		"type": "Pantheon",
-		"uniques": ["Unavailable","[+2 Culture, +2 Faith] from every [Gu]", "[+1 Culture, +1 Faith] from every [Jade]"]
-    },
-	{
-		"name": "Sacred Festivals",
-		"type": "Pantheon",
-		"uniques": ["Unavailable","[+1 Culture, +1 Faith] from every [Incense]", "[+1 Culture, +1 Faith] from every [Wine]", "[+1 Culture] from every [Tea]"]
-	},
-	{
 		"name": "Papal Primacy",
 		"type": "Founder",
 		"uniques": ["Unavailable","Resting point for Influence with City-States following this religion [+15]"]

@@ -9,10 +9,10 @@
 			"Domination": 5,
 			"Scientific": 5
 		},
-		"uniques": ["[+3 Culture] [in capital]", 
-					"[-25]% Culture cost of natural border growth [in capital]",
-					"[-10]% Culture cost of natural border growth [in all cities]",
-					"Comment [Unlocks building Cetho Lighyn]"
+		"uniques": [
+			"[+3 Culture] [in capital]",
+			"[-25]% Culture cost of natural border growth [in capital]",
+			"Comment [Unlocks [Cetho Lighyn]]"
 		],
 		"policies": [
 			{
@@ -26,7 +26,7 @@
 				"name": "Legalism",
 				"uniques": ["Provides the cheapest [Culture] building in your first [4] cities for free", 
 							"[+2 Culture] from every [The Great Colosseum]", 
-							"[+2 Culture] from every [Bastar Dussehra]"],
+							"[+2 Culture] from every [Hermitage]"],
 				"row": 1,
 				"column": 4
 			},
@@ -56,8 +56,11 @@
 			},
 			{
 				"name": "Tradition Complete",
-				"uniques": ["[+15]% growth [in all cities]", 
-							"Provides a [Aqueduct] in your first [4] cities for free"]
+				"uniques": [
+					"[+15]% growth [in all cities]", 
+					"Provides a [Aqueduct] in your first [4] cities for free",
+					"[-10]% Culture cost of natural border growth [in all cities]"
+				]
 			}
 		]
 	},
@@ -71,8 +74,9 @@
 			"Domination": 10,
 			"Scientific": 10
 		},
-		"uniques": ["[+1 Culture] [in all cities]", 
-					"Comment [Unlocks building Bondowoso]"
+		"uniques": [
+			"[+1 Culture] from every [Monument]",
+			"Comment [Unlocks [Dwuiltunad]]"
 		],
 		"policies": [
 			{
@@ -115,11 +119,13 @@
 			},
 			{
 				"name": "Liberty Complete",
-				"uniques": ["Free Great Person", 
-							"[+15]% Production when constructing [Monument] buildings [in all cities]", 
-							"[+33]% Production when constructing [National Epic] wonders [in all cities]"
-							"[+15]% Production when constructing [Colosseum] buildings [in all cities]", 
-							"[+33]% Production when constructing [The Great Colosseum] wonders [in all cities]"]
+				"uniques": [
+					"Free Great Person",
+					"[+15]% Production when constructing [Monument] buildings [in all cities]",
+					"[+33]% Production when constructing [National Epic] wonders [in all cities]",
+					"[+15]% Production when constructing [Colosseum] buildings [in all cities]",
+					"[+33]% Production when constructing [The Great Colosseum] wonders [in all cities]"
+				]
 			}
 		]
 	},
@@ -133,10 +139,10 @@
 			"Domination": 10,
 			"Scientific": 5
 		},
-		"uniques": ["[+33]% Strength <vs [Barbarian] units>",
-					"Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
-					"Notified of new Barbarian encampments", 
-					"Comment [Unlocks building Bubrah Tikus]"
+		"uniques": [
+			"[+33]% Strength <vs [Barbarian] units>",
+			"Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
+			"Comment [Unlocks [Bubrah Tikus]]"
 		],
 		"policies": [
 			{
@@ -181,10 +187,12 @@
 			},
 			{
 				"name": "Honor Complete",
-				"uniques": ["Earn [10]% of killed [Military] unit's [Cost] as [Gold]", "[+4 Production, +4 Culture] from every [Heroic Epic]", 
-							"[+25]% Production when constructing [Barracks] buildings [in all cities]", 
-							"[+25]% Production when constructing [Heroic Epic] wonders [in all cities]", 
-							"May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250]) <starting from the [Feudal age]>"]
+				"uniques": [
+					"Earn [10]% of killed [Military] unit's [Cost] as [Gold]",
+					"[+4 Production, +4 Culture] from every [Heroic Epic]",
+					"[+25]% Production when constructing [Heroic Epic] wonders [in all cities]",
+					"May buy [Great General] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([250]) <starting from the [Feudal age]>"
+				]
 			}
 		]
 	},

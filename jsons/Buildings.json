@@ -2406,14 +2406,6 @@
         ]
 	},
 	{
-		"name": "Bastar Dussehra",
-		"cost": 200,
-		"percentStatBonus": {"culture": 50},
-		"culture": 6,
-		"uniques": ["Unbuildable","Only available <if [Pyramid] is constructed in all [non-[Puppeted]] cities>", 
-					"Cost increases by [25] per owned city","Will not be displayed in Civilopedia"],
-	},
-	{
 		"name": "Antique Heritage",
 		"culture": 4,
 		"specialistSlots": {"Artist": 2},
@@ -2433,28 +2425,10 @@
 		"quote": "'Build me 1000 candis tonight and I will marry you.' - Roro Jonggrang"
 	},
 	{
-		"name": "Maso Commune",
-		"culture": 1,
-		"isWonder": true,
-		"greatPersonPoints": {"Great Artist": 1},
-		"uniques": ["Unbuildable","[-10]% Unhappiness from [Population] [in all cities]","Will not be displayed in Civilopedia"],
-		"requiredTech": "Loans and Saving",
-		"quote": "'Most of us can, as we choose, make of this world either a palace or a prison' - John Lubbock"
-	},
-	{
 		"name": "The Oracle",
 		"isWonder": true,
 		"uniques": ["Unbuildable","Gain a free [Breakthrough Chamber] [in this city]","Will not be displayed in Civilopedia"],
 		"requiredTech": "Foresighting",
 		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"
-	},
-	{
-		"name": "The Round Table",
-		"isWonder": true,
-		"culture": 1,
-		"greatPersonPoints": {"Great Artist": 1,"Great Engineer": 1,"Great Merchant": 1,"Great Scientist": 1},
-		"requiredTech": "Radar",
-		"uniques": ["Unbuildable","Triggers voting for the Diplomatic Victory", "Only available <when [Diplomatic] Victory is enabled>", "Triggers a global alert upon completion","Will not be displayed in Civilopedia"],
-		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together.' - Kofi Annan"
 	},
 ]

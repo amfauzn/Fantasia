@@ -3267,7 +3267,7 @@
 		"rangedStrength": 23,
 		"range": 2,
 		"requiredResource": "Hero Limiter",
-		"promotions": ["Hero","Navigator"],
+		"promotions": ["Navigator"],
 		"uniques": ["Unbuildable", "Hero", 
 					"Limited to [1] per Civilization", 
 					"Uncapturable", 
@@ -3295,18 +3295,7 @@
 		"cost": 55,
 		"requiredTech": "Acoustics",
 		"obsoleteTech": "Archaeology",
-		"upgradesTo": "Elite Beast Tamer",
 		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"],
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Elite Beast Tamer",
-		"unitType": "Tamer",
-		"movement": 2,
-		"strength": 40,
-		"cost": 290,
-		"requiredTech": "Archaeology",
-		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"]
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -3318,17 +3307,5 @@
 		"uniques": ["[+12] Sight",  
 					"Unbuildable","Will not be displayed in Civilopedia"],
 		"attackSound": "whoosh"
-	},
-	{
-		"name": "Anti-Tank Crew",
-		"unitType": "Anti-Armor",
-		"movement": 2,
-		"strength": 50,
-		"cost": 300,
-		"requiredTech": "Combustion",
-		"upgradesTo": "Cyborg",
-		"promotions": ["Formation"],
-		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"],
-		"attackSound": "machinegun"
-	},
+	}
 ]

@@ -291,7 +291,7 @@ UnitPromotionIcons/Circle
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Cold Resistance
+UnitPromotionIcons/Cold Resistant
   rotate: false
   xy: 352, 122
   size: 50, 50
@@ -343,6 +343,13 @@ UnitPromotionIcons/Crew Weapons
 UnitPromotionIcons/Deck Crews
   rotate: false
   xy: 468, 122
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Curse
+  rotate: false
+  xy: 526, 180
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
@@ -487,590 +494,604 @@ UnitPromotionIcons/Evangelize Belief
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Fight Howl
+UnitPromotionIcons/Exposed Core
   rotate: false
   xy: 1106, 180
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Fire Breath
+UnitPromotionIcons/Fight Howl
   rotate: false
   xy: 1164, 180
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Fireball
+UnitPromotionIcons/Fire Breath
   rotate: false
   xy: 1222, 180
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Fireball
+  rotate: false
+  xy: 1280, 180
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Frightened
-  rotate: false
-  xy: 1280, 180
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Frightening Vibe
-  rotate: false
-  xy: 1280, 180
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Full Moon
   rotate: false
   xy: 1338, 180
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Frightening Vibe
+  rotate: false
+  xy: 1338, 180
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Full Moon
+  rotate: false
+  xy: 1396, 180
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Geospike
   rotate: false
-  xy: 1396, 179
+  xy: 1454, 179
   size: 50, 51
   orig: 50, 51
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Grapeshot
   rotate: false
-  xy: 1454, 180
+  xy: 1512, 180
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Magic Missile
   rotate: false
-  xy: 1454, 180
+  xy: 1512, 180
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Rapid Fire
   rotate: false
-  xy: 1454, 180
+  xy: 1512, 180
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Healing Featherite
   rotate: false
-  xy: 1512, 180
+  xy: 1570, 180
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Healing Potion
   rotate: false
-  xy: 1570, 180
+  xy: 1628, 180
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Healing Spirit
   rotate: false
-  xy: 1628, 180
+  xy: 1686, 180
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Hereditary Herb
   rotate: false
-  xy: 1686, 180
+  xy: 1744, 180
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Highlander
   rotate: false
-  xy: 1744, 180
+  xy: 1802, 180
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Highly Trained
   rotate: false
-  xy: 1802, 180
+  xy: 1860, 180
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Huntdown
   rotate: false
-  xy: 1860, 180
+  xy: 1918, 180
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Hunter
   rotate: false
-  xy: 1860, 180
+  xy: 1918, 180
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Hunter Instinct
   rotate: false
-  xy: 1860, 180
+  xy: 1918, 180
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Hunter Killer
   rotate: false
-  xy: 1918, 180
+  xy: 1976, 180
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ice Breath
   rotate: false
-  xy: 1976, 180
+  xy: 700, 65
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Impetus
   rotate: false
-  xy: 700, 65
+  xy: 1512, 122
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Intimidation
   rotate: false
-  xy: 1454, 122
+  xy: 1570, 122
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Line of Battle
   rotate: false
-  xy: 1512, 122
+  xy: 1628, 122
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Lurking Attack
   rotate: false
-  xy: 1570, 122
+  xy: 1686, 122
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Maribor Forest
   rotate: false
-  xy: 1628, 122
+  xy: 1744, 122
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Monster Hunter
   rotate: false
-  xy: 1686, 122
+  xy: 1802, 122
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Navigator
   rotate: false
-  xy: 1744, 122
+  xy: 1860, 122
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/No Suicide
   rotate: false
-  xy: 1802, 122
+  xy: 1918, 122
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Observation
   rotate: false
-  xy: 1860, 122
+  xy: 1976, 122
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Onslaught
   rotate: false
-  xy: 1918, 122
+  xy: 816, 122
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Pet Vision
   rotate: false
-  xy: 1976, 122
+  xy: 874, 122
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Scout Balloon
   rotate: false
-  xy: 1976, 122
+  xy: 874, 122
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Sharpen Eye
   rotate: false
-  xy: 1976, 122
+  xy: 874, 122
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Underwater Vision
   rotate: false
-  xy: 1976, 122
+  xy: 874, 122
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Phalanx
   rotate: false
-  xy: 816, 122
+  xy: 932, 122
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Poisoned
   rotate: false
-  xy: 874, 122
+  xy: 990, 122
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Poisonous Bite
   rotate: false
-  xy: 932, 122
+  xy: 1048, 122
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Twin Fang
   rotate: false
-  xy: 932, 122
+  xy: 1048, 122
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Potent Healing Potion
   rotate: false
-  xy: 990, 122
+  xy: 1106, 122
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Preparatory Fire
   rotate: false
-  xy: 1048, 122
+  xy: 1164, 122
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Qigong
   rotate: false
-  xy: 1106, 122
+  xy: 1222, 122
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Quick Study
   rotate: false
-  xy: 1164, 122
+  xy: 1280, 122
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ravager
   rotate: false
-  xy: 1222, 122
+  xy: 1338, 122
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Reactive Armor
   rotate: false
-  xy: 1280, 122
+  xy: 1396, 122
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Regenerative Bio-Steel
   rotate: false
-  xy: 1338, 122
+  xy: 1454, 121
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Regenerative Tissue
   rotate: false
-  xy: 1396, 121
+  xy: 758, 65
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Reinforced Hull
   rotate: false
-  xy: 758, 65
+  xy: 1512, 64
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Ripping Claw
   rotate: false
-  xy: 1454, 64
+  xy: 1570, 64
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Rolling Barrage
   rotate: false
-  xy: 1512, 64
+  xy: 1628, 64
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Rooted
   rotate: false
-  xy: 1570, 64
+  xy: 1686, 64
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Sea Wolf
   rotate: false
-  xy: 1628, 64
+  xy: 1744, 64
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Wolf
   rotate: false
-  xy: 1628, 64
+  xy: 1744, 64
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Secondary Armor Plating
   rotate: false
-  xy: 1686, 64
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Shield Arm
-  rotate: false
-  xy: 1744, 64
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Slashing Wind
-  rotate: false
   xy: 1802, 64
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Wind Breath
-  rotate: false
-  xy: 1802, 64
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Snowman
+UnitPromotionIcons/Seductive Submission
   rotate: false
   xy: 1860, 64
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Strafe
+UnitPromotionIcons/Shield Arm
   rotate: false
   xy: 1918, 64
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Sweeping Wind
-  rotate: false
-  xy: 1918, 64
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Strider
+UnitPromotionIcons/Slashing Wind
   rotate: false
   xy: 1976, 64
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Subjugation
+UnitPromotionIcons/Wind Breath
+  rotate: false
+  xy: 1976, 64
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Snowman
   rotate: false
   xy: 236, 10
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Swallow
+UnitPromotionIcons/Strafe
   rotate: false
   xy: 294, 64
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Synergy
+UnitPromotionIcons/Sweeping Wind
+  rotate: false
+  xy: 294, 64
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Strider
   rotate: false
   xy: 352, 64
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Teleportation
+UnitPromotionIcons/Subjugation
   rotate: false
   xy: 410, 64
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Thrust
+UnitPromotionIcons/Swallow
   rotate: false
   xy: 468, 64
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Thunderbolt
+UnitPromotionIcons/Synergy
   rotate: false
   xy: 526, 64
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Trawl
+UnitPromotionIcons/Teleportation
   rotate: false
   xy: 584, 64
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Tremor Attack
+UnitPromotionIcons/Thrust
   rotate: false
   xy: 642, 64
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Troll's Skin
+UnitPromotionIcons/Thunderbolt
   rotate: false
-  xy: 294, 4
-  size: 50, 52
-  orig: 50, 52
+  xy: 294, 6
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Turtling
+UnitPromotionIcons/Trawl
   rotate: false
   xy: 352, 6
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Unwavering Faith
+UnitPromotionIcons/Tremor Attack
   rotate: false
   xy: 410, 6
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Vampiric Touch
+UnitPromotionIcons/Troll's Skin
   rotate: false
-  xy: 468, 6
-  size: 50, 50
-  orig: 50, 50
+  xy: 468, 4
+  size: 50, 52
+  orig: 50, 52
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Venom Breath
+UnitPromotionIcons/Turtling
   rotate: false
   xy: 526, 6
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Volatile Core
+UnitPromotionIcons/Unwavering Faith
   rotate: false
   xy: 584, 6
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Water Creature
+UnitPromotionIcons/Vampiric Touch
   rotate: false
   xy: 642, 6
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Water Whip
+UnitPromotionIcons/Venom Breath
   rotate: false
   xy: 700, 7
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Weakpoint Exploitation
+UnitPromotionIcons/Volatile Core
   rotate: false
   xy: 758, 7
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Web Trap
+UnitPromotionIcons/Water Creature
   rotate: false
   xy: 816, 63
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Webbed
-  rotate: false
-  xy: 816, 63
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/Will of Steel
+UnitPromotionIcons/Water Whip
   rotate: false
   xy: 816, 5
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Willow
+UnitPromotionIcons/Weakpoint Exploitation
   rotate: false
   xy: 874, 63
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Winged Vampire
+UnitPromotionIcons/Web Trap
   rotate: false
   xy: 874, 5
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-UnitPromotionIcons/Wolverine
+UnitPromotionIcons/Webbed
+  rotate: false
+  xy: 874, 5
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Will of Steel
   rotate: false
   xy: 932, 63
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Willow
+  rotate: false
+  xy: 932, 5
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Winged Vampire
+  rotate: false
+  xy: 990, 63
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Wolverine
+  rotate: false
+  xy: 990, 5
   size: 50, 50
   orig: 50, 50
   offset: 0, 0

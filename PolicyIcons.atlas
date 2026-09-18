@@ -60,7 +60,7 @@ PolicyIcons/Mandate of Heaven
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Postulants
+PolicyIcons/Postulant
   rotate: false
   xy: 410, 4
   size: 50, 50

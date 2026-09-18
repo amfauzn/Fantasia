@@ -43,12 +43,14 @@
 				"name": "Pottery",
 				"row": 3,
 				"prerequisites": ["Agriculture"],
+                "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
 			},
 			{
 				"name": "Trapping",
-				"row": 5,
+				"row": 6,
 				"prerequisites": ["Agriculture"],
+                "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
 			},
 			{
@@ -61,6 +63,7 @@
 			{
 				"name": "Mining",
 				"row": 10,
+                "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
 			}
 		]
@@ -82,6 +85,7 @@
 				"name": "Calendar",
 				"row": 3,
 				"prerequisites": ["Pottery"],
+                "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
 			},
 			{
@@ -111,7 +115,7 @@
 				"name": "Writing",
 				"row": 3,
 				"prerequisites": ["Calendar"],
-				"uniques": ["Enables Open Borders agreements"],
+				"uniques": ["Notified of new Barbarian encampments"],
 				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
 			},
 			{
@@ -136,6 +140,7 @@
 				"name": "Construction",
 				"row": 9,
 				"prerequisites": ["Masonry"],
+                "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
 			},
 			{
@@ -203,17 +208,20 @@
 				"name": "Civil Service",
 				"row": 3,
 				"prerequisites": ["Philosophy","Poetry"],
-				"uniques": ["Enables Research agreements"],
+				"uniques": [
+					"Enables Open Borders agreements <Civilopedia link [Tutorials/Open Borders]>",
+					"[+100]% weight to this choice for AI decisions"
+				],
 				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
 			},
 			{
 				"name": "Summoning Rituals",
+				"row": 4,
+				"prerequisites": ["Arcane Magic"],
 				"uniques": [
 					"Provides [1] [Hero Limiter]",
 					"Only available <for [Major] Civilizations>"
 				],
-				"row": 4,
-				"prerequisites": ["Arcane Magic"],
 				"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
 			},
 			{
@@ -226,13 +234,17 @@
 				"name": "Currency",
 				"row": 7,
 				"prerequisites": ["Mathematics"],
+                "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Better is bread with a happy heart than wealth with vexation.' - Amenemope"
 			},
 			{
 				"name": "Engineering",
 				"row": 9,
 				"prerequisites": ["Mathematics","Construction"],
-				"uniques": ["Roads connect tiles across rivers"],
+				"uniques": [
+					"Roads connect tiles across rivers",
+					"[+50]% weight to this choice for AI decisions"
+					],
 				"quote": "'Instrumental or mechanical science is the noblest and, above all others, the most useful.' - Leonardo da Vinci"
 			},
 			{
@@ -261,7 +273,11 @@
 				"name": "Education",
 				"row": 3,
 				"prerequisites": ["Theology","Civil Service"],
-				"uniques": ["Enables conversion of city production to [Science]"],
+				"uniques": [
+                    "Enables conversion of city production to [Science]",
+                    "Enables Research agreements <Civilopedia link [Tutorials/Research Agreements]>",
+                    "[+100]% weight to this choice for AI decisions"
+                ],
 				"quote": "'Education is the best provision for old age.' - Aristotle"
 			},
 			{
@@ -315,8 +331,12 @@
 				"name": "Astronomy",
 				"cost": 1100,
 				"row": 2,
-				"uniques": ["[+1] Movement <for [Embarked] units>","Enables [Embarked] units to enter ocean tiles"],
 				"prerequisites": ["Compass","Education"],
+				"uniques": [
+					"[+1] Movement <for [Embarked] units>",
+					"Enables [Embarked] units to enter ocean tiles",
+					"[+50]% weight to this choice for AI decisions"
+				],
 				"quote": "'Astronomy's much more fun when you're not an astronomer.' - Brian Miller"
 			},
 			{
@@ -336,6 +356,7 @@
 				"name": "Loans and Saving",
 				"row": 6,
 				"prerequisites": ["Chivalry","Guilds"],
+                "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Happiness: a good bank account, a good cook and a good digestion' - Jean Jacques Rousseau"
 			},
 			{
@@ -363,6 +384,7 @@
 				"name": "Mass Media",
 				"row": 4,
 				"prerequisites": ["Acoustics"],
+                "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'It is a newspaper's duty to print the news and raise hell.' - The Chicago Times"
 			},
 			{
@@ -408,6 +430,7 @@
 				"name": "Scientific Theory",
 				"row": 4,
 				"prerequisites": ["Architecture","Mass Media"],
+                "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Every great advance in science has issued from a new audacity of imagination.' - John Dewey"
 			},
 			{
@@ -420,6 +443,7 @@
 				"name": "Fertilizer",
 				"row": 9,
 				"prerequisites": ["Alchemy"],
+                "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'The nation that destroys its soil destroys itself.' - Franklin Delano Roosevelt"
 			}
 		]
@@ -447,6 +471,7 @@
 				"name": "Magic Industrialization",
 				"row": 6,
 				"prerequisites": ["Economics","Military Science"],
+                "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Industrialization based on machinery, already referred to as a characteristic of our age, is but one aspect of the revolution that is being wrought by technology.' - Emily Greene Balch"
 			},
 			{
@@ -480,13 +505,14 @@
 				"name": "Empowerment",
 				"row": 4,
 				"prerequisites": ["Mana Channeling"],
+                "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Technology is the foundation of the empowerment economy.' - Elise Stefanik"
 			},
 			{
 				"name": "Mana Battery",
 				"row": 5,
-				"uniques": ["[+100]% Strength <for [Hero] units>"],
 				"prerequisites": ["Mana Channeling","Magic Industrialization"],
+				"uniques": ["[+100]% Strength <for [Hero] units>"],
 				"quote": "I think of the sun of as my battery, my charger.' - Alexis Ren"
 			},
 			{
@@ -499,6 +525,7 @@
 				"name": "Railroads",
 				"row": 8,
 				"prerequisites": ["Dynamite","Rifling"],
+                "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
 			}
 		]
@@ -526,6 +553,7 @@
 				"name": "Flight",
 				"row": 5,
 				"prerequisites": ["Mana Battery"],
+                "uniques": ["[+25]% weight to this choice for AI decisions"],
 				"quote": "'Aeronautics was neither an industry nor a science. It was a miracle.' - Igor Sikorsky"
 			},
 			{

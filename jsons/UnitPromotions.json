@@ -1206,9 +1206,9 @@
 		"name": "Hero",
 		"uniques": [
 			"[-100]% maintenance costs",
-			"[+33] Strength <vs [Monster] units>",
-			"[+25] Strength <vs [Air Terror] units>",
-			"[+25] Strength <vs [Water Terror] units>",
+			"[+33]% Strength <vs [Monster] units>",
+			"[+25]% Strength <vs [Air Terror] units>",
+			"[+25]% Strength <vs [Water Terror] units>",
 			"[Great General] is earned [50]% faster",
 			
 			// Status ailment removal
@@ -1569,6 +1569,11 @@
 		"uniques": ["[Great General] is earned [50]% faster"]
 	},
 	{
+		"name": "Exposed Core",	// Dwargon
+		"uniques": ["[+25]% Strength <when below [40] HP>", 
+					"[+25]% Strength <when below [40] HP> <when defending>","Will not be displayed in Civilopedia"]
+	},
+	{
 		"name": "Troll's Skin", // The Trolls
 		"uniques": ["[+20]% Strength <when defending>"]
 	},
@@ -1736,11 +1741,6 @@
 	{
 		"name": "Forward Observers",
 		"uniques": ["[+1] Range","Will not be displayed in Civilopedia"],
-	},
-	{
-		"name": "Exposed Core",
-		"uniques": ["[+25]% Strength <when below [40] HP>", 
-					"[+25]% Strength <when below [40] HP> <when defending>","Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Pet Command",

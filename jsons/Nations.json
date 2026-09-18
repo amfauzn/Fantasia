@@ -1497,7 +1497,7 @@
 			"[+1 Happiness] from every [Armory] <in cities with a [Infernal Gate]> <hidden from users>",
 			"[+1 Happiness] from every [Knight Academy] <in cities with a [Infernal Gate]> <hidden from users>",
 			"Gain a free [Black Hole] [in capital] <hidden from users>",
-			"Cannot build [{Hero} {non-[Archdemon Kor'vash]}] units",
+			"Cannot build [{Hero} {non-[Archdemon Kor'vash]}] units <hidden from users>",
 			"May buy [Archdemon Kor'vash] units for [0] [Faith] [in all cities] at an increasing price ([100]) <starting from the [Heroic age]> <hidden from users>"
 		],
 		"cities": ["Oakenfell","Netherbrooke","Meg'thath","Agruk","Zonnol","Volvellath","Azrarad","Xolmonach","Zoz'guleth","Eg'thuth",
