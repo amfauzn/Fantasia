@@ -1,110 +1,89 @@
 
 PolicyIcons.png
-size: 1024, 256
+size: 1024, 64
 format: RGBA8888
 filter: MipMapLinearLinear, Linear
 repeat: none
 PolicyBranchIcons/Circle
   rotate: false
   xy: 4, 4
-  size: 200, 200
-  orig: 200, 200
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Circle
   rotate: false
   xy: 4, 4
-  size: 200, 200
-  orig: 200, 200
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyBranchIcons/Legacy
   rotate: false
-  xy: 212, 51
-  size: 153, 153
-  orig: 153, 153
+  xy: 294, 4
+  size: 50, 50
+  orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Cultural Exchange
   rotate: false
-  xy: 373, 158
-  size: 50, 46
-  orig: 50, 46
-  offset: 0, 0
-  index: -1
-PolicyIcons/Educated Elite
-  rotate: false
-  xy: 373, 100
+  xy: 62, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Entrepreneurship
   rotate: false
-  xy: 431, 154
+  xy: 120, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Flourishing of the Arts
   rotate: false
-  xy: 489, 154
+  xy: 178, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Inheritance
   rotate: false
-  xy: 547, 154
+  xy: 236, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Mandate Of Heaven
+PolicyIcons/Mandate of Heaven
   rotate: false
-  xy: 605, 154
+  xy: 352, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Postulant
+PolicyIcons/Postulants
   rotate: false
-  xy: 663, 154
+  xy: 410, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Religious Agency
   rotate: false
-  xy: 721, 154
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-PolicyIcons/Scientific Revolution
-  rotate: false
-  xy: 779, 154
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-PolicyIcons/Sovereignty
-  rotate: false
-  xy: 837, 154
+  xy: 468, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Spiritual Tolerance
   rotate: false
-  xy: 895, 154
+  xy: 526, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Wisdom
   rotate: false
-  xy: 953, 154
+  xy: 584, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0

@@ -1,4 +1,19 @@
 [
+	// Cultural
+	{
+		"name": "Ceremonial",
+		"friendBonusUniques": [
+			"[+1 Culture] from every [Monument]",
+			"[+1 Culture] from every [Pyramid]",
+			"[+1 Culture] from every [Composer Hall]"
+		],
+		"allyBonusUniques": [
+			"[+2 Culture] from every [Monument]",
+			"[+2 Culture] from every [Pyramid]",
+			"[+2 Culture] from every [Composer Hall]",
+		],
+		"color": [139,96,255]
+	},
 	{
 		"name": "Cultural",
 		"friendBonusUniques": [
@@ -15,6 +30,19 @@
 		"color": [139,96,255]
 	},
 	
+	// Industrial
+	{
+		"name": "Artisan",
+		"friendBonusUniques": [
+			"[+1 Production] from every [Workshop]",
+			"[+2 Production] from every [Ironworks]"
+		],
+		"allyBonusUniques": [
+			"[+1 Production] from every [Workshop]",
+			"[+4 Production] from every [Ironworks]"
+		],
+		"color": [139,69,19]
+	},
 	{
 		"name": "Industrial",
 		"friendBonusUniques": [
@@ -27,6 +55,19 @@
 		"color": [139,69,19]
 	},
 	
+	// Agricultural
+	{
+		"name": "Agricultural",
+		"friendBonusUniques": [
+			"[+2 Food] [in capital]",
+			"[+1 Food] from every [Plantation] <within [1] tiles of a [City center]>"
+		],
+		"allyBonusUniques": [
+			"[+2 Food] [in capital]",
+			"[+1 Food] from every [Plantation]"
+		],
+		"color": [56,255,112]
+	},
 	{
 		"name": "Maritime",
 		"friendBonusUniques": [
@@ -39,6 +80,7 @@
 		"color": [56,255,112]
 	},
 	
+	// Mercantile
 	{
 		"name": "Mercantile",
 		"friendBonusUniques": [
@@ -136,23 +178,25 @@
 		"color": [255,216,0]
 	},
 	
+	// Militaristic
 	{
 		"name": "Militaristic",
 		"friendBonusUniques": [
-			"Provides military units every ≈[20] turns", 
-			"[+4]% Production when constructing [Walls] buildings [in all cities]",
-			"[+4]% Production when constructing [Castle] buildings [in all cities]",
-			"[+4]% Production when constructing [Arsenal] buildings [in all cities]"
+			"Provides military units every ≈[25] turns", 
+			"[+20]% Production when constructing [Walls] buildings [in all cities]",
+			"[+20]% Production when constructing [Castle] buildings [in all cities]",
+			"[+20]% Production when constructing [Arsenal] buildings [in all cities]"
 		],
 		"allyBonusUniques": [
-			"Provides military units every ≈[17] turns"
-			"[+4]% Production when constructing [Walls] buildings [in all cities]",
-			"[+4]% Production when constructing [Castle] buildings [in all cities]",
-			"[+4]% Production when constructing [Arsenal] buildings [in all cities]"
+			"Provides military units every ≈[18] turns"
+			"[+20]% Production when constructing [Walls] buildings [in all cities]",
+			"[+20]% Production when constructing [Castle] buildings [in all cities]",
+			"[+20]% Production when constructing [Arsenal] buildings [in all cities]"
 		],
 		"color": [255,0,0]
 	},
 	
+	// Religious
 	{
 		"name": "Religious",
 		"friendBonusUniques":  [

@@ -1,13 +1,15 @@
 [
 	{
 		"name": "Farm",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert","Flood plains"],
 		"food": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
 		"uniques": [
+			"Unbuildable <in [Ley Line] tiles> <hidden from users>",
 			"Can also be built on tiles adjacent to fresh water", 
-			"[+1 Food] <after discovering [Education]>"],
+			"[+1 Food] <after discovering [Education]>"
+		],
 		"shortcutKey": "F"
 	},
 	{
@@ -17,10 +19,12 @@
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
 		"uniques": [
+			"Unbuildable <in [Ley Line] tiles> <hidden from users>",
 			"Does not need removal of [Forest]",
 			"Can also be built on tiles adjacent to fresh water", 
 			"[+1 Food] <after discovering [Education]>",
-			"Only available <for [Rain Forest] Civilizations>"
+			"Only available <for [Rain Forest] Civilizations>",
+			"Will not be displayed in Civilopedia"
 		],
 		"shortcutKey": "F"
 	},
@@ -58,27 +62,33 @@
 		"name": "Ice-calator",
 		"terrainsCanBeBuiltOn": ["Snow"],
 		"turnsToBuild": 6,
-		"uniques": ["[+1 Food] for each adjacent [Ice-calator]", 
-					"[+1 Production] for each adjacent [Strategic resource]", 
-					"[+1 Production] for each adjacent [Luxury resource]", 
-					"[+1 Production, +1 Science] for each adjacent [Great Improvement]", 
-					"Cannot be built on [Fresh water] tiles", 
-					"Cannot be built on [Coastal] tiles", 
-					"Cannot be built on [Strategic resource] tiles"],
+		"uniques": [
+			"[+1 Food] for each adjacent [Ice-calator]", 
+			"[+1 Production] for each adjacent [Strategic resource]", 
+			"[+1 Production] for each adjacent [Luxury resource]", 
+			"[+1 Production, +1 Science] for each adjacent [Great Improvement]", 
+			"Cannot be built on [Fresh water] tiles", 
+			"Cannot be built on [Coastal] tiles", 
+			"Cannot be built on [Strategic resource] tiles"
+		],
 		"techRequired": "Agriculture",
 		"shortcutKey": "F"
 	},
 	{
 		"name": "Terrace farm",
-		"terrainsCanBeBuiltOn": ["Hill"],
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra"],
 		"food": 1,
-		"turnsToBuild": 8,
-		"uniques": ["[+1 Food] for each adjacent [Mountain]", 
-					"Cannot be built on [Bonus resource] tiles", 
-					"Cannot be built on [Strategic resource] tiles", 
-					"Cannot be built on [Desert] tiles", 
-					"Cannot be built on [Snow] tiles", 
-					"[+1 Food] <after discovering [Education]>"],
+		"turnsToBuild": 7,
+		"uniques": [
+			"Farm",
+			"Must be next to [Mountain]",
+			"Can only be built on [Hill] tiles",
+			"Cannot be built on [Bonus resource] tiles",
+			"Cannot be built on [Strategic resource] tiles",
+			"[+1 Food] for each adjacent [Mountain]",
+			"[+1 Food] <after discovering [Fertilizer]>",
+			"Pillaging this improvement yields approximately [+6 Gold]"
+		],
 		"techRequired": "Calendar",
 		"shortcutKey": "F"
 	},
@@ -89,7 +99,8 @@
 		"uniques": ["Turn this tile into a [Coast] tile", 
 					"Turn this tile into a [Canal] tile", 
 					"Can only be built on [Coastal] tiles", 
-					"Cannot be built on [Land] tiles <with [3] to [6] neighboring [Canal] tiles>"]
+					"Cannot be built on [Land] tiles <with [3] to [6] neighboring [Canal] tiles>",
+					"Will not be displayed in Civilopedia"]
 	},
 	
 	// Resource-specific
@@ -97,8 +108,10 @@
 		"name": "Beacon of Power",
 		"turnsToBuild": 8,
 		"techRequired": "Mana Sensing",
-		"uniques": ["Can only be built to improve a resource", 
-					"Pillaging this improvement yields approximately [+12 Gold]"],
+		"uniques": [
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+12 Gold]"
+		],
 		"shortcutKey": "B",
 		"civilopediaText": [
 			{"text": "An enclosed area dedicated to researching the ley line phenomenon."}
@@ -108,11 +121,13 @@
 		"name": "Camp",
 		"turnsToBuild": 7,
 		"techRequired": "Trapping",
-		"uniques": ["Does not need removal of [Forest]", 
-					"Does not need removal of [Jungle]", 
-					"[+1 Gold] <after discovering [Economics]>", 
-					"Can only be built to improve a resource", 
-					"Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": [
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"[+1 Gold] <after discovering [Economics]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
 		"shortcutKey": "C",
 		"civilopediaText": [
 			{"text": "An unobtrusive camp to gather food resources, lumber, and as a place for hunters to rest."}
@@ -121,9 +136,11 @@
 	{
 		"name": "Offshore Platform",
 		"techRequired": "Refrigeration",
-		"uniques": ["Can only be built to improve a resource", 
-					"Can only be built on [Water] tiles", 
-					"Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": [
+			"Can only be built to improve a resource",
+			"Can only be built on [Water] tiles",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		],
 		"shortcutKey": "P",
 		"civilopediaText": [
 			{"text": "The coast/ocean version of the oil well."}
@@ -133,9 +150,11 @@
 		"name": "Oil well",
 		"turnsToBuild": 9,
 		"techRequired": "Refining",
-		"uniques": ["Can only be built to improve a resource", 
-					"Cannot be built on [Water] tiles", 
-					"Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": [
+			"Can only be built to improve a resource",
+			"Cannot be built on [Water] tiles",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		],
 		"shortcutKey": "W",
 		"civilopediaText": [
 			{"text": "A deep well that gives access to the crucially-important oil resource."}
@@ -145,10 +164,12 @@
 		"name": "Pasture",
 		"turnsToBuild": 8,
 		"techRequired": "Trapping",
-		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", 
-					"[+1 Production] <after discovering [Computers]>", 
-					"Can only be built to improve a resource", 
-					"Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": [
+			"[+1 Food] <after discovering [Fertilizer]>",
+			"[+1 Production] <after discovering [Computers]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
 		"shortcutKey": "P",
 		"civilopediaText": [
 			{"text": "A fenced open land that has been planted with grass to feed grazing animals."}
@@ -159,9 +180,11 @@
 		"turnsToBuild": 6,
 		"gold": 1,
 		"techRequired": "Calendar",
-		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", 
-					"Can only be built to improve a resource", 
-					"Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": [
+			"[+1 Food] <after discovering [Fertilizer]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
 		"shortcutKey": "P",
 		"civilopediaText": [
 			{"text": "An estate on which crops are cultivated for a certain period of time."}
@@ -173,20 +196,24 @@
 		"turnsToBuild": 6,
 		"gold": 1,
 		"techRequired": "Calendar",
-		"uniques": ["[+1 Food] <after discovering [Fertilizer]>", 
-					"Can only be built to improve a resource", 
-					"Pillaging this improvement yields approximately [+10 Gold]", 
-					"Does not need removal of [Forest]", 
-					"Will not be displayed in Civilopedia"],
+		"uniques": [
+			"[+1 Food] <after discovering [Fertilizer]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]",
+			"Does not need removal of [Forest]",
+			"Will not be displayed in Civilopedia"
+		],
 		"shortcutKey": "P"
 	},
 	{
 		"name": "Quarry",
 		"turnsToBuild": 8,
 		"techRequired": "Masonry",
-		"uniques": ["[+1 Production] <after discovering [Metallurgy]>", 
-					"Can only be built to improve a resource",
-					"Pillaging this improvement yields approximately [+15 Gold]"],
+		"uniques": [
+			"[+1 Production] <after discovering [Metallurgy]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+15 Gold]"
+		],
 		"shortcutKey": "Q",
 		"civilopediaText": [
 			{"text": "A facility that produces any stone or gravel, including marble, a highly-valued stone used for construction and artwork."}
@@ -198,10 +225,13 @@
 		"turnsToBuild": 7,
 		"production": 1,
 		"techRequired": "Domestication",
-		"uniques": ["Does not need removal of [Forest]", "Does not need removal of [Jungle]", 
-					"[+2 Production, +1 Gold] <after discovering [Biology]>", 
-					"Can only be built to improve a resource", 
-					"Pillaging this improvement yields approximately [+15 Gold]"],
+		"uniques": [
+			"Does not need removal of [Forest]",
+			"Does not need removal of [Jungle]",
+			"[+2 Production, +1 Gold] <after discovering [Biology]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+15 Gold]"
+		],
 		"shortcutKey": "C",
 		"civilopediaText": [
 			{"text": "While camp is used to gather food resources, the purpose of taming is to tame animals, especially the rare and strong one."}
@@ -211,10 +241,12 @@
 		"name": "Fishing Boats",
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"food": 1,
-		"techRequired": "Sailing",
-		"uniques": ["[+1 Gold] <after discovering [Compass]>", 
-					"Can only be built to improve a resource", 
-					"Pillaging this improvement yields approximately [+10 Gold]"],
+		"techRequired": "Fishing",
+		"uniques": [
+			"[+1 Gold] <after discovering [Compass]>",
+			"Can only be built to improve a resource",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
 		"civilopediaText": [
 			{"text": "Boats to harvest the valuable resources in the sea."}
 		]
@@ -224,12 +256,14 @@
 		"name": "Cultivated farm",
 		"terrainsCanBeBuiltOn": ["Tundra","Snow"],
 		"food": 3,
-		"uniques": ["Great Improvement", 
-					"[+1 Food] <in [Snow] tiles>", 
-					"[+1 Food] for each adjacent [Ice-calator]", 
-					"[+2 Food] <after discovering [Fertilizer]>", 
-					"Removes removable features when built", 
-					"Pillaging this improvement yields approximately [+15 Gold]"],
+		"uniques": [
+			"Great Improvement",
+			"[+1 Food] <in [Snow] tiles>",
+			"[+1 Food] for each adjacent [Ice-calator]",
+			"[+2 Food] <after discovering [Fertilizer]>",
+			"Removes removable features when built",
+			"Pillaging this improvement yields approximately [+15 Gold]"
+		],
 		"civilopediaText": [
 			{"text": "A method of farming, which involves the best next generation aspiring farmers with retiring farmers, with special seeds that can be planted even in very cold areas."}
 		]
@@ -238,11 +272,16 @@
 	// Military improvement
 	{
 		"name": "Fort",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
+		"terrainsCanBeBuiltOn": [
+			"Grassland","Plains","Desert","Tundra","Snow",
+			"Hill","Forest","Jungle"
+		],
 		"turnsToBuild": 6,
 		"techRequired": "Engineering",
-		"uniques": ["Can be built outside your borders", 
-					"Gives a defensive bonus of [60]%"],
+		"uniques": [
+			"Can be built outside your borders",
+			"Gives a defensive bonus of [50]%"
+		],
 		"shortcutKey": "O"
 	},
 
@@ -350,15 +389,18 @@
 	// Great Person improvements
 	{
 		"name": "Academy",
-		"science": 8,
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Great Improvement", 
-					"[+2 Science] <after discovering [Education]>", 
-					"[+2 Science] <after discovering [Scientific Theory]>", 
-					"Removes removable features when built", 
-					"Pillaging this improvement yields approximately [+15 Science]"],
+		"science": 6,
+		"uniques": [
+			"Great Improvement",
+			"[+2 Science] <after discovering [Education]>",
+			"[+2 Science] <after discovering [Scientific Theory]>",
+			"Removes removable features when built",
+			"Will not be replaced by automated units",
+			"Pillaging this improvement yields approximately [+10 Science, +5 Gold]"
+		],
 		"civilopediaText": [
-			{"text": "A research complexes where children can get an advanced education."}
+			{"text": "An educational complex where new generations are taught the latest discoveries, striving to uncover new truths and push the boundaries of knowledge beyond what was once thought possible."}
 		]
 	},
 	{
@@ -386,53 +428,67 @@
 	},
 	{
 		"name": "Landmark",
-		"culture": 6,
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Great Improvement", 
-					"[+1 Culture] <after discovering [Architecture]>", 
-					"Removes removable features when built", 
-					"Pillaging this improvement yields approximately [+10 Culture]"],
+		"culture": 6,
+		"uniques": [
+			"Great Improvement",
+			"[+2 Culture] <after discovering [Architecture]>",
+			"Removes removable features when built",
+			"Will not be replaced by automated units",
+			"Pillaging this improvement yields approximately [+10 Culture, +5 Gold]"
+		],
 		"civilopediaText": [
 			{"text": "A place of cultural significance, great work of art, or antique structure that draws visitors."}
 		]
 	},
 	{
 		"name": "Manufactory",
-		"production": 4,
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Great Improvement", 
-					"[+2 Production] <after discovering [Alchemy]>", 
-					"Removes removable features when built", 
-					"Pillaging this improvement yields approximately [+20 Gold]"],
+		"production": 4,
+		"uniques": [
+			"Great Improvement",
+			"[+2 Production] <after discovering [Alchemy]>",
+			"Removes removable features when built",
+			"Will not be replaced by automated units",
+			"Pillaging this improvement yields approximately [+20 Gold]"
+		],
 		"civilopediaText": [
-			{"text": "A plant consisting of one or more buildings which can make anything you can think of."}
+			{"text": "A plant consisting of one or more buildings in which raw materials are refined and things are built."}
 		]
 	},
 	{
 		"name": "Citadel",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Great Improvement", 
-					"Gives a defensive bonus of [100]%", 
-					"Adjacent enemy units ending their turn take [30] damage", 
-					"Can be built just outside your borders", 
-					"Gain control over [all] tiles in a [1]-tile radius"
-					"Removes removable features when built"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [100]%",
+			"Adjacent enemy units ending their turn take [30] damage",
+			"Can be built just outside your borders",
+			"Gain control over [All] tiles in a [1]-tile radius",
+			"Removes removable features when built",
+			"Will not be replaced by automated units"
+		],
 		"civilopediaText": [
-			{"text": "A mighty fortification that is almost impossible to take by direct attack, and they were capable of standing protracted sieges before they fell."}
+			{"text": "A mighty fortification designed to withstand direct assaults, making it nearly impregnable. These fortifications can endure prolonged sieges, often serving as the last line of defense."}
 		]
 	},
 	{
-		"name": "Sea fort",
-		"production": 2,
+		"name": "Sea Fort",
 		"terrainsCanBeBuiltOn": ["Coast"],
-		"uniques": ["Great Improvement", 
-					"Gives a defensive bonus of [25]%", 
-					"Adjacent enemy units ending their turn take [10] damage", 
-					"Cannot be built on [Bonus resource] tiles", 
-					"Cannot be built on [Luxury resource] tiles", 
-					"[+1 Production] for each adjacent [Land]"],
+		"production": 2,
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [33]%",
+			"Adjacent enemy units ending their turn take [10] damage",
+			"Can be built just outside your borders",
+			"Cannot be built on [resource] tiles",
+			"Gain control over [All] tiles in a [1]-tile radius",
+			"[+1 Production] for each adjacent [Land]",
+			"Removes removable features when built",
+			"Will not be replaced by automated units"
+		],
 		"civilopediaText": [
-			{"text": "The sea version of citadel."}
+			{"text": "A heavily fortified structure built on Coast to defend against naval invasions."}
 		]
 	},
 	
@@ -529,25 +585,18 @@
 		"terrainsCanBeBuiltOn": ["Grassland","Plains","Tundra","Snow","Hill"],
 		"culture": 1,
 		"faith": 1,
-		"uniques": ["[+1 Food] for each adjacent [Farm]", 
-					"[+1 Food] for each adjacent [Terrace farm]", 
-					"[+1 Production] for each adjacent [Lumber mill]", 
-					"[+1 Production] for each adjacent [Mine]", 
-					"[+1 Production] for each adjacent [Quarry]", 
-					"[+2 Production] for each adjacent [Manufactory]", 
-					"[+1 Food, +1 Production] for each adjacent [Pasture]", 
-					"[+1 Food, +1 Production] for each adjacent [Taming]", 
-					"[+4 Science] for each adjacent [Academy]", 
-					"[+1 Science] for each adjacent [Ice-calator]", 
-					"[+3 Culture] for each adjacent [Landmark]", 
-					"[+1 Gold] for each adjacent [Trading post]", 
-					"[+2 Gold] for each adjacent [Customs house]", 
-					"[+2 Gold] for each adjacent [Plantation]", 
-					"[+3 Faith] for each adjacent [Holy site]", 
-					"Consumes [1] [Vampiric Block]",
-					"Pillaging this improvement yields approximately [+15 Gold]"],
-		//"replacementTextForUniques": "Provides half of neighboring improvements stats",
+		"uniques": [
+			"Comment [Limited to 5 per Civilization]",
+			"Provides [1] [Counter] <hidden from users>",
+			"Only available <when below [5] [Counter]> <hidden from users>",	
+			"[+1 Food] for each adjacent [Bonus resource]", 
+			"[+1 Production] for each adjacent [Strategic resource]",
+			"[+1 Gold] for each adjacent [Luxury resource]",
+			"[+1 Happiness, +1 Gold] for each adjacent [Great Improvement]"
+			"Pillaging this improvement yields approximately [+15 Gold]"
+		],
 		"shortcutKey": "F",
+		"techRequired": "Wizardry",
 		"civilopediaText": [
 			{"text": "A cursed castle that can cause one to be dazed and unable to get out."},
 			{"text": "The strong blood aura on every wall can arouse thirst."},
@@ -665,10 +714,14 @@
 	},
 
 	// Unbuildable improvements
-	{ 
+	{
 		"name": "City ruins",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unbuildable", "Unpillagable"],
+		"uniques": [
+			"Unbuildable",
+			"Unpillagable",
+			//"Will be replaced by automated workers"
+		],
 		"civilopediaText": [
 			{"text": "A bleak reminder of the destruction wreaked by War"}
 		]
@@ -676,7 +729,13 @@
 	{ 
 		"name": "City center", 
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unbuildable", "Unpillagable", "Irremovable"],
+		"uniques": [
+			"Unbuildable",
+			"Unpillagable",
+			"Irremovable",
+			"Ensures a minimum tile yield of [+2 Food, +1 Production]",
+			"Excluded from map editor"
+		],
 		"civilopediaText": [
 			{"text": "Marks the center of a city"},
 			{"text": "Appearance changes with the technological era of the owning civilization"}
@@ -685,7 +744,11 @@
 	{ 
 		"name": "Barbarian encampment", // Dungeon
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unbuildable", "Unpillagable", "Provides a random bonus when entered"],
+		"uniques": [
+			"Unbuildable",
+			"Unpillagable",
+			"Provides a random bonus when entered"
+		],
 		"civilopediaText": [
 			{"text": "Home to monster and uncivilized barbarians, will spawn a hostile unit from time to time and grants a random bonus when cleared."}
 		]

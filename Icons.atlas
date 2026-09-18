@@ -1,482 +1,510 @@
 
 Icons.png
-size: 2048, 1024
+size: 2048, 512
 format: RGBA8888
 filter: MipMapLinearLinear, Linear
 repeat: none
-CityStateIcons/Circle
+CityStateIcons/Agricultural
   rotate: false
-  xy: 4, 4
-  size: 178, 178
-  orig: 178, 178
+  xy: 112, 328
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/Circle
+CityStateIcons/Maritime
   rotate: false
-  xy: 4, 4
-  size: 178, 178
-  orig: 178, 178
+  xy: 112, 328
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
-OtherIcons/Circle
+CityStateIcons/Artisan
   rotate: false
-  xy: 4, 4
-  size: 178, 178
-  orig: 178, 178
-  offset: 0, 0
-  index: -1
-ResourceIcons/Circle
-  rotate: false
-  xy: 4, 4
-  size: 178, 178
-  orig: 178, 178
-  offset: 0, 0
-  index: -1
-CityStateIcons/Cultural
-  rotate: false
-  xy: 406, 82
+  xy: 220, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/Industrial
   rotate: false
-  xy: 1468, 698
+  xy: 220, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-CityStateIcons/Mercantile--Gahaldur
+CityStateIcons/Ceremonial
   rotate: false
-  xy: 1792, 806
+  xy: 328, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Cultural
+  rotate: false
+  xy: 328, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Circle
+  rotate: false
+  xy: 436, 328
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Circle
+  rotate: false
+  xy: 436, 328
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Circle
+  rotate: false
+  xy: 436, 328
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Circle
+  rotate: false
+  xy: 436, 328
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Mercantile
+  rotate: false
+  xy: 976, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/Mercantile-Concordia
   rotate: false
-  xy: 1792, 806
+  xy: 976, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/Mercantile-Crotoa
   rotate: false
-  xy: 1792, 806
+  xy: 976, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/Mercantile-Frostwaste
   rotate: false
-  xy: 1792, 806
+  xy: 976, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+CityStateIcons/Mercantile-Gahaldur
+  rotate: false
+  xy: 976, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 CityStateIcons/Mercantile-Tonthon
   rotate: false
-  xy: 1792, 806
+  xy: 976, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Barbarian encampment
+  rotate: false
+  xy: 4, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Beacon of Power
   rotate: false
-  xy: 1252, 806
+  xy: 112, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Blessed Farm
   rotate: false
-  xy: 1360, 914
+  xy: 220, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Coffin
   rotate: false
-  xy: 1360, 806
+  xy: 436, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/Cultivated farm
+ImprovementIcons/Cultivated Farm
   rotate: false
-  xy: 1468, 914
+  xy: 328, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Dhab Hunter Camp
   rotate: false
-  xy: 1360, 698
+  xy: 436, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Ice-calator
   rotate: false
-  xy: 514, 82
+  xy: 760, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Kyber Foundry
   rotate: false
-  xy: 1684, 914
+  xy: 760, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Lodepit
   rotate: false
-  xy: 622, 82
+  xy: 652, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Matter Transmuter
   rotate: false
-  xy: 1684, 806
+  xy: 976, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Meka-Monastery
   rotate: false
-  xy: 1684, 698
+  xy: 868, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Oracle Monument
   rotate: false
-  xy: 1900, 698
+  xy: 1084, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Rainee's Farm
   rotate: false
-  xy: 944, 290
+  xy: 1192, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Rainee's Plantation
   rotate: false
-  xy: 1152, 498
+  xy: 1300, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Sacred Cove
   rotate: false
-  xy: 1368, 590
+  xy: 1300, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Sacred Grove
   rotate: false
-  xy: 1476, 590
+  xy: 1408, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Sea fort
   rotate: false
-  xy: 1584, 590
+  xy: 1516, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Staerie
   rotate: false
-  xy: 1692, 590
+  xy: 1408, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Taming
   rotate: false
-  xy: 1800, 590
+  xy: 1516, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Ulu Wae
   rotate: false
-  xy: 1908, 590
+  xy: 1408, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Vampire Castle
   rotate: false
-  xy: 1260, 482
+  xy: 1624, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 OtherIcons/Aircraft
   rotate: false
-  xy: 836, 290
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-OtherIcons/Heavenly Nature
-  rotate: false
-  xy: 1576, 914
+  xy: 4, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Aeonism
   rotate: false
-  xy: 4, 814
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ReligionIcons/Balance
-  rotate: false
-  xy: 190, 82
+  xy: 4, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Butterfly Effects
   rotate: false
-  xy: 4, 606
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ReligionIcons/Circle
-  rotate: false
-  xy: 212, 814
-  size: 200, 200
-  orig: 200, 200
+  xy: 220, 112
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Dualism
   rotate: false
-  xy: 4, 190
-  size: 200, 200
-  orig: 200, 200
+  xy: 652, 328
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Evolutionism
   rotate: false
-  xy: 212, 398
-  size: 200, 200
-  orig: 200, 200
+  xy: 436, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Monetarism
   rotate: false
-  xy: 628, 606
-  size: 200, 200
-  orig: 200, 200
+  xy: 868, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Naturalism
   rotate: false
-  xy: 836, 814
-  size: 200, 200
-  orig: 200, 200
+  xy: 1084, 220
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Preformationism
   rotate: false
-  xy: 836, 606
-  size: 200, 200
-  orig: 200, 200
+  xy: 1084, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Relativity
   rotate: false
-  xy: 1044, 814
-  size: 200, 200
-  orig: 200, 200
+  xy: 1408, 328
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Spontanism
   rotate: false
-  xy: 628, 190
-  size: 200, 200
-  orig: 200, 200
+  xy: 1300, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 ReligionIcons/Uncertainty
   rotate: false
-  xy: 1044, 606
-  size: 200, 200
-  orig: 200, 200
+  xy: 1516, 112
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Adamantium
   rotate: false
-  xy: 1252, 914
+  xy: 4, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Amber
   rotate: false
-  xy: 1044, 498
+  xy: 112, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Block
+ResourceIcons/Boss Monster Core
   rotate: false
-  xy: 298, 82
+  xy: 328, 328
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Buffalo
+  rotate: false
+  xy: 112, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Cocoa
   rotate: false
-  xy: 1252, 698
+  xy: 220, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Coffee
   rotate: false
-  xy: 4, 398
-  size: 200, 200
-  orig: 200, 200
+  xy: 328, 112
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Corn
   rotate: false
-  xy: 212, 606
-  size: 200, 200
-  orig: 200, 200
+  xy: 544, 328
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Dragon's Egg
   rotate: false
-  xy: 420, 814
-  size: 200, 200
-  orig: 200, 200
+  xy: 544, 220
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Gu
+ResourceIcons/Hero Limiter
   rotate: false
-  xy: 1468, 806
+  xy: 544, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Honey
   rotate: false
-  xy: 420, 606
-  size: 200, 200
-  orig: 200, 200
+  xy: 652, 220
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Jade
   rotate: false
-  xy: 628, 814
-  size: 200, 200
-  orig: 200, 200
+  xy: 544, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Kyber
   rotate: false
-  xy: 1576, 806
+  xy: 652, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Ley Line
   rotate: false
-  xy: 212, 190
-  size: 200, 200
-  orig: 200, 200
+  xy: 868, 328
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Magician
   rotate: false
-  xy: 420, 398
-  size: 200, 200
-  orig: 200, 200
+  xy: 760, 112
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Mammoth
   rotate: false
-  xy: 1576, 698
+  xy: 868, 220
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Megall
   rotate: false
-  xy: 1792, 914
+  xy: 760, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Mithril
   rotate: false
-  xy: 1900, 914
+  xy: 1084, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Mutagen
   rotate: false
-  xy: 1792, 698
+  xy: 976, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Niter
   rotate: false
-  xy: 1900, 806
+  xy: 1192, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Obsidian
   rotate: false
-  xy: 420, 190
-  size: 200, 200
-  orig: 200, 200
+  xy: 976, 4
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Perfume
   rotate: false
-  xy: 628, 398
-  size: 200, 200
-  orig: 200, 200
+  xy: 1192, 220
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Philosopher's Stone
   rotate: false
-  xy: 730, 82
+  xy: 1300, 328
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Rune Stone
   rotate: false
-  xy: 1260, 590
+  xy: 1192, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ResourceIcons/Tea
   rotate: false
-  xy: 836, 398
-  size: 200, 200
-  orig: 200, 200
+  xy: 1624, 328
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1

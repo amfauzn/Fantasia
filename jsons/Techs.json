@@ -8,7 +8,7 @@
 		"techs": [
 			{
 				"name": "Earth Goddess",
-				"row": 6,
+				"row": 10,
 				"uniques": ["Starting tech"]
 			}
 		]
@@ -23,7 +23,6 @@
 			{
 				"name": "Agriculture",
 				"row": 6,
-				"prerequisites": ["Earth Goddess"],
 				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster"
 			}
 		]
@@ -35,6 +34,11 @@
 		"buildingCost": 60,
 		"wonderCost": 160,
 		"techs": [
+			{
+				"name": "Fishing",
+				"row": 1,
+				"quote": "'If you pray for a fish, you will get one. If you pray for a net, you will be able to catch a thousand.' - Matshona Dhliwayo"
+			},
 			{
 				"name": "Pottery",
 				"row": 3,
@@ -56,8 +60,7 @@
 			},
 			{
 				"name": "Mining",
-				"row": 9,
-				"prerequisites": ["Agriculture"],
+				"row": 10,
 				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
 			}
 		]
@@ -72,7 +75,7 @@
 			{
 				"name": "Sailing",
 				"row": 1,
-				"prerequisites": ["Pottery"],
+				"prerequisites": ["Fishing"],
 				"quote": "'He who commands the sea has command of everything.' - Themistocles"
 			},
 			{
@@ -202,6 +205,16 @@
 				"prerequisites": ["Philosophy","Poetry"],
 				"uniques": ["Enables Research agreements"],
 				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
+			},
+			{
+				"name": "Summoning Rituals",
+				"uniques": [
+					"Provides [1] [Hero Limiter]",
+					"Only available <for [Major] Civilizations>"
+				],
+				"row": 4,
+				"prerequisites": ["Arcane Magic"],
+				"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
 			},
 			{
 				"name": "Wizardry",
@@ -472,7 +485,7 @@
 			{
 				"name": "Mana Battery",
 				"row": 5,
-				"uniques": ["[+200]% Strength <for [The Heroes] units>"],
+				"uniques": ["[+100]% Strength <for [Hero] units>"],
 				"prerequisites": ["Mana Channeling","Magic Industrialization"],
 				"quote": "I think of the sun of as my battery, my charger.' - Alexis Ren"
 			},

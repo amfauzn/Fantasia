@@ -1,0 +1,63 @@
+[
+	// Mages Elemental Awakening
+	{
+		"name": "Element Awakens",
+		"text": "After entering combat, next attacks inflict status ailment",
+		"presentation": "None", // A presentation of "None" will select at random.
+		"choices": [
+			{
+				"text": "Fireball",
+				"uniques": [
+					"[This Unit] gains the [Fireball] promotion",
+					"Only available <for units without [Fireball]>"
+				]
+			},
+			{
+				"text": "Water Whip",
+				"uniques": [
+					"[This Unit] gains the [Water Whip] promotion",
+					"Only available <for units without [Water Whip]>"
+				]
+			},
+			{
+				"text": "Geospike",
+				"uniques": [
+					"[This Unit] gains the [Geospike] promotion",
+					"Only available <for units without [Geospike]>"
+				]
+			},
+			{
+				"text": "Slashing Wind",
+				"uniques": [
+					"[This Unit] gains the [Slashing Wind] promotion",
+					"Only available <for units without [Slashing Wind]>"
+				]
+			}
+		]
+	},
+	
+	// The Red Elves
+	{
+		"name": "Path of Immortality",
+		"text": "Choose Path of Immortality",
+		"presentation": "Alert",
+		"choices": [
+			{
+				"text": "Path of Sword",
+				"uniques": [
+					"Only available <if [Path of Spear] is not constructed> <hidden from users>",
+					"Gain a free [Path of Sword] [in capital] <hidden from users>",
+					"Comment [+5% Strength for Sword-line units for each skill learned (up to +50%)]"
+				]
+			},
+			{
+				"text": "Path of Spear",
+				"uniques": [
+					"Only available <if [Path of Sword] is not constructed> <hidden from users>",
+					"Gain a free [Path of Spear] [in capital] <hidden from users>",
+					"Comment [+5% Strength for Spear-line units for each skill learned (up to +50%)]"
+				]
+			}
+		]
+	},
+]

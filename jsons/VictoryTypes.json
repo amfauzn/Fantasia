@@ -40,11 +40,18 @@
         "victoryString": "You have triumphed over your foes through the art of diplomacy! Your cunning and wisdom have earned you great friends - and divided and sown confusion among your enemies! Forever will you be remembered as the leader who brought peace to this weary world!",
         "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
     },
-    {
-        "name": "Time",
-        "hiddenInVictoryScreen": true,
-        "milestones": ["Have highest score after max turns"],
-        "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
-        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
-    }
+	{
+		"name": "Boss Hunting",
+		"victoryScreenHeader": "Kill 10 Boss Monster to win!\nBoss Monster:\n[Gargantuan Slime]\n[Arachne]\n[Minotaur Warlord]\n[Unicorn]\n[Titan]",
+		"milestones": ["Have at least [10] [Boss Monster Core]"],
+		"victoryString": "You have achieved victory through monster hunting! The mightiest monsters have have been slain, their remains claimed, and your hunters' names shall be remembered for generations!",
+		"defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+	},
+	{
+		"name": "Time",
+		"hiddenInVictoryScreen": true,
+		"milestones": ["Have highest score after max turns"],
+		"victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
+		"defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+	}
 ]

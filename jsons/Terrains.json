@@ -14,9 +14,11 @@
 		"food": 1,
 		"movementCost": 1,
 		"RGB": [107,167,193],
-		"uniques": ["[+2] to Fertility for Map Generation",
-				"Considered [Desirable] when determining start locations <on water maps>",
-				"Every [60] tiles with this terrain will receive a major deposit of a strategic resource."]
+		"uniques": [
+			"[+2] to Fertility for Map Generation",
+			"Considered [Desirable] when determining start locations <on water maps>",
+			"Every [60] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
 	},
 	{
 		"name": "Grassland",
@@ -24,24 +26,30 @@
 		"food": 2,
 		"movementCost": 1,
 		"RGB": [97,171,58],
-		"uniques": ["Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
-				"Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.4]",
-				"Occurs at temperature between [-0.5] and [0.5] and humidity between [0.6] and [0.8]",
-				"Occurs at temperature between [-0.5] and [1] and humidity between [0.9] and [1]",
-				"Occurs at temperature between [0.9] and [1] and humidity between [0.2] and [0.9]",
-				"Occurs at temperature between [0.8] and [0.9] and humidity between [0.6] and [0.9]",
-				"Occurs at temperature between [0.7] and [0.8] and humidity between [0.7] and [0.9]",
-				"Occurs at temperature between [0.6] and [0.8] and humidity between [0.4] and [0.6]",
-				"[+3] to Fertility for Map Generation",
-				"A Region is formed with at least [30]% [Grassland] tiles, with priority [7]",
-				"A Region can not contain more [Plains] tiles than [Grassland] tiles",
-				"Considered [Desirable] when determining start locations",
-				"Considered [Food] when determining start locations <in [Jungle] Regions>",
-				"Considered [Food] when determining start locations <in [Forest] Regions>",
-				"Considered [Food] when determining start locations <in [Hill] Regions>",
-				"Considered [Food] when determining start locations <in [Grassland] Regions>",
-				"Considered [Food] when determining start locations <in [Hybrid] Regions>",
-				"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
+		"uniques": [
+			"Occurs at temperature between [-0.4] and [0.1] and humidity between [0.2] and [0.4]",
+			"Occurs at temperature between [0.1] and [0.2] and humidity between [0.3] and [0.4]",
+			"Occurs at temperature between [-0.5] and [0.5] and humidity between [0.6] and [0.8]",
+			"Occurs at temperature between [-0.5] and [1] and humidity between [0.9] and [1]",
+			"Occurs at temperature between [0.9] and [1] and humidity between [0.2] and [0.9]",
+			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.6] and [0.9]",
+			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.7] and [0.9]",
+			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.4] and [0.6]",
+			"[+3] to Fertility for Map Generation",
+			"A Region is formed with at least [30]% [Grassland] tiles, with priority [7]",
+			"A Region can not contain more [Plains] tiles than [Grassland] tiles",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Food] when determining start locations <in [Jungle] Regions>",
+			"Considered [Food] when determining start locations <in [Forest] Regions>",
+			"Considered [Food] when determining start locations <in [Hill] Regions>",
+			"Considered [Food] when determining start locations <in [Grassland] Regions>",
+			"Considered [Food] when determining start locations <in [Hybrid] Regions>",
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
+			
+			"[+1 Food] <with [1] to [6] neighboring [Kalimutu] tiles> <hidden from users>",
+			"[+1 Gold] <with [1] to [6] neighboring [Zamrud Khatulistiwa] tiles> <hidden from users>",
+			"[+1 Production] <with [1] to [6] neighboring [Rock of Levitation] tiles> <hidden from users>"
+		]
 	},
 	{
 		"name": "Plains",
@@ -50,28 +58,56 @@
 		"production": 1,
 		"movementCost": 1,
 		"RGB": [168,185,102],
-		"uniques": ["Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
-				"Occurs at temperature between [-0.4] and [0.4] and humidity between [0.4] and [0.6]",
-				"Occurs at temperature between [0.4] and [0.5] and humidity between [0.5] and [0.6]",
-				"Occurs at temperature between [-0.6] and [0.7] and humidity between [0.8] and [0.9]",
-				"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0.9] and [1]",
-				"Occurs at temperature between [0.5] and [0.7] and humidity between [0.7] and [0.8]",
-				"Occurs at temperature between [0.9] and [1] and humidity between [0] and [0.2]",
-				"Occurs at temperature between [0.8] and [0.9] and humidity between [0.2] and [0.6]",
-				"Occurs at temperature between [0.7] and [0.8] and humidity between [0.3] and [0.4]",
-				"Occurs at temperature between [0.6] and [0.8] and humidity between [0.6] and [0.7]",
-				"Occurs at temperature between [0.5] and [0.7] and humidity between [0.7] and [0.8]",
-				"[+4] to Fertility for Map Generation",
-				"A Region is formed with at least [30]% [Plains] tiles, with priority [6]",
-				"A Region can not contain more [Grassland] tiles than [Plains] tiles",
-				"Becomes [Forest] when adjacent to [Man-eating tree]",
-				"Considered [Desirable] when determining start locations",
-				"Considered [Food] when determining start locations <in [Tundra] Regions>",
-				"Considered [Food] when determining start locations <in [Desert] Regions>",
-				"Considered [Food] when determining start locations <in [Hill] Regions>",
-				"Considered [Food] when determining start locations <in [Plains] Regions>",
-				"Considered [Food] when determining start locations <in [Hybrid] Regions>",
-				"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
+		"uniques": [
+			"Occurs at temperature between [-0.4] and [-0.1] and humidity between [0] and [0.2]",
+			"Occurs at temperature between [-0.4] and [0.4] and humidity between [0.4] and [0.6]",
+			"Occurs at temperature between [0.4] and [0.5] and humidity between [0.5] and [0.6]",
+			"Occurs at temperature between [-0.6] and [0.7] and humidity between [0.8] and [0.9]",
+			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0.9] and [1]",
+			"Occurs at temperature between [0.5] and [0.7] and humidity between [0.7] and [0.8]",
+			"Occurs at temperature between [0.9] and [1] and humidity between [0] and [0.2]",
+			"Occurs at temperature between [0.8] and [0.9] and humidity between [0.2] and [0.6]",
+			"Occurs at temperature between [0.7] and [0.8] and humidity between [0.3] and [0.4]",
+			"Occurs at temperature between [0.6] and [0.8] and humidity between [0.6] and [0.7]",
+			"Occurs at temperature between [0.5] and [0.7] and humidity between [0.7] and [0.8]",
+			"[+4] to Fertility for Map Generation",
+			"A Region is formed with at least [30]% [Plains] tiles, with priority [6]",
+			"A Region can not contain more [Grassland] tiles than [Plains] tiles",
+			"Becomes [Forest] when adjacent to [Man-eating tree]",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Food] when determining start locations <in [Tundra] Regions>",
+			"Considered [Food] when determining start locations <in [Desert] Regions>",
+			"Considered [Food] when determining start locations <in [Hill] Regions>",
+			"Considered [Food] when determining start locations <in [Plains] Regions>",
+			"Considered [Food] when determining start locations <in [Hybrid] Regions>",
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
+			
+			"[+1 Food] <with [1] to [6] neighboring [Kalimutu] tiles> <hidden from users>",
+			"[+1 Gold] <with [1] to [6] neighboring [Zamrud Khatulistiwa] tiles> <hidden from users>",
+			"[+1 Production] <with [1] to [6] neighboring [Rock of Levitation] tiles> <hidden from users>"
+		]
+	},
+	{
+		"name": "Desert",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [ 230, 230, 113],
+		"uniques": [
+			"Occurs at temperature between [-0.1] and [0.9] and humidity between [0] and [0.2]",
+			"Occurs at temperature between [0.1] and [0.8] and humidity between [0.2] and [0.3]",
+			"Occurs at temperature between [0.2] and [0.7] and humidity between [0.3] and [0.4]",
+			"Occurs at temperature between [0.4] and [0.6] and humidity between [0.4] and [0.5]",
+			"Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [0.7]",
+			"[+1] to Fertility for Map Generation",
+			"A Region is formed with at least [25]% [Desert] tiles, with priority [4]",
+			"Becomes [Flood plains] when adjacent to [River]",
+			"Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
+			"Every [13] tiles with this terrain will receive a major deposit of a strategic resource.",
+			
+			"[+1 Food] <with [1] to [6] neighboring [Kalimutu] tiles> <hidden from users>",
+			"[+1 Gold] <with [1] to [6] neighboring [Zamrud Khatulistiwa] tiles> <hidden from users>",
+			"[+1 Production] <with [1] to [6] neighboring [Rock of Levitation] tiles> <hidden from users>"
+		]
 	},
 	{
 		"name": "Tundra",
@@ -79,53 +115,22 @@
 		"food": 1,
 		"movementCost": 1,
 		"RGB": [189,204,191],
-		"uniques": ["Occurs at temperature between [-0.9] and [-0.6] and humidity between [0.8] and [1]",
-				"Occurs at temperature between [-0.8] and [-0.5] and humidity between [0.6] and [0.8]",
-				"Occurs at temperature between [-0.7] and [-0.4] and humidity between [0.4] and [0.6]",
-				"Occurs at temperature between [-0.6] and [-0.4] and humidity between [0.2] and [0.4]",
-				"Occurs at temperature between [-0.5] and [-0.4] and humidity between [0] and [0.2]",
-				"[+2] to Fertility for Map Generation",
-				"A Region is formed with at least [30]% [Tundra] tiles and [Snow] tiles, with priority [1]",
-				"Considered [Food] when determining start locations <in [Tundra] Regions>",
-				"Considered [Desirable] when determining start locations <in [Tundra] Regions>",
-				"Every [15] tiles with this terrain will receive a major deposit of a strategic resource."]
-	},
-	{
-		"name": "Desert",
-		"type": "Land",
-		"movementCost": 1,
-		"RGB": [ 230, 230, 113],
-		"uniques": ["Occurs at temperature between [-0.1] and [0.9] and humidity between [0] and [0.2]",
-				"Occurs at temperature between [0.1] and [0.8] and humidity between [0.2] and [0.3]",
-				"Occurs at temperature between [0.2] and [0.7] and humidity between [0.3] and [0.4]",
-				"Occurs at temperature between [0.4] and [0.6] and humidity between [0.4] and [0.5]",
-				"Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [0.7]",
-				"[+1] to Fertility for Map Generation",
-				"A Region is formed with at least [25]% [Desert] tiles, with priority [4]",
-				"Becomes [Flood plains] when adjacent to [River]",
-				"Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
-				"Every [13] tiles with this terrain will receive a major deposit of a strategic resource."]
-	},
-	{
-		"name": "Lakes",
-		"type": "Water",
-		"food": 2,
-		"gold": 1,
-		"RGB": [ 123, 202, 226],
-		"uniques": ["Fresh water",
-				"Considered [Food] when determining start locations",
-				"Considered [Desirable] when determining start locations"]
-	},
-	{
-		"name": "Mountain",
-		"type": "Land",
-		"impassable": true,
-		"defenceBonus": 0.25,
-		"RGB": [120, 120, 120],
-		"uniques": ["Rough terrain",
-				"Has an elevation of [4] for visibility calculations",
-				"Occurs in chains at high elevations",
-				"Units ending their turn on this terrain take [15] damage"]
+		"uniques": [
+			"Occurs at temperature between [-0.9] and [-0.6] and humidity between [0.8] and [1]",
+			"Occurs at temperature between [-0.8] and [-0.5] and humidity between [0.6] and [0.8]",
+			"Occurs at temperature between [-0.7] and [-0.4] and humidity between [0.4] and [0.6]",
+			"Occurs at temperature between [-0.6] and [-0.4] and humidity between [0.2] and [0.4]",
+			"Occurs at temperature between [-0.5] and [-0.4] and humidity between [0] and [0.2]",
+			"[+2] to Fertility for Map Generation",
+			"A Region is formed with at least [30]% [Tundra] tiles and [Snow] tiles, with priority [1]",
+			"Considered [Food] when determining start locations <in [Tundra] Regions>",
+			"Considered [Desirable] when determining start locations <in [Tundra] Regions>",
+			"Every [15] tiles with this terrain will receive a major deposit of a strategic resource.",
+			
+			"[+1 Food] <with [1] to [6] neighboring [Kalimutu] tiles> <hidden from users>",
+			"[+1 Gold] <with [1] to [6] neighboring [Zamrud Khatulistiwa] tiles> <hidden from users>",
+			"[+1 Production] <with [1] to [6] neighboring [Rock of Levitation] tiles> <hidden from users>"
+		]
 	},
 	{
 		"name": "Snow",
@@ -133,16 +138,67 @@
 		"movementCost": 1,
 		"defenceBonus": -0.1,
 		"RGB": [231, 242, 249],
-		"uniques": ["Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
-				"Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
-				"Occurs at temperature between [-0.8] and [-0.7] and humidity between [0] and [0.6]",
-				"Occurs at temperature between [-0.7] and [-0.6] and humidity between [0] and [0.4]",
-				"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.2]",
-				"Always Fertility [-1] for Map Generation",
-				"Considered [Undesirable] when determining start locations",
-				"Becomes [Tundra] when adjacent to [River]",
-				"Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
-				"Never receives any resources <in [Hill] tiles>"]
+		"uniques": [
+			"Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
+			"Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
+			"Occurs at temperature between [-0.8] and [-0.7] and humidity between [0] and [0.6]",
+			"Occurs at temperature between [-0.7] and [-0.6] and humidity between [0] and [0.4]",
+			"Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.2]",
+			"Always Fertility [-1] for Map Generation",
+			"Considered [Undesirable] when determining start locations",
+			"Becomes [Tundra] when adjacent to [River]",
+			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
+			"Never receives any resources <in [Hill] tiles>",
+			
+			"[+1 Food] <with [1] to [6] neighboring [Kalimutu] tiles> <hidden from users>",
+			"[+1 Gold] <with [1] to [6] neighboring [Zamrud Khatulistiwa] tiles> <hidden from users>",
+			"[+1 Production] <with [1] to [6] neighboring [Rock of Levitation] tiles> <hidden from users>"
+		]
+	},
+	{
+		"name": "Lakes",
+		"type": "Water",
+		"food": 2,
+		"gold": 1,
+		"RGB": [123,202,226],
+		"uniques": [
+			"Fresh water",
+			"Considered [Food] when determining start locations",
+			"Considered [Desirable] when determining start locations"
+		],
+		"civilopediaText": [
+			{"text": "Lakes provide fresh water to adjacent tiles, allowing farming where it would otherwise not be possible (similar to Rivers and Oases)."},
+			{"text": "Rivers", "link":"Terrain/River"},
+			{"text": "Oasis", "link":"Terrain/Oasis"},
+			{"text": "Farm", "link":"Improvement/Farm"},
+			{"text": "Civil Service", "link":"Technology/Civil Service"},
+			{"text": "Fertilizer", "link":"Technology/Fertilizer"}
+		]
+	},
+	{
+		"name": "Mountain",
+		"type": "Land",
+		"impassable": true,
+		"movementCost": 2,
+		"defenceBonus": 0.25,
+		"RGB": [120,120,120],
+		"uniques": [
+			"Rough terrain", 
+			"Has an elevation of [4] for visibility calculations",
+			"Occurs in chains at high elevations",
+			"Units ending their turn on this terrain take [33] damage"
+		]
+	},
+	{
+		"name": "Canal",
+		"type": "Water",
+		"food": 2,
+		"movementCost": 1,
+		"RGB": [107,167,193]
+		"uniques": [
+			//"Fresh water",
+			"Doesn't generate naturally"
+		]
 	},
 
 	// Terrain features
@@ -154,18 +210,24 @@
 		"overrideStats": true,
 		"defenceBonus": 0.25,
 		"RGB": [105,125,72],
-		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow"],
-		"uniques": ["Rough terrain",
-					"[+5] Strength for cities built on this terrain",
-					"Has an elevation of [2] for visibility calculations",
-					"Occurs in groups around high elevations",
-					"[+1] to Fertility for Map Generation",
-					"A Region is formed with at least [40]% [Hill] tiles, with priority [5]",
-					"Base Terrain on this tile is not counted for Region determination",
-					"Starts in regions of this type receive an extra [Sheep]",
-					"Considered [Desirable] when determining start locations",
-					"Considered [Production] when determining start locations",
-					"Every [22] tiles with this terrain will receive a major deposit of a strategic resource."]
+		"occursOn": ["Grassland","Plains","Desert","Tundra","Snow"],
+		"uniques": [
+			"Rough terrain",
+			"[+5] Strength for cities built on this terrain",
+			"Has an elevation of [2] for visibility calculations",
+			"Occurs in groups around high elevations",
+			"[+1] to Fertility for Map Generation",
+			"A Region is formed with at least [35]% [Hill] tiles, with priority [5]",
+			"Base Terrain on this tile is not counted for Region determination",
+			"Starts in regions of this type receive an extra [Sheep]",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations",
+			"Every [22] tiles with this terrain will receive a major deposit of a strategic resource.",
+			
+			"[+1 Food] <with [1] to [6] neighboring [Kalimutu] tiles> <hidden from users>",
+			"[+1 Gold] <with [1] to [6] neighboring [Zamrud Khatulistiwa] tiles> <hidden from users>",
+			"[+1 Production] <with [1] to [6] neighboring [Rock of Levitation] tiles> <hidden from users>"
+		]
 	},
 	{
 		"name": "Forest",
@@ -176,20 +238,33 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Tundra","Plains","Grassland","Hill"],
-		"uniques": ["Rough terrain", "Vegetation",
-					"Provides a one-time bonus of [+30 Production] to the closest city when cut down <(modified by game speed)>",
-					"Blocks line-of-sight from tiles at same elevation",
-					"[20]% Chance to be destroyed by nukes",
-					"A Region is formed with at least [30]% [Forest] tiles, with priority [3]",
-					"A Region is formed with at least [35]% [Forest] tiles and [Jungle] tiles, with priority [3]",
-					"A Region can not contain more [Jungle] tiles than [Forest] tiles",
-					"Considered [Desirable] when determining start locations",
-					"Considered [Production] when determining start locations",
-					"Considered [Food] when determining start locations <in [Forest] Regions>",
-					"Considered [Food] when determining start locations <in [Tundra] Regions>",
-					"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."],
-		"civilopediaText": [{"text":"A Camp can be built here without cutting it down", "link":"Improvement/Camp"}]
+		"occursOn": ["Grassland","Plains","Tundra","Hill"],
+		"uniques": [
+			"Rough terrain",
+			"Vegetation",
+			"Provides a one-time bonus of [+30 Production] to the closest city when cut down <(modified by game speed)>",
+			"Blocks line-of-sight from tiles at same elevation",
+			"[33]% Chance to be destroyed by nukes",
+			"A Region is formed with at least [25]% [Forest] tiles, with priority [4]",
+			"A Region is formed with at least [30]% [Forest] tiles and [Jungle] tiles, with priority [3]",
+			"A Region can not contain more [Jungle] tiles than [Forest] tiles",
+			"Starts in regions of this type receive an extra [Deer]",
+			"Considered [Desirable] when determining start locations",
+			"Considered [Production] when determining start locations",
+			"Considered [Food] when determining start locations <in [Forest] Regions>",
+			"Considered [Food] when determining start locations <in [Tundra] Regions>",
+			"Every [39] tiles with this terrain will receive a major deposit of a strategic resource.",
+			
+			"[+1 Food] <with [1] to [6] neighboring [Kalimutu] tiles> <hidden from users>",
+			"[+1 Gold] <with [1] to [6] neighboring [Zamrud Khatulistiwa] tiles> <hidden from users>",
+			"[+1 Production] <with [1] to [6] neighboring [Rock of Levitation] tiles> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text":"A Camp can be built here without cutting it down", 
+				"link":"Improvement/Camp"
+			}
+		]
 	},
 	{
 		"name": "Jungle",
@@ -199,19 +274,32 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Plains","Grassland"],
-		"uniques": ["Rough terrain", "Vegetation",
-					"Provides a one-time bonus of [+30 Production] to the closest city when cut down <(modified by game speed)>",
-					"Blocks line-of-sight from tiles at same elevation",
-					"[10]% Chance to be destroyed by nukes",
-					"[-1] to Fertility for Map Generation",
-					"A Region is formed with at least [30]% [Jungle] tiles, with priority [2]",
-					"A Region is formed with at least [35]% [Jungle] tiles and [Forest] tiles, with priority [2]",
-					"A Region can not contain more [Forest] tiles than [Jungle] tiles",
-					"Considered [Food] when determining start locations <in all except [Grassland] Regions>",
-					"Considered [Desirable] when determining start locations <in all except [Grassland] Regions>",
-					"Every [33] tiles with this terrain will receive a major deposit of a strategic resource."]
-		"civilopediaText": [{"text":"A Taming can be built here without cutting it down", "link":"Improvement/Taming"}]
+		"occursOn": ["Grassland","Plains"],
+		"uniques": [
+			"Rough terrain",
+			"Vegetation",
+			"Provides a one-time bonus of [+20 Production, +5 Food] to the closest city when cut down <(modified by game speed)>",
+			"Blocks line-of-sight from tiles at same elevation",
+			"[15]% Chance to be destroyed by nukes",
+			"[-1] to Fertility for Map Generation",
+			"A Region is formed with at least [25]% [Jungle] tiles, with priority [3]",
+			"A Region is formed with at least [30]% [Jungle] tiles and [Forest] tiles, with priority [2]",
+			"A Region can not contain more [Forest] tiles than [Jungle] tiles",
+			"Starts in regions of this type receive an extra [Bananas]",
+			"Considered [Food] when determining start locations <in all except [Grassland] Regions>",
+			"Considered [Desirable] when determining start locations <in all except [Grassland] Regions>",
+			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
+			
+			"[+1 Food] <with [1] to [6] neighboring [Kalimutu] tiles> <hidden from users>",
+			"[+1 Gold] <with [1] to [6] neighboring [Zamrud Khatulistiwa] tiles> <hidden from users>",
+			"[+1 Production] <with [1] to [6] neighboring [Rock of Levitation] tiles> <hidden from users>"
+		],
+		"civilopediaText": [
+			{
+				"text":"A Taming can be built here without cutting it down", 
+				"link":"Improvement/Taming"
+			}
+		]
 	},
 	{
 		"name": "Marsh",
@@ -221,18 +309,26 @@
 		"unbuildable": true,
 		"defenceBonus": -0.15,
 		"occursOn": ["Grassland"],
-		"uniques": ["Rare feature"]
+		"uniques": [
+			"Rare feature",
+			"Starts in regions of this type receive an extra [Buffalo]"
+		]
 	},
 	{
-		"name": "Fallout",
+		"name": "Man-eating tree",
 		"type": "TerrainFeature",
+		"food": -1,
+		"faith": 1,
 		"movementCost": 2,
 		"unbuildable": true,
-		"uniques": ["Nullifies all other stats this tile provides", "Doesn't generate naturally"],
-		// For map editor only - the generator won't place it without code or enabling uniques
-		// If the map generator is ever updated to always take these into account, it should also take the "Doesn't generate naturally" unique into account
-		"occursOn": ["Grassland","Plains","Desert","Tundra","Snow","Forest","Jungle","Hill","Flood plains","Marsh","Oasis"]
-		"defenceBonus": -0.15
+		"occursOn": ["Plains"],
+		"uniques": [
+			"Rough terrain",
+			"Rare feature",
+			"Must be adjacent to [1] to [6] [Forest] tiles",
+			"[10]% Chance to be destroyed by nukes",
+			"Units ending their turn on this terrain take [50] damage"
+		]
 	},
 	{
 		"name": "Oasis",
@@ -243,11 +339,22 @@
 		"unbuildable": true,
 		"defenceBonus": -0.1,
 		"occursOn": ["Desert"],
-		"uniques": ["Fresh water", "Rare feature",
-					"Only [All Road] improvements may be built on this tile",
-					"Always Fertility [4] for Map Generation",
-					"Considered [Food] when determining start locations",
-					"Considered [Desirable] when determining start locations"]
+		"uniques": [
+			"Fresh water",
+			"Rare feature",
+			"Only [All Road] improvements may be built on this tile",
+			"Always Fertility [4] for Map Generation",
+			"Considered [Food] when determining start locations",
+			"Considered [Desirable] when determining start locations"
+		],
+		"civilopediaText": [
+			{"text": "Oases provide fresh water to adjacent tiles, allowing farming where it would otherwise not be possible (similar to Rivers and Lakes)."},
+			{"text": "Rivers", "link":"Terrain/River"},
+			{"text": "Lakes", "link":"Terrain/Lakes"},
+			{"text": "Farm", "link":"Improvement/Farm"},
+			{"text": "Civil Service", "link":"Technology/Civil Service"},
+			{"text": "Fertilizer", "link":"Technology/Fertilizer"}
+		]
 	},
 	{
 		"name": "Flood plains",
@@ -256,30 +363,25 @@
 		"movementCost": 1,
 		"defenceBonus": -0.1,
 		"occursOn": ["Desert"],
-		"uniques": ["Always Fertility [5] for Map Generation",
-					"Considered [Food] when determining start locations",
-					"Considered [Desirable] when determining start locations"]
+		"uniques": [
+			"Always Fertility [5] for Map Generation",
+			"Considered [Food] when determining start locations",
+			"Considered [Desirable] when determining start locations"
+		]
 	},
 	{
-		"name": "Man-eating tree",
+		"name": "Fallout",
 		"type": "TerrainFeature",
-		"faith": 1,
 		"movementCost": 2,
+		"defenceBonus": -0.15,
 		"unbuildable": true,
-		"occursOn": ["Plains"],
-		"uniques": ["Rare feature", 
-					"Must be adjacent to [1] to [6] [Forest] tiles", 
-					"Units ending their turn on this terrain take [50] damage"]
-	},
-	{
-		"name": "Ice",
-		"type": "TerrainFeature",
-		"impassable": true,
-		"overrideStats": true,
-		"occursOn": ["Ocean","Coast"],
-		"uniques": ["Occurs at temperature between [-1] and [-0.7] and humidity between [0] and [1]",
-					"[-1] to Fertility for Map Generation",
-					"Considered [Undesirable] when determining start locations"]
+		"occursOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill","Forest","Jungle","Marsh","Oasis","Flood plains"]
+		"uniques": [
+			"Nullifies all other stats this tile provides",
+			"Doesn't generate naturally"],
+			// For map editor only - the generator won't place it without code or enabling uniques
+			// If the map generator is ever updated to always take these into account, it should also take the "Doesn't generate naturally" unique into account
+		
 	},
 	{
 		"name": "Atoll",
@@ -290,45 +392,195 @@
 		"occursOn": ["Coast"],
 		"uniques": ["Rare feature"]
 	},
-	
 	{
-		"name": "Canal",
+		"name": "Ice",
 		"type": "TerrainFeature",
-		"occursOn": ["Coast"],
-		"movementCost": 2,
-		"uniques": ["Doesn't generate naturally"]
+		"impassable": true,
+		"overrideStats": true,
+		"occursOn": ["Ocean","Coast"],
+		"uniques": [
+			"Occurs at temperature between [-1] and [-0.8] and humidity between [0] and [1]",
+			"[-1] to Fertility for Map Generation",
+			"Considered [Undesirable] when determining start locations"
+		]
+	},
+	{
+		"name": "River",
+		"type": "TerrainFeature",
+		"movementCost": 0,  // So Civilopedia won't display a cost of 1
+		"uniques": [
+			"Doesn't generate naturally",
+			"Excluded from map editor",
+			//"[+1 Gold] <with [1] to [6] neighboring [River] tiles>"
+		],
+		"civilopediaText": [
+			{"text": "Rivers exist on tile edges, not as terrain feature per se."},
+			{"text": "Tiles on both sides gain its benefits. These benefits do not stack."},
+			{"text": "The tile has access to fresh water, allowing farming where it would otherwise not be possible (similar to Oases and Lakes)."},
+			{"text": "Movement across rivers takes all remaining movement points of a unit unless there is a bridge."},
+			// See BattleConstants.ATTACKING_ACROSS_RIVER_MALUS:
+			{"text": "When attacking across a river, the attacker gets a -20% strength malus."},
+			// Related Buildings and Beliefs are automatically linked
+			{"text": "Lakes", "link":"Terrain/Lakes"},
+			{"text": "Oasis", "link":"Terrain/Oasis"},
+			{"text": "Farm", "link":"Improvement/Farm"},
+			{"text": "Road", "link":"Improvement/Road"},
+			{"text": "Engineering", "link":"Technology/Engineering"},
+			{"text": "Civil Service", "link":"Technology/Civil Service"},
+			{"text": "Fertilizer", "link":"Technology/Fertilizer"},
+			{"text": "Amphibious", "link":"Promotion/Amphibious"}
+		]
 	},
 
 	// Natural Wonders
 	{
-		"name": "Great Barrier Reef",
+		"name": "Fountain of Youth",
 		"type": "NaturalWonder",
-		"food": 2,
-		"gold": 3,
-		"science": 2,
+		"happiness": 10,
+		"movementCost": 4,
 		"overrideStats": true,
-		"movementCost": 3,
-		"occursOn": ["Ocean"],
-		"uniques": ["Must be adjacent to [1] to [6] [Coast] tiles",
-					"Must be adjacent to [6] [Water] tiles",
-					"Occurs in groups of [2] to [2] tiles"],
-		"turnsInto": "Coast",
+		"occursOn": ["Grassland"],
+		"turnsInto": "Lakes",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": [
+			"Fresh water",
+			"Must be adjacent to [0] [Coast] tiles",
+			"Grants [Rejuvenation] ([all healing effects doubled]) to adjacent [{Military} {non-[Flying]} {Land}] units for the rest of the game",
+			"Tile provides yield without assigned population"
+		],
+		"weight": 4
+	},
+	{
+		"name": "Overgrowth Rift",
+		"type": "NaturalWonder",
+		"faith": 3,
+		"food": -1,
+		"production": 1,
+		"science": 2,
+		"movementCost": 4,
+		"defenceBonus": -0.5,
+		"overrideStats": false,
+		"occursOn": ["Plains"],
+		"turnsInto": "Plains",
 		"impassable": false,
 		"unbuildable": true,
+		"uniques": [
+			"Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] [Lakes] tiles",
+			"Must be adjacent to [3] to [6] [Plains] tiles",
+			"Neighboring tiles will convert to [Man-eating tree] <in [Open terrain] tiles>",
+			"Units ending their turn on this terrain take [100] damage"
+		],
 		"weight": 10
 	},
 	{
-		"name": "Old Faithful",
+		"name": "Chocolate Hills",
 		"type": "NaturalWonder",
-		"science": 2,
-		"happiness": 3,
-		"occursOn": ["Grassland","Plains","Tundra","Mountain"],
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-					"Tile provides yield without assigned population"],
-		"turnsInto": "Plains",
+		"culture": 3,
+		"movementCost": 2,
+		"overrideStats": true,
+		"occursOn": ["Grassland","Plains"],
+		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
+		"uniques": [
+			"Occurs in groups of [2] to [3] tiles",
+			"Occurs in groups around high elevations",
+			"Must be adjacent to [0] to [0] [Desert] tiles",
+			"Must be adjacent to [0] [Water] tiles"
+		],
 		"weight": 10
+	},
+	{
+		"name": "Zamrud Khatulistiwa",
+		"type": "NaturalWonder",
+		"gold": 2,
+		"happiness": 2,
+		"overrideStats": false,
+		"occursOn": ["Grassland","Desert"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": [
+			"Occurs on latitudes from [0] to [5] percent of distance equator to pole"
+			"Must be adjacent to [1] to [6] [Grassland] tiles",
+			"Must be adjacent to [0] [Tundra] tiles",
+			"Comment [Neighboring tiles provides +1 [Gold]]"
+		],
+		"weight": 8
+	},
+	{
+		"name": "Crater Lake",
+		"type": "NaturalWonder",
+		"gold": 4,
+		"science": 3,
+		"movementCost": 1,
+		"defenceBonus": 0.1,
+		"overrideStats": true,
+		"occursOn": ["Grassland","Plains","Desert","Tundra"],
+		"turnsInto": "Lakes",
+		"unbuildable": true,
+		"uniques": [
+			"Fresh water",
+			"Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] [Mountain] tiles",
+			"Must be adjacent to [0] [Snow] tiles"
+		],
+		"weight": 10
+	},
+	{
+		"name": "Kalimutu",
+		"type": "NaturalWonder",
+		"food": 1,
+		"science": 2,
+		"movementCost": 2,
+		"defenceBonus": 0.25,
+		"overrideStats": true,
+		"occursOn": ["Grassland","Lakes"],
+		"turnsInto": "Lakes",
+		"impassable": false,
+		"unbuildable": true,
+		"uniques": [
+			"Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [3] to [6] [Grassland] tiles",
+			"Comment [Neighboring tiles provides +1 [Food]]"
+		],
+		"weight": 6
+	},
+	{
+		"name": "Arkatore",
+		"type": "NaturalWonder",
+		"gold": 10,
+		"movementCost": 2,
+		"overrideStats": true,
+		"occursOn": ["Desert"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": [
+			"Must be adjacent to [1] to [6] [Hill] tiles",
+			"Must be adjacent to [0] [Flood plains] tiles"
+		],
+		"weight": 7
+	},
+	{
+		"name": "Rock of Levitation",
+		"type": "NaturalWonder",
+		"production": 2,
+		"overrideStats": false,
+		"occursOn": ["Plains","Desert"],
+		"turnsInto": "Desert",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": [
+			"Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] [Grassland] tiles",
+			"Must be adjacent to [0] [Tundra] tiles",
+			"Must be adjacent to [2] to [6] [Desert] tiles",
+			"Comment [Neighboring tiles provides +1 [Production]]"
+		],
+		"weight": 7
 	},
 	{
 		"name": "El Dorado",
@@ -341,27 +593,89 @@
 		"turnsInto": "Plains",
 		"impassable": false,
 		"unbuildable": true,
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-					"Must be adjacent to [1] to [6] [Jungle] tiles",
-					"Grants [+500 Gold] to the first civilization to discover it",
-					],
+		"uniques": [
+			"Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [1] to [6] [Jungle] tiles",
+			"Grants [+500 Gold] to the first civilization to discover it",
+		],
+		"weight": 8
+	},
+	{
+		"name": "Old Faithful",
+		"type": "NaturalWonder",
+		"happiness": 4,
+		"science": 2,
+		"overrideStats": false,
+		"occursOn": ["Tundra","Mountain"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": [
+			"Must be adjacent to [0] to [4] [Mountain] tiles",
+			"Must be adjacent to [3] to [6] [Elevated] tiles",
+			"Must be adjacent to [1] to [6] [Tundra] tiles",
+			"Must be adjacent to [0] [Grassland] tiles",
+			"Must be adjacent to [0] [Coast] tiles"
+		],
 		"weight": 10
 	},
 	{
-		"name": "Fountain of Youth",
+		"name": "Mount Snowpeak",
 		"type": "NaturalWonder",
-		"happiness": 10,
+		"gold": 2,
+		"culture": 3,
+		"faith": 3,
 		"overrideStats": true,
-		"occursOn": ["Grassland"],
-		"turnsInto": "Lakes",
+		"occursOn": ["Tundra","Snow"],
+		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"uniques": ["Fresh water",
-					"Must be adjacent to [0] [Coast] tiles",
-					"Grants [Water of Life] ([+10 HP when healing]) to adjacent [{Military} {Land}] units for the rest of the game",
-					"Tile provides yield without assigned population"],
-		"weight": 5
+		"uniques": [
+			"Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] [Desert] tiles", 
+			"Must be adjacent to [1] to [6] [Tundra] tiles"
+			"Grants [Cold Resistant] ([+10% Strength and Double movement in [Snow]]) to adjacent [Land] units for the rest of the game"
+		],
+		"weight": 10
 	},
+	{
+		"name": "Great Barrier Reef",
+		"type": "NaturalWonder",
+		"food": 2,
+		"gold": 3,
+		"science": 2,
+		"movementCost": 3,
+		"overrideStats": true,
+		"occursOn": ["Coast","Ocean"],
+		"turnsInto": "Coast",
+		"impassable": false,
+		"unbuildable": true,
+		"uniques": [
+			"Must be adjacent to [1] to [6] [Coast] tiles",
+			"Must be adjacent to [6] [Water] tiles",
+			"Occurs in groups of [2] to [2] tiles"
+		],
+		"weight": 10
+	},
+	{
+		"name": "Phantom Island",
+		"type": "NaturalWonder",
+		"food": 2,
+		"gold": 4,
+		"overrideStats": true,
+		"occursOn": ["Coast","Ocean"],
+		"turnsInto": "Ocean",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": [
+			"Must be adjacent to [1] to [6] [Coast] tiles",
+			"Must be adjacent to [0] to [0] [Land] tiles",
+			"Comment [Provides a copy of each resource generated on [Coast]]",
+		],
+		"weight": 7
+	},
+	
+	// Will be removed
 	{
 		"name": "Suction Mud",
 		"type": "NaturalWonder",
@@ -377,54 +691,7 @@
 		"turnsInto": "Desert",
 		"impassable": false,
 		"unbuildable": true,
-		"weight": 10
-	},
-	{
-		"name": "Mount Snowpeak",
-		"type": "NaturalWonder",
-		"gold": 2,
-		"culture": 3,
-		"faith": 3,
-		"overrideStats": true,
-		"occursOn": ["Plains","Tundra"],
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-					"Must be adjacent to [0] [Desert] tiles", 
-					"Must be adjacent to [1] to [6] [Tundra] tiles"
-					"Grants [Cold Resistant] ([+1 Movement in Snow]) to adjacent [Civilian] units for the rest of the game",
-					"Grants [Cold Resistant] ([+1 Movement in Snow, +10% Strength in Snow]) to adjacent [{Military} {Land}] units for the rest of the game"],
-		"turnsInto": "Mountain",
-		"impassable": true,
-		"unbuildable": true,
-		"weight": 10
-	},
-	{
-		"name": "Arkatore",
-		"type": "NaturalWonder",
-		"food": 2,
-		"science": 6,
-		"overrideStats": true,
-		"occursOn": ["Ocean"],
-		"uniques": ["Must be adjacent to [1] to [6] [Coast] tiles",
-					"Must be adjacent to [0] [Ice] tiles"],
-		"turnsInto": "Mountain",
-		"impassable": true,
-		"unbuildable": true,
-		"weight": 10
-	},
-	{
-		"name": "Phantom Island",
-		"type": "NaturalWonder",
-		"faith": 2,
-		"food": 2,
-		"gold": 2,
-		"overrideStats": true,
-		"occursOn": ["Ocean"],
-		"uniques": ["Must be adjacent to [1] to [6] [Coast] tiles", 
-					"Comment [Provides a copy of each Strategic and Luxury resource generated on Coast thanks to dedicated building]"],
-		"turnsInto": "Ocean",
-		"impassable": false,
-		"unbuildable": true,
-		"weight": 10
+		"weight": 1
 	},
 	{
 		"name": "Cerro de Potosi",
@@ -435,130 +702,6 @@
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
-		"weight": 10
-	},
-	{
-		"name": "Crater Lake",
-		"type": "NaturalWonder",
-		"gold": 4,
-		"science": 3,
-		"movementCost": 1,
-		"overrideStats": true,
-		"defenceBonus": 0.1,
-		"occursOn": ["Desert","Tundra","Plains","Grassland"],
-		"uniques": ["Fresh water",
-					"Comment [Neighboring tiles provides +1 [Food]]",
-					"Must be adjacent to [0] [Coast] tiles",
-					"Must be adjacent to [0] [Mountain] tiles",
-					"Must be adjacent to [0] [Snow] tiles"],
-		"turnsInto": "Lakes",
-		//"impassable": false,
-		"unbuildable": true,
-		"weight": 8
-	},
-	{
-		"name": "Zamrud Khatulistiwa",
-		"type": "NaturalWonder",
-		"gold": 2,
-		"happiness": 2,
-		"overrideStats": true,
-		"occursOn": ["Plains","Grassland","Desert"],
-		"uniques": ["Comment [Neighboring tiles provides +1 [Gold]]",
-					"Must be adjacent to [0] [Coast] tiles",
-					"Must be adjacent to [0] [Tundra] tiles",
-					"Occurs on latitudes from [0] to [5] percent of distance equator to pole"],
-		"turnsInto": "Mountain",
-		"impassable": true,
-		"unbuildable": true,
-		"weight": 8
-	},
-	{
-		"name": "Rock of Levitation",
-		"type": "NaturalWonder",
-		"production": 5,
-		"movementCost": 2,
-		"food": 2,
-		"defenceBonus": 0.25,
-		"occursOn": ["Desert","Plains"],
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-					"Must be adjacent to [0] [Grassland] tiles",
-					"Must be adjacent to [0] [Tundra] tiles",
-					"Must be adjacent to [1] to [6] [Desert] tiles",
-					"Nullifies all other stats this tile provides"],
-		"turnsInto": "Desert",
-		"impassable": false,
-		"unbuildable": true,
-		"weight": 10
-	},
-	{
-		"name": "Kalimutu",
-		"type": "NaturalWonder",
-		"food": 1,
-		"culture": 3,
-		"science": 2,
-		"occursOn": ["Plains","Grassland"],
-		"uniques": ["Must be adjacent to [0] [Tundra] tiles",
-					"Must be adjacent to [0] [Desert] tiles",
-					"Must be adjacent to [2] to [6] [Elevated] tiles"],
-		"turnsInto": "Lakes",
-		"impassable": false,
-		"unbuildable": true,
-		"weight": 10
-	},
-	/*{
-		"name": "Uluru",
-		"type": "NaturalWonder",
-		"food": 2,
-		"faith": 6,
-		"occursOn": ["Plains","Desert"],
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-					"Must be adjacent to [0] [Tundra] tiles",
-					"Must be adjacent to [2] to [6] [Plains] tiles"],
-		"turnsInto": "Mountain",
-		"impassable": true,
-		"unbuildable": true,
-		"weight": 10
-	},*/
-/*
-	// BNW wonders
-	{
-		"name": "King Solomon's Mines",
-		"type": "NaturalWonder",
-		"production": 6,
-		"overrideStats": true,
-		"occursOn": ["Plains","Desert"],
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [0] to [2] [Mountain] tiles"],
-		"turnsInto": "Plains",
-		"impassable": true,
-		"unbuildable": true,
-		"weight": 4
-	},
-	{// Will be introduced in Brave New World. Despite being a lake, it cannot be sailed on and it blocks line of sight like a mountain.
-		"name": "Lake Victoria",
-		"type": "NaturalWonder",
-		"food": 6,
-		"occursOn": ["Plains"],
-		"turnsInto": "Mountain",
-		"impassable": true,
-		"unbuildable": true,
-		"uniques": ["Fresh water","Must be adjacent to [0] [Coast] tiles"],
-		"weight": 10
-	},
-	{
-		"name": "Mount Kilimanjaro",
-		"type": "NaturalWonder",
-		"food": 3,
-		"culture": 2,
-		"occursOn": ["Plains","Grassland"],
-		"turnsInto": "Mountain",
-		"impassable": true,
-		"unbuildable": true,
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [2] to [6] [Hill] tiles",
-			"Must be adjacent to [0] to [2] [Mountain] tiles",
-			"Grants [Altitude Training] ([double movement and +10% Strength in hills]) to adjacent [Land] units for the rest of the game"],
-		"weight": 10
+		"weight": 1
 	}
-*/
 ]

@@ -3,14 +3,15 @@
 		"name": "Tradition",
 		"era": "Archaic age",
 		"priorities": {
-			"Neutral": 0,
-			"Cultural": 20,
+			"Neutral": 5,
+			"Cultural": 10,
 			"Diplomatic": 10,
-			"Domination": 0,
-			"Scientific": 0
+			"Domination": 5,
+			"Scientific": 5
 		},
 		"uniques": ["[+3 Culture] [in capital]", 
-					"[-25]% Culture cost of natural border growth [in all cities]", 
+					"[-25]% Culture cost of natural border growth [in capital]",
+					"[-10]% Culture cost of natural border growth [in all cities]",
 					"Comment [Unlocks building Cetho Lighyn]"
 		],
 		"policies": [
@@ -64,11 +65,11 @@
 		"name": "Liberty",
 		"era": "Archaic age",
 		"priorities": {
-			"Neutral": 0,
-			"Cultural": 10,
+			"Neutral": 5,
+			"Cultural": 5,
 			"Diplomatic": 10,
 			"Domination": 10,
-			"Scientific": 20
+			"Scientific": 10
 		},
 		"uniques": ["[+1 Culture] [in all cities]", 
 					"Comment [Unlocks building Bondowoso]"
@@ -126,11 +127,11 @@
 		"name": "Honor",
 		"era": "Archaic age",
 		"priorities": {
-			"Neutral": 0,
-			"Cultural": 0,
-			"Diplomatic": 10,
-			"Domination": 20,
-			"Scientific": 10
+			"Neutral": 5,
+			"Cultural": 5,
+			"Diplomatic": 5,
+			"Domination": 10,
+			"Scientific": 5
 		},
 		"uniques": ["[+33]% Strength <vs [Barbarian] units>",
 					"Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
@@ -191,10 +192,10 @@
 		"name": "Piety",
 		"era": "Classical age",
 		"priorities": {
-			"Neutral": 0,
-			"Cultural": 10,
-			"Diplomatic": 10,
-			"Domination": 10,
+			"Neutral": 2,
+			"Cultural": 2,
+			"Diplomatic": 2,
+			"Domination": 0,
 			"Scientific": 0
 		},
 		"uniques": ["[+100]% Production when constructing [Shrine] buildings [in all cities]", 
@@ -250,11 +251,11 @@
 		"name": "Legacy",
 		"era": "Feudal age",
 		"priorities": {
-			"Neutral": 0,
-			"Cultural": 30,
-			"Diplomatic": 10,
+			"Neutral": 5,
+			"Cultural": 10,
+			"Diplomatic": 5,
 			"Domination": 0,
-			"Scientific": 10
+			"Scientific": 5
 		},
 		"uniques": ["[+15]% Production when constructing [Culture] buildings [in all cities]"],
 		"policies": [
@@ -310,11 +311,11 @@
 		"name": "Patronage",
 		"era": "Feudal age",
 		"priorities": {
-			"Neutral": 0,
-			"Cultural": 10,
-			"Diplomatic": 30,
-			"Domination": 0,
-			"Scientific": 10
+			"Neutral": 5,
+			"Cultural": 5,
+			"Diplomatic": 10,
+			"Domination": 5,
+			"Scientific": 5
 		},
 		"uniques": ["[-25]% City-State Influence degradation"],
 		"policies": [
@@ -366,11 +367,11 @@
 		"name": "Commerce",
 		"era": "Feudal age",
 		"priorities": {
-			"Neutral": 0,
-			"Cultural": 10,
-			"Diplomatic": 10,
-			"Domination": 10,
-			"Scientific": 10
+			"Neutral": 5,
+			"Cultural": 5,
+			"Diplomatic": 5,
+			"Domination": 5,
+			"Scientific": 5
 		},
 		"uniques": ["[+25]% [Gold] [in capital]"],
 		"policies": [
@@ -428,11 +429,11 @@
 		"name": "Rationalism",
 		"era": "Feudal age",
 		"priorities": {
-			"Neutral": 0,
+			"Neutral": 10,
 			"Cultural": 10,
 			"Diplomatic": 10,
 			"Domination": 10,
-			"Scientific": 20
+			"Scientific": 10
 		},
 		"uniques": ["[+15]% [Science] <while the empire is happy>"],
 		"policies": [
@@ -490,11 +491,11 @@
 		"name": "Quixotic A",
 		"era": "Industrial age",
 		"priorities": {
-			"Neutral": 50,
-			"Cultural": 50,
-			"Diplomatic": 30,
-			"Domination": 30,
-			"Scientific": 30
+			"Neutral": 10,
+			"Cultural": 10,
+			"Diplomatic": 10,
+			"Domination": 5,
+			"Scientific": 10
 		},
 		"uniques": ["[+25]% Great Person generation [in all cities]", 
 					"[+3 Happiness] [in capital]", 
@@ -546,11 +547,11 @@
 		"name": "Quixotic B",
 		"era": "Industrial age",
 		"priorities": {
-			"Neutral": 50,
-			"Cultural": 30,
-			"Diplomatic": 30,
-			"Domination": 50,
-			"Scientific": 40
+			"Neutral": 10,
+			"Cultural": 5,
+			"Diplomatic": 10,
+			"Domination": 10,
+			"Scientific": 10
 		},
 		"uniques": ["[-33]% maintenance costs <for [All] units>", 
 					"Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately", 

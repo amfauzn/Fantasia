@@ -1,32 +1,170 @@
+# v3.0.0
 
-# v1.0.0
-## v0.7
-- Add new Civ: Torakj
-- Add Cultural & Diplomatic victory
-- Adjust CS
-- Terrace farm available for everyone (not on bonus and strategic resources)
-- Great Artist, Great Scientist, Great Merchant, and Great Engineer are capturable
-- Add Great Admiral as bonus units
+## v3.2 (18.09.2026)
+- Bug fixes and fix deprecated uniques
+- Balancing by Bamboolord, EmperorPinguin, AlatarTheYoung, AceHank
+- Korean translation by bisramia
+- Add Boss Hunting Victory, kill 10 Boss Monster to win
+- Balancing some beliefs
+- Add more Natural Wonder, with view to remove some
+- Change vampire Castle bonuses from adjacencies
+- Change some City-State bonuses
 
-## v0.8
-- Add new Civ: Frostmorrow
-- Add ice-calator improvements
-- Adjust policy: Add Legacy and Quixotic policy branch
+Hero
+- No longer locked by World Wonder, this fixes problem with CS quest 'construct wonder' and enables all Civ to summon at least a Hero, albeit all may have same Hero
+- Each Hero now has unique promotion
+- Add 2 new Hero, ported from beta
+- Now locked in Summoning Rituals technology, to prevent early summoning
+- Bonus Strength from Mana Battery reduced from +200% -> +100%
 
-## v0.9
-- Add religions and beliefs
-- Add religions buildings and wonders
-- Add additional resources: Gu, Jade
-- Add icons
-- Add ruleset unique: convert gold to science with sliders
+Skill/Promotion
+- Sligthly change skill tree for Mages, Construct, and Tamer units
+- Mage/dragon now has access to elemental skills, enable their attack to inflict status ailment
 
-## v1.0
-- Add Scientific victory (Neutral victory)
-- Fix 'too many civs in small map' error
-- Add unique units
-- Update unit icons
+Barbarians & Monsters
+- Barbarian no longer produce Recon Units
+- Sligly balancing Monster units
+- Add some Boss Monster
+
+## v3.1.5 (04.09.2023)
+- Rain Forest
+	May now build Plantation without removing Forest
+- Fix Archery Hero can't pick Teleportation skill
+- Civ-specific Strategic resources now cannot be traded
+
+## v3.1.4 (28.08.2023)
+- Frostmorrow
+	May now generate Great Farmer via specialists
+	No longer receive free Great Farmer upon discovering Fertilizer
+	Great Farmer may now be consumed to add +2 population in capital
+- Necropoleis
+	UA Sacrifice 3 population for a Great General -> Sacrifice 2 population
+- The Order of Withcer
+	UU Withcer +Beast Hunter skill (Gain 50 Gold upon defeating Beast units)
+- Tianwu	
+	UU Shifu free skill of Twilight Veil (Invisible to non-adjacent units)
+- Cultivated farm
+	+1 Food if constructed on Snow
+	+1 Food for each adjacent Ice-calator
+- Man-eating tree now appears on Plains
+- Fix 'Nkuhanea doesn't get +1 population for cities on Fresh water
+- All Heroes and it's type now displayable in Civilopedia
+- Add sprites for Monsters units by rica40
+
+## v3.1.3 (07.06.2023)
+- Reduce Path of Immortality bonus from +10% to +5%
+- Fix The Trolls not receive free Zaghronk in 4 cities upon adopting Tradition Complete
+- Add 2 new Civs (The Order of Witchers and Sanctum Regalia)
+
+## v3.1.2 (25.05.2023)
+- Upload Images folder
+- Update translation file
+- Add missing sprites
+- Fix typo for Path of Sword by Belias
+
+## v3.1.1 (08.04.2023)
+- Fix Marunesia can't build Ulu Wae
+- Fix Tamer unit can't capture killed Beast units and increase it's chances
+- Fix Holy Warrior Belief enables buying any Land Heroes even without their respective Portal
+- Prevent buying Skeletal Warrior and Skeletal Champion
+- Fix Divine Order can't prevent religion spreading by Great Prophet and/or Missionary
+- Beast units now displayable in Civilopedia
+
+## v3.1.0 (22.03.2023)
+- Separate between Militaristic and Industrial CS
+- Allied Mercantile CS now provide 2 copies a 'unique' luxury resources
+- More CS added, 6 CS every type
+- Arbalester no longer upgrade to Scorpion, upgrade to Gatling Gun instead
+- Scorpion available after discovering Physic, updrade to Ballista (anti Air Terror unit)
+- Increase rock-paper-scissor bonus (Sword - Anti-Cav - Mounted) from +10% to +33%
+- Civ balancing
+- Add lore for every civ
+- Add description for every unique buildings and unique units
+- Add 3 new Civs (Tianwu, Necropoleis, and The Trolls)
+- Fix Policy placement and some minor balancing
+- Can now adopt both Piety and Rationalism
+- More mythical beast, or the so called barbarians monster
+- Mythical beast no longer appears at the start of the game, except Slime
+- Add Spanish translation by Caballero-Arepa
+
+## v3.0.1 (20.11.2022)
+- Fix Heroes become obsolete (weaker) as the age progress
+- Rework Red Moon
+- Add new Civs: Ilythiir & Urush
+- Buff Warrior Code, a policy branch of Honor
+- Add more dungeon bonus effect
+- Add new Natural Wonder: Kalimutu
+- New unit class: Tamer
+
+## v3.0 (26.09.2022)
+- Era & Tech revamp
+- Remove Altar mechanism
+- Change Hero mechanism
+- Skill tree revamp
+- Rework Piety Policy
+- Increase XP gained from combat with Barbarian (max 360 XP)
+- Introducing rock-paper-scissor aspect for units
+- New unit class: Construct, Mage, & Monk
+- Unit balancing
+- Rework Nas, Rain Forest, & Torakj
+- Canonizing Extension civs, and balancing
+
+### Balancing List for V3.0.0
+- Almuria
+	UA +Double quantity of Megall
+- Louvargia
+	UA +Free Divine Order upon discovering Theology
+- The Shinso
+	UB Pillar of Wealth Currency -> Mathematics
+	UB Pillar of Faith Theology -> Philosopy
+	UA +Free Great Person after building all pillars
+- Arxia
+	UU Fanatic +10% str when stacked with Traon General
+- Thallin
+	UA +8 Culture after adopting tradition complete -> +1 Population +1 Culture in capital upon adopting every Tradition policy tree
+- Torakj
+	UA +15 % Flank attack bonus -> +10% Flank attack bonus
+	UA +1 Happiness every Courthouse -> Receive triple gold pillaging cities
+	UU Wolf Rider str 14 -> 12 cost 85 -> 70
+- Smeheng
+	UA +10% str bonus in Desert -> +15% str bonus in Desert
+	UA +10% str bonus in Freindly Land -> +15% str bonus in Freindly Land
+- Cavegoa
+	UA +5 HP when healing -> +10 HP when healing
+	UA +10% str when belom 50 HP when defending - > +10% str when below 50 HP
+	UB Posha +1 Production +3 Gold from water resources -> +1 Food +1 Gold from Fish tiles
+- Ilythiir
+	UA +Free Settler appears upon discovering Calendar
+- Vedic
+	UU Homunculus str 36 -> 35
+- Thorin
+	UA Normal vision when embarked -> Gain 330 Gold upon capturing a city
+	UB Cashier Stable maintenance 1 -> 0
+	UB +33% Production for Mounted -> +50% Production for Mounted
+- Malus
+	UB Malus' Barricade -> UB Fortified Walls
+- Nas
+	UA -33% maintenance costs for Military Land and Water units -> -50% City-State Influence degradation
+	UA +Militaristic City-States grant units 2 times as fast when you are at war with a common nation
+	UU Ballista -> UB Ancient Citadel
+- Erhab
+	UB Sacred Dance +1 Gold from each trade route -> +4 Culture from the UB
+	UB Sacred Dance +5% str for Melee unit when defending -> +10% str for Land unit when defending
+- Sulvana
+	UA +10% Great Person generation in all cities
+- Urush
+	UA +1 Happiness from every Barrack, Armory, and Knight Academy if Infernal Gate is constructed
+- Red Moon
+	UA +34% Natural religion spread -> Double quantity of Magician produced
+	UB Sect -> UB Draen Sanctuary
+	UU Adept replaces Swordsman -> replaces Ranger
+- Frostmorrow
+	UA -25% Culture cost of natural border growth in first 4 cities -> -15% Culture cost of natural border growth in all cities
+	UA -25% unhappiness from specialists in first 4 cities -> in all cities
+
 
 # v2.0.0
+
 ## v2.0
 - Changes Tech required for some units
 - Reduce percentage of science bonuses from science buildings
@@ -112,138 +250,34 @@
 - AI Can now built Adam Harvester
 - Fix All Victory types
 
-# v3.0.0
-## v3.0 (26.09.2022)
-- Era & Tech revamp
-- Remove Altar mechanism
-- Change Hero mechanism
-- Skill tree revamp
-- Rework Piety Policy
-- Increase XP gained from combat with Barbarian (max 360 XP)
-- Introducing rock-paper-scissor aspect for units
-- New unit class: Construct, Mage, & Monk
-- Unit balancing
-- Rework Nas, Rain Forest, & Torakj
-- Canonizing Extension civs, and balancing
-### Balancing List for V3.0.0
-- Almuria
-	UA +Double quantity of Megall
-- Louvargia
-	UA +Free Divine Order upon discovering Theology
-- The Shinso
-	UB Pillar of Wealth Currency -> Mathematics
-	UB Pillar of Faith Theology -> Philosopy
-	UA +Free Great Person after building all pillars
-- Arxia
-	UU Fanatic +10% str when stacked with Traon General
-- Thallin
-	UA +8 Culture after adopting tradition complete -> +1 Population +1 Culture in capital upon adopting every Tradition policy tree
-- Torakj
-	UA +15 % Flank attack bonus -> +10% Flank attack bonus
-	UA +1 Happiness every Courthouse -> Receive triple gold pillaging cities
-	UU Wolf Rider str 14 -> 12 cost 85 -> 70
-- Smeheng
-	UA +10% str bonus in Desert -> +15% str bonus in Desert
-	UA +10% str bonus in Freindly Land -> +15% str bonus in Freindly Land
-- Cavegoa
-	UA +5 HP when healing -> +10 HP when healing
-	UA +10% str when belom 50 HP when defending - > +10% str when below 50 HP
-	UB Posha +1 Production +3 Gold from water resources -> +1 Food +1 Gold from Fish tiles
-- Ilythiir
-	UA +Free Settler appears upon discovering Calendar
-- Vedic
-	UU Homunculus str 36 -> 35
-- Thorin
-	UA Normal vision when embarked -> Gain 330 Gold upon capturing a city
-	UB Cashier Stable maintenance 1 -> 0
-	UB +33% Production for Mounted -> +50% Production for Mounted
-- Malus
-	UB Malus' Barricade -> UB Fortified Walls
-- Nas
-	UA -33% maintenance costs for Military Land and Water units -> -50% City-State Influence degradation
-	UA +Militaristic City-States grant units 2 times as fast when you are at war with a common nation
-	UU Ballista -> UB Ancient Citadel
-- Erhab
-	UB Sacred Dance +1 Gold from each trade route -> +4 Culture from the UB
-	UB Sacred Dance +5% str for Melee unit when defending -> +10% str for Land unit when defending
-- Sulvana
-	UA +10% Great Person generation in all cities
-- Urush
-	UA +1 Happiness from every Barrack, Armory, and Knight Academy if Infernal Gate is constructed
-- Red Moon
-	UA +34% Natural religion spread -> Double quantity of Magician produced
-	UB Sect -> UB Draen Sanctuary
-	UU Adept replaces Swordsman -> replaces Ranger
-- Frostmorrow
-	UA -25% Culture cost of natural border growth in first 4 cities -> -15% Culture cost of natural border growth in all cities
-	UA -25% unhappiness from specialists in first 4 cities -> in all cities
 
-## v3.0.1 (20.11.2022)
-- Fix Heroes become obsolete (weaker) as the age progress
-- Rework Red Moon
-- Add new Civs: Ilythiir & Urush
-- Buff Warrior Code, a policy branch of Honor
-- Add more dungeon bonus effect
-- Add new Natural Wonder: Kalimutu
-- New unit class: Tamer
+# v1.0.0
 
-## v3.1.0 (22.03.2023)
-- Separate between Militaristic and Industrial CS
-- Allied Mercantile CS now provide 2 copies a 'unique' luxury resources
-- More CS added, 6 CS every type
-- Arbalester no longer upgrade to Scorpion, upgrade to Gatling Gun instead
-- Scorpion available after discovering Physic, updrade to Ballista (anti Air Terror unit)
-- Increase rock-paper-scissor bonus (Sword - Anti-Cav - Mounted) from +10% to +33%
-- Civ balancing
-- Add lore for every civ
-- Add description for every unique buildings and unique units
-- Add 3 new Civs (Tianwu, Necropoleis, and The Trolls)
-- Fix Policy placement and some minor balancing
-- Can now adopt both Piety and Rationalism
-- More mythical beast, or the so called barbarians monster
-- Mythical beast no longer appears at the start of the game, except Slime
-- Add Spanish translation by Caballero-Arepa
+## v0.7
+- Add new Civ: Torakj
+- Add Cultural & Diplomatic victory
+- Adjust CS
+- Terrace farm available for everyone (not on bonus and strategic resources)
+- Great Artist, Great Scientist, Great Merchant, and Great Engineer are capturable
+- Add Great Admiral as bonus units
 
-## v3.1.1 (08.04.2023)
-- Fix Marunesia can't build Ulu Wae
-- Fix Tamer unit can't capture killed Beast units and increase it's chances
-- Fix Holy Warrior Belief enables buying any Land Heroes even without their respective Portal
-- Prevent buying Skeletal Warrior and Skeletal Champion
-- Fix Divine Order can't prevent religion spreading by Great Prophet and/or Missionary
-- Beast units now displayable in Civilopedia
+## v0.8
+- Add new Civ: Frostmorrow
+- Add ice-calator improvements
+- Adjust policy: Add Legacy and Quixotic policy branch
 
-## v3.1.2 (25.05.2023)
-- Upload Images folder
-- Update translation file
-- Add missing sprites
-- Fix typo for Path of Sword by Belias
+## v0.9
+- Add religions and beliefs
+- Add religions buildings and wonders
+- Add additional resources: Gu, Jade
+- Add icons
+- Add ruleset unique: convert gold to science with sliders
 
-## v3.1.3 (07.06.2023)
-- Reduce Path of Immortality bonus from +10% to +5%
-- Fix The Trolls not receive free Zaghronk in 4 cities upon adopting Tradition Complete
-- Add 2 new Civs (The Order of Witchers and Sanctum Regalia)
+## v1.0
+- Add Scientific victory (Neutral victory)
+- Fix 'too many civs in small map' error
+- Add unique units
+- Update unit icons
 
-## v3.1.4 (28.08.2023)
-- Frostmorrow
-	May now generate Great Farmer via specialists
-	No longer receive free Great Farmer upon discovering Fertilizer
-	Great Farmer may now be consumed to add +2 population in capital
-- Necropoleis
-	UA Sacrifice 3 population for a Great General -> Sacrifice 2 population
-- The Order of Withcer
-	UU Withcer +Beast Hunter skill (Gain 50 Gold upon defeating Beast units)
-- Tianwu	
-	UU Shifu free skill of Twilight Veil (Invisible to non-adjacent units)
-- Cultivated farm
-	+1 Food if constructed on Snow
-	+1 Food for each adjacent Ice-calator
-- Man-eating tree now appears on Plains
-- Fix 'Nkuhanea doesn't get +1 population for cities on Fresh water
-- All Heroes and it's type now displayable in Civilopedia
-- Add sprites for Beast units by rica40
 
-## v3.1.5 (04.09.2023)
-- Rain Forest
-	May now build Plantation without removing Forest
-- Fix Archery Hero can't pick Teleportation skill
-- Civ-specific Strategic resources now cannot be traded
+

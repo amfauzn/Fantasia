@@ -1,224 +1,182 @@
 [
-    // Civilian
+	// Civilian
 	{
-        "name": "Civilian",
-        "movementType": "Land"
-    },
+		"name": "Civilian",
+		"movementType": "Land"
+	},
 	{
-        "name": "Civilian Water",
-        "movementType": "Water"
-    },
+		"name": "Civilian Water",
+		"movementType": "Water"
+	},
 	
 	// Land
-    {
-        "name": "Recon",
-        "movementType": "Land"
-    },
 	{
-        "name": "Sword",
-        "movementType": "Land",
-		"uniques": ["[+33]% Strength <vs [Anti-Cav] units> <when attacking>",
-					"[+25]% Strength <vs [Anti-Armor] units> <when attacking>"]
-    },
-    {
-        "name": "Gunpowder",
-        "movementType": "Land",
-		"uniques": ["[+33]% Strength <vs [Anti-Cav] units> <when attacking>",
-					"[+33]% Strength <vs [Anti-Armor] units> <when attacking>"]
-    },
+		"name": "Recon",
+		"movementType": "Land",
+		"uniques": [
+			"Footman",
+			"Never appears as a Barbarian unit"
+		]
+	},
 	{
-        "name": "Anti-Cav",
-        "movementType": "Land",
-		"uniques": ["[+33]% Strength <vs [Mounted] units> <when attacking>",
-					"[+25]% Strength <vs [Armored] units> <when attacking>"]
-    },
+		"name": "Sword",
+		"movementType": "Land",
+		"uniques": [
+			"Footman",
+			"[+33]% Strength <vs [{Anti-Cav} {non-[Hero]}] units> <when attacking>",
+			"[+33]% Strength <vs [{Anti-Armor} {non-[Hero]}] units> <when attacking>"
+		]
+	},
 	{
-        "name": "Anti-Armor",
-        "movementType": "Land",
-		"uniques": ["[+33]% Strength <vs [Mounted] units> <when attacking>",
-					"[+33]% Strength <vs [Armored] units> <when attacking>"]
-    },
-    {
-        "name": "Mounted",
-        "movementType": "Land",
-		"uniques": ["[+33]% Strength <vs [Sword] units> <when attacking>", 
-					"[+25]% Strength <vs [Gunpowder] units> <when attacking>"]
-    },
+		"name": "Gunpowder",
+		"movementType": "Land",
+		"uniques": [
+			"Footman",
+			"[+33]% Strength <vs [{Anti-Cav} {non-[Hero]}] units> <when attacking>",
+			"[+33]% Strength <vs [{Anti-Armor} {non-[Hero]}] units> <when attacking>"
+		]
+	},
 	{
-        "name": "Armored",
-        "movementType": "Land",
-		"uniques": ["[+33]% Strength <vs [Sword] units> <when attacking>", 
-					"[+33]% Strength <vs [Gunpowder] units> <when attacking>"]
-    },
+		"name": "Anti-Cav",
+		"movementType": "Land",
+		"uniques": [
+			"Footman",
+			"[+33]% Strength <vs [{Mounted} {non-[Hero]}] units> <when attacking>",
+			"[+33]% Strength <vs [{Armored} {non-[Hero]}] units> <when attacking>"
+		]
+	},
 	{
-        "name": "Archery",
-        "movementType": "Land",
-		"uniques": ["[-15]% Strength <vs cities> <when attacking>", 
-					"[-15]% Strength <vs [Water] units> <when attacking>"]
-    },
+		"name": "Anti-Armor",
+		"movementType": "Land",
+		"uniques": [
+			"Footman",
+			"[+33]% Strength <vs [{Mounted} {non-[Hero]}] units> <when attacking>",
+			"[+33]% Strength <vs [{Armored} {non-[Hero]}] units> <when attacking>"
+		]
+	},
 	{
-        "name": "Ranged Gunpowder",
-        "movementType": "Land",
-		"uniques": ["[-10]% Strength <vs cities> <when attacking>", 
-					"[-10]% Strength <vs [Water] units> <when attacking>"]
-    },
-    {
-        "name": "Siege",
-        "movementType": "Land",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>"]
-    },
+		"name": "Mounted",
+		"movementType": "Land",
+		"uniques": [
+			"[+25]% Strength <vs [{Sword} {non-[Hero]}] units> <when attacking>",
+			"[+25]% Strength <vs [{Gunpowder} {non-[Hero]}] units> <when attacking>"
+		]
+	},
+	{
+		"name": "Armored",
+		"movementType": "Land",
+		"uniques": [
+			"[+25]% Strength <vs [{Sword} {non-[Hero]}] units> <when attacking>",
+			"[+25]% Strength <vs [{Gunpowder} {non-[Hero]}] units> <when attacking>"
+		]
+	},
+	{
+		"name": "Archery",
+		"movementType": "Land",
+		"uniques": [
+			"[-25]% Strength <vs cities> <when attacking>",
+			"[-10]% Strength <vs [Water] units> <when attacking>",
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Ranged Gunpowder",
+		"movementType": "Land",
+		"uniques": [
+			"[-10]% Strength <vs cities> <when attacking>",
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Siege",
+		"movementType": "Land",
+		"uniques": [
+			"[+200]% Strength <vs cities> <when attacking>",
+			"No defensive terrain bonus",
+			"Never appears as a Barbarian unit"
+		]
+	},
+	{
+		"name": "Mage",
+		"movementType": "Land",
+		"uniques": [
+			"[+50]% Strength <vs cities> <when attacking>",
+			"[+50]% Strength <vs [Construct] units> <when attacking>",
+			"[-15]% Strength <vs [{Land} {Melee}] units> <when defending> <for [non-[Sage]] units>"
+		]
+	},
+	{
+		"name": "Construct",
+		"movementType": "Land",
+		"uniques": [
+			"[+20]% Strength <when defending>",
+			"Ignores Zone of Control"
+		]
+	},
+	{
+		"name": "Vampire",
+		"movementType": "Land",
+		"uniques": [
+			"[-100]% maintenance costs",
+			"[-10] HP when healing",
+			"[+45]% Strength <starting from the [Renaissance age]>", 	// 35
+			"[+40]% Strength <starting from the [Industrial age]>", 	// 45
+			"[+85]% Strength <starting from the [Prosperity age]>", 	// 65
+			"[+85]% Strength <starting from the [Modern age]>"
+		]
+	},
+	{
+		"name": "Monk",
+		"movementType": "Land"
+	},
+	{
+		"name": "Tamer",
+		"movementType": "Land",
+		"uniques": [
+			"[+25]% XP gained from combat", 
+			"[-25]% Strength <when attacking>", 
+			"[+33]% Strength <when attacking> <vs [Monster] units>",
+			"Never appears as a Barbarian unit"
+		]
+	},
 	{
 		"name": "Airship",
 		"movementType": "Land",
-		"uniques": ["Can pass through impassable tiles", 
-					"All tiles cost 1 movement", 
-					"[+1] Sight <when [Embarked]>",
-					"May travel on Water tiles without embarking",
-					"No defensive terrain bonus",
-					"Never appears as a Barbarian unit"]
+		"uniques": [
+			"Flying",
+			"Can pass through impassable tiles", 
+			"All tiles cost 1 movement",
+			"May travel on Water tiles without embarking",
+			"No defensive terrain bonus",
+			"Never appears as a Barbarian unit"
+		]
 	},
-	{
-        "name": "Vampire",
-        "movementType": "Land",
-        "uniques": ["[-100]% maintenance costs", "[-5] HP when healing", 		// 25
-					"[+45]% Strength <starting from the [Renaissance age]>", 	// 35
-					"[+40]% Strength <starting from the [Industrial age]>", 	// 45
-					"[+85]% Strength <starting from the [Prosperity age]>", 	// 65
-					"[+85]% Strength <starting from the [Modern age]>"]			// 85
-    },
-	{
-		"name": "Air Terror",
-		"movementType": "Land",
-		"uniques": ["Can pass through impassable tiles", 
-					"All tiles cost 1 movement", 
-					"Eliminates combat penalty for attacking over a river", 
-					"Eliminates combat penalty for attacking across a coast", 
-					"May travel on Water tiles without embarking", 
-					"No defensive terrain bonus", 
-					"[+100]% maintenance costs", 
-					"Never appears as a Barbarian unit"]
-	},
-	{
-        "name": "Mage",
-        "movementType": "Land",
-		"uniques": ["[+50]% Strength <vs cities> <when attacking>", 
-					"[+25]% Strength <vs [Construct] units> <when attacking>"]
-    },
-	{
-        "name": "Monk",
-        "movementType": "Land"
-    },
 	{
 		"name": "Witcher",
 		"movementType": "Land",
-		"uniques": ["[+10]% Strength <vs [Vampire] units>",
-					"[+50]% Strength <during the [Industrial age]>",	// 36
-					"[+100]% Strength <during the [Prosperity age]>",	// 48
-					"[+175]% Strength <during the [Modern age]>"]		// 66
+		"uniques": [
+			"[+10]% Strength <vs [Vampire] units>",
+			"[+50]% Strength <during the [Industrial age]>",	// 36
+			"[+100]% Strength <during the [Prosperity age]>",	// 48
+			"[+175]% Strength <during the [Modern age]>"		// 66
+		]
 	},
 	{
-        "name": "Construct",
-        "movementType": "Land",
-        "uniques": ["[+20]% Strength <when defending>", 
-					"Ignores Zone of Control"]
-    },
-	{
-        "name": "Tamer",
-        "movementType": "Land",
-		"uniques": ["[+50]% XP gained from combat", 
-					"[-25]% Strength <when attacking>", 
-					"[+33]% Strength <when attacking> <vs [Beast] units>"]
-    },
-	
-	// Hero
-	{
-        "name": "Infantry Hero",
-        "movementType": "Land",
-        "uniques": ["[-100]% maintenance costs", 
-					"[+25]% Strength <vs [Water Terror] units>", 
-					"[+25]% Strength <vs [Air Terror] units>", 
-					"[+100]% Strength <vs [Beast] units>",
-					"[+33]% Strength <vs [Anti-Cav] units> <when attacking>", 
-					"[+33]% Strength <vs [Anti-Armor] units> <when attacking>"]
-    },
-	{
-        "name": "Anti-Cav Hero",
-        "movementType": "Land",
-        "uniques": ["[-100]% maintenance costs", 
-					"[+25]% Strength <vs [Water Terror] units>", 
-					"[+25]% Strength <vs [Air Terror] units>", 
-					"[+100]% Strength <vs [Beast] units>",
-					"[+33]% Strength <vs [Mounted] units> <when attacking>", 
-					"[+33]% Strength <vs [Armored] units> <when attacking>"]
-    },
-	{
-        "name": "Cavalry Hero",
-        "movementType": "Land",
-        "uniques": ["[-100]% maintenance costs", 
-					"[+25]% Strength <vs [Water Terror] units>", 
-					"[+25]% Strength <vs [Air Terror] units>", 
-					"[+100]% Strength <vs [Beast] units>",
-					"[+33]% Strength <vs [Sword] units> <when attacking>", 
-					"[+33]% Strength <vs [Gunpowder] units> <when attacking>",
-					"[-33]% Strength <vs cities> <when attacking>"]
-    },
-	{
-        "name": "Archery Hero",
-        "movementType": "Land",
-        "uniques": ["[-100]% maintenance costs", 
-					"[+25]% Strength <vs [Water Terror] units>", 
-					"[+25]% Strength <vs [Air Terror] units>", 
-					"[+100]% Strength <vs [Beast] units>",
-					"[-10]% Strength <when attacking> <vs cities>", 
-					"[-10]% Strength <when attacking> <vs [Water] units>"]
-    },
-	{
-        "name": "Siege Hero",
-        "movementType": "Land",
-        "uniques": ["[-100]% maintenance costs", 
-					"[+33]% Strength <vs [Water Terror] units>", 
-					"[+33]% Strength <vs [Air Terror] units>", 
-					"[+100]% Strength <vs [Beast] units>", 
-					"[+200]% Strength <vs cities> <when attacking>"]
-    },
-	{
-        "name": "Evil Hero",
-        "movementType": "Land",
-        "uniques": ["Ignores terrain cost", 
-					"[-100]% maintenance costs", 
-					"[+25]% Strength <vs [Water Terror] units>", 
-					"[+25]% Strength <vs [Air Terror] units>", 
-					"[+100]% Strength <vs [Beast] units>", 
-					"[+33]% Strength <vs [Mage] units> <when attacking>"]
-    },
-	{
-        "name": "Mage Hero",
-        "movementType": "Land",
-        "uniques": ["[-100]% maintenance costs", 
-					"[+33]% Strength <vs [Water Terror] units>", 
-					"[+33]% Strength <vs [Air Terror] units>", 
-					"[+100]% Strength <vs [Beast] units>", 
-					"[+50]% Strength <vs cities> <when attacking>", 
-					"[+25]% Strength <vs [Construct] units> <when attacking>"]
-    },
-	{
-        "name": "Melee Water Hero",
-        "movementType": "Water",
-        "uniques": ["Can enter ice tiles", 
-					"[-100]% maintenance costs", 
-					"[+66]% Strength <when attacking> <vs [Water Terror] units>", 
-					"Can see invisible [Water] units", 
-					"[+100]% Strength <vs [Beast] units>"]
-    },
-	{
-        "name": "Water Hero",
-        "movementType": "Water",
-        "uniques": ["Can enter ice tiles", 
-					"[-100]% maintenance costs", 
-					"[+66]% Strength <when attacking> <vs [Water Terror] units>", 
-					"Can see invisible [Water] units", 
-					"[+100]% Strength <vs [Beast] units>"]
-    },
+		"name": "Air Terror",
+		"movementType": "Land",
+		"uniques": [
+			"Flying",
+			"Unable to capture cities",
+			"Can pass through impassable tiles",
+			"All tiles cost 1 movement",
+			"Eliminates combat penalty for attacking over a river",
+			"Eliminates combat penalty for attacking across a coast",
+			"May travel on Water tiles without embarking",
+			"No defensive terrain bonus",
+			"[+100]% maintenance costs",
+			"Never appears as a Barbarian unit"
+		]
+	},
     
 	// Water
     {
@@ -276,5 +234,48 @@
         "uniques": ["Aircraft", 
 					"Self-destructs when attacking", 
 					"Cannot be intercepted"]
-    }
+    },
+	
+	// Monsters
+	{
+		"name": "Foot Monster",
+		"movementType": "Land",
+		"uniques": ["Footman","Monster"]
+	},
+	{
+		"name": "Mounted Monster",
+		"movementType": "Land",
+		"uniques": [
+			"Monster",
+			"Can pass through impassable tiles",
+			"Can move after attacking <for [Barbarians] Civilizations>",
+			"Ignores Zone of Control",
+			"No defensive terrain bonus <for [Major] Civilizations>"
+		]
+	},
+	{
+		"name": "Flying Monster",
+		"movementType": "Land",
+		"uniques": [
+			"Flying",
+			"Monster",
+			"Can pass through impassable tiles",
+			"All tiles cost 1 movement",
+			"Eliminates combat penalty for attacking over a river",
+			"Eliminates combat penalty for attacking across a coast",
+			"May travel on Water tiles without embarking",
+			"No defensive terrain bonus",
+			"Can see over obstacles"
+		]
+	},
+	{
+		"name": "Water Monster",
+		"movementType": "Water",
+		"uniques": [
+			"Monster",
+			"Can pass through impassable tiles",
+			"Eliminates combat penalty for attacking across a coast",
+			"Ignores Zone of Control"
+		]
+	},
 ]

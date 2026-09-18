@@ -58,7 +58,7 @@
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Cultural",
 		"favoredReligion": "Relativity",
-		"style": "Dwarven",
+		"style": "Dwarves",
 		
 		"startIntroPart1": "Polgar Sod'em is a historical kingdom in the southern continent of Pangaea. Together with 'Nkuhanea, Eldariya, and Chorislavia, it was one of four early civilizations of Pangaea, and of the four, the only dwarfs civilization. Its sites spanned an area from much of Somarum Hill, to north Binnaka, and southeastern Avalonia. Its culture played a crucial role during the Eldariya dynasty that annexed Polgar Sod'em, when the Sodite language remained and the rest of its buildings became the inspiration for Eldariya's greatness. The concepts of Construct and Golem were first coined among the Sodites.",
 		"startIntroPart2": "Great King Hajrudin, The Architectural Digest, The King of Hammer, your kingdom endured but a short time after your death. Your people look to you to bring the kingdom back to life once more. Will you answer the call? Can you build a civilization that will stand the test of time?",
@@ -549,7 +549,7 @@
 		"startBias":["Mountain"],
 		"preferredVictoryType": "Scientific",
 		"favoredReligion": "Butterfly Effects",
-		"style": "Dwarven",
+		"style": "Dwarves",
 		
 		"startIntroPart1": "Twin Mountain, previously the Kingdom of Cremona, is a state that ruled over Archiea centered in twin mountains of Khorin and Gulddin. The kingdom was founded by Balin Duskstone, or Balin I, son of Dwalin. During the reign of Thralldin, the centre of the kingdom was shifted from Cremona to Thraldin's Palace. At its peak, the kingdom covered the whole of Archiea. Twin Mountain is credited for helping Borris and his people escape from the pursuit of the Townfolk imperial forces by holding them at the border of Maidhurst when the Beastman Civil War broke out.",
 		"startIntroPart2": "Thraldin The Staeshield, The King Under The Mountain, your people turn to you to once more to appreciate the blessing of mountains! Nobody loves the mountain as your people do. The mountains serves you. O mighty king, can you build a civilization that will stand the test of time?",
@@ -616,7 +616,8 @@
 					"Free [Musketman] appears <upon constructing [Courthouse]> <after discovering [Gunpowder]> <before discovering [Rifling]>",
 					"Free [Rifleman] appears <upon constructing [Courthouse]> <after discovering [Rifling]> <before discovering [Replaceable Parts]>",
 					"Free [Infantry] appears <upon constructing [Courthouse]> <after discovering [Replaceable Parts]> <before discovering [Lasers]>",
-					"Free [Lightsaberman] appears <upon constructing [Courthouse]> <after discovering [Lasers]>"], 
+					"Free [Lightsaberman] appears <upon constructing [Courthouse]> <after discovering [Lasers]>",
+					"Will not be chosen for new games"], 
 		"cities": ["Shurdriira","Helvion'lyr","Kalankoth","Despt'tar","Yolis","Omarryn","Noquani","Argath","Lashire","Chenlaena",
 			"Ordton","Xaryna","Alerough","Yauntyrr","Chysarae","Zauiryn","Goyln","Vinya Themar","A'el Dorei","Nessa Edhil"],
 		"civilopediaText": [
@@ -695,12 +696,16 @@
 		"outerColor": [254,204,32],
 		"innerColor": [  0,55,106],
 		"uniqueName": "Bloodlust",
-		"uniqueText": "Starting from the Feudal age, may summon Dracula units for 100 [Faith] in all cities at an increasing price 25 \nDracula units become stronger from every age but start with -15 Experiece \nFree Dracula appears upon discovering Quintessence Force \nAll Military Land units Heals 15 damage if it kills a unit \nUpon discovering Chivalry, May construct up to 4 Vampire Castle with half of neighboring improvements stats, including Great improvements",
-		"uniques": ["May buy [Dracula] units for [100] [Faith] [in all cities] at an increasing price ([25]) <starting from the [Feudal age]>",
-					"Provides [4] [Vampiric Block]", 
-					"[{Military} {Land}] units gain the [Vampiric Touch] promotion",
-					"New [Dracula] units start with [-15] XP [in all cities]", 
-					"Free [Dracula] appears <upon discovering [Quintessence Force] technology>"],
+		"uniques": [
+			"Comment [Starting from the Feudal age, may summon [Dracula] units for 100 [Faith] in all cities at an increasing price 25]",
+			"Comment [[Dracula] units become stronger from every age but start with -15 Experiece]",
+			"Comment [All Military Land units Heals 15 damage if it kills a unit]",
+			
+			"May buy [Dracula] units for [200] [Faith] [in all cities] at an increasing price ([25]) <starting from the [Feudal age]> <hidden from users>",
+			"[{Military} {Land}] units gain the [Vampiric Touch] promotion <hidden from users>",
+			"New [Dracula] units start with [-15] XP [in all cities] <hidden from users>",
+			"Free [Dracula] appears <upon discovering [Quintessence Force] technology>"
+		],
 		"cities": ["Transylvania","Varkola","Sanguins","Chupacabra","Vlokodla","Mormolykia","Abhartcia","Kravopiea","Llorona","Lampire",
 			"Dachnavar","Virginia","Constanța","Timișoara","Craiova","Galați","Oradea","Târgu Mureș","K'uei","Zolla"],
 		"spyNames": ["Victor","Báthory","Alucard","Laszlo","Rufus","Vanda","Morbius","Valeria","Ezra","Kavița"],
@@ -789,7 +794,8 @@
 					"[+50]% XP gained from combat <for [Military] units> <vs [Beast] units>", 
 					"Earn [25]% of killed [Military] unit's [Cost] as [Gold]",
 					"Resting point for Influence with City-States is increased by [10]", 
-					"[+50]% City-State Influence degradation <before discovering [Acoustics]>"], 
+					"[+50]% City-State Influence degradation <before discovering [Acoustics]>",
+					"Will not be chosen for new games"], 
 		"cities": ["Morgraig","Kaer Morhen","Stygga Citadel","Haern Caduch","Gorthur Gvaed","Kaer Seren","Bialsuf Alsarea","Behelt Nar","Dyn Marv"],
 		"spyNames": ["Alzur","Idarran","Arnaghad","Erland","Letto","Serrit","Auckes","Ivar","Vesemir","Treyse"],
 		"civilopediaText": [
@@ -964,11 +970,12 @@
 		"outerColor": [153,  5, 3],
         "innerColor": [244,232,54],
 		"uniqueName": "Path of Immortality",
-		"uniqueText": "Free Shifu appears upon constructing Sect in capital \nMay choose Path of Immortality (+5% Strength from each skill learned, up to +50%) for Sword or Spear units \nSword and Spear units start with extra 10 Experience \nDouble quantity of Jade produced",
 		"uniques": [
 			"Free [Shifu] appears <upon constructing [Sect] [in capital]>",
-			"Comment [May choose Path of Immortality (+5% Strength from each skill learned, up to +50%) for Sword or Spear units]",
+			"Comment [May choose Path of Immortality (+5% Strength from each skill learned, up to +50%) for Sword-line or Spear-line units]",
 			"Comment [Sword and Spear units start with extra 10 Experience]",
+			
+			"Triggers a [Path of Immortality] event <upon constructing [Palace]> <hidden from users>",
 			"New [Sword] units start with [10] XP [in all cities] <hidden from users>",
 			"New [Gunpowder] units start with [10] XP [in all cities] <hidden from users>",
 			"New [Anti-Cav] units start with [10] XP [in all cities] <hidden from users>",
@@ -1005,6 +1012,7 @@
 		
 		"declaringWar": "I cannot wait until ye grow even mightier. Therefore, prepare for war!"
 		"attacked": "You've fallen into my trap. I'll bury you.",
+		"denounced": "How foolish, pitiful mongrel!",
 		"defeated": "You mongrel! Cursed be you! The world will long lament your heinous crime!",
 		"afterPeace": "Sometimes you endure losses, however well you've tried at preparations.",
 		"introduction": "Hello stranger! I am Valadorn, your true king!",
@@ -1015,12 +1023,13 @@
 				
 		"outerColor": [255,184,33]
 		"innerColor": [153,  5, 3],
-		"uniqueName": "Swift Legion",
-		"uniques": ["Gain [250] [Gold] <upon conquering a city>", 
-					"[+1] Movement <for [Military] units> <when at war>", 
-					"[+1] Sight <for [{Military} {Land}] units>", 
-					"Provides [1] [Horses]", 
-					"Free [Kalsharin] appears <upon discovering [Chivalry] technology>"],
+		"uniqueName": "Four Direction Pursuit"
+		"uniques": [				
+			"[+1] Movement <for [Military] units> <in [Foreign Land] tiles>",
+			"[+1] Sight <for [Land] units>",
+			"Gain [250] [Gold] <upon conquering a city>",
+			"Free [Kalsharin] appears <upon discovering [Chivalry] technology>"		
+		],
 		"cities": ["Sokharin","Tembayat","Sribit","Lemahirush","Kokosin","Narakesh","Chalkis","Kwar Hirin","Birit Chanan","Beneran",
 			"Lörissa","Joho Lor","Temwan","Sobayan","Senden","Sekernan","Pariaman","Lamin","Bingkai","Satui"],
 		"spyNames": ["Thorne","Galen","Landon","Leif","Jagger","Callum","Lirien","Caledon","Roran","Valtor"],
@@ -1170,7 +1179,7 @@
 		"startBias": ["Forest"],
 		"preferredVictoryType": "Diplomatic",
 		//"favoredReligion": "Balance",
-		"style": "Elven",
+		"style": "Elves",
 		
 		"startIntroPart1": "The Niranni Elves are a group of elves from the southern reaches of Rain Forest. They were known for their intelligence, creativity and mastery of craftsmanship. The most famous weapon they have created is the Flamespitter, used by Galamar to kill Saeth. Their leader, Nualla is the founder of Aeyris Alliance, a multi-race alliance that includes Niranna, Canthyria, Nas, Clockwerk, and Nevdes. This alliance managed to defeat Saeth of Tugu, Ttarmek the Torog, Zorgorath of Urush, and Bulvan the Necromancer.",
 		"startIntroPart2": "Long life to you, Queen Nualla the Inspirator, the Mother of Unity, your people and your allies years for you to lead them once more to maintain world peace as you are the founder of Aeyris Alliances. Will you rise again and reunite those who are in conflict? Can you build a civilization that will stand the test of time?",
@@ -1337,7 +1346,7 @@
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Scientific",
 		"favoredReligion": "Preformationism",
-		"style": "Dwarven",
+		"style": "Dwarves",
 		
 		"startIntroPart1": "Dwargon is a dwarves kingdom centered in the city of Dhin Kahldur on the eastern side of the Vättern Sea. Living in a small kingdom, the Dwarni were known for their engineering prowess, and their most prized possession was a fleet of giant mecha machines. The mecha golem were a source of pride and strength for the Dwarni dwarves, and they cherished them as symbols of their power. Later, Higba and his personal team of engineers developed a more powerful mecha golem, Orichalcum Golem, which was perfected by Almira.",
 		"startIntroPart2": "Most majestic Queen Almira the Sparkling, leader of the Dwarni dwarves. Dwargon has ushered onto new age owing to the late King, Higba, and now you succeeded the throne and all of its legacy. The Fairhair Contriver, your brilliant mind isn't inferior to that of your late King. Will you continue upon his legacy and stand unchallenged like a mountain? Can you build a civilization that will stand the test of time?",
@@ -1421,7 +1430,7 @@
 		"adjective": ["Sulvani"],
 		"preferredVictoryType": "Cultural",
 		"favoredReligion": "Evolutionism",
-		"style": "Elven",
+		"style": "Elves",
 	
 		"startIntroPart1": "The Sulvani Elves are a group of elves from the Blathan Jungle. They are known for their love of music, singing, and the arts. In the past, the Sulvani elves lived in the southern reaches of the Rain Forest alongside the Niranni elves. However, the Sulvani later became distant from the Niranni, as the Niranni's desire for power and control caused tension between the two groups. The most prominent figure of Sulvana is Queen Lulla Artiana, who leads her people in the liberation of the Blathan Jungle and manages to kill Azaniroth. Later, she joined the Aeyris Alliances and built the Aschar Grove for the alliances.",
 		"startIntroPart2": "Praises upon her serene highnes, Queen Lulla Artiana, the Favored Daughter of the Gods, Shield To the Citizens of Sulvana. You love peace but mercilessly struck back at the enemies of your people, sacrificing their leaders in retribution for the insults dealt to your predecessor. The glory of the Sulvani was restored only by the guidance afforded by your wisdom. Queen Lulla, will you bring about a new golden age for the Sulvana people? Can you build a civilization that will stand the test of time?",
@@ -1478,21 +1487,19 @@
 		"outerColor": [  7,  0, 54],
 		"innerColor": [228,134,228],
 		"uniqueName": "Scorching Land",
-		"uniqueText": "-1 Movement for Enemy Military units in Friendly Land tiles after constructing Infernal Gate for the first time \n+1 [Happiness] from every Barrack, Armory, and Knight Academy if the city has Infernal Gate \nCannot summon Hero, but gain access to summon Archdemon Kor'vash",
-		"uniques": ["Enemy [Land] units must spend [1] extra movement points when inside your territory <if [Infernal Gate] is constructed> <Suppress warning [*contains a conditional on a unit movement unique*]>",
-					"[+1 Happiness] from every [Barracks] <in cities with a [Infernal Gate]>", 
-					"[+1 Happiness] from every [Armory] <in cities with a [Infernal Gate]>", 
-					"[+1 Happiness] from every [Knight Academy] <in cities with a [Infernal Gate]>", 
-					"Gain a free [Black Hole] [in capital]", 
-					"[-1 Faith] from every [Portal] <before the [Heroic age]>", 
-					"Cannot build [Infantry Hero] units", 
-					"Cannot build [Anti-Cav Hero] units", 
-					"Cannot build [Cavalry Hero] units", 
-					"Cannot build [Archery Hero] units", 
-					"Cannot build [Siege Hero] units", 
-					"Cannot build [Water Hero] units", 
-					"Cannot build [Melee Water Hero] units", 
-					"May buy [Archdemon Kor'vash] units for [0] [Faith] [in all cities] at an increasing price ([100]) <starting from the [Heroic age]>"],
+		"uniques": [
+			"Comment [-1 Movement for Enemy Military units in Friendly Land tiles after constructing Infernal Gate for the first time]",
+			"Comment [+1 [Happiness] from every [Barracks], [Armory], and [Knight Academy] if the city has [Infernal Gate]]",
+			"Comment [Cannot summon Hero, but gain access to summon Archdemon Kor'vash]",
+			
+			"Enemy [Land] units must spend [1] extra movement points when inside your territory <if [Infernal Gate] is constructed> <Suppress warning [*contains a conditional on a unit movement unique*]> <hidden from users>",
+			"[+1 Happiness] from every [Barracks] <in cities with a [Infernal Gate]> <hidden from users>",
+			"[+1 Happiness] from every [Armory] <in cities with a [Infernal Gate]> <hidden from users>",
+			"[+1 Happiness] from every [Knight Academy] <in cities with a [Infernal Gate]> <hidden from users>",
+			"Gain a free [Black Hole] [in capital] <hidden from users>",
+			"Cannot build [{Hero} {non-[Archdemon Kor'vash]}] units",
+			"May buy [Archdemon Kor'vash] units for [0] [Faith] [in all cities] at an increasing price ([100]) <starting from the [Heroic age]> <hidden from users>"
+		],
 		"cities": ["Oakenfell","Netherbrooke","Meg'thath","Agruk","Zonnol","Volvellath","Azrarad","Xolmonach","Zoz'guleth","Eg'thuth",
 			"Mir'gumoth","Barthrolloz","Ath'tannuth","Thul'gog","Kil'ganath","Dalvoloch","Gannoros","Xorthrizar","Trezgemith","Gothi"],
 		"spyNames": ["Azaniroth","Goroth","Lilith","Arkonnoth","Thurgethon","Trolmomug","Moloch","Baal","Zumog","Balthazar"],
@@ -1597,23 +1604,24 @@
 		"name": "Artiza",
 		"adjective": ["Artizan"],
 		"cityStateType": "Cultural",
+		"startBias": ["Tundra"],
 		"style": "Human",
 		"uniques": ["Free [Spearman] appears <upon discovering [Bronze Working] technology>"],
-		
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
+
+		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
+		"attacked": "You can see how fruitless this will be for you... right?",
 		"defeated": "You fiend! History shall remember this!",
 		"outerColor": [ 20, 20, 20],
 		"innerColor": [255,153,255],
 		"cities": ["Artiza"],
 		"civilopediaText": [
-			{"text": "A human civilization that fell because of the great famine. It was succeeded by Louvargia."},
+			{"text": "Artiza, located on Stackars, was not only one of the earliest human realms in the region, but also the first one to fall. According to the Windari, Artiza collapsed due to a great famine and was later succeeded by Louvargia."}
 		]
 	},
 	{
 		"name": "Doomspire",
 		"adjective": ["Sandman"],
-		"cityStateType": "Cultural",
+		"cityStateType": "Ceremonial",
 		"startBias": ["Desert"],
 		"style": "Desert",
 		"uniques": ["Free [Worker] appears <upon discovering [Pottery] technology>"],
@@ -1640,9 +1648,10 @@
 	},
 	{
 		"name": "Manthrill",
-		"adjective": ["Manthrili"],
+		"adjective": ["Manthili"],
 		"cityStateType": "Cultural",
-		"style": "Dwarven",
+		"startBias": ["Hill","Desert"],
+		"style": "Dwarves",
 		"uniques": ["Starts with [Mining]"],
 		
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1652,13 +1661,13 @@
 		"innerColor": [255,153,153],
 		"cities": ["Manthrill"],
 		"civilopediaText": [
-			{"text": "A dwarven kingdom on the Llotidea Continent. It was often involved in rivalry with the state of Dayne to the southeast and the Thallin Empire to the south. The kingdom fell after being attacked by Torakj."},
+			{"text": "Manthrill was a dwarven kingdom located south of Thallin, a position that often led to rivalry between the two. Though its people shared traits with the Asili Dwarves, they claimed descent from the Gaarili line. Manthrill ultimately fell after continuously being attacked by Torakj."}
 		]
 	},
 	{
 		"name": "Feu Follet",
 		"adjective": ["Ego-Vampire"],
-		"cityStateType": "Cultural",
+		"cityStateType": "Ceremonial",
 		"uniques": ["[-15]% Culture cost of natural border growth [in capital]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1670,27 +1679,28 @@
 	},
 	{
 		"name": "Windemer",
-		"adjective": ["Windemeri"],
-		"cityStateType": "Cultural",
-		"style": "Elven",
+		"adjective": ["Windari"],
+		"cityStateType": "Ceremonial",
+		"startBias": ["Forest"],
+		"style": "Elves",
 		"uniques": ["Starts with [Archery]"],
-		
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
+
+		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
+		"attacked": "Oh, truly you are as cruel as your nicknaame.",
 		"defeated": "And so the flower of Windemer falls to barbaric hands...",
 		"outerColor": [ 20,20, 20],
 		"innerColor": [152, 0,241],
 		"cities": ["Windemer"],
 		"civilopediaText": [
-			{"text": "The first civilization ever in Eustasia and the first civilization ever to come into contact with the Gods. The Lourgians learn the concepts of religion and worship from the Windemeri."},
+			{"text": "The Windari are high elves of Balvaria, founders of Windemer that predates Aeltherion. They maintain good relations with the human kingdom of Louvargia and taught them the Huz'ie script, as well as the early teachings of religion and worship."}
 		]
 	},
 	
 	{
 		"name": "Asil",
 		"adjective": ["Asili"],
-		"cityStateType": "Industrial",
-		"style": "Dwarven",
+		"cityStateType": "Artisan",
+		"style": "Dwarves",
 		"uniques": ["[+100]% Production when constructing [Worker] units [in capital]"],
 		
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1700,65 +1710,67 @@
 		"innerColor": [189,99, 0],
 		"cities": ["Asil"],
 		"civilopediaText": [
-			{"text": "A group of dwarfs inhabited in the historical region of Aaru on the Pangaea. it was incorporated into Polgar Sod'em after the political marriage between the Sodites Prince Yurrgin with the Asili Princess Disa."},
+			{"text": "A group of dwarfs inhabited in the historical region of Aaru on the Pangaea. it was incorporated into Polgar Sod'em after the political marriage between the Sodites Prince Yurrgin with the Asili Princess Disa."}
 		]
 	},
 	{
 		"name": "Canthyria",
-		"adjective": ["Centaurs"],
+		"adjective": ["Cantirii"],
 		"cityStateType": "Industrial",
 		"startBias": ["Plains"],
 		"uniques": ["[+1] Movement <for [Land] units>"],
-		
-		"declaringWar": "You leave us no choice. War it must be.",
+
+		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
 		"attacked": "A barbarian like you will never enough with just a horse. I am not a horse!",
 		"defeated": "I don't like you, not from the beginning.",
 		"outerColor": [ 20, 20, 20],
-		"innerColor": [199,59,19],
+		"innerColor": [199, 59, 19],
 		"cities": ["Canthyria"],
 		"civilopediaText": [
-			{"text": "A centaurs state inhabited the souteastern part of the Rain Forest. it was divided into two groups, one group remain in their home, while the other group joined Niranna after the marriage between Thanue and Araros son of Aratoros."},
+			{"text": "A centaurs state inhabited the souteastern part of the Rain Forest. it was divided into two groups, one group remain in their home, while the other group joined Niranna after the marriage between Thanue and Araros son of Aratoros."}
 		]
 	},
 	{
 		"name": "Clockwerk",
 		"adjective": ["Clockwerks"],
-		"cityStateType": "Industrial",
+		"cityStateType": "Artisan",
+		"startBias": ["River"],
 		"style": "Human",
 		"uniques": ["[+1 Production] from all [Science] buildings"],
-		
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
+
+		"declaringWar": "In responding to your unstinting malignancy, we can have no recourse but war!",
+		"attacked": "The law of cause and effect. Your ignorance will be your fall.",
 		"defeated": "Guess I'll work for you then.",
 		"outerColor": [ 20,20,20],
 		"innerColor": [150,87,42],
 		"cities": ["Clockwerk"],
 		"civilopediaText": [
-			{"text": "A human kingdom on the Tanait plains in the north-central part of Balvaria, bordered with the Berenger Kingdom to the North and the Duchy of Nas to the West. It was one of the founding members of the Aeyris Alliances."}
+			{"text": "Lying along the banks of the Vambit River, Clockwerk was a civilization renowned for its nechanical ingenuity. Named by later scholars, it was one of the founding members of the Aeyris Alliances."}
 		]
 	},
 	{
 		"name": "Dayne",
 		"adjective": ["Daynian"],
 		"cityStateType": "Industrial",
+		"startBias": ["Coast"],
 		"style": "Human",
 		"uniques": ["[-50]% construction time for [All] improvements"],
-		
-		"declaringWar": "You leave us no choice. War it must be.",
+
+		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
 		"attacked": "Just because you can't pay me, you declare war on me?",
-		"defeated": "Just take all of my slave, will you?",
+		"defeated": "Just take all my slave, will you?",
 		"outerColor": [ 20, 20, 20],
 		"innerColor": [239,169,119],
 		"cities": ["Dayne"],
 		"civilopediaText": [
-			{"text": "A human city-state on the Llotidea Continent. It was often involved in rivalry with the dwarven kingdom of Manthrill to the northwest and the Thallin Empire to the west. The kingdom fell after being attacked by Torakj."},
+			{"text": "A human city-state on the Llotidea Continent. It was often involved in rivalry with the dwarven kingdom of Manthrill to the northwest and the Thallin Empire to the west. The kingdom fell after being attacked by Torakj."}
 		]
 	},
 	{
 		"name": "Kov",
 		"adjective": ["Kobolds"],
-		"cityStateType": "Industrial",
-		"startBias": ["Hill"],
+		"cityStateType": "Artisan",
+		"startBias": ["Mountain"],
 		"uniques": ["Gain a free [Walls] [in capital]"],
 		
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1766,30 +1778,49 @@
 		"defeated": "So what is the meaning of a miner?",
 		"outerColor": [ 20,20,20],
 		"innerColor": [150,87,42],
-		"cities": ["Kov"]
+		"cities": ["Kov"],
+		"civilopediaText": [
+			{"text": "Found in the southeasternmost of the Merair Mountain Range, the kobolds are adapting to cold and harsh environments, despite prefer warm, damp, and subterranean habitats. The Kovs survival in harsh climates is largely due to their tenacity, rapid reproduction, and ingenuity."}
+		]
 	},
 	{
 		"name": "Rog",
 		"adjective": ["Ogre"],
 		"cityStateType": "Industrial",
-		"startBias": ["Jungle"],
+		"startBias": ["Tundra","Forest"],
 		"uniques": ["All newly-trained [Sword] units [in capital] receive the [Charge] promotion"],
-		
+
 		"declaringWar": "Hungry ... hungry for eternity ...",
-		"attacked": "I am hungry of a fresh flesh myself!",
-		"defeated": "I hope you'll spare me your leftover to eat.",
+		"attacked": "What a coincidence, I yearns for a fresh flesh myself!",
+		"defeated": "Least spare me your leftover meat.",
 		"outerColor": [ 20, 20, 20],
 		"innerColor": [239,169,119],
 		"cities": ["Rog"],
 		"civilopediaText": [
-			{"text": "Horde of ogre on the Balvaria. It helped Saeth of Tugu during the First Balvarian War."},
+			{"text": "Rog was an ogre tribal state famed for its brawn rather than its intelligence. During  the First Balvarian War, Rog was subjugated by Saeth of Tugu and later marched as part of Saeth's forces in the conquest of the Thorin Empire."}
 		]
 	},
 
 	{
+		"name": "Aysus",
+		"adjective": ["Aysusian"],
+		"cityStateType": "Agricultural",
+		"uniques": ["Free [Warrior] appears <upon discovering [Philosophy] technology>"],
+
+		"declaringWar": "By the grace of God, we declare war!",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [ 20, 20, 20],
+		"innerColor": [203,193,252],
+		"cities": ["Aysus"],
+		"civilopediaText": [
+			{"text": "One of the successor of the Shinso. It was destroyed by the Tianwu Empire under the reign of Long Aotian."}
+		]
+	},
+	{
 		"name": "Glaceholm",
 		"adjective": ["Glaceholmian"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Agricultural",
 		"startBias": ["Tundra"],
 		"uniques": ["[+1] Movement <for [{Military} {Melee}] units> <in [Tundra] tiles>"],
 
@@ -1800,7 +1831,7 @@
 		"innerColor": [ 0,255,128],
 		"cities": ["Glaceholm"],
 		"civilopediaText": [
-			{"text": "A beastman civilization located on the eastern part of the Blora Sea. Because they were often attacked by Thallin, the Glaceholmians migrated mostly to the Crawl of Nortasia. Later, the remaining Glaceholmians joined Townfolk on the Sumba Continent."},
+			{"text": "A beastman civilization located on the eastern part of the Blora Sea. Because they were often attacked by Thallin, the Glaceholmians migrated mostly to the Crawl of Nortasia. Later, the remaining Glaceholmians joined Townfolk on the Sumba Continent."}
 		]
 	},
 	{
@@ -1822,7 +1853,7 @@
 		"adjective": ["Highlanderi"],
 		"cityStateType": "Maritime",
 		"startBias": ["Hill"],
-		"style": "Elven",
+		"style": "Elves",
 		"uniques": ["Free [Composite Bowman] appears <upon discovering [Construction] technology>"],
 
 		"declaringWar": "I have to do this, for the sake of progress if nothing else. You must be opposed!",
@@ -1834,34 +1865,38 @@
 	},
 	{
 		"name": "Irgask",
-		"adjective": ["Ego-Goblin"],
+		"adjective": ["Irigaski"],
 		"cityStateType": "Maritime",
-		"startBias": ["Coast"],
+		"startBias": ["Hill"],
 		"style": "Goblin",
 		"uniques": ["[+15]% [Food] [in capital]"],
 
 		"declaringWar": "I will enjoy hearing your last breath as you witness the destruction of your realm!",
-		"attacked": "Why do we fight? Because Inanna demands it. Now, witness the power of Irgaskians!",
+		"attacked": "If you need your nose bloodied, we'll happily serve.",
 		"defeated": "What treachery has struck us? No, what evil?",
 		"outerColor": [20, 20,20],
 		"innerColor": [81,172,40],
-		"cities": ["Irgask"]
+		"cities": ["Irgask"],
+		"civilopediaText": [
+			{"text": "The Irigaski goblins are the native dwellers of the Tatapui Hills, having lived in the region since the Time of Beginnings. They share amicable ties with the gnomes of Vedic, trading fruits and monster meat in exchange for shiny pebbles."}
+		]
 	},
 	{
 		"name": "Panema",
-		"adjective": ["Panemians"],
-		"cityStateType": "Maritime",
+		"adjective": ["Panemian"],
+		"cityStateType": "Agricultural",
+		"startBias": ["Coast"],
 		"style": "Human",
 		"uniques": ["Starts with [Pottery]"],
 
 		"declaringWar": "You have revealed your purposes a bit too early, my friend...",
-		"attacked": "Very well, this shall not be forgotten.",
+		"attacked": "You will see you have just bitten off more than you can chew.",
 		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
 		"outerColor": [20, 20,20],
 		"innerColor": [10,162,60],
 		"cities": ["Panema"],
 		"civilopediaText": [
-			{"text": "A human kingdom on the eastern part of the Leihitu Sea. It was destroyed by Marunesia and re-developed a decade later as Codendia."},
+			{"text": "A human kingdom on the eastern part of the Buantan Sea. It was destroyed by Marunesia and re-developed a decade later as Codendia."}
 		]
 	},
 
@@ -1908,14 +1943,14 @@
 		"innerColor": [211,220,93],
 		"cities": ["Frostwaste"],
 		"civilopediaText": [
-			{"text": "A human kingdom on the isolated continent of Omora. Sometimes dubbed as the Frozen Kingdom, it was conquered by Frostmorrow, who inherited the exonym 'Frozen'."},
+			{"text": "A human kingdom on the isolated continent of Omora. Sometimes dubbed as the Frozen Kingdom, it was conquered by Frostmorrow, who inherited the exonym 'Frozen'."}
 		]
 	},
 	{
 		"name": "Gahaldur",
 		"adjective": ["Merchant-Dwarven"],
 		"cityStateType": "Mercantile-Gahaldur",
-		"style": "Dwarven",
+		"style": "Dwarves",
 		"uniques": ["Starts with [Mining]"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -1939,7 +1974,7 @@
 		"innerColor": [235,215,55],
 		"cities": ["Tonthon"]
 	},
-
+	
 	{
 		"name": "Corelia",
 		"adjective": ["Pirates"],
@@ -1967,7 +2002,7 @@
 		"innerColor": [255,50,50],
 		"cities": ["Grokzut"],
 		"civilopediaText": [
-			{"text": "Lizardfolk tribes bordered Thallin to the north. After conquering Grokzut, the Tailin enslaved the lizardfolk."},
+			{"text": "Lizardfolk tribes bordered Thallin to the north. After conquering Grokzut, the Tailin enslaved the lizardfolk."}
 		]
 	},
 	{
@@ -1984,7 +2019,7 @@
 		"innerColor": [255,178,72],
 		"cities": ["Khemul"],
 		"civilopediaText": [
-			{"text": "A land isolated human kingdom bordered with Dwargon to the north. It was destroyed by Erhab during the Second Balvarian War."},
+			{"text": "A land isolated human kingdom bordered with Dwargon to the north. It was destroyed by Erhab during the Second Balvarian War."}
 		]
 	},
 	{
@@ -2001,7 +2036,7 @@
 		"innerColor": [185,32,122],
 		"cities": ["Pid"],
 		"civilopediaText": [
-			{"text": "The last group of demons that weren't thrown into the netherworld. The Pidians, despite being demons, are not hostile towards other races but still have physical characteristics like demons in general."},
+			{"text": "The last group of demons that weren't thrown into the netherworld. The Pidians, despite being demons, are not hostile towards other races but still have physical characteristics like demons in general."}
 		]
 	},
 	{
@@ -2019,53 +2054,39 @@
 	},
 	{
 		"name": "Shaquad",
-		"adjective": ["Shaquadi"],
+		"adjective": ["Shaquadian"],
 		"cityStateType": "Militaristic",
+		"startBias": ["Coast"],
 		"style": "Human",
 		"uniques": ["Free [Watcher] appears <upon discovering [Optics] technology>"],
 
 		"declaringWar": "War lingers in our hearts. Why carry on with a false peace?",
 		"attacked": "You gormless radger! You'll dine on your own teeth before you set foot in Shaquad!",
-		"defeated": "A lonely wind blows through the highlands today. A dirge for Shaquad. Can you hear it?",
+		"defeated": "I guess you weren't here for the sprouts after all...",
 		"outerColor": [ 20,20,20],
 		"innerColor": [255,50,50],
 		"cities": ["Shaquad"],
 		"civilopediaText": [
-			{"text": "One of the two kingdoms reigned by the descendant of Karaeng (King) Rouben. The state stood in a close political relation to the Kingdom of Malus."},
+			{"text": "One of the two kingdoms reigned by the descendant of Karaeng (King) Rouben. The state stood in a close political relation to the Kingdom of Malus."}
 		]
 	},
-
-	{
-		"name": "Aysus",
-		"adjective": ["Aysusian"],
-		"cityStateType": "Religious",
-		"uniques": ["Free [Inquisitor] appears <upon discovering [Philosophy] technology>"],
-
-		"declaringWar": "By the grace of God, we declare war!",
-		"attacked": "You shall not trample our temple!",
-		"defeated": "God is forgiving, will you forgive us?",
-		"outerColor": [ 20, 20, 20],
-		"innerColor": [203,193,252],
-		"cities": ["Aysus"],
-		"civilopediaText": [
-			{"text": "One of the successor of the Shinso. It was destroyed by the Tianwu Empire under the reign of Long Aotian."}
-		]
-	},
+	
 	{
 		"name": "Chorislavia",
-		"adjective": ["Chorislaviani"],
+		"adjective": ["Chorislani"],
 		"cityStateType": "Religious",
-		"style": "Elven",
+		"startBias": ["Grassland"],
+		"style": "Elves",
 		"uniques": ["[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"],
 
-		"declaringWar": "I didn't want to do this. We declare war.",
-		"attacked": "I will fear no evil. For god is with me!",
+		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
+		"attacked": "I will fear no evil. For God is with me!",
 		"defeated": "Why have you forsaken us my lord?",
 		"outerColor": [ 20, 20, 20],
 		"innerColor": [255,255,255],
 		"cities": ["Chorislavia"],
 		"civilopediaText": [
-			{"text": "The first civilization ever in the world. Also referred to as the Motheri Elves by the Sodites, Chorislavia is only mentioned twice in Polgar Sod'em's manuscripts: when it was conquered by the Eldars and when it was liberated by Almuria."}
+			{"text": "The Chorislaviani were a sub-group of the Thalasia Elves who chose to settle in Buantan. According to the Asili Inscription, Chorislavia was established as the successor to the Verdalia Kingdom, which was destroyed by the Red Elves."}
 		]
 	},
 	{
@@ -2073,28 +2094,30 @@
 		"adjective": ["Druid"],
 		"cityStateType": "Religious",
 		"startBias": ["Jungle"],
-		"uniques": ["[+1 Faith, +1 Culture] [in all cities] <with [1] to [2] neighboring [{unimproved} {Jungle}] tiles>",
-	"[+2 Faith, +2 Culture] [in all cities] <with [3] to [6] neighboring [{unimproved} {Jungle}] tiles>"],
-
+		"uniques": [
+			"[+1 Culture] [in all cities] <with [1] to [2] neighboring [{unimproved} {Jungle}] tiles>",
+			"[+2 Faith, +2 Culture] [in all cities] <with [3] to [6] neighboring [{unimproved} {Jungle}] tiles>"
+		],
+		
 		"declaringWar": "You shall stain this land no longer, prepare for war!",
 		"attacked": "Oh, truly you are as cruel as your nicknaame.",
-		"defeated": "Remember, the end of us is the beginning of your doom!",
+		"defeated": "Your evil nature are too strong for us to handle.",
 		"outerColor": [ 20, 20, 20],
 		"innerColor": [203,255,252],
 		"cities": ["Estuary"],
 		"civilopediaText": [
-			{"text": "Druidic civilization in the middle of the vast Pringapus Jungle on the Selasia continent. Rumor has it that the druid occasionally appear to help any traveler as long as the traveler does not have any ill intentions."}
+			{"text": "Estuary is a druidic civilization dwelling in the eastern reaches of the Pringapus Jungle, near the Buantan Sea. It is said that the druids sometimes reveal themselves to aid wandering travelers—provided their hearts bear no ill intent."},
 		]
 	},
 	{
 		"name": "Gomorra",
 		"adjective": ["Gomorran"],
 		"cityStateType": "Religious",
-		"uniques": ["Gain a free [Shrine] [in capital]"],
+		"uniques": ["Gain a free [Shrine] [in capital]","Will not be chosen for new games"],
 
 		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
-		"attacked": "Very well, we will kick you back to the ancient era!",
-		"defeated": "This isn't how it is supposed to be!",
+		"attacked": "You shall not trample our temple!",
+		"defeated": "God is forgiving, will you forgive us?",
 		"outerColor": [ 20, 20, 20],
 		"innerColor": [203,253,232],
 		"cities": ["Gomorra"]
@@ -2103,10 +2126,9 @@
 		"name": "Nevdes",
 		"adjective": ["Nevdan"],
 		"cityStateType": "Religious",
-		"startBias": ["Plains"],
 		"style": "Human",
 		"uniques": ["[+10]% Strength <for [Anti-Cav] units>"],
-
+		
 		"declaringWar": "Everyday you stray further from God. Let me show you the right path!",
 		"attacked": "You think God will permit your abominations?",
 		"defeated": "Your evil nature are too strong for us to handle.",
@@ -2114,7 +2136,7 @@
 		"innerColor": [223,203,212],
 		"cities": ["Nevdes"],
 		"civilopediaText": [
-			{"text": "Religious state on the Tanait plains in the north-central part of Balvaria. It was one of the founding member of the Aeyris Alliances."}
+			{"text": "Nevdes is a religious state on the Central Plains, encircled by powerful neighbors-Thorin Empire to the north and west, and the Berenger Kingdom to the east. It was one of the founding members of the Aeyris Alliance."},
 		]
 	},
 	{
@@ -2123,7 +2145,7 @@
 		"cityStateType": "Religious",
 		"style": "Human",
 		"uniques": ["Gain a free [Monastery] [in capital]"],
-
+		
 		"declaringWar": "By god's grace we will not allow these atrocities to occur any longer. We declare war!",
 		"attacked": "May god have mercy on your evil soul.",
 		"defeated": "I for one welcome our new conquer overlord!",
@@ -2131,7 +2153,7 @@
 		"innerColor": [198,255,192],
 		"cities": ["Zilla"],
 		"civilopediaText": [
-			{"text": "A human civilization located on the island of Zilla. The Zillans are the inventors of the philosophies of yin and yang and five elements."}
+			{"text": "A human civilization located on the island of Zilla. The Zillans are credited as the originators of the philosophies of Yin and Yang and the Four Elements."},
 		]
 	},
 	
@@ -2142,12 +2164,12 @@
 		"outerColor": [0,0,0],
 		"innerColor": [185,10,10],
 		"style": "Barbarians",
-		"uniques": ["Can only heal by pillaging", 
-					"[Recon] units gain the [No Suicide] promotion", 
-					"[Sword] units gain the [No Suicide] promotion", 
-					"[Gunpowder] units gain the [No Suicide] promotion", 
-					"[Anti-Cav] units gain the [No Suicide] promotion", 
-					"[Armored] units gain the [No Suicide] promotion", 
-					"[+15]% Strength <within [1] tiles of a [Barbarian encampment]>"]
+		"uniques": [
+			"Can only heal by pillaging <in [non-[Barbarian encampment]] tiles>",
+			"[{Foot Monster} {Melee}] units gain the [No Suicide] promotion",
+			"[Sword] units gain the [No Suicide] promotion",
+			"[+15]% Strength <within [1] tiles of a [Barbarian encampment]>",
+			"[+10]% Strength <in [Barbarian encampment] tiles>"
+		]
 	}
 ]

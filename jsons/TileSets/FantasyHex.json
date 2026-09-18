@@ -1,6 +1,6 @@
 {
     "useColorAsBaseTerrain": "false",
-    "fallbackTileSet": null,
+    "fallbackTileSet": "FantasyHex",
     "ruleVariants": {
         // Rainee's Plantation
 		"Grassland+Forest+Citrus+Rainee's Plantation": ["Grassland","Forest+Citrus+Rainee's Plantation"]

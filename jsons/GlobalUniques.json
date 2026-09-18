@@ -8,61 +8,29 @@
 		"[-33]% Strength <for [All] units> <when below [-10] [Happiness]>",
 		"Cannot build [Settler] units <when below [-10] [Happiness]>",
 		"Rebel units may spawn <when below [-20] [Happiness]>",
+		"[-1] Sight <for [Embarked] units>",
+		"[-15]% maintenance cost for [all] buildings [in capital] <in cities without a [Bank]>",
 		
 		// Military mechanism
 		"New [Recon] units start with [10] XP [in all cities]",
 		
-		// Heroes
-		"[+40]% Strength <for [The Heroes] units> <during the [Feudal age]>",	 			// 35,
-		"[+80]% Strength <for [The Heroes] units> <during the [Renaissance age]>", 			// 45,
-		"[+120]% Strength <for [The Heroes] units> <starting from the [Industrial age]>", 	// 55,
-		"[+80]% Strength <for [The Heroes] units> <during the [Prosperity age]>",		 	// 75,
-		"[+160]% Strength <for [The Heroes] units> <starting from the [Modern age]>",	 	// 95,
-		"Instantly provides [1] [Portal Limiter] <upon discovering [Agriculture] technology>",
-		"Provides [1] [Hero Limiter] <for [Major] Civilizations>",
-		
-		//"[-33]% Strength <for [The Heroes] units> <for [City-States] Civilizations>",
-		"[-30]% Strength <for [The Heroes] units> <during the [Feudal age]> <for [City-States] Civilizations>",
-		"[-60]% Strength <for [The Heroes] units> <during the [Renaissance age]> <for [City-States] Civilizations>",
-		"[-90]% Strength <for [The Heroes] units> <starting from the [Industrial age]> <for [City-States] Civilizations>",
-		"[-60]% Strength <for [The Heroes] units> <during the [Prosperity age]> <for [City-States] Civilizations>",
-		"[-120]% Strength <for [The Heroes] units> <starting from the [Modern age]> <for [City-States] Civilizations>",
-		
 		// Player problems
 		//"Provides a [Zaghronk] in your first [4] cities for free <upon adopting [Tradition Complete]> <for [The Trolls]>", 
-		
-		// Natural Wonders mechanism
-		"[+1 Food] from every [Grassland] <with [1] to [6] neighboring [Crater Lake] tiles>", 
-		"[+1 Gold] from every [Grassland] <with [1] to [6] neighboring [Zamrud Khatulistiwa] tiles>", 
-		"[+1 Food] from every [Plains] <with [1] to [6] neighboring [Crater Lake] tiles>", 
-		"[+1 Gold] from every [Plains] <with [1] to [6] neighboring [Zamrud Khatulistiwa] tiles>", 
-		"[+1 Production] from every [Plains] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
-		"[+1 Food] from every [Tundra] <with [1] to [6] neighboring [Crater Lake] tiles>", 
-		"[+1 Food] from every [Desert] <with [1] to [6] neighboring [Crater Lake] tiles>", 
-		"[+1 Production] from every [Desert] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
-		"[+1 Food] from every [Lakes] <with [1] to [6] neighboring [Crater Lake] tiles>", 
-		"[+1 Gold] from every [Lakes] <with [1] to [6] neighboring [Zamrud Khatulistiwa] tiles>", 
-		"[+1 Production] from every [Lakes] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 		
-		"[+1 Production] from every [Mountain] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
-		//"[+1 Food] from every [Hill] <with [1] to [6] neighboring [Crater Lake] tiles>", 
-		//"[+1 Gold] from every [Hill] <with [1] to [6] neighboring [Zamrud Khatulistiwa] tiles>", 
-		//"[+1 Production] from every [Hill] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
-		//"[+1 Food] from every [Forest] <with [1] to [6] neighboring [Crater Lake] tiles>", 
-		//"[+1 Production] from every [Forest] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
-		//"[+1 Food] from every [Jungle] <with [1] to [6] neighboring [Crater Lake] tiles>", 
-		//"[+1 Production] from every [Jungle] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
-		//"[+1 Food] from every [Marsh] <with [1] to [6] neighboring [Crater Lake] tiles>", 
-		//"[+1 Food] from every [Oasis] <with [1] to [6] neighboring [Crater Lake] tiles>", 
-		//"[+1 Production] from every [Oasis] <with [1] to [6] neighboring [Rock of Levitation] tiles>", 
-		//"[+1 Food] from every [Flood plains] <with [1] to [6] neighboring [Crater Lake] tiles>", 
-		//"[+1 Production] from every [Flood plains] <with [1] to [6] neighboring [Rock of Levitation] tiles>",
-		//"[+1 Food] from every [Man-eating tree] <with [1] to [6] neighboring [Crater Lake] tiles>",
-		//"[+1 Food] from every [City center] <with [1] to [6] neighboring [Crater Lake] tiles>", 
-		//"[+1 Production] from every [City center] <with [1] to [6] neighboring [Rock of Levitation] tiles>"
 		
 		// Canal Engineer Limiter
 		"Instantly provides [7] [Canal Limiter] <upon gaining a [Canal Engineer] unit>", 
 		"Cannot build [Canal Engineer] units <when above [20] [Canal Limiter]>"
 		
-    ]
+    ],
+	
+	"unitUniques": [
+		// Boss Hunting
+		"Instantly gain [1] [Boss Monster Core] <upon defeating a [Boss] unit>",
+		
+		// Volatile Core
+		"[This Unit] takes [30] damage <upon defeating a [Volatile Core] unit>",
+		
+		// Avenger
+		"[This Unit] takes [10] damage <upon damaging a [Avenger] unit>"
+	]
 }

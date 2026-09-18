@@ -1,49 +1,19 @@
 [
+	// Diplomacy
 	{
-		"name": "Route",
-		"description": "Build a road to connect your capital to our city.",
-		"influence": 50,
+		"name": "Bully City State",
+		"description": "We are tired of the pretensions of [cityState]. If someone were to put them in their place by Demanding Tribute from them, they would be rewarded.",
+		"duration": 30,
 		"weightForCityStateType": {
-			"Friendly": 2,
-			"Hostile": 0.2,
-			"Industrial": 1,
-			"Maritime": 1.2,
-			"Mercantile": 1.5
-		}
-	},
-	 
-	/*
-	{
-		 "name": "Finish a Dungeon",
-		"description": "We feel exhausted trying to clear the dungeon near our city. Please take care of it.",
-		"type": "Global",
-		"influence": 50,
-		"minimumCivs": 1
-	},
-	*/
-	
-	{
-		"name": "Connect Resource",
-		"description": "In order to make our civilizations stronger, connect [tileResource] to your trade network.",
-		"weightForCityStateType": {
-			"Maritime": 2,
-			"Mercantile": 3,
+			"Hostile": 2,
+			"Irrational": 1.5,
+			"Friendly": 0.2
 		}
 	},
 	{
-		"name": "Construct Wonder",
-		"description": "We recommend you to start building [wonder] to show the whole world your civilization strength.",
-		"weightForCityStateType": {
-			"Cultured": 3,
-			"Industrial": 1.2
-		}
-	},
-	{
-		"name": "Acquire Great Person",
-		"description": "Great People can change the course of a Civilization! You will be rewarded for acquiring a new [greatPerson].",
-		"weightForCityStateType": {
-			"Cultured": 3
-		}
+		"name": "Denounce Civilization",
+		"description": "We have been forced to pay tribute to [civName]! We need you to tell the world of their ill deeds.",
+		"duration": 40
 	},
 	{
 		"name": "Conquer City State",
@@ -56,14 +26,54 @@
 		}
 	},
 	{
+		"name": "Give Gold",
+		"description": "We are suffering great poverty after being robbed by [civName], and unless we receive a sum of Gold, it's only a matter of time before we collapse.",
+		"influence": 20,
+		"duration": 30,
+		"weightForCityStateType": {
+			"Ceremonial": 3,
+			"Cultural": 3,
+			"Artisan": 2,
+			"Industrial": 2,
+			"Agricultural": 3,
+			"Maritime": 3,
+			"Mercantile": 3.5,
+			"Mercantile-Concordia": 3.5,
+			"Mercantile-Crotoa": 3.5,
+			"Mercantile-Frostwaste": 3.5,
+			"Mercantile-Gahaldur": 3.5,
+			"Mercantile-Tonthon": 3.5,
+			"Militaristic": 1,
+			"Religious": 3
+		}
+	},
+	{
+		"name": "Invest",
+		"description": "Our people are rejoicing thanks to a tourism boom. For a certain amount of time, any Gold donation will yield [50]% extra Influence.",
+		"type": "Global",
+		"influence": 0,
+		"duration": 30,
+		"minimumCivs": 3
+	},
+	{
+		"name": "Pledge to Protect",
+		"description": "We need your protection to stop the aggressions of [civName]. By signing a Pledge of Protection, you'll confirm the bond that ties us.",
+		"influence": 20,
+		"duration": 30
+	},
+	
+	// Maps
+	{
+		"name": "Clear Barbarian Camp",
+		"description": "We feel exhausted trying to clear the dungeon near our city. Please take care of it.",
+		"type": "Global",
+		"influence": 50,
+		"minimumCivs": 2
+	},
+	{
 		"name": "Find Player",
 		"description": "You have yet to discover where [civName] set up their cities. You will be rewarded for finding their territories.",
-		"influence": 35,
-		"weightForCityStateType": {
-			"Industrial": 1,
-			"Maritime": 3,
-			"Mercantile": 2
-		}
+		"influence": 35
 	},
 	{
 		"name": "Find Natural Wonder",
@@ -74,33 +84,27 @@
 		}
 	},
 	{
-		"name": "Give Gold",
-		"description": "We are suffering great poverty after being robbed by [civName], and unless we receive a sum of Gold, it's only a matter of time before we collapse.",
-		"influence": 20,
-		"duration": 30,
+		"name": "Route",
+		"description": "Build a road to connect your capital to our city.",
+		"influence": 50,
 		"weightForCityStateType": {
-			"Cultured": 3,
-			"Industrial": 3,
-			"Maritime": 3,
-			"Mercantile": 3.5,
-			"Militaristic": 2,
-			"Religious": 3
+			"Friendly": 2,
+			"Hostile": 0.2,
+			"Artisan": 1,
+			"Industrial": 1,
+			"Agricultural": 1.2,
+			"Maritime": 1.2,
+			"Mercantile": 1.5,
+			"Mercantile-Concordia": 1.5,
+			"Mercantile-Crotoa": 1.5,
+			"Mercantile-Frostwaste": 1.5,
+			"Mercantile-Gahaldur": 1.5,
+			"Mercantile-Tonthon": 1.5
 		}
 	},
-	{
-		"name": "Pledge to Protect",
-		"description": "We need your protection to stop the aggressions of [civName]. By signing a Pledge of Protection, you'll confirm the bond that ties us.",
-		"influence": 20,
-		"duration": 30,
-		"weightForCityStateType": {
-			"Cultured": 3.5,
-			"Industrial": 3,
-			"Maritime": 3,
-			"Mercantile": 3,
-			"Militaristic": 2,
-			"Religious": 3
-		}
-	},
+	
+	
+	// Contests
 	{
 		"name": "Contest Culture",
 		"description": "The civilization with the largest Culture growth will gain a reward.",
@@ -108,12 +112,20 @@
 		"duration": 30,
 		"minimumCivs": 3,
 		"weightForCityStateType": {
-			"Cultured": 2,
+			"Ceremonial": 2,
+			"Cultural": 2,
+			"Artisan": 1,
 			"Industrial": 1,
+			"Agricultural": 0.5,
 			"Maritime": 0.5,
-			"Mercantile": 0.5,
-			"Militaristic": 0.5,
-			"Religious": 0.5
+			"Mercantile": 0.2,
+			"Mercantile-Concordia": 0.2,
+			"Mercantile-Crotoa": 0.2,
+			"Mercantile-Frostwaste": 0.2,
+			"Mercantile-Gahaldur": 0.2,
+			"Mercantile-Tonthon": 0.2,
+			"Militaristic": 0.2,
+			"Religious": 1
 		}
 	},
 	{
@@ -123,11 +135,19 @@
 		"duration": 30,
 		"minimumCivs": 3,
 		"weightForCityStateType": {
-			"Cultured": 0.5,
-			"Industrial": 1,
+			"Ceremonial": 1,
+			"Cultural": 1,
+			"Artisan": 0.2,
+			"Industrial": 0.2,
+			"Agricultural": 0.5,
 			"Maritime": 0.5,
-			"Mercantile": 0.5,
-			"Militaristic": 0.5,
+			"Mercantile": 0.2,
+			"Mercantile-Concordia": 0.2,
+			"Mercantile-Crotoa": 0.2,
+			"Mercantile-Frostwaste": 0.2,
+			"Mercantile-Gahaldur": 0.2,
+			"Mercantile-Tonthon": 0.2,
+			"Militaristic": 0.2,
 			"Religious": 2
 		}
 	},
@@ -141,45 +161,48 @@
 			"Religious": 0.5
 		}
 	},
+	
+	// Miscellaneous
 	{
-		"name": "Invest",
-		"description": "Our people are rejoicing thanks to a tourism boom. For a certain amount of time, any Gold donation will yield [50]% extra Influence.",
-		"type": "Global",
-		"influence": 0,
-		"duration": 30,
-		"minimumCivs": 2,
+		"name": "Acquire Great Person",
+		"description": "Great People can change the course of a Civilization! You will be rewarded for acquiring a new [greatPerson].",
 		"weightForCityStateType": {
-			"Mercantile": 1.5
-		}
-	},
-	{
-		"name": "Bully City State",
-		"description": "We are tired of the pretensions of [cityState]. If someone were to put them in their place by Demanding Tribute from them, they would be rewarded.",
-		"duration": 30,
-		"weightForCityStateType": {
-			"Hostile": 2,
-			"Irrational": 1.5,
-			"Friendly": 0.3
-		}
-	},
-	{
-		"name": "Denounce Civilization",
-		"description": "We have been forced to pay tribute to [civName]! We need you to tell the world of their ill deeds.",
-		"duration": 40,
-		"weightForCityStateType": {
-			"Cultured": 1.5,
+			"Ceremonial": 3,
+			"Cultural": 3,
+			"Artisan": 1.5,
 			"Industrial": 1.5,
+			"Religious": 0.5
+		}
+	},
+	{
+		"name": "Connect Resource",
+		"description": "In order to make our civilizations stronger, connect [tileResource] to your trade network.",
+		"weightForCityStateType": {
+			"Ceremonial": 1,
+			"Agricultural": 1.5,
 			"Maritime": 2,
-			"Mercantile": 1.5,
-			"Militaristic": 1.5,
-			"Religious": 2.5
+			"Mercantile": 3,
+			"Mercantile-Concordia": 3,
+			"Mercantile-Crotoa": 3,
+			"Mercantile-Frostwaste": 3,
+			"Mercantile-Gahaldur": 3,
+			"Mercantile-Tonthon": 3
 		}
 	},
 	{
 		"name": "Spread Religion",
 		"description": "We have heard the tenets of [religionName] and are most curious. Will you send missionaries to teach us about your religion?",
-		"weightForCityStateType": {
+		"weightForCityStateType": {,
 			"Religious": 3
+		}
+	},
+	{
+		"name": "Construct Wonder",
+		"description": "We recommend you to start building [wonder] to show the whole world your civilization strength.",
+		"weightForCityStateType": {
+			"Ceremonial": 2,
+			"Cultural": 3,
+			"Industrial": 1.2
 		}
 	},
 	
