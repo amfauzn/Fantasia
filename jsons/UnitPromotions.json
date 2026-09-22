@@ -990,7 +990,7 @@
 		"uniques": [
 			"[+1] Sight", 
 			"Can see invisible [Military] units",
-			"Only available <for units without [Sharpen Eye]>"
+			"Only available <for units without [Awareness]>"
 		],
 		"unitTypes": ["Air Terror","Flying Monster"]
 	},
@@ -1001,7 +1001,7 @@
 	},
 	{
 		"name": "Twin Fang",
-		"prerequisites": ["Awareness"],
+		"prerequisites": ["Awareness", "Sharpen Eye"],
 		"uniques": ["[+25]% Strength <when attacking> <vs [non-[Hero]] units>"],
 		"unitTypes": ["Air Terror","Flying Monster"]
 	},
