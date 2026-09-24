@@ -7,9 +7,14 @@
 		"wonderCost": 100,
 		"techs": [
 			{
+				"name": "Language",
+				"row": 3,
+				"uniques": ["Starting tech"]
+			},
+			{
 				"name": "Earth Goddess",
 				"row": 10,
-				"uniques": ["Starting tech"]
+				"uniques": ["[-100]% weight to this choice for AI decisions"]
 			}
 		]
 	},
@@ -41,7 +46,7 @@
 			},
 			{
 				"name": "Pottery",
-				"row": 3,
+				"row": 4,
 				"prerequisites": ["Agriculture"],
                 "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Bible Isaiah 45:9"
@@ -83,14 +88,14 @@
 			},
 			{
 				"name": "Calendar",
-				"row": 3,
+				"row": 4,
 				"prerequisites": ["Pottery"],
                 "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
 			},
 			{
 				"name": "Masonry",
-				"row": 9,
+				"row": 8,
 				"prerequisites": ["Mining"],
 				"quote": "'How happy are those whose walls already rise!' - Virgil"
 			}
@@ -114,7 +119,7 @@
 			{
 				"name": "Writing",
 				"row": 3,
-				"prerequisites": ["Calendar"],
+				"prerequisites": ["Language","Calendar"],
 				"uniques": ["Notified of new Barbarian encampments"],
 				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
 			},
@@ -138,7 +143,7 @@
 			},
 			{
 				"name": "Construction",
-				"row": 9,
+				"row": 8,
 				"prerequisites": ["Masonry"],
                 "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
@@ -239,7 +244,7 @@
 			},
 			{
 				"name": "Engineering",
-				"row": 9,
+				"row": 8,
 				"prerequisites": ["Mathematics","Construction"],
 				"uniques": [
 					"Roads connect tiles across rivers",

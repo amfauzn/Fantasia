@@ -2043,7 +2043,7 @@
 		"name": "Rackedt",
 		"adjective": ["Mercenary-Beast"],
 		"cityStateType": "Militaristic",
-		"uniques": ["All newly-trained [Recon] units [in capital] receive the [Ranger] promotion"],
+		"uniques": ["All newly-trained [Recon] units [in capital] receive the [Strider] promotion"],
 
 		"declaringWar": "You shall stain this land no longer with your vileness! To arms, my countrymen - we ride to war!",
 		"attacked": "Traitorous man! The Rackedt peoples will not stand for such wanton abuse and slander - I shall have your head!",

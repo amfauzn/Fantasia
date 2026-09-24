@@ -1001,7 +1001,7 @@
 	},
 	{
 		"name": "Twin Fang",
-		"prerequisites": ["Awareness", "Sharpen Eye"],
+		"prerequisites": ["Awareness","Sharpen Eye"],
 		"uniques": ["[+25]% Strength <when attacking> <vs [non-[Hero]] units>"],
 		"unitTypes": ["Air Terror","Flying Monster"]
 	},
@@ -1684,34 +1684,12 @@
 		"uniques": ["[+1] Sight","Will not be displayed in Civilopedia"]
 	},
 	{
-		"name": "Survivalism",
-		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", 
-					"[+33]% Strength <when defending>","Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "Spyglass",
-		"uniques": ["Can see over obstacles", 
-					"Withdraws before melee combat <with [50]% chance>","Will not be displayed in Civilopedia"]
-	},
-	{
 		"name": "Guerrilla",
 		"uniques": ["Can move after attacking","Will not be displayed in Civilopedia"]
 	},
 	{
-		"name": "Holding Spirit",
-		"uniques": ["Unit will heal every turn, even if it performs an action","Will not be displayed in Civilopedia"],
-	},
-	{
 		"name": "Schiltron",
 		"uniques": ["[+25]% Strength <vs [Land] units>","Will not be displayed in Civilopedia"],
-	},
-	{
-		"name": "Calming Amulet",
-		"uniques": ["Unit will heal every turn, even if it performs an action","Will not be displayed in Civilopedia"],
-	},
-	{
-		"name": "Damage Absorb",
-		"uniques": ["Unit will heal every turn, even if it performs an action","Will not be displayed in Civilopedia"],
 	},
 	{
 		"name": "Owl's Eye",
@@ -1747,11 +1725,6 @@
 		"uniques": ["[+15]% Strength bonus for [Monster] units within [2] tiles","Will not be displayed in Civilopedia"]
 	},
 	{
-		"name": "Pet Heal",
-		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", 
-					"All adjacent units heal [+5] HP when healing","Will not be displayed in Civilopedia"], // Should just Monster
-	},
-	{
 		"name": "Helmsman",
 		"uniques": ["[+1] Movement","Will not be displayed in Civilopedia"],
 	},
@@ -1769,15 +1742,6 @@
 		"uniques": ["[+1] Range","Will not be displayed in Civilopedia"],
 	},
 	{
-		"name": "Wave",
-		"uniques": ["[+33]% Strength <vs [Land] units>", 
-					"Ranged attacks may be performed over obstacles","Will not be displayed in Civilopedia"],
-	},
-	{
-		"name": "Lunate Tail",
-		"uniques": ["[+2] Movement","Will not be displayed in Civilopedia"],
-	},
-	{
 		"name": "Blockade Runner",
 		"uniques": ["[+1] Movement","Will not be displayed in Civilopedia"],
 	},
@@ -1786,25 +1750,8 @@
 		"uniques": ["[+25]% Strength <when attacking>","Will not be displayed in Civilopedia"],
 	},
 	{
-		"name": "Flapping Wing",
-		"uniques": ["[+2] Movement","Will not be displayed in Civilopedia"],
-	},
-	{
-		"name": "Strengthen Nose",
-		"uniques": ["[+1] Sight", "Can see over obstacles","Will not be displayed in Civilopedia"],
-	},
-	{
 		"name": "Titanium Scale",
 		"uniques": ["[+25]% Strength <when defending>","Will not be displayed in Civilopedia"],
-	},
-	{
-		"name": "Hunt Instinc",
-		"uniques": ["Can move after attacking", 
-					"[+10]% Strength <vs [Wounded] units>","Will not be displayed in Civilopedia"],
-	},
-	{
-		"name": "Clairvoyant",
-		"uniques": ["Withdraws before melee combat <with [50]% chance>","Will not be displayed in Civilopedia"],
 	},
 	{
 		"name": "Great Generals II",

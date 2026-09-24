@@ -210,7 +210,7 @@
 		"upgradesTo": "Wandering Oracle",
 		"requiredResource": "Iron",
 		"uniques": ["Can see invisible [Military] units"],
-		"promotions": ["Scouting"],
+		"promotions": ["Scouting I"],
 		"attackSound": "metalhit",
 		"civilopediaText": [
 			{"text": "Better equipped and trained recon unit. May perform mid ranged attack."}
@@ -227,7 +227,7 @@
 		"requiredTech": "Computers",
 		"requiredResource": "Iron",
 		"uniques": ["Can see invisible [Military] units"],
-		"promotions": ["Scouting","Camouflage"],
+		"promotions": ["Scouting I","Camouflage"],
 		"attackSound": "metalhit",
 		"civilopediaText": [
 			{"text": "Not only may perform mid ranged attack, this unit invisible to non-adjacent enemy unit. Wandering Oracle, by its mean, are special recon unit with unique magic tools."}
@@ -2215,6 +2215,7 @@
 			"Hero",
 			"Unbuildable",
 			"Uncapturable",
+			"Limited to [1] per Civilization",
 			"Only available <if [Mas Karebet Portal] is constructed>",
 			"[This Unit] takes [101] damage <upon turn start> <for [City-State] Civilizations> <hidden from users>"
 		],
@@ -2231,6 +2232,7 @@
 			"Hero",
 			"Unbuildable",
 			"Uncapturable",
+			"Limited to [1] per Civilization",
 			"Only available <if [Ken Arok Portal] is constructed>",
 			"[This Unit] takes [101] damage <upon turn start> <for [City-State] Civilizations> <hidden from users>"
 		],
@@ -2248,6 +2250,7 @@
 			"Only available <if [Oda Portal] is constructed>",
 			"Unbuildable",
 			"Uncapturable",
+			"Limited to [1] per Civilization",
 			"[This Unit] takes [101] damage <upon turn start> <for [City-State] Civilizations> <hidden from users>"
 		],
 		"attackSound": "metalhit"
@@ -2263,6 +2266,7 @@
 			"Hero",
 			"Unbuildable",
 			"Uncapturable",
+			"Limited to [1] per Civilization",
 			"Only available <if [Leonidas Portal] is constructed>",
 			"[This Unit] takes [101] damage <upon turn start> <for [City-State] Civilizations> <hidden from users>"
 		],
@@ -2279,6 +2283,7 @@
 			"Hero",
 			"Unbuildable",
 			"Uncapturable",
+			"Limited to [1] per Civilization",
 			"Only available <if [Siliwangi Portal] is constructed>",
 			"[This Unit] takes [101] damage <upon turn start> <for [City-State] Civilizations> <hidden from users>"
 		],
@@ -2297,6 +2302,7 @@
 			"Hero",
 			"Unbuildable",
 			"Uncapturable",
+			"Limited to [1] per Civilization",
 			"Only available <if [Pandji Portal] is constructed>",
 			"[This Unit] takes [101] damage <upon turn start> <for [City-State] Civilizations> <hidden from users>"
 		],
@@ -2315,6 +2321,7 @@
 			"Hero",
 			"Unbuildable",
 			"Uncapturable",
+			"Limited to [1] per Civilization",
 			"Only available <if [Liang Portal] is constructed>",
 			"[This Unit] takes [101] damage <upon turn start> <for [City-State] Civilizations> <hidden from users>"
 		],
@@ -2333,6 +2340,7 @@
 			"Hero",
 			"Unbuildable",
 			"Uncapturable",
+			"Limited to [1] per Civilization",
 			"Only available <if [Jeanne Portal] is constructed>",
 			"[This Unit] takes [101] damage <upon turn start> <for [City-State] Civilizations> <hidden from users>"
 		],
@@ -2349,6 +2357,7 @@
 			"Hero",
 			"Unbuildable",
 			"Uncapturable",
+			"Limited to [1] per Civilization",
 			"Only available <if [Jeanne Portal] is constructed>",
 			"Withdraws before melee combat <with [33]% chance>",
 			"[This Unit] takes [101] damage <upon turn start> <for [City-State] Civilizations> <hidden from users>"
@@ -2360,11 +2369,13 @@
 		"unitType": "Melee Water",
 		"movement": 5,
 		"strength": 25,
+		"requiredResource": "Hero Limiter",
 		"promotions": ["Hero","Turtling"],
 		"uniques": [
 			"Hero",
 			"Unbuildable",
 			"Uncapturable",
+			"Limited to [1] per Civilization",
 			"Only available <if [Sun-Sin Portal] is constructed>",
 			"Can see invisible [Water] units",
 			"[This Unit] takes [101] damage <upon turn start> <for [City-State] Civilizations> <hidden from users>"
@@ -2378,11 +2389,13 @@
 		"strength": 18,
 		"rangedStrength": 24,
 		"range": 1,
+		"requiredResource": "Hero Limiter",
 		"promotions": ["Hero","Sea Wolf","Extended Range"],
 		"uniques": [
 			"Hero",
 			"Unbuildable",
 			"Uncapturable",
+			"Limited to [1] per Civilization",
 			"Only available <if [de Ruyter Portal] is constructed>",
 			"[This Unit] takes [101] damage <upon turn start> <for [City-State] Civilizations> <hidden from users>"
 		],
@@ -2399,6 +2412,7 @@
 			"Hero",
 			"Unbuildable",
 			"Uncapturable",
+			"Limited to [1] per Civilization",
 			"Only available <if [Black Hole] is constructed>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"[This Unit] takes [101] damage <upon turn start> <for [City-State] Civilizations> <hidden from users>"
@@ -2411,8 +2425,8 @@
 		"movement": 3,
 		"strength": 22,
 		"rangedStrength": 22,
-		"promotions": ["Hero","Curse"],
 		"requiredResource": "Hero Limiter",
+		"promotions": ["Hero","Curse"],
 		"uniques": [
 			"Hero",
 			"Unbuildable",
@@ -2664,7 +2678,7 @@
 	},
 	{
 		"name": "Great Admiral",
-		"unitType": "Civilian",
+		"unitType": "Civilian Water",
 		"movement": 5,
 		"uniques": [
 			"Unbuildable",

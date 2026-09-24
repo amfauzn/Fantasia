@@ -81,79 +81,86 @@ TechIcons/Future tech
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Loans and Saving
+TechIcons/Language
   rotate: false
   xy: 544, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Magic Industrialization
+TechIcons/Loans and Saving
   rotate: false
   xy: 652, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Magic Negation
+TechIcons/Magic Industrialization
   rotate: false
   xy: 652, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Mana Battery
+TechIcons/Magic Negation
   rotate: false
   xy: 760, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Mana Channeling
+TechIcons/Mana Battery
   rotate: false
   xy: 760, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Mana Sensing
+TechIcons/Mana Channeling
   rotate: false
   xy: 868, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Quintessence Powers
+TechIcons/Mana Sensing
   rotate: false
   xy: 868, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Refining
+TechIcons/Quintessence Powers
   rotate: false
   xy: 976, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Summoning Rites
+TechIcons/Refining
   rotate: false
   xy: 976, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Teleportation
+TechIcons/Summoning Rites
   rotate: false
   xy: 1084, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-TechIcons/Wizardry
+TechIcons/Teleportation
   rotate: false
   xy: 1084, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Wizardry
+  rotate: false
+  xy: 1192, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0

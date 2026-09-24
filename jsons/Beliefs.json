@@ -470,9 +470,4 @@
 			"[+1 Culture, +1 Faith, +1 Gold] from every [Silver]"
 		]
 	},
-	{
-		"name": "Papal Primacy",
-		"type": "Founder",
-		"uniques": ["Unavailable","Resting point for Influence with City-States following this religion [+15]"]
-	},
 ]

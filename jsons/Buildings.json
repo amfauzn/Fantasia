@@ -39,21 +39,25 @@
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Language",
 		"civilopediaText": [
 			{"text": "A structure built to commemorate an important person, deity, or event."}
 		]
 	},
 	{
 		"name": "Manumem",
-		"replaces": "Monument",
 		"uniqueTo": "Polgar Sod'em",
+		"replaces": "Monument",
 		"culture": 2,
 		"science": 1,
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
-		"uniques": ["[+1 Science] <after discovering [Education]>", 
-					"Destroyed when the city is captured"],
+		"uniques": [
+			"[+1 Science] <after discovering [Education]>",
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Language",
 		"civilopediaText": [
 			{"text": "An edifice with scripture, built to commemorate an important event and  accomplishment."}
 		]
@@ -2406,16 +2410,6 @@
         ]
 	},
 	{
-		"name": "Antique Heritage",
-		"culture": 4,
-		"specialistSlots": {"Artist": 2},
-		"requiredBuilding": "Composer Hall",
-		"maintenance": 3,
-		"hurryCostModifier": 0,
-		"uniques": ["Unbuildable","Destroyed when the city is captured","Will not be displayed in Civilopedia"],
-		"requiredTech": "Archaeology"
-	},
-	{
 		"name": "Bondowoso",
 		"culture": 1,
 		"greatPersonPoints": {"Great Engineer": 1},
@@ -2423,12 +2417,5 @@
 		"uniques": ["Unbuildable","Only available <after adopting [Liberty]>", "[-25]% construction time for [All] improvements", "[2] free [Worker] units appear","Will not be displayed in Civilopedia"],
 		"requiredTech": "Masonry",
 		"quote": "'Build me 1000 candis tonight and I will marry you.' - Roro Jonggrang"
-	},
-	{
-		"name": "The Oracle",
-		"isWonder": true,
-		"uniques": ["Unbuildable","Gain a free [Breakthrough Chamber] [in this city]","Will not be displayed in Civilopedia"],
-		"requiredTech": "Foresighting",
-		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"
 	},
 ]

@@ -285,7 +285,7 @@
 			{
 				"name": "Wisdom",
 				"uniques": ["[50]% of excess happiness converted to [Culture]",
-							"[+1 Gold, +1 Happiness] from every [Antique Heritage]"],
+							"[+1 Happiness] from every [Museum]"],
 				"requires": ["Inheritance"],
 				"row": 2,
 				"column": 2
