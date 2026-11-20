@@ -14,7 +14,7 @@
 
 # Credits
 * Mount Snowpeak: Mariana Trench from Inverted World mod
-* reused sprites from base game: Cerro de Potosi, Mount Sinai, Anti-Aircraft Gun, War Elephant, Ballista, GDR, Ship of the Line, Samurai, Hoplite, Chu-Kho-Nu, Turtle Ship, Sea Beggar
+* reused sprites from base game: Great Barrier Reef, Old Faithful, Cerro de Potosi, Mount Sinai, Anti-Aircraft Gun, War Elephant, Ballista, GDR, Ship of the Line, Samurai, Hoplite, Chu-Kho-Nu, Turtle Ship, Sea Beggar
 * Monster mostly made by [rica40](https://github.com/Rica40) - sprites
 * Dragons from LOTR mod
 * Coloring sprites learned from Civ Army Color Style Sheet by [AdityaMH](https://github.com/AdityaMH)
@@ -62,7 +62,6 @@
 ## Building Icons
 * Alchemical Society: [School](https://thenounproject.com/icon/school-4548561/) by ToZIcon
 * Archmage Tribunal: [courthouse](https://thenounproject.com/icon/courthouse-198713/) by parkjisun
-* Arena of Blood: [azadi stadium](https://thenounproject.com/icon/azadi-stadium-4282454/) by Lars Meiertoberens
 * Bakery: [bakery](https://thenounproject.com/icon/bakery-1694741/) by indra anis
 * Burning Mirror: [SS Booster](https://github.com/SpacedOutChicken/DeCiv-Redux/tree/main/Images/BuildingIcons/SS-Booster.png)
 * Butchery Camp: [Quara U'y](https://github.com/Ravignir/RekMOD/tree/main/Images/ImprovementIcons/Quara-U'y.png) by Ravignir

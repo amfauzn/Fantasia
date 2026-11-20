@@ -74,7 +74,7 @@
         "startingCulture": 300,
         "settlerPopulation": 2,
         "settlerBuildings": ["Monument","Granary","Shrine","Walls","Lighthouse","Paper Maker","Colosseum"],
-        "startingObsoleteWonders": ["Bondowoso","The Great Lighthouse","Sukamerta"],
+        "startingObsoleteWonders": ["Gerude","Dwuiltunad","Bubrah Tikus","The Great Lighthouse","Sukamerta","Brahula","Cetho Lighyn"],
         "baseUnitBuyCost": 250,
         "embarkDefense": 10,
         "startPercent": 35,
@@ -97,7 +97,11 @@
 		"startingCulture": 400,
 		"settlerPopulation": 3,
         "settlerBuildings": ["Monument","Granary","Shrine","Walls","Lighthouse","Paper Maker","Colosseum","Barracks","Pyramid","Market","Workshop"],
-        "startingObsoleteWonders": ["Aknamuki","Gerude","Bondowoso","The Great Lighthouse","Sukamerta","Bubrah Tikus"],
+        "startingObsoleteWonders": [
+			"Gerude","Aknamuki","Dwuiltunad","Bubrah Tikus",
+			"The Great Lighthouse","Sukamerta","Dai Palgum","The Great Colosseum","Brahula",
+			"Kalacha","Cetho Lighyn"
+		],
 		"baseUnitBuyCost": 350,
         "embarkDefense": 11,
 		"startPercent": 50,
@@ -120,7 +124,11 @@
         "settlerPopulation": 3,
         "settlerBuildings": ["Monument","Granary","Shrine","Walls","Lighthouse","Paper Maker","Colosseum","Barracks","Pyramid","Market","Workshop",
 			"Public Bath","Bank"],
-	    "startingObsoleteWonders": ["Aknamuki","Gerude","Bondowoso","Brahula","The Great Lighthouse","Sukamerta","Dai Palgum","Bubrah Tikus","Kalacha"],
+        "startingObsoleteWonders": [
+			"Gerude","Aknamuki","Dwuiltunad","Bubrah Tikus",
+			"The Great Lighthouse","Sukamerta","Dai Palgum","The Great Colosseum","Brahula",
+			"Kalacha","Cetho Lighyn","Great Monastery","Ker'sai","Library of Grimoire","Kad'Hall","Rheog Baddan"
+		],
         "baseUnitBuyCost": 500,
         "embarkDefense": 15,
         "startPercent": 65,
@@ -148,8 +156,12 @@
         "settlerPopulation": 5,
         "settlerBuildings": ["Monument","Granary","Shrine","Walls","Lighthouse","Paper Maker","Colosseum","Barracks","Pyramid","Market","Workshop",
 			"Castle","Public Bath","Composer Hall","Bank"],
-	    "startingObsoleteWonders": ["Aknamuki","Gerude","Bondowoso","Brahula","The Great Lighthouse","Sukamerta","Dai Palgum","Bubrah Tikus",
-			"Kalacha","Cetho Lighyn","Ker'sai","Kad'Hall","Rheog Baddan","Harbor"],
+        "startingObsoleteWonders": [
+			"Gerude","Aknamuki","Dwuiltunad","Bubrah Tikus",
+			"The Great Lighthouse","Sukamerta","Dai Palgum","The Great Colosseum","Brahula",
+			"Kalacha","Cetho Lighyn","Great Monastery","Ker'sai","Library of Grimoire","Kad'Hall","Rheog Baddan",
+			"Golden Anchor Statue","Ulick Myne","Mountain of Loneliness","Jagaddhita","The Great Watchtower","Forbidden Palace","Bathan Gate"
+		],
         "baseUnitBuyCost": 700,
         "embarkDefense": 20,
         "startPercent": 80,
@@ -173,8 +185,12 @@
         "settlerPopulation": 5,
         "settlerBuildings": ["Monument","Granary","Shrine","Walls","Lighthouse","Paper Maker","Colosseum","Barracks","Pyramid","Market","Workshop",
 			"Castle","Public Bath","Composer Hall","Bank"],
-	    "startingObsoleteWonders": ["Aknamuki","Gerude","Bondowoso","Brahula","The Great Lighthouse","Sukamerta","Dai Palgum","Bubrah Tikus",
-			"Kalacha","Cetho Lighyn","Ker'sai","Kad'Hall","Rheog Baddan","Harbor"],
+        "startingObsoleteWonders": [
+			"Gerude","Aknamuki","Dwuiltunad","Bubrah Tikus",
+			"The Great Lighthouse","Sukamerta","Dai Palgum","The Great Colosseum","Brahula",
+			"Kalacha","Cetho Lighyn","Great Monastery","Ker'sai","Library of Grimoire","Kad'Hall","Rheog Baddan",
+			"Golden Anchor Statue","Ulick Myne","Mountain of Loneliness","Jagaddhita","The Great Watchtower","Forbidden Palace","Bathan Gate"
+		],
         "baseUnitBuyCost": 700,
         "embarkDefense": 20,
         "startPercent": 80,
@@ -198,8 +214,12 @@
         "settlerPopulation": 5,
         "settlerBuildings": ["Monument","Granary","Shrine","Walls","Lighthouse","Paper Maker","Colosseum","Barracks","Pyramid","Market","Workshop",
 			"Castle","Public Bath","Composer Hall","Bank"],
-	    "startingObsoleteWonders": ["Aknamuki","Gerude","Bondowoso","Brahula","The Great Lighthouse","Sukamerta","Dai Palgum","Bubrah Tikus",
-			"Kalacha","Cetho Lighyn","Ker'sai","Kad'Hall","Rheog Baddan","Harbor","Ulick Myne","Mountain of Loneliness"],
+        "startingObsoleteWonders": [
+			"Gerude","Aknamuki","Dwuiltunad","Bubrah Tikus",
+			"The Great Lighthouse","Sukamerta","Dai Palgum","The Great Colosseum","Brahula",
+			"Kalacha","Cetho Lighyn","Great Monastery","Ker'sai","Library of Grimoire","Kad'Hall","Rheog Baddan",
+			"Golden Anchor Statue","Ulick Myne","Mountain of Loneliness","Jagaddhita","The Great Watchtower","Forbidden Palace","Bathan Gate"
+		],
         "baseUnitBuyCost": 900,
         "embarkDefense": 25,
         "startPercent": 85,

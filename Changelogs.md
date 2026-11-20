@@ -1,5 +1,14 @@
 # v3.0.0
 
+## v3.3 (11.11.2026)
+- Fix Indirect Fire
+- Fix Great Admiral & Water Hero
+- Change Tradition and Consolidation Policies
+- Slightly cleaning up technology
+- Add personalities by Doomstar
+- Buff Cavegoa slightly
+- Change Pantheon costs
+
 ## v3.2 (18.09.2026)
 - Bug fixes and fix deprecated uniques
 - Balancing by Bamboolord, EmperorPinguin, AlatarTheYoung, AceHank

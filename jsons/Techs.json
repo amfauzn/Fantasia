@@ -12,28 +12,14 @@
 				"uniques": ["Starting tech"]
 			},
 			{
-				"name": "Earth Goddess",
-				"row": 10,
-				"uniques": ["[-100]% weight to this choice for AI decisions"]
+				"name": "Agriculture",
+				"row": 6,
+				"uniques": ["Starting tech"]
 			}
 		]
 	},
 	{
 		"columnNumber": 1,
-		"era": "Archaic age",
-		"techCost": 20,
-		"buildingCost": 40,
-		"wonderCost": 100,
-		"techs": [
-			{
-				"name": "Agriculture",
-				"row": 6,
-				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster"
-			}
-		]
-	},
-	{
-		"columnNumber": 2,
 		"era": "Archaic age",
 		"techCost": 35,
 		"buildingCost": 60,
@@ -67,14 +53,14 @@
 			},
 			{
 				"name": "Mining",
-				"row": 10,
+				"row": 9,
                 "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'The meek shall inherit the Earth, but not its mineral rights.' - J. Paul Getty"
 			}
 		]
 	},
 	{
-		"columnNumber": 3,
+		"columnNumber": 2,
 		"era": "Classical age",
 		"techCost": 55,
 		"buildingCost": 75,
@@ -98,11 +84,18 @@
 				"row": 8,
 				"prerequisites": ["Mining"],
 				"quote": "'How happy are those whose walls already rise!' - Virgil"
+			},
+			{
+				"name": "Bronze Working",
+				"cost": 90,
+				"row": 10,
+				"prerequisites": ["Mining"],
+				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
 			}
 		]
 	},
 	{
-		"columnNumber": 4,
+		"columnNumber": 3,
 		"era": "Classical age",
 		"techCost": 105,
 		"buildingCost": 100,
@@ -147,18 +140,11 @@
 				"prerequisites": ["Masonry"],
                 "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
-			},
-			{
-				"name": "Bronze Working",
-				"cost": 95,
-				"row": 10,
-				"prerequisites": ["Mining"],
-				"quote": "'Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold.' - Homer"
 			}
 		]
 	},
 	{
-		"columnNumber": 5,
+		"columnNumber": 4,
 		"era": "Heroic age",
 		"techCost": 185,
 		"buildingCost": 100,
@@ -197,7 +183,7 @@
 		]
 	},
 	{
-		"columnNumber": 6,
+		"columnNumber": 5,
 		"era": "Heroic age",
 		"techCost": 300,
 		"buildingCost": 140,
@@ -261,7 +247,7 @@
 		]
 	},
 	{
-		"columnNumber": 7,
+		"columnNumber": 6,
 		"era": "Feudal age",
 		"techCost": 550,
 		"buildingCost": 185,
@@ -326,7 +312,7 @@
 		]
 	},
 	{
-		"columnNumber": 8,
+		"columnNumber": 7,
 		"era": "Feudal age",
 		"techCost": 850,
 		"buildingCost": 235,
@@ -373,7 +359,7 @@
 		]
 	},
 	{
-		"columnNumber": 9,
+		"columnNumber": 8,
 		"era": "Renaissance age",
 		"techCost": 1300,
 		"buildingCost": 280,
@@ -419,7 +405,7 @@
 		]
 	},
 	{
-		"columnNumber": 10,
+		"columnNumber": 9,
 		"era": "Renaissance age",
 		"techCost": 1850,
 		"buildingCost": 320,
@@ -454,7 +440,7 @@
 		]
 	},
 	{
-		"columnNumber": 11,
+		"columnNumber": 10,
 		"era": "Industrial age",
 		"techCost": 3100,
 		"buildingCost": 400,
@@ -494,7 +480,7 @@
 		]
 	},
 	{
-		"columnNumber": 12,
+		"columnNumber": 11,
 		"era": "Industrial age",
 		"techCost": 4100,
 		"buildingCost": 500,
@@ -536,7 +522,7 @@
 		]
 	},
 	{
-		"columnNumber": 13,
+		"columnNumber": 12,
 		"era": "Prosperity age",
 		"techCost": 6400,
 		"buildingCost": 500,
@@ -570,7 +556,7 @@
 		]
 	},
 	{
-		"columnNumber": 14,
+		"columnNumber": 13,
 		"era": "Prosperity age",
 		"techCost": 7700,
 		"buildingCost": 500,
@@ -604,7 +590,7 @@
 		]
 	},
 	{
-		"columnNumber": 15,
+		"columnNumber": 14,
 		"era": "Modern age",
 		"techCost": 8800,
 		"buildingCost": 500,
@@ -643,7 +629,7 @@
 		]
 	},
 	{
-		"columnNumber": 16,
+		"columnNumber": 15,
 		"era": "Modern age",
 		"techCost": 9500,
 		"buildingCost": 500,
@@ -672,7 +658,7 @@
 		]
 	}
 	{
-		"columnNumber": 17,
+		"columnNumber": 16,
 		"era": "Future age",
 		"techCost": 11000,
 		"buildingCost": 700,

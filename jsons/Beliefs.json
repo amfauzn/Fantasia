@@ -457,17 +457,5 @@
 		"name": "Reliquary",
 		"type": "Enhancer",
 		"uniques": ["Gain [50] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>"]
-	},
-	
-	
-	// Will be removed
-	{
-		"name": "Money's Talking",
-		"type": "Pantheon",
-		"uniques": [
-			"Unavailable",
-			"[+1 Culture, +1 Faith] from every [Copper]","[+1 Culture, +1 Faith, +1 Gold] from every [Gold Ore]",
-			"[+1 Culture, +1 Faith, +1 Gold] from every [Silver]"
-		]
-	},
+	}
 ]

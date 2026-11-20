@@ -1,24 +1,73 @@
 
 PolicyIcons.png
-size: 1024, 64
+size: 2048, 64
 format: RGBA8888
 filter: MipMapLinearLinear, Linear
 repeat: none
 PolicyBranchIcons/Circle
   rotate: false
-  xy: 4, 4
+  xy: 178, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Circle
   rotate: false
-  xy: 4, 4
+  xy: 178, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Consolidation
+  rotate: false
+  xy: 236, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyBranchIcons/Legacy
+  rotate: false
+  xy: 642, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Quixotic A
+  rotate: false
+  xy: 816, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyBranchIcons/Quixotic B
+  rotate: false
+  xy: 816, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Adaptation
+  rotate: false
+  xy: 4, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Burghers
+  rotate: false
+  xy: 62, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Centralization
+  rotate: false
+  xy: 120, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Crown Guards
   rotate: false
   xy: 294, 4
   size: 50, 50
@@ -27,63 +76,84 @@ PolicyBranchIcons/Legacy
   index: -1
 PolicyIcons/Cultural Exchange
   rotate: false
-  xy: 62, 4
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-PolicyIcons/Entrepreneurship
-  rotate: false
-  xy: 120, 4
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-PolicyIcons/Flourishing of the Arts
-  rotate: false
-  xy: 178, 4
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-PolicyIcons/Inheritance
-  rotate: false
-  xy: 236, 4
-  size: 50, 50
-  orig: 50, 50
-  offset: 0, 0
-  index: -1
-PolicyIcons/Mandate of Heaven
-  rotate: false
   xy: 352, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Postulant
+PolicyIcons/Cultural Icons
   rotate: false
   xy: 410, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Religious Agency
+PolicyIcons/Entrepreneurship
   rotate: false
   xy: 468, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Spiritual Tolerance
+PolicyIcons/Flourishing of the Arts
   rotate: false
   xy: 526, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Wisdom
+PolicyIcons/Inheritance
   rotate: false
   xy: 584, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Mandate of Heaven
+  rotate: false
+  xy: 700, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Postulant
+  rotate: false
+  xy: 758, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Religious Agency
+  rotate: false
+  xy: 874, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Representation
+  rotate: false
+  xy: 932, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Spiritual Tolerance
+  rotate: false
+  xy: 990, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/State Workforce
+  rotate: false
+  xy: 1048, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Wisdom
+  rotate: false
+  xy: 1106, 4
   size: 50, 50
   orig: 50, 50
   offset: 0, 0

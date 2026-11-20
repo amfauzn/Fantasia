@@ -480,6 +480,13 @@ ResourceIcons/Obsidian
   orig: 100, 100
   offset: 0, 0
   index: -1
+ResourceIcons/Orichalcum Ingot
+  rotate: false
+  xy: 976, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 ResourceIcons/Perfume
   rotate: false
   xy: 1192, 220

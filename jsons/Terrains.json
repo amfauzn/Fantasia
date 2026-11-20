@@ -46,9 +46,8 @@
 			"Considered [Food] when determining start locations <in [Hybrid] Regions>",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
 			
-			"[+1 Food] <with [1] to [6] neighboring [Kalimutu] tiles> <hidden from users>",
 			"[+1 Gold] <with [1] to [6] neighboring [Zamrud Khatulistiwa] tiles> <hidden from users>",
-			"[+1 Production] <with [1] to [6] neighboring [Rock of Levitation] tiles> <hidden from users>"
+			"[+1 Production] <with [1] to [6] neighboring [Levitating Rocks] tiles> <hidden from users>"
 		]
 	},
 	{
@@ -82,9 +81,8 @@
 			"Considered [Food] when determining start locations <in [Hybrid] Regions>",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
 			
-			"[+1 Food] <with [1] to [6] neighboring [Kalimutu] tiles> <hidden from users>",
 			"[+1 Gold] <with [1] to [6] neighboring [Zamrud Khatulistiwa] tiles> <hidden from users>",
-			"[+1 Production] <with [1] to [6] neighboring [Rock of Levitation] tiles> <hidden from users>"
+			"[+1 Production] <with [1] to [6] neighboring [Levitating Rocks] tiles> <hidden from users>"
 		]
 	},
 	{
@@ -104,9 +102,8 @@
 			"Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
 			"Every [13] tiles with this terrain will receive a major deposit of a strategic resource.",
 			
-			"[+1 Food] <with [1] to [6] neighboring [Kalimutu] tiles> <hidden from users>",
 			"[+1 Gold] <with [1] to [6] neighboring [Zamrud Khatulistiwa] tiles> <hidden from users>",
-			"[+1 Production] <with [1] to [6] neighboring [Rock of Levitation] tiles> <hidden from users>"
+			"[+1 Production] <with [1] to [6] neighboring [Levitating Rocks] tiles> <hidden from users>"
 		]
 	},
 	{
@@ -127,9 +124,8 @@
 			"Considered [Desirable] when determining start locations <in [Tundra] Regions>",
 			"Every [15] tiles with this terrain will receive a major deposit of a strategic resource.",
 			
-			"[+1 Food] <with [1] to [6] neighboring [Kalimutu] tiles> <hidden from users>",
 			"[+1 Gold] <with [1] to [6] neighboring [Zamrud Khatulistiwa] tiles> <hidden from users>",
-			"[+1 Production] <with [1] to [6] neighboring [Rock of Levitation] tiles> <hidden from users>"
+			"[+1 Production] <with [1] to [6] neighboring [Levitating Rocks] tiles> <hidden from users>"
 		]
 	},
 	{
@@ -150,9 +146,8 @@
 			"Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
 			"Never receives any resources <in [Hill] tiles>",
 			
-			"[+1 Food] <with [1] to [6] neighboring [Kalimutu] tiles> <hidden from users>",
 			"[+1 Gold] <with [1] to [6] neighboring [Zamrud Khatulistiwa] tiles> <hidden from users>",
-			"[+1 Production] <with [1] to [6] neighboring [Rock of Levitation] tiles> <hidden from users>"
+			"[+1 Production] <with [1] to [6] neighboring [Levitating Rocks] tiles> <hidden from users>"
 		]
 	},
 	{
@@ -224,9 +219,8 @@
 			"Considered [Production] when determining start locations",
 			"Every [22] tiles with this terrain will receive a major deposit of a strategic resource.",
 			
-			"[+1 Food] <with [1] to [6] neighboring [Kalimutu] tiles> <hidden from users>",
 			"[+1 Gold] <with [1] to [6] neighboring [Zamrud Khatulistiwa] tiles> <hidden from users>",
-			"[+1 Production] <with [1] to [6] neighboring [Rock of Levitation] tiles> <hidden from users>"
+			"[+1 Production] <with [1] to [6] neighboring [Levitating Rocks] tiles> <hidden from users>"
 		]
 	},
 	{
@@ -255,9 +249,8 @@
 			"Considered [Food] when determining start locations <in [Tundra] Regions>",
 			"Every [39] tiles with this terrain will receive a major deposit of a strategic resource.",
 			
-			"[+1 Food] <with [1] to [6] neighboring [Kalimutu] tiles> <hidden from users>",
 			"[+1 Gold] <with [1] to [6] neighboring [Zamrud Khatulistiwa] tiles> <hidden from users>",
-			"[+1 Production] <with [1] to [6] neighboring [Rock of Levitation] tiles> <hidden from users>"
+			"[+1 Production] <with [1] to [6] neighboring [Levitating Rocks] tiles> <hidden from users>"
 		],
 		"civilopediaText": [
 			{
@@ -290,9 +283,8 @@
 			"Considered [Desirable] when determining start locations <in all except [Grassland] Regions>",
 			"Every [33] tiles with this terrain will receive a major deposit of a strategic resource.",
 			
-			"[+1 Food] <with [1] to [6] neighboring [Kalimutu] tiles> <hidden from users>",
 			"[+1 Gold] <with [1] to [6] neighboring [Zamrud Khatulistiwa] tiles> <hidden from users>",
-			"[+1 Production] <with [1] to [6] neighboring [Rock of Levitation] tiles> <hidden from users>"
+			"[+1 Production] <with [1] to [6] neighboring [Levitating Rocks] tiles> <hidden from users>"
 		],
 		"civilopediaText": [
 			{
@@ -434,6 +426,46 @@
 
 	// Natural Wonders
 	{
+		"name": "Towering Reef",
+		"type": "NaturalWonder",
+		"food": 1,
+		"gold": 2,
+		"science": 2,
+		"movementCost": 3,
+		"overrideStats": false,
+		"occursOn": [
+			"Coast","Ocean"
+		],
+		"turnsInto": "Coast",
+		"impassable": false,
+		"unbuildable": true,
+		"uniques": [
+			"Must be adjacent to [1] to [6] [Coast] tiles",
+			"Must be adjacent to [6] [Water] tiles",
+			"Occurs in groups of [2] to [2] tiles"
+		],
+		"weight": 10
+	},
+	{
+		"name": "Phantom Island",
+		"type": "NaturalWonder",
+		"food": 2,
+		"gold": 4,
+		"overrideStats": true,
+		"occursOn": [
+			"Coast","Ocean"
+		],
+		"turnsInto": "Ocean",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": [
+			"Must be adjacent to [1] to [6] [Coast] tiles",
+			"Must be adjacent to [0] to [0] [Land] tiles",
+			"Comment [Provides a copy of each resource generated on [Coast]]",
+		],
+		"weight": 7
+	},
+	{
 		"name": "Fountain of Youth",
 		"type": "NaturalWonder",
 		"happiness": 10,
@@ -454,7 +486,7 @@
 	{
 		"name": "Overgrowth Rift",
 		"type": "NaturalWonder",
-		"faith": 3,
+		"faith": 4,
 		"food": -1,
 		"production": 1,
 		"science": 2,
@@ -475,12 +507,31 @@
 		"weight": 10
 	},
 	{
+		"name": "Kelimutu",
+		"type": "NaturalWonder",
+		"food": 6,
+		"overrideStats": true,
+		"occursOn": [
+			"Grassland","Plains","Mountain"
+		],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": [
+			"Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [3] to [6] [Grassland] tiles"
+		],
+		"weight": 7
+	},
+	{
 		"name": "Chocolate Hills",
 		"type": "NaturalWonder",
-		"culture": 3,
+		"culture": 5,
 		"movementCost": 2,
 		"overrideStats": true,
-		"occursOn": ["Grassland","Plains"],
+		"occursOn": [
+			"Grassland","Plains"
+		],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
@@ -493,12 +544,36 @@
 		"weight": 10
 	},
 	{
+		"name": "Levitating Rocks",
+		"type": "NaturalWonder",
+		"production": 4,
+		"movementCost": 3,
+		"defenceBonus": 0.25,
+		"overrideStats": false,
+		"occursOn": [
+			"Plains","Desert"
+		],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": [
+			"Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] [Grassland] tiles",
+			"Must be adjacent to [0] [Tundra] tiles",
+			"Must be adjacent to [2] to [6] [Desert] tiles",
+			"Comment [Neighboring tiles provides +1 [Production]]"
+		],
+		"weight": 7
+	},
+	{
 		"name": "Zamrud Khatulistiwa",
 		"type": "NaturalWonder",
 		"gold": 2,
 		"happiness": 2,
 		"overrideStats": false,
-		"occursOn": ["Grassland","Desert"],
+		"occursOn": [
+			"Grassland","Desert"
+		],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
@@ -518,7 +593,9 @@
 		"movementCost": 1,
 		"defenceBonus": 0.1,
 		"overrideStats": true,
-		"occursOn": ["Grassland","Plains","Desert","Tundra"],
+		"occursOn": [
+			"Grassland","Plains","Desert","Tundra"
+		],
 		"turnsInto": "Lakes",
 		"unbuildable": true,
 		"uniques": [
@@ -528,25 +605,6 @@
 			"Must be adjacent to [0] [Snow] tiles"
 		],
 		"weight": 10
-	},
-	{
-		"name": "Kalimutu",
-		"type": "NaturalWonder",
-		"food": 1,
-		"science": 2,
-		"movementCost": 2,
-		"defenceBonus": 0.25,
-		"overrideStats": true,
-		"occursOn": ["Grassland","Lakes"],
-		"turnsInto": "Lakes",
-		"impassable": false,
-		"unbuildable": true,
-		"uniques": [
-			"Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [3] to [6] [Grassland] tiles",
-			"Comment [Neighboring tiles provides +1 [Food]]"
-		],
-		"weight": 6
 	},
 	{
 		"name": "Arkatore",
@@ -561,24 +619,6 @@
 		"uniques": [
 			"Must be adjacent to [1] to [6] [Hill] tiles",
 			"Must be adjacent to [0] [Flood plains] tiles"
-		],
-		"weight": 7
-	},
-	{
-		"name": "Rock of Levitation",
-		"type": "NaturalWonder",
-		"production": 2,
-		"overrideStats": false,
-		"occursOn": ["Plains","Desert"],
-		"turnsInto": "Desert",
-		"impassable": true,
-		"unbuildable": true,
-		"uniques": [
-			"Must be adjacent to [0] [Coast] tiles",
-			"Must be adjacent to [0] [Grassland] tiles",
-			"Must be adjacent to [0] [Tundra] tiles",
-			"Must be adjacent to [2] to [6] [Desert] tiles",
-			"Comment [Neighboring tiles provides +1 [Production]]"
 		],
 		"weight": 7
 	},
@@ -601,12 +641,15 @@
 		"weight": 8
 	},
 	{
-		"name": "Old Faithful",
+		"name": "Eilifur Gjosa", // Eilifur Gjósa
 		"type": "NaturalWonder",
 		"happiness": 4,
 		"science": 2,
+		"movementCost": 2,
 		"overrideStats": false,
-		"occursOn": ["Tundra","Mountain"],
+		"occursOn": [
+			"Tundra","Mountain"
+		],
 		"turnsInto": "Mountain",
 		"impassable": true,
 		"unbuildable": true,
@@ -638,70 +681,4 @@
 		],
 		"weight": 10
 	},
-	{
-		"name": "Great Barrier Reef",
-		"type": "NaturalWonder",
-		"food": 2,
-		"gold": 3,
-		"science": 2,
-		"movementCost": 3,
-		"overrideStats": true,
-		"occursOn": ["Coast","Ocean"],
-		"turnsInto": "Coast",
-		"impassable": false,
-		"unbuildable": true,
-		"uniques": [
-			"Must be adjacent to [1] to [6] [Coast] tiles",
-			"Must be adjacent to [6] [Water] tiles",
-			"Occurs in groups of [2] to [2] tiles"
-		],
-		"weight": 10
-	},
-	{
-		"name": "Phantom Island",
-		"type": "NaturalWonder",
-		"food": 2,
-		"gold": 4,
-		"overrideStats": true,
-		"occursOn": ["Coast","Ocean"],
-		"turnsInto": "Ocean",
-		"impassable": true,
-		"unbuildable": true,
-		"uniques": [
-			"Must be adjacent to [1] to [6] [Coast] tiles",
-			"Must be adjacent to [0] to [0] [Land] tiles",
-			"Comment [Provides a copy of each resource generated on [Coast]]",
-		],
-		"weight": 7
-	},
-	
-	// Will be removed
-	{
-		"name": "Suction Mud",
-		"type": "NaturalWonder",
-		"science": 2,
-		"faith": 6,
-		"movementCost": 3,
-		"overrideStats": true,
-		"defenceBonus": -0.5,
-		"occursOn": ["Plains","Desert","Flood plains"],
-		"uniques": ["Must be adjacent to [0] [Coast] tiles",
-					"Must be adjacent to [1] to [6] [Desert] tiles",
-					"Units ending their turn on this terrain take [100] damage",],
-		"turnsInto": "Desert",
-		"impassable": false,
-		"unbuildable": true,
-		"weight": 1
-	},
-	{
-		"name": "Cerro de Potosi",
-		"type": "NaturalWonder",
-		"gold": 10,
-		"occursOn": ["Plains","Mountain"],
-		"uniques": ["Must be adjacent to [0] [Coast] tiles"],
-		"turnsInto": "Mountain",
-		"impassable": true,
-		"unbuildable": true,
-		"weight": 1
-	}
 ]

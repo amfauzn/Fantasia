@@ -59,7 +59,7 @@
 		],
 		"requiredTech": "Language",
 		"civilopediaText": [
-			{"text": "An edifice with scripture, built to commemorate an important event and  accomplishment."}
+			{"text": "An edifice with scripture, built to commemorate an important event and grand accomplishment."}
 		]
 	},
 	{
@@ -289,19 +289,6 @@
 		"requiredTech": "Construction",
 		"civilopediaText": [
 			{"text": "A place where entertainments were held for public."}
-		]
-	},
-	{
-		"name": "Arena of Blood",
-		"replaces": "Colosseum",
-		"uniqueTo": "Ilythiir",
-		"maintenance": 0,
-		"happiness": 2,
-		"hurryCostModifier": 25,
-		"uniques": ["[+2 Gold, +1 Happiness] [in this city] <when at war>"],
-		"requiredTech": "Construction",
-		"civilopediaText": [
-			{"text": "An arena where qualification of Tharsara competition were held, sacred event for Drow to prove their self."}
 		]
 	},
 	{
@@ -1478,7 +1465,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"uniques": [
-			"Only available <after adopting [Liberty]>",
+			"Only available <after adopting [Consolidation]>",
 			"Can build [all] improvements at a [+25]% rate",
 			"[2] free [Worker] units appear"
 		],
@@ -1722,7 +1709,7 @@
 		"quote": "'Most of us can, as we choose, make of this world either a palace or a prison' - John Lubbock"
 	},
 	{
-		"name": "Bath Gate",
+		"name": "Bathan Gate",
 		"isWonder": true,
 		"culture": 3,
 		"greatPersonPoints": {"Great Engineer": 2},
@@ -2178,7 +2165,7 @@
 					"Unbuildable", "Unsellable", 
 					"Destroyed when the city is captured", 
 					"Will not be displayed in Civilopedia"],
-		"requiredTech": "Earth Goddess"
+		"requiredTech": "Language"
 	},
 	{
 		"name": "Kampong Aer",
@@ -2187,7 +2174,7 @@
 		"cost": 1,
 		"requiredNearbyImprovedResources": ["Fish","Crab","Pearls","Whales"],
 		"uniques": ["Will not be displayed in Civilopedia"],
-		"requiredTech": "Earth Goddess"
+		"requiredTech": "Language"
 	},
 	{
 		"name": "Burial Tomb",
@@ -2390,32 +2377,5 @@
 		"name": "~limiter",
 		"uniques": ["Unbuildable", "Unsellable", 
 					"Will not be displayed in Civilopedia"],
-	},
-	
-	// Will be removed
-	{
-		"name": "Portal",
-		"uniques": ["Unbuildable", "Unsellable", "Never destroyed when the city is captured","Will not be displayed in Civilopedia"],
-		"replacementTextForUniques": "Unbuildable",
-	},
-	{
-		"name": "Gaius Portal",
-		"cost": 5,
-		"uniques": [
-			"Unbuildable","Gain a free [Portal] [in this city]", "Free [Gaius Duilius] appears", 
-			"Only available <in cities with a [Palace]> <in cities without a [Portal]> <starting from the [Heroic age]>", 
-			"Must be next to [Coast]","Will not be displayed in Civilopedia"],
-		"civilopediaText": [
-			{"text":"This building only available in Capital."}
-        ]
-	},
-	{
-		"name": "Bondowoso",
-		"culture": 1,
-		"greatPersonPoints": {"Great Engineer": 1},
-		"isWonder": true,
-		"uniques": ["Unbuildable","Only available <after adopting [Liberty]>", "[-25]% construction time for [All] improvements", "[2] free [Worker] units appear","Will not be displayed in Civilopedia"],
-		"requiredTech": "Masonry",
-		"quote": "'Build me 1000 candis tonight and I will marry you.' - Roro Jonggrang"
-	},
+	}
 ]

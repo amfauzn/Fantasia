@@ -1,19 +1,14 @@
 [
-    {
-        "name": "Scientific",
-        "victoryScreenHeader": "Complete all the elementalist\nto win!"
-        "milestones": [
-            "Build [Elementalist Program]", "Add all [spaceship parts] in capital"
-        ],
-        "requiredSpaceshipParts": [
-            "Earth Element", "Fire Element", "Wood Element", "Metal Element", "Water Element"
-        ],
-        "victoryString": "You have achieved victory through mastery of Science! You have conquered the mysteries of nature and led your people on a voyage to a brave new world! Your triumph will be remembered as long as the stars burn in the night sky!",
-        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
-    },
+	{
+		"name": "Boss Hunting",
+		"victoryScreenHeader": "Kill 10 Boss Monster to win!",
+		"milestones": ["Have at least [10] [Boss Monster Core]"],
+		"victoryString": "You have achieved victory through monster hunting! The mightiest monsters have have been slain, their remains claimed, and your hunters' names shall be remembered for generations!",
+		"defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+	},
 	{
 		"name": "Cultural",
-		"victoryScreenHeader": "Complete 6 policy branches and \nbuild the Utopia Project to win!",
+		"victoryScreenHeader": "Complete 6 policy branches and build the Utopia Project to win!",
 		"milestones": [
 			"Complete [6] Policy branches",
 			"Build [Utopia Project]"
@@ -23,7 +18,7 @@
 	},
 	{
 		"name": "Diplomatic",
-		"victoryScreenHeader": "Build the Aschar Grove and \nbe voted world leader to win!",
+		"victoryScreenHeader": "Build the Aschar Grove and be voted world leader to win!",
 		"milestones": [
 			"Anyone should build [Aschar Grove]",
 			"Win diplomatic vote"
@@ -31,25 +26,30 @@
 		"victoryString": "You have triumphed over your foes through the art of diplomacy! Your cunning and wisdom have earned you great friends - and divided and sown confusion among your enemies! Forever will you be remembered as the leader who brought peace to this weary world!",
 		"defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
 	},
-    {
-        "name": "Capital Domination",
-        "victoryScreenHeader": "Capture all enemies' capital\nto win!",
-        "milestones": ["Capture all capitals"],
-        "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have lost control of their sovereignty, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
-        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
-    },
 	{
-        "name": "Domination",
-        "victoryScreenHeader": "Destroy all enemies\nto win!",
-        "milestones": ["Destroy all players"],
-        "victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
-        "defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
-    },
+		"name": "Domination",
+		"victoryScreenHeader": "Capture all enemy Capitals to win!",
+		"milestones": ["Capture all capitals"],
+		"victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
+		"defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+	},
 	{
-		"name": "Boss Hunting",
-		"victoryScreenHeader": "Kill 10 Boss Monster to win!\nBoss Monster:\n[Gargantuan Slime]\n[Arachne]\n[Minotaur Warlord]\n[Unicorn]\n[Titan]",
-		"milestones": ["Have at least [10] [Boss Monster Core]"],
-		"victoryString": "You have achieved victory through monster hunting! The mightiest monsters have have been slain, their remains claimed, and your hunters' names shall be remembered for generations!",
+		"name": "Total Conquest",
+		"victoryScreenHeader": "Destroy all enemies to win!",
+		"milestones": ["Destroy all players"],
+		"victoryString": "The world has been convulsed by war. Many great and powerful civilizations have fallen, but you have survived - and emerged victorious! The world will long remember your glorious triumph!",
+		"defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
+	},
+	{
+		"name": "Scientific",
+		"victoryScreenHeader": "Complete all the elementalist\nto win!"
+		"milestones": [
+			"Build [Elementalist Program]", "Add all [spaceship parts] in capital"
+		],
+		"requiredSpaceshipParts": [
+			"Earth Element", "Fire Element", "Wood Element", "Metal Element", "Water Element"
+		],
+		"victoryString": "You have achieved victory through mastery of Science! You have conquered the mysteries of nature and led your people on a voyage to a brave new world! Your triumph will be remembered as long as the stars burn in the night sky!",
 		"defeatString": "You have been defeated. Your civilization has been overwhelmed by its many foes. But your people do not despair, for they know that one day you shall return - and lead them forward to victory!"
 	},
 	{

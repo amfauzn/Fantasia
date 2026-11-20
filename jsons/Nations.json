@@ -17,6 +17,7 @@
 		"startBias": ["Fresh Water"],
 		"preferredVictoryType": "Cultural",
 		"favoredReligion": "Spontanism",
+		"personality": "Erish",
 		"style": "Human",
 		
 		"startIntroPart1": "'Nkuhanea is the earliest known civilization in the historical region of Aaru on the southern Pangaea, emerging during the Karamithic, the time before the Gods left Earth. It is one of the cradles of civilization in the world, along with ancient Lemuria, Shangri-La, Polgar Sod'em, Artiza, Chorislavia, and ancient Eldariya. Living along the valleys of the Madris and Timika rivers, Nkuhanean farmers grew an abundance of grain and other crops, the surplus from which enabled them to form urban settlements. Finding the magic stone Tridstone, Nkuhanea became a prosperous civilization ever.",
@@ -37,7 +38,8 @@
 		"uniqueName": "Valley of Rejuvenation",
 		"uniqueText": "+1 Population to all cities settled on Fresh Water \nAll Land-Military units gain the Amphibious promotion \n-33% tile improvement construction time in River tiles",
 		"uniques": ["[-33]% construction time for [All] improvements <in [River] tiles>",
-					"[{Military} {Land}] units gain the [Amphibious] promotion"], 
+					"[{Military} {Land}] units gain the [Amphibious] promotion"
+					],
 		"cities": ["Akhetutan","Sabata","Guzana","Noenna","Chu'ata","Vrybergam","Jundiaí","Pliska","Jayapura","Beikthano",
 			"Kyaukse","Veptis Parla","Hieraconpolia","Binnaka","Nias","Quirigua","Q'umarkaj","Mamuju","Kaur","Tsymbalka"],
 		"spyNames": ["Heba","Sukaesih","Ma'at","Felish","Naru","Bahe","Atan","Ndruru","Refaat","Neuth"]
@@ -45,7 +47,6 @@
 			{"text": "'Nkuhanea is the earliest known civilization in the historical region of Aaru on the southern Pangaea, emerging during the Karamithic, the time before the Gods left Earth. It is one of the cradles of civilization in the world, along with ancient Lemuria, Shangri-La, Polgar Sod'em, Artiza, Chorislavia, and ancient Eldariya. Living along the valleys of the Madris and Timika rivers, Nkuhanean farmers grew an abundance of grain and other crops, the surplus from which enabled them to form urban settlements."},
 			{"text": "During Queen Erish's reign, the miners of Nkuhanea discovered an unknown stone, which became known as the Tridstone. The Tridstone shone of its own inner light, and appeared a little globe of pallid light in darkness. This stone was sent to Polgar Sod'em to be made into a necklace for Queen Erish. It is a stone that is dangerous yet useful for the chosen ones because it can affect the user's soul. Queen Erish, almost every time she sleeps, dreams of strange signs. Some of these signs help her bring prosperity to the kingdom after being interpreted."},
 			{"separator": true},
-			{"text": "Tips to play:"},
 			{"text": "Settle beside Hill, and build Lodepit around your cities. Or ... Settle on River."},
 			{"text": "Any Land on River beside Hill is your favorit spot to settle."}
 		]
@@ -58,6 +59,7 @@
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Cultural",
 		"favoredReligion": "Relativity",
+		"personality": "Hajruddin",
 		"style": "Dwarves",
 		
 		"startIntroPart1": "Polgar Sod'em is a historical kingdom in the southern continent of Pangaea. Together with 'Nkuhanea, Eldariya, and Chorislavia, it was one of four early civilizations of Pangaea, and of the four, the only dwarfs civilization. Its sites spanned an area from much of Somarum Hill, to north Binnaka, and southeastern Avalonia. Its culture played a crucial role during the Eldariya dynasty that annexed Polgar Sod'em, when the Sodite language remained and the rest of its buildings became the inspiration for Eldariya's greatness. The concepts of Construct and Golem were first coined among the Sodites.",
@@ -89,7 +91,6 @@
 			{"text": "After Queen Erish found the Tridstone, she requested King Hajruddin to make her a necklace from the stone. Knowing this, Dathun sent his envoy to persuade Hajruddin to conspire and exchange the Tridstone for another stone. Hajruddin rejected the greed shown by the envoy. He was sure that Eldariya would not be satisfied with just stealing the Tridstone, they would definitely take over the Nkuhanean homeland, moreover the Eldars was repeatedly attempted to annex Polgar Sod'em."},
 			{"separator": true},
 			{"text": "Polgar Sod'em is a dwarfs civilization, led by Hajruddin. As dwarfs, they can build magnificent monuments."},
-			{"text": "Tips to play:"},
 			{"text": "Fokus on building & building, buy every available non-Wonder building in Capital."},
 			{"text": "Aim for Scientific or Cultural vitory."}
 		]
@@ -101,6 +102,7 @@
 		"adjective": ["Eldars"],
 		"preferredVictoryType": "Cultural",
 		"favoredReligion": "Relativity",
+		"personality": "Atun",
 		
 		"startIntroPart1": "Eldariya was the first empire of Pangaea after the long-lived civilization of 'Nkuhanea and the first dwarven civilization of Polgar Sod'em. It was centered in the city of Phaeron's Seat (named after their leader's title) and its surrounding region. The empire united Nkuhanean, Sodites and Eldarry speakers under one rule. For a brief period, the Eldars was the most powerful in the world, sending military expeditions as far north as Oakenfell, and as far south as Mamuju. But the empire fell at last under the assault of accused barbaric people, the Almurians.",
 		"startIntroPart2": "O' Great Phaeron Atun, Ulur Satarabpa, Lord of the Three Kingdoms, will you rise again to take back what is yours and reclaim your marvels? Will you accept the challenge? Can you build a civilization that will stand the test of time?",
@@ -132,7 +134,6 @@
 			{"text": "As the dominant power of the eastern part of central Pangea, Eldariya inevitably came into conflict with many neighbors and rivals, from the indigenous Chorislaviani of Central Pangea to the nascent Almuria. Following the conflict and annexation of Nubkhecris, its growing competition with Almuria culminated in the Mudariya Wars, which saw some of the largest battles in history. Eldariya narrowly avoided destruction after the Third Mudariya War, and was destroyed by the Almurians after the fourth and final Mudariya War. All remnants of the Eldars civilization came under Almuria rule, and Almuria subsequently became the dominant power, paving the way for its rise as a major empire. Almuria, howerver, decided not to mess with the Crypt of the Unliving because of the Tomb Guard, an entity they had never seen before."},
 			{"separator": true},
 			{"text": "Eldariya is a long lost civilization coming back to life to reclaim their old glory. Led by Phaeron Atun, they came back to retake what rightfully theirs."},
-			{"text": "Tips to play:"},
 			{"text": "Try and settle (or conquer) as many cities as you can to maximize Eldariya's Unique Ability to build Wonder."},
 			{"text": "Eldarya is a typical wide yet cultural civilization."}
 		]
@@ -145,6 +146,7 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
 		"favoredReligion": "Relativity",
+		"personality": "Vieya",
 		"style": "Merfolk",
 		
 		"startIntroPart1": "Almuria was an empire that controlled Manas Island, Shangri-La, and parts of Pangea, from Kumari Kandam to Mamuju, excluding Akhetutan, Sabata, and Noenna. It was founded on Manas Island in the town of Lemuria by the Almurian tribal leader Ishana. After five years of establishment, Almuria crossed into Pangea and, with the conquest of Erum and the annexation of Shangri-La along the way, Almuria was transformed into an empire. Almuria ended the Eldariya Empire with the conquest of Phaeron's Seat during the Fourth Mudariya War by Vieya the Conqueror.",
@@ -181,7 +183,6 @@
 			{"text": "Under the reign of Fala Vieya, Almuria marked the peak of its power and prosperity. After moving the imperial capital to Avalonia, Almuria released Akhetutan, Sabata, and Noenna in exchange of the Tridstone. In collaboration with the Sodites, Almuria developed a series of new technologies centered upon the discovery of an inexhaustible source of energy. This energy was genertaed by extracting litle by litle energy from Tridstone using the Aurelionate Device. During a test of the device, a massive energy pulse violently radiated outward and destroyed Almuria, causing it to sink into the sea and trigger the world's disaster. The energy pulse affected the survivors biologically, causing them to gain the ability to breathe underwater and the superhuman strength needed to survive in the deep ocean."},
 			{"separator": true},
 			{"text": "Almuria is a merfolk civilization, led by Vieya. Merfolk can live either on Land or in Water, but they can't tolerate scorching sun."},
-			{"text": "Tips to play:"},
 			{"text": "Fight alongside Coast or fresh water since it'll make Almuria units stronger."},
 			{"text": "Search Megall as much as possible"}
 		]
@@ -195,6 +196,7 @@
 		"startBias": ["Tundra"],
 		"preferredVictoryType": "Cultural",
 		//"favoredReligion": "Balance",
+		"personality": "Alexander",
 		
 		"startIntroPart1": "The Kingdom of Louvargia was a kingdom centered in north-central of Eustasia. Louvar served as the kingdom's capital for many decades but relocated to Malovar due to extreme cold and infertile land. Emerging from the earlier Artiza civilization, the kingdom was likely founded after the Great Famine of Artiza. Beginning with the reign of Perdiccas, Louvargia created its own trade currency and trading system. Louvargia culture developed in due to trade with Windemer, evident in the use of Haz'ie script. Despite their long lives, The Kingdom of Louvargia are not well-known as Louvargians remained isolated..",
 		"startIntroPart2": "Revered Alexander, the Favored Son of Goddess, Father of the Fertile Crescent, Louvargians rest upon your responsibility to the Great Mother. Will you keep the Mother's grace upon this land and lead your people into the long-lasted age of prosperity? Can you build a civilization that will stand the test of time?",
@@ -226,7 +228,6 @@
 			{"text": "During his reign, Alexander made many changes to improve the social order in the country by developing and teaching work ethic. Alexander built many Hymn Houses to sing and chanting praises upon the Goddess Inua, and by Her mercy and magnificence, the land of Malovar extending to the Orivar region and the outskirts of Amolivar was transformed into fertile land, an area which was later dubbed the Fertile Crescent. Because of that, the Louvargians become intolerant of other religions, fearing that the Goddess will angry and lift Her blessings upon these fetile land."},
 			{"separator": true},
 			{"text": "Louvargia is a 'peace-loving' and religious civilization. They prefer to stay in their own tundra domain, believing in their Goddess which reign over Tundra."},
-			{"text": "Tips to play:"},
 			{"text": "Louvargia benefits from having tall cities because of its unique building."},
 			{"text": "Make sure to build Farms as much as possible to maximize your population growth."}
 		]
@@ -237,6 +238,7 @@
 		"leaderName": "Takashi no Seimei",
 		"adjective": ["Shinso"],
 		"favoredReligion": "Uncertainty",
+		"personality": "Takashi no Seimei",
 		
 		"startIntroPart1": "The Shinso civilization was a multicultural kingdom in southern Eustasia before the Doom of the Old World. The Shinso emerged from the unification of several tribes under the leadership of Yasunori, known by the more famous title of Takashi no Seimei. The kingdom grew rapidly under his rule and that of his descendants, who developed Onmyōdō. With the help of Onmyōji, Yasunori forms a large-scale magic seals to open the Door of Prosperity, which brings a never ending prosperity to the people of Shinso.",
 		"startIntroPart2": "Venerated Yasunori of Hakensei, Takashi no Seimei, The Most Astute of All Shinso, the keys to unlock the Door of Prosperity are within your grasp. Will you acquire it for the good of life? Will you stand tall and proud amongst those who seeks harm to Shinso? Can you build a civilization that will stand the test of time?",
@@ -264,7 +266,6 @@
 			{"text": "Ten years after the unification of Shinso, Yasunori established the departments and posts of Onmyōji who practiced Onmyōdō in the Imperial Court, and Onmyōdō was institutionalized. Onmyōji was responsible for the kingdom's ambitious project, which is to learn and utilise the Ley Line and building Onmyō pillars in strategic places so that they are connected to each other to form large-scale magic seals. By opening the Door of Prosperity, Yasunori brought a never ending prosperity to the people of Shinso."},
 			{"separator": true},
 			{"text": "Shinso is a 'jack of all trades' civilization. They get bonuses for 5 stats (Food, Gold, Science, Faith, and Production)."},
-			{"text": "Tips to play:"},
 			{"text": "You need to research either Writing, Mana Sensing, or The Wheel as fast as possible to gain your Stat bonus."},
 			{"text": "After you reveals Ley Line, claim it by settling or conquering."}
 		]
@@ -277,6 +278,7 @@
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Domination",
 		"favoredReligion": "Monetarism",
+		"personality": "Mordus",
 		
 		"startIntroPart1": "The Kingdom of Arxia was a monarchy in the Blora Desert on the Southeast Eustasia Peninsula that was founded by Gunnar to protect his people. Beginning as a small tribe, Gunnar founded the kingdom after his encounter with the Zedus Ephor, who foresaw the Arxian would face many trials and tribulations. During the leadership of Hierarch Mordus, the kingdom faced the biggest crisis as the surrounding kingdoms attacked it together. Arxia not only repelled the attacks but also managed to conquer the surrounding kingdoms and become the sole ruler of the Blora Desert, exerting its influence to the surrounding kingdoms outside the desert.",
 		"startIntroPart2": "Honorable Hierarch Mordus, the leader of the Arxians. Your reign unites all the surrounding smaller states in the Blora Desert into one unified kingdom. O, Mordus the Sun King, your people call upon your name once more. Will you lead them to glory? Will you make Arxia a leading force not only in Blora Desert but also upon this world? Can you build a civilization that will stand the test of time?",
@@ -312,7 +314,6 @@
 			{"text": "The Kingdom of Arxia was a monarchy in the Blora Desert on the Southeast Eustasia Peninsula that was founded by Gunnar to protect his people. Beginning as a small tribe, Gunnar founded the kingdom after his encounter with the Zedus Ephor, who foresaw the Arxian would face many trials and tribulations but it would ultimately prosper and become a beacon of hope in the desert. Intrigued by Zedus' words, he asked the Ephor to stay with him and guide him. As the Ephor agreed, he developed a rigorous education and training program called Traon."},
 			{"text": "Over time, the kingdom grew in number and strength, and they began to establish settlements and trade routes throughout the desert. However, as Zedus had prophesied, they also faced many enemies. During the leadership of Hierarch Mordus, the kingdom faced the biggest crisis as the surrounding states attacked it together. With his ingenuity, and years of training put in by the Arxians, Arxia not only repelled the attacks but also managed to conquer the surrounding states and become the sole ruler of the Blora Desert, exerting its influence to the surrounding kingdoms outside the desert."},
 			{"separator": true},
-			{"text": "Tips to play:"},
 			{"text": "Arxia can turn Desert tiles into essentially Plains tiles around its City Center. Settle near Desert Hill to maximize it."},
 			{"text": "Try not to lose your Traon General, you can only earn them once every age."}
 		]
@@ -326,6 +327,7 @@
 		"adjective": ["Tailin"],
 		"preferredVictoryType": "Cultural",
 		"favoredReligion": "Monetarism",
+		"personality": "Sengai",
 		"style": "Human",
 		
 		"startIntroPart1": "Thallin, also referred to as Thwallin, or Tailin, was a Taloon-speaking state and cultural area based in the city of Thwallin in central-northern Llotidea. It played an important role in establishing the first empire in Llotidea after the Doom of the Old World. Thallin was often involved in rivalry with the state of Dayne to the east and Dwarven kingdom of Manthrill to the north. Thallin briefly became the major power in the region after Sengai created a short-lived empire, succeeding Grokzut and Glaceholm. The Thallin Empire rapidly fell apart after being attacked by Torakj and a big-scale rebellion, reverted it to a small kingdom for just four years.",
@@ -344,24 +346,29 @@
 		"outerColor": [ 55, 25,  8],
 		"innerColor": [156,197,237],
 		"uniqueName": "Sazism",
-		"uniqueText": "+1 Population, +1 Culture in capital from every Tradition policy tree adopted \nFree Para Artist upon completion of Tradition policy tree \n-25% unhappiness from population in your first 4 cities \n+33% Unhappiness from population in annexed cities",
-		"uniques": ["[+1] population [in capital] <upon adopting [Tradition]>", 
-					"[+1 Culture] [in capital] <after adopting [Tradition]>",
-					"[+1] population [in capital] <upon adopting [Aristocracy]>", 
-					"[+1 Culture] [in capital] <after adopting [Aristocracy]>",
-					"[+1] population [in capital] <upon adopting [Legalism]>", 
-					"[+1 Culture] [in capital] <after adopting [Legalism]>",
-					"[+1] population [in capital] <upon adopting [Oligarchy]>", 
-					"[+1 Culture] [in capital] <after adopting [Oligarchy]>",
-					"[+1] population [in capital] <upon adopting [Landed Elite]>", 
-					"[+1 Culture] [in capital] <after adopting [Landed Elite]>",
-					"[+1] population [in capital] <upon adopting [Monarchy]>", 
-					"[+1 Culture] [in capital] <after adopting [Monarchy]>",
-					"[+1] population [in capital] <upon adopting [Tradition Complete]>", 
-					"[+1 Culture] [in capital] <after adopting [Tradition Complete]>",
-					"Free [Para Artist] appears <upon adopting [Tradition Complete]>", 
-					"Provides a [Astana] in your first [4] cities for free", 
-					"[+33]% Unhappiness from [Population] [in annexed cities]"],
+		"uniques": [
+			"Comment [+1 Population, +1 [Culture] in capital from every Tradition policy tree adopted]",
+			"Comment [Free Para Artist upon completion of Tradition policy tree]",
+			"Comment [-25% unhappiness from population in your first 4 cities]",
+			
+			"[+1] population [in capital] <upon adopting [Tradition]> <hidden from users>",
+			"[+1 Culture] [in capital] <after adopting [Tradition]> <hidden from users>",
+			"[+1] population [in capital] <upon adopting [Centralization]> <hidden from users>",
+			"[+1 Culture] [in capital] <after adopting [Centralization]> <hidden from users>",
+			"[+1] population [in capital] <upon adopting [Crown Guards]> <hidden from users>",
+			"[+1 Culture] [in capital] <after adopting [Crown Guards]> <hidden from users>",
+			"[+1] population [in capital] <upon adopting [Monarchy]> <hidden from users>",
+			"[+1 Culture] [in capital] <after adopting [Monarchy]> <hidden from users>",
+			"[+1] population [in capital] <upon adopting [Cultural Icons]> <hidden from users>",
+			"[+1 Culture] [in capital] <after adopting [Cultural Icons]> <hidden from users>",
+			"[+1] population [in capital] <upon adopting [Burghers]> <hidden from users>",
+			"[+1 Culture] [in capital] <after adopting [Burghers]> <hidden from users>",
+			"[+1] population [in capital] <upon adopting [Tradition Complete]> <hidden from users>",
+			"[+1 Culture] [in capital] <after adopting [Tradition Complete]> <hidden from users>",
+			"Free [Para Artist] appears <upon adopting [Tradition Complete]> <hidden from users>",
+			"Provides a [Astana] in your first [4] cities for free <hidden from users>",
+			"[+33]% Unhappiness from [Population] [in annexed cities]"
+		],
 		"cities": ["Thwallin","Getih","Kinsfolkin","Consanguin","Sib","Grandein","Cultin","Claretin","Clot","Clansperson",
 			"House Rules","Nightwatch","Forbidden Palace","Traitors' Gate","Free District"],
 		"spyNames": ["Hammabi","Zai","Belasi","Ilumai","Nabu-ir","Dirie","Sebai","Siwani","Aerin","Lyrkai"],
@@ -370,7 +377,6 @@
 			{"text": "Sengai made a rule that prisoners of war from areas conquered by Thallin did not have the freedom right and were killed and used as slaves. This made many of the Glaceholmian secretly flee to the Crawl of Nortasia with the help of Crotoa. When Torakj attacked and ravaged the kingdom, Jag'ar and his fellow beastmen revolted and slaughter the Tailin nobles and their supporter. Thallin's remaining residents then fled southeast and founded the Smeheng kingdom along the Karionam River."},
 			{"separator": true},
 			{"text": "Thallin thinks beastmen are not human, that's why they are aggressively attacking and enslaving them."},
-			{"text": "Tips to play:"},
 			{"text": "As it name, Tall, relying on so long Golden Age for Cultural Victory."},
 			{"text": "Try settling 4 city as fast as possible, and always pick Tradition policy when available."}
 		]
@@ -381,7 +387,8 @@
 		"leaderName": "Anzogh",
 		"adjective": ["Torakis"],
 		"startBias": ["Avoid [Desert]"],
-		"favoredReligion": "Uncertainty"
+		"favoredReligion": "Uncertainty",
+		"personality": "Anzogh",
 		"style": "Goblin",
 		
 		"startIntroPart1": "Torakj were a nomadic goblins who lived in Llotidea. According to Manthrill's manuscript, they were first reported living north of the Mogrim Forest and east of the Ngawi Desert. During the conflict between Manthrill and Thallin, Torakj arrived on the Galk, and after establishing a colony on Srord, they had established a vast, if short-lived, dominion in Llotidea, conquering and destroying Manthrill and many other peoples living outside of Thallin's borders. Torakj, especially under their leader Anzogh, made frequent and devastating raids into the Thallin Empire, and became the instigator of the Jag'ar Rebellion which caused the Thallin collapsed.",
@@ -412,7 +419,6 @@
 			{"text": "During the conflict between Manthrill and Thallin, Torakj arrived on the Galk, and after establishing a colony on Srord, they had established a vast, if short-lived, dominion in Llotidea, conquering and destroying Manthrill and many other peoples living outside of Thallin's borders. Torakj, especially under their leader Anzogh, made frequent and devastating raids into the Thallin Empire, and became the instigator of the Jag'ar Rebellion which caused the Thallin collapsed."},
 			{"separator": true},
 			{"text": "Famous as weak individuals, they are very skilled at looting cities especially under the leadership of Anzogh The Champion."},
-			{"text": "Tips to play:"},
 			{"text": "Attack and plunder cities using formation, to utilize their Flank attack bonus."},
 			{"text": "If possible, use Wolf Rider to attack cities since they don't get attack penalty and create a good combination with Torakj's unique."}
 		]
@@ -425,6 +431,7 @@
 		"startBias": ["Oasis","Desert"],
 		"preferredVictoryType": "Cultural",
 		"favoredReligion": "Evolutionism",
+		"personality": "Esheng",
 		"style": "Desert",
 		
 		"startIntroPart1": "Smeheng is a kingdom in the south-eastern part of Llotidea which was founded by Gepeng. The kingdom began as a small kingdom at the upper reaches of the Karionam River, centered in the Dageeng. The Semeheng continue to uses Talloon as the official language, along with Daynian language, but does not continue Thallin's tradition. At its peak, Smeheng controlled the entire area along the Karionam River.",
@@ -454,7 +461,6 @@
 			{"text": "Smeheng was founded by and for refugees of Thallin and Dayne whose fled from Torakj under the agreement with Jag'ar the Breaker of Chains. Living in a dry and limited to no food at Desert, Smeheng people hone their hunting skills and adapt to survive from the harsh climate. And because of the location of the kingdom, Anzogh and his army will never attack. The kingdom succeeded in restoring the relationship between humans and beastmen."},
 			{"separator": true},
 			{"text": "Tall and defensive Civ, perfect counter for Almuria and Dracula unit without Daywalker skill."}
-			{"text": "Tips to play:"},
 			{"text": "Research Construction as fast as possible, the tech will unlock your Unique Unit and Unique Improvement."},
 			{"text": "Plan carefully before you build Dhab Hunter Camp as it can't be built next to each other."}
 		]
@@ -468,6 +474,7 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Scientific",
 		"favoredReligion": "Dualism",
+		"personality": "Jag'ar",
 		"style": "Beastmen",
 		
 		"startIntroPart1": "Townfolk was a major beastman civilization centered in the city of Townfolk on the south-eastern side of the Buantan Sea. The city developed from a Glaceholmian colony whose traveled to Sumba after the fall of Thallin. The Townfolk Empire was established by Jag'ar, the first leader of Townfolk, who also led the Jag'ar Rebellion. It reached its Golden Age immediately because many scattered beastman joined the kingdom and occupied a long strip of land along the Sumba Continent.",
@@ -497,7 +504,6 @@
 			{"text": "Townfolk was a major beastman civilization centered in the city of Townfolk on the south-eastern side of the Buantan Sea. The city developed from a Glaceholmian colony whose traveled to Sumba. After the fall of Thallin, Jag'ar made a pact with the remaining resident of Thallin and Dayne not to meddle in each other's affairs. Jag'ar allowed them to establish Smeheng kingdom along the Karionam River, before leaving together with his fellow beastmen to establish the city of Townfolk."},
 			{"text": "The Townfolk Empire was established by Jag'ar, the first leader of Townfolk, who also led the Jag'ar Rebellion. The capital city of Townfolk was existed as a city-state, then to a territorial state, and eventually an empire and reached its Golden Age immediately because many scattered beastman joined the kingdom and occupied a long strip of land along the Sumba Continent."},
 			{"separator": true},
-			{"text": "Tips to play:"},
 			{"text": "Sulong's Training give happiness, happiness bring Golden Age, Golden Age boost unit Strength & Science output, so prioritize to build Sulong's Training."},
 			{"text": "When to war? of course during a Golden Age."}
 		]
@@ -510,6 +516,7 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Diplomatic",
 		"favoredReligion": "Spontanism",
+		"personality": "Borris Baldur",
 		"style": "Beastmen",
 		
 		"startIntroPart1": "The Kingdom of Cavegoa was a beastman kingdom located in eastern Sumbawa. Founded by Borris of the Baldurs dynasty, the kingdom was established after the Beastman Civil War. A beastman of Glaceholmian origin, Borris had originally served Leon, leading Leon's army in battle against Concordia in the border of Badgers city, where he was made Marquis. After the outbreak of the Beastman Civil War, with Balin's permission, Boris and his people fled from the pursuit of the Townfolk's Mink across the border of Twin Mountain.",
@@ -528,7 +535,11 @@
 		"outerColor": [ 16,126,  5],
 		"innerColor": [134,238,214],
 		"uniqueName": "Survival Instinct",
-		"uniques": ["[+10] HP when healing <for [Wounded] units>"],
+		"uniques": [
+			"[+10] HP when healing <for [Wounded] units>",
+			"[+20]% Strength <for [Wounded] units> <when defending>",
+			//"[+20]% Strength <when below [20] HP>"
+		],
 		"cities": ["Goa","Armant","Lisht","Chondote","Nedrow","Lawless","Pajaten","Skien","Crossy","Grassrich",
 			"Amphibeast","Stone Valley","Cattlery","Shining Lake","Nomad River","Greenland","Dusteppe","Cesteppe","Lushleaf","Drysparo"],
 		"spyNames": ["Concelot","Fleshfur","Zolorul","Jurgor","Daulis","Dalarus","Myusel","Muse","Luce","Udeor"],
@@ -536,7 +547,6 @@
 			{"text": "The Baldurs dynasty was the founding dynasty of the Kingdom of Cavegoa established by Borris, following the Beastman Civil War. A beastman of Glaceholmian origin, Borris had originally served Leon, leading Leon's army in battle against Concordia in the border of Badgers city, where he was made Marquis. Following Leon's death, Groza was proclaimed as the emperor of Townfolk, and began permitting slavery, a policy which sparked the Beastman Civil War."},
 			{"text": "When the slavery policy was announced, there were many demonstrations and resistance. The situation became uncontrollable when demonstrators were persecuted and their families were made into slaves, a situation that forced Borris to rebel. Realizing that he will not be able to stand the imperial forces, Borris sends an emissary to Twin Mountains asking for help. Balin II, the leader of Twin Mountain at that time, refused to send army to Townfolk but allowed Borris's people to cross the border and flee to the continent of Sumbawa."},
 			{"separator": true},
-			{"text": "Tips to play:"},
 			{"text": "Don't sleep Military units until fully healed since they'll lose Strength bonus. 90 HP will do."},
 			{"text": "Settle on Coastal or next to Grassland to maximize its unique building."}
 		]
@@ -549,6 +559,7 @@
 		"startBias":["Mountain"],
 		"preferredVictoryType": "Scientific",
 		"favoredReligion": "Butterfly Effects",
+		"personality": "Thraldin",
 		"style": "Dwarves",
 		
 		"startIntroPart1": "Twin Mountain, previously the Kingdom of Cremona, is a state that ruled over Archiea centered in twin mountains of Khorin and Gulddin. The kingdom was founded by Balin Duskstone, or Balin I, son of Dwalin. During the reign of Thralldin, the centre of the kingdom was shifted from Cremona to Thraldin's Palace. At its peak, the kingdom covered the whole of Archiea. Twin Mountain is credited for helping Borris and his people escape from the pursuit of the Townfolk imperial forces by holding them at the border of Maidhurst when the Beastman Civil War broke out.",
@@ -577,56 +588,8 @@
 			{"text": "Twin Mountain, originally named the Kingdom of Cremona, is a state that ruled over Archiea centered in twin mountains of Khorin and Gulddin. The kingdom was founded by a Tiltein prince Balin Duskstone, or Balin I. He was the son of the paramount chief of Tiltein, Dwalin, seated in Tiltli in the heartland of Titltein plateau, while the prince established himself at the Cremona and went to conquer many of the northern shores and inland settlements of Archiea. When he succeeded his father, he titled himself Dhari (king) instead of the traditional Tilteinan title of Phuri (paramount chief). This marked the beginning of Kingdom of Twin Mountain."},
 			{"text": "The Kingdom of Twin Mountain was disbanded due to the severe eruption of Mount Muntham volcano. The kingdom was revived by Thraldin who moved the center of the kingdom to Thraldin's Palace, atop Gulddin mountain. Not only revived the kingdom, Thraldin also expanded the territory of the kingdom to cover the whole of Archiea, including the kingdom that was previously conquered by Balin I. Because of its location at the top of one of the twin mountains, the kingdom is better known as the Twin Mountain."},
 			{"separator": true},
-			{"text": "Tips to play:"},
 			{"text": "Claim Mountain as much as possible, not only it'll boost unit's Strength, it also generate Science, Gold, and Production when the time comes."},
 			{"text": "Axeman is unlocked after discovering Metal Casting instead of Steel, make good use of that."}
-		]
-	},
-	
-	// The Drow Realm
-	{
-		"name": "Ilythiir",
-		"leaderName": "Shurshana",
-		"adjective": ["Ilythiiri"],
-		"startBias": ["Mountain"],
-		"preferredVictoryType": "Domination",
-		"favoredReligion": "Dualism",
-		
-		"startIntroPart1": "The Ilythiiri Elves are a group of dark elves from the historical region of Underdark, located on today's eastern part of the Sumba Continent. As a highly militaristic society that valued strength and aggression, Ilythiir was known for its fierce warriors and its ruthless expansionism, frequently raiding nearby lands and enslaving their inhabitants. During the reign of matron mother Shurshana, Ilythiir achieved its maximum geographical extent, uniting the drow of Ilythiir, the drow of Themar, and the drow of Edhil.",
-		"startIntroPart2": "Poldorë Mother Shurshana, Matron Mother of the Underdark, your people look to you to once again bring back the days of power and glory for Ilythiir! Will you answer their call, glorious mother? Can you build a civilization that will stand the test of time?",
-		
-		"declaringWar": "You are in my way, you must be destroyed.",
-		"attacked": "As a matter of fact I too grow weary of peace.",
-		"defeated": "You have somehow become my undoing! What kind of beast are you?",
-		"introduction": "You must be grateful to witness the greatness of me, Shurshana.",
-		
-		"neutralHello": "Hello.",
-		"hateHello": "Speak!"
-		"tradeRequest": "This is better than you deserve, agree?",
-		
-		"outerColor": [114,162,233],
-		"innerColor": [ 61,  0,109],
-		"uniqueName": "Underdark's Wrath",
-		"uniqueText": "+2 [Food], +1 [Production] for cities settled next to a Mountain \nFree Settler appears upon discovering Calendar \nReceive free strongest available Sword-type or Gunpowder-type units upon building a Courthouse",
-		"uniques": ["[+2 Food, +1 Production] in cities on [Land] tiles <with [1] to [6] neighboring [Mountain] tiles>", 
-					"Free [Settler] appears <upon discovering [Calendar] technology>", 
-					"Free [Warrior] appears <upon constructing [Courthouse]> <before discovering [Iron Working]>", 
-					"Free [Bladedancer] appears <upon constructing [Courthouse]> <after discovering [Iron Working]> <before discovering [Steel]>",
-					"Free [Longswordsman] appears <upon constructing [Courthouse]> <after discovering [Steel]> <before discovering [Gunpowder]>",
-					"Free [Musketman] appears <upon constructing [Courthouse]> <after discovering [Gunpowder]> <before discovering [Rifling]>",
-					"Free [Rifleman] appears <upon constructing [Courthouse]> <after discovering [Rifling]> <before discovering [Replaceable Parts]>",
-					"Free [Infantry] appears <upon constructing [Courthouse]> <after discovering [Replaceable Parts]> <before discovering [Lasers]>",
-					"Free [Lightsaberman] appears <upon constructing [Courthouse]> <after discovering [Lasers]>",
-					"Will not be chosen for new games"], 
-		"cities": ["Shurdriira","Helvion'lyr","Kalankoth","Despt'tar","Yolis","Omarryn","Noquani","Argath","Lashire","Chenlaena",
-			"Ordton","Xaryna","Alerough","Yauntyrr","Chysarae","Zauiryn","Goyln","Vinya Themar","A'el Dorei","Nessa Edhil"],
-		"civilopediaText": [
-			{"text": "The Ilythiiri Elves are a group of dark elves from the historical region of Underdark, located on today's eastern part of the Sumba Continent. As a highly militaristic society that valued strength and aggression, Ilythiir was known for its fierce warriors and its ruthless expansionism, frequently raiding nearby lands and enslaving their inhabitants. This earned the kingdom many enemies, but also made it one of the most feared powers in the Underdark."},
-			{"text": "The drow of Ilythiir were led by powerful matron mothers, who were both political and magical leaders. They held immense power over their subjects and were often served by male drow as soldiers, servants, or slaves. During the reign of matron mother Shurshana, Ilythiir achieved its maximum geographical extent, uniting the drow of Ilythiir, the drow of Themar, and the drow of Edhil. After Shurshana's reign, the kingdom fell into political turmoil and instability."},
-			{"separator": true},
-			{"text": "Tips to play:"},
-			{"text": "A strong domination civilization with great economic bonus for cities next to a Mountain. Its unique unit is very good at tanking melee damage."},
-			{"text": "You can recruit slaves to fight for you upon constructing Courthouse, so don't worry too much to attack the neighboring civs."}
 		]
 	},
 	
@@ -637,6 +600,7 @@
 		"adjective": ["Orders"],
 		"preferredVictoryType": "Domination",
 		"favoredReligion": "Butterfly Effects",
+		"personality": "Archmagister Gloria",
 		
 		"startIntroPart1": "First Order was a geographically extensive power based in central part of the Sumbawa Continent. It was centralized by the conquest of the Mormo-Arcanum Plain, and its capital city was located at Aurelion. Outside this imperial center, the empire's geographical extent was dependent on the loyalty of military commanders who controlled the armed cities sprinkling it. During Archmagister Gloria's rule the empire controlled the major urban hubs and arteries of the Morlovian subcontinent, with the exception of those in the far south, and conquered the western city of Liqomar.",
 		"startIntroPart2": "Glory upon the Order! Archmagister Gloria, your people always strive for knowledge and new potentials between realms, even the forbidden ones. The Order relies on you, Gloria the Truthseeker. Will you lead the order into glory and praise? Can you create an era of enlightenment? Can you build a civilization that will stand the test of time?",
@@ -667,7 +631,6 @@
 			{"text": "First Order was a geographically extensive power based in the central part of the Sumbawa Continent. It was centralized by the conquest of the Mormo-Arcanum Plain, and its capital city was located at Aurelion. Outside this imperial center, the empire's geographical extent was dependent on the loyalty of military commanders who controlled the armed cities sprinkling it. Having been founded by Faraz the First, the empire thrived on their alchemical knowledge, which helped develop the empire's army of mages and golems. To increase the chances of discovering hidden geniuses, the Order taught native people from conquered cities about alchemy."},
 			{"text": "During Archmaster Gloria's rule, the empire controlled the major urban hubs and arteries of the Morlovian subcontinent, with the exception of those in the far south, and conquered the western city of Liqomar. First Order ruled for over a century until one of Transylvania's apprentice alchemists, Vlad Ţepeş, led a rebellion. Vlad makes a kind of potion that can mutate his body to become stronger but also makes him weak against sunlight and thirsty for blood. Spreading vampirism, Vlad founded his own country called Morlovia."},
 			{"separator": true},
-			{"text": "Tips to play:"},
 			{"text": "Despite the fact that the First Order is the only civilization without a Unique Unit, they are masters of both scientific and arcane arts."},
 			{"text": "Conquer cities, build Porta Alchemica, and fill the Alchemist specialist slot as soon as possible. They are worth more than normal Scientist."}
 		]
@@ -679,6 +642,7 @@
 		"adjective": ["Morlovian"],
 		"startBias": ["Hill"],
 		"favoredReligion": "Monetarism",
+		"personality": "Vlad Dracula",
 		
 		"startIntroPart1": "The Principality of Morlovia was a polity located in the Morlovian subcontinent, bordered by the Western First Order to the north and the remnants of the kingdom of Jorah to the northwest. The principality reached its height under the rule of Vlad Ţepeş, who unilaterally took control of the principality after going through vampirism. During its peak, the principality conquered and destroyed the Western First Order and caused terror and chaos, which became the main cause of the division of the military commanders in the Eastern First Order.",
 		"startIntroPart2": "Hail mighty Vlad Ţepeş, notorious Morlovian Voivode! You are the first alchemist to propose genetic engineering, and you have proven your abilities by strengthening the First Order's army and transforming yourself into an invincible vampire. Dracula o de Boa Memória, the Morlovians look up to you to lead them to greater days of glory. Will you rise again? Can you build a civilization that will stand the test of time?",
@@ -713,7 +677,6 @@
 			{"text": "The Principality of Morlovia was a polity located in the Morlovian subcontinent, bordered by the Western First Order to the north and the remnants of the kingdom of Jorah to the northwest. It is considered one of the most terrifying principalities, later becoming a kingdom and then an empire, in the history of mankind. The principality reached its height under the rule of Vlad Ţepeş, who unilaterally took control of the principality after going became a Dracula. During its peak, the principality conquered and destroyed the Western First Order and caused terror and chaos, which became the main cause of the division of the military commanders in the Eastern First Order."},
 			{"text": "After conquering local tribes in the Morlovian subcontinent, Gloria founded Morlovia, a large Porta Alchemica for local alchemists. These local alchemist apprentices turned out to be more talented than their mentor, and their discoveries were critical to the empire's conquest of the Jorah Kingdom. One of their biggest discoveries is a genetic mutation that can increase one's power, either physically or magically, many times over. After many years of service, the group of alchemists decided that they would be better off if they had their own territory where they could pursue their research without interference. With Gloria's permission, they are granted a small principality of their own."},
 			{"separator": true},
-			{"text": "Tips to play:"},
 			{"text": "Summon Dracula units as much as possible since they'll get stronger with every age advancement. Place them in the Coffin when healing."}
 			{"text": "Construct Vampire Castle near Great Improvement for maximum gains, especially near Holy Site to generate lots of [Faith] to summon more Dracula. And don't construct it next to each other."},
 		]
@@ -726,6 +689,7 @@
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Scientific",
 		"favoredReligion": "Evolutionism",
+		"personality": "Argos",
 		"style": "Machina",
 		
 		"startIntroPart1": "Machinia is conventionally said to have been founded by Vatatzes, a warrior chieftain from Aeris and self-proclaimed descendant of the ruler of the Jorah Kingdom, who employed aid from the neighboring Canadian states to defeat the Duke of Elysia, Cyril Zonaras, in the Battle of Elysia. The Machinia imperial structure, however, was formed during the rule of Vatatzes' grandson, Argos, during whose reign the empire achieved its maximum geographical extent.",
@@ -758,7 +722,6 @@
 			{"text": "Machinia is conventionally said to have been founded by Vatatzes, a warrior chieftain from Aeris and self-proclaimed descendant of the ruler of the Jorah Kingdom, who employed aid from the neighboring Canadian states to defeat the Duke of Elysia, Cyril Zonaras, in the Battle of Elysia. The Machinia imperial structure, however, was formed during the rule of Vatatzes' grandson, Argos, during whose reign the empire achieved its maximum geographical extent, which was later referred to as the Great Ascendency."},
 			{"text": "Long after conquering and destroying the Western First Order, the Morlovians set their sights on Machinia to quell their thirst for blood. During that time, the Machinicus already worshiped Machine-God Machina and had mostly modified small parts of their bodies with machines. The Morlovians were initially confident in their abilities but they soon discovered that the Machinians were impervious to the vampire's bites, and their weapons were too powerful for the vampires to withstand. Praetor Argos then uses this opportunity to wipe out the vampires and expand his empire."},
 			{"separator": true},
-			{"text": "Tips to play:"},
 			{"text": "Machinia has strong Land-based units but are more expensive to produce, make sure to protect them."}
 			{"text": "Recruit as many Meka-Priest as possible to construct their unique Great Improvements. Complete Piety and/or Rationalism as they will unlock the full potential of those improvements."},
 		]
@@ -771,6 +734,7 @@
 		"adjective": ["Witchers"],
 		"startBias": ["Hills"],
 		"favoredReligion": "Evolutionism",
+		"personality": "Cosimo Malaspina",
 		
 		"startIntroPart1": "The Order of Witchers was an attempt made by lonkos (chiefs) and affiliated mages on the Sumbawa Continent to create a magical order using warriors who will help them get rid of enemies they previously could not subdue, attach to reservations, or exterminate – monsters. The final outcome of the mutations disappointed most of the mages, who began referring to the result as 'witchers', charlatans capable of nothing more than mere witchery. The Order didn't last long however – its members had abandoned most of the original 'warrior' values over time and soon split into a handful of witcher schools, aimed at taking a more professional approach to eradicating monsters.",
 		"startIntroPart2": "Greetings to you, Cosimo Malaspina the Sorcerer! Amidst the chaos and uncertainty, you embark upon a noble quest to vanquish malevolence and protect the innocent from the encroaching forces of evil. Notorious master of mutation, the destiny of your order and the fates of countless lives now lie within your capable hands. Will you heed the call and harness the power of magic and swordsmanship to lead the Order of Witchers to triumph? Can you build a civilization that will stand the test of time?",
@@ -802,7 +766,6 @@
 			{"text": "The Order of Witchers was an attempt made by lonkos (chiefs) and affiliated mages on the Sumbawa Continent to create a magical order using warriors who will help them get rid of enemies they previously could not subdue, attach to reservations, or exterminate – monsters. The original idea for the formation of the Order coined after the fall of Morlovia, which caused many vampires to flee to the north and northwest. Argos, Praetor of Machinia, didn't bother with the runaway vampires and chose to conquer Morlovia's territory, and reclaim the area that used to belong to the Jorah Kingdom. Facing the terror of the remnants of vampires, and monsters lurking in the dark, the Order of Witchers was established under the leadership of Mage Cosimo Malaspina."},
 			{"text": "After the earliest attempts at creating witchers with adults proved unsatisfactory, it was decided that children would be used for future experiments. They were trained by professionals from all over the continents in their respective skills: the huntsmen taught them to track and hunt, the alchemists on how to brew potions and concoctions, and the swordsmen on how to fight. Despite all this, the children proved unsatisfactory and disappointed most of the mages, who began to call the result 'witchers', charlatans capable of nothing more than mere witchery. The mutations had opened their bodies to the flow of power, but they ended up with limited magical talent."},
 			{"separator": true},
-			{"text": "Tips to play:"},
 			{"text": "It is advised to settle (or conquer) as many cities as possible in order to produce Mutagen, which is later needed by the Witcher."}
 			{"text": "Fight as many Beast units as you can because your units gain strength and experience bonuses when fighting them."},
 		]
@@ -816,6 +779,7 @@
 		"startBias": ["Jungle"],
 		"preferredVictoryType": "Scientific",
 		"favoredReligion": "Dualism",
+		"personality": "Rumpleister Zeiwass",
 		"style": "Gnome",
 		
 		"startIntroPart1": "Vedic is a gnomes civilization located at the southernmost part of Selasia, in the Vedic Jungle, bordered by the Ompu Sea in the West and the Vedic Sea in the East. Because of its location, Vedic is a stopover center for adventurers traveling from Selasia to Sumbawa and vice versa, from Sumbawa to Selasia. It was from these newcomers that Vedic began to collect a lot of information, including classified information, especially during times of great social change.",
@@ -852,7 +816,6 @@
 			{"text": "Vedic is a gnomes civilization located at the southernmost part of Selasia, in the Vedic Jungle, bordered by the Ompu Sea in the West and the Vedic Sea in the East. Because of its location, Vedic is a stopover center for adventurers traveling from Selasia to Sumbawa and vice versa, from Sumbawa to Selasia. It was from these newcomers that Vedic began to collect a lot of information, including classified information, especially during times of great social change. When new knowledge and new ways of being show great potential to change the way of life, societies often try to cultivate and protect this secret, world-transforming knowledge, but eventually the gnomes will know."},
 			{"text": "The most prominent figure among the gnomes is Rumpleister Zeiwass, who is said to know all the secrets in the world. One of the secrets that brought Vedic prosperity was the formulae to transmute base metals into gold. With unlimited golds, Zeiwass bought the information brought in by visitors and set up his information network by paying the servants and the beggars. He also used his wealth to construct the Homunculus as the protector of the gnomes."},
 			{"separator": true},
-			{"text": "Tips to play:"},
 			{"text": "Play calm, your [Science] output will shine from mid-to-last game, fill Scientist slot to get Great Scientist, expend it for quick research with bonus +15 [Science]."}
 			{"text": "Claim as much Mined Strategic and/or Luxury resources as possible to gain [Gold], the use your unused [Gold] to buy [Science]"},
 		]
@@ -865,6 +828,7 @@
 		"adjective": ["Regalian"],
 		"startBias": ["Plains"],
 		"favoredReligion": "Dualism",
+		"personality": "Mattimeo",
 		
 		"startIntroPart1": "Sanctum Regalia were a series of territories in the Western Steppe under the direct sovereign rule of the Holy Ecclesiarch. The state had its origins in the rise of Dualism throughout the southern part of Selasia, with the decline of Nerubia, the ecclesiarchy became effectively sovereign. Several Dualis rulers, including the Antium kings Giovanni and Luca the Leaky Eye, further donated lands to be governed by the Holy Ecclessiarch, and some states decided to join completely. During the reign of Mattimeo, the ecclesiarchy's territory expanded greatly, and the ecclesiarch became one of Selasia's most important rulers as well as the head of the Sanctum. At its zenith, the ecclesiarchy covered most of the Western Steppe, Gomorra, Umbria, and portions of Romagna.",
 		"startIntroPart2": "Blessed Mattimeo, the Servant of God, Ecclessiarch of Gomorra, Umbria, and Romagna! You are the leader of the Crusaders, march into wars to spread your beliefs. O Holy Ecclessiarch, will you rebuild the Holy Ecclessiarchy and vanquish your foes under heaven’s watchful eyes? Your adoring subjects await your command! Can you build a civilization that will stand the test of time?",
@@ -896,7 +860,6 @@
 			{"text": "Sanctum Regalia were a series of territories in the Western Steppe under the direct sovereign rule of the Holy Ecclesiarch. The state had its origins in the rise of Dualism throughout the southern part of Selasia; with the decline of Nerubia, the ecclesiarchy became effectively sovereign. Several Dualis rulers, including the Antium kings Giovanni and Luca the Leaky Eye, further donated lands to be governed by the Holy Ecclessiarch. During the reign of Mattimeo, the ecclesiarchy launched an attack on Gomorra and positioned Gomorra as an external threat to the faith. With fervor and conviction, he inspired the masses to take up arms, promising redemption, protection, and glory. The crusades proved successful in expanding the faith's influence and safeguarding its interests."},
 			{"text": "As the crusades unfolded, the ecclesiarchy's power continued to grow. Mattimeo took advantage of this opportunity to launch further crusades into Umbria and Romagna. The faith's dominance over the continent was solidified, and the Holy Ecclesiarch became the supreme authority in religious matters, effectively eclipsing the influence of secular rulers. At its zenith, the ecclessiatch not only spread its influence to the human race, Sanctum Regalia also managed to tie up cooperation with the stopover country of Vedic and convert some of its government members to Dualism."},
 			{"separator": true},
-			{"text": "Tips to play:"},
 			{"text": "Use your Crusaders to spread religion to the City-State, and if the other religion's pressure is too strong, use it for war instead."}
 			{"text": "Produce [Gold]  as much as possible, by allied with CS for 5 turns, you can annex them with [Gold]."},
 		]
@@ -910,6 +873,7 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Diplomatic",
 		"favoredReligion": "Preformationism",
+		"personality": "Zalash",
 		"style": "Moken",
 		
 		"startIntroPart1": "The Marunesia Empire was an empire that ruled the Maru Archipelago, most of the Seluma Continent, and parts of the Nortasia Continent on the north-eastern part of the Leihitu Sea. The empire was founded by Zephyr and became renowned for its maritime prowess and the wealth of its rulers, especially Zalash. Began as a small Regalia kingdom at the eastern part of Amali Island, the empire began to develop under the reign of Argeon. The empire continued to grow under the reign of Zalash, who brought the empire to its peak.",
@@ -928,11 +892,13 @@
 		"outerColor": [156,197,237],
 		"innerColor": [ 16, 25,115],
 		"uniqueName": "Thalassocracy",
-		"uniques": ["[+2 Gold] from every [Water resource]", 
-					"Enables [All] units to enter ocean tiles <after discovering [Compass]>", 
-					"[+15]% Production when constructing [{Military} {Water}] units [in all coastal cities]", 
-					"Comment [+1 [Happiness] in cities with an improved Bonus or Luxury resources on Coast]", 
-					"[Work Boats] units gain the [Trawl] promotion"],
+		"uniques": [
+			"[+2 Gold] from every [Water resource]", 
+			"Enables [All] units to enter ocean tiles <after discovering [Compass]>", 
+			"[+15]% Production when constructing [{Military} {Water}] units [in all coastal cities]", 
+			"Comment [+1 [Happiness] in cities with an improved Bonus or Luxury resources on Coast]", 
+			"[Work Boats] units gain the [Trawl] promotion <hidden from users>"
+		],
 		"cities": ["Regalia","Alion","Gatland","Burnei","Vinia","Sibisia","Codendia","Riverbed","Schoels Ridge","Magath Trench",
 			"Seamountea","Creef","Galesia","Aneka","Moresby","Palau","Tishtar","Cari","Orta","Tertis"],
 		"spyNames": ["Zephyr","Argeon","Squalos","Talis","Avian","Nova","Askane","Orzish","Triki","Veve"],
@@ -940,7 +906,6 @@
 			{"text": "The Marunesia Empire is an empire that ruled the Maru Archipelago, most of the Seluma Continent, and parts of the Nortasia Continent on the north-eastern part of the Leihitu Sea. The empire was founded by Zephyr and became renowned for its maritime prowess and the wealth of its rulers, especially Zalash. Began as a small Regalia kingdom at the eastern part of Amali Island, the empire began to develop under the reign of Argeon. Argeon's marriage to Remia of the Arun dynasty increased the empire's power to control the entire island of Amali."},
 			{"text": "Under the reign of Zalash, the Marunia Empire strengthened its maritime power to conquer Vinia, Sibisia, and Zilla Island, which was renamed Burnei Island. Zalash then destroyed the Kingdom of Panema, which was in decline, and re-developed the city a decade later as Codendia, which became the major city of the Marunesia Empire in the province of Seluma. During this period, trade routes shifted from mainly land-based trade routes to mostly sea trade routes. The empire's economy grew rapidly and became so prosperous, allowed Zalash to purchase land in Nortasia and connect the islands of Vinia and Sibisia by land reclamation."},
 			{"separator": true},
-			{"text": "Tips to play:"},
 			{"text": "A Wealthy water-based Civ. Its UU, Zeal Galleass, is a powerful middle-aged unit capable of entering Ocean before any other civilization except Almuria. "},
 			{"text": "Your best bet is to construct Ulu Wae near water resources and land tiles, combined with the Golden Anchor Statue Wonder."}
 		]
@@ -953,6 +918,7 @@
 		"startBias": ["Hill","Jade"],
 		"preferredVictoryType": "Cultural",
 		//"favoredReligion": "Balance",
+		"personality": "Long Aotian",
 
 		"startIntroPart1": "The Tianwu Empire is an empire centered on the city of Tianwu, formed as a result of imperial expansion under the Long dynasty heralded by its 7th king, Long Aotian. The Long dynasty was founded by Long Jie in the Longshu Valley. The Longshu capital was moved to Wudang by the 3rd king Long San, who introduced the concept of cultivation. During the reign of Long Aotian, the capital relocated to Tianwu, and the kingdom became an empire after Aysus was annexed. During its peak, the empire reunited the successor kingdoms of the Shinso and other kingdoms on the coast of the Leihitu Sea.",
 		"startIntroPart2": "Greetings to you, Venerable Long Aotian, leader of martial artists and emperor of Tianwu. In a land where the strong make the rules and weak must obey, a land filled with alluring treasures yet unforseen danger lurkes, Tianwu was formed. After endured the long yet harsh training, not only did you avenged the death of your father, you bought the era of greatness to your people and dominated Jianghu. Venerated Patriarch, will you lead your people again? Can you build a civilization that will stand the test of time?",
@@ -989,7 +955,6 @@
 			{"text": "The Tianwu Empire is an empire centered on the city of Tianwu, formed as a result of imperial expansion under the Long dynasty heralded by its 7th king, Long Aotian. The Long dynasty was founded by Long Jie in the Longshu Valley. The Longshu capital was moved to Wudang by the 3rd king Long San, who studied Onmyōdō from the surrounding kingdoms and further developed the concept of yin and yang and five elements. Long San introduced the concept of cultivation, the process of improving health, increasing longevity, and growing powerful to attain godhood, a concept that was opposed by the surrounding kingdoms for violating the norms of nature and deviating from the pure teachings of Onmyōdō."},
 			{"text": "When his father Long Jiu died by poisoning, Long Aotian took control and moved the capital into Tianwu. Long Aotian proved adept at diplomacy as well as combat. He was acknowledged as the emperor after defeating Yuji, who was accused of abetting his father's death, and incorporated Aysus into the Tianwu Empire. During his reign, the Tianwu Empire reached its peak, reuniting the successor kingdoms of the Shinso and other kingdoms on the coast of the Leihitu Sea. Long Aotian founded many sects dedicated to the practice and development of cultivation and/or martial arts. He also entered into a trade partnership with Marunesia, which provided lots of spirit stones used as the official currency in the empire."},
 			{"separator": true},
-			{"text": "Tips to play:"},
 			{"text": "If you have enough Iron, choose Path of Sword as it has more unit varioation including Warrior."},
 			{"text": "Transform tour Shifu to Longswordsman if you choose Path of Sword, and vice versa. It is best use Shifu to garner Monk skills before transfrom it to either Longswordsman or Pikeman."}
 		]
@@ -1005,6 +970,7 @@
 		"startBias": ["Avoid [Tundra]"],
 		"preferredVictoryType": "Domination",
 		"favoredReligion": "Monetarism",
+		"personality": "Valadorn",
 		"style": "Human",
 		
 		"startIntroPart1": "The Kingdom of Thorin, also known as the Thorin Empire, was a Balvarian monarchy ruled by the Rasmey dynasty. It reached its Golden Age of political and economic strength during the reign of King Galamar II which extended its realm to the borders of the Rain Forest and the Berenger Kingdom in the south and The Kingdom of Malus in the southwest. Later, the kingdom managed to conquer Malus during the reign of King Valadorn the Usurper. Lasting for several centuries, the kingdom fell to the combined invasions of the Urg and Rog in the Great War of Balvaria.",
@@ -1037,7 +1003,6 @@
 			{"text": "The Kingdom of Thorin, also known as the Thorin Empire, was a Balvarian monarchy ruled by the Rasmey dynasty. During the reign of Galamar II, the kingdom expanded its territory to the borders of the Rain Forest and Berenger Kingdom in the south and The Kingdom of Malus in the southwest. Because he controlled a very large area in the north, Galamar II and his successors were given the honorary title of The King in the North. After the death of Galamar V at the Battle of Malus, Valadorn took over leadership of the kingdom, forcing Galamar VI into exile in Berenger Kingdom, and went into hiding in the Dukedom of Nas."},
 			{"text": "During his reign, Valadorn succeeded in conquering Malus in the continuation of the War of Malus. Malus, however, managed to re-assert sovereignty after Thorin was invaded by the Urg and Rog simultaneously from the north and northeast, which marked the beginning of the Great War of Balvaria. Attacked from three sides, including a mutiny by the remnants of Malus' army, the Kingdom of Thorin collapsed. Valadorn and his subjects was slaughtered by Saeth, leaving Galamar VI as sole successor to the Rasmey dynasty."},
 			{"separator": true},
-			{"text": "Tips to play:"},
 			{"text": "Mounted Civ, fastest Civ on Land, with extra Sight for every Military Land unit, fokus warring it is."},
 			{"text": "Thorin can scout map faster than any other civilization. Use it to scout enemy armies and cities."}
 		]
@@ -1050,6 +1015,7 @@
 		"startBias": ["Grassland"],
 		"preferredVictoryType": "Scientific",
 		"favoredReligion": "Butterfly Effects",
+		"personality": "Barret Barrtö",
 		"style": "Human",
 		
 		"startIntroPart1": "The Kingdom of Malus is a state in south-central Balvaria and is bordered by the Berenger Kingdom in the southeast and the Thorin Empire in the northeast. It was established by Artyom after the death of the 3rd Karaeng (King) of Shaquad, Rouben. The kingdom reaches its peak under the reign of Barret who managed to defeat Thorin's army under Galamar V. Conquered by Valadorn in the Battle of Mlese, Barret managed to re-assert Malusian sovereignty and even expanded the kindom's territory to the Stoughry River.",
@@ -1078,7 +1044,6 @@
 			{"text": "The Kingdom of Malus is a state in south-central Balvaria and is bordered by the Berenger Kingdom in the southeast and the Thorin Empire in the northeast. It was established after the death of the 3rd Karaeng (King) of Shaquad, Rouben. Rouben's successor as the 4th Karaeng of Shaquad was his eldest son Temuraz, while his younger brother Artyom crossed the Lake Tandano and established the Kingdom of Malus. After the ascension of Barret, envoys of the Thorin Empire delivered an ultimatum to Barret. Under the Thorans terms, Malus would have been required to disband his army and accept Thorin's sovereignty. Barret refused, and the war between Malus and Thorin began."},
 			{"text": "The War of Malus started with a battle on the Pariaman-Sudd Garden border. Despite an early victory for the Thorans at the Sudd Garden Conflict, Malusian fought back and won the Battle at Laiden Hill, the Battle of Pariaman, and the Battle of Tlulao, where Galamar V was killed by Barrett in an unexpected swift attack in the early hours of the morning. After becoming emperor of Thorin, Valadorn attacked Malus again. With better strategy and logistics, the Thorans decisively defeated the Malusian army. In the end Malus managed to re-assert sovereignty and even expanded the kingdom's territory to the Stoughry River."},
 			{"separator": true},
-			{"text": "Tips to play:"},
 			{"text": "An Anti-Cavalry civ, with all troop-training building and its unique building, Malusian units may pick 3 skills immediately."},
 			{"text": "Focus on attacking barbarians, not only it will provide experience, it'll also provides [Science] based on its [Production] costs."}
 		]
@@ -1091,6 +1056,7 @@
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Domination",
 		"favoredReligion": "Uncertainty",
+		"personality": "Saeth",
 		"style": "Demonic",
 		
 		"startIntroPart1": "The Urg were an ancient race of formerly-living undead creatures who came from the far north of Balvaria. Born of powerful and untested magic, they were created by the Darkle Wizard, which eventually broke free of the Wizard's control and serve Saeth. Leading his army of the dead and ogres of Rog to conquer the Thorin Empire, Niranna, Canthyria, Saeth eventually defeated in Battle of Laromon against Aeyris Alliances.",
@@ -1124,7 +1090,6 @@
 			{"text": "The Urg were an ancient race of formerly-living undead creatures who came from the far north of Balvaria. Born of powerful and untested magic, they were created to serve and protect the Darkle Wizard, from Anaxandridas the Chaos Spear and Pengging the Crimson Sword who hunted her for performing necromancy and magical ritual by stealing the corpses of girls. However, the Urg eventually broke free of the Wizard's control after she was killed by the heroes and traveling north under the call of Saeth of Tugu, her last undead resurrected from the former leader of the Pidians."},
 			{"text": "After remaining hidden for uncounted years, Saeth led an army of undead and ogres of Rog to conquer the Thorin Empire, killing its leader in a fierce battle. Saeth then set his sights on the southern reaches of Rain Forest, home of the Niranna elves. He led his army against the elven warriors, but they were ill-prepared for the dark magic that Saeth wielded. But Saeth's victory was short-lived, as the Dryads of the Rain Forest, powerful beings of nature magic, rose up against him. They summoned the power of the forest to defeat Saeth's undead army and drive him back. Later, Saeth defeated in the Battle of Laromon against Aeyris Alliances."},
 			{"separator": true},
-			{"text": "Tips to play:"},
 			{"text": "War is after you create lots Dullahan and Fury, and since Skroths are fast, domination it must be."},
 			{"text": "Don't be fooled by the Force number after you gain a (lots of) Fury, because it can only be used to attack once."}
 		]
@@ -1137,6 +1102,7 @@
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Scientific",
 		"favoredReligion": "Spontanism",
+		"personality": "Galamar",
 		"style": "Human",
 		
 		"startIntroPart1": "Nas was a duchy under Berenger Kingdom bordered with Clockwerk to the East and Nevdes to the West in the north-central part of Balvaria. After the Fall of Thorin, Saeth formed an alliance with King Yergtan the Mad, which was disapproved of by the Duke of Nas, Galamar. The King, seeing the Duke's rebellion as a threat to his rule, ordered his army to march against Nas Dukedom. Realizing he couldn't win, Galamar accepted Nualla's offer to form the Aeyris Alliances to defeat Berenger's dan Saeth's forces.",
@@ -1166,7 +1132,6 @@
 			{"text": "Nas was a duchy under Berenger Kingdom located on the Tanait plains in the north-central part of Balvaria. The exact location of the Dukedom of Nas is in the southernmost part of the Kingdom of Berenger, bordered with Clockwerk to the East and Nevdes to the West. After Valadorn took over leadership of Thorin, Galamar VI went into exile in the Berenger Kingdom and was made the Duke of Nas by King Vayne for his contributions in the Battle of Raven's Roost and the Siege of Rosemount."},
 			{"text": "After the Fall of Thorin and the formation of an alliance between Saeth and King Yergtan, Galamar urged the King to rethink his decision. The King refused to listen and ordered his army to march against Nas Dukedom. Realizing he couldn't win, Galamar accepted Nualla's offer to form the Aeyris Alliances, and managed to persuade the alliances to lend their troops in the war against Berenger's army. In the Battle of Laromon, Galamar killed Saeth using the legendary sword Flamespitter."},
 			{"separator": true},
-			{"text": "Tips to play:"},
 			{"text": "Your best bet is to attack as many unique unit as possible, especially Dracula which has increased Strength every age."},
 			{"text": "Be allied with Militaristic City-States. Besides, Laskar is very strong against Melee units."}
 		]
@@ -1179,6 +1144,7 @@
 		"startBias": ["Forest"],
 		"preferredVictoryType": "Diplomatic",
 		//"favoredReligion": "Balance",
+		"personality": "Nualla Nina",
 		"style": "Elves",
 		
 		"startIntroPart1": "The Niranni Elves are a group of elves from the southern reaches of Rain Forest. They were known for their intelligence, creativity and mastery of craftsmanship. The most famous weapon they have created is the Flamespitter, used by Galamar to kill Saeth. Their leader, Nualla is the founder of Aeyris Alliance, a multi-race alliance that includes Niranna, Canthyria, Nas, Clockwerk, and Nevdes. This alliance managed to defeat Saeth of Tugu, Ttarmek the Torog, Zorgorath of Urush, and Bulvan the Necromancer.",
@@ -1207,7 +1173,6 @@
 			{"text": "The Niranni Elves are a group of elves from the southern reaches of Rain Forest. They were known for their intelligence, creativity, and mastery of craftsmanship. The most famous weapon they have created is the Flamespitter, used by Galamar to kill Saeth. Unlike the Sulvani, who left Rain Forest and migrated to Blathan Jungle, the Niranni remained in the Forest until Thanue married with Araros son of Aratoros, leader of a clan of centaurs named Grimhorn, which indirectly expanded Niranna's territory."},
 			{"text": "When Saeth conquered Thorin, Nualla realized that the Niranni needed to form an alliance with other kingdoms to protect themselves and their home. She reached out to the Berenger Kingdom, Canthyria, Clockwek, and Nevdes hoping to create a multi-race alliance against Saeth. However, her efforts were in vain, as the Berenger Kingdom chose to side with Urg and revealed their secret plan to Saeth. Saeth, now armed with this knowledge, easily conquers Niranna and Canthyria. The situation changed when the Dryads of the Rain Forest rose up against Saeth, summoning the power of the forest to defeat his army and drive him back. Nas and Nevdes, who joined later, made the Aeyris Alliances the strongest alliance in the history of mankind."},
 			{"separator": true},
-			{"text": "Tips to play:"},
 			{"text": "Niranna favor diplomacy. Make Friend as much as possible, the goal is to get great person generation and research agreement bonus."},
 			{"text": "Centaurs are a typical hit and run unit. If you don't like your neighbors and wamt to expand, or being attacked, use this fast unit of yours."}
 		]
@@ -1220,6 +1185,7 @@
 		"startBias": ["Forest"],
 		"preferredVictoryType": "Cultural",
 		//"favoredReligion": "Balance",
+		"personality": "Ridha Mascha",
 		"style": "Dryad",
 		
 		"startIntroPart1": "Rain Forest is an ancient forest located on central Balvaria. The forest is considered sacred and is known for its magical properties, with a dense canopy of trees that block out most of the sunlight, and an ecosystem of its own. A dark place, Rain Forest inhabited by the Rainee, consisting of dryads, hamadryads, ents, and any other non-hostile species hunted in the outside world. The forest and its inhabitants play a crucial role in the Great War of Balvaria, as the Rainee march against Malakar's stronghold, Ancient Citadel, and help to turn the tide of the war in favor of the Aeyris Alliances.",
@@ -1251,7 +1217,6 @@
 			{"text": "Rain Forest is an ancient forest located in central Balvaria. The forest is considered sacred and is known for its magical properties, with a dense canopy of trees that block out most of the sunlight, and an ecosystem of its own. A dark place, Rain Forest inhabited by the Rainee, consisting of dryads, hamadryads, ents, and any other non-hostile species hunted in the outside world. Initially, the Rainee were reluctant to take action in the Great War of Balvaria, as they preferred to observe and protect the natural world rather than engage in conflict. However, after learning about the destruction caused by Saeth and his armies, the Rainee decides to join the fight. They are motivated by their anger and desire to protect the forests and creatures that live within them."},
 			{"text": "During the Battle of Niranna, the Dryads of Rain Forest, with the help of Ents, rose up against Saeth, summoning the power of the forest to defeat his army and drive him back. This event marked the beginning of the Rainee's open diplomation with the outside world. Despite not taking part in the Battle of Laromon, the Rainee's attack on Ancient Citadel and disrupting Malakar's supply greatly contributed to the Aeyris Alliances victory. Later, the Rainee was responsible for wiping out the remnants of the trolls hiding in the western part of the forest."},
 			{"separator": true},
-			{"text": "Tips to play:"},
 			{"text": "Build Threesed as fast as possible since it'll boost cities production, and if you want, buy (or just conquer) cities with lots Lumber mill."},
 			{"text": "Place Ranged units on Forest and shoot every enemy passing through."}
 		]
@@ -1264,6 +1229,7 @@
 		"adjective": ["Necrons"],
 		"preferredVictoryType": "Domination",
 		"favoredReligion": "Uncertainty",
+		"personality": "Bulvan",
 		"style": "Demonic",
 		
 		"startIntroPart1": "The Necrons was a group of undead led by Bulvan the Necromancer, the last survivor of the Tethir family, ruling family of the Berenger Kingdom. During the Dissolution of Berenger, he was saved by Galamar and adopted by Camon the Doctor. Learning the fate of his family, he felt a burning desire for revenge and devoted himself to the study of necromancy, hoping to bring back his loved ones. Unintentionally, Bulvan opened a portal to the netherworld, summoning the demon lord Zorgorath who taught him the perfect art of necromancy and path of lichdom.",
@@ -1293,7 +1259,6 @@
 			{"text": "The Necrons was a group of undead led by Bulvan the Necromancer, the last survivor of the Tethir family. He was the prince of Berenger Kingdom and destined for greatness, but his grandfather Yergtan made a fateful decision to side with Saeth. As a result, the kingdom was opposed by Nas Dukedom and the surrounding kingdoms. During the Dissolution of Berenger, the Tethir family was killed and the kingdom was destroyed. the Aeyris Alliances, at Galamar's behest, rescued infant Bulvan and later adopted by Camon the Doctor, who taught him magic."},
 			{"text": "As Bulvan grew up, he learned about the fate of his family and kingdom. He felt a burning desire for revenge and a need to bring back his loved ones from the dead. He devoted himself to the study of necromancy, determined to master the dark arts despite his mentor's repeated prohibitions. One fateful night, while attempting to resurrect the dead, Bulvan opened a portal to the netherworld, summoning the demon lord Zorgorath to the Earth. Zorgorath saw an opportunity to expand his power, and because he needed preparation to summon his army, Zorgorath taught Bulvan the perfect art of necromancy and path of lichdom."},
 			{"separator": true},
-			{"text": "Tips to play:"},
 			{"text": "Playing Necropoleis means playing wide as you want to maximize its free units, but needs a tall capital because it is necessary to raise Great Generals."},
 			{"text": "Lich may raise enemies dead troops to join their cause."}
 		]
@@ -1305,6 +1270,7 @@
 		"adjective": ["Giants"],
 		"preferredVictoryType": "Diplomatic",
 		"favoredReligion": "Butterfly Effects",
+		"personality": "Magnar",
 		
 		"startIntroPart1": "Giants are a non-human race that comes from the Nusa Islands. The first giant civilization was founded by Magnar, who united the giant groups Förstarna and Andarna on the Horn of Balvaria. In the Battle of Karl Doral, the giants almost vanquished Dwargon before Higba decided to ride his rudimentary Orichalcum Golem. Acknowledging his opponent's power, Magnar decided to stop the attacks, and later helped Dwargon's defenses after Almira gave Magnar the Heart of Perpetuity as a condition of the 500 Years of Peace treaty.",
 		"startIntroPart2": "Honor and glory be yours, Og Magnar, founder of the Erhab Tribe and his strongest and most tactful Og . It was because your greatness that giant race united and emerged as the greatest powers in the world. Mighty Og, Will you accept the challange to lead your people to renewed power and triumph? Can you build a civilization that stands the test of time?",
@@ -1333,7 +1299,6 @@
 			{"text": "Giants are a non-human race considered to be a legend by the inhabitants outside of Balvaria. However, giants do actually exist in Nusa Islands, and never interact with the outside world. The first civilization the giants interacted with was Dwargon, when a group of giants called Förstarna, or the First Giants, crossed the Vänern Sea and settled on the Horn of Balvaria, with whom they periodically clashed. The Second Giants, Andarna, came during the Dissolution of Berenger. The giants, under the leadership of Magnar, formed a mercenary group of giants because of their power and the difficulty of finding plentiful food. Erhab, meaning terrors, is the name given by the Dwarni to the giants because of their terrifying presence."},
 			{"text": "During the Great War of Balvaria, Erhab joined Zorgorath's army to attack Khemul and Dwargon. witnessing Khemul's destruction, the Dwarni immediately readied their golems to counter Erhab's attacks. In the Battle of Kar Doral, the giants almost vanquished Dwargon before Higba decided to ride his rudimentary Orichalcum Golem. Acknowledging his opponent's power, Magnar decided to stop the attacks, and later helped Dwargon's defenses after Almira gave Magnar the Heart of Perpetuity as a condition of the 500 Years of Peace treaty."},
 			{"separator": true},
-			{"text": "Tips to play:"},
 			{"text": "Spam Melee units, they'll get +10% Strength and extra +10% Strength when defending after constructing Sacred Dance. "},
 			{"text": "Be ally with City-State especially Militaristic, their melee unit gifts can be gifted to them back for more Influence. Or, just gift them a recon unit."}
 		]
@@ -1346,6 +1311,7 @@
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Scientific",
 		"favoredReligion": "Preformationism",
+		"personality": "Almira",
 		"style": "Dwarves",
 		
 		"startIntroPart1": "Dwargon is a dwarves kingdom centered in the city of Dhin Kahldur on the eastern side of the Vättern Sea. Living in a small kingdom, the Dwarni were known for their engineering prowess, and their most prized possession was a fleet of giant mecha machines. The mecha golem were a source of pride and strength for the Dwarni dwarves, and they cherished them as symbols of their power. Later, Higba and his personal team of engineers developed a more powerful mecha golem, Orichalcum Golem, which was perfected by Almira.",
@@ -1378,7 +1344,6 @@
 			{"text": "Dwargon is a dwarves kingdom centered in the city Dhin Kahldur on the eastern side of Vättern Sea. Living in a small kingdom, the Dwarni were known for their engineering prowess, and their most prized possession was a fleet of giant mecha machines.The mecha golem were a source of pride and strength for the Dwarni dwarves, and they cherished them as symbols of their power. The mecha golem was mainly used to defend their kingdom againts Erhab, with whom they periodically clashed."},
 			{"text": "During the Battle of Kar Doral, the Dwargons endured Erhab's full attack with their mecha golems. The mecha machines proved to be a formidable weapon, but the giants were relentless. The Dwarni dwarves were pushed back, and their kingdom was in danger of falling. In a last ditch effort to save his people, Higba, King of Dwargon, unleashed the ultimate weapon – Orichalchum Golem. This powerful mecha was the result of years of hard work and dedication by Higba and his personal team of engineers. Even though it's still in development, the mecha golem helps Dwargon won the battle but the victory came at a great cost., Higba's life. Almira, one of his team of engineers, became the Queen of Dwargon and created the Heart of Perpetuity. She signed the 500 Years Peace Treaty with the giants and ordered the completion of the Orichalcum Golem to anticipate any new threats that may come."},
 			{"separator": true},
-			{"text": "Tips to play:"},
 			{"text": "Settle on hill to maximize it's uniques, especially next to a Mountain since Tinkerer's Depot can only be built next to a Mountain."},
 			{"text": "If possible, bring Orichalchum Golem to every battlefield to boost your Military strength."}
 		]
@@ -1391,6 +1356,7 @@
 		"startBias": ["Hill"],
 		"preferredVictoryType": "Domination",
 		//"favoredReligion": "Spontanism",
+		"personality": "Ttarmek",
 		
 		"startIntroPart1": "The trolls were a large and monstrous, but generally dim-witted, humanoid race inhabiting Balvaria. Their hide was as thick as stone and nigh-impervious to physical attacks. The first breed of trolls has a major weakness: sunlight will return them to the stone they were made from. The second breed of trolls, Torog, are capable of speech, smarter, and able to move under the sun. Under the leadership of Ttarmek, the trolls managed to conquer Nevdes, resisted the Malusian attacks, and helped Zorgorath by activating the Endless Door.",
 		"startIntroPart2": "Grusira, Ttarmek the Unbreakable, Leader of Torog and Lord of the Trolls. Your Lord Zorgorath calls upon you again to help him conquer the world. Will the trolls rise again? Will you sit in victory upon the thrones of your enemies? Can you build a civilization that will stand the test of time?",
@@ -1418,7 +1384,6 @@
 			{"text": "The trolls were a large and monstrous humanoid race inhabiting Balvaria. Trolls were strong and vicious but generally dim-witted. Some were described as being able to speak, while others appear to be as irrational as animals. Their hide was as thick as stone and nigh-impervious to physical attacks. The first breed of trolls are called by Zorgorath from the netherworld, and they have a major weakness: sunlight will return them to the stone they were made from. The second breed of trolls, Torog, are capable of speech, smarter, and able to move under the sun."},
 			{"text": "Shortly after Bulvan's defeat, Zorgorath speeds up his plan and sends the giants of Erhab to attack Dwargon, and sends the trolls to attack Nevdes. In the swift attack, Nevdes was defeated, as most of Nevdes' troops joined the Aeyris Alliances in the war against Bulvan. Zorgorath ordered Ttarmek to open the Endless Door in one of the dungeons of Nevdes, one of which is connected to the Slumbering Gate, so that Zorgorath could send more troops there. Opposing the chances of Zorgorath ruling the world, Barret, king of Malus, declared war against the trolls and marched to the southeast to cancel the operation. Despite the Malusian efforts, Ttarmek and his army of trolls managed to defend the conquered city."},
 			{"separator": true},
-			{"text": "Tips to play:"},
 			{"text": "Immediately contruct Workers to improve Hill or or mined resources, this will increase your city's [Production] faster than other civs."},
 			{"text": "it's uniques and Ramming Troll are a perfect combination to attack cities."}
 		]
@@ -1430,6 +1395,7 @@
 		"adjective": ["Sulvani"],
 		"preferredVictoryType": "Cultural",
 		"favoredReligion": "Evolutionism",
+		"personality": "Lulla",
 		"style": "Elves",
 	
 		"startIntroPart1": "The Sulvani Elves are a group of elves from the Blathan Jungle. They are known for their love of music, singing, and the arts. In the past, the Sulvani elves lived in the southern reaches of the Rain Forest alongside the Niranni elves. However, the Sulvani later became distant from the Niranni, as the Niranni's desire for power and control caused tension between the two groups. The most prominent figure of Sulvana is Queen Lulla Artiana, who leads her people in the liberation of the Blathan Jungle and manages to kill Azaniroth. Later, she joined the Aeyris Alliances and built the Aschar Grove for the alliances.",
@@ -1457,7 +1423,6 @@
 			{"text": "The Sulvani Elves are a group of elves who are famous for their love of music, singing, and arts. They inhabit the land of Java in the southern reaches of Rain Forest, but many of them later migrate to Blathan Jungle. Both groups of elves, Niranna and Sulvana, are descendants of the Chorislaviani, and coexist under one banner. However, the Sulvani later became distant from the Niranni, as the Niranni's desire for power and control caused tension between the two groups."},
 			{"text": "The most prominent figure of Sulvana is Queen Lulla Artiana, who leads her people in the struggle against Zorgorath's forces. The counterattack led by Lulla was carried out after Zorgorath and most of his troops had departed for the Nevdes through the Endless Door. In the Liberation of the Blathan Jungle, Lulla manages to kill Azaniroth and closes the Slumbering Gate, one of the gates of the Endless Door, to prevent Zorgorath's army coming back through the portal. Later, she joined the Aeyris Alliances and built the Aschar Grove for the alliances."},
 			{"separator": true},
-			{"text": "Tips to play:"},
 			{"text": "Choose Divine Spark when you choose a Pantheon, and settle next to fresh water to gain access to Garden."},
 			{"text": "Fokus on generate Maeron to construct Sacred Grove."}
 		]
@@ -1469,6 +1434,7 @@
 		"adjective": ["Demonic"],
 		"preferredVictoryType": "Domination",
 		"favoredReligion": "Preformationism",
+		"personality": "Zorgorath",
 		"style": "Demonic",
 		
 		"startIntroPart1": "Urush was a demonic state led by Zorgorath the Black Hand. Coming from the netherworld, Zorgorath was summoned by Bulvan, who attempted to resurrect his family, but instead, opened a portal to the netherworld. Realizing the situation, Zorgorath intends to create his own branch of Hell and establish himself as its sole ruler. During its peak, Urush managed to conquer proud Sulvana, wealthy Nevdes, the nascent Kingdom of Nas, including the former area of the Berenger Kingdom and the Thorin Empire, and many areas under the control of Bulvan  and Ttarmek.",
@@ -1507,7 +1473,6 @@
 			{"text": "Urush was a demonic state led by Zorgorath the Black Hand. Coming from the netherworld, Zorgorath was summoned by Bulvan, who attempted to resurrect his family, but instead, opened a portal to the netherworld. Realizing the situation, Zorgorath intends to create his own branch of Hell and establish himself as its sole ruler. Wary that his arrival would be disturbed by the Aeyris Alliances, while he needed preparation to summon his army, Zorgorath devised a plan to stall time. He taught Bulvan the perfect art of necromancy and the path of lichdom, and at the same time he corrupted Bulvan's mind with hatred and anger towards the alliances. He orchestrated Bulvan's revenge, which marked the start of the Second Balvarian War."},
 			{"text": "Shortly after Bulvan's defeat, Zorgorath speed up his plan and attacked Sulvana sooner than he had planned, seeking to raid their city and crush the Sulvani elves resistance to his rule before his enemies could fortify it. At the same time, Zorgorath sent Erhab to attack Dwargon and the Trolls to attack Nevdes. After successfully conquering Sulvana, Zorgorath and most of his army departed for the Nevdes via the Endless Door, leaving behind a small force led by Azaniroth. Before being defeated by the Aeyris Alliances, Zorgorath and his army managed to conquer proud Sulvana, wealthy Nevdes, the nascent Kingdom of Nas, including the former area of the Berenger Kingdom and the Thorin Empire, and many areas under the control of Bulvan  and Ttarmek."},
 			{"separator": true},
-			{"text": "Tips to play:"},
 			{"text": "Urush gain access to summon Archdemon Kor'vash immediately starting from the Heroic age, without having to build a portal. This allows Urush to have the first 'Hero' unit."},
 			{"text": "Its unique unit heals everytime it kills, so make sure to last hit enemy unit with the least HP Cerberus."}
 		]
@@ -1519,6 +1484,7 @@
 		"adjective": ["Witches"],
 		"startBias": ["Jungle"],
 		"favoredReligion": "Preformationism",
+		"personality": "Claudia",
 	
 		"startIntroPart1": "Red Moon is an organization that takes in and protects witches from across the Balvaria. The organization was originally formed by a few witches, including Veronika, in the Sea Wind Region who wished to protect themselves from persecution. After their shelter being attacked, the witches seek to find the Sabbath but failed. Under the leadership of Claudia, they established a settlement in Blasicken. Later, they joined the Aeyris Alliances with their senior members holding important positions in the alliances.",
 		"startIntroPart2": "Greetings, Lady Claudia the Truth-Eye! As a lady with unique powers, many feel both admiration and envy for you. Our wondrous Lady, once more the witches look to your guidance for understanding their power and controlling it. Will you guide them so they do not bring harm to the people around them or to themselves? Can you build a civilization that will stand the test of time?",
@@ -1548,7 +1514,6 @@
 			{"text": "Red Moon is an organization that takes in and protects witches from across the Balvaria. The organization was originally formed by a few witches, including Veronika, in the Sea Wind Region who wished to protect themselves from persecution. They made their shelter in a forest and avoided contact with the outside world. After their shelter being attacked, Veronika decided to use the information in a book she called the Holy Book, to lead her sisters to the Sabbath, a place rumored to be where witches can go through their Day of Awakening with no pain and live peacefully."},
 			{"text": "Despite their efforts, the witches couldn't locate the Sabbath. Along the way, they encounter Claudia, who has the ability to read the hidden messages contained in the book. Turns out the book keeps secrets about the Moon Thread, a project to trap the entire world in a dream, thus saving mankind from destroying itself but also robbing free will from the entire world. However, the project needs a magical stone called the Tridstone, which was lost during the Doom of the Old World. Losing their hopes, Claudia then established a settlement in Blasicken for the witches. Later, she was approached by Queen Nualla to join the Aeyris Alliances and fight against Zorgorath."},
 			{"separator": true},
-			{"text": "Tips to play:"},
 			{"text": "Save [Faith] as much as possible to summon Mage unit, beside summoning Hero of course."},
 			{"text": "When available, pick Piety sub policies for more benefit, either more Faith, Gold, or to unlock Monk-type units."}
 		]
@@ -1563,6 +1528,7 @@
 		"startBias": ["Tundra"],
 		"preferredVictoryType": "Cultural",
 		"favoredReligion": "Evolutionism",
+		"personality": "Tormund Drake",
 		"style": "Icemen",
 		
 		"startIntroPart1": "Frostmorrow, also called The Frozen Empire, was a powerful empire of Central Omora that stretched from Samara in the North to Samara in the North. It grew to become the largest Frosten-speaking state and rose through the outstanding organizational skills of the Frostmorrow people, wealth gained from trade of Cultivated farm yields, and their adaptability to the ferocity of the cold. The Frozen Empire was one of the most politically important states in the entirety of Central Omora, and held sway not only over most of the other kingdoms in Central Omora, but also over nearby North Omora states, notably the Leonin Kingdom.",
@@ -1592,7 +1558,6 @@
 			{"text": "Frostmorrow, also called The Frozen Empire, was a powerful empire of Central Omora that stretched from Samara in the North to Samara in the North. It grew to become the largest Frosten-speaking state and rose through the outstanding organizational skills of the Frostmorrow people, wealth gained from trade of Cultivated farm yields, and their adaptability to the ferocity of the cold. The Frozen Empire was one of the most politically important states in the entirety of Central Omora, and held sway not only over most of the other kingdoms in Central Omora, but also over nearby North Omora states, notably the Leonin Kingdom."},
 			{"text": "Beginning with the reign of Hassel, Frostmorrow minted its own coins, which have been excavated in locations as far north as Samara, in the Frittond Hill near the Caesarea Forest. The kingdom continued to expand throughout late antiquity, conquering Frostwaste, from whom it inherited the exonym 'Frozen'. The Frostmorrowi dominance in the region culminated during the reign of Tormund Drake, who invaded the Odeila Kingdom in order to avenge the dead of his adopted son by King Atley. With the annexation of Odeila, the Kingdom of Frostmorrow reached its largest territorial extent. However, the kingdom known only by those inhabited in the Continent of Omora as Omora is surrounded by 3 major oceans, namely the Lamuri Ocean, the Bravorlr Ocean, and the Firorr Ocean."},
 			{"separator": true},
-			{"text": "Tips to play:"},
 			{"text": "Fokus on specialists, Frostmorrow is the only Civ with [Food]-producing specialists and they generate 25% less unhappiness."},
 			{"text": "Build lots Yeti when available, no Niter needed."}
 		]

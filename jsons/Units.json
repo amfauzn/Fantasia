@@ -391,26 +391,6 @@
 		]
 	},
 	{
-		"name": "Bladedancer",
-		"uniqueTo": "Ilythiir",
-		"replaces": "Swordsman",
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 17,
-		"cost": 75,
-		"requiredTech": "Iron Working",
-		"upgradesTo": "Longswordsman",
-		"obsoleteTech": "Steel",
-		"uniques": ["Preachable"],
-		"promotions": ["Elusive"],
-		"requiredResource": "Iron",
-		"hurryCostModifier": 20,
-		"attackSound": "metalhit",
-		"civilopediaText": [
-			{"text": "Notorious for its agility and nimble movements, Bladedancer is an elusive target to hit. They move like a wind."}
-		]
-	},
-	{
 		"name": "Longswordsman",
 		"unitType": "Sword",
 		"movement": 2,
@@ -1317,9 +1297,8 @@
 		"requiredTech": "Rocketry",
 		"uniques": [
 			"No defensive terrain bonus", 
-			"[-1] Sight"
+			"Ranged attacks may be performed over obstacles"
 		],
-		"promotions": ["Flare"],
 		"attackSound": "artillery"
 	},
 	
@@ -2467,7 +2446,8 @@
 			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"Can instantly construct a [Sacred Grove] improvement <by consuming this unit>",
 			"Great Person - [Culture]",
-			"Is part of Great Person group [Economy]"
+			"Is part of Great Person group [Economy]",
+			"Will not be displayed in Civilopedia"
 		],
 		"civilopediaText": [
 			{"text": "Visionary elves people, they can build and maintain the Sacred Grove which is a gathering place for all beauty and comfort."}
@@ -3258,68 +3238,4 @@
 			{"separator": true}
 		]
 	},
-	
-	// Will be removed
-	{
-		"name": "Skirmisher",
-		"unitType": "Archery",
-		"movement": 2,
-		"strength": 16,
-		"rangedStrength": 16,
-		"cost": 110,
-		"requiredTech": "Machinery",
-		"upgradesTo": "Arbalester",
-		"obsoleteTech": "Military Science",
-		"uniques": ["Footman","Unbuildable","Cannot be purchased","Will not be displayed in Civilopedia"],
-		"attackSound": "crossbow"
-	},
-	{
-		"name": "Gaius Duilius",
-		"unitType": "Ranged Water", 	// Ranged Water
-		"movement": 6,
-		"strength": 18,
-		"rangedStrength": 23,
-		"range": 2,
-		"requiredResource": "Hero Limiter",
-		"promotions": ["Navigator"],
-		"uniques": ["Unbuildable", "Hero", 
-					"Limited to [1] per Civilization", 
-					"Uncapturable", 
-					"Only available <if [Gaius Portal] is constructed>", 
-					"Never appears as a Barbarian unit","Will not be displayed in Civilopedia"],
-		"attackSound": "cannon"
-	},
-	{
-		"name": "Novice Beast Tamer",
-		"unitType": "Tamer",
-		"movement": 2,
-		"strength": 12,
-		"cost": 55,
-		"requiredTech": "Domestication",
-		"obsoleteTech": "Acoustics",
-		"upgradesTo": "Educated Beast Tamer",
-		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"],
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Educated Beast Tamer",
-		"unitType": "Tamer",
-		"movement": 2,
-		"strength": 12,
-		"cost": 55,
-		"requiredTech": "Acoustics",
-		"obsoleteTech": "Archaeology",
-		"uniques": ["Unbuildable","Will not be displayed in Civilopedia"],
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Oracle",
-		"unitType": "Bomber", // More area to see
-		"movement": 1,
-		"strength": 15,
-		"range": 2,
-		"uniques": ["[+12] Sight",  
-					"Unbuildable","Will not be displayed in Civilopedia"],
-		"attackSound": "whoosh"
-	}
 ]

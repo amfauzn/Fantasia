@@ -10,62 +10,76 @@
 			"Scientific": 5
 		},
 		"uniques": [
-			"[+3 Culture] [in capital]",
-			"[-25]% Culture cost of natural border growth [in capital]",
+			"[-40]% Culture cost of natural border growth [in capital]",
+			"[+1 Happiness] [in capital]",
 			"Comment [Unlocks [Cetho Lighyn]]"
 		],
 		"policies": [
 			{
-				"name": "Aristocracy",
-				"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]", 
-							"[+1 Happiness] per [10] population [in all cities]"],
+				"name": "Centralization",
+				"uniques": [
+					"[+2 Food, +1 Culture] [in capital]",
+					"[+10]% [Production] [in capital]"
+				],
 				"row": 1,
-				"column": 1
+				"column": 3
 			},
 			{
-				"name": "Legalism",
-				"uniques": ["Provides the cheapest [Culture] building in your first [4] cities for free", 
-							"[+2 Culture] from every [The Great Colosseum]", 
-							"[+2 Culture] from every [Hermitage]"],
-				"row": 1,
-				"column": 4
-			},
-			{
-				"name": "Oligarchy",
-				"uniques": ["Units in cities cost no Maintenance", 
-							"[+50]% Strength for cities <with a garrison> <when attacking>"],
-				"requires": ["Aristocracy"],
+				"name": "Crown Guards",
+				"uniques": [
+					"Units in cities cost no Maintenance",
+					"[+50]% Strength for cities <with a garrison> <when attacking>",
+					"[-50]% weight to this choice for AI decisions"
+				],
+				"requires": ["Centralization"],
 				"row": 2,
 				"column": 1
 			},
 			{
-				"name": "Landed Elite",
-				"uniques": ["[+10]% growth [in capital]", 
-							"[+2 Food] [in capital]"],
-				"requires": ["Legalism"],
+				"name": "Monarchy",
+				"uniques": ["[+1 Gold, +1 Happiness] per [2] population [in capital]"],
+				"requires": ["Centralization"],
 				"row": 2,
 				"column": 3
 			},
 			{
-				"name": "Monarchy",
-				"uniques": ["[+1 Gold, +1 Happiness] per [2] population [in capital]", 
-							"[+1 Production] per [5] population [in capital]"],
-				"requires": ["Legalism"],
+				"name": "Cultural Icons",
+				"uniques": [
+					"[+15]% Production when constructing [All] wonders [in all cities]",
+					"[+15]% Production when constructing [Colosseum] buildings [in all cities] <hidden from users>",
+					"[+15]% Production when constructing [College] buildings [in all cities] <hidden from users>",
+					"[+15]% Production when constructing [Monument] buildings [in all cities] <hidden from users>",
+					"[+15]% Production when constructing [Barracks] buildings [in all cities] <hidden from users>",
+					"[+15]% Production when constructing [Temple] buildings [in all cities] <hidden from users>",
+					"[+15]% Production when constructing [Market] buildings [in all cities] <hidden from users>",
+					"[+15]% Production when constructing [Workshop] buildings [in all cities] <hidden from users>",
+					"[+15]% Production when constructing [Pyramid] buildings [in all cities] <hidden from users>",
+					"[+15]% Production when constructing [Academy of Magic] buildings [in all cities] <hidden from users>",
+					"[+15]% Production when constructing [Public School] buildings [in all cities] <hidden from users>",
+					"Comment [+15% Production when constructing buildings required for National Wonder]"
+				],
+				"requires": ["Centralization"],
 				"row": 2,
 				"column": 5
 			},
 			{
+				"name": "Burghers",
+				"uniques": ["[+1 Happiness, +2 Culture] [in all cities with a garrison]"],
+				"requires": ["Monarchy"],
+				"row": 3,
+				"column": 3
+			},
+			{
 				"name": "Tradition Complete",
 				"uniques": [
-					"[+15]% growth [in all cities]", 
-					"Provides a [Aqueduct] in your first [4] cities for free",
+					"[+15]% growth [in all cities]",
 					"[-10]% Culture cost of natural border growth [in all cities]"
 				]
 			}
 		]
 	},
 	{
-		"name": "Liberty",
+		"name": "Consolidation",
 		"era": "Archaic age",
 		"priorities": {
 			"Neutral": 5,
@@ -76,52 +90,62 @@
 		},
 		"uniques": [
 			"[+1 Culture] from every [Monument]",
+			"[+1 Happiness] [in capital]",
 			"Comment [Unlocks [Dwuiltunad]]"
 		],
 		"policies": [
 			{
-				"name": "Republic",
-				"uniques": ["[+1 Production] [in all cities]", 
-							"[+5]% Production when constructing [All] buildings [in all cities]"],
+				"name": "Adaptation",
+				"uniques": ["[+1 Food, +1 Production] [in all cities]"],
 				"row": 1,
-				"column": 1
-			},
-			{
-				"name": "Citizenship",
-				"uniques": ["[-25]% construction time for [All] improvements", 
-							"Free [Worker] appears"],
-				"row": 1,
-				"column": 4
+				"column": 3
 			},
 			{
 				"name": "Collective Rule",
-				"uniques": ["[+50]% Production when constructing [Settler] units [in capital]", 
-							"Free [Settler] appears"],
-				"requires": ["Republic"],
+				"uniques": [
+					"[+50]% Production when constructing [Settler] units [in capital]",
+					"Free [Settler] appears"
+				],
+				"requires": ["Adaptation"],
 				"row": 2,
 				"column": 1
 			},
 			{
-				"name": "Representation",
-				"uniques": ["Each city founded increases culture cost of policies [33]% less than normal", 
-							"Empire enters golden age"],
-				"requires": ["Citizenship"],
+				"name": "Meritocracy",
+				"uniques": [
+					"[+1 Happiness] [in all cities connected to capital]",
+					"[-5]% Unhappiness from [Population] [in all non-occupied cities]"
+				],
+				"requires": ["Adaptation"],
 				"row": 2,
 				"column": 3
 			},
 			{
-				"name": "Meritocracy",
-				"uniques": ["[+1 Happiness] [in all cities connected to capital]", 
-							"[-5]% Unhappiness from [Population] [in all non-occupied cities]"],
-				"requires": ["Citizenship"],
+				"name": "State Workforce",
+				"uniques": [
+					"Can build [all] improvements at a [+25]% rate",
+					"Free [Worker] appears",
+					"[-50]% weight to this choice for AI decisions"
+				],
+				"requires": ["Adaptation"],
 				"row": 2,
 				"column": 5
 			},
 			{
-				"name": "Liberty Complete",
+				"name": "Representation",
+				"uniques": [
+					"Each city founded increases culture cost of policies [33]% less than normal",
+					"Empire enters golden age"
+				],
+				"requires": ["Meritocracy"],
+				"row": 3,
+				"column": 3
+			},
+			{
+				"name": "Consolidation Complete",
 				"uniques": [
 					"Free Great Person",
-					"[+15]% Production when constructing [Monument] buildings [in all cities]",
+					"[+15]% Production when constructing [Monument] buildings [in all cities]", 
 					"[+33]% Production when constructing [National Epic] wonders [in all cities]",
 					"[+15]% Production when constructing [Colosseum] buildings [in all cities]",
 					"[+33]% Production when constructing [The Great Colosseum] wonders [in all cities]"
@@ -142,6 +166,7 @@
 		"uniques": [
 			"[+33]% Strength <vs [Barbarian] units>",
 			"Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]",
+			"[+1 Happiness] [in capital]",
 			"Comment [Unlocks [Bubrah Tikus]]"
 		],
 		"policies": [

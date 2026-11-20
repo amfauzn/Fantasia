@@ -827,37 +827,6 @@
 		"civilopediaText": [
 			{"text":"Porcelain available when you allied with Tonthon."}
 		]
-	},
-	
-	
-	// Will be removed
-	{
-		"name": "Gu",
-		"resourceType": "Luxury",
-		"production": 1,
-		"improvement": "Camp",
-		"improvementStats": {"gold": 1, "happiness": 1},
-		"uniques": ["Excluded from map editor","Doesn't generate naturally",
-			"Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "Vampiric Block",
-		"resourceType": "Strategic",
-		"uniques": ["Excluded from map editor","Not shown on world screen", 
-					"Cannot be traded", 
-					"Will not be displayed in Civilopedia",
-					"Doesn't generate naturally <in [Tundra] tiles>"]
-	},
-	{
-		"name": "Portal Limiter",
-		"resourceType": "Strategic",
-		"uniques": [
-			"Stockpiled",
-			"Cannot be traded",
-			"Excluded from map editor",
-			"Not shown on world screen"
-			"Will not be displayed in Civilopedia"
-		]
-	},
+	}
 	
 ]

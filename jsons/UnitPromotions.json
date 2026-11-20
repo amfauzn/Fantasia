@@ -265,9 +265,9 @@
 	},
 	{
 		"name": "Indirect Fire",
-		"prerequisites": ["Cover","Entrenched Position"],
+		"prerequisites": ["Cover","Entrenched Position","Observation","Targeting"],
 		"uniques": ["Ranged attacks may be performed over obstacles"],
-		"unitTypes": ["Archery","Ranged Gunpowder","Siege"]
+		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water"]
 	},
 	{
 		"name": "Crew Weapons",
@@ -1381,7 +1381,7 @@
 	{
 		"name": "Extended Range",
 		"prerequisites": [
-			"Volley","Indirect Fire","Magic Missile","Restoration","Observation","Targeting","Weakpoint Exploitation","Water Veteran"
+			"Volley","Indirect Fire","Magic Missile","Restoration","Navigator","Bombardment","Weakpoint Exploitation","Water Veteran"
 		],
 		"uniques": [
 			"[+1] Range",
@@ -1668,99 +1668,6 @@
 		"uniques": ["[This Unit] upgrades for free including special upgrades"],
 		"unitTypes": ["Sword","Gunpowder"]
 	},*/
-	
-	// Will be removed
-	{
-		"name": "Water of Life", // only for Units that have been close to Natural Wonder Fountain of Youth
-		"uniques": ["[+15] HP when healing","Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "Ranger",
-		"uniques": ["[+1] Movement <in [Forest] tiles>", 
-					"[+1] Movement <in [Jungle] tiles>","Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "Scouting",
-		"uniques": ["[+1] Sight","Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "Guerrilla",
-		"uniques": ["Can move after attacking","Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "Schiltron",
-		"uniques": ["[+25]% Strength <vs [Land] units>","Will not be displayed in Civilopedia"],
-	},
-	{
-		"name": "Owl's Eye",
-		"uniques": [
-			"[+1] Sight",
-			"[+1] Range","Will not be displayed in Civilopedia"
-		],
-	},
-	{
-		"name": "Precision",
-		"uniques": ["[+20]% Strength <when fighting in [Open terrain] tiles>","Will not be displayed in Civilopedia"],
-	},
-	{
-		"name": "Burst Attack",
-		"uniques": ["[+20]% Strength <when fighting in [Rough terrain] tiles>","Will not be displayed in Civilopedia"],
-	},
-	{
-		"name": "Sapping",
-		"uniques": ["[+25]% Strength <vs cities>", 
-					"No movement cost to pillage","Will not be displayed in Civilopedia"],
-	},
-	{
-		"name": "Flare",
-		"uniques": ["[+1] Sight", 
-					"Ranged attacks may be performed over obstacles","Will not be displayed in Civilopedia"],
-	},
-	{
-		"name": "Forward Observers",
-		"uniques": ["[+1] Range","Will not be displayed in Civilopedia"],
-	},
-	{
-		"name": "Pet Command",
-		"uniques": ["[+15]% Strength bonus for [Monster] units within [2] tiles","Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "Helmsman",
-		"uniques": ["[+1] Movement","Will not be displayed in Civilopedia"],
-	},
-	{
-		"name": "Green Water Navy",
-		"uniques": ["[+15]% Strength <in [Coast] tiles>", 
-					"[+25]% Strength <when fighting in [Atoll] tiles>","Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "Double Armor Plating",
-		"uniques": ["[+25]% Strength <when defending>","Will not be displayed in Civilopedia"],
-	},
-	{
-		"name": "Coincidence Rangefinding",
-		"uniques": ["[+1] Range","Will not be displayed in Civilopedia"],
-	},
-	{
-		"name": "Blockade Runner",
-		"uniques": ["[+1] Movement","Will not be displayed in Civilopedia"],
-	},
-	{
-		"name": "Homing Torpedoes",
-		"uniques": ["[+25]% Strength <when attacking>","Will not be displayed in Civilopedia"],
-	},
-	{
-		"name": "Titanium Scale",
-		"uniques": ["[+25]% Strength <when defending>","Will not be displayed in Civilopedia"],
-	},
-	{
-		"name": "Great Generals II",
-		"uniques": ["[Great General] is earned [100]% faster","Will not be displayed in Civilopedia"]
-	},
-	{
-		"name": "Beast Hunter",
-		"uniques": ["Gain [50] [Gold] <upon defeating a [Monster] unit>","Will not be displayed in Civilopedia"]
-	},
 	
 	/*{
 		"name": "Life Treasure", // Tianwu
